@@ -17,17 +17,23 @@
   ],
   "evidence": [
     "verification/records/revenant-archer-swordsman.json",
-    "node --test scripts/revenant-contract.test.mjs"
+    "node --test scripts/revenant-contract.test.mjs",
+    "GitHub Actions run 38085898915 passed repository/full fixtures and ordinary-input offline browser checks",
+    "Candidate artifact 11681692775 ZIP SHA-256 99fb1994b7cd69fa22c4d28daaeefd9da537f3456d20ca9e4038e210e8b13fcd",
+    "Browser evidence artifact 11681777609 ZIP SHA-256 7da4122d33d183fbff2fafe17f58b570c585260ce1e742dc2e79cecf52a4549d"
   ],
   "dependencies": [
     "master-development d7fe81f8c2a7e486f67b79710af259ee35785b25"
   ],
   "masterDelivery": {
-    "status": "pending",
-    "branch": "m3/revenant-archer-swordsman"
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/13#issuecomment-6102146533"
   },
   "masterReview": {
-    "status": "pending"
+    "status": "passed",
+    "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "artifactSha256": "0ee6fb96515a9da8a6994d8197ce768eed52df09ef61c3f7c35c77a38852a2f4",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/13#issuecomment-6102146533"
   },
   "releaseStatus": "implementation-checkpoint-not-acceptance"
 }
