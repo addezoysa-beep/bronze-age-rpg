@@ -14,9 +14,17 @@
   "evidence": [
     "verification/records/pack-concurrency-checkpoint.json",
     "node --test scripts/pack-concurrency.test.mjs",
-    "Offline browser candidate verification pending on pull request"
+    "GitHub Actions run 38072355664 passed repository/full fixtures and ordinary-input offline browser checks"
   ],
-  "masterDelivery": {"status": "pending", "evidence": ""},
-  "masterReview": {"status": "pending", "buildSha256": "", "evidence": ""},
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/11#issuecomment-6100407281"
+  },
+  "masterReview": {
+    "status": "passed",
+    "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "artifactSha256": "2c2bbd1e92d9df18d1542147dfc02efaf766fe1c4dbe5b59e24213069a398e1f",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/11#issuecomment-6100407281"
+  },
   "releaseStatus": "implementation-checkpoint-not-acceptance"
 }
