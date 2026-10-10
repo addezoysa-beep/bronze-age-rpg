@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-10",
+  "baseline": {
+    "path": "index.html",
+    "bytes": 37815418,
+    "sha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "sourceCommit": "b70fa4b6cb792d79de8dffca024ce85a6e07bef5"
+  },
+  "observations": {
+    "committedAttackerCap": 2,
+    "requiredSimultaneousAttackers": {
+      "minimum": 8,
+      "maximum": 10
+    },
+    "factionRegistry": [
+      "labyrinth",
+      "retainers",
+      "oathkeepers",
+      "deserters"
+    ],
+    "equipmentArchetypes": [
+      "spear",
+      "sword",
+      "axe",
+      "greatsword",
+      "bow",
+      "sling"
+    ],
+    "allRegisteredFactionSitesUseBothSixArchetypeRotations": true,
+    "distinctAiAndAnimationPerArchetypeVerified": false
+  },
+  "disposition": "known-gap-not-acceptance",
+  "notes": [
+    "packRole29 caps the attack role at min(2, ceil(packSize/2)); remaining members encircle.",
+    "Equipment variety is present, but this static audit does not establish distinct AI and animation behavior for every archetype.",
+    "No milestone is accepted by this record."
+  ]
+}
