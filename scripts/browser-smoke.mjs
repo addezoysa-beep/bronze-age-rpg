@@ -30,7 +30,7 @@ try {
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
   check('build-title', /Build 59/.test(await page.title()), await page.title());
   await page.locator('#bnew').click();
-  await page.locator('#new-voyage30, [data-new]').first().click();
+  await page.locator('#new-voyage30, [data-new]').first().click({ noWaitAfter: true });
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 60000 });
   for (let i = 0; i < 5; i++) {
     if (await page.evaluate(() => STATE === 'play')) break;
@@ -84,7 +84,7 @@ try {
   await page.reload({ waitUntil: 'load' });
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
   await page.locator('#bnew').click();
-  await page.locator(`[data-load="${saved.slot}"]`).click();
+  await page.locator(`[data-load="${saved.slot}"]`).click({ noWaitAfter: true });
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 60000 });
   const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1, { saved: saved.data.pos, restored });
