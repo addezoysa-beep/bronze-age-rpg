@@ -10,9 +10,9 @@
     {
       "id": "M0", "title": "Baseline and verification", "priority": "P0", "dependsOn": [], "status": "in_progress",
       "sourceEvidence": ["baseline/build-59.json"],
-      "tests": [{"id":"BASE-01","status":"passed","buildSha256":"14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177","method":"SHA-256 and byte-count comparison with imported candidate; compile three inline classic scripts; validate tracker and update records","evidence":"verification/records/baseline-static.json","reviewer":"Oversight repository verification"},{"id":"BASE-02","status":"pending"},{"id":"BASE-03","status":"pending"}],
-      "blockers": ["Hardware performance baseline and original discussion reconciliation pending"],
-      "nextAction": "Confirm import, offline startup, movement/save, source history and master checkout access"
+      "tests": [{"id":"BASE-01","status":"passed","buildSha256":"14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177","method":"SHA-256 and byte-count comparison with imported candidate; compile three inline classic scripts; validate tracker and update records","evidence":"verification/records/baseline-static.json","reviewer":"Oversight repository verification"},{"id":"BASE-02","status":"failed","buildSha256":"14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177","method":"Offline Edge 154 at 1365x768: rendered scene and movement passed; Save button pointer intercepted by data-newguide paragraph; save/reload unrun","evidence":"verification/records/baseline-browser.json","reviewer":"Oversight browser test and screenshot inspection"},{"id":"BASE-03","status":"pending"}],
+      "blockers": ["Pause-menu Save button covered by data-newguide paragraph", "Reference-device performance baseline and full original discussion reconciliation pending"],
+      "nextAction": "Master fixes the obstructed Save control and verifies save/reload, then completes hardware/history baseline"
     },
     {
       "id": "M1", "title": "Combat and audio foundations", "priority": "P1", "dependsOn": ["M0"], "status": "code_inspected",

@@ -10,6 +10,7 @@ const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: g
   recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload only. Does not accept a milestone.',
   environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [] };
 let browser;
+let page;
 const check = (name, passed, detail) => {
   report.checks.push({ name, passed, detail });
   if (!passed) throw new Error(`${name}: ${JSON.stringify(detail)}`);
@@ -21,7 +22,7 @@ try {
   browser = await chromium.launch({ headless: true, executablePath: process.env.PLAYWRIGHT_EXECUTABLE_PATH });
   report.environment.browser = await browser.version();
   const context = await browser.newContext({ viewport: { width: 1365, height: 768 }, offline: true });
-  const page = await context.newPage();
+  page = await context.newPage();
   page.on('pageerror', error => report.pageErrors.push(error.message));
   page.on('request', request => { if (/^https?:/.test(request.url())) report.externalRequests.push(request.url()); });
   const start = performance.now();
@@ -29,7 +30,7 @@ try {
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
   check('build-title', /Build 59/.test(await page.title()), await page.title());
   await page.locator('#bnew').click();
-  await page.locator('#new-voyage30').click();
+  await page.locator('#new-voyage30, [data-new]').first().click();
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 60000 });
   for (let i = 0; i < 5; i++) {
     if (await page.evaluate(() => STATE === 'play')) break;
@@ -74,7 +75,14 @@ try {
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
   check('offline-resources', report.externalRequests.length === 0, report.externalRequests);
   report.status = 'passed';
-} catch (error) { report.error = error.message; process.exitCode = 1; }
+} catch (error) {
+  report.error = error.message;
+  process.exitCode = 1;
+  if (page && !page.isClosed()) {
+    await page.screenshot({ path: resolve(output, 'failure-scene.png') }).catch(() => {});
+    report.visibleControls = await page.locator('button:visible').allTextContents().catch(() => []);
+  }
+}
 finally {
   await browser?.close();
   writeFileSync(resolve(output, 'browser-smoke.json'), `${JSON.stringify(report, null, 2)}\n`);
