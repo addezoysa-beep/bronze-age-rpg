@@ -1,0 +1,29 @@
+{
+  "id": "encounter-faction-gap-audit",
+  "createdOn": "2026-10-10",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "milestoneIds": [
+    "M3"
+  ],
+  "summary": "Exact-hash source audit documents that Build59 commits at most two pack attackers, below the required eight-to-ten, while four registered factions each draw from six equipment archetypes. Distinct AI and animation behavior per archetype remains unverified.",
+  "changedFiles": [
+    "scripts/encounter-faction-gap.test.mjs",
+    "verification/records/encounter-faction-gap-audit.json",
+    "tracking/updates/encounter-faction-gap-audit.json"
+  ],
+  "evidence": [
+    "node scripts/encounter-faction-gap.test.mjs",
+    "verification/records/encounter-faction-gap-audit.json"
+  ],
+  "dependencies": [
+    "PR #7 m1/additional-score-audit"
+  ],
+  "masterDelivery": {
+    "branch": "master-development",
+    "delivered": false
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "known-gap-not-acceptance"
+}
