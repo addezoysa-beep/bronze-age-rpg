@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/verify.mjs
-      - run: node --test scripts/workflow.test.mjs
+      - run: node --test scripts/*.test.mjs
       - name: Main milestone gate
         if: github.event_name == 'pull_request' && github.base_ref == 'main'
         run: node scripts/main-check.mjs
