@@ -19,8 +19,8 @@
     "PR #7 m1/additional-score-audit"
   ],
   "masterDelivery": {
-    "branch": "master-development",
-    "delivered": false
+    "status": "pending",
+    "branch": "master-development"
   },
   "masterReview": {
     "status": "pending"
