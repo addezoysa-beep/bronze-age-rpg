@@ -17,13 +17,20 @@
   "evidence": [
     "verification/records/kobaloi-alert-contract.json",
     "node --test scripts/kobaloi-alert.test.mjs",
-    "Initial GitHub Actions run 38076675215 exposed and rejected a stale exact-byte assertion; corrected without changing generated candidate bytes"
+    "Initial GitHub Actions run 38076675215 exposed and rejected a stale exact-byte assertion; corrected without changing generated candidate bytes",
+    "GitHub Actions run 38076734743 passed repository/full fixtures and ordinary-input offline browser checks",
+    "Candidate artifact 11678566531 ZIP SHA-256 a737882cbd91d476e1f3d2f41de2d5196dfa7dfcd1c90d035fa67bd829b2c4ba",
+    "Browser evidence artifact 11678966196 ZIP SHA-256 d0670027e2a13051f9d65383e3587a6e655d6ae31464f346889294b0792023ab"
   ],
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/12#issuecomment-6100938512"
   },
   "masterReview": {
-    "status": "pending"
+    "status": "passed",
+    "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "artifactSha256": "c7e84e5b50fcd56e30a18483f9cf9c9cb7560e96ceabf48379c81f792bee6477",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/12#issuecomment-6100938512"
   },
   "releaseStatus": "implementation-checkpoint-not-acceptance"
 }
