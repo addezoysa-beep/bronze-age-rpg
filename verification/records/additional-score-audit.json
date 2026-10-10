@@ -1,0 +1,30 @@
+{
+  "checkpoint": "M1-AUDIO-ADDITIONAL-SCORES-SOURCE-AUDIT",
+  "status": "source-fixture-passed-runtime-listening-pending",
+  "build": {
+    "title": "Wine-Dark Sea — Build 59",
+    "bytes": 37815418,
+    "sha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177"
+  },
+  "confirmed": {
+    "assetCount": 5,
+    "routing": {"exploration": 3, "combat": 2},
+    "format": "mp3",
+    "decodedDurationSecondsEach": 120.002,
+    "decodeTool": "ffmpeg",
+    "assets": [
+      {"key":"music54_0","bytes":840573,"sha256":"fe00a3b803098613411f10b403e0e51e9e55e0a723193829460f9d1018d88ca0"},
+      {"key":"music54_1","bytes":840573,"sha256":"952dfa941040b48cd115697fc048f5704609f11f71e4161b5b92cec81e7ed267"},
+      {"key":"music54_2","bytes":840573,"sha256":"161294d9325ca70a5dcbac3c31f9b368cb18eade81f495bbf6f900fca5e663a2"},
+      {"key":"music54_3","bytes":840573,"sha256":"360c9313db22f9ae783fd277a309a7806e30dc2a85f5bab548187bbf7b9f2e5f"},
+      {"key":"music54_4","bytes":840573,"sha256":"b2dddc88462b7722428da805b1dd025cdd538d8e203b39d46fb284c54f98c6d5"}
+    ]
+  },
+  "notAccepted": [
+    "audible quality and historical fit",
+    "runtime score selection and transitions",
+    "volume balance, looping, and interruption behavior",
+    "full M1 milestone"
+  ],
+  "notes": "All five blobs decoded without ffmpeg errors during the independent audit. Executable repository tests verify exact source hash, count, uniqueness, MP3 headers, sizes, and 3/2 routing. This is evidence, not milestone acceptance."
+}
