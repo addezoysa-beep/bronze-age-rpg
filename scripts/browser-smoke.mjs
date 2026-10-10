@@ -70,6 +70,13 @@ try {
   });
   check('pause-guide-layout', guideLayout.insidePanel && guideLayout.overlayParagraphs === 0, guideLayout);
   await page.screenshot({ path: resolve(output, 'pause-scene.png') });
+  await page.waitForFunction(() => document.pointerLockElement === null);
+  const saveHit = await page.locator('#psave').evaluate(button => {
+    const r = button.getBoundingClientRect();
+    const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
+    return { target: hit?.id || hit?.tagName, reachable: hit === button || button.contains(hit), pointerLocked: Boolean(document.pointerLockElement) };
+  });
+  check('pause-save-hit-target', saveHit.reachable && !saveHit.pointerLocked, saveHit);
   await page.locator('#psave').click();
   const saved = await page.evaluate(() => {
     const raw = localStorage.getItem(slotKey(SAVE_SLOT));
