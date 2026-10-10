@@ -6,7 +6,7 @@ const source=readFileSync(new URL('../index.html',import.meta.url),'utf8');
 function kobFixture(phase,extra={}) {
  const code=source.match(/function kobFight26\(e,dt,d\)\{[\s\S]*?\n\}/)?.[0];
  assert.ok(code,'Original Kobalos action function remains inspectable');
- const hits=[],e={name:'fixture',home:{x:0},x:0,z:0,y:0,yaw:0,kob26:{phase,t:0,cd:0,count:1,side:1,index:0,move:{wind:.3,reach:2.5,damage:9,recover:.6},...extra}};
+ const hits=[],e={name:'fixture',home:{x:0},x:0,z:0,y:0,yaw:0,kob26:{phase,t:0,cd:0,count:1,side:1,index:0,yaw:0,move:{wind:.3,reach:2.5,damage:9,recover:.6},...extra}};
  const ctx=createContext({P:{x:0,z:2,y:0,melee:null},T_NOW:10,Math,
  clamp:(v,a,b)=>Math.min(b,Math.max(a,v)),angDiff:(a,b)=>a-b,
  kobMove26:()=>{},enemySightLine:()=>true,startEvade26:()=>false,
