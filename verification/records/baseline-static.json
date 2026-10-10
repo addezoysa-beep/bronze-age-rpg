@@ -1,0 +1,11 @@
+{
+  "test": "BASE-01",
+  "status": "passed",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "recordedAt": "2026-10-10T05:11:40.196Z",
+  "inlineScripts": 3,
+  "bytes": 37815418,
+  "baselineUnchanged": true,
+  "workflowTestsPassed": 8,
+  "scope": "Preserved bytes, JavaScript syntax, tracker integrity and verification workflow tests. No runtime, performance or milestone acceptance claim."
+}

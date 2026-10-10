@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ "$(git branch --show-current)" = "main" ]; then
+  if [ -z "$RELEASE_UPDATE" ]; then
+    echo "Set RELEASE_UPDATE to the reviewed update record before merging into main." >&2
+    exit 1
+  fi
+  "${NODE_BIN:-node}" scripts/release-gate.mjs "$RELEASE_UPDATE" || exit 1
+  exec "${NODE_BIN:-node}" scripts/pre-commit.mjs --reviewed-merge
+fi
+exec "${NODE_BIN:-node}" scripts/pre-commit.mjs

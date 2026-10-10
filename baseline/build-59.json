@@ -1,0 +1,25 @@
+{
+  "build": 59,
+  "label": "ODYSSEY LIX - Hands and Motion",
+  "candidate": true,
+  "importedOn": "2026-10-10",
+  "sourceFilename": "Wine-Dark-Sea-Offline (1).html",
+  "sourceModifiedLocal": "2026-10-09 22:02 America/New_York",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "sourceBytes": 37815418,
+  "importedPath": "index.html",
+  "importPolicy": "Verbatim import; no game behavior changes during repository setup.",
+  "workingStatus": "awaiting runtime and milestone acceptance tests",
+  "originalConversationRecovery": "Five milestone scopes recovered from DEVELOPMENT53. Latest Game Movement Overhaul turns recovered: five further soundtracks, anatomical hands/grips, arm sway/torso lean, bottom bar cleanup. Older definitions and Progress visibility history still rate limited.",
+  "sourceEvidence": [
+    { "area": "Build marker", "line": 6576, "symbol": "document.title", "observation": "Final title sets Build 59." },
+    { "area": "Original five milestones", "line": 6234, "symbol": "DEVELOPMENT53", "observation": "Embedded five-milestone plan; later overrides update self-reported progress." },
+    { "area": "Humanoid alerts", "line": 3970, "symbol": "assignHorns20 / hornTick20", "observation": "Humanoid camp horn alerts exist; not evidence of kobaloi coordinated alerts." },
+    { "area": "Feints", "line": 3173, "symbol": "_feintChecked", "observation": "Decision and evade code exists; animation/damage timing remains unverified." },
+    { "area": "Kobaloi", "line": 4576, "symbol": "KOB_MOVES26 / kobFight26", "observation": "Feint, dodge, windup, strike and recovery code; coordinated alert acceptance pending." },
+    { "area": "Revenants", "line": 5384, "symbol": "ED.revenant36", "observation": "Revenant base and tomb spawning; bow/sword variants possible through later faction archetype wrapper." },
+    { "area": "Factions and loadouts", "line": 6440, "symbol": "FACTIONS56 / ARCHETYPES56 / spawnFaction56", "observation": "Four named factions and six equipment archetypes are defined. This does not establish encounters of 8-10 enemies." },
+    { "area": "Exploration", "line": 6447, "symbol": "LEGENDARY56 / HIDEOUTS56", "observation": "Eight legendary sites and twelve hideout definitions; reachability/clearability pending." }
+  ]
+}
+
