@@ -1,0 +1,11 @@
+{
+  "test": "m1-isolated-action-contracts",
+  "status": "passed",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "method": "GitHub Actions Node22 executes actual extracted Kobalos base action and anatomical hand function; four fixtures plus eight workflow tests",
+  "evidenceUrl": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38028311979",
+  "jobId": 114143767572,
+  "passed": 12,
+  "failed": 0,
+  "scope": "Base-function unit evidence only; final override chains, visuals, collision and full AI pending"
+}
