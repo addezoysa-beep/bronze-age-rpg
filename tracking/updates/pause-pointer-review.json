@@ -1,0 +1,29 @@
+{
+  "id": "pause-pointer-review",
+  "createdOn": "2026-10-10",
+  "buildSha256": "70c78a7e562987a95c357aaeb58d4b0e17561161076db2a7f47b59d9dcbc1435",
+  "milestoneIds": [
+    "M0",
+    "M1"
+  ],
+  "summary": "Reviewed exact-hash Save failure, published normal-input diagnostics and read-only candidate testing; isolated M1 fixtures pass; no milestone acceptance.",
+  "changedFiles": [
+    "scripts/browser-smoke.mjs",
+    "scripts/prepare-pause-pointer-candidate.mjs",
+    ".github/workflows/pause-pointer-candidate.yml",
+    "docs/PAUSE_POINTER_REVIEW_2026-10-10.md"
+  ],
+  "evidence": [
+    "docs/PAUSE_POINTER_REVIEW_2026-10-10.md"
+  ],
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "Produced in designated Master Development workstream"
+  },
+  "masterReview": {
+    "status": "pending",
+    "buildSha256": null,
+    "evidence": null
+  },
+  "releaseStatus": "candidate"
+}
