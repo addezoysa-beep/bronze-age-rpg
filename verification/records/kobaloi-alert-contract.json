@@ -18,5 +18,22 @@
     "Rendered sound/animation readability and dungeon propagation remain pending",
     "Large-pack navigation and performance remain pending"
   ],
-  "command": "node --test scripts/kobaloi-alert.test.mjs"
+  "command": "node --test scripts/kobaloi-alert.test.mjs",
+  "runtimeRegression": {
+    "status": "passed",
+    "runId": 38076734743,
+    "headSha": "2027aab04d094b1e011f98c23f45472c0ea28513",
+    "buildSha256": "c7e84e5b50fcd56e30a18483f9cf9c9cb7560e96ceabf48379c81f792bee6477",
+    "checks": [
+      "offline startup",
+      "nonblank canvas",
+      "keyboard movement",
+      "ordinary visible Save click",
+      "identical-position reload",
+      "no page errors",
+      "no external requests"
+    ],
+    "candidateArtifactId": 11678566531,
+    "evidenceArtifactId": 11678966196
+  }
 }
