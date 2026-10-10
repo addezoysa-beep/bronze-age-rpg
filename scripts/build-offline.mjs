@@ -34,7 +34,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   const output = buildOffline(source);
   const directory = resolve(root, 'dist');
   mkdirSync(directory, { recursive: true });
-  writeFileSync(resolve(directory, 'Wine-Dark-Sea-Group-Combat.html'), output);
+  writeFileSync(resolve(directory, 'Wine-Dark-Sea-Save-Fix.html'), output);
   writeFileSync(resolve(directory, 'build-manifest.json'), JSON.stringify({
     sourceSha256: sourceHash, buildSha256: candidateHash, bytes: output.length,
     candidateOnly: true,
