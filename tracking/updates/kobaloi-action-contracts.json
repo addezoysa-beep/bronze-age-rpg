@@ -1,0 +1,26 @@
+{
+  "id": "kobaloi-action-contracts",
+  "createdOn": "2026-10-10",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5207ee4a75ae228a6031a35042a5c7cf4dad76af94d4cdb4722708af017c87ba",
+  "milestoneIds": [
+    "M1"
+  ],
+  "summary": "Six executable source fixtures run final Kobaloi base/crawl/pack/dread call chain against the generated pause-fixed candidate. Verify canceled feints and bounded claw/crawl/leap damage contracts. World perception, navigation and pack scheduling are stubbed; gameplay/visual acceptance remains pending.",
+  "changedFiles": [
+    "scripts/kobaloi-action.test.mjs",
+    "verification/records/kobaloi-action-contracts.json",
+    "tracking/updates/kobaloi-action-contracts.json"
+  ],
+  "evidence": [
+    "verification/records/kobaloi-action-contracts.json",
+    "node --test scripts/kobaloi-action.test.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "source-fixtures-not-acceptance"
+}
