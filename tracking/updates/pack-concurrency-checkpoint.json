@@ -1,0 +1,22 @@
+{
+  "id": "pack-concurrency-checkpoint",
+  "createdOn": "2026-10-10",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "2c2bbd1e92d9df18d1542147dfc02efaf766fe1c4dbe5b59e24213069a398e1f",
+  "milestoneIds": ["M3"],
+  "summary": "Production candidate replaces the two-attacker pack ceiling with a ten-attacker ceiling. Deterministic source fixtures prove 8 and 10 Kobaloi are simultaneously attack-capable while a 12-actor pack retains two relief actors. Full rendered GROUP-01, mixed loadouts, navigation and performance remain pending.",
+  "changedFiles": [
+    "scripts/build-offline.mjs",
+    "scripts/pack-concurrency.test.mjs",
+    "verification/records/pack-concurrency-checkpoint.json",
+    "tracking/updates/pack-concurrency-checkpoint.json"
+  ],
+  "evidence": [
+    "verification/records/pack-concurrency-checkpoint.json",
+    "node --test scripts/pack-concurrency.test.mjs",
+    "Offline browser candidate verification pending on pull request"
+  ],
+  "masterDelivery": {"status": "pending", "evidence": ""},
+  "masterReview": {"status": "pending", "buildSha256": "", "evidence": ""},
+  "releaseStatus": "implementation-checkpoint-not-acceptance"
+}
