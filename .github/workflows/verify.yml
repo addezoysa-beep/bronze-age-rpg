@@ -4,10 +4,14 @@ on:
     branches: [main, master-development, 'm*/**']
   pull_request:
   workflow_dispatch:
+concurrency:
+  group: verify-${{ github.event.pull_request.head.ref || github.ref_name }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
   repository:
+    timeout-minutes: 10
     name: Repository checks
     runs-on: ubuntu-latest
     steps:
@@ -16,11 +20,13 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/verify.mjs
+      - run: node scripts/build-offline.mjs
       - run: node --test scripts/*.test.mjs
       - name: Main milestone gate
         if: github.event_name == 'pull_request' && github.base_ref == 'main'
         run: node scripts/main-check.mjs
   browser:
+    timeout-minutes: 15
     name: Offline browser smoke
     runs-on: ubuntu-latest
     steps:
@@ -30,7 +36,16 @@ jobs:
           node-version: '22'
       - run: npm install --ignore-scripts
       - run: npx playwright install --with-deps chromium
-      - run: node scripts/browser-smoke.mjs
+      - run: node scripts/build-offline.mjs
+      - run: node scripts/browser-candidate-smoke.mjs
+        env:
+          WDS_SMOKE_PRESET: verylow
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: pause-fixed-offline-candidate
+          path: dist/
+          if-no-files-found: error
       - uses: actions/upload-artifact@v4
         if: always()
         with:
