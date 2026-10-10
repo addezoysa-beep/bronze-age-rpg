@@ -5,12 +5,12 @@ import { resolve } from 'node:path';
 import { root, sha256 } from './workflow.mjs';
 import { buildOffline, sourceHash, candidateHash } from './build-offline.mjs';
 
-test('reproduce the exact reviewed pause-fixed standalone HTML', () => {
+test('reproduce the exact reviewed production candidate', () => {
   const source = readFileSync(resolve(root, 'index.html'));
   const result = buildOffline(source);
   assert.equal(sha256(source), sourceHash);
   assert.equal(sha256(result), candidateHash);
-  assert.equal(result.length, 37815543);
+  assert.equal(result.length, 37815567);
   assert.equal(sha256(readFileSync(resolve(root, 'index.html'))), sourceHash);
 });
 
