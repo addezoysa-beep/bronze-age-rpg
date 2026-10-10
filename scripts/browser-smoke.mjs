@@ -59,6 +59,12 @@ try {
   const after = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('movement', Number.isFinite(after.x + after.z) && Math.hypot(after.x - before.x, after.z - before.z) > 0.1, { before, after });
   await page.keyboard.press('Escape');
+  const guideLayout = await page.evaluate(() => {
+    const guide = document.querySelector('#pause [data-newguide]');
+    return { insidePanel: Boolean(guide?.closest('#pause .win .bd')), overlayParagraphs: document.querySelectorAll('#pause > p').length };
+  });
+  check('pause-guide-layout', guideLayout.insidePanel && guideLayout.overlayParagraphs === 0, guideLayout);
+  await page.screenshot({ path: resolve(output, 'pause-scene.png') });
   await page.locator('#psave').click();
   const saved = await page.evaluate(() => {
     const raw = localStorage.getItem(slotKey(SAVE_SLOT));
