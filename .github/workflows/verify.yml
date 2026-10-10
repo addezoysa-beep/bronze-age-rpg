@@ -4,6 +4,9 @@ on:
     branches: [main, master-development, 'm*/**']
   pull_request:
   workflow_dispatch:
+concurrency:
+  group: milestone-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
@@ -21,6 +24,9 @@ jobs:
         if: github.event_name == 'pull_request' && github.base_ref == 'main'
         run: node scripts/main-check.mjs
   browser:
+    timeout-minutes: 15
+    env:
+      WDS_SMOKE_PRESET: verylow
     name: Offline browser smoke
     runs-on: ubuntu-latest
     steps:
