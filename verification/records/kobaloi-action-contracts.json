@@ -1,0 +1,22 @@
+{
+  "test": "kobaloi-final-action-chain",
+  "status": "passed-source-fixtures-only",
+  "buildSha256": "5207ee4a75ae228a6031a35042a5c7cf4dad76af94d4cdb4722708af017c87ba",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "method": "Execute base kobFight26 then final crawl/pack/dread wrappers in VM, with navigation, perception and pack scheduling stubbed",
+  "checks": [
+    "Fifth-attack feint causes no damage",
+    "Three claw attacks: windup, exactly one hit, recovery",
+    "Claw range, facing, height and line-of-sight gates",
+    "Crawl windup and pursuit timeout",
+    "Low strike hit-once and successful-hit-only player slowing",
+    "Dread leap hit-once and recovery"
+  ],
+  "limitations": [
+    "Not full runtime acceptance",
+    "Pack scheduler stubbed; does not verify 8-10 concurrent attackers",
+    "World navigation/perception stubbed",
+    "Visual animation, terrain collision, evasion and coordinated alerts remain pending"
+  ],
+  "command": "node --test scripts/kobaloi-action.test.mjs"
+}
