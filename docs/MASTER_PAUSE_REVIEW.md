@@ -1,0 +1,13 @@
+# Master checkpoint review: pause menu and independent M1 fixtures
+
+PRs #2 and #3 were reviewed and integrated on master-development at 6b4cd7e862d9287ab442eec90a68a0583f38f0ab. The original five scopes were inspected directly in DEVELOPMENT53. The Build59 browser report is valid negative evidence: startup/scene/movement passed; the guide intercepted Save. BASE-02 failed for that hash. Oversight reports visual inspection of the supplied screenshots; Master inspected the JSON and code path.
+
+The guide was appended as a sibling of the .win panel in a flex overlay. The checkpoint changes only that parent to .win .bd, preserving instruction text, Save handlers, and ordinary pointer checks. Revised game SHA256 is 70c78a7e562987a95c357aaeb58d4b0e17561161076db2a7f47b59d9dcbc1435 (37,815,444 bytes). Build59 and main remain preserved. Existing positive test metadata was moved to previousResult; current tests must be rerun.
+
+Cloud source generation and static/workflow verification succeeded in Actions run 38028063976. Its first Chromium attempt dispatched a normal New click but hit Playwright's default 30-second input timeout while waiting after expensive startup. This is not Save verification. The corrected harness allows 180 seconds for input/runtime state readiness on software rendering and keeps normal actionability, guide containment, visible-scene, input movement, manual Save, reload and exact-position checks. Startup timings remain diagnostic, not reference-device performance acceptance.
+
+Independent M1 preparation lives on m1/action-contract-audit: executable fixtures extract actual Kobalos base action and anatomical hand-assignment code. Canceled-feint/no-damage, single damage window, range-abort, and idempotent bow/shield/spear attachment are tested. They do not execute final render/AI override chains or establish FEINT-01, KOB-EVADE-01 or GEAR-01 acceptance. Fixture errors are corrected rather than attributed to the game. Remaining work includes full runtime combat, collision and visual inspection.
+
+Native automation service successfully registered Bronze Age development continuation in this Master Development conversation: hourly, 16 occurrences, enabled, America/New_York. Registration is evidence of scheduling only; next-run metadata was null and no completed scheduled invocation was inspected. GitHub Actions is confirmed to install and execute Chromium remotely. This avoids depending on the local Mac for these CI jobs, but does not promise continuous uninterrupted implementation.
+
+No milestone is accepted. Review current Actions logs/artifacts and exact source hash before integration of this game checkpoint; performance/history gates remain open.
