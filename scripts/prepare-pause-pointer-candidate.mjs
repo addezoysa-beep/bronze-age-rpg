@@ -1,0 +1,15 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+const path='index.html', source=readFileSync(path,'utf8');
+const hash=s=>createHash('sha256').update(s).digest('hex');
+if(hash(source)!=='70c78a7e562987a95c357aaeb58d4b0e17561161076db2a7f47b59d9dcbc1435')throw new Error('Unexpected candidate; refuse stale patch');
+const old="function openPause(){if(STATE!=='play')return;STATE='pause';$('pause').classList.add('on')}";
+const replacement="function openPause(){if(STATE!=='play')return;STATE='pause';$('pause').classList.add('on');try{document.exitPointerLock?.()}catch(_){}mouse.l=mouse.r=false;for(const k in keys)keys[k]=false}";
+if(source.split(old).length!==2)throw new Error('Expected one original pause definition');
+const revised=source.replace(old,replacement);
+writeFileSync(path,revised);
+const report={test:'pause-pointer-release-candidate',beforeSha256:hash(source),buildSha256:hash(revised),method:'Base pause enters paused state then releases pointer lock and clears held inputs; no save bypass. Candidate only, source not integrated.',runtimeStatus:'pending'};
+writeFileSync('verification/records/pause-pointer-candidate.json',JSON.stringify(report,null,2)+'\n');
+const update={id:'pause-pointer-candidate',createdOn:'2026-10-10',buildSha256:hash(revised),milestoneIds:['M0'],summary:'Candidate pause pointer-release fix under read-only CI verification; not integrated.',changedFiles:['index.html'],evidence:['verification/records/pause-pointer-candidate.json'],masterDelivery:{status:'delivered',evidence:'Master Development continuation'},masterReview:{status:'pending',buildSha256:null,evidence:null},releaseStatus:'candidate'};
+writeFileSync('tracking/updates/pause-pointer-candidate.json',JSON.stringify(update,null,2)+'\n');
+console.log(JSON.stringify(report));
