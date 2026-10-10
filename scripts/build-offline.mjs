@@ -2,9 +2,10 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, sha256, compileInlineScripts } from './workflow.mjs';
+import { applyRevenantCheckpoint } from './revenant-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'c7e84e5b50fcd56e30a18483f9cf9c9cb7560e96ceabf48379c81f792bee6477';
+export const candidateHash = '0ee6fb96515a9da8a6994d8197ce768eed52df09ef61c3f7c35c77a38852a2f4';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -40,6 +41,7 @@ export function buildOffline(input) {
     if (html.split(before).length !== 2) throw new Error('Patch requires exactly one source match');
     html = html.replace(before, after);
   }
+  html = applyRevenantCheckpoint(html);
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash');
   compileInlineScripts(html);
@@ -59,7 +61,8 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
       'Pause guide contained in panel',
       'Pause releases pointer lock and input state',
       'Kobaloi and wolf packs permit up to ten committed attackers',
-      'Kobaloi yell alerts nearby eligible packmates with range, line-of-sight, cooldown, and target expiry rules'
+      'Kobaloi yell alerts nearby eligible packmates with range, line-of-sight, cooldown, and target expiry rules',
+      'Tombs guarantee explicit Grave Revenant archer and swordsman roles with weapon-specific combat contracts'
     ],
     milestoneAcceptance: 'pending'
   }, null, 2) + '\n');

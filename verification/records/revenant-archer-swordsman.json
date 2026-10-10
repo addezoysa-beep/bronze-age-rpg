@@ -1,0 +1,21 @@
+{
+  "test": "revenant-archer-swordsman-contract",
+  "status": "passed-source-fixtures-only",
+  "buildSha256": "0ee6fb96515a9da8a6994d8197ce768eed52df09ef61c3f7c35c77a38852a2f4",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "method": "Execute the final production tomb-roster and faction-spawn wrappers in a VM against the exact generated candidate",
+  "checks": [
+    "Eligible tomb grave slots become explicit Oathkeeper bow and sword spawns",
+    "Unrelated tomb spawns remain unchanged",
+    "Both types retain revenant identity",
+    "Archer uses bow behavior, ranged spacing, arrow inventory, and bow visual",
+    "Swordsman uses sword behavior and sword visual",
+    "Generated candidate inline script compiles"
+  ],
+  "limitations": [
+    "Not full REV-01 runtime acceptance",
+    "Rendered awakening, combat completion, damage, loot, tomb navigation, and performance remain pending",
+    "Faction expansion beyond the existing four remains pending"
+  ],
+  "command": "node --test scripts/revenant-contract.test.mjs"
+}
