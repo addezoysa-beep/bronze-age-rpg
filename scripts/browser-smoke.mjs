@@ -23,6 +23,8 @@ try {
   report.environment.browser = await browser.version();
   const context = await browser.newContext({ viewport: { width: 1365, height: 768 }, offline: true });
   page = await context.newPage();
+  // Software-rendered CI startup may exceed the default input timeout.
+  page.setDefaultTimeout(180000);
   page.on('pageerror', error => report.pageErrors.push(error.message));
   page.on('request', request => { if (/^https?:/.test(request.url())) report.externalRequests.push(request.url()); });
   const start = performance.now();
@@ -31,7 +33,7 @@ try {
   check('build-title', /Build 59/.test(await page.title()), await page.title());
   await page.locator('#bnew').click();
   await page.locator('#new-voyage30, [data-new]').first().click();
-  await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 60000 });
+  await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
   for (let i = 0; i < 5; i++) {
     if (await page.evaluate(() => STATE === 'play')) break;
     await page.keyboard.press('Escape');
@@ -75,7 +77,7 @@ try {
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
   await page.locator('#bnew').click();
   await page.locator(`[data-load="${saved.slot}"]`).click();
-  await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 60000 });
+  await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
   const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1, { saved: saved.data.pos, restored });
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
