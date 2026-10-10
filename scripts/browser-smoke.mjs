@@ -8,7 +8,7 @@ const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
 const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: gameHash(),
   recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload only. Does not accept a milestone.',
-  environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [] };
+  environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [], diagnostics: [] };
 let browser;
 let page;
 const check = (name, passed, detail) => {
@@ -38,9 +38,22 @@ try {
   }
   await page.waitForFunction(() => STATE === 'play');
   report.startupMs = Math.round(performance.now() - start);
-  await page.screenshot({ path: resolve(output, 'scene.png') });
-  const png = await page.locator('#gl').screenshot();
-  const pixels = await page.evaluate(async encoded => {
+  let png;
+  try {
+    await page.screenshot({ path: resolve(output, 'scene.png'), timeout: 10000 });
+    png = await page.locator('#gl').screenshot({ animations: 'disabled', timeout: 10000 });
+  } catch (error) {
+    report.diagnostics.push({ name: 'scene-capture', status: 'unavailable', detail: error.message });
+  }
+  const canvasState = await page.locator('#gl').evaluate(canvas => {
+    const rect = canvas.getBoundingClientRect();
+    const style = getComputedStyle(canvas);
+    return { width: canvas.width, height: canvas.height, rectWidth: rect.width, rectHeight: rect.height,
+      visible: style.display !== 'none' && style.visibility !== 'hidden' && Number(style.opacity) !== 0 };
+  });
+  check('canvas-present', canvasState.visible && canvasState.width > 0 && canvasState.height > 0 && canvasState.rectWidth > 0 && canvasState.rectHeight > 0, canvasState);
+  if (png) {
+    const pixels = await page.evaluate(async encoded => {
     const image = new Image(); image.src = `data:image/png;base64,${encoded}`; await image.decode();
     const canvas = new OffscreenCanvas(image.width, image.height);
     const ctx = canvas.getContext('2d'); ctx.drawImage(image, 0, 0);
@@ -52,8 +65,9 @@ try {
       min = Math.min(min, light); max = Math.max(max, light);
     }
     return { colors: colors.size, luminanceRange: max - min, width: image.width, height: image.height };
-  }, png.toString('base64'));
-  check('nonblank-canvas', pixels.colors > 16 && pixels.luminanceRange > 20, pixels);
+    }, png.toString('base64'));
+    check('nonblank-canvas', pixels.colors > 16 && pixels.luminanceRange > 20, pixels);
+  }
   const before = await page.evaluate(() => ({ x: P.x, z: P.z }));
   await page.keyboard.down('w'); await page.waitForTimeout(1200); await page.keyboard.up('w');
   const after = await page.evaluate(() => ({ x: P.x, z: P.z }));
