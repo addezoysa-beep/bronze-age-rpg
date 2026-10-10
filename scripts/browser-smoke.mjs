@@ -45,7 +45,9 @@ try {
   } catch (error) {
     report.diagnostics.push({ name: 'scene-capture', status: 'unavailable', detail: error.message });
   }
-  const canvasState = await page.locator('#gl').evaluate(canvas => {
+  const canvasState = await page.evaluate(() => {
+    const canvas = document.getElementById('gl');
+    if (!canvas) return { width: 0, height: 0, rectWidth: 0, rectHeight: 0, visible: false };
     const rect = canvas.getBoundingClientRect();
     const style = getComputedStyle(canvas);
     return { width: canvas.width, height: canvas.height, rectWidth: rect.width, rectHeight: rect.height,
