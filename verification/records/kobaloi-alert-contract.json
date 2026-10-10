@@ -1,0 +1,39 @@
+{
+  "test": "kobaloi-coordinated-alert-contract",
+  "status": "passed-source-fixtures-only",
+  "buildSha256": "c7e84e5b50fcd56e30a18483f9cf9c9cb7560e96ceabf48379c81f792bee6477",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "method": "Execute the final production Kobaloi alert wrapper in a VM against the exact generated candidate",
+  "checks": [
+    "Caller uses a 0.52-second readable yell windup before propagation",
+    "Only living, hostile, unaware Kobaloi within 34 units and line of sight receive the alert",
+    "Distant actors and other creature types remain unaware",
+    "Terrain occlusion blocks propagation",
+    "Alert target expires after 10 seconds",
+    "Fourteen-second receiver cooldown and area call lock prevent immediate alert chains",
+    "An isolated caller does not yell"
+  ],
+  "limitations": [
+    "Not full KOB-ALERT-01 runtime acceptance",
+    "Rendered sound/animation readability and dungeon propagation remain pending",
+    "Large-pack navigation and performance remain pending"
+  ],
+  "command": "node --test scripts/kobaloi-alert.test.mjs",
+  "runtimeRegression": {
+    "status": "passed",
+    "runId": 38076734743,
+    "headSha": "2027aab04d094b1e011f98c23f45472c0ea28513",
+    "buildSha256": "c7e84e5b50fcd56e30a18483f9cf9c9cb7560e96ceabf48379c81f792bee6477",
+    "checks": [
+      "offline startup",
+      "nonblank canvas",
+      "keyboard movement",
+      "ordinary visible Save click",
+      "identical-position reload",
+      "no page errors",
+      "no external requests"
+    ],
+    "candidateArtifactId": 11678566531,
+    "evidenceArtifactId": 11678966196
+  }
+}
