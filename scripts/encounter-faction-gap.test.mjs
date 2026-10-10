@@ -26,10 +26,15 @@ const packRole = source.match(/function packRole29\([\s\S]*?return\{attack:slot<
 assert.ok(packRole, 'packRole29 committed-attacker cap is inspectable');
 assert.equal(Number(packRole[1]), 2, 'known gap: Build59 commits only two attackers');
 
-for (const faction of factions) {
-  const sitePattern = new RegExp(`faction:'${faction}'[\\s\\S]{0,220}archetypes:\\[[^\\]]*'spear'[^\\]]*'sword'[^\\]]*'axe'[^\\]]*'greatsword'[^\\]]*'bow'[^\\]]*'sling'`);
-  assert.match(source, sitePattern, `${faction} site exposes all six equipment archetypes`);
+const siteArchetypes = source.match(/const f=variant===1\?(\[[^\]]+\]):(\[[^\]]+\])/);
+assert.ok(siteArchetypes, 'defineSite56 archetype rotations are present');
+for (const archetype of archetypes) {
+  assert.ok(
+    siteArchetypes[1].includes(`'${archetype}'`) && siteArchetypes[2].includes(`'${archetype}'`),
+    `both site rotations expose ${archetype}`
+  );
 }
+assert.match(source, /archetypes56:f\}/, 'each faction site stores the selected six-archetype rotation');
 
 console.log(JSON.stringify({
   baselineSha256: sha256,
