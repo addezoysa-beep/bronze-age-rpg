@@ -1,0 +1,28 @@
+{
+  "id": "pause-save-accessibility",
+  "createdOn": "2026-10-10",
+  "buildSha256": "70c78a7e562987a95c357aaeb58d4b0e17561161076db2a7f47b59d9dcbc1435",
+  "milestoneIds": [
+    "M0"
+  ],
+  "summary": "Place the pause control guide inside the menu body so it cannot cover Save. Runtime verification pending.",
+  "changedFiles": [
+    "index.html",
+    "scripts/browser-smoke.mjs",
+    "tracking/milestones.json",
+    "verification/records/pause-source-patch.json"
+  ],
+  "evidence": [
+    "verification/records/pause-source-patch.json"
+  ],
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "Prepared in designated Master Development workstream"
+  },
+  "masterReview": {
+    "status": "pending",
+    "buildSha256": null,
+    "evidence": null
+  },
+  "releaseStatus": "candidate"
+}

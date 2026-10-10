@@ -1,0 +1,9 @@
+{
+  "test": "pause-guide-source-patch",
+  "status": "passed",
+  "beforeSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "70c78a7e562987a95c357aaeb58d4b0e17561161076db2a7f47b59d9dcbc1435",
+  "method": "One exact control-guide parent replacement; no forced clicks, pointer-event bypass, or save logic changes",
+  "line": 2948,
+  "runtimeStatus": "pending"
+}
