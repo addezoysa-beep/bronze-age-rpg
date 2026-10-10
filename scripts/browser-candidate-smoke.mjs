@@ -45,22 +45,27 @@ try {
   }
   await page.waitForFunction(() => STATE === 'play');
   report.startupMs = Math.round(performance.now() - start);
-  await page.screenshot({ path: resolve(output, 'scene.png'), timeout: 15000 });
-  const png = await page.locator('#gl').screenshot({ timeout: 15000 });
-  const pixels = await page.evaluate(async encoded => {
-    const image = new Image(); image.src = `data:image/png;base64,${encoded}`; await image.decode();
-    const canvas = new OffscreenCanvas(image.width, image.height);
-    const ctx = canvas.getContext('2d'); ctx.drawImage(image, 0, 0);
-    const data = ctx.getImageData(0, 0, image.width, image.height).data;
-    const colors = new Set(); let min = 255, max = 0;
-    for (let i = 0; i < data.length; i += 64) {
-      colors.add(`${data[i] >> 4},${data[i + 1] >> 4},${data[i + 2] >> 4}`);
-      const light = (data[i] + data[i + 1] + data[i + 2]) / 3;
-      min = Math.min(min, light); max = Math.max(max, light);
-    }
-    return { colors: colors.size, luminanceRange: max - min, width: image.width, height: image.height };
-  }, png.toString('base64'));
+  // Read an actual animation frame; no forced rendering or gameplay mutation.
+  const frame = await page.evaluate(() => new Promise(resolveFrame => {
+    requestAnimationFrame(() => {
+      const canvas = document.getElementById('gl');
+      const gl = canvas?.getContext('webgl2') || canvas?.getContext('webgl');
+      if (!gl) return resolveFrame({ colors: 0, luminanceRange: 0, error: 'No WebGL context' });
+      const width = gl.drawingBufferWidth, height = gl.drawingBufferHeight;
+      const data = new Uint8Array(width * height * 4);
+      gl.readPixels(0, 0, width, height, gl.RGBA, gl.UNSIGNED_BYTE, data);
+      const colors = new Set(); let min = 255, max = 0;
+      for (let i = 0; i < data.length; i += 64) {
+        colors.add(`${data[i] >> 4},${data[i + 1] >> 4},${data[i + 2] >> 4}`);
+        const light = (data[i] + data[i + 1] + data[i + 2]) / 3;
+        min = Math.min(min, light); max = Math.max(max, light);
+      }
+      resolveFrame({ colors: colors.size, luminanceRange: max - min, width, height, png: canvas.toDataURL('image/png') });
+    });
+  }));
+  const { png, ...pixels } = frame;
   check('nonblank-canvas', pixels.colors > 16 && pixels.luminanceRange > 20, pixels);
+  if (png?.startsWith('data:image/png;base64,')) writeFileSync(resolve(output, 'scene.png'), Buffer.from(png.split(',')[1], 'base64'));
   const before = await page.evaluate(() => ({ x: P.x, z: P.z }));
   await page.keyboard.down('w'); await page.waitForTimeout(1200); await page.keyboard.up('w');
   const after = await page.evaluate(() => ({ x: P.x, z: P.z }));
@@ -71,7 +76,6 @@ try {
     return { insidePanel: Boolean(guide?.closest('#pause .win .bd')), overlayParagraphs: document.querySelectorAll('#pause > p').length };
   });
   check('pause-guide-layout', guideLayout.insidePanel && guideLayout.overlayParagraphs === 0, guideLayout);
-  await page.screenshot({ path: resolve(output, 'pause-scene.png'), timeout: 15000 });
   await page.waitForFunction(() => document.pointerLockElement === null);
   const saveHit = await page.locator('#psave').evaluate(button => {
     const r = button.getBoundingClientRect();
