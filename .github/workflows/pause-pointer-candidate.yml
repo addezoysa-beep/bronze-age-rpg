@@ -1,0 +1,36 @@
+name: Pause pointer candidate
+on:
+  push:
+    branches: [m0/pause-save-accessibility]
+    paths: [.github/workflows/pause-pointer-candidate.yml, scripts/prepare-pause-pointer-candidate.mjs]
+permissions:
+  contents: read
+concurrency:
+  group: pause-pointer-candidate
+  cancel-in-progress: true
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      WDS_SMOKE_PRESET: verylow
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/prepare-pause-pointer-candidate.mjs
+      - run: node scripts/verify.mjs
+      - run: node --test scripts/*.test.mjs
+      - run: npm install --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/browser-smoke.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pause-pointer-candidate-evidence
+          path: |
+            verification/runtime/
+            verification/records/pause-pointer-candidate.json
+            tracking/updates/pause-pointer-candidate.json
+            index.html
