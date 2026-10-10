@@ -1,8 +1,7 @@
 name: Pause pointer candidate
 on:
-  push:
-    branches: [m0/pause-save-accessibility]
-    paths: [.github/workflows/pause-pointer-candidate.yml, scripts/prepare-pause-pointer-candidate.mjs]
+  pull_request:
+    paths: [.github/workflows/pause-pointer-candidate.yml, scripts/prepare-pause-pointer-candidate.mjs, scripts/browser-smoke.mjs]
 permissions:
   contents: read
 concurrency:
