@@ -3,11 +3,8 @@
   "recordedOn": "2026-10-11",
   "baseHead": "a4ceda5f286d723b22ca46ba293165b182ef7187",
   "dependsOn": "PR25 fast-travel candidate",
-  "artifactSha256": "5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4",
-  "sourceTests": {
-    "passed": 77,
-    "failed": 0
-  },
+  "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+  "sourceTests": 79,
   "implementation": [
     "Direct Phocas outer/menu sling route, physical wooden sling and actual hand equip",
     "Unfinished unrelated drill requires explicit choice; completed drill certifies first",
@@ -22,5 +19,6 @@
     "Ordinary runtime fixture checks menu acquisition/equip and Save; no full Lykos/wolves/king/Pan acceptance.",
     "Trace Pan puzzle doors/captain/actual main item next; current source only narrates cargo tally and grants heart chest. Do not infer a tangible quest item from narrated dialogue.",
     "Source training certification tests do not prove aiming/hitting in rendered gameplay."
-  ]
+  ],
+  "trainingCreditFollowup": "Ordinary rerun38115196147 granted sling but ambient training progressed/certified without player impacts. Sling credit now requires a confirmed player-stone range hit or damage impact; suppresses unattributed/ally/arrow callbacks and duplicates; corrected runtime pending."
 }

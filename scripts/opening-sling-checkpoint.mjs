@@ -25,11 +25,21 @@ function grantSlingLesson60(n){
   certified?'Follow the king’s trail into Pan; watch for the captain’s stores.':'Land three sling hits on the straw range targets or a real enemy, then return to me. You have '+(G.trainingProg||0)+'/3 clean hits.',
   'Your first pouch holds twelve stones. Gather loose stones or buy another pouch when it runs dry.']);
 }
+let slingCredit60=false;
+const slingTraining60Before=trainingProgress;trainingProgress=function(kind){
+ if(kind==='sling'&&!slingCredit60)return;
+ return slingTraining60Before(kind);
+};
+function creditSlingHit60(){const before=slingCredit60;slingCredit60=true;try{trainingProgress('sling');}finally{slingCredit60=before;}}
+function slingProjectileDamage60(e,p,kb){
+ const hp=e.hp,alive=e.alive;dmgEnemy(e,p.dmg,p.vx,p.vz,kb);
+ if(p.kind==='stone'&&p.from==='p'&&alive&&(e.trainingDummy||e.hp<hp))creditSlingHit60();
+}
 function slingRangeHit60(p){
  if(p.kind!=='stone'||p.from!=='p'||p.area!=='over')return false;
  const t=TARGETS30.find(t=>Math.hypot(t.x-p.x,t.y-p.y,t.z-p.z)<.72);
  if(!t)return false;
- contactFx14(t.x,t.y,t.z,'wood',4);localSfx('targetHit',t.x,t.z,6,28);trainingProgress('sling');return true;
+ contactFx14(t.x,t.y,t.z,'wood',4);localSfx('targetHit',t.x,t.z,6,28);creditSlingHit60();return true;
 }
 `;
 export function applyOpeningSlingCheckpoint(html){
@@ -45,6 +55,9 @@ export function applyOpeningSlingCheckpoint(html){
  const projectile="if(!end&&p.from==='p'&&AREA==='over'){const a=attackableAnimals()";
  if(html.split(projectile).length!==2)throw Error('Expected stone projectile collision');
  html=html.replace(projectile,"if(!end&&slingRangeHit60(p))end=true;\n  "+projectile);
+ const stoneDamage='else dmgEnemy(e,p.dmg,p.vx,p.vz,e.d.ship?0:3);';
+ if(html.split(stoneDamage).length!==2)throw Error('Expected player stone damage route');
+ html=html.replace(stoneDamage,'else slingProjectileDamage60(e,p,e.d.ship?0:3);');
  const base="b.cyl(a.x,y+.70,a.z,.055,.075,1.40,10,K.woodD);";
  if(html.split(base).length!==2)throw Error('Expected straw target support');
  return html.replace(base,"b.box(a.x,y+.09,a.z,.90,.18,.70,K.woodD);"+base);
