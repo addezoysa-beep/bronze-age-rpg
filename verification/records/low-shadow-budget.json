@@ -1,0 +1,17 @@
+{
+  "id": "low-shadow-budget",
+  "buildSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
+  "status": "source-tests-passed-browser-pending",
+  "sourceTests": {
+    "passed": 56,
+    "failed": 0
+  },
+  "scope": "Disable Low shadow passes; preserve full nearby combat simulation and ten-attacker cap. Higher graphics presets restore shadows.",
+  "pending": [
+    "Offline browser graphics-button transitions and save/reload on exact candidate",
+    "Representative user old-save combat profiling; no FPS improvement claimed",
+    "Visual grip correction",
+    "Cave puzzles and traps implementation"
+  ],
+  "dependency": "PR #15 dialogue hotfix browser verification remains pending"
+}
