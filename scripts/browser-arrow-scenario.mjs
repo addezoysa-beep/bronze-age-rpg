@@ -7,7 +7,7 @@ export async function runArrowShopScenario(page,check){
  for(let i=0;i<20;i++){
   const menu=await page.evaluate(()=>({last:DLG.i>=DLG.lines.length-1,choices:DLG.choices?.map(c=>c.t)||[]}));
   if(!menu.last){await page.keyboard.press('e');continue;}
-  const target=menu.choices.find(t=>t==='Buy arrows')||menu.choices.find(t=>/^Other matters/.test(t));
+  const target=menu.choices.find(t=>t==='Buy arrows')||menu.choices.find(t=>t==='Arrows, tools and learned patterns')||menu.choices.find(t=>/^Other matters/.test(t));
   if(!target)throw new Error('Arms arrow menu missing: '+menu.choices.join(' | '));
   await page.locator('#dchoices button').filter({hasText:target}).click();if(target==='Buy arrows')break;
  }
