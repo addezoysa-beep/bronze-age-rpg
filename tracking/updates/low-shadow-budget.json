@@ -24,10 +24,14 @@
     "PR #15 exact game 6a338f252e81aabde83165cff6bb44ddda0ef12beb5b0ab2426735b11e01883b"
   ],
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/16"
   },
   "masterReview": {
-    "status": "pending"
+    "status": "passed",
+    "buildSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/16",
+    "scope": "Development integration only, exact-game source and ordinary-input browser checks reviewed. Hardware performance still pending."
   },
   "releaseStatus": "implementation-checkpoint-not-acceptance"
 }
