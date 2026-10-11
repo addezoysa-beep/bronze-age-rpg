@@ -19,6 +19,12 @@
       "requirement": "More puzzles in dungeons and traps; preserve existing quest routes and puzzle solutions",
       "reportedOn": "2026-10-11",
       "acceptance": "Readable clues, fair warning and reset/reload persistence; critical quest rewards reachable without softlocks"
+    },
+    "equipmentEconomy": {
+      "status": "confirmed_by_user",
+      "implementation": "partial_arrow_candidate_source_tests_passed",
+      "evidence": "verification/records/wood-arrow-materials.json",
+      "remaining": "Runtime ammo/material/UI/craft/loot/sell audit; full weapon/armor prices; city-tier regional stock/recipes/dialogue; rare ammo paths; affordable starter progression"
     }
   },
   "milestones": [

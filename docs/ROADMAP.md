@@ -108,3 +108,7 @@ assigned until baseline audit and unresolved requirement wording are recovered.
 Prioritize blocked king/other NPC dialogue and wagon actions, then Low-preset old-save combat profiling and visual staff grip/wrist correction before broad faction work. Transform-only hand tests do not establish GEAR-01 acceptance; the supplied screenshot is failed visual evidence. Recover a representative old save for performance comparisons without reducing the required 8–10 concurrent attackers.
 
 M4 additionally requires more dungeon puzzles and traps. Audit the existing Cave of Pan sling-target, crate/pressure-plate, locked-door and captain/cargo-tally route first; preserve progression to Daedalus in Knossos. Add clue-driven puzzle combinations and telegraphed traps with reset/save persistence and avoid unavoidable damage or inaccessible quest rewards. Existing definitions alone do not prove reachable gameplay.
+
+## Arrow material and pricing partial checkpoint — October 11
+
+Wooden-arrow damage/point geometry, shared ammo previews/nocks/projectiles/recovery and existing tipped-arrow vendor prices are implemented in a separate candidate with 61 source tests. Runtime/visual/crafting/loot/sell audits pending. Full weapon/armor price ladder, rare ammo access and regional city tiers/stock/recipes/accurate directions remain planned; no economy or milestone acceptance. Remedies and wrist correction have separate open candidates and must be reconciled when reviewed before integration. Keep old-save Low combat and Cave of Pan/puzzle/trap work active.

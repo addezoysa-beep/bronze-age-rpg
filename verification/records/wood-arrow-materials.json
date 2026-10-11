@@ -1,0 +1,17 @@
+{
+  "id": "wood-arrow-materials",
+  "buildSha256": "795c65f2f3bed1b835dc1444255c6db92a2f93f6f319685de3ba12ed17d4200c",
+  "status": "source-tests-passed-runtime-pending",
+  "sourceTests": {
+    "passed": 61,
+    "failed": 0
+  },
+  "scope": "Wood arrow damage x0.55, narrowed wooden point; shared material geometry for inventory previews/player and NPC nocks/fired/recovered arrows. Actor-specific NPC arrow identity retained during tactical shots, bronze fallback for unspecified legacy ammo. Bundles: wood6/flint32/copper64/bronze96/iron180. Arrow damage does not alter MATERIAL30 wood melee multiplier.",
+  "pending": [
+    "CI ordinary vendor buy/insufficient funds/shared wood preview and offline Save/reload",
+    "Ordinary shooting/material damage/nocking/NPC/recovery UI audit",
+    "Craft/loot/sell arbitrage and ingredient conservation",
+    "Full higher weapon/armor price ladder and regional settlement-tier stock/recipes/dialogue"
+  ],
+  "scopeLimits": "Independent partial economy candidate. Does not claim all user economy requirements implemented; rare arrow vendor paths and all non-tactical NPC provenance still need audit."
+}
