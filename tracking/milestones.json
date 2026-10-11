@@ -19,6 +19,17 @@
       "requirement": "More puzzles in dungeons and traps; preserve existing quest routes and puzzle solutions",
       "reportedOn": "2026-10-11",
       "acceptance": "Readable clues, fair warning and reset/reload persistence; critical quest rewards reachable without softlocks"
+    },
+    "additionalRemedies": {
+      "status": "confirmed_by_user",
+      "implementation": "candidate_source_tests_passed",
+      "evidence": "verification/records/restoration-remedies.json",
+      "acceptance": "Ordinary acquisition/lessons/crafting/Food use, bounded nonstacking effects, restrictions/pause/death/save/reload and old-save defaults; runtime pending"
+    },
+    "equipmentEconomy": {
+      "status": "confirmed_by_user",
+      "implementation": "planned",
+      "acceptance": "Material/quality prices, higher tipped arrow/weapon/armor costs; weaker all-wood points in previews/nocked/fired/recovered/NPC; settlement-tier stock/recipes/accurate dialogue; no arbitrage; affordable starter route and ordinary UI/Save tests"
     }
   },
   "milestones": [

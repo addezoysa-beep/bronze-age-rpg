@@ -1,0 +1,34 @@
+{
+  "id": "restoration-remedies",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "e9f85a7b483efbf5c9b48aa7fd6179ea72b849763ce8e5f4ea0dd3a629b00ec0",
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M5"
+  ],
+  "summary": "Four registered recipes/labels/weights/Food consumables; healer stock and paginated lessons; bounded nonstacking healing infusion and endurance boost; pause/death/save-safe remaining durations and health budget. Stamina delay/guard/draw/action restrictions and injury cap retained.",
+  "changedFiles": [
+    "scripts/remedies-checkpoint.mjs",
+    "scripts/remedies.test.mjs",
+    "scripts/charge-feint.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-remedy-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json",
+    "verification/records/restoration-remedies.json",
+    "tracking/updates/restoration-remedies.json"
+  ],
+  "evidence": [
+    "verification/records/restoration-remedies.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "implementation-checkpoint-not-acceptance"
+}

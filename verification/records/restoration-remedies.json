@@ -1,0 +1,17 @@
+{
+  "id": "restoration-remedies",
+  "buildSha256": "e9f85a7b483efbf5c9b48aa7fd6179ea72b849763ce8e5f4ea0dd3a629b00ec0",
+  "status": "source-tests-passed-runtime-pending",
+  "sourceTests": {
+    "passed": 64,
+    "failed": 0
+  },
+  "scope": "Four registered recipes/labels/weights/Food consumables; healer stock and paginated lessons; bounded nonstacking healing infusion and endurance boost; pause/death/save-safe remaining durations and health budget. Stamina delay/guard/draw/action restrictions and injury cap retained.",
+  "pending": [
+    "CI ordinary healer buy/insufficient funds/Food use/pause/effect Save/exact-position reload",
+    "Ordinary lesson/crafting/hearth/ingredient conservation for all recipes",
+    "Runtime expiry and visual inventory label review"
+  ],
+  "independentOf": "PR #19 grip candidate remains separate; baseline and ten-attacker behavior unchanged",
+  "sourceCrafting": "Production canCraft/base craft/hearth wrapper/final knowledge-and-work gate tested for all four recipes: unknown knowledge, absent hearth and missing ingredients preserve inventory; successful crafts consume precisely one recipe and yield one item; second craft cannot duplicate output. Ordinary UI craft still pending."
+}
