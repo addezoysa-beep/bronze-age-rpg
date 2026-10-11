@@ -16,10 +16,12 @@ export async function runSlingScenario(page,check){
  await choose();
  const granted=await page.evaluate(()=>({items:playerItems(),weapon:G.weapon,hand:G.handItems.right,trained:G.training.sling,task:G.trainingTask,stones:G.inv.stone}));
  check('ordinary-Phocas-sling-grant',granted.items.sling_wood===1&&granted.weapon==='sling'&&granted.hand==='sling_wood'&&granted.trained===0&&granted.task==='sling'&&granted.stones===12,granted);
+ // Prepared partial progress must survive a repeat lesson (not a rendered hit claim).
+ await page.evaluate(()=>G.trainingProg=2);
  await page.keyboard.press('Escape');
  await page.keyboard.press('e');await page.waitForFunction(()=>STATE==='talk');await choose();
  const repeat=await page.evaluate(()=>({sling:G.inv.sling_wood,stone:G.inv.stone,task:G.trainingTask,prog:G.trainingProg}));
- check('repeat-sling-lesson-no-duplicates',repeat.sling===1&&repeat.stone===12&&repeat.task==='sling'&&repeat.prog===0,repeat);
+ check('repeat-sling-lesson-no-duplicates',repeat.sling===1&&repeat.stone===12&&repeat.task==='sling'&&repeat.prog===2,repeat);
  await page.keyboard.press('Escape');await page.keyboard.press('Escape');await page.waitForFunction(()=>document.pointerLockElement===null);await page.locator('#psave').click();
  const saved=await page.evaluate(()=>({slot:SAVE_SLOT,data:JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))}));
  check('sling-ordinary-save',saved.data.inv.sling_wood===1&&saved.data.trainingTask==='sling'&&saved.data.training.sling===0,saved.data.trainingTask);
