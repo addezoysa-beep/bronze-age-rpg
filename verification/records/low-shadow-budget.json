@@ -1,17 +1,27 @@
 {
   "id": "low-shadow-budget",
   "buildSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
-  "status": "source-tests-passed-browser-pending",
+  "status": "source-and-offline-browser-passed-development-checkpoint",
   "sourceTests": {
     "passed": 56,
     "failed": 0
   },
   "scope": "Disable Low shadow passes; preserve full nearby combat simulation and ten-attacker cap. Higher graphics presets restore shadows.",
   "pending": [
-    "Offline browser graphics-button transitions and save/reload on exact candidate",
     "Representative user old-save combat profiling; no FPS improvement claimed",
     "Visual grip correction",
     "Cave puzzles and traps implementation"
   ],
-  "dependency": "PR #15 dialogue hotfix browser verification remains pending"
+  "dependency": "PR #15 merged and browser-verified",
+  "browserRun": {
+    "id": 38107605908,
+    "head": "584326160c07f17bd314ec19ca16880d95864172",
+    "status": "passed",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38107605908/artifacts/11689319822",
+    "scope": "Ordinary pause Low/Medium/Very low clicks and persisted presets; Save/exact-position reload; king and nested guide dialogue; no page errors/external requests"
+  },
+  "integration": {
+    "pr": 16,
+    "commit": "7f70951f9fb75acb141a5d0e1b861f50cc9a53e8"
+  }
 }
