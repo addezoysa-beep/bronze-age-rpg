@@ -124,3 +124,5 @@ Latest test correction: remedy browser run 38111916865 failed after the first pu
 Authorized opening/NPC/tasks/immersion/law/exploration and sea/island requirements have IDs and ordinary-play scenarios in [USER_FEEDBACK_20261011.md](USER_FEEDBACK_20261011.md) and the tracker. Prior remedy/economy scope and dependency order remain. These are planned, not accepted.
 
 TRAVEL-60 candidate repairs landmark loading-state lock, unsafe landing fallback and old name discoveries. Exact candidate a1159f19 has 70 passing source tests; ordinary-click runtime and exact-position pause Save/reload are pending CI. Paid wagon/ferry unchanged. PRs19/20/21 remain separate unmerged candidates.
+
+Phocas sling candidate stacked on TRAVEL-60: direct menu lesson, physical item/equip, repeat-safe pouch/progress, stone hits on straw targets and grounded target base.77 source tests pass, exact candidate5337b011. Ordinary prepared post-shearing mouse grant/revisit/Save-reload CI pending; actual firing/certification, visuals and full Lykos/Pan progression remain pending. See verification/records/phocas-sling-route.json.

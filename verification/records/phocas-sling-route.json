@@ -1,0 +1,24 @@
+{
+  "id": "phocas-sling-route",
+  "recordedOn": "2026-10-11",
+  "baseHead": "a4ceda5f286d723b22ca46ba293165b182ef7187",
+  "dependsOn": "PR25 fast-travel candidate",
+  "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+  "sourceTests": 79,
+  "implementation": [
+    "Direct Phocas outer/menu sling route, physical wooden sling and actual hand equip",
+    "Unfinished unrelated drill requires explicit choice; completed drill certifies first",
+    "Single initial12-stone pouch, no repeat grant/progress reset, preserve existing physical material",
+    "Equip does not certify training; three actual stone range hits, then return to teacher",
+    "Existing straw range targets accept sling stones; grounded visible base added"
+  ],
+  "runtime": "pending CI; prepared post-shearing empty-inventory ordinary mouse grant/revisit/Save-reload fixture; actual firing/certification/target visuals/full opening/Pan runtime remain pending",
+  "milestoneAcceptance": "none",
+  "handoff": [
+    "Resolve PR25 runtime before integrating stacked PR.",
+    "Ordinary runtime fixture checks menu acquisition/equip and Save; no full Lykos/wolves/king/Pan acceptance.",
+    "Trace Pan puzzle doors/captain/actual main item next; current source only narrates cargo tally and grants heart chest. Do not infer a tangible quest item from narrated dialogue.",
+    "Source training certification tests do not prove aiming/hitting in rendered gameplay."
+  ],
+  "trainingCreditFollowup": "Ordinary rerun38115196147 granted sling but ambient training progressed/certified without player impacts. Sling credit now requires a confirmed player-stone range hit or damage impact; suppresses unattributed/ally/arrow callbacks and duplicates; corrected runtime pending."
+}

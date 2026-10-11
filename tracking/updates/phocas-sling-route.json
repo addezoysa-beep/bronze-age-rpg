@@ -1,0 +1,34 @@
+{
+  "id": "phocas-sling-route",
+  "createdOn": "2026-10-11",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M4"
+  ],
+  "summary": "Direct physical Phocas sling acquisition/equip and repeat-safe lesson, real stone hits on straw targets with grounded bases.77 source tests; runtime pending.",
+  "changedFiles": [
+    "scripts/opening-sling-checkpoint.mjs",
+    "scripts/opening-sling.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-sling-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "verification/records/phocas-sling-route.json",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json"
+  ],
+  "evidence": [
+    "verification/records/phocas-sling-route.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "implementation-checkpoint-not-acceptance"
+}
