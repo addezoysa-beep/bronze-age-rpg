@@ -15,7 +15,12 @@ export async function runInteractionScenario(page,check){
  for(let i=0;i<8;i++){
   const s=await page.evaluate(()=>({king:F().king,state:STATE,last:DLG.i>=DLG.lines.length-1,choices:DLG.choices?.map(c=>c.t)||[]}));
   if(s.king)break;
-  if(s.last&&s.choices.length)throw new Error('King completion blocked by choices: '+s.choices.join(' | '));
+  if(s.last&&s.choices.length){
+   const route=s.choices.find(t=>t==='Local affairs and quests'||t==='Other matters / quests'||t==='Other matters');
+   if(!route)throw new Error('King completion blocked by choices: '+s.choices.join(' | '));
+   await page.locator('#dchoices button').filter({hasText:route}).click();
+   continue;
+  }
   await page.keyboard.press('e');
  }
  const result=await page.evaluate(()=>({king:F().king,state:STATE}));
