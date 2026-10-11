@@ -10,7 +10,7 @@
     "M4",
     "M5"
   ],
-  "summary": "Fix shared NPC dialogue wrapper recursion that reopens new menus rather than reaching original quests; preserve king story callback, release pointer lock, clear input, support options 1-9 and scroll menus. Source regressions pass; browser verification pending. Grip, Low-combat FPS and puzzle/trap work remain open.",
+  "summary": "Shared NPC dialogue and king story completion fixes passed ordinary mouse-menu browser checks and exact-position manual Save/reload; merged PR #15. Paid travel, grip, combat FPS and dungeon checks remain open.",
   "changedFiles": [
     "scripts/interaction-checkpoint.mjs",
     "scripts/interaction.test.mjs",
@@ -31,10 +31,14 @@
     "master-development a91c7b0d89c85e8a48ea8d46b3c3330375e66ba0"
   ],
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/15"
   },
   "masterReview": {
-    "status": "pending"
+    "status": "passed",
+    "buildSha256": "6a338f252e81aabde83165cff6bb44ddda0ef12beb5b0ab2426735b11e01883b",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/15",
+    "scope": "Development integration only; source and exact-candidate browser logs inspected. No milestone acceptance."
   },
   "releaseStatus": "implementation-checkpoint-not-acceptance"
 }
