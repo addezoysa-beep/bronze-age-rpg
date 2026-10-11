@@ -1,7 +1,7 @@
 {
   "id": "continuation-20261011",
   "recordedOn": "2026-10-11",
-  "masterHead": "74113d8ed470bea2e85a23cfa33e62f7d152bf80",
+  "masterHead": "1f3d89452ada6db37c074f4d4f8cc76509738c8f",
   "integrated": {
     "pr": 18,
     "artifactSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
@@ -29,20 +29,27 @@
     },
     {
       "pr": 20,
-      "head": "a822437822c5d4d361d311ecd908f880a7918286",
+      "head": "d6e20a477c565c40f89cbb49cabb9abc15d7a79a",
       "artifactSha256": "e9f85a7b483efbf5c9b48aa7fd6179ea72b849763ce8e5f4ea0dd3a629b00ec0",
       "sourceTests": 64,
       "scope": "Four remedies, recipes/healer stock/lessons/Food use; serialized bounded timers/budget, death/pause safety, regen restrictions. Production crafting gates/conservation tested.",
-      "status": "Repository checks passed (64 source tests); browser job 114389077024 still running at last inspection. No ordinary UI, crafting or expiry acceptance claimed.",
-      "runtimeRun": 38111916865
+      "status": "64 source checks pass. Browser run failed after first purchase because the harness tried the next hidden choice after dialogue closed. Harness now reopens via ordinary E interaction before each purchase. Corrected-head CI not observed at last inspection; all-four purchase/Food/effect Save/craft/expiry pending.",
+      "runtimeRun": 38111916865,
+      "failedRuntime": {
+        "head": "a822437822c5d4d361d311ecd908f880a7918286",
+        "run": 38111916865,
+        "job": 114389077024,
+        "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38111916865/artifacts/11692261997",
+        "reason": "Second Buy Concentrated herbal remedy button was present but hidden after first purchase closed dialogue; no forced click or programmatic save substituted."
+      }
     },
     {
       "pr": 21,
-      "head": "05524418c8d4a76558a865ab8bc8ff68790aefd2",
+      "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b",
       "artifactSha256": "795c65f2f3bed1b835dc1444255c6db92a2f93f6f319685de3ba12ed17d4200c",
       "sourceTests": 61,
       "scope": "Wood-arrow damage 0.55 and wood point; shared material geometry and explicit tactical NPC ammo; existing bundle prices 6/32/64/96/180.",
-      "status": "Source checks passed (61); first browser run 38111698287 failed harness navigation at visible outer smith menu. Latest harness-only head includes inspected Arrows, tools and learned patterns option; rerun pending.",
+      "status": "Source checks passed (61); first browser run 38111698287 failed harness navigation at visible outer smith menu. Latest harness-only head includes inspected Arrows, tools and learned patterns option; rerun pending. Latest head also reopens via ordinary E between purchases because selecting choices closes dialogue.",
       "failedRuntime": {
         "head": "f44978b3adefd9aefe49c612a32ea6ccc03840b6",
         "run": 38111698287,
@@ -59,5 +66,6 @@
     "Preserve M1 grip/performance and M4 Cave of Pan/puzzle/trap priorities. Full weapon/armor prices and settlement service tiers still require source-audited implementation.",
     "Git shell fetch lacked credentials; authenticated GitHub connector read/feature branch/tree/commit/PR/merge paths worked. Do not disable continuation for that recoverable shell-only limitation."
   ],
-  "milestoneAcceptance": "none"
+  "milestoneAcceptance": "none",
+  "ciFollowup": "The commit workflow tool lists only PR-triggered first-page runs and returned no new runs for the latest grip/remedy/arrow heads at last inspection. Inspect PR status/Actions before assuming queued or passing CI; rerunning an old job would test the old commit, not the correction."
 }
