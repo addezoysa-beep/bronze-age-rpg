@@ -1,0 +1,31 @@
+{
+  "id": "continuation-20261011-0511",
+  "createdOn": "2026-10-11",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "summary": "Persist full October11 requirement IDs, three implementation candidates and exact CI failure/correction handoff. Master executable unchanged; no candidate/milestone accepted.",
+  "changedFiles": [
+    "docs/USER_FEEDBACK_20261011.md",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json",
+    "verification/records/continuation-20261011-0511.json"
+  ],
+  "evidence": [
+    "verification/records/continuation-20261011-0511.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "documentation-handoff-not-release"
+}
