@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createContext,runInContext} from 'node:vm';
 import {remedyRuntime} from './remedies-checkpoint.mjs';
+import {readFileSync} from 'node:fs';
 function fixture(){
  const c=createContext({G:{hp:10,maxHp:100,stamina:10,maxStamina:100,inv:{},silver:100,staminaDelay:0},P:{dead:false},STATE:'bag',LABEL48:{},WEIGHT:{},FOOD:{},RECIPES:Object.fromEntries(['healing_tonic48','warming_tonic48','stamina_tonic48','bandage48','ointment48'].map(k=>[k,{n:k}])),mouse:{},keys:{},BAG_TAB:'food',
  clamp:(v,a,b)=>Math.max(a,Math.min(b,v)),eatFood:()=>{},staminaTick:()=>{},updatePlayer:()=>{},die:()=>{},loadGame:()=>true,lesson48:()=>{},serviceTalk48:()=>{},renderBag:()=>{},recipeKnown30:()=>false,
@@ -51,4 +52,22 @@ test('healer sells all four with real purchase callbacks and paginated recipe le
  const n={name:'Healer',service48:'heal'};c.serviceTalk48(n);options.find(o=>o.t==='More health and stamina remedies').go();assert.equal(options.length,5);
  options[0].go();assert.deepEqual(bought,['fig_restorative62',1,18]);
  c.lesson48(n,'remedy',1);assert.equal(options.length,3);const choice=options[0];c.G.silver=0;choice.go();assert.equal(learned,undefined);c.G.silver=18;choice.go();assert.equal(c.G.silver,0);assert.ok(c.defs[learned[0]]);
+});
+
+test('production crafting enforces recipe knowledge, hearth and materials and conserves every ingredient',()=>{
+ const lines=readFileSync(new URL('../index.html',import.meta.url),'utf8').split('\n');
+ const base=lines.find(l=>l.startsWith('function canCraft(r)'));
+ const hearth=lines.find(l=>l.startsWith('const craft22Before=craft;'));
+ const gate=lines.find(l=>l.startsWith('const craftGate48Before=craft;'));
+ assert.ok(base&&hearth&&gate);
+ for(const key of Object.keys(fixture().defs)){
+  const c=fixture();c.refreshWeapon=()=>{};c.save=()=>{};c.nearHearth15=()=>c.hearth;c.recipeKnown30=k=>c.known===k;c.closeBag=()=>{c.STATE='play'};c.AREA='over';c.G.world={};
+  runInContext(base+'\n'+hearth+'\n'+gate,c);
+  const recipe=c.RECIPES[key];for(const [ingredient,n]of Object.entries(recipe.need))c.G.inv[ingredient]=n;
+  const initial=JSON.stringify(c.G.inv);c.craft(key);assert.equal(JSON.stringify(c.G.inv),initial,'unknown recipes cannot consume ingredients');
+  c.known=key;c.hearth=false;if(recipe.hearth22){c.craft(key);assert.equal(JSON.stringify(c.G.inv),initial,'required hearth cannot be bypassed');}
+  c.hearth=true;const missing=Object.keys(recipe.need)[0];c.G.inv[missing]--;const before=JSON.stringify(c.G.inv);c.craft(key);assert.equal(JSON.stringify(c.G.inv),before,'missing materials cannot consume a partial recipe');c.G.inv[missing]++;
+  c.craft(key);assert.equal(c.G.inv[key],1);for(const ingredient of Object.keys(recipe.need))assert.equal(c.G.inv[ingredient],0);
+  c.craft(key);assert.equal(c.G.inv[key],1,'queued or ingredient-free second craft cannot duplicate output');
+ }
 });
