@@ -2,7 +2,7 @@
   "id": "interaction-hotfix",
   "createdOn": "2026-10-11",
   "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
-  "artifactSha256": "f03a99af5d20808e36c135a18970ed1a94d508c3797a18bd4967a6b77600a635",
+  "artifactSha256": "6a338f252e81aabde83165cff6bb44ddda0ef12beb5b0ab2426735b11e01883b",
   "milestoneIds": [
     "M0",
     "M1",
@@ -10,7 +10,7 @@
     "M4",
     "M5"
   ],
-  "summary": "Fix story completion blocked by palace art; release pointer lock for every dialogue, clear held input, allow top-row/numpad options 1-9 and scroll long menus. Record user Low-combat, visual grip and dungeon-puzzle/trap feedback. Source fixtures pass; browser and milestone acceptance pending.",
+  "summary": "Fix shared NPC dialogue wrapper recursion that reopens new menus rather than reaching original quests; preserve king story callback, release pointer lock, clear input, support options 1-9 and scroll menus. Source regressions pass; browser verification pending. Grip, Low-combat FPS and puzzle/trap work remain open.",
   "changedFiles": [
     "scripts/interaction-checkpoint.mjs",
     "scripts/interaction.test.mjs",

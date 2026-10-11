@@ -26,9 +26,16 @@ export async function runInteractionScenario(page,check){
  const result=await page.evaluate(()=>({king:F().king,state:STATE}));
  check('king-princess-dialogue-completion',result.king===1&&result.state==='play',result);
  // Exercise actual nested guide callbacks, with ordinary mouse choices and number 5.
- await page.evaluate(()=>{const n=CARAVANS20[0];if(!n)throw new Error('Wagon guide missing');setArea('over');n.sleep35=false;n.sleeping=false;n.action='guiding';guideTalk20(n);});
+ await page.evaluate(()=>{const n=CARAVANS20[0];if(!n)throw new Error('Wagon guide missing');setArea('over');n.sleep35=false;n.sleeping=false;n.action='guiding';n.talk(n);});
  async function lastLine(){for(let i=0;i<12;i++){if(await page.evaluate(()=>DLG.i>=DLG.lines.length-1))return;await page.keyboard.press('e');}throw new Error('Dialogue exceeded line budget');}
- await lastLine();
+ for(let i=0;i<8;i++){
+  await lastLine();
+  const choices=await page.evaluate(()=>DLG.choices?.map(c=>c.t)||[]);
+  if(choices.includes('Tell me about Mesopotamia'))break;
+  const route=choices.find(t=>/^(Other matters|Ask about the caravan route)/.test(t));
+  if(!route)throw new Error('Guide route missing: '+choices.join(' | '));
+  await page.locator('#dchoices button').filter({hasText:route}).click();
+ }
  await page.locator('#dchoices button').filter({hasText:'Tell me about Mesopotamia'}).click();
  await lastLine();
  await page.locator('#dchoices button').filter({hasText:'Discuss the journey'}).click();

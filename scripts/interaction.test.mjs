@@ -55,3 +55,15 @@ test('cancellation does not award the king quest',()=>{
 test('dialogue panel keeps long choice lists inside a scrolling viewport',()=>{
  assert.ok(production.includes('width:min(820px,94vw);max-height:85vh;overflow-y:auto;'));
 });
+
+test('NPC sleep wrapper preserves the previous dialogue through successive menu assignments',()=>{
+ for(const source of [baseline,production]){
+  const ctx=createContext({sleepingNPC48:()=>false,sleepReply48:()=> 'asleep'});
+  new Script(source.split('\n').find(l=>l.startsWith('function guardSleepingTalk48'))).runInContext(ctx);
+  const npc={talk:()=> 'original quest'};ctx.guardSleepingTalk48(npc);
+  const first=npc.talk;npc.talk=()=>first();
+  const second=npc.talk;npc.talk=()=>second();
+  if(source===baseline)assert.throws(()=>npc.talk(),/call stack/);
+  else{assert.equal(npc.talk(),'original quest');ctx.sleepingNPC48=()=>true;assert.equal(npc.talk(),'asleep');}
+ }
+});

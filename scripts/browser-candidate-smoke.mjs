@@ -10,7 +10,7 @@ const artifactHash = sha256(readFileSync(gameFile));
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
 const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Save-Fix.html',
-  recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload only. Does not accept a milestone.',
+  recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload, king quest and nested wagon-guide mouse choices. Does not accept a milestone.',
   environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [] };
 let browser;
 let page;
