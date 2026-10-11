@@ -2,6 +2,7 @@ import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { performance } from 'node:perf_hooks';
+import {runInteractionScenario} from './browser-interaction-scenario.mjs';
 import { root, gameHash, sha256 } from './workflow.mjs';
 
 const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Save-Fix.html');
@@ -9,7 +10,7 @@ const artifactHash = sha256(readFileSync(gameFile));
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
 const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Save-Fix.html',
-  recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload only. Does not accept a milestone.',
+  recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload, king quest and nested wagon-guide mouse choices. Does not accept a milestone.',
   environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [] };
 let browser;
 let page;
@@ -96,6 +97,7 @@ try {
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
   const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
+  await runInteractionScenario(page,check);
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
   check('offline-resources', report.externalRequests.length === 0, report.externalRequests);
   report.status = 'passed';
@@ -112,4 +114,5 @@ finally {
   writeFileSync(resolve(output, 'browser-smoke.json'), `${JSON.stringify(report, null, 2)}\n`);
   console.log(JSON.stringify(report, null, 2));
 }
+
 

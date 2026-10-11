@@ -101,3 +101,10 @@ at each milestone checkpoint; run the full regression set before a release.
 `tracking/updates/` records exact-build master review. No schedule estimate is
 assigned until baseline audit and unresolved requirement wording are recovered.
 
+
+
+## User playtesting priorities — October 10 Eastern
+
+Prioritize blocked king/other NPC dialogue and wagon actions, then Low-preset old-save combat profiling and visual staff grip/wrist correction before broad faction work. Transform-only hand tests do not establish GEAR-01 acceptance; the supplied screenshot is failed visual evidence. Recover a representative old save for performance comparisons without reducing the required 8–10 concurrent attackers.
+
+M4 additionally requires more dungeon puzzles and traps. Audit the existing Cave of Pan sling-target, crate/pressure-plate, locked-door and captain/cargo-tally route first; preserve progression to Daedalus in Knossos. Add clue-driven puzzle combinations and telegraphed traps with reset/save persistence and avoid unavoidable damage or inaccessible quest rewards. Existing definitions alone do not prove reachable gameplay.
