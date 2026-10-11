@@ -3,7 +3,7 @@ export const chargeFeintRuntime = `
 const chargeFeint61Before=tacticalTick14;
 tacticalTick14=function(a,dt,w,damage,speed,ranged=false){
  const q=a._tactical14,rig=a.hum||(a.h&&typeof a.h==='object'?a.h:null);
- const eligible=rig&&!a.spar22&&!a.friendly&&!a.trainingDummy&&!a.sleeping&&!a.dead&&a.alive!==false&&!P.dead&&!(a.stun>0)&&a.area===AREA;
+ const eligible=rig&&!a.spar22&&!a.friendly&&!a.trainingDummy&&!a.sleeping&&!a.recovery53?.phase&&!a.dead&&a.alive!==false&&!P.dead&&!(a.stun>0)&&a.area===AREA;
  if(!eligible){if(a.chargeFeint61){a.chargeFeint61=null;if(q){q.phase='close';q.t=0;q.cd=Math.max(q.cd||0,.35);}}return chargeFeint61Before(a,dt,w,damage,speed,ranged);}
  const d=hyp(P.x-a.x,P.z-a.z),reach=w==='spear'?3.8:2.2;
  if(!ranged&&!a.chargeFeint61&&q?.phase==='close'&&!(q.evadeTime>0)&&!(a.defense23)&&q.cd<=0&&d>reach+1&&d<reach+4&&T_NOW>=(a.chargeFeintReady61||0)&&enemySightLine({...a,h:typeof a.h==='number'?a.h:1.7})){

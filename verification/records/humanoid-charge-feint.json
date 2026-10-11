@@ -1,14 +1,14 @@
 {
   "id": "humanoid-charge-feint",
   "recordedAt": "2026-10-11T02:15:00Z",
-  "buildSha256": "a3209f6beadb62d119b0c8ceab5c83a365fac0fc51aac2720ee200a94d6ed8d2",
+  "buildSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
   "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "status": "source-contracts-passed-runtime-pending",
   "tests": {
     "repository": "passed",
     "inlineCompilation": "passed",
     "fullFixtures": {
-      "passed": 40,
+      "passed": 41,
       "failed": 0
     },
     "newFixtures": [
@@ -17,10 +17,11 @@
       "eligibility-and-sight",
       "stun-interruption",
       "hostile-NPC-sight-height",
-      "large-frame-delta"
+      "large-frame-delta",
+      "real-melee-strike-after-feint-recovery"
     ]
   },
-  "scope": "Production generated wrapper executed in VM. Navigation is stubbed, so no rendered collision, animation, hardware performance or FEINT-01 acceptance claimed. Ordinary offline Save and reload must pass on CI; reload comparison tightened to 1e-6 world units.",
+  "scope": "Production generated wrapper executed in VM. Navigation is stubbed, so no rendered collision, animation, hardware performance or FEINT-01 acceptance claimed. Ordinary offline Save and reload must pass on CI; reload comparison tightened to 1e-6 world units. The existing production base melee tick is exercised after charge-feint recovery; it returns to a single real strike.",
   "pending": [
     "rendered feint readability and navigation",
     "real attacks following recovery",

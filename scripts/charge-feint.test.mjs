@@ -6,12 +6,14 @@ import { buildOffline } from './build-offline.mjs';
 
 const source=buildOffline(readFileSync(new URL('../index.html',import.meta.url))).toString();
 const runtime=source.slice(source.indexOf('const chargeFeint61Before='),source.indexOf('/* END BUILD48 MODULES */'));
-function fixture(extra={}){
- const paths=[],damage=[],a={x:0,z:0,y:0,yaw:0,area:'over',alive:true,hum:{},_tactical14:{phase:'close',t:0,cd:0},...extra};
+const baseStart=source.indexOf('function tacticalTick14(a,dt,w,damage,speed,ranged=false){');
+const base=source.slice(baseStart,source.indexOf('npcThreatTick=function',baseStart));
+function fixture(extra={},real=false){
+ const paths=[],damage=[],a={x:0,z:0,y:0,yaw:0,area:'over',alive:true,hum:{},_tactical14:{phase:'close',t:0,cd:0,count:0},...extra};
  const ctx=createContext({P:{x:0,z:6},AREA:'over',T_NOW:10,Math,hyp:Math.hypot,sin:Math.sin,cos:Math.cos,clamp:(x,l,h)=>Math.min(h,Math.max(l,x)),hash2:()=>.9,enemySightLine:()=>true,
  groundRouteStep:(e,x,z,speed,dt)=>{paths.push({x,z,speed,dt});const d=Math.hypot(x-e.x,z-e.z),f=Math.min(1,speed*dt/Math.max(d,.001));e.x+=(x-e.x)*f;e.z+=(z-e.z)*f;e._moving14=speed;},
- tacticalTick14:()=>{damage.push('delegated');}});
- new Script(runtime+';globalThis.tick=tacticalTick14;').runInContext(ctx);
+ tacticalTick14:()=>{damage.push('delegated');},PI:Math.PI,abs:Math.abs,angDiff:(a,b)=>Math.atan2(Math.sin(a-b),Math.cos(a-b)),colBlocked:()=>false,dgLOS:()=>true,hurt:n=>damage.push(n)});
+ new Script((real?base:'')+runtime+';globalThis.tick=tacticalTick14;').runInContext(ctx);
  return {a,ctx,paths,damage,tick:(dt=.04,w='sword',ranged=false)=>ctx.tick(a,dt,w,12,3.3,ranged)};
 }
 test('committed charge visibly advances, pulls back, recovers and never delegates damage',()=>{
@@ -29,7 +31,7 @@ test('blocked charge finishes without bypassing route collision or entering stri
  assert.equal(f.a.z,0);assert.equal(f.a.chargeFeint61,null);assert.deepEqual(f.damage,[]);
 });
 test('ranged, sparring, friendly, stunned, sleeping, dead, distant and unseen actors preserve existing AI',()=>{
- for(const extra of [{friendly:true},{spar22:true},{stun:.5},{sleeping:true},{alive:false},{dead:true},{area:'tomb'},{z:-15},{defense23:{t:0}}]){
+ for(const extra of [{friendly:true},{spar22:true},{stun:.5},{sleeping:true},{alive:false},{dead:true},{area:'tomb'},{z:-15},{defense23:{t:0}},{recovery53:{phase:'retreat'}}]){
   const f=fixture(extra);f.tick();assert.equal(f.a.chargeFeint61,undefined);assert.equal(f.damage.length,1);
  }
  const ranged=fixture();ranged.tick(.04,'bow',true);assert.equal(ranged.damage.length,1);
@@ -44,4 +46,15 @@ test('hostile NPC rigs share the feint and use numeric sight height',()=>{
 });
 test('large frame deltas cannot tunnel through the full feint',()=>{
  const f=fixture();f.tick(3);assert.equal(f.a.chargeFeint61.t,.06);assert.ok(f.paths.every(p=>p.dt<=.06));assert.deepEqual(f.damage,[]);
+});
+
+test('a real melee damage window resumes after the canceled charge and recovery',()=>{
+ const f=fixture({},true);
+ for(let i=0;i<21;i++)f.tick();
+ assert.deepEqual(f.damage,[]);assert.equal(f.a.chargeFeint61,null);
+ f.ctx.P.z=f.a.z+1.5;
+ for(let i=0;i<40&&f.damage.length===0;i++)f.tick();
+ assert.equal(f.damage.length,1);assert.equal(f.damage[0],12);
+ assert.equal(f.a._tactical14.phase,'strike');
+ f.tick();assert.equal(f.damage.length,1);
 });
