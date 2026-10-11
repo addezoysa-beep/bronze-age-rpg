@@ -11,7 +11,7 @@
     "M4",
     "M5"
   ],
-  "summary": "Repair fast-travel loading/landing/discovery; preserve October11 feedback IDs and gameplay scenarios. 70 source tests pass, runtime pending.",
+  "summary": "Repair fast-travel loading/landing/discovery;70 source tests and scoped ordinary offline Troy map arrival/Save/exact reload passed. Preserve full October11 requirements and pending quest corrections; no milestone accepted.",
   "changedFiles": [
     "scripts/fast-travel-checkpoint.mjs",
     "scripts/fast-travel.test.mjs",
@@ -31,7 +31,11 @@
     "status": "pending"
   },
   "masterReview": {
-    "status": "pending"
+    "status": "passed",
+    "buildSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+    "scope": "Reviewed bounded landing/loading/discovery transformations;70 source tests and scoped offline ordinary UI CI passed; no milestone acceptance",
+    "evidence": "verification/records/fast-travel-recovery.json"
   },
-  "releaseStatus": "implementation-checkpoint-not-acceptance"
+  "releaseStatus": "implementation-checkpoint-not-acceptance",
+  "runtimeEvidence": "verification/records/fast-travel-recovery.json"
 }
