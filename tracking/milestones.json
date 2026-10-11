@@ -19,6 +19,20 @@
       "requirement": "More puzzles in dungeons and traps; preserve existing quest routes and puzzle solutions",
       "reportedOn": "2026-10-11",
       "acceptance": "Readable clues, fair warning and reset/reload persistence; critical quest rewards reachable without softlocks"
+    },
+    "additionalRemedies": {
+      "status": "confirmed_by_user",
+      "implementation": "unmerged_candidate",
+      "pr": 20,
+      "head": "a822437822c5d4d361d311ecd908f880a7918286",
+      "acceptance": "Ordinary acquisition/lessons/crafting/Food use, bounded nonstacking effects, stamina restrictions, pause/death/save/reload and old-save defaults. 64 local source tests passed; runtime/UI pending."
+    },
+    "equipmentEconomy": {
+      "status": "confirmed_by_user",
+      "implementation": "partial_unmerged_arrow_candidate",
+      "pr": 21,
+      "head": "f44978b3adefd9aefe49c612a32ea6ccc03840b6",
+      "remaining": "Full higher weapon/armor price ladder; settlement-tier regional stock/recipes/accurate directions; rare ammo paths; ordinary crafting/loot/sell/ammo/recovery/NPC/Save audit and affordable starter progression"
     }
   },
   "milestones": [
@@ -99,7 +113,7 @@
       "blockers": [
         "Source claims require active-override audit and runtime acceptance"
       ],
-      "nextAction": "Verify rendered charge-feint readability/navigation and post-feint combat, then movement/FP-TP grips/HUD and in-game music transitions. PR #14 checkpoint has source/math/decode and offline Save/reload evidence; FEINT-01, GEAR-01 and AUDIO-02 remain pending."
+      "nextAction": "Review PR #19 live rendered wrist/attachment diagnostics and human visuals; GEAR-01 remains failed. Continue full combat/movement/HUD/audio runtime scope."
     },
     {
       "id": "M2",
@@ -199,9 +213,9 @@
       ],
       "blockers": [
         "Eight site and twelve hideout definitions do not prove reachable, complete content",
-        "King quest and nested guide menu regression passed in offline Chromium; full quest route, paid travel and dungeon puzzle/trap acceptance remain pending"
+        "King quest and nested guide menu regression passed in offline Chromium; paid Ur arrival/fare/Save verified in PR #18; full quest/other travel routes and dungeon puzzle/trap acceptance remain pending"
       ],
-      "nextAction": "Implement and visually verify weapon grip, verify actual paid-wagon arrival/fare, then audit Cave of Pan puzzle gates and captain/tally/Knossos progression before expanding dungeon puzzles and traps"
+      "nextAction": "Paid Ur wagon route and destination exact-position Save/reload verified and integrated (PR #18); Cave of Pan sling/plate/key/captain/tally/Knossos route and added puzzles/traps remain pending. Grip, Low old-save performance remain open."
     },
     {
       "id": "M5",
