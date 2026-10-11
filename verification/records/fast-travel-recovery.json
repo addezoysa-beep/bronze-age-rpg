@@ -1,0 +1,19 @@
+{
+  "id": "fast-travel-recovery",
+  "recordedOn": "2026-10-11",
+  "baseHead": "5f6846fcd056627d8f1caa4bd45c0ea7d94ebb77",
+  "artifactSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+  "sourceTests": {
+    "passed": 70,
+    "failed": 0
+  },
+  "reproduction": "travelLandmark13 never returns STATE to play after streamArrival sets loading. freeLandNear can return unsafe fallback; final menu ignores old exact-name discovery.",
+  "runtime": "pending CI; no installed local Chromium located",
+  "milestoneAcceptance": "none",
+  "handoff": [
+    "Inspect actual mouse arrival/Save scenario CI. No forced clicks/programmatic saves.",
+    "Opening sling grant exists behind nested lessons; investigate actual lesson choice/progress rather than duplicate grants.",
+    "Latest corrected PR19/20/21 heads had no returned PR-triggered CI runs; remain unmerged.",
+    "Next Phocas/Pan ordinary route, ground-safe rolls, grips and Low old-save combat."
+  ]
+}

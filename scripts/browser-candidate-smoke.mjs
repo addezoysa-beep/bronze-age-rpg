@@ -2,6 +2,7 @@ import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { performance } from 'node:perf_hooks';
+import {runFastTravelScenario} from './browser-fast-travel-scenario.mjs';
 import {runPaidWagonScenario} from './browser-wagon-scenario.mjs';
 import {runInteractionScenario} from './browser-interaction-scenario.mjs';
 import { root, gameHash, sha256 } from './workflow.mjs';
@@ -105,6 +106,7 @@ try {
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
   await runInteractionScenario(page,check);
   await runPaidWagonScenario(page,check);
+  await runFastTravelScenario(page,check);
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
   check('offline-resources', report.externalRequests.length === 0, report.externalRequests);
   report.status = 'passed';

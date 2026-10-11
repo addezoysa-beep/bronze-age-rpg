@@ -118,3 +118,9 @@ The full weapon/armor price ladder and bigger-city regional stocks/ingredients/a
 October 11 verification follow-up: PR #19 exact-game browser checks passed for third-person stick idle/movement, dialogue/wagon and ordinary Save/reload; screenshot distance prevents hand-shape acceptance, so GEAR-01 remains failed. A normal V first-person capture rerun is pending. PR #20 has 64 passing source tests including production crafting gates and conservation, with browser runtime still pending. PR #21 has 61 passing source tests; its first browser run failed a test-navigation assumption at the actual outer smith menu. The corrected harness rerun is pending. Full equipment pricing, city tiers, Cave of Pan/puzzle/trap and old-save Low combat work remain open. Exact evidence is in the continuation record.
 
 Latest test correction: remedy browser run 38111916865 failed after the first purchase because dialogue choices close the menu. The harness now reopens the healer using ordinary E interaction between purchases; the arrow harness follows the same interaction rule. Corrected head runs have not been observed; no multi-purchase, Food consumption, effect-save or arrow purchase/preview runtime pass is claimed. See the exact updated heads and failed-run artifact in the continuation record.
+
+## October 11 expanded playtesting scope
+
+Authorized opening/NPC/tasks/immersion/law/exploration and sea/island requirements have IDs and ordinary-play scenarios in [USER_FEEDBACK_20261011.md](USER_FEEDBACK_20261011.md) and the tracker. Prior remedy/economy scope and dependency order remain. These are planned, not accepted.
+
+TRAVEL-60 candidate repairs landmark loading-state lock, unsafe landing fallback and old name discoveries. Exact candidate a1159f19 has 70 passing source tests; ordinary-click runtime and exact-position pause Save/reload are pending CI. Paid wagon/ferry unchanged. PRs19/20/21 remain separate unmerged candidates.
