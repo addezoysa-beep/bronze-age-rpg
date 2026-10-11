@@ -19,4 +19,18 @@ export async function runGripScenario(page,check,output){
  await page.keyboard.down('w');await page.waitForTimeout(600);await page.keyboard.up('w');
  const moving=await measure();check('grip-live-stick-movement',moving.angle<=65.00001&&moving.distance<1e-6,moving);
  await page.screenshot({path:output+'/grip-stick-movement.png'});
+ await page.keyboard.press('v');await page.waitForFunction(()=>FIRST_PERSON&&VIEW.weapons.stick?.visible);
+ const measureView=()=>page.evaluate(()=>{
+  VIEW_ROOT.updateWorldMatrix(true,true);
+  const item=VIEW.weapons.stick,wrist=VIEW.right.userData.wrist;
+  const anchor=wrist.localToWorld(new THREE.Vector3(0,-.098,.034));
+  return {angle:new THREE.Quaternion().angleTo(wrist.quaternion)*180/Math.PI,
+   distance:item.localToWorld(new THREE.Vector3()).distanceTo(anchor),visible:item.visible,firstPerson:FIRST_PERSON};
+ });
+ const firstIdle=await measureView();check('grip-live-first-person-idle',firstIdle.firstPerson&&firstIdle.visible&&firstIdle.angle<=65.00001&&firstIdle.distance<1e-6,firstIdle);
+ await page.screenshot({path:output+'/grip-first-person-idle.png'});
+ await page.keyboard.down('w');await page.waitForTimeout(600);await page.keyboard.up('w');
+ const firstMoving=await measureView();check('grip-live-first-person-movement',firstMoving.angle<=65.00001&&firstMoving.distance<1e-6,firstMoving);
+ await page.screenshot({path:output+'/grip-first-person-movement.png'});
+ await page.keyboard.press('v');await page.waitForFunction(()=>!FIRST_PERSON);
 }
