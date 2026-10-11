@@ -1,0 +1,32 @@
+{
+  "id": "humanoid-charge-feint",
+  "recordedAt": "2026-10-11T02:15:00Z",
+  "buildSha256": "a3209f6beadb62d119b0c8ceab5c83a365fac0fc51aac2720ee200a94d6ed8d2",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "status": "source-contracts-passed-runtime-pending",
+  "tests": {
+    "repository": "passed",
+    "inlineCompilation": "passed",
+    "fullFixtures": {
+      "passed": 40,
+      "failed": 0
+    },
+    "newFixtures": [
+      "advance-retreat-recovery-no-damage",
+      "blocked-route-bounded-completion",
+      "eligibility-and-sight",
+      "stun-interruption",
+      "hostile-NPC-sight-height",
+      "large-frame-delta"
+    ]
+  },
+  "scope": "Production generated wrapper executed in VM. Navigation is stubbed, so no rendered collision, animation, hardware performance or FEINT-01 acceptance claimed. Ordinary offline Save and reload must pass on CI; reload comparison tightened to 1e-6 world units.",
+  "pending": [
+    "rendered feint readability and navigation",
+    "real attacks following recovery",
+    "FP/TP grips and motion visual acceptance",
+    "hardware performance",
+    "non-humanoid charge feints",
+    "offline browser Save and exact-position reload"
+  ]
+}
