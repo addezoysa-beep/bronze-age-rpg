@@ -1,8 +1,11 @@
 // Diagnostic rendered rigs; full weapon matrix and visual acceptance remain open.
 export async function runGripScenario(page,check,output){
  await page.evaluate(()=>{
-  if(STATE==='talk')cancelDialogue();G.peaceful16=false;G.own.stick=1;equip('stick');
+  if(STATE==='talk')cancelDialogue();G.inv.stick_wood=(G.inv.stick_wood||0)+1;
  });
+ await page.keyboard.press('i');await page.waitForFunction(()=>STATE==='bag');
+ await page.locator('[data-tab="weapons"]').click();await page.locator('[data-right="stick_wood"]').click();
+ await page.keyboard.press('Escape');await page.waitForFunction(()=>STATE==='play');
  const measure=()=>page.evaluate(()=>{
   PH.g.updateWorldMatrix(true,true);
   const item=PH.W.stick,wrist=PH.armR.userData.wrist;
