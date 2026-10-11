@@ -1,0 +1,40 @@
+{
+  "id": "interaction-hotfix",
+  "createdOn": "2026-10-11",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "f03a99af5d20808e36c135a18970ed1a94d508c3797a18bd4967a6b77600a635",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M4",
+    "M5"
+  ],
+  "summary": "Fix story completion blocked by palace art; release pointer lock for every dialogue, clear held input, allow top-row/numpad options 1-9 and scroll long menus. Record user Low-combat, visual grip and dungeon-puzzle/trap feedback. Source fixtures pass; browser and milestone acceptance pending.",
+  "changedFiles": [
+    "scripts/interaction-checkpoint.mjs",
+    "scripts/interaction.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-interaction-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "tracking/milestones.json",
+    "tracking/updates/interaction-hotfix.json",
+    "verification/records/interaction-hotfix.json",
+    "docs/ROADMAP.md"
+  ],
+  "evidence": [
+    "verification/records/interaction-hotfix.json",
+    "node --test scripts/*.test.mjs"
+  ],
+  "dependencies": [
+    "master-development a91c7b0d89c85e8a48ea8d46b3c3330375e66ba0"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "implementation-checkpoint-not-acceptance"
+}

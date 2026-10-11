@@ -2,11 +2,12 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, sha256, compileInlineScripts } from './workflow.mjs';
+import { applyInteractionCheckpoint } from './interaction-checkpoint.mjs';
 import { applyChargeFeintCheckpoint } from './charge-feint-checkpoint.mjs';
 import { applyRevenantCheckpoint } from './revenant-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8';
+export const candidateHash = 'f03a99af5d20808e36c135a18970ed1a94d508c3797a18bd4967a6b77600a635';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -42,7 +43,7 @@ export function buildOffline(input) {
     if (html.split(before).length !== 2) throw new Error('Patch requires exactly one source match');
     html = html.replace(before, after);
   }
-  html = applyChargeFeintCheckpoint(applyRevenantCheckpoint(html));
+  html = applyInteractionCheckpoint(applyChargeFeintCheckpoint(applyRevenantCheckpoint(html)));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash');
   compileInlineScripts(html);
@@ -64,10 +65,12 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
       'Kobaloi and wolf packs permit up to ten committed attackers',
       'Kobaloi yell alerts nearby eligible packmates with range, line-of-sight, cooldown, and target expiry rules',
       'Tombs guarantee explicit Grave Revenant archer and swordsman roles with weapon-specific combat contracts',
-      'Melee humanoids and hostile NPCs can feint a collision-aware charge, pull back and recover without damage'
+      'Melee humanoids and hostile NPCs can feint a collision-aware charge, pull back and recover without damage',
+      'Story callbacks survive palace-art additions; every dialogue releases pointer lock; options 1-9 and numpad supported; long menus scroll'
     ],
     milestoneAcceptance: 'pending'
   }, null, 2) + '\n');
   console.log(JSON.stringify({ sourceSha256: sourceHash, buildSha256: candidateHash, bytes: output.length }));
 }
+
 

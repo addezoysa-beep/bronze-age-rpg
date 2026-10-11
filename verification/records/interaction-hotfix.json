@@ -1,0 +1,33 @@
+{
+  "id": "interaction-hotfix",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "f03a99af5d20808e36c135a18970ed1a94d508c3797a18bd4967a6b77600a635",
+  "status": "source-tests-passed-browser-pending",
+  "sourceTests": {
+    "passed": 51,
+    "failed": 0,
+    "includes": "Original palace-art completion failure reproduced; king completion, nested mouse callbacks, number/numpad 1-9, held-input clearing and scroll bounds"
+  },
+  "reportedBugs": [
+    "King princess option / wider NPC dialogue and wagon access",
+    "Low graphics slowdown after loading a previous save near combat",
+    "Staff misalignment and wrist overpronation visible in uploaded screenshot",
+    "Changed Cave of Pan appearance and uncertainty about puzzle progression"
+  ],
+  "confirmedSource": [
+    "Palace-art wrapper appended choices to story callbacks, making dlgAdvance return without completing",
+    "Keyboard choice handler only accepted Digit1-Digit4",
+    "Cave of Pan captain sets cave flag and reveals Knossos/Daedalus tally; sword and heart rewards exist",
+    "Cave definition retains sling targets, pressure plate/crate and locked-door objects; general timed-spike code remains",
+    "Low preset enables shadows; nearby AI costs and actual frame-rate cause remain unmeasured"
+  ],
+  "pending": [
+    "Rendered king and guide ordinary-input checks plus save/reload on exact candidate",
+    "Actual paid-wagon boarding/destination/fare regression",
+    "Player old-save combat reproduction on reference hardware",
+    "Visual grip corrective implementation and FP/TP animation tests",
+    "Cave reachability and full puzzle solutions",
+    "Additional puzzles and telegraphed traps requested by user"
+  ],
+  "screenshot": "User attachment Screenshot 2026-10-10 at 10.52.45 PM.png, Library ID libfile_377d1096465c8191b76a76ab129dee11; shows outdoor staff/wrist issue, not cave interior"
+}

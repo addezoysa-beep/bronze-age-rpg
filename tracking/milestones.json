@@ -13,6 +13,12 @@
       "proposedCount": 12,
       "proposedTypesPerFaction": 3,
       "rosterApproval": "pending"
+    },
+    "dungeonPuzzlesAndTraps": {
+      "status": "confirmed_by_user",
+      "requirement": "More puzzles in dungeons and traps; preserve existing quest routes and puzzle solutions",
+      "reportedOn": "2026-10-11",
+      "acceptance": "Readable clues, fair warning and reset/reload persistence; critical quest rewards reachable without softlocks"
     }
   },
   "milestones": [
@@ -48,7 +54,8 @@
         }
       ],
       "blockers": [
-        "Reference-device performance baseline and full original discussion reconciliation pending"
+        "Reference-device performance baseline and full original discussion reconciliation pending",
+        "User reports reduced frame rate after loading a previous save near combat on Low graphics; exact device, saved encounter and frame timings not yet captured"
       ],
       "nextAction": "Use generated pause-fixed candidate for M1 runtime checkpoints; establish reference-device performance and finish source/history reconciliation before M0 acceptance"
     },
@@ -109,7 +116,10 @@
       "tests": [
         {
           "id": "GEAR-01",
-          "status": "pending"
+          "status": "failed",
+          "method": "User playtesting screenshot: offset staff and unnatural wrist; exact downloaded build identity not independently verified",
+          "evidence": "verification/records/interaction-hotfix.json",
+          "reviewer": "User playtesting feedback in master development"
         },
         {
           "id": "ARCH-01",
@@ -121,7 +131,8 @@
         }
       ],
       "blockers": [
-        "Equipment/action contracts and item matrix need runtime verification"
+        "Equipment/action contracts and item matrix need runtime verification",
+        "User screenshot confirms offset staff attachment and apparent wrist overpronation; transform-only fixture pass does not establish visual acceptance"
       ],
       "nextAction": "Audit supported loadouts, six distinct weapon behaviors, regional models and crafting conservation"
     },
@@ -187,9 +198,10 @@
         }
       ],
       "blockers": [
-        "Eight site and twelve hideout definitions do not prove reachable, complete content"
+        "Eight site and twelve hideout definitions do not prove reachable, complete content",
+        "King story callback blocked by optional palace-art choices in baseline; hotfix source tests pass, full browser and quest-route verification pending"
       ],
-      "nextAction": "Audit site entry/exit, clear conditions, rewards and Theseus/Athens progression"
+      "nextAction": "Verify king dialogue hotfix and Cave of Pan captain/tally/Knossos progression, audit existing puzzle gates and spike reachability, then add more clue-driven puzzles and telegraphed traps"
     },
     {
       "id": "M5",

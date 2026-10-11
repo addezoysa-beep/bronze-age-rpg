@@ -2,6 +2,7 @@ import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { performance } from 'node:perf_hooks';
+import {runInteractionScenario} from './browser-interaction-scenario.mjs';
 import { root, gameHash, sha256 } from './workflow.mjs';
 
 const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Save-Fix.html');
@@ -96,6 +97,7 @@ try {
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
   const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
+  await runInteractionScenario(page,check);
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
   check('offline-resources', report.externalRequests.length === 0, report.externalRequests);
   report.status = 'passed';
@@ -112,4 +114,5 @@ finally {
   writeFileSync(resolve(output, 'browser-smoke.json'), `${JSON.stringify(report, null, 2)}\n`);
   console.log(JSON.stringify(report, null, 2));
 }
+
 
