@@ -2,7 +2,7 @@
   "id": "interaction-hotfix",
   "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "buildSha256": "6a338f252e81aabde83165cff6bb44ddda0ef12beb5b0ab2426735b11e01883b",
-  "status": "source-tests-passed-browser-pending",
+  "status": "source-tests-passed-browser-queued",
   "sourceTests": {
     "passed": 52,
     "failed": 0,
@@ -36,6 +36,12 @@
       "id": 38106812583,
       "status": "failed",
       "reason": "Scenario initially rejected legitimate local-affairs menu before clicking it; startup, movement and exact save/reload passed. Harness corrected to click actual menu."
+    },
+    {
+      "id": 38107110283,
+      "status": "pending",
+      "commit": "83c2144326f9c2efef2f884153c17c06d79ebcbb",
+      "candidateSha256": "6a338f252e81aabde83165cff6bb44ddda0ef12beb5b0ab2426735b11e01883b"
     }
   ]
 }

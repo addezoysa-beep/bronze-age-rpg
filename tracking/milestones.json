@@ -199,7 +199,8 @@
       ],
       "blockers": [
         "Eight site and twelve hideout definitions do not prove reachable, complete content",
-        "King story callback blocked by optional palace-art choices in baseline; hotfix source tests pass, full browser and quest-route verification pending"
+        "King story callback blocked by optional palace-art choices in baseline; hotfix source tests pass, full browser and quest-route verification pending",
+        "Shared NPC sleep-wrapper getter re-enters newly assigned menus when original dialogue is selected; snapshot fix and 52 source tests pass, actual mouse browser check queued"
       ],
       "nextAction": "Verify king dialogue hotfix and Cave of Pan captain/tally/Knossos progression, audit existing puzzle gates and spike reachability, then add more clue-driven puzzles and telegraphed traps"
     },
