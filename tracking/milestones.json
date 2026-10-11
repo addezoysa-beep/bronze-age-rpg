@@ -179,22 +179,23 @@
       "implementation": "candidate",
       "buildSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
       "sourceTests": "70 passed",
-      "runtime": "pending"
+      "runtime": "Scoped ordinary Troy arrival/storm/unknown/pause Save/exact reload passed run38114903163. More destinations and old-save gameplay pending; no milestone accepted.",
+      "pr": 25
     },
     "openingSling": {
       "id": "OPEN-60",
       "status": "confirmed_by_user",
       "implementation": "candidate",
-      "artifactSha256": "5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4",
-      "sourceTests": 77,
+      "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+      "sourceTests": 79,
       "runtime": "Prepared post-shearing direct grant/repeat/Save fixture pending; full beginning/Pan/target hit runtime not verified"
     },
     "panQuestItem": {
       "id": "OPEN-60",
       "status": "confirmed_by_user",
       "implementation": "candidate",
-      "artifactSha256": "dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d",
-      "sourceTests": 85,
+      "artifactSha256": "eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a",
+      "sourceTests": 87,
       "runtime": "Initial prepared-cave UI entry crashed active mine/military chest wrappers on absent ch; guards fixed,85 source tests pass, corrected UI pending."
     }
   },

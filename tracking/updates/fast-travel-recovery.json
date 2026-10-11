@@ -1,0 +1,41 @@
+{
+  "id": "fast-travel-recovery",
+  "createdOn": "2026-10-11",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "summary": "Repair fast-travel loading/landing/discovery;70 source tests and scoped ordinary offline Troy map arrival/Save/exact reload passed. Preserve full October11 requirements and pending quest corrections; no milestone accepted.",
+  "changedFiles": [
+    "scripts/fast-travel-checkpoint.mjs",
+    "scripts/fast-travel.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-fast-travel-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "docs/USER_FEEDBACK_20261011.md",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json",
+    "verification/records/fast-travel-recovery.json"
+  ],
+  "evidence": [
+    "verification/records/fast-travel-recovery.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "passed",
+    "buildSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+    "scope": "Reviewed bounded landing/loading/discovery transformations;70 source tests and scoped offline ordinary UI CI passed; no milestone acceptance",
+    "evidence": "verification/records/fast-travel-recovery.json"
+  },
+  "releaseStatus": "implementation-checkpoint-not-acceptance",
+  "runtimeEvidence": "verification/records/fast-travel-recovery.json"
+}

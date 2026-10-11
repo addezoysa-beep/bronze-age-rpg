@@ -17,15 +17,15 @@
       "failureArtifact": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114307672/artifacts/11693396273",
       "correction": "Harness waits for arrival independent of intentional bag/level-up menu, closes actual #bagclose with ordinary mouse; code hash unchanged.",
       "correctedRun": 38114903163,
-      "runtime": "in_progress/pending inspection"
+      "runtime": "Scoped Troy map arrival/storm/unknown/ordinary pause Save/exact reload passed38114903163; reviewed for integration. All-destination/old-save/performance pending."
     },
     {
       "pr": 26,
       "branch": "m1/phocas-sling-route",
       "base": "PR25 feature branch; retarget master after25 reviewed/merged",
-      "head": "b1974c8d71a3570b507f5d46663e2c56b250ef36",
-      "artifactSha256": "5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4",
-      "sourceTests": 77,
+      "head": "a7084cfd6ecf74a793eb2c8380a6999953297250",
+      "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+      "sourceTests": 79,
       "scope": "Direct physical wooden sling/equip, repeat-safe initial12stones/progress, explicit unfinished-drill choice, stone range hits/grounded bases. No full opening/aim/hit/certification visuals.",
       "initialRun": 38114572790,
       "runtime": "Initial repository CI passed; old browser harness still running at inspection. Latest corrected head pending; no UI acceptance."
@@ -34,9 +34,9 @@
       "pr": 27,
       "branch": "m4/pan-physical-tally",
       "base": "PR26 feature branch; retarget after26 reviewed/merged",
-      "head": "58884bf6d91c07480200d1b15e077b419c9dfdba",
-      "artifactSha256": "dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d",
-      "sourceTests": 85,
+      "head": "e08983fdfe313f08efd2450c6a2a964a8bb395d4",
+      "artifactSha256": "eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a",
+      "sourceTests": 87,
       "testCommand": "node --test --test-concurrency=2 scripts/*.test.mjs",
       "scope": "Normal boss-chest tangible tablet, objective/evidence-dependent Daedalus gate, old opened-chest migration without heart duplication and completed-story compatibility, nonduplicate receipt. Independent sling/Pan UI matrix jobs.",
       "run": 38114918150,
@@ -56,5 +56,12 @@
     "Then follow workplace/task/action contracts, immersion/scripts/regional law/economy and mountain/sea/islands requirements in canonical spec."
   ],
   "milestoneAcceptance": "none",
-  "unrecoverableBlockers": []
+  "unrecoverableBlockers": [],
+  "trainingFollowup": "Run38115196147 ordinary grant/equip passed, but unintended ambient training certified seeded partial lesson. Damage wrappers award based on held player weapon. Corrected sling credit to confirmed player stone impacts only, suppressing ally/arrow/unattributed callbacks;79/87 tests pass, corrected browser pending. Pan prepared UI still running before latest change; not accepted.",
+  "integratingFastTravel": {
+    "pr": 25,
+    "artifactSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+    "review": "scoped runtime/source reviewed; no milestone acceptance",
+    "build": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114903163/artifacts/11693003135"
+  }
 }

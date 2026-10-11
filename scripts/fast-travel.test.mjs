@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import {fastTravelRuntime,applyFastTravelCheckpoint} from './fast-travel-checkpoint.mjs';
+function fixture(){
+ const f={DISC:[{id:'town',name:'Town',x:10,z:20}],G:{disc:{town:1},silver:80,time:12,weather:{kind:'clear'}},P:{x:0,z:0,mode:'foot',rollT:1,crouch:true,rest:{}},STREAM:{building:false},AREA:'over',STATE:'map',CAM:{},cameraReady:true,notices:[],saved:[],height:3,blocked:false,threats:[]};
+ Object.assign(f,{toast:m=>f.notices.push(m),freeLandNear:()=>({x:12,z:20}),heightAt:()=>f.height,colBlocked:()=>f.blocked,nearbyThreats:()=>f.threats,hyp:Math.hypot,groundY:()=>3,closeMap:()=>{f.STATE='play'},fadeFlash:()=>{},showAreaTitle:()=>{},save:()=>f.saved.push({state:f.STATE,x:f.P.x,z:f.P.z,silver:f.G.silver}),streamArrival:async(x,z,action)=>{f.STREAM.building=true;f.STATE='loading';try{if(f.reject)throw Error('stream failure');action()}catch{f.STATE='play'}finally{f.STREAM.building=false}}});vm.createContext(f);vm.runInContext(fastTravelRuntime,f);return f;
+}
+test('arrival exits loading before saving, grounds player and clears movement',async()=>{const f=fixture();await f.travelLandmark13('town');assert.equal(f.STATE,'play');assert.equal(f.P.mode,'foot');assert.equal(f.P.y,3);assert.equal(f.P.rollT,0);assert.equal(f.P.crouch,false);assert.equal(f.P.rest,null);assert.deepEqual(f.saved,[{state:'play',x:12,z:20,silver:80}]);});
+test('old name discovery remains usable and becomes canonical only on successful arrival',async()=>{const f=fixture();f.G.disc={Town:1};await f.travelLandmark13('town');assert.equal(f.G.disc.town,1);assert.equal(f.saved.length,1);});
+test('undiscovered and rumoured destinations cannot travel',()=>{const f=fixture();f.G.disc={};f.G.world={chart:{rumours:{town:{}}}};f.travelLandmark13('town');assert.equal(f.STATE,'map');assert.equal(f.saved.length,0);assert.match(f.notices[0],/Visit/)});
+for(const [name,setup] of [['storm',f=>f.G.weather.kind='storm'],['swimming',f=>f.P.mode='swim'],['dead',f=>f.P.dead=true],['busy',f=>f.STREAM.building=true],['dungeon',f=>f.AREA='pan'],['near enemy',f=>f.threats=[{x:10,z:0}]],['blocked landing',f=>f.blocked=true],['water landing',f=>f.height=0]])test(name+' refuses without cost, position or save changes',()=>{const f=fixture();setup(f);f.travelLandmark13('town');assert.equal(f.P.x,0);assert.equal(f.G.silver,80);assert.equal(f.G.time,12);assert.equal(f.saved.length,0);assert.equal(f.STATE,'map');assert.ok(f.notices.length)});
+test('far spatial-bucket actors do not prevent safe departure',async()=>{const f=fixture();f.threats=[{x:40,z:40}];await f.travelLandmark13('town');assert.equal(f.saved.length,1)});
+test('stream failure retains position, discovery and silver without a save',async()=>{const f=fixture();f.reject=true;f.G.disc={Town:1};await f.travelLandmark13('town');assert.equal(f.STATE,'play');assert.equal(f.P.x,0);assert.equal(f.G.silver,80);assert.equal(f.G.disc.town,undefined);assert.equal(f.saved.length,0)});
+test('source transformation rejects unexpected active code',()=>assert.throws(()=>applyFastTravelCheckpoint('bad source')));

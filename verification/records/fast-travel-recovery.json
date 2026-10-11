@@ -1,0 +1,29 @@
+{
+  "id": "fast-travel-recovery",
+  "recordedOn": "2026-10-11",
+  "baseHead": "5f6846fcd056627d8f1caa4bd45c0ea7d94ebb77",
+  "artifactSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+  "sourceTests": {
+    "passed": 70,
+    "failed": 0
+  },
+  "reproduction": "travelLandmark13 never returns STATE to play after streamArrival sets loading. freeLandNear can return unsafe fallback; final menu ignores old exact-name discovery.",
+  "runtime": {
+    "status": "passed_scoped",
+    "head": "52a5853d5aa94996d143c6f6998ea5583b27ac3f",
+    "run": 38114903163,
+    "job": 114397766013,
+    "browser": "Chromium151 offline VeryLow software diagnostic",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114903163/artifacts/11693517126",
+    "playable": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114903163/artifacts/11693003135",
+    "checks": "ordinary mouse map selection/unknown locked/storm refusal/Troy safe arrival/ordinary pause Save/exact reload; baseline dialogue/paid Ur/fare/Save pass; zero page errors or network requests",
+    "limits": "Prepared discovery/quiet departure. Old-name alias distinction source-tested; selected Troy id/name identical. More destinations, natural discovery, old-save migration and performance not accepted."
+  },
+  "milestoneAcceptance": "none",
+  "handoff": [
+    "Inspect actual mouse arrival/Save scenario CI. No forced clicks/programmatic saves.",
+    "Opening sling grant exists behind nested lessons; investigate actual lesson choice/progress rather than duplicate grants.",
+    "Latest corrected PR19/20/21 heads had no returned PR-triggered CI runs; remain unmerged.",
+    "Next Phocas/Pan ordinary route, ground-safe rolls, grips and Low old-save combat."
+  ]
+}
