@@ -47,6 +47,10 @@ export function applyPanTallyCheckpoint(html){
  const anchor='const tutorial35Before=tutorialTalk2;tutorialTalk2=function(n)';
  if(html.split(anchor).length!==2)throw Error('Expected story insertion anchor');
  html=html.replace(anchor,panTallyRuntime+'\n'+anchor);
+ for(const [before,after] of [['if(!ch.supply22)','if(!ch||!ch.supply22)'],['if(ch.items36){','if(ch&&ch.items36){']]){
+  if(html.split(before).length!==2)throw Error('Expected chest-wrapper guard');
+  html=html.replace(before,after);
+ }
  const reward='s.loot[id].reward15=item;return takeWorldLoot(id);';
  if(html.split(reward).length!==2)throw Error('Expected normal chest loot route');
  html=html.replace(reward,'s.loot[id].reward15=item;ensurePanTally61(id);return takeWorldLoot(id);');

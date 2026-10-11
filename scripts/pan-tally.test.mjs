@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
-import {panTallyRuntime} from './pan-tally-checkpoint.mjs';
+import {readFileSync} from 'node:fs';
+import {panTallyRuntime,applyPanTallyCheckpoint} from './pan-tally-checkpoint.mjs';
 function fixture(){
  const f={WEIGHT:{},G:{inv:{}},flags:{cave:1,daedalus:0},world:{loot:{}},state:{chests:{}},DGS:{},AREA:'over',LOC:{cave:{x:1,z:2}},WEIGHT:{},hudQuest:()=>{},mainObjective13:()=>({t:'Daedalus'}),itemLabel:k=>k,makeBossRewardChest15:()=>{},daedalusTalk:()=>f.advanced=true,say:(name,lines)=>f.reply=lines};
  Object.assign(f,{F:()=>f.flags,livingState:()=>f.world,gstate:()=>f.state,putLoot:(id,x,z,area,items)=>f.world.loot[id]={items,claimed:false},lootEquipment:items=>{for(const[k,n]of Object.entries(items))f.G.inv[k]=(f.G.inv[k]||0)+n;}});
@@ -15,3 +16,12 @@ test('old opened chest migration adds tablet without reviving heart',()=>{const 
 test('completed old Daedalus progression remains unblocked and no retroactive reward',()=>{const f=fixture();f.flags.daedalus=1;f.world.loot[chest]={items:{heart:0},claimed:true};f.ensurePanTally61(chest);assert.equal(f.world.loot[chest].items[item],undefined);f.daedalusTalk({name:'Daedalus'});assert.equal(f.advanced,true)});
 test('unknown chest or uncleared cave grants nothing',()=>{const f=fixture();f.world.loot[chest]={items:{},claimed:false};f.flags.cave=0;f.ensurePanTally61(chest);assert.equal(f.world.loot[chest].items[item],undefined);f.flags.cave=1;f.ensurePanTally61('other');assert.equal(f.world.loot[chest].items[item],undefined)});
 test('serialized receipt remains nonduplicating when reloaded',()=>{const f=fixture();f.lootEquipment({[item]:1});const save=JSON.parse(JSON.stringify({G:f.G,world:f.world}));const q=fixture();q.G=save.G;q.world=save.world;q.lootEquipment({[item]:1});assert.equal(q.G.inv[item],1);q.daedalusTalk({name:'Daedalus'});assert.equal(q.advanced,true)});
+
+test('active military and mine chest wrappers preserve no-chest boss creation on death and cleared-cave revisit',()=>{
+ const html=applyPanTallyCheckpoint(readFileSync(new URL('../index.html',import.meta.url),'utf8'));
+ const f={calls:0,rewardChest:()=>f.calls++};vm.createContext(f);
+ for(const name of ['supplyReward22Before','chestReward36Before']){
+  const line=html.split('\n').find(l=>l.startsWith('const '+name+'='));assert.ok(line);vm.runInContext(line,f);
+ }
+ f.rewardChest({id:'cave'});f.rewardChest({id:'cave'});assert.equal(f.calls,2);
+});
