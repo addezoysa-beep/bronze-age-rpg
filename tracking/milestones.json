@@ -180,6 +180,14 @@
       "buildSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
       "sourceTests": "70 passed",
       "runtime": "pending"
+    },
+    "openingSling": {
+      "id": "OPEN-60",
+      "status": "confirmed_by_user",
+      "implementation": "candidate",
+      "artifactSha256": "5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4",
+      "sourceTests": 77,
+      "runtime": "Prepared post-shearing direct grant/repeat/Save fixture pending; full beginning/Pan/target hit runtime not verified"
     }
   },
   "milestones": [

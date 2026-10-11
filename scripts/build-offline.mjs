@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, sha256, compileInlineScripts } from './workflow.mjs';
+import { applyOpeningSlingCheckpoint } from './opening-sling-checkpoint.mjs';
 import { applyFastTravelCheckpoint } from './fast-travel-checkpoint.mjs';
 import { applyLowGraphicsCheckpoint } from './low-graphics-checkpoint.mjs';
 import { applyInteractionCheckpoint } from './interaction-checkpoint.mjs';
@@ -9,7 +10,7 @@ import { applyChargeFeintCheckpoint } from './charge-feint-checkpoint.mjs';
 import { applyRevenantCheckpoint } from './revenant-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50';
+export const candidateHash = '5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -45,7 +46,7 @@ export function buildOffline(input) {
     if (html.split(before).length !== 2) throw new Error('Patch requires exactly one source match');
     html = html.replace(before, after);
   }
-  html = applyFastTravelCheckpoint(applyLowGraphicsCheckpoint(applyInteractionCheckpoint(applyChargeFeintCheckpoint(applyRevenantCheckpoint(html)))));
+  html = applyOpeningSlingCheckpoint(applyFastTravelCheckpoint(applyLowGraphicsCheckpoint(applyInteractionCheckpoint(applyChargeFeintCheckpoint(applyRevenantCheckpoint(html))))));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash');
   compileInlineScripts(html);
