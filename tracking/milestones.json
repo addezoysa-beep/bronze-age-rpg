@@ -188,6 +188,14 @@
       "artifactSha256": "5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4",
       "sourceTests": 77,
       "runtime": "Prepared post-shearing direct grant/repeat/Save fixture pending; full beginning/Pan/target hit runtime not verified"
+    },
+    "panQuestItem": {
+      "id": "OPEN-60",
+      "status": "confirmed_by_user",
+      "implementation": "candidate",
+      "artifactSha256": "bc1cc472f4724330f0a08b947494bb7d7d70a7fe7936bdef4e51f3f74a0dc2cc",
+      "sourceTests": 84,
+      "runtime": "Ordinary defeated-captain chest/repeat/Save fixture pending; full cave approach/puzzles/boss/Daedalus still pending"
     }
   },
   "milestones": [

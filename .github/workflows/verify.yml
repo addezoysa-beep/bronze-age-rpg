@@ -21,7 +21,7 @@ jobs:
           node-version: '22'
       - run: node scripts/verify.mjs
       - run: node scripts/build-offline.mjs
-      - run: node --test scripts/*.test.mjs
+      - run: node --test --test-concurrency=2 scripts/*.test.mjs
       - name: Main milestone gate
         if: github.event_name == 'pull_request' && github.base_ref == 'main'
         run: node scripts/main-check.mjs
@@ -51,3 +51,30 @@ jobs:
         with:
           name: offline-browser-evidence
           path: verification/runtime/
+
+
+  quests:
+    timeout-minutes: 12
+    name: Ordinary quest UI (${{ matrix.scenario }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [sling, pan]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/build-offline.mjs
+      - run: node scripts/browser-quest-candidate.mjs
+        env:
+          WDS_QUEST_SCENARIO: ${{ matrix.scenario }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quest-ui-${{ matrix.scenario }}-evidence
+          path: verification/runtime/
+          if-no-files-found: error
