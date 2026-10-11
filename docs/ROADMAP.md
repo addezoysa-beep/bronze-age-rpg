@@ -108,3 +108,9 @@ assigned until baseline audit and unresolved requirement wording are recovered.
 Prioritize blocked king/other NPC dialogue and wagon actions, then Low-preset old-save combat profiling and visual staff grip/wrist correction before broad faction work. Transform-only hand tests do not establish GEAR-01 acceptance; the supplied screenshot is failed visual evidence. Recover a representative old save for performance comparisons without reducing the required 8–10 concurrent attackers.
 
 M4 additionally requires more dungeon puzzles and traps. Audit the existing Cave of Pan sling-target, crate/pressure-plate, locked-door and captain/cargo-tally route first; preserve progression to Daedalus in Knossos. Add clue-driven puzzle combinations and telegraphed traps with reset/save persistence and avoid unavoidable damage or inaccessible quest rewards. Existing definitions alone do not prove reachable gameplay.
+
+## October 11 continuation checkpoint
+
+PR #18 verifies ordinary paid Ur wagon choice, exact 80-silver deduction and destination pause Save/exact-position reload. Grip wrist bounds are a separate unaccepted candidate; GEAR-01 remains failed pending visual review.
+
+Four additional remedies (honeyed fig restorative, concentrated herbal remedy, timed herb infusion, stamina-regeneration draught) are authorized for M2 crafting/survival, including obtainable lessons/vendor paths and pause/death/save safe nonstacking effects. Higher tipped-arrow/weapon/armor prices, weaker all-wood arrow points and settlement-tier stock/recipes/dialogue are authorized across M2/M3/M5. They remain planned, with ordinary purchase/crafting/use/ammo/save verification required. Keep grip, old-save Low combat and Cave of Pan/puzzles priorities.
