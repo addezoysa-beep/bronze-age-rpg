@@ -11,7 +11,7 @@ import { applyChargeFeintCheckpoint } from './charge-feint-checkpoint.mjs';
 import { applyRevenantCheckpoint } from './revenant-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d';
+export const candidateHash = 'eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */

@@ -2,7 +2,7 @@
   "id": "pan-physical-tally",
   "createdOn": "2026-10-11",
   "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563852cacb0efbe177",
-  "artifactSha256": "dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d",
+  "artifactSha256": "eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a",
   "milestoneIds": [
     "M0",
     "M1",

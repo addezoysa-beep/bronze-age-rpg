@@ -6,8 +6,8 @@
     "PR25 fast travel",
     "PR26 sling route"
   ],
-  "artifactSha256": "dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d",
-  "sourceTests": 85,
+  "artifactSha256": "eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a",
+  "sourceTests": 87,
   "implementation": [
     "Actual salt-stained cargo tablet in ordinary captain chest, not narration-only",
     "Objective requires collecting the tablet before next lead; Daedalus refuses before cave evidence",
@@ -31,5 +31,6 @@
       "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114918150/artifacts/11693521315"
     ],
     "acceptance": "pending corrected CI"
-  }
+  },
+  "trainingCreditFollowup": "Ordinary rerun38115196147 granted sling but ambient training progressed/certified without player impacts. Sling credit now requires a confirmed player-stone range hit or damage impact; suppresses unattributed/ally/arrow callbacks and duplicates; corrected runtime pending."
 }
