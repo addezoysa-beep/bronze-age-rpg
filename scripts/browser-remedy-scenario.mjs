@@ -6,24 +6,28 @@ export async function runRemedyScenario(page,check){
   G.silver=1000;G.time=12;P.x=n.x;P.z=n.z+2;P.y=groundY(P.x,P.z);P.dead=false;n.sleep35=false;n.sleeping=false;
   G.hp=10;ensureStamina();G.stamina=10;G.remedies62={};n.talk(n);
  });
+ async function openShop(){
+ if(await page.evaluate(()=>STATE==='play')){await page.keyboard.press('e');await page.waitForFunction(()=>STATE==='talk');}
  for(let i=0;i<20;i++){
   const menu=await page.evaluate(()=>({last:DLG.i>=DLG.lines.length-1,choices:DLG.choices?.map(c=>c.t)||[]}));
   if(!menu.last){await page.keyboard.press('e');continue;}
+  if(menu.choices.some(t=>t.startsWith('Buy Honeyed fig restorative')))break;
   const target=menu.choices.find(t=>t==='More health and stamina remedies')||menu.choices.find(t=>/^(Other matters|Local affairs)/.test(t));
   if(!target)throw new Error('Healer restoratives menu unreachable: '+menu.choices.join(' | '));
   await page.locator('#dchoices button').filter({hasText:target}).click();if(target==='More health and stamina remedies')break;
  }
  // Complete displayed introduction before clicking the purchase choices.
  while(await page.evaluate(()=>DLG.i<DLG.lines.length-1))await page.keyboard.press('e');
+ }
  for(const name of ['Honeyed fig restorative','Concentrated herbal remedy','Restorative herb infusion','Barley endurance draught']){
-  await page.locator('#dchoices button').filter({hasText:'Buy '+name+' ·'}).click();
+  await openShop();await page.locator('#dchoices button').filter({hasText:'Buy '+name+' ·'}).click();
  }
  const bought=await page.evaluate(()=>({silver:G.silver,counts:Object.fromEntries(Object.keys(REMEDIES62).map(k=>[k,G.inv[k]]))}));
  check('remedy-healer-four-purchases',bought.silver===888&&Object.values(bought.counts).every(n=>n===1),bought);
  // Actual mouse insufficient-funds path must not deduct or add an item.
- await page.evaluate(()=>G.silver=0);await page.locator('#dchoices button').filter({hasText:'Buy Honeyed fig restorative ·'}).click();
+ await openShop();await page.evaluate(()=>G.silver=0);await page.locator('#dchoices button').filter({hasText:'Buy Honeyed fig restorative ·'}).click();
  check('remedy-healer-insufficient-funds',await page.evaluate(()=>G.silver===0&&G.inv.fig_restorative62===1),{});
- await page.keyboard.press('Escape');await page.waitForFunction(()=>STATE==='play');
+ if(await page.evaluate(()=>STATE==='talk'))await page.keyboard.press('Escape');await page.waitForFunction(()=>STATE==='play');
  await page.keyboard.press('i');await page.waitForFunction(()=>STATE==='bag');
  await page.locator('[data-tab="food"]').click();
  await page.locator('[data-eat="fig_restorative62"]').click();
