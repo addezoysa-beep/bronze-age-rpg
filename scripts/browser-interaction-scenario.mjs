@@ -12,12 +12,14 @@ export async function runInteractionScenario(page,check){
  });
  await page.waitForFunction(()=>STATE==='talk');
  await page.waitForFunction(()=>document.pointerLockElement===null);
- for(let i=0;i<8;i++){
+ const kingMenus=new Set();
+ for(let i=0;i<24;i++){
   const s=await page.evaluate(()=>({king:F().king,state:STATE,last:DLG.i>=DLG.lines.length-1,choices:DLG.choices?.map(c=>c.t)||[]}));
   if(s.king)break;
   if(s.last&&s.choices.length){
-   const route=s.choices.find(t=>t==='Local affairs and quests'||t==='Other matters / quests'||t==='Other matters');
+   const route=s.choices.find(t=>t==='Discuss the kingdom and your original business'||t==='Discuss the war / original business'||t==='Local affairs and quests'||t==='Other matters / quests'||t==='Other matters');
    if(!route)throw new Error('King completion blocked by choices: '+s.choices.join(' | '));
+   const signature=s.choices.join(' | ');if(kingMenus.has(signature))throw new Error('King menu recursion: '+signature);kingMenus.add(signature);
    await page.locator('#dchoices button').filter({hasText:route}).click();
    continue;
   }
