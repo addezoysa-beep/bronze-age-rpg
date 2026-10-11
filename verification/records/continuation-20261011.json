@@ -1,0 +1,46 @@
+{
+  "id": "continuation-20261011",
+  "recordedOn": "2026-10-11",
+  "masterHead": "bb5bdea60cc617ed0150d9b65a21f78c5af01535",
+  "integrated": {
+    "pr": 18,
+    "artifactSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38108054324/artifacts/11690955677",
+    "playable": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38108054324/artifacts/11691385356",
+    "result": "Inspected decoded job 114377687776: ordinary Ur choice deducts 80 from 100, arrives on foot at 3860/1210, ordinary pause Save/reload retains position and 20 silver; zero page errors/external requests."
+  },
+  "activeCandidates": [
+    {
+      "pr": 19,
+      "head": "61039c3f08c14ade2a1273f562c719bb0f278ac4",
+      "artifactSha256": "07ccc3a523daf6604d454595349b81e7e7ec20d9ae0fdd718309ccd11b0ec9ba",
+      "sourceTests": 57,
+      "scope": "Bound wrist rotation 65deg; preserve weapon orientation/anchor. Full visual fit NOT accepted.",
+      "status": "CI runtime pending; first harness wrongly assumed G.own grants inventory stick, corrected to actual Weapons mouse equip. No forced clicks."
+    },
+    {
+      "pr": 20,
+      "head": "a822437822c5d4d361d311ecd908f880a7918286",
+      "artifactSha256": "e9f85a7b483efbf5c9b48aa7fd6179ea72b849763ce8e5f4ea0dd3a629b00ec0",
+      "sourceTests": 64,
+      "scope": "Four remedies, recipes/healer stock/lessons/Food use; serialized bounded timers/budget, death/pause safety, regen restrictions. Production crafting gates/conservation tested.",
+      "status": "CI runtime pending; ordinary lesson/craft and real effect expiry remain pending."
+    },
+    {
+      "pr": 21,
+      "head": "f44978b3adefd9aefe49c612a32ea6ccc03840b6",
+      "artifactSha256": "795c65f2f3bed1b835dc1444255c6db92a2f93f6f319685de3ba12ed17d4200c",
+      "sourceTests": 61,
+      "scope": "Wood-arrow damage 0.55 and wood point; shared material geometry and explicit tactical NPC ammo; existing bundle prices 6/32/64/96/180.",
+      "status": "CI runtime pending. Full shooting/recovery/craft/arbitrage/NPC provenance and remaining equipment/city economy pending."
+    }
+  ],
+  "handoff": [
+    "Inspect latest heads/Actions logs and artifact reports; do not duplicate active implementation.",
+    "All three branches start at PR18 merge and modify build-offline/browser harness/roadmap/tracker. Reconcile changes explicitly; do not overwrite one candidate with another. Regenerate combined candidate hash and rerun affected source/browser scenarios before master integration.",
+    "Do not mark GEAR-01 or milestones accepted from transform tests or smoke alone.",
+    "Preserve M1 grip/performance and M4 Cave of Pan/puzzle/trap priorities. Full weapon/armor prices and settlement service tiers still require source-audited implementation.",
+    "Git shell fetch lacked credentials; authenticated GitHub connector read/feature branch/tree/commit/PR/merge paths worked. Do not disable continuation for that recoverable shell-only limitation."
+  ],
+  "milestoneAcceptance": "none"
+}

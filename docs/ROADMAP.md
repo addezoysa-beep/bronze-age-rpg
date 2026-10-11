@@ -108,3 +108,9 @@ assigned until baseline audit and unresolved requirement wording are recovered.
 Prioritize blocked king/other NPC dialogue and wagon actions, then Low-preset old-save combat profiling and visual staff grip/wrist correction before broad faction work. Transform-only hand tests do not establish GEAR-01 acceptance; the supplied screenshot is failed visual evidence. Recover a representative old save for performance comparisons without reducing the required 8–10 concurrent attackers.
 
 M4 additionally requires more dungeon puzzles and traps. Audit the existing Cave of Pan sling-target, crate/pressure-plate, locked-door and captain/cargo-tally route first; preserve progression to Daedalus in Knossos. Add clue-driven puzzle combinations and telegraphed traps with reset/save persistence and avoid unavoidable damage or inaccessible quest rewards. Existing definitions alone do not prove reachable gameplay.
+
+## October 11 integrated progress and active candidates
+
+PR #18 is integrated: paid Ur travel, exact 80-silver deduction and ordinary destination pause Save/exact-position reload are verified on candidate 043091f3. PRs #19 (grip wrist bounds), #20 (four remedies) and #21 (wood-arrow identity/damage and tipped bundle prices) are separate unmerged candidates with passing source tests and pending runtime/visual review. See verification/records/continuation-20261011.json for exact hashes, heads, evidence, scope limits and conflict-resolution handoff. No milestone is accepted.
+
+The full weapon/armor price ladder and bigger-city regional stocks/ingredients/advanced lessons/accurate dialogue are still planned. Remedies require ordinary UI lesson/crafting/expiry verification; arrows require material damage/recovery/craft/loot/sell and NPC provenance checks. Keep grip, old-save Low combat and Cave of Pan progression/puzzles/traps priorities.
