@@ -1,0 +1,240 @@
+{
+  "buildSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
+  "status": "offline-asset-decode-passed",
+  "scope": "ffprobe metadata and complete ffmpeg PCM decode of ten embedded scores. Does not verify browser routing, transitions, listening quality or AUDIO-02 acceptance. PCM content hashes also confirm ten distinct decoded tracks. ffmpeg volumedetect mean/peak levels are diagnostic only, not a listening/volume balance acceptance.",
+  "distinctTracks": 10,
+  "embeddedBytes": 8405730,
+  "tracks": [
+    {
+      "track": "original53_0",
+      "sha256": "32e75356a48b80c2a75de6c6fa485578e7e2dfe869c5fbe0247e5b2859514b5e",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "70cfa1ddb52e6450e9aaa8d1cf10b480d0ffad7cec5b6842f269eb4b4e08bfd6",
+      "meanVolumeDb": -19.7,
+      "peakVolumeDb": -2.7
+    },
+    {
+      "track": "original53_1",
+      "sha256": "97008d527ba0e743f923a0b5222221d21830246e3775ee4a40b26c1554d7b7f7",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "3ad0a8e54d7c6c5f7d823bf73a29c0274869e734013aaa903cfe2d85608fa05c",
+      "meanVolumeDb": -20.1,
+      "peakVolumeDb": -3.4
+    },
+    {
+      "track": "original53_2",
+      "sha256": "9fdf1d7cb479e34ee65c5516b317ad98d9dca138e32fa4e06245b6b8ce65b744",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "28fc0989232d7d62ce50e18cfe8ddf70c647e6f420da39a5449eaf15a893cbda",
+      "meanVolumeDb": -22.1,
+      "peakVolumeDb": -5.1
+    },
+    {
+      "track": "original53_3",
+      "sha256": "9277dd49c8c57f937a39de589a028a0de10e88392eceafc16c67bc4dd00e38cc",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "934125625ccb617787e628d9cdcb34144213c9240660d142cffda26854c25e41",
+      "meanVolumeDb": -20.4,
+      "peakVolumeDb": -5.0
+    },
+    {
+      "track": "original53_4",
+      "sha256": "c07192dbda8656057c32b134c124d8b368f3216593c3c4934437b91f6cc63536",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "0b4cf238aec074a809cfc9897505f6950dfff8f3ea33854af801c1fcc1902837",
+      "meanVolumeDb": -21.2,
+      "peakVolumeDb": -5.4
+    },
+    {
+      "track": "music54_0",
+      "sha256": "fe00a3b803098613411f10b403e0e51e9e55e0a723193829460f9d1018d88ca0",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "5b019848a30dfba1af75b93eddaa26b876dd3db267fcb7926b67b7bdae89ce68",
+      "meanVolumeDb": -19.8,
+      "peakVolumeDb": -2.2
+    },
+    {
+      "track": "music54_1",
+      "sha256": "952dfa941040b48cd115697fc048f5704609f11f71e4161b5b92cec81e7ed267",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "2af1a1beda46502608c505d75a2cbd5e213757610f5d2d8713c7f3976f9c5b9c",
+      "meanVolumeDb": -19.9,
+      "peakVolumeDb": -4.7
+    },
+    {
+      "track": "music54_2",
+      "sha256": "161294d9325ca70a5dcbac3c31f9b368cb18eade81f495bbf6f900fca5e663a2",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "a60c9e6cb2d5d54fd6433a5cf1848407cc7b32336d81863b97d8baa20a1ecb96",
+      "meanVolumeDb": -19.1,
+      "peakVolumeDb": -1.5
+    },
+    {
+      "track": "music54_3",
+      "sha256": "360c9313db22f9ae783fd277a309a7806e30dc2a85f5bab548187bbf7b9f2e5f",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "efb05943f9614938402e63995619f5a887413d1f73a4a3478f7e0924f7b6a41c",
+      "meanVolumeDb": -19.2,
+      "peakVolumeDb": -1.5
+    },
+    {
+      "track": "music54_4",
+      "sha256": "b2dddc88462b7722428da805b1dd025cdd538d8e203b39d46fb284c54f98c6d5",
+      "bytes": 840573,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "120.048000"
+        }
+      },
+      "decodePassed": true,
+      "decodeErrors": "",
+      "decodedPcmSha256": "1eb6a4b44d6a19adfb536e4ee9cfcaa195fd0b072348daff2c3f5581ebeb0659",
+      "meanVolumeDb": -18.9,
+      "peakVolumeDb": -0.0
+    }
+  ],
+  "distinctDecodedTracks": 10
+}

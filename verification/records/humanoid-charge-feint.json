@@ -1,0 +1,44 @@
+{
+  "id": "humanoid-charge-feint",
+  "recordedAt": "2026-10-11T02:15:00Z",
+  "buildSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "status": "source-math-decode-and-offline-smoke-passed-rendered-combat-pending",
+  "tests": {
+    "repository": "passed",
+    "inlineCompilation": "passed",
+    "fullFixtures": {
+      "passed": 43,
+      "failed": 0
+    },
+    "newFixtures": [
+      "advance-retreat-recovery-no-damage",
+      "blocked-route-bounded-completion",
+      "eligibility-and-sight",
+      "stun-interruption",
+      "hostile-NPC-sight-height",
+      "large-frame-delta",
+      "real-melee-strike-after-feint-recovery"
+    ],
+    "gripMath": {
+      "status": "passed",
+      "method": "Execute final production closeGrip23 and gripHand against the embedded Three.js engine; right/left sides, shaft offsets 0/-0.08/0.03, scaled actors/weapons and fifteen successive arm/torso transforms",
+      "scope": "Finger anchor and preserved world rotation only; no rendered mesh/hand acceptance"
+    },
+    "browserSmoke": {
+      "status": "passed",
+      "evidence": "verification/records/charge-feint-browser.json",
+      "run": 38104645498,
+      "artifact": 11688854303
+    }
+  },
+  "scope": "Production generated wrapper executed in VM. Navigation is stubbed, so no rendered collision, animation, hardware performance or FEINT-01 acceptance claimed. Ordinary offline Save and reload must pass on CI; reload comparison tightened to 1e-6 world units. The existing production base melee tick is exercised after charge-feint recovery; it returns to a single real strike.",
+  "pending": [
+    "rendered feint readability and navigation",
+    "real attacks following recovery",
+    "FP/TP grips and motion visual acceptance",
+    "hardware performance",
+    "non-humanoid charge feints"
+  ],
+  "audioEvidence": "verification/records/score-decode-checkpoint.json"
+}

@@ -1,0 +1,103 @@
+{
+  "test": "offline-browser-smoke",
+  "status": "passed",
+  "buildSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "gameFile": "dist/Wine-Dark-Sea-Save-Fix.html",
+  "recordedAt": "2026-10-11T02:17:54.928Z",
+  "scope": "Desktop startup, visible scene, input movement, manual save/reload only. Does not accept a milestone.",
+  "environment": {
+    "viewport": "1365x768",
+    "offline": true,
+    "browser": "151.0.7922.34",
+    "graphicsPreset": "verylow"
+  },
+  "pageErrors": [],
+  "externalRequests": [],
+  "checks": [
+    {
+      "name": "build-title",
+      "passed": true,
+      "detail": "Wine-Dark Sea — Build 59"
+    },
+    {
+      "name": "nonblank-canvas",
+      "passed": true,
+      "detail": {
+        "colors": 217,
+        "luminanceRange": 203.66666666666666,
+        "width": 682,
+        "height": 384
+      }
+    },
+    {
+      "name": "movement",
+      "passed": true,
+      "detail": {
+        "before": {
+          "x": -984.9779692312911,
+          "z": -472.0777041442599
+        },
+        "after": {
+          "x": -984.8522501865702,
+          "z": -471.9834148607192
+        }
+      }
+    },
+    {
+      "name": "pause-guide-layout",
+      "passed": true,
+      "detail": {
+        "insidePanel": true,
+        "overlayParagraphs": 0
+      }
+    },
+    {
+      "name": "pause-save-hit-target",
+      "passed": true,
+      "detail": {
+        "target": "psave",
+        "reachable": true,
+        "pointerLocked": false
+      }
+    },
+    {
+      "name": "manual-save",
+      "passed": true,
+      "detail": {
+        "slot": 1,
+        "position": {
+          "x": -984.827801862633,
+          "z": -471.96507861776627,
+          "m": "foot"
+        }
+      }
+    },
+    {
+      "name": "save-reload-position",
+      "passed": true,
+      "detail": {
+        "saved": {
+          "x": -984.827801862633,
+          "z": -471.96507861776627,
+          "m": "foot"
+        },
+        "restored": {
+          "x": -984.827801862633,
+          "z": -471.96507861776627
+        }
+      }
+    },
+    {
+      "name": "uncaught-exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "offline-resources",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "startupMs": 67663
+}
