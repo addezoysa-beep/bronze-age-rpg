@@ -15,20 +15,32 @@
     "scripts/build-offline.test.mjs",
     "scripts/browser-candidate-smoke.mjs",
     "verification/records/humanoid-charge-feint.json",
-    "tracking/updates/humanoid-charge-feint.json"
+    "tracking/updates/humanoid-charge-feint.json",
+    "scripts/grip-transform.test.mjs",
+    "verification/records/score-decode-checkpoint.json",
+    "tracking/milestones.json",
+    "verification/records/charge-feint-browser.json"
   ],
   "evidence": [
     "verification/records/humanoid-charge-feint.json",
-    "node --test scripts/charge-feint.test.mjs"
+    "node --test scripts/charge-feint.test.mjs",
+    "node --test scripts/grip-transform.test.mjs",
+    "verification/records/score-decode-checkpoint.json",
+    "verification/records/charge-feint-browser.json",
+    "GitHub Actions run 38104645498 passed exact game repository and offline ordinary Save/reload gates"
   ],
   "dependencies": [
     "master-development a75909dc5ac73b695652f4711aef2429e4ba672e"
   ],
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/14#issuecomment-6104572955"
   },
   "masterReview": {
-    "status": "pending"
+    "status": "passed",
+    "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "artifactSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/14#issuecomment-6104572955"
   },
   "releaseStatus": "implementation-checkpoint-not-acceptance"
 }

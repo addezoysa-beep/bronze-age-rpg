@@ -37,10 +37,10 @@
         {
           "id": "BASE-02",
           "status": "passed",
-          "buildSha256": "5207ee4a75ae228a6031a35042a5c7cf4dad76af94d4cdb4722708af017c87ba",
-          "method": "Production generated standalone candidate: offline Chrome151, normal keyboard movement, real-frame nonblank pixels, accessible guide/pointer-release/Save hit target, ordinary Save clicking, reload to identical saved position, zero errors/external requests",
-          "evidence": "verification/records/pause-fixed-browser.json",
-          "reviewer": "Master Development review https://github.com/addezoysa-beep/bronze-age-rpg/pull/9#issuecomment-6099906508"
+          "buildSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
+          "method": "Generated standalone candidate, offline Chrome151 verylow: normal movement, actual nonblank frame, ordinary accessible pause Save click, saved/restored coordinates identical (1e-6 tolerance), zero errors/external requests",
+          "evidence": "verification/records/charge-feint-browser.json",
+          "reviewer": "Master Development checkpoint review https://github.com/addezoysa-beep/bronze-age-rpg/pull/14#issuecomment-6104572955"
         },
         {
           "id": "BASE-03",
@@ -59,7 +59,7 @@
       "dependsOn": [
         "M0"
       ],
-      "status": "code_inspected",
+      "status": "in_progress",
       "sourceEvidence": [
         "baseline/build-59.json"
       ],
@@ -92,7 +92,7 @@
       "blockers": [
         "Source claims require active-override audit and runtime acceptance"
       ],
-      "nextAction": "Inspect final combat/hand/motion/audio overrides; build scenarios for feints, evasion, audio and HUD"
+      "nextAction": "Verify rendered charge-feint readability/navigation and post-feint combat, then movement/FP-TP grips/HUD and in-game music transitions. PR #14 checkpoint has source/math/decode and offline Save/reload evidence; FEINT-01, GEAR-01 and AUDIO-02 remain pending."
     },
     {
       "id": "M2",
