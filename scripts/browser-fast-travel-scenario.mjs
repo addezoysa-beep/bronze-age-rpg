@@ -20,7 +20,9 @@ export async function runFastTravelScenario(page,check){
  check('storm-travel-refused',await page.evaluate(v=>STATE==='map'&&P.x===v.x&&P.z===v.z&&G.silver===v.silver,before),before);
  await page.evaluate(()=>G.weather.kind='clear');await page.waitForFunction(()=>!STREAM.building);
  await page.locator('#chart-results16 button').click();
- await page.waitForFunction(d=>STATE==='play'&&!STREAM.building&&hyp(P.x-d.x,P.z-d.z)<50,setup.b,{timeout:180000});
+ await page.waitForFunction(d=>!STREAM.building&&hyp(P.x-d.x,P.z-d.z)<50&&['play','bag'].includes(STATE),setup.b,{timeout:180000});
+ if(await page.evaluate(()=>STATE==='bag'))await page.locator('#bagclose').click();
+ await page.waitForFunction(()=>STATE==='play');
  const arrived=await page.evaluate(()=>({x:P.x,y:P.y,z:P.z,state:STATE,mode:P.mode,silver:G.silver,blocked:colBlocked(P.x,P.z,1.8),ground:groundY(P.x,P.z)}));
  check('ordinary-fast-travel-arrival',arrived.state==='play'&&arrived.mode==='foot'&&!arrived.blocked&&Math.abs(arrived.y-arrived.ground)<.1&&arrived.silver===setup.silver,arrived);
  await page.screenshot({path:'verification/runtime/fast-travel-arrival.png'});
