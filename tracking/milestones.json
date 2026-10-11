@@ -193,9 +193,9 @@
       "id": "OPEN-60",
       "status": "confirmed_by_user",
       "implementation": "candidate",
-      "artifactSha256": "bc1cc472f4724330f0a08b947494bb7d7d70a7fe7936bdef4e51f3f74a0dc2cc",
-      "sourceTests": 84,
-      "runtime": "Ordinary defeated-captain chest/repeat/Save fixture pending; full cave approach/puzzles/boss/Daedalus still pending"
+      "artifactSha256": "dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d",
+      "sourceTests": 85,
+      "runtime": "Initial prepared-cave UI entry crashed active mine/military chest wrappers on absent ch; guards fixed,85 source tests pass, corrected UI pending."
     }
   },
   "milestones": [

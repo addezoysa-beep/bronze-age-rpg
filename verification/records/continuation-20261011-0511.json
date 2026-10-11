@@ -23,7 +23,7 @@
       "pr": 26,
       "branch": "m1/phocas-sling-route",
       "base": "PR25 feature branch; retarget master after25 reviewed/merged",
-      "head": "1c95a7c694f2f94d2d77502a487105e5e9c748bf",
+      "head": "b1974c8d71a3570b507f5d46663e2c56b250ef36",
       "artifactSha256": "5337b01116f3a3b773e7896c6e0ce4c300f8edba855cc89464565048e3bbd6f4",
       "sourceTests": 77,
       "scope": "Direct physical wooden sling/equip, repeat-safe initial12stones/progress, explicit unfinished-drill choice, stone range hits/grounded bases. No full opening/aim/hit/certification visuals.",
@@ -34,13 +34,17 @@
       "pr": 27,
       "branch": "m4/pan-physical-tally",
       "base": "PR26 feature branch; retarget after26 reviewed/merged",
-      "head": "d7144bf8b77eb264c105531521066ff65ec955c1",
-      "artifactSha256": "bc1cc472f4724330f0a08b947494bb7d7d70a7fe7936bdef4e51f3f74a0dc2cc",
-      "sourceTests": 84,
+      "head": "58884bf6d91c07480200d1b15e077b419c9dfdba",
+      "artifactSha256": "dcae6c8ecd9a5561bb574d4f31978e773f81498aa952625cd180dd2ea532fd6d",
+      "sourceTests": 85,
       "testCommand": "node --test --test-concurrency=2 scripts/*.test.mjs",
       "scope": "Normal boss-chest tangible tablet, objective/evidence-dependent Daedalus gate, old opened-chest migration without heart duplication and completed-story compatibility, nonduplicate receipt. Independent sling/Pan UI matrix jobs.",
       "run": 38114918150,
-      "runtime": "pending CI/inspection; prepared defeated-captain chest fixture is not full cave combat/puzzle/story acceptance."
+      "runtime": "Run38114918150: sling grant/equip passed then harness expected zero instead of preserving progress; Pan entry crashed active chest wrapper on missing ch. Corrected harness and production mine/military wrapper guards pushed;85 source tests pass, new CI pending.",
+      "failureArtifacts": [
+        "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114918150/artifacts/11693032328",
+        "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114918150/artifacts/11693521315"
+      ]
     }
   ],
   "otherActive": "PR19grip/20remedies/21arrows remain unmerged; latest heads had no returned PR-triggered runs at initial inspection. Do not duplicate implementation or claim they are in master download.",
