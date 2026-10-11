@@ -19,6 +19,22 @@
       "requirement": "More puzzles in dungeons and traps; preserve existing quest routes and puzzle solutions",
       "reportedOn": "2026-10-11",
       "acceptance": "Readable clues, fair warning and reset/reload persistence; critical quest rewards reachable without softlocks"
+    },
+    "additionalRemedies": {
+      "status": "confirmed_by_user",
+      "implementation": "planned",
+      "items": [
+        "honeyed fig restorative",
+        "concentrated herbal remedy",
+        "restorative herb infusion",
+        "barley endurance draught"
+      ],
+      "acceptance": "Ordinary acquisition/lessons/crafting/Food use, bounded nonstacking effects, restrictions/pause/death/save/reload and old-save defaults"
+    },
+    "equipmentEconomy": {
+      "status": "confirmed_by_user",
+      "implementation": "planned",
+      "acceptance": "Material/quality price ladder; expensive tipped arrows; weaker all-wood-point arrows across previews/nocked/fired/recovered/NPC; higher weapons/armor prices; settlement-tier regional stocks/lessons and truthful NPC directions; conserve crafting and avoid arbitrage; preserve starter progression; ordinary buy/sell/insufficient funds/ammo/Save/reload"
     }
   },
   "milestones": [
@@ -201,7 +217,7 @@
         "Eight site and twelve hideout definitions do not prove reachable, complete content",
         "King quest and nested guide menu regression passed in offline Chromium; full quest route, paid travel and dungeon puzzle/trap acceptance remain pending"
       ],
-      "nextAction": "Implement and visually verify weapon grip, verify actual paid-wagon arrival/fare, then audit Cave of Pan puzzle gates and captain/tally/Knossos progression before expanding dungeon puzzles and traps"
+      "nextAction": "PR #18 paid Ur wagon and exact destination Save/reload passed. Review bounded-wrist candidate visually; old-save Low combat and Cave of Pan captain/tally/Knossos/puzzles/traps remain pending."
     },
     {
       "id": "M5",

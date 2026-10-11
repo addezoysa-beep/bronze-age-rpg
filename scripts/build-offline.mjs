@@ -2,13 +2,14 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, sha256, compileInlineScripts } from './workflow.mjs';
+import { applyGripCheckpoint } from './grip-checkpoint.mjs';
 import { applyLowGraphicsCheckpoint } from './low-graphics-checkpoint.mjs';
 import { applyInteractionCheckpoint } from './interaction-checkpoint.mjs';
 import { applyChargeFeintCheckpoint } from './charge-feint-checkpoint.mjs';
 import { applyRevenantCheckpoint } from './revenant-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = '043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f';
+export const candidateHash = '07ccc3a523daf6604d454595349b81e7e7ec20d9ae0fdd718309ccd11b0ec9ba';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -44,7 +45,7 @@ export function buildOffline(input) {
     if (html.split(before).length !== 2) throw new Error('Patch requires exactly one source match');
     html = html.replace(before, after);
   }
-  html = applyLowGraphicsCheckpoint(applyInteractionCheckpoint(applyChargeFeintCheckpoint(applyRevenantCheckpoint(html))));
+  html = applyGripCheckpoint(applyLowGraphicsCheckpoint(applyInteractionCheckpoint(applyChargeFeintCheckpoint(applyRevenantCheckpoint(html)))));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash');
   compileInlineScripts(html);
@@ -67,6 +68,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
       'Kobaloi yell alerts nearby eligible packmates with range, line-of-sight, cooldown, and target expiry rules',
       'Tombs guarantee explicit Grave Revenant archer and swordsman roles with weapon-specific combat contracts',
       'Melee humanoids and hostile NPCs can feint a collision-aware charge, pull back and recover without damage',
+      'Wrist articulation bounded to 65 degrees while preserving weapon direction and scaled finger anchor',
       'Low graphics disables dynamic shadow rendering without throttling nearby combat actors',
       'Story callbacks survive palace-art additions; every dialogue releases pointer lock; options 1-9 and numpad supported; long menus scroll'
     ],

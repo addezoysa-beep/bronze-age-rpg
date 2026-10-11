@@ -1,0 +1,19 @@
+{
+  "id": "grip-wrist-bounds",
+  "buildSha256": "07ccc3a523daf6604d454595349b81e7e7ec20d9ae0fdd718309ccd11b0ec9ba",
+  "status": "source-tests-passed-runtime-visual-pending",
+  "sourceTests": {
+    "passed": 57,
+    "failed": 0
+  },
+  "scope": "Bound shared FP/TP/NPC wrist rotation to 65 degrees without moving the weapon handle from its scaled finger anchor or changing weapon world direction. Extreme-direction fixture covers 144 side/direction combinations. This limits unnatural wrist inversion; visual hand/shaft fit is not accepted.",
+  "pending": [
+    "CI rendered stick idle/movement diagnostic and offline Save/reload",
+    "Human visual review of rendered fingers/wrist on staff and complete loadout matrix",
+    "User old-save Low combat performance",
+    "Cave of Pan and dungeon puzzle/trap gameplay"
+  ],
+  "dependencies": [
+    "PR #18 merged: actual paid Ur travel and destination Save/reload passed on 043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f"
+  ]
+}

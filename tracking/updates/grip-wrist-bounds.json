@@ -1,0 +1,35 @@
+{
+  "id": "grip-wrist-bounds",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "07ccc3a523daf6604d454595349b81e7e7ec20d9ae0fdd718309ccd11b0ec9ba",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2"
+  ],
+  "summary": "Bound shared FP/TP/NPC wrist rotation to 65 degrees without moving the weapon handle from its scaled finger anchor or changing weapon world direction. Extreme-direction fixture covers 144 side/direction combinations. This limits unnatural wrist inversion; visual hand/shaft fit is not accepted.",
+  "changedFiles": [
+    "scripts/grip-checkpoint.mjs",
+    "scripts/grip-transform.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-grip-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json",
+    "verification/records/grip-wrist-bounds.json",
+    "verification/records/wagon-runtime.json",
+    "tracking/updates/grip-wrist-bounds.json"
+  ],
+  "evidence": [
+    "verification/records/grip-wrist-bounds.json",
+    "verification/records/wagon-runtime.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "releaseStatus": "implementation-checkpoint-not-acceptance"
+}
