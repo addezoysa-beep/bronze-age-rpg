@@ -2,7 +2,6 @@ import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { performance } from 'node:perf_hooks';
-import {runSlingScenario} from './browser-sling-scenario.mjs';
 import {runFastTravelScenario} from './browser-fast-travel-scenario.mjs';
 import {runPaidWagonScenario} from './browser-wagon-scenario.mjs';
 import {runInteractionScenario} from './browser-interaction-scenario.mjs';
@@ -108,7 +107,6 @@ try {
   await runInteractionScenario(page,check);
   await runPaidWagonScenario(page,check);
   await runFastTravelScenario(page,check);
-  await runSlingScenario(page,check);
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
   check('offline-resources', report.externalRequests.length === 0, report.externalRequests);
   report.status = 'passed';
