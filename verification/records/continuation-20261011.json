@@ -1,7 +1,7 @@
 {
   "id": "continuation-20261011",
   "recordedOn": "2026-10-11",
-  "masterHead": "bb5bdea60cc617ed0150d9b65a21f78c5af01535",
+  "masterHead": "74113d8ed470bea2e85a23cfa33e62f7d152bf80",
   "integrated": {
     "pr": 18,
     "artifactSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
@@ -12,11 +12,20 @@
   "activeCandidates": [
     {
       "pr": 19,
-      "head": "61039c3f08c14ade2a1273f562c719bb0f278ac4",
+      "head": "13c93973b7e04a0d9d88a35a2b860956c5106ddd",
       "artifactSha256": "07ccc3a523daf6604d454595349b81e7e7ec20d9ae0fdd718309ccd11b0ec9ba",
       "sourceTests": 57,
       "scope": "Bound wrist rotation 65deg; preserve weapon orientation/anchor. Full visual fit NOT accepted.",
-      "status": "CI runtime pending; first harness wrongly assumed G.own grants inventory stick, corrected to actual Weapons mouse equip. No forced clicks."
+      "status": "Earlier exact-game browser run passed at head 61039c3f08c14ade2a1273f562c719bb0f278ac4. New harness-only head adds normal V first-person checks; rerun pending.",
+      "runtimeEvidence": {
+        "head": "61039c3f08c14ade2a1273f562c719bb0f278ac4",
+        "run": 38111516362,
+        "job": 114387935406,
+        "result": "Ordinary inventory mouse equip; third-person idle/movement wrist angle <=65 degrees and grip anchor error <3e-13; baseline dialogue, paid Ur, offline pause Save/exact-position reload and zero errors pass.",
+        "artifact": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38111516362/artifacts/11691099722",
+        "playable": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38111516362/artifacts/11691374590"
+      },
+      "visualReview": "Inspected idle screenshot: Very Low third-person camera is too distant to judge finger shape/hand contact. GEAR-01 remains FAILED. First-person capture added; full weapon/left-right/action/animation matrix still pending."
     },
     {
       "pr": 20,
@@ -24,19 +33,27 @@
       "artifactSha256": "e9f85a7b483efbf5c9b48aa7fd6179ea72b849763ce8e5f4ea0dd3a629b00ec0",
       "sourceTests": 64,
       "scope": "Four remedies, recipes/healer stock/lessons/Food use; serialized bounded timers/budget, death/pause safety, regen restrictions. Production crafting gates/conservation tested.",
-      "status": "CI runtime pending; ordinary lesson/craft and real effect expiry remain pending."
+      "status": "Repository checks passed (64 source tests); browser job 114389077024 still running at last inspection. No ordinary UI, crafting or expiry acceptance claimed.",
+      "runtimeRun": 38111916865
     },
     {
       "pr": 21,
-      "head": "f44978b3adefd9aefe49c612a32ea6ccc03840b6",
+      "head": "05524418c8d4a76558a865ab8bc8ff68790aefd2",
       "artifactSha256": "795c65f2f3bed1b835dc1444255c6db92a2f93f6f319685de3ba12ed17d4200c",
       "sourceTests": 61,
       "scope": "Wood-arrow damage 0.55 and wood point; shared material geometry and explicit tactical NPC ammo; existing bundle prices 6/32/64/96/180.",
-      "status": "CI runtime pending. Full shooting/recovery/craft/arbitrage/NPC provenance and remaining equipment/city economy pending."
+      "status": "Source checks passed (61); first browser run 38111698287 failed harness navigation at visible outer smith menu. Latest harness-only head includes inspected Arrows, tools and learned patterns option; rerun pending.",
+      "failedRuntime": {
+        "head": "f44978b3adefd9aefe49c612a32ea6ccc03840b6",
+        "run": 38111698287,
+        "job": 114388466829,
+        "reason": "Harness selected only Buy arrows/Other matters, missing actual outer Arrows, tools and learned patterns menu. This does not prove an in-game purchase failure; purchases and previews remain unverified."
+      }
     }
   ],
   "handoff": [
     "Inspect latest heads/Actions logs and artifact reports; do not duplicate active implementation.",
+    "Follow latest PR heads, including harness-only grip and arrow corrections. Source candidate hashes are unchanged. Do not infer a new-head CI pass from earlier-head results; review carry-forward explicitly.",
     "All three branches start at PR18 merge and modify build-offline/browser harness/roadmap/tracker. Reconcile changes explicitly; do not overwrite one candidate with another. Regenerate combined candidate hash and rerun affected source/browser scenarios before master integration.",
     "Do not mark GEAR-01 or milestones accepted from transform tests or smoke alone.",
     "Preserve M1 grip/performance and M4 Cave of Pan/puzzle/trap priorities. Full weapon/armor prices and settlement service tiers still require source-audited implementation.",
