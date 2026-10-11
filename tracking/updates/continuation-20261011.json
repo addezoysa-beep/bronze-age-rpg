@@ -10,7 +10,7 @@
     "M4",
     "M5"
   ],
-  "summary": "Record merged paid Ur runtime evidence, three unmerged implementation candidates and remaining requirements/dependency handoff; game bytes unchanged.",
+  "summary": "Refresh durable continuation with inspected grip runtime/screenshot limits, arrow browser harness failure and corrected heads, and remedy CI/source scope. Game bytes unchanged.",
   "changedFiles": [
     "docs/ROADMAP.md",
     "tracking/milestones.json",

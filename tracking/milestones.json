@@ -25,14 +25,16 @@
       "implementation": "unmerged_candidate",
       "pr": 20,
       "head": "a822437822c5d4d361d311ecd908f880a7918286",
-      "acceptance": "Ordinary acquisition/lessons/crafting/Food use, bounded nonstacking effects, stamina restrictions, pause/death/save/reload and old-save defaults. 64 local source tests passed; runtime/UI pending."
+      "acceptance": "Ordinary acquisition/lessons/crafting/Food use, bounded nonstacking effects, stamina restrictions, pause/death/save/reload and old-save defaults. 64 local source tests passed; runtime/UI pending.",
+      "runtimeRun": 38111916865
     },
     "equipmentEconomy": {
       "status": "confirmed_by_user",
       "implementation": "partial_unmerged_arrow_candidate",
       "pr": 21,
-      "head": "f44978b3adefd9aefe49c612a32ea6ccc03840b6",
-      "remaining": "Full higher weapon/armor price ladder; settlement-tier regional stock/recipes/accurate directions; rare ammo paths; ordinary crafting/loot/sell/ammo/recovery/NPC/Save audit and affordable starter progression"
+      "head": "05524418c8d4a76558a865ab8bc8ff68790aefd2",
+      "remaining": "Full higher weapon/armor price ladder; settlement-tier regional stock/recipes/accurate directions; rare ammo paths; ordinary crafting/loot/sell/ammo/recovery/NPC/Save audit and affordable starter progression",
+      "runtime": "Initial browser harness failed outer smith navigation; corrected rerun pending; no economy acceptance."
     }
   },
   "milestones": [
