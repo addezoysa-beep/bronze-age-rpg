@@ -78,6 +78,11 @@ try {
   });
   check('pause-guide-layout', guideLayout.insidePanel && guideLayout.overlayParagraphs === 0, guideLayout);
   await page.waitForFunction(() => document.pointerLockElement === null);
+  for (const [preset, expected] of [['low', false], ['medium', true], ['verylow', false]]) {
+    await page.locator('#pause [data-graphics28="'+preset+'"]').click();
+    const graphics = await page.evaluate(() => ({preset:GRAPHICS28.preset, shadows:renderer.shadowMap.enabled, stored:localStorage.getItem('wine-dark-graphics28')}));
+    check('graphics-'+preset+'-shadow-budget',graphics.preset===preset&&graphics.shadows===expected&&graphics.stored===preset,graphics);
+  }
   const saveHit = await page.locator('#psave').evaluate(button => {
     const r = button.getBoundingClientRect();
     const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
