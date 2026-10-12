@@ -31,6 +31,13 @@
     ],
     "failure": "Visible asynchronous level-up inventory remained open before chart search; corrected harness now closes the visible panel through its real button and waits for real map state."
   },
+  "publication": {
+    "draftPr": 29,
+    "head": "bf8b530c4b8c2fd2bc5b8660ed8becb6ccf23347",
+    "continuationWorkflow": 38223746892,
+    "milestoneWorkflow": 38223747064,
+    "statusAtRecord": "both in progress"
+  },
   "pending": [
     "ordinary stable reachability and service interaction",
     "rendered route, horse, ruler and escort contact",

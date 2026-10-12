@@ -549,7 +549,9 @@
       "id": "horse-motion-impact-local-20261012",
       "buildSha256": "e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2",
       "recordedAt": "2026-10-12T04:13:05Z",
-      "implementation": "local_candidate_pending_publication_and_runtime",
+      "implementation": "published_draft_pr_pending_ci_and_runtime",
+      "draftPr": 29,
+      "remoteHead": "bf8b530c4b8c2fd2bc5b8660ed8becb6ccf23347",
       "checks": {
         "focusedSource": "6/6 passed",
         "fullSourceWorkflow": "255/255 passed serially; parallel run had one file-level worker failure and its interaction file passed 9/9 alone",
