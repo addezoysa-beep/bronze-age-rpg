@@ -569,7 +569,7 @@
     "stableCallRegistry80": {
       "id": "stable-call-registry-local-20261012",
       "buildSha256": "a2e7af41d66efeb6369e1b4e83e336f9206c33a669c479dee1141d644543a5c5",
-      "recordedAt": "2026-10-12T05:21:00Z",
+      "recordedAt": "2026-10-12T05:17:00Z",
       "implementation": "candidate_pending_publication_and_runtime",
       "checks": {
         "focused": "10/10 passed including executed registry, horse switching and chariot selection fixtures",
