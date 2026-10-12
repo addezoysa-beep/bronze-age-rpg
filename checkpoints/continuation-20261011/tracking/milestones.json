@@ -200,10 +200,12 @@
     "panQuestItem": {
       "id": "OPEN-60",
       "status": "confirmed_by_user",
-      "implementation": "candidate",
-      "artifactSha256": "eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a",
-      "sourceTests": 87,
-      "runtime": "Initial prepared-cave UI entry crashed active mine/military chest wrappers on absent ch; guards fixed,85 source tests pass, corrected UI pending."
+      "implementation": "aggregate_candidate_pending_runtime",
+      "artifactSha256": "a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78",
+      "bytes": 37971501,
+      "sourceTests": 286,
+      "focusedTests": 8,
+      "runtime": "Physical tablet, Daedalus gate, nonduplication and old opened-chest migration pass source fixtures in the aggregate candidate. Full ordinary opening/cave/key/puzzle/captain/chest/Daedalus route and exact-build Save/reload remain pending."
     },
     "combatLock": {
       "id": "COMBAT-LOCK-01",

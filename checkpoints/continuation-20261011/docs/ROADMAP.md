@@ -103,9 +103,9 @@ assigned until baseline audit and unresolved requirement wording are recovered.
 
 
 
-## User playtesting priorities — October 10 Eastern
+## User playtesting priorities â October 10 Eastern
 
-Prioritize blocked king/other NPC dialogue and wagon actions, then Low-preset old-save combat profiling and visual staff grip/wrist correction before broad faction work. Transform-only hand tests do not establish GEAR-01 acceptance; the supplied screenshot is failed visual evidence. Recover a representative old save for performance comparisons without reducing the required 8–10 concurrent attackers.
+Prioritize blocked king/other NPC dialogue and wagon actions, then Low-preset old-save combat profiling and visual staff grip/wrist correction before broad faction work. Transform-only hand tests do not establish GEAR-01 acceptance; the supplied screenshot is failed visual evidence. Recover a representative old save for performance comparisons without reducing the required 8â10 concurrent attackers.
 
 M4 additionally requires more dungeon puzzles and traps. Audit the existing Cave of Pan sling-target, crate/pressure-plate, locked-door and captain/cargo-tally route first; preserve progression to Daedalus in Knossos. Add clue-driven puzzle combinations and telegraphed traps with reset/save persistence and avoid unavoidable damage or inaccessible quest rewards. Existing definitions alone do not prove reachable gameplay.
 
@@ -143,7 +143,7 @@ See WORK_AND_LOCK_PRIORITY_20261011.md and verification/records/roll-lock-ground
 
 ## Local Ikaria workplace checkpoint
 
-WORK-60 has a narrow local candidate at exact artifact `04327a8e813c087d692102a1e29e907e7a670b81a2ed8d50553772c60457bc9e`. It replaces random Ikaria civilian work offsets with unique reservations and stable 06:00–18:00 shifts at inspected barley, dock, market, loom, dye-vat, crafting-bench and smithy anchors. A worker blocked away from its reserved approach for six seconds releases that slot and chooses another valid one. Opening actors, guards, herders and specialized route/service actors are excluded. All 97 source tests pass. This does not implement or accept the planned thirty-to-forty shared tasks, paid work, quarry teams or cargo routes; rendered routing/contact/Low/Save evidence is unavailable. Publication was not retried and active PR ownership is unchanged.
+WORK-60 has a narrow local candidate at exact artifact `04327a8e813c087d692102a1e29e907e7a670b81a2ed8d50553772c60457bc9e`. It replaces random Ikaria civilian work offsets with unique reservations and stable 06:00â18:00 shifts at inspected barley, dock, market, loom, dye-vat, crafting-bench and smithy anchors. A worker blocked away from its reserved approach for six seconds releases that slot and chooses another valid one. Opening actors, guards, herders and specialized route/service actors are excluded. All 97 source tests pass. This does not implement or accept the planned thirty-to-forty shared tasks, paid work, quarry teams or cargo routes; rendered routing/contact/Low/Save evidence is unavailable. Publication was not retried and active PR ownership is unchanged.
 
 ## Local shared field-action checkpoint
 
@@ -185,17 +185,19 @@ STABLE-CALL registry checkpoint: exact candidate `a2e7af41d66efeb6369e1b4e83e336
 
 WILD-HERDS-GRASS checkpoint: exact candidate `9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f` adds five grouped herds across the Northern Steppe and suitable Greek uplands, persistent individual identities/positions, grounded multi-stop travel/grazing circuits, existing taming/registration integration and thirty-eight bounded grass-blade patches. Desert riverlands are excluded and Low/Very Low use tighter whole-object culling distances. Four focused tests and the complete 278-test serial suite pass with exact rebuild. Rendered ecology, navigation, animation/contact, ordinary taming, Low performance and offline pause Save/reload remain required; no milestone is accepted. See `verification/records/wild-herds-grass-local-20261012.json`.
 
-## Local mount services checkpoint — October 11
+OPEN-60/Pan integration checkpoint: exact candidate `a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78` (37,971,501 bytes) incorporates PR #27's reviewed physical cargo-tablet route into the aggregate PR #29 build. The captain-cleared flag alone now points to the normal reward chest and cannot advance Daedalus; taking the single real tablet records a nonduplicating receipt, and pre-patch opened-chest saves receive only the tablet rather than a restored heart reward. Eight focused Pan fixtures and the complete 286-test serial suite pass, along with repository validation, inline compilation and exact rebuilding. This does not prove the full Lykos â Phocas â wolves/king â cave puzzles/key/captain/chest â Daedalus ordinary-play route. Exact-build browser acquisition, UI Save/reload and full approach/boss/puzzle traversal remain pending, so OPEN-60 and M4 are not accepted. See `verification/records/pan-physical-route-integration-local-20261012.json`.
+
+## Local mount services checkpoint â October 11
 
 Candidate `27529e4f641e0f5afaeff03b5bf61daae2dd0b3de0ce9478d3081ee813ffc7c6` adds owned horse/saddle labels and repeat-purchase guards, direct owned-chariot E boarding, selected-mount H call with safe room checks, chariot position/ridden-state serialization, a modeled Northern Steppe wagon yard with Ur/Avaris routes, and an Avaris horse/chariot keeper. Travel refunds failed/interrupted fares and blocks concurrent duplicate selection. Source fixtures do not establish rendered contact or ordinary pause Save acceptance. Browser remains blocked by missing Chromium, not by a missing Playwright package. PR26 CI run38115436645 failed a map-selector wait while the level-up menu was open; local harness closes it via normal mouse and now expects storm/rain arrival. No remote publication, PR merge or milestone acceptance.
 
 Next: obtain browser runtime for ordinary E/H/mouse and pause Save/reload; retain opening/Pan/grip/Low old-save priorities. More creature models/spawns, bucking/taming/theft, an earn-Hippos quest (Hippos is the named horse), best steppe horses/horsemanship, competitions/camps/wells remain pending. Keep active PR19/20/21/26/27 ownership.
 
-## Local Hippos/taming/theft checkpoint — October 11
+## Local Hippos/taming/theft checkpoint â October 11
 
 Candidate `5096fbef8491c55e677c8309e5a6fe9f581c2b1aa4c84e35ed5e30a7d1486211` implements the ordered earn-Hippos care/leading quest, old-save completion migration, visible rear/kick taming motion, ordinary ride-interaction horse/chariot theft with law consequences and protections, an elite power-five Steppe Courser and three bounded horsemanship lessons. Source verification is not rendered acceptance. Ordinary controls, navigation, animation quality, crime response and offline pause Save/reload remain required.
 
-## Regional wells and riding circuits — local continuation
+## Regional wells and riding circuits â local continuation
 
 Exact local candidate `6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299` adds a bounded safe-site/approach audit that reuses usable wells and adds missing regional ones, plus five configured NPC riding circuits (steppe, Egypt, Mesopotamia, Naxos, Ithaca). Circuits use ordered gates, a moving mounted rival, ordinary mounted E interaction ahead of default dismount, no entry fee, one daily prize, bounded rank training and persisted result history; interrupted races reset without payment. An existing other named mount cannot be replaced by the Hippos quest, remote care/theft callbacks are rejected, and stale chariot theft choices cannot repeat crimes.
 

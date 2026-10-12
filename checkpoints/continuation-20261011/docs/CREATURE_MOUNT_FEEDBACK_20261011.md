@@ -16,7 +16,7 @@ Local target/chest/weather candidate: 3712f152e387a5033474d74833fc3366103c4d31ff
 
 The existing hourly task is enabled and retains these requirements plus all earlier scope and Tuesday target. No remote publication attempted after prior approval rejection; preserve active PR ownership and do not bypass it. Local files are materialized source, not a git checkout; next integration requires authorized feature-branch publication. No milestone accepted.
 
-## Local mount services checkpoint — October 11
+## Local mount services checkpoint â October 11
 
 Candidate `27529e4f641e0f5afaeff03b5bf61daae2dd0b3de0ce9478d3081ee813ffc7c6` adds owned horse/saddle labels and repeat-purchase guards, direct owned-chariot E boarding, selected-mount H call with safe room checks, chariot position/ridden-state serialization, a modeled Northern Steppe wagon yard with Ur/Avaris routes, and an Avaris horse/chariot keeper. Travel refunds failed/interrupted fares and blocks concurrent duplicate selection. Source fixtures do not establish rendered contact or ordinary pause Save acceptance. Browser remains blocked by missing Chromium, not by a missing Playwright package. PR26 CI run38115436645 failed a map-selector wait while the level-up menu was open; local harness closes it via normal mouse and now expects storm/rain arrival. No remote publication, PR merge or milestone acceptance.
 
@@ -26,7 +26,7 @@ Next: obtain browser runtime for ordinary E/H/mouse and pause Save/reload; retai
 
 Local candidate `5096fbef8491c55e677c8309e5a6fe9f581c2b1aa4c84e35ed5e30a7d1486211` replaces Timaios's automatic horse handout with an ordered brush, trough, lead-to-pasture and return quest. Old saves that already own a horse migrate complete. Wild taming adds a visibly larger rear/kick cycle affecting horse limbs, root and rider torso. Ordinary ride interactions expose guarded theft choices for eligible unattended horses, household horses and unowned chariots, record law consequences and protect quest or existing mounts. A steppe horse master offers a power-five elite courser and three nonrepeatable horsemanship lessons that improve the existing balance mechanic. Rendered animation, ordinary E/mouse paths and pause Save/reload remain pending; no milestone is accepted.
 
-## Regional wells and riding circuits — local continuation
+## Regional wells and riding circuits â local continuation
 
 Exact local candidate `6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299` adds a bounded safe-site/approach audit that reuses usable wells and adds missing regional ones, plus five configured NPC riding circuits (steppe, Egypt, Mesopotamia, Naxos, Ithaca). Circuits use ordered gates, a moving mounted rival, ordinary mounted E interaction ahead of default dismount, no entry fee, one daily prize, bounded rank training and persisted result history; interrupted races reset without payment. An existing other named mount cannot be replaced by the Hippos quest, remote care/theft callbacks are rejected, and stale chariot theft choices cannot repeat crimes.
 
@@ -34,7 +34,7 @@ Exact local candidate `6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311
 
 Next: preserve existing opening/Pan/grip/Low old-save priority and active PR ownership; obtain browser verification for exact current candidate when possible. Continue remaining shared work actions, creature redesign/encounters, archery/sparring competitions and rival camps. Full requirement/deadline scope remains open; Tuesday completion is not guaranteed. Evidence: `verification/records/wells-riding-local-20261011.json`.
 
-## Horse impact, gait and registration checkpoint — October 12
+## Horse impact, gait and registration checkpoint â October 12
 
 Exact candidate `e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2` (37,950,664 bytes) adds mounted horse contact damage only above an 8.5 speed threshold, requires forward travel, checks the swept segment, caps impact at 30 damage and gives each target a 1.15-second cooldown. Enemy impacts use the combat damage path; civilian impacts use the existing assault/law path. Slow contact, backward motion, implausibly long frame travel, friendly enemies, ships and repeated overlap do not damage.
 
@@ -42,14 +42,18 @@ The final horse pose now distinguishes stand, walk, trot and gallop with separat
 
 The focused horse suite passes 6/6 and the exact candidate compiles. The full source/workflow run passes 255/255 when run serially; one parallel run had a file-level interaction-suite worker failure, and that interaction file then passed 9/9 alone. This is source/workflow evidence only: ordinary horse/NPC collision, law response, stable mouse choices, save/reload, gait quality from side/front/rear, slopes/turning, rider/quilt contact and Low-preset performance still require rendered runtime evidence. HORSE-GAIT, HORSE-CHARGE and HORSE-TAME-REGISTER therefore remain pending, and no milestone is accepted. Evidence: `verification/records/horse-motion-impact-local-20261012.json`.
 
-## Stable call registry checkpoint — October 12
+## Stable call registry checkpoint â October 12
 
-Exact candidate `a2e7af41d66efeb6369e1b4e83e336f9206c33a669c479dee1141d644543a5c5` (37,955,966 bytes) replaces the single overwritable horse slot with a persistent registered-horse collection. Acquiring a second horse snapshots the first horse’s name, power, coat, position and availability; stable selection reconstructs the chosen horse without deleting the others. The same stable menu lists owned chariots, marks the current responder, rejects unavailable/dead mounts and persists either `horse` or the selected chariot identity for the existing H call. Additional stable purchases conserve money on failure and add rather than replace horses. Old single-horse saves migrate to exactly one legacy record, and snapshot/load repairs invalid call selections safely.
+Exact candidate `a2e7af41d66efeb6369e1b4e83e336f9206c33a669c479dee1141d644543a5c5` (37,955,966 bytes) replaces the single overwritable horse slot with a persistent registered-horse collection. Acquiring a second horse snapshots the first horseâs name, power, coat, position and availability; stable selection reconstructs the chosen horse without deleting the others. The same stable menu lists owned chariots, marks the current responder, rejects unavailable/dead mounts and persists either `horse` or the selected chariot identity for the existing H call. Additional stable purchases conserve money on failure and add rather than replace horses. Old single-horse saves migrate to exactly one legacy record, and snapshot/load repairs invalid call selections safely.
 
 Ten focused tests pass, including executed registry/switch/chariot fixtures; the complete source/workflow suite passes 265/265 and the exact candidate compiles. This implements the registry/selector portion of STABLE-CALL but does not establish ordinary mouse interaction, physical stable reachability in every major region, summoned placement for every saved mount, unavailable/dead-mount gameplay, or offline pause Save/reload. Those rendered/runtime gates remain pending and no milestone is accepted. Evidence: `verification/records/stable-call-registry-local-20261012.json`.
 
-## Wild herds and grass checkpoint — October 12
+## Wild herds and grass checkpoint â October 12
 
 Exact candidate `9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f` (37,969,171 bytes) adds five grouped wild-horse sites: two Northern Steppe herds plus Ithaca, Lacedaemon and Troy upland herds. Each group uses a bounded same-region grounded circuit with alternating travel and grazing phases, unique persistent horse identities/positions, and the existing ordinary crouch-approach, bucking, bareback-taming and registration path. Thirty-eight combined grass patches use actual blade geometry around the grazing circuits and whole-patch distance culling tightened for Low and Very Low. Desert regions are explicitly excluded.
 
 The combined current source includes the previously published seventeen-hub stable audit and mounted-ruler tours. Four new focused herd tests and the complete serial suite pass (278/278); repository validation, inline compilation and exact rebuild pass. This remains source/workflow evidence: rendered herd encounters, grass silhouette/contact, ecology coverage, slope navigation, taming within moving herds, Low frame time and ordinary offline pause Save/reload are pending. WILD-HERDS-GRASS and all milestones remain unaccepted. The last PR browser run passed startup, movement, graphics, ordinary pause Save/reload, king dialogue and paid wagon travel/reload, then failed because a delayed level-up inventory panel reopened before map input; the harness now repeatedly closes the actually visible inventory through its ordinary Close control and requires a stable play state.
+
+## Pan physical route integration â October 12
+
+The aggregate candidate now includes PR #27's physical Cave of Pan cargo tablet and its absent-chest guards. Exact candidate `a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78` (37,971,501 bytes) requires normal captain-chest acquisition before Daedalus continues, migrates an old opened chest without restoring its heart, and prevents duplicate tablets. Eight focused Pan fixtures and all 286 serial source/workflow tests pass. Full ordinary opening, cave/key/puzzle/captain approach, rendered chest use and exact-build pause Save/reload remain pending; no milestone is accepted.

@@ -32,9 +32,10 @@ import { applySharedPloughActionsCheckpoint } from './shared-plough-actions-chec
 import { applyLawWarningCheckpoint } from './law-warning-checkpoint.mjs';
 import { applyGreatswordSmithCheckpoint } from './greatsword-smith-checkpoint.mjs';
 import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
+import { applyPanTallyCheckpoint } from './pan-tally-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = '9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f';
+export const candidateHash = 'a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -73,7 +74,7 @@ export function buildOffline(input) {
   html = applyFastTravelCheckpoint(applyLowGraphicsCheckpoint(applyInteractionCheckpoint(applyChargeFeintCheckpoint(applyRevenantCheckpoint(html)))));
   html = applySharedPloughActionsCheckpoint(applySharedIrrigationActionsCheckpoint(applySharedRiverCargoActionsCheckpoint(applySharedQuarryActionsCheckpoint(applySharedSmithActionsCheckpoint(applySharedShepherdActionsCheckpoint(applySharedFieldActionsCheckpoint(applyWorkplaceCheckpoint(applyDodgeGroundingCheckpoint(applyCombatLockCheckpoint(applyGroundContactCheckpoint(html)))))))))));
   html = applyLawWarningCheckpoint(applyPhocasOpeningCheckpoint(html));
-  html = applyTargetChestCheckpoint(applyGreatswordSmithCheckpoint(html));
+  html = applyPanTallyCheckpoint(applyTargetChestCheckpoint(applyGreatswordSmithCheckpoint(html)));
   html = applyHipposTamingTheftCheckpoint(applyRegionalMountServicesCheckpoint(applyMountOwnershipCheckpoint(html)));
   html = applyWildHerdsGrassCheckpoint(applyMountedRulerToursCheckpoint(applyRegionalStableCoverageCheckpoint(applyStableCallRegistryCheckpoint(applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html)))))));
   const output = Buffer.from(html, 'utf8');
@@ -92,6 +93,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     sourceSha256: sourceHash, buildSha256: candidateHash, bytes: output.length,
     candidateOnly: true,
     changes: [
+      'Cave of Pan captain completion requires looting a physical cargo tablet from the normal boss chest before Daedalus continues the story; old opened-chest saves migrate without duplicating the heart reward',
       'Five bounded wild-horse herds traverse grounded grazing circuits across the Northern Steppe and suitable Greek uplands, with persistent identities and existing taming/registration',
       'Actual grass-blade patches mark grazing grounds and use whole-patch Low/Very Low distance budgets without collision or desert blanket placement',
       'Seventeen named major settlement hubs reuse nearby stable services or add a safely grounded local stable without duplicating stock',
@@ -137,5 +139,3 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   }, null, 2) + '\n');
   console.log(JSON.stringify({ sourceSha256: sourceHash, buildSha256: candidateHash, bytes: output.length }));
 }
-
-
