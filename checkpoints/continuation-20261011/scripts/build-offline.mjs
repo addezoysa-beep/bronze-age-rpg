@@ -1,5 +1,6 @@
 import { applyRegionalWellsCheckpoint } from './regional-wells-checkpoint.mjs';
 import { applyRidingChallengesCheckpoint } from './riding-challenges-checkpoint.mjs';
+import { applyHorseMotionImpactCheckpoint } from './horse-motion-impact-checkpoint.mjs';
 import { applyMountOwnershipCheckpoint } from './mount-ownership-checkpoint.mjs';
 import { applyRegionalMountServicesCheckpoint } from './regional-mount-services-checkpoint.mjs';
 import { applyHipposTamingTheftCheckpoint } from './hippos-taming-theft-checkpoint.mjs';
@@ -29,7 +30,7 @@ import { applyGreatswordSmithCheckpoint } from './greatsword-smith-checkpoint.mj
 import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = '6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299';
+export const candidateHash = 'e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -70,7 +71,7 @@ export function buildOffline(input) {
   html = applyLawWarningCheckpoint(applyPhocasOpeningCheckpoint(html));
   html = applyTargetChestCheckpoint(applyGreatswordSmithCheckpoint(html));
   html = applyHipposTamingTheftCheckpoint(applyRegionalMountServicesCheckpoint(applyMountOwnershipCheckpoint(html)));
-  html = applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html));
+  html = applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html)));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash '+sha256(output)+' bytes '+output.length);
   compileInlineScripts(html);
@@ -87,6 +88,9 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     sourceSha256: sourceHash, buildSha256: candidateHash, bytes: output.length,
     candidateOnly: true,
     changes: [
+      'Horse charges use speed, forward direction, swept contact, bounded damage and per-target cooldowns; civilian impacts enter the law path',
+      'Horse gait separates stance and airborne swing phases across walk, trot and gallop with articulated knees, hocks and hooves',
+      'Wild horses can be tamed and ridden bareback, then registered once at a stable for a conserved fee and riding quilt',
       'Regional water coverage audits existing well approach paths and adds only missing safely grounded region wells',
       'Five candidate regional mounted riding circuits use ordered gates and an actual moving NPC opponent, with once-per-day prizes and save-safe results',
       'Hippos is earned through ordered grooming, trough, leading and pasture work; existing owners migrate complete',
