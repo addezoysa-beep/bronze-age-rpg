@@ -1,5 +1,9 @@
 // Seed discovery/clear-weather fixtures only; destination inputs and Save/load use real controls.
 export async function runFastTravelScenario(page,check){
+ const bag=page.locator('#bag');
+ if(await bag.isVisible())await page.locator('#bagclose').click();
+ await bag.waitFor({state:'hidden'});
+ await page.waitForFunction(()=>STATE==='play');
  const setup=await page.evaluate(()=>{
   if(STATE==='talk')cancelDialogue();G.time=12;G.weather.kind='clear';P.dead=false;P.mode='foot';STATE='play';
   const candidates=DISC.filter(d=>heightAt(d.x,d.z)>2&&landmarkLanding60(d));
@@ -12,19 +16,16 @@ export async function runFastTravelScenario(page,check){
   const locked=candidates.find(d=>d!==a&&d!==b&&!G.disc[d.id]&&!G.disc[d.name]);
   return {a,b,locked,silver:G.silver};
  });
- // Wagon discovery can legitimately level the player and open Character. Close it with the
- // actual inventory button before issuing the ordinary map key; never write UI state here.
- if(await page.locator('#bagwin').isVisible())await page.locator('#bagclose').click();
- await page.waitForFunction(()=>STATE==='play'&&!document.getElementById('bagwin').classList.contains('on'));
  await page.keyboard.press('m');
- await page.waitForFunction(()=>STATE==='map'&&!!document.getElementById('chart-search16'));
+ await page.waitForFunction(()=>STATE==='map');
  await page.locator('#chart-search16').fill(setup.b.name);
  check('old-name-discovery-visible',await page.locator('#chart-results16 button').count()===1,setup.b);
  if(setup.locked){await page.locator('#chart-search16').fill(setup.locked.name);check('undiscovered-not-offered',await page.locator('#chart-results16 button').count()===0,setup.locked);await page.locator('#chart-search16').fill(setup.b.name)}
  for(const [weather,destination] of [['storm',setup.b],['rain',setup.a]]){
   await page.evaluate(kind=>G.weather.kind=kind,weather);
-  if(await page.locator('#bagwin').isVisible())await page.locator('#bagclose').click();
-  if(await page.evaluate(()=>STATE!=='map')){await page.waitForFunction(()=>STATE==='play');await page.keyboard.press('m');await page.waitForFunction(()=>STATE==='map');}
+  if(await bag.isVisible())await page.locator('#bagclose').click();
+  await bag.waitFor({state:'hidden'});
+  if(await page.evaluate(()=>STATE!=='map'))await page.keyboard.press('m');
   await page.locator('#chart-search16').fill(destination.name);
   await page.locator('#chart-results16 button').click();
   await page.waitForFunction(d=>!STREAM.building&&hyp(P.x-d.x,P.z-d.z)<50&&['play','bag'].includes(STATE),destination,{timeout:180000});

@@ -1,0 +1,41 @@
+{
+  "id": "regional-stable-mounted-rulers-local-20261012",
+  "recordedAt": "2026-10-12T08:24:00Z",
+  "buildSha256": "65a9defd4abac702bdd5fec7555b8b609ef3eb9d9cf7b047f6ac4af8be2b0d84",
+  "bytes": 37964284,
+  "implementation": [
+    "17 named major settlement stable coverage rows",
+    "deduplicated existing keeper reuse and safely grounded same-region fallback yards",
+    "two distinct weekly tour days per configured royal household",
+    "10:00-13:00 closed grounded horseback route with two real palace guards",
+    "persistent recall/completion day state and urgent-audience quest fallback"
+  ],
+  "checks": {
+    "focusedSource": "9/9 passed",
+    "inlineCompile": "passed",
+    "repository": "passed; baseline source unchanged and three inline scripts compile",
+    "fullSourceWorkflow": "274/274 passed serially",
+    "browser": "pending exact candidate"
+  },
+  "remoteBrowserEvidence": {
+    "head": "ea453b727ebfd477fce2fd513d91973ac0c6fee1",
+    "run": 38213033582,
+    "passedBeforeFailure": [
+      "startup and nonblank canvas",
+      "ordinary movement",
+      "Low/Medium/Very low graphics controls",
+      "ordinary pause Save and exact reload",
+      "king/princess dialogue completion",
+      "nested wagon dialogue and paid Ur arrival",
+      "wagon destination ordinary Save and exact reload"
+    ],
+    "failure": "Visible asynchronous level-up inventory remained open before chart search; corrected harness now closes the visible panel through its real button and waits for real map state."
+  },
+  "pending": [
+    "ordinary stable reachability and service interaction",
+    "rendered route, horse, ruler and escort contact",
+    "actual weekly navigation, combat response and palace return",
+    "ordinary offline pause Save/reload and Low performance"
+  ],
+  "milestoneAcceptance": "none"
+}

@@ -26,7 +26,13 @@ export async function runPaidWagonScenario(page,check){
    await page.locator('[data-load="'+saved.slot+'"]').click({noWaitAfter:true});
    await page.waitForFunction(()=>G.started&&['play','talk'].includes(STATE),null,{timeout:180000});
    const restored=await page.evaluate(()=>({x:P.x,z:P.z,silver:G.silver}));
-   check('wagon-destination-exact-reload',Math.hypot(restored.x-saved.data.pos.x,restored.z-saved.data.pos.z)<1e-6&&restored.silver===20,restored);return;
+   check('wagon-destination-exact-reload',Math.hypot(restored.x-saved.data.pos.x,restored.z-saved.data.pos.z)<1e-6&&restored.silver===20,restored);
+   // A level-up inventory may appear asynchronously after load. Close it through
+   // its real control before handing the page to the map scenario.
+   const bag=page.locator('#bag');
+   if(await bag.isVisible())await page.locator('#bagclose').click();
+   await bag.waitFor({state:'hidden'});
+   await page.waitForFunction(()=>STATE==='play');return;
   }
   await page.locator('#dchoices button').filter({hasText:route}).click();
  }

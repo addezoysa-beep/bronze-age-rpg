@@ -10,7 +10,7 @@ test('reproduce the exact production candidate', () => {
   const result = buildOffline(source);
   assert.equal(sha256(source), sourceHash);
   assert.equal(sha256(result), candidateHash);
-  assert.equal(result.length, 37960117);
+  assert.equal(result.length, 37964284);
   assert.equal(sha256(readFileSync(resolve(root, 'index.html'))), sourceHash);
 });
 

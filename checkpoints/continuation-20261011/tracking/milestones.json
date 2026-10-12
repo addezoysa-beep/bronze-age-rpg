@@ -587,23 +587,23 @@
       ],
       "milestoneAcceptance": "none"
     },
-    "regionalStableCoverage81": {
-      "id": "regional-stable-coverage-local-20261012",
-      "buildSha256": "dd6df749af411c2198fd37d3d77059eeff4d7374f33866cdd1735520d9bfd38b",
-      "recordedAt": "2026-10-12T06:25:38Z",
+    "regionalStableMountedRulers82": {
+      "id": "regional-stable-mounted-rulers-local-20261012",
+      "buildSha256": "65a9defd4abac702bdd5fec7555b8b609ef3eb9d9cf7b047f6ac4af8be2b0d84",
+      "recordedAt": "2026-10-12T08:24:00Z",
       "implementation": "local_candidate_pending_publication_and_runtime",
       "checks": {
-        "focused": "4/4 passed",
-        "fullSourceWorkflow": "269/269 passed serially",
-        "repository": "passed",
-        "exactCandidateBytes": 37960117,
-        "browser": "pending"
+        "focused": "9/9 passed; 274/274 full source/workflow suite passed serially",
+        "exactCandidateBytes": 37964284,
+        "inlineCompile": "passed",
+        "browser": "pending; prior remote head passed dialogue/wagon/manual Save checks then exposed an asynchronous level-up inventory before map input"
       },
-      "scope": "Seventeen major hubs reuse nearby stable keepers or add a bounded same-region grounded service yard; blocked placement is explicit and never treated as coverage.",
+      "scope": "Seventeen named major settlement stable audits with deduplicated safe same-region additions; twice-weekly three-hour grounded palace-leader horseback circuits with two guards, persisted recall/completion state, live dialogue and urgent palace recall.",
       "pending": [
-        "rendered reachability and ordinary stable mouse use across representative regions",
-        "physical multi-mount H response and old-save migration",
-        "ordinary offline pause Save/reload and Low-preset performance"
+        "ordinary reachability and stable service clicks at representative regions",
+        "rendered ruler, horse and escort contact across complete routes",
+        "weekly navigation, hostile encounters, quest availability and return to court",
+        "Low performance and ordinary offline pause Save/reload"
       ],
       "milestoneAcceptance": "none"
     }
