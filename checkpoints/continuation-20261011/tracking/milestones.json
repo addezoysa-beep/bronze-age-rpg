@@ -43,7 +43,7 @@
         {
           "id": "OPEN-60",
           "status": "planned",
-          "scope": "Empty inventory/zero recipes; actual Lykos \u2192 Phocas \u2192 wolves/king \u2192 Pan \u2192 Daedalus dependencies, sling training/grant and actual cave item; objective-first story dialogue and reversible early social redirects.",
+          "scope": "Empty inventory/zero recipes; actual Lykos → Phocas → wolves/king → Pan → Daedalus dependencies, sling training/grant and actual cave item; objective-first story dialogue and reversible early social redirects.",
           "acceptance": "New voyage earns mandatory tools, completes captain/puzzles for physical main item and gets clear next direction; old saves and reload at each stage, no flag-only completion.",
           "implementation": "partial_local_candidate",
           "latestEvidence": "verification/records/phocas-law-warning-local-20261011.json"
@@ -69,7 +69,7 @@
         {
           "id": "TASK-60",
           "status": "planned",
-          "scope": "Thirty\u2013forty total shared player/NPC tasks: carry/pour aligned amphoras/liquid, harvest/prune/tend/hammer/knead/cook/serve/sweep/sit/eat/drink/write/music as fitting; fix grain legs/clothing and bending grips.",
+          "scope": "Thirty–forty total shared player/NPC tasks: carry/pour aligned amphoras/liquid, harvest/prune/tend/hammer/knead/cook/serve/sweep/sit/eat/drink/write/music as fitting; fix grain legs/clothing and bending grips.",
           "acceptance": "Every implemented action available to both actor types with sensible prerequisites/safety; FP/TP body/clothes/props attached, jobs choose relevant tasks."
         },
         {
@@ -107,13 +107,13 @@
         {
           "id": "CRIME-60",
           "status": "planned",
-          "scope": "1\u20132 active criminals per region, visible sneak/theft/pickpocket, thief links, recoverable theft; varied bounded assassins.",
+          "scope": "1–2 active criminals per region, visible sneak/theft/pickpocket, thief links, recoverable theft; varied bounded assassins.",
           "acceptance": "Essential items protected, recoverable theft outcomes, readable assassin counterplay/rates and reload-safe state."
         },
         {
           "id": "BARD-60",
           "status": "planned",
-          "scope": "Optional follower with funny deed-dependent songs, regional court bards; rulers escorted by guards/advisors tour/fight bandits 1\u20132 days/week.",
+          "scope": "Optional follower with funny deed-dependent songs, regional court bards; rulers escorted by guards/advisors tour/fight bandits 1–2 days/week.",
           "acceptance": "Recruit/dismiss/songs reflect deeds, actual routes/tasks, quest fallback, persistent weekly cycle."
         },
         {
@@ -272,7 +272,7 @@
       "artifactSha256": "e9101c26c369d17eb911a5ca644d02c14422456a29da153679b0220059a0c0bf",
       "sourceTests": 157,
       "specification": "docs/WORK_AND_LOCK_PRIORITY_20261011.md",
-      "acceptance": "30\u201340 distinct actions, roughly3\u20134/job, shared player/NPC, real destinations/props/occupancy, paid farming/herding/quarry contracts, coordinated river haulage; exact-hash gameplay/Low/Save evidence. Twenty-eight actions across grain, herding, smithing, quarry, river cargo, Mesopotamian irrigation and Ur seed-plough work pass source fixtures. The separate Ur household shares prepare/guide/seed/level poses with a modeled ox/plough rig, assigned plot, supplied tools, ordered work, inventory conservation and one daily wage. Rendered/first-person/ordinary pause Save acceptance, full quarry-to-dock NPC route and the remaining action groups are pending."
+      "acceptance": "30–40 distinct actions, roughly3–4/job, shared player/NPC, real destinations/props/occupancy, paid farming/herding/quarry contracts, coordinated river haulage; exact-hash gameplay/Low/Save evidence. Twenty-eight actions across grain, herding, smithing, quarry, river cargo, Mesopotamian irrigation and Ur seed-plough work pass source fixtures. The separate Ur household shares prepare/guide/seed/level poses with a modeled ox/plough rig, assigned plot, supplied tools, ordered work, inventory conservation and one daily wage. Rendered/first-person/ordinary pause Save acceptance, full quarry-to-dock NPC route and the remaining action groups are pending."
     },
     "mountServices73": {
       "status": "in_progress",
@@ -310,6 +310,13 @@
       "artifactSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
       "sourceTests": 249,
       "acceptance": "Reachable mounted ordinary E/mouse start, ordered gates against a visibly mounted NPC, fair win/loss/quit/danger, daily nonduplicating rewards and exact offline Save/reload. Source fixtures passed; actual placement/runtime and other competition types pending."
+    },
+    "gripIntegration": {
+      "implementation": "aggregate_candidate",
+      "upstreamPR": 19,
+      "upstreamHead": "13c93973b7e04a0d9d88a35a2b860956c5106ddd",
+      "artifactSha256": "a1c89b3e85d2c51a9866c8bb5c0f3bafd6e4e12cecaa423d72d9fa40ddacc0e0",
+      "runtime": "pending exact checkpoint browser; full weapon matrix visual acceptance remains failed/pending"
     }
   },
   "milestones": [

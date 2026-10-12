@@ -37,3 +37,19 @@ test('hidden and detached weapons leave the wrist unchanged',()=>{
  const before=wrist.quaternion.clone();context.grip(arm,item);assert.ok(wrist.quaternion.equals(before));
  item.visible=true;context.grip(arm,item);assert.ok(wrist.quaternion.equals(before));
 });
+
+test('extreme shaft directions cannot invert the wrist or break the finger attachment',()=>{
+ for(const side of [-1,1])for(let i=0;i<72;i++){
+  const root=new THREE.Group(),arm=new THREE.Group(),elbow=new THREE.Group(),wrist=new THREE.Group(),socket=new THREE.Group(),item=new THREE.Group();
+  root.add(arm);arm.add(elbow);elbow.add(wrist);wrist.add(socket);socket.add(item);
+  root.scale.setScalar(1.7);arm.rotation.set(.6,i*.08,side*.3);elbow.rotation.x=.9;wrist.position.y=-.27;socket.position.set(0,-.04,.012);item.scale.setScalar(1.3);
+  arm.userData={wrist,side59:side};item.quaternion.setFromAxisAngle(new THREE.Vector3(0,0,1),i*Math.PI/36);
+  root.updateMatrixWorld(true);const world=item.getWorldQuaternion(new THREE.Quaternion());
+  context.grip(arm,item,-.08);root.updateMatrixWorld(true);
+  assert.ok(new THREE.Quaternion().angleTo(wrist.quaternion)<=Math.PI*65/180+1e-9,'wrist must stay within the articulation limit');
+  assert.ok(item.getWorldQuaternion(new THREE.Quaternion()).angleTo(world)<1e-7,'bounded wrist must preserve the weapon direction');
+  assert.ok(item.localToWorld(new THREE.Vector3(0,-.08,0)).distanceTo(wrist.localToWorld(new THREE.Vector3(0,-.098,.034)))<1e-9);
+ }
+});
+
+
