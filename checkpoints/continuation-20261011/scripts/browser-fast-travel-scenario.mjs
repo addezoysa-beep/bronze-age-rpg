@@ -8,6 +8,16 @@ async function closeInventoryPanels(page){
  }
  throw Error('Inventory or level-up panel did not close through its ordinary UI control');
 }
+async function openChartThroughControls(page){
+ for(let attempt=0;attempt<8;attempt++){
+  await closeInventoryPanels(page);
+  if(await page.evaluate(()=>STATE==='map'))return;
+  await page.keyboard.press('m');
+  await page.waitForFunction(()=>STATE==='map'||STATE==='bag',null,{timeout:15000}).catch(()=>{});
+  if(await page.evaluate(()=>STATE==='map'))return;
+ }
+ throw Error('Chart did not open through ordinary M after closing delayed level-up panels');
+}
 // Seed discovery/weather fixtures only; destination inputs and Save/load use real controls.
 export async function runFastTravelScenario(page,check){
  await closeInventoryPanels(page);
@@ -23,13 +33,13 @@ export async function runFastTravelScenario(page,check){
   const locked=candidates.find(d=>d!==a&&d!==b&&!G.disc[d.id]&&!G.disc[d.name]);
   return {a,b,locked,silver:G.silver};
  });
- await page.keyboard.press('m');await page.locator('#chart-search16').fill(setup.b.name);
+ await openChartThroughControls(page);await page.locator('#chart-search16').fill(setup.b.name);
  check('old-name-discovery-visible',await page.locator('#chart-results16 button').count()===1,setup.b);
  if(setup.locked){await page.locator('#chart-search16').fill(setup.locked.name);check('undiscovered-not-offered',await page.locator('#chart-results16 button').count()===0,setup.locked);await page.locator('#chart-search16').fill(setup.b.name)}
  for(const [weather,destination] of [['storm',setup.b],['rain',setup.a]]){
   await page.evaluate(kind=>G.weather.kind=kind,weather);
   await closeInventoryPanels(page);
-  if(await page.evaluate(()=>STATE!=='map'))await page.keyboard.press('m');
+  await openChartThroughControls(page);
   await page.locator('#chart-search16').fill(destination.name);
   await page.locator('#chart-results16 button').click();
   await page.waitForFunction(d=>!STREAM.building&&hyp(P.x-d.x,P.z-d.z)<50&&['play','bag'].includes(STATE),destination,{timeout:180000});
