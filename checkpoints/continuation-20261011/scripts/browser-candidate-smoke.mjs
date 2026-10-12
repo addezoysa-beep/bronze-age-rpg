@@ -1,3 +1,4 @@
+import {runRemedyScenario} from './browser-remedy-scenario.mjs';
 import {runGripScenario} from './browser-grip-scenario.mjs';
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -110,6 +111,7 @@ try {
   const scenario=process.env.WDS_SMOKE_SCENARIO || 'travel';
   report.scenario=scenario;
   if(scenario==='pan')await runPanScenario(page,check);
+  else if(scenario==='remedy')await runRemedyScenario(page,check);
   else if(scenario==='grip')await runGripScenario(page,check,output);
   else if(scenario==='lock')await runCombatLockScenario(page,check);
   else if(scenario==='travel'){

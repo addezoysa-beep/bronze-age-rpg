@@ -22,11 +22,12 @@
     },
     "additionalRemedies": {
       "status": "confirmed_by_user",
-      "implementation": "unmerged_candidate",
+      "implementation": "aggregate_candidate",
       "pr": 20,
       "head": "d6e20a477c565c40f89cbb49cabb9abc15d7a79a",
-      "acceptance": "Ordinary acquisition/lessons/crafting/Food use, bounded nonstacking effects, stamina restrictions, pause/death/save/reload and old-save defaults. 64 source tests passed; browser harness failed after first purchase, normal E reinteraction correction pending runtime.",
-      "runtimeRun": 38111916865
+      "acceptance": "9 focused remedies and 299/299 full source/workflow tests passed. Ordinary acquisition/learning/craft/use/expiry/pause Save/reload remain pending.",
+      "runtimeRun": 38111916865,
+      "artifactSha256": "5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f"
     },
     "equipmentEconomy": {
       "status": "confirmed_by_user",

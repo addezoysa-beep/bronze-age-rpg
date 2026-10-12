@@ -1,3 +1,4 @@
+import { applyRemediesCheckpoint } from './remedies-checkpoint.mjs';
 import { applyGripCheckpoint } from './grip-checkpoint.mjs';
 import { applyRegionalWellsCheckpoint } from './regional-wells-checkpoint.mjs';
 import { applyWildHerdsGrassCheckpoint } from './wild-herds-grass-checkpoint.mjs';
@@ -36,7 +37,7 @@ import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
 import { applyPanTallyCheckpoint } from './pan-tally-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'a1c89b3e85d2c51a9866c8bb5c0f3bafd6e4e12cecaa423d72d9fa40ddacc0e0';
+export const candidateHash = '5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -80,7 +81,7 @@ export function buildOffline(input) {
   html = applyPanTallyCheckpoint(applyTargetChestCheckpoint(applyGreatswordSmithCheckpoint(html)));
   html = applyHipposTamingTheftCheckpoint(applyRegionalMountServicesCheckpoint(applyMountOwnershipCheckpoint(html)));
   html = applyWildHerdsGrassCheckpoint(applyMountedRulerToursCheckpoint(applyRegionalStableCoverageCheckpoint(applyStableCallRegistryCheckpoint(applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html)))))));
-  html = applyGripCheckpoint(html);
+  html = applyRemediesCheckpoint(applyGripCheckpoint(html));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash '+sha256(output)+' bytes '+output.length);
   compileInlineScripts(html);

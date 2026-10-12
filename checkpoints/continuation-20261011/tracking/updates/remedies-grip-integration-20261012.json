@@ -1,0 +1,37 @@
+{
+  "id": "remedies-grip-integration-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2"
+  ],
+  "summary": "Aggregate PR20 four real remedies with PR19 bounded wrist grip. Fix repeated stale recipe callback payment. Preserve stamina recovery delay/action restrictions, nonstacking timed potency, paused gameplay time and full-save defaults. Upstream PRs remain owned and unmerged.",
+  "changedFiles": [
+    "scripts/remedies-checkpoint.mjs",
+    "scripts/remedies.test.mjs",
+    "scripts/browser-remedy-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "tracking/milestones.json",
+    "docs/ROADMAP.md",
+    "scripts/charge-feint.test.mjs",
+    "scripts/browser-pan-scenario.mjs"
+  ],
+  "evidence": [],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "checks": {
+    "focusedRemedies": "9/9 passed",
+    "fullSuite": "299/299 CI-configured source/workflow tests passed",
+    "runtime": "pending exact-build GitHub ordinary UI/crafting/effect expiry/Save",
+    "panPreviousHash": "d0f566e8 browser passed startup/ordinary Save/reload and real tablet acquisition; dungeon reload test used outdoor entrance coordinates. Corrected fixture now checks checkpoint21 exact area/position. Full cave route pending."
+  },
+  "bytes": 37977343
+}

@@ -31,12 +31,13 @@ jobs:
           name: continuation-checkpoint
           path: checkpoints/continuation-20261011/dist/
   browser-checkpoint:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
       fail-fast: false
       matrix:
-        scenario: [travel, pan, lock, grip]
+        scenario: [travel, pan, lock, grip, remedy]
     defaults:
       run:
         working-directory: checkpoints/continuation-20261011

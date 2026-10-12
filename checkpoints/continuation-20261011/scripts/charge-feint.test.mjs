@@ -2,10 +2,14 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { Script, createContext } from 'node:vm';
+import { chargeFeintRuntime } from './charge-feint-checkpoint.mjs';
 import { buildOffline } from './build-offline.mjs';
 
 const source=buildOffline(readFileSync(new URL('../index.html',import.meta.url))).toString();
-const runtime=source.slice(source.indexOf('const chargeFeint61Before='),source.indexOf('/* END BUILD48 MODULES */'));
+const expected=chargeFeintRuntime.slice(chargeFeintRuntime.indexOf('const chargeFeint61Before='));
+const start=source.indexOf('const chargeFeint61Before=');
+const runtime=source.slice(start,start+expected.length);
+assert.equal(runtime,expected,'Exercise the exact delivered feint module without unrelated later modules');
 const baseStart=source.indexOf('function tacticalTick14(a,dt,w,damage,speed,ranged=false){');
 const base=source.slice(baseStart,source.indexOf('npcThreatTick=function',baseStart));
 function fixture(extra={},real=false){
