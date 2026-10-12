@@ -29,6 +29,8 @@ export async function runPaidWagonScenario(page,check){
    check('wagon-destination-exact-reload',Math.hypot(restored.x-saved.data.pos.x,restored.z-saved.data.pos.z)<1e-6&&restored.silver===20,restored);
    // A level-up inventory may appear asynchronously after load. Close it through
    // its real control before handing the page to the map scenario.
+   await page.waitForFunction(()=>!STREAM.building);
+   await page.waitForTimeout(750);
    const bag=page.locator('#bag');
    if(await bag.isVisible())await page.locator('#bagclose').click();
    await bag.waitFor({state:'hidden'});

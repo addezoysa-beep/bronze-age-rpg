@@ -1,6 +1,8 @@
 // Seed discovery/clear-weather fixtures only; destination inputs and Save/load use real controls.
 export async function runFastTravelScenario(page,check){
  const bag=page.locator('#bag');
+ await page.waitForFunction(()=>!STREAM.building);
+ await page.waitForTimeout(750);
  if(await bag.isVisible())await page.locator('#bagclose').click();
  await bag.waitFor({state:'hidden'});
  await page.waitForFunction(()=>STATE==='play');
