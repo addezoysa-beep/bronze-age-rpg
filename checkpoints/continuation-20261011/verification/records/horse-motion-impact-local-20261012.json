@@ -1,0 +1,31 @@
+{
+  "id": "horse-motion-impact-local-20261012",
+  "recordedAt": "2026-10-12T04:13:05Z",
+  "implementation": "local_candidate_pending_publication_and_runtime",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2",
+  "exactCandidateBytes": 37950664,
+  "branch": "m5/local-wells-riding-challenges",
+  "scope": [
+    "Horse charge damage requires speed at least 8.5, forward alignment, bounded swept travel and per-target cooldown; damage is clamped from 12 through 30.",
+    "Hostile enemy impacts use dmgEnemy; civilian impacts use assaultNPC and therefore the existing warning/law path. Friendly enemies and ships are excluded.",
+    "Horse stand, walk, trot and gallop use separate timing with stance/airborne swing, knee, hock, hoof, body and neck motion.",
+    "Both wild taming paths permit bareback riding. Stable registration charges 40 silver once and grants at most one riding quilt; state uses normal world/inventory serialization."
+  ],
+  "checks": {
+    "focusedSource": "6/6 passed",
+    "fullSourceWorkflow": "255/255 passed with test concurrency 1",
+    "parallelNote": "One parallel full run reported interaction.test.mjs as a file-level failure; the same interaction suite passed 9/9 alone and the serial full run passed.",
+    "exactBuild": "reproduced and inline scripts compiled",
+    "browser": "pending"
+  },
+  "pending": [
+    "ordinary input player/NPC/friendly/civilian charge runtime and law response",
+    "rendered side/front/rear gait at speed transitions, turns, slopes and with rider/quilt",
+    "ordinary stable mouse registration, insufficient funds, duplicate prevention and inventory visibility",
+    "offline pause Save/exact-position reload and old-save migration",
+    "Low graphics performance"
+  ],
+  "milestoneAcceptance": "none",
+  "nextAction": "Publish the isolated checkpoint to the authorized continuation PR, run CI, and obtain ordinary rendered/runtime evidence without disturbing active PRs 19, 20, 21, 26 or 27."
+}
