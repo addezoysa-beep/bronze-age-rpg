@@ -128,6 +128,7 @@ try {
   if (page && !page.isClosed()) {
     await page.screenshot({ path: resolve(output, 'failure-scene.png'), timeout: 5000 }).catch(() => {});
     report.visibleControls = await page.locator('button:visible').allTextContents().catch(() => []);
+    report.failureState = await page.evaluate(()=>({ready:window.WDS_READY33,state:typeof STATE==='undefined'?null:STATE,slot:typeof SAVE_SLOT==='undefined'?null:SAVE_SLOT,storageKeys:Object.keys(localStorage),savedSlots:typeof saveSummary==='function'?Array.from({length:SAVE_SLOTS},(_,i)=>({slot:i+1,summary:saveSummary(i+1),bytes:localStorage.getItem(slotKey(i+1))?.length||0})):null})).catch(error=>({diagnosticError:error.message}));
   }
 }
 finally {
