@@ -28,5 +28,33 @@ jobs:
         run: node scripts/build-offline.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: continuation-checkpoint-6cbd8ca5
+          name: continuation-checkpoint
           path: checkpoints/continuation-20261011/dist/
+  browser-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [travel, pan, lock]
+    defaults:
+      run:
+        working-directory: checkpoints/continuation-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/build-offline.mjs
+      - name: Exact checkpoint ordinary-input browser verification
+        run: node scripts/browser-candidate-smoke.mjs
+        env:
+          WDS_SMOKE_PRESET: verylow
+          WDS_SMOKE_SCENARIO: ${{ matrix.scenario }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: continuation-browser-${{ matrix.scenario }}
+          path: checkpoints/continuation-20261011/verification/runtime/

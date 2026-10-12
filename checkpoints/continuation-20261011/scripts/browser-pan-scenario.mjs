@@ -2,6 +2,8 @@
 export async function runPanScenario(page,check){
  await page.evaluate(async()=>{
   if(STATE==='talk')cancelDialogue();F().lykos=F().wolvesDone=F().king=F().cave=1;F().daedalus=0;
+  // Prepared post-boss fixture includes the captain's key; real key acquisition is a separate acceptance gate.
+  G.inv.key_cave=Math.max(1,G.inv.key_cave||0);
   delete G.inv.relic_pan_tally61;delete livingState().panTallyCollected61;delete livingState().loot['chest:cave:100'];
   await enterDungeon('cave',{x:LOC.cave.x,z:LOC.cave.z,yaw:0});
   const ch=DG.chests.find(c=>c.idx===100);if(!ch)throw Error('Captain reward chest missing');

@@ -2,6 +2,8 @@ import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { performance } from 'node:perf_hooks';
+import {runPanScenario} from './browser-pan-scenario.mjs';
+import {runCombatLockScenario} from './browser-combat-lock-scenario.mjs';
 import {runFastTravelScenario} from './browser-fast-travel-scenario.mjs';
 import {runPaidWagonScenario} from './browser-wagon-scenario.mjs';
 import {runInteractionScenario} from './browser-interaction-scenario.mjs';
@@ -104,9 +106,15 @@ try {
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
   const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
-  await runInteractionScenario(page,check);
-  await runPaidWagonScenario(page,check);
-  await runFastTravelScenario(page,check);
+  const scenario=process.env.WDS_SMOKE_SCENARIO || 'travel';
+  report.scenario=scenario;
+  if(scenario==='pan')await runPanScenario(page,check);
+  else if(scenario==='lock')await runCombatLockScenario(page,check);
+  else if(scenario==='travel'){
+    await runInteractionScenario(page,check);
+    await runPaidWagonScenario(page,check);
+    await runFastTravelScenario(page,check);
+  }else throw Error('Unknown checkpoint browser scenario: '+scenario);
   check('uncaught-exceptions', report.pageErrors.length === 0, report.pageErrors);
   check('offline-resources', report.externalRequests.length === 0, report.externalRequests);
   report.status = 'passed';
