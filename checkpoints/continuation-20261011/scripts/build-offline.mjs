@@ -35,7 +35,7 @@ import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
 import { applyPanTallyCheckpoint } from './pan-tally-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'c19a5045b3c47aba11f4ff88da7229854cd3d2833917ebc9756f49b714f6ea00';
+export const candidateHash = '3c4f299cd7aef6b6e54505413a411de0cb3aa2ca51785991ed9861625b3b788e';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -48,6 +48,7 @@ function kobAlertActive45(e){const a=e.kobAlert45;if(!a)return false;if(a.until<
 const alertKob45Before=kobFight26;kobFight26=function(e,dt,d){const yell=e.kobYell45;if(yell){yell.t+=dt;e.state='wind';e._moving14=0;e.yaw+=clamp(angDiff(Math.atan2(P.x-e.x,P.z-e.z),e.yaw),-dt*3,dt*3);if(yell.t>=.52&&!yell.called){yell.called=true;kobAlertPack45(e);}if(yell.t>=1.05){e.kobYell45=null;e.kobAlertReady45=T_NOW+KOB_ALERT_COOLDOWN45;}return;}const key=e.area||'over',locked=KOB_ALERT45.locks.get(key)||0;if(!e.kobAlert45&&d<22&&T_NOW>=(e.kobAlertReady45||0)&&locked<=T_NOW&&enemySightLine(e)&&kobAlertCanCall45(e)){KOB_ALERT45.locks.set(key,T_NOW+2.5);e.kobYell45={t:0,called:false};e.kobAlertReady45=T_NOW+KOB_ALERT_COOLDOWN45;e.state='wind';return;}return alertKob45Before(e,dt,d);};`;
 
 const replacements = [
+  ["loadCaption('Could not start: '+String(e.message).replace(/[<>]/g,''));", "loadCaption('Could not start: '+String(e.message).replace(/[<>]/g,'')+'<br><small>Startup diagnostic v2<br>'+String(e.stack||'No stack supplied by browser').split('\\n').slice(0,6).map(line=>line.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')).join('<br>')+'</small>');"],
   ["seed=faceHash(o.name),style=REGION_STYLE[culture];", "seed=faceHash(o.name),style=REGION_STYLE[culture]||REGION_STYLE[cultureAt13(o.x,o.z)]||REGION_STYLE.aegean;"],
   ["function openPause(){if(STATE!=='play')return;STATE='pause';$('pause').classList.add('on')}",
    "function openPause(){if(STATE!=='play')return;STATE='pause';$('pause').classList.add('on');try{document.exitPointerLock?.()}catch(_){}mouse.l=mouse.r=false;for(const k in keys)keys[k]=false}"],

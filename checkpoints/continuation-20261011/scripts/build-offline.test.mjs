@@ -11,7 +11,7 @@ test('reproduce the exact production candidate', () => {
   const result = buildOffline(source);
   assert.equal(sha256(source), sourceHash);
   assert.equal(sha256(result), candidateHash);
-  assert.equal(result.length, 37971559);
+  assert.equal(result.length, 37971773);
   assert.equal(sha256(readFileSync(resolve(root, 'index.html'))), sourceHash);
 });
 
@@ -36,4 +36,17 @@ test('startup character creation tolerates unknown culture and riding instructor
   const source = readFileSync(resolve(root,'scripts/riding-challenges-checkpoint.mjs'),'utf8');
   assert.ok(source.includes("?'egypt':'aegean'"));
   assert.ok(!source.includes("?'egypt':'greek'"));
+});
+
+test('startup failure displays actual failing function and line with safe escaping', async () => {
+  const html=buildOffline(readFileSync(resolve(root,'index.html'))).toString('utf8');
+  const line=html.split('\n').find(l=>l.startsWith("init=async function(){try{loadCaption('Preparing people and places"));
+  assert.ok(line);
+  const fault={message:"can't find variable: cell",stack:'terrainBuild@file:///test.html:4041:20\n<bad>&'};
+  const f={console:{error(){}},loadCaption:t=>f.caption=t,yieldPaint:async()=>{},populate:async()=>{throw fault;}};
+  vm.createContext(f);vm.runInContext(line,f);await f.init();
+  assert.match(f.caption,/terrainBuild@file:\/\/\/test.html:4041:20/);
+  assert.match(f.caption,/Startup diagnostic v2/);
+  assert.match(f.caption,/&lt;bad&gt;&amp;/);
+  assert.ok(!f.caption.includes('<bad>'));
 });
