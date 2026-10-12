@@ -2,6 +2,7 @@ import { applyRegionalWellsCheckpoint } from './regional-wells-checkpoint.mjs';
 import { applyRidingChallengesCheckpoint } from './riding-challenges-checkpoint.mjs';
 import { applyHorseMotionImpactCheckpoint } from './horse-motion-impact-checkpoint.mjs';
 import { applyStableCallRegistryCheckpoint } from './stable-call-registry-checkpoint.mjs';
+import { applyRegionalStableCoverageCheckpoint } from './regional-stable-coverage-checkpoint.mjs';
 import { applyMountOwnershipCheckpoint } from './mount-ownership-checkpoint.mjs';
 import { applyRegionalMountServicesCheckpoint } from './regional-mount-services-checkpoint.mjs';
 import { applyHipposTamingTheftCheckpoint } from './hippos-taming-theft-checkpoint.mjs';
@@ -31,7 +32,7 @@ import { applyGreatswordSmithCheckpoint } from './greatsword-smith-checkpoint.mj
 import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = 'a2e7af41d66efeb6369e1b4e83e336f9206c33a669c479dee1141d644543a5c5';
+export const candidateHash = 'dd6df749af411c2198fd37d3d77059eeff4d7374f33866cdd1735520d9bfd38b';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -72,7 +73,7 @@ export function buildOffline(input) {
   html = applyLawWarningCheckpoint(applyPhocasOpeningCheckpoint(html));
   html = applyTargetChestCheckpoint(applyGreatswordSmithCheckpoint(html));
   html = applyHipposTamingTheftCheckpoint(applyRegionalMountServicesCheckpoint(applyMountOwnershipCheckpoint(html)));
-  html = applyStableCallRegistryCheckpoint(applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html))));
+  html = applyRegionalStableCoverageCheckpoint(applyStableCallRegistryCheckpoint(applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html)))));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash '+sha256(output)+' bytes '+output.length);
   compileInlineScripts(html);
@@ -93,6 +94,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
       'Horse gait separates stance and airborne swing phases across walk, trot and gallop with articulated knees, hocks and hooves',
       'Wild horses can be tamed and ridden bareback, then registered once at a stable for a conserved fee and riding quilt',
       'Stable menus retain multiple owned horses and chariots, select one persistent responder for the shared H call, and migrate old single-horse saves',
+      'Seventeen inspected major settlement hubs reuse nearby keepers and create only missing grounded stable yards with ordinary ownership, registration and responder-selection services',
       'Regional water coverage audits existing well approach paths and adds only missing safely grounded region wells',
       'Five candidate regional mounted riding circuits use ordered gates and an actual moving NPC opponent, with once-per-day prizes and save-safe results',
       'Hippos is earned through ordered grooming, trough, leading and pasture work; existing owners migrate complete',

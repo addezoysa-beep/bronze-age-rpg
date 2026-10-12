@@ -586,6 +586,26 @@
         "unavailable/dead mount gameplay, old-save and ordinary offline pause Save/reload"
       ],
       "milestoneAcceptance": "none"
+    },
+    "regionalStableCoverage81": {
+      "id": "regional-stable-coverage-local-20261012",
+      "buildSha256": "dd6df749af411c2198fd37d3d77059eeff4d7374f33866cdd1735520d9bfd38b",
+      "recordedAt": "2026-10-12T06:25:38Z",
+      "implementation": "local_candidate_pending_publication_and_runtime",
+      "checks": {
+        "focused": "4/4 passed",
+        "fullSourceWorkflow": "269/269 passed serially",
+        "repository": "passed",
+        "exactCandidateBytes": 37960117,
+        "browser": "pending"
+      },
+      "scope": "Seventeen major hubs reuse nearby stable keepers or add a bounded same-region grounded service yard; blocked placement is explicit and never treated as coverage.",
+      "pending": [
+        "rendered reachability and ordinary stable mouse use across representative regions",
+        "physical multi-mount H response and old-save migration",
+        "ordinary offline pause Save/reload and Low-preset performance"
+      ],
+      "milestoneAcceptance": "none"
     }
   }
 }
