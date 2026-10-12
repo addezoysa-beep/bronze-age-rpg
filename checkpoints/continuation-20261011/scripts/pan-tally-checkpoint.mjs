@@ -24,7 +24,7 @@ const panChest61Before=makeBossRewardChest15;makeBossRewardChest15=function(dg){
   const id=PAN_CHEST61,s=livingState();
   // Migrate an already-open pre-patch chest without resurrecting its heart reward.
   if(gstate(dg.id).chests[100]&&!s.loot[id]){
-   putLoot(id,dg.bossPos.x,dg.bossPos.z,dg.id,{},'CaptainÃÂ¢ÃÂÃÂs stores');s.loot[id].reward15=dg.def.reward;
+   putLoot(id,dg.bossPos.x,dg.bossPos.z,dg.id,{},'Captain’s stores');s.loot[id].reward15=dg.def.reward;
   }
   ensurePanTally61(id);
  }
@@ -33,13 +33,13 @@ const panChest61Before=makeBossRewardChest15;makeBossRewardChest15=function(dg){
 const panObjective61Before=mainObjective13;mainObjective13=function(){
  if(F().cave&&!F().daedalus&&!panTallyHeld61()&&!livingState().panTallyCollected61){
   const ch=DGS.cave?.chests.find(c=>c.idx===100);
-  return {t:'Search the captainÃÂ¢ÃÂÃÂs chest for the cargo tablet',x:AREA==='cave'?ch?.x??LOC.cave.x:LOC.cave.x,z:AREA==='cave'?ch?.z??LOC.cave.z:LOC.cave.z};
+  return {t:'Search the captain’s chest for the cargo tablet',x:AREA==='cave'?ch?.x??LOC.cave.x:LOC.cave.x,z:AREA==='cave'?ch?.z??LOC.cave.z:LOC.cave.z};
  }
  return panObjective61Before();
 };
 const panDaedalus61Before=daedalusTalk;daedalusTalk=function(n){
- if(!F().daedalus&&!F().cave)return say(n.name,['A shepherd from Ikaria? IkariosÃÂ¢ÃÂÃÂs daughter is missing, and the raiders were seen near PanÃÂ¢ÃÂÃÂs cave. Bring me something from their stores; a shipÃÂ¢ÃÂÃÂs record may tell us where they went.']);
- if(!F().daedalus&&!panTallyHeld61()&&!livingState().panTallyCollected61)return say(n.name,['A captainÃÂ¢ÃÂÃÂs word dies with him. Search his chest in PanÃÂ¢ÃÂÃÂs cave for the cargo tablet, then bring it here.']);
+ if(!F().daedalus&&!F().cave)return say(n.name,['A shepherd from Ikaria? Ikarios’s daughter is missing, and the raiders were seen near Pan’s cave. Bring me something from their stores; a ship’s record may tell us where they went.']);
+ if(!F().daedalus&&!panTallyHeld61()&&!livingState().panTallyCollected61)return say(n.name,['A captain’s word dies with him. Search his chest in Pan’s cave for the cargo tablet, then bring it here.']);
  return panDaedalus61Before(n);
 };
 `;
@@ -54,7 +54,7 @@ export function applyPanTallyCheckpoint(html){
  const reward='s.loot[id].reward15=item;return takeWorldLoot(id);';
  if(html.split(reward).length!==2)throw Error('Expected normal chest loot route');
  html=html.replace(reward,'s.loot[id].reward15=item;ensurePanTally61(id);return takeWorldLoot(id);');
- const narration="Among the captainÃÂ¢ÃÂÃÂs stores you find a tally marked Knossos. A mapmaker named Daedalus supplied the route. The trail leads to Krete.";
+ const narration="Among the captain’s stores you find a tally marked Knossos. A mapmaker named Daedalus supplied the route. The trail leads to Krete.";
  if(html.split(narration).length!==2)throw Error('Expected captain narration');
- return html.replace(narration,"The captainÃÂ¢ÃÂÃÂs chest stands among his stores. Search it for the salt-stained cargo tablet; its record may tell you where the raiders sailed.");
+ return html.replace(narration,"The captain’s chest stands among his stores. Search it for the salt-stained cargo tablet; its record may tell you where the raiders sailed.");
 }
