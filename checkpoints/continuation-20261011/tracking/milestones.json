@@ -544,6 +544,27 @@
         "creature mesh redesign and regional/mount/challenge/well expansion"
       ],
       "milestoneAcceptance": "none"
+    },
+    "horseMotionImpact79": {
+      "id": "horse-motion-impact-local-20261012",
+      "buildSha256": "e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2",
+      "recordedAt": "2026-10-12T04:13:05Z",
+      "implementation": "local_candidate_pending_publication_and_runtime",
+      "checks": {
+        "focusedSource": "6/6 passed",
+        "fullSourceWorkflow": "255/255 passed serially; parallel run had one file-level worker failure and its interaction file passed 9/9 alone",
+        "exactCandidateBytes": 37950664,
+        "inlineCompile": "passed",
+        "browser": "pending: rendered gait/contact, ordinary stable UI and offline Save/reload are not established"
+      },
+      "scope": "Forward speed-gated swept horse impacts with bounded damage/cooldowns and law routing; stand/walk/trot/gallop limb articulation; saddle-free taming followed by conserved stable registration and one riding quilt.",
+      "pending": [
+        "rendered side/front/rear gait review across speeds, turns and slopes",
+        "ordinary player/NPC/friendly/civilian charge contacts and law response",
+        "ordinary stable registration, insufficient funds, duplicate prevention and pause Save/reload",
+        "Low-preset performance and rider/quilt contact"
+      ],
+      "milestoneAcceptance": "none"
     }
   }
 }
