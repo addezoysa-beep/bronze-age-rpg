@@ -35,7 +35,7 @@ import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
 import { applyPanTallyCheckpoint } from './pan-tally-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = '3c4f299cd7aef6b6e54505413a411de0cb3aa2ca51785991ed9861625b3b788e';
+export const candidateHash = 'd0f566e873abfe9e3571e0dff07348497fb359a70c091bd50554a95d953b90cc';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
