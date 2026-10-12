@@ -1,0 +1,33 @@
+{
+  "checkpoint": "greatsword-smith-local-20261011",
+  "artifactSha256": "0d2a067f59c5149e13f39e266f7f13cf8a1086ab46abea1aef34009c725b8ae5",
+  "bytes": 37912829,
+  "recordedAt": "2026-10-11T21:10:20.087326+00:00",
+  "sourceTests": {
+    "status": "passed",
+    "count": 182,
+    "newCommissionTests": 8
+  },
+  "repositoryValidation": "passed",
+  "workflowTests": {
+    "status": "passed",
+    "count": 8
+  },
+  "runtime": {
+    "status": "pending",
+    "blocker": "Runtime-owned Playwright is present, but its Chromium executable is absent. Rendered smith location/dialogue, next-day collection, inventory/equip, FP/TP combat and ordinary pause Save/reload remain unverified."
+  },
+  "publication": "not_attempted",
+  "milestoneAcceptance": "pending",
+  "sourceFindings": [
+    "Existing greatsword16 and regional weapon48 meshes",
+    "Two-handed grip targets, three melee variants, weapon guard and stamina costs",
+    "Generic pattern lessons and special rewards exist; ordinary arms service previously lacked direct greatsword offering"
+  ],
+  "changes": [
+    "Direct greatsword menu for all regional arms merchants and smith48 workers, including lazily created services",
+    "Copper/bronze commissions at 360/720 silver; major-city level-eight iron at 2400",
+    "Paid order matures next day; collection deletes order and adds one physical item",
+    "Targeted regional recipe lessons; no free ingredients or training grants"
+  ]
+}

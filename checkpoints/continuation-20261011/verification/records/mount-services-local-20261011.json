@@ -1,0 +1,43 @@
+{
+  "id": "mount-services-local-20261011",
+  "recordedAt": "2026-10-11T22:16:19.277070+00:00",
+  "buildSha256": "27529e4f641e0f5afaeff03b5bf61daae2dd0b3de0ce9478d3081ee813ffc7c6",
+  "exactCandidateBytes": 37922915,
+  "implementation": "local_unpublished_candidate",
+  "summary": "Ownership-aware horse/saddle menus, repeat and hired-mount purchase guards, direct owned chariot ride, selected H whistle, serialized chariot position/ridden identity; Northern Steppe wagon to Ur/Avaris with safe arrival/fare refund and reentrancy guards, Avaris horse/chariot service. Rain/storm and level-up browser harness corrected; rendered acceptance pending.",
+  "checks": {
+    "nodeTests": {
+      "passed": 215,
+      "failed": 0,
+      "includesWorkflowTests": 8,
+      "evidence": "verification/mount-services-tests.txt"
+    },
+    "repository": "passed",
+    "browser": "blocked: Playwright installed, Chromium headless executable absent; no gameplay checks executed"
+  },
+  "ciInspected": {
+    "pr": 26,
+    "head": "a7084cfd6ecf74a793eb2c8380a6999953297250",
+    "run": 38115436645,
+    "job": 114399333871,
+    "failure": "chart-search16 timeout while normal level-up character menu visible",
+    "artifact": 11693173753,
+    "scope": "remote older PR head, not current local candidate"
+  },
+  "pending": [
+    "ordinary horse/saddle/chariot purchase, insufficient funds, Owned display and E/H inputs",
+    "regional worker/vehicle grounding and navigation, wagon ordinary destination arrival/fare",
+    "ordinary offline pause Save/exact position reload while riding chariot and after wagon arrival",
+    "lion/dragon meshes, more predators, bucking/taming/theft, earned Hippos quest, best steppe horses and lessons, world challenges/camps/wells",
+    "opening/Pan, hand grip visual matrix, Low old-save combat and all M0-M5 gates"
+  ],
+  "publication": "not attempted; prior create_tree automatic-review export authorization rejection remains; no alternate publication route",
+  "milestoneAcceptance": "none",
+  "localBranch": "m5/local-mount-services",
+  "remainingPriorityOrder": [
+    "opening and Pan physical-item ordinary walkthrough",
+    "full hand-grip and grounded-roll rendered matrix",
+    "Low old-save ten-attacker combat performance",
+    "creature/mount expansions and remaining shared job/economy/story/sea gates"
+  ]
+}

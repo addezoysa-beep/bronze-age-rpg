@@ -1,0 +1,32 @@
+name: Continuation checkpoint
+on:
+  pull_request:
+    paths:
+      - 'checkpoints/continuation-20261011/**'
+      - '.github/workflows/continuation-checkpoint.yml'
+  push:
+    branches: ['checkpoint/authorized-continuation-20261011']
+permissions:
+  contents: read
+jobs:
+  verify-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: checkpoints/continuation-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Source and workflow tests
+        run: node --test --test-concurrency=2 scripts/*.test.mjs
+      - name: Repository validation
+        run: node scripts/verify.mjs
+      - name: Reproduce exact offline candidate
+        run: node scripts/build-offline.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: continuation-checkpoint-6cbd8ca5
+          path: checkpoints/continuation-20261011/dist/

@@ -1,0 +1,42 @@
+{
+  "id": "lock-ground-local-20261011",
+  "recordedAt": "2026-10-11T06:21:21.258336+00:00",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "basePlayableSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+  "buildSha256": "5b30c7360aa44858aaa9b8776b717e08c45c297b864ae863cd6f0db19df605b6",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {
+    "passed": 82,
+    "failed": 0,
+    "command": "node --test --test-concurrency=2 scripts/*.test.mjs"
+  },
+  "static": "generated three inline scripts compile; baseline unchanged; repository/workflow validation passed",
+  "implemented": [
+    "Q lock/unlock, Shift+Q cycling; Backquote left attack; configurable Q/Numpad0 persisted settings",
+    "Hostile enemy target eligibility, range/area/LOS/visibility; cached LOS and release on menu/death/travel area; camera/facing and existing marker retained",
+    "Floor contact refreshes descendant world matrices; ignores hidden and weapon subtrees; transformed-body regression reproduces original penetration"
+  ],
+  "runtime": "Not run: Chromium executable unavailable; installer returned invalid download. No runtime, visual, performance or Save acceptance on this hash.",
+  "knownLimits": [
+    "Lock acquisition currently covers ENEMIES; hostile civilian NPC adapter and full melee/ranged matrix pending",
+    "Full ground-safe NPC roll/collision and slopes/stairs/interior visuals remain pending; corrected helper alone does not accept ROLL-60",
+    "Work jobs and 40 animations, cargo, new content are planned; none implemented here"
+  ],
+  "panReview": {
+    "pr": 27,
+    "head": "e08983fdfe313f08efd2450c6a2a964a8bb395d4",
+    "run": 38115452644,
+    "artifact": 11692874079,
+    "result": "Source checks, offline smoke and sling UI passed; Pan failed waiting for loot. Screenshot shows Locked chest with no picks. Prepared defeated-captain fixture lacks key.",
+    "localCorrection": "review-corrections/browser-pan-scenario.mjs seeds physical key_cave for scoped post-boss fixture only; no game bypass, no rerun yet. Full real boss/key acquisition remains pending."
+  },
+  "nextActions": [
+    "Run prepared ordinary lock Q/Shift+Q/config/marker/facing/Save/exact reload scenario with actual Chromium; do not replace UI Save",
+    "Review corrected Pan fixture on active PR27 after reconciling PR26; preserve existing ownership",
+    "Extend hostile NPC targeting safely across actual projectile damage paths",
+    "Audit final NPC roll pose and swept grounding on slopes/stairs; rendered ten-attacker Low old-save profile",
+    "Reconcile local checkpoint with master-development and earlier blocked lock candidate after publication authority resolved"
+  ],
+  "milestoneAcceptance": "none"
+}

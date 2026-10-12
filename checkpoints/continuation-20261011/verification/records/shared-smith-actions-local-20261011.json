@@ -1,0 +1,44 @@
+{
+  "id": "shared-smith-actions-local-20261011",
+  "recordedAt": "2026-10-11T16:14:53Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "e498b1adcfd0181aff789c9600916428be8ff374c5cdde4543aee1a41ef1b7f9",
+  "bytes": 37857156,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {"passed": 119, "failed": 0, "command": "node --test scripts/*.test.mjs"},
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "githubStatus": {
+    "checkedAt": "2026-10-11T16:15:47Z",
+    "masterDevelopment": "53989c4b3d3568d71fb54085479946be90eb22df",
+    "pr19_20_21": "open drafts with unchanged heads; all report dirty merge state after PR25 merged; no head-associated workflow runs",
+    "pr26": "open and dirty; workflow run 38115436645 remains failed in the browser job while repository checks passed",
+    "pr27": "open, stacked on PR26 and dirty; no head-associated workflow run"
+  },
+  "implemented": [
+    "Four additional shared actions: work bellows, heat and turn a blank, hammer at anvil, and quench",
+    "The same poseSmithWork64 rig drives regional arms smiths and the player, with grounded legs, spine/arm motion, hammer and tongs",
+    "Smith schedules use the existing regional furnace and anvil/workbench plus a grounded quench trough instead of one perpetual hammer pose",
+    "Ordinary interaction prompts enforce the physical station and stage order; movement, danger, opening duty and incompatible actions cannot advance work",
+    "Completed stages persist while transient animation clears on restore; an old save defaults safely and a new day resets the sequence",
+    "Quenching completes the shift and pays 10 silver once per smith/day without creating free equipment, ingredients or recipe knowledge"
+  ],
+  "runtime": "Not run: no usable Chromium executable is present. Source fixtures execute normal station interactions, schedule transitions, interruption, restore, old-save default and daily wage behavior. No rendered path clearance, fire/tool/hand/trough contact, first-person presentation, Low performance or ordinary pause-menu Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "Twelve of the planned thirty-to-forty shared actions are implemented",
+    "Station offsets and props require rendered collision/contact review in representative regions",
+    "The shift is an assistant wage, not a substitute for learning, ingredients, recipes, smelting or crafting",
+    "Quarry, irrigation, ploughing, cargo, orchard, kitchen, scribe and bard action clusters remain planned"
+  ],
+  "nextActions": [
+    "Render the complete regional smith schedule and player shift and correct tool, hand, clothing, furnace or trough contact faults",
+    "Use ordinary pause-menu Save between stages and after payment, reload, and verify no progress or wage duplication",
+    "Implement the quarry strike/wedge/lever/paired-rope cluster at inspected mine sites with synchronized team contacts",
+    "Add paid quarry contract duration, quit/failure and one-time wage rules"
+  ],
+  "milestoneAcceptance": "none"
+}

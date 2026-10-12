@@ -1,0 +1,23 @@
+{
+  "id": "hippos-taming-theft-local-20261011",
+  "recordedAt": "2026-10-11T23:18:28Z",
+  "implementation": "local_unpublished_candidate",
+  "buildSha256": "5096fbef8491c55e677c8309e5a6fe9f581c2b1aa4c84e35ed5e30a7d1486211",
+  "exactCandidateBytes": 37934310,
+  "scope": "Ordered earn-Hippos care and leading quest; old-owner migration; visible wild-taming rear/kick pose; eligible horse, household-horse and chariot theft through ride interactions with law consequences and mount safeguards; elite Steppe Courser and three horsemanship lessons.",
+  "checks": {
+    "focused": "13/13 passed",
+    "fullSource": "228/228 passed including 8 workflow tests",
+    "repository": "passed",
+    "browser": "blocked before gameplay: Playwright package exists but Chromium executable remains absent"
+  },
+  "pending": [
+    "ordinary Timaios dialogue and every quest station through reward and pause Save/reload",
+    "rendered horse-leading contact and bucking anatomy/rider attachment",
+    "ordinary E theft selection, witness/guard response, jail/fine/refusal and reload",
+    "steppe NPC, horse-grounding, purchase, lessons and meaningful balance change",
+    "archery/sparring/horsemanship challenges, camps, wells and creature redesigns"
+  ],
+  "publication": "not attempted; prior destination/export authorization rejection remains",
+  "milestoneAcceptance": "none"
+}

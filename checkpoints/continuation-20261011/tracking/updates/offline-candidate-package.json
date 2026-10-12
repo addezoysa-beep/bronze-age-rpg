@@ -1,0 +1,36 @@
+{
+  "id": "offline-candidate-package",
+  "createdOn": "2026-10-10",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5207ee4a75ae228a6031a35042a5c7cf4dad76af94d4cdb4722708af017c87ba",
+  "milestoneIds": [
+    "M0"
+  ],
+  "summary": "Reproducible production packaging applies the two pause-menu source fixes and emits the exact previously tested standalone HTML. Read-only CI tests the generated artifact with ordinary Save input and uploads it only on success. Source index remains preserved; M0 hardware/history baseline and milestone acceptance remain pending.",
+  "changedFiles": [
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    ".github/workflows/verify.yml",
+    "docs/OFFLINE_CANDIDATE.md",
+    "tracking/updates/offline-candidate-package.json"
+  ],
+  "evidence": [
+    "node scripts/build-offline.mjs",
+    "node --test scripts/build-offline.test.mjs",
+    "dist/build-manifest.json",
+    "verification/runtime/browser-smoke.json",
+    "verification/records/pause-fixed-browser.json"
+  ],
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/9#issuecomment-6099906508"
+  },
+  "masterReview": {
+    "status": "passed",
+    "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "artifactSha256": "5207ee4a75ae228a6031a35042a5c7cf4dad76af94d4cdb4722708af017c87ba",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/9#issuecomment-6099906508"
+  },
+  "releaseStatus": "candidate-only-not-milestone-acceptance"
+}

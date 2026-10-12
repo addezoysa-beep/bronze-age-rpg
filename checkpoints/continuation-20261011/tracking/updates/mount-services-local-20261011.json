@@ -1,0 +1,31 @@
+{
+  "id": "mount-services-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "27529e4f641e0f5afaeff03b5bf61daae2dd0b3de0ce9478d3081ee813ffc7c6",
+  "summary": "Ownership-aware horse/saddle menus, repeat and hired-mount purchase guards, direct owned chariot ride, selected H whistle, serialized chariot position/ridden identity; Northern Steppe wagon to Ur/Avaris with safe arrival/fare refund and reentrancy guards, Avaris horse/chariot service. Rain/storm and level-up browser harness corrected; rendered acceptance pending.",
+  "changedFiles": [
+    "scripts/mount-ownership-checkpoint.mjs",
+    "scripts/regional-mount-services-checkpoint.mjs",
+    "scripts/mount-services.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/browser-fast-travel-scenario.mjs",
+    "docs/CREATURE_MOUNT_FEEDBACK_20261011.md",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json"
+  ],
+  "evidence": [
+    "verification/records/mount-services-local-20261011.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M3",
+    "M5"
+  ]
+}

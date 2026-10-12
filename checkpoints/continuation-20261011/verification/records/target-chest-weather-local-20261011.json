@@ -1,0 +1,23 @@
+{
+  "id": "target-chest-weather-local-20261011",
+  "buildSha256": "3712f152e387a5033474d74833fc3366103c4d31ff07348627da2f17d4800a8e",
+  "recordedAt": "2026-10-11T21:29:40.806339+00:00",
+  "implementation": "local_unpublished_candidate",
+  "checks": {
+    "nodeTests": {
+      "passed": 198,
+      "failed": 0,
+      "includesWorkflowTests": 8
+    },
+    "repository": "passed",
+    "exactCandidateBytes": 37913714,
+    "browser": "blocked: Playwright runtime package exists but its Chromium executable is absent; initial smoke did not launch and was baseline-only"
+  },
+  "scope": "Source fixtures reproduce stale boss priority and missing dg.def on outdoor chest. Current LOCK then nearest engaged hostile target; boss clears by state/range/area/visibility/LOS. Guardian chest refuses alive; dead unlocks. Egyptian puzzle still gated. Rain/storm landmark travel allowed; safe land/departure/discovery checks retained.",
+  "pending": [
+    "ordinary chest interaction, combat target switching and rain travel on exact candidate",
+    "ordinary pause Save/reload",
+    "creature mesh redesign and regional/mount/challenge/well expansion"
+  ],
+  "milestoneAcceptance": "none"
+}

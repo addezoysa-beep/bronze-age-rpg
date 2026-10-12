@@ -1,0 +1,31 @@
+{
+  "id": "lock-ground-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5b30c7360aa44858aaa9b8776b717e08c45c297b864ae863cd6f0db19df605b6",
+  "summary": "Local combat lock controls and current-pose floor-contact correction; 82 source tests pass, rendered runtime blocked. Pan prepared-fixture correction separately preserved.",
+  "changedFiles": [
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/combat-lock-checkpoint.mjs",
+    "scripts/combat-lock.test.mjs",
+    "scripts/ground-contact-checkpoint.mjs",
+    "scripts/ground-contact.test.mjs",
+    "scripts/browser-combat-lock-scenario.mjs",
+    "docs/WORK_AND_LOCK_PRIORITY_20261011.md",
+    "tracking/milestones.json"
+  ],
+  "evidence": [
+    "verification/records/lock-ground-local-20261011.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2"
+  ]
+}

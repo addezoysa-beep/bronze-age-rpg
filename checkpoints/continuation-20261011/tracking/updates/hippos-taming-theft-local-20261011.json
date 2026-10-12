@@ -1,0 +1,19 @@
+{
+  "id": "hippos-taming-theft-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5096fbef8491c55e677c8309e5a6fe9f581c2b1aa4c84e35ed5e30a7d1486211",
+  "summary": "Earn-Hippos care/leading quest, visible bucking cycle, eligible horse/chariot theft through ride interactions, elite Steppe Courser and horsemanship lessons.",
+  "changedFiles": [
+    "scripts/hippos-taming-theft-checkpoint.mjs",
+    "scripts/hippos-taming-theft.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/CREATURE_MOUNT_FEEDBACK_20261011.md",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json"
+  ],
+  "evidence": ["verification/records/hippos-taming-theft-local-20261011.json"],
+  "masterDelivery": {"status": "pending"},
+  "masterReview": {"status": "pending"},
+  "milestoneIds": ["M0", "M1", "M3", "M5"]
+}

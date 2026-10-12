@@ -1,0 +1,30 @@
+{
+  "checkpoint": "phocas-law-warning-local-20261011",
+  "artifactSha256": "92d203d3596f30cab9ab47cc7582e3760a008367c55997da66711df17a6e8bdf",
+  "bytes": 37908661,
+  "recordedAt": "2026-10-11T20:54:17.587941+00:00",
+  "sourceTests": {
+    "status": "passed",
+    "count": 174
+  },
+  "repositoryValidation": "passed",
+  "workflowTests": {
+    "status": "passed",
+    "count": 8
+  },
+  "runtime": {
+    "status": "pending",
+    "blocker": "Browser harness cannot import Playwright; rendered choice clicks, guard approach, jail arrival, sling shots and ordinary pause Save/reload remain unverified."
+  },
+  "publication": "not_attempted",
+  "milestoneAcceptance": "pending",
+  "scope": [
+    "OPEN-60: reduced Phocas menu and physical sling handoff only; complete opening quest not accepted",
+    "LAW-60: first nonlethal warning; repeated attacks; voluntary jail/full fine/refusal; legacy automatic enforcement replaced"
+  ],
+  "remaining": [
+    "Rendered regional crime responses and safe guard navigation",
+    "Old-save/full quest acceptance",
+    "First-person and third-person equipment presentation"
+  ]
+}

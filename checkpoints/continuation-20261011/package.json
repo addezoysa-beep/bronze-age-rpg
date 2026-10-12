@@ -1,0 +1,18 @@
+{
+  "name": "wine-dark-sea",
+  "version": "0.0.59",
+  "private": true,
+  "description": "Bronze Age RPG master-development repository and verification workflow",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node scripts/verify.mjs",
+    "test:browser": "node scripts/browser-smoke.mjs",
+    "test:workflow": "node --test scripts/workflow.test.mjs",
+    "verify:release": "node scripts/release-gate.mjs",
+    "progress": "node scripts/progress.mjs",
+    "setup:hooks": "git config core.hooksPath .githooks"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
+

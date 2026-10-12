@@ -1,0 +1,29 @@
+{
+  "id": "greatsword-smith-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "0d2a067f59c5149e13f39e266f7f13cf8a1086ab46abea1aef34009c725b8ae5",
+  "summary": "Regional arms smiths now offer direct greatsword commissions and targeted local pattern lessons. Copper and bronze at all regional arms workshops, iron in major cities from level eight. Paid orders persist and collect once after next dawn. Source verified; rendered acquisition/equip/combat remains pending.",
+  "changedFiles": [
+    "scripts/greatsword-smith-checkpoint.mjs",
+    "scripts/greatsword-smith.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/ROADMAP.md"
+  ],
+  "evidence": [
+    "verification/records/greatsword-smith-local-20261011.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M3",
+    "M5"
+  ]
+}
