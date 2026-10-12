@@ -1,11 +1,16 @@
-// Seed discovery/clear-weather fixtures only; destination inputs and Save/load use real controls.
+async function closeInventoryPanels(page){
+ for(let attempt=0;attempt<8;attempt++){
+  await page.waitForTimeout(350);
+  if(await page.locator('#bagwin').isVisible()){await page.locator('#bagclose').click();continue;}
+  if(await page.evaluate(()=>STATE==='bag')){await page.keyboard.press('i');continue;}
+  await page.waitForTimeout(500);
+  if(!await page.locator('#bagwin').isVisible()&&await page.evaluate(()=>STATE!=='bag'))return;
+ }
+ throw Error('Inventory or level-up panel did not close through its ordinary UI control');
+}
+// Seed discovery/weather fixtures only; destination inputs and Save/load use real controls.
 export async function runFastTravelScenario(page,check){
- const bag=page.locator('#bag');
- await page.waitForFunction(()=>!STREAM.building);
- await page.waitForTimeout(750);
- if(await bag.isVisible())await page.locator('#bagclose').click();
- await bag.waitFor({state:'hidden'});
- await page.waitForFunction(()=>STATE==='play');
+ await closeInventoryPanels(page);
  const setup=await page.evaluate(()=>{
   if(STATE==='talk')cancelDialogue();G.time=12;G.weather.kind='clear';P.dead=false;P.mode='foot';STATE='play';
   const candidates=DISC.filter(d=>heightAt(d.x,d.z)>2&&landmarkLanding60(d));
@@ -18,21 +23,17 @@ export async function runFastTravelScenario(page,check){
   const locked=candidates.find(d=>d!==a&&d!==b&&!G.disc[d.id]&&!G.disc[d.name]);
   return {a,b,locked,silver:G.silver};
  });
- await page.keyboard.press('m');
- await page.waitForFunction(()=>STATE==='map');
- await page.locator('#chart-search16').fill(setup.b.name);
+ await page.keyboard.press('m');await page.locator('#chart-search16').fill(setup.b.name);
  check('old-name-discovery-visible',await page.locator('#chart-results16 button').count()===1,setup.b);
  if(setup.locked){await page.locator('#chart-search16').fill(setup.locked.name);check('undiscovered-not-offered',await page.locator('#chart-results16 button').count()===0,setup.locked);await page.locator('#chart-search16').fill(setup.b.name)}
  for(const [weather,destination] of [['storm',setup.b],['rain',setup.a]]){
   await page.evaluate(kind=>G.weather.kind=kind,weather);
-  if(await bag.isVisible())await page.locator('#bagclose').click();
-  await bag.waitFor({state:'hidden'});
+  await closeInventoryPanels(page);
   if(await page.evaluate(()=>STATE!=='map'))await page.keyboard.press('m');
   await page.locator('#chart-search16').fill(destination.name);
   await page.locator('#chart-results16 button').click();
   await page.waitForFunction(d=>!STREAM.building&&hyp(P.x-d.x,P.z-d.z)<50&&['play','bag'].includes(STATE),destination,{timeout:180000});
-  if(await page.evaluate(()=>STATE==='bag'))await page.locator('#bagclose').click();
-  await page.waitForFunction(()=>STATE==='play');
+  await closeInventoryPanels(page);await page.waitForFunction(()=>STATE==='play');
   const result=await page.evaluate(()=>({x:P.x,y:P.y,z:P.z,state:STATE,mode:P.mode,silver:G.silver,blocked:colBlocked(P.x,P.z,1.8),ground:groundY(P.x,P.z)}));
   check('ordinary-'+weather+'-fast-travel-arrival',result.state==='play'&&result.mode==='foot'&&!result.blocked&&Math.abs(result.y-result.ground)<.1&&result.silver===setup.silver,result);
  }

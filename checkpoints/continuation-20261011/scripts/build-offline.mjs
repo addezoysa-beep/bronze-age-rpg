@@ -1,4 +1,5 @@
 import { applyRegionalWellsCheckpoint } from './regional-wells-checkpoint.mjs';
+import { applyWildHerdsGrassCheckpoint } from './wild-herds-grass-checkpoint.mjs';
 import { applyRidingChallengesCheckpoint } from './riding-challenges-checkpoint.mjs';
 import { applyHorseMotionImpactCheckpoint } from './horse-motion-impact-checkpoint.mjs';
 import { applyStableCallRegistryCheckpoint } from './stable-call-registry-checkpoint.mjs';
@@ -33,7 +34,7 @@ import { applyGreatswordSmithCheckpoint } from './greatsword-smith-checkpoint.mj
 import { applyPhocasOpeningCheckpoint } from './phocas-opening-checkpoint.mjs';
 
 export const sourceHash = '14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177';
-export const candidateHash = '65a9defd4abac702bdd5fec7555b8b609ef3eb9d9cf7b047f6ac4af8be2b0d84';
+export const candidateHash = '9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f';
 
 const alertRuntime = `
 /* Kobaloi callers alert nearby packmates without leaking across obstacles, areas, or factions. */
@@ -74,7 +75,7 @@ export function buildOffline(input) {
   html = applyLawWarningCheckpoint(applyPhocasOpeningCheckpoint(html));
   html = applyTargetChestCheckpoint(applyGreatswordSmithCheckpoint(html));
   html = applyHipposTamingTheftCheckpoint(applyRegionalMountServicesCheckpoint(applyMountOwnershipCheckpoint(html)));
-  html = applyMountedRulerToursCheckpoint(applyRegionalStableCoverageCheckpoint(applyStableCallRegistryCheckpoint(applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html))))));
+  html = applyWildHerdsGrassCheckpoint(applyMountedRulerToursCheckpoint(applyRegionalStableCoverageCheckpoint(applyStableCallRegistryCheckpoint(applyHorseMotionImpactCheckpoint(applyRidingChallengesCheckpoint(applyRegionalWellsCheckpoint(html)))))));
   const output = Buffer.from(html, 'utf8');
   if (sha256(output) !== candidateHash) throw new Error('Unexpected offline candidate hash '+sha256(output)+' bytes '+output.length);
   compileInlineScripts(html);
@@ -91,6 +92,8 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     sourceSha256: sourceHash, buildSha256: candidateHash, bytes: output.length,
     candidateOnly: true,
     changes: [
+      'Five bounded wild-horse herds traverse grounded grazing circuits across the Northern Steppe and suitable Greek uplands, with persistent identities and existing taming/registration',
+      'Actual grass-blade patches mark grazing grounds and use whole-patch Low/Very Low distance budgets without collision or desert blanket placement',
       'Seventeen named major settlement hubs reuse nearby stable services or add a safely grounded local stable without duplicating stock',
       'Royal households ride grounded twice-weekly three-hour circuits with two real palace escorts, persistent recall state and urgent quest-audience fallback',
       'Horse charges use speed, forward direction, swept contact, bounded damage and per-target cooldowns; civilian impacts enter the law path',

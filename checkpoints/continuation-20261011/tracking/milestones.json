@@ -549,9 +549,7 @@
       "id": "horse-motion-impact-local-20261012",
       "buildSha256": "e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2",
       "recordedAt": "2026-10-12T04:13:05Z",
-      "implementation": "published_draft_pr_pending_ci_and_runtime",
-      "draftPr": 29,
-      "remoteHead": "bf8b530c4b8c2fd2bc5b8660ed8becb6ccf23347",
+      "implementation": "local_candidate_pending_publication_and_runtime",
       "checks": {
         "focusedSource": "6/6 passed",
         "fullSourceWorkflow": "255/255 passed serially; parallel run had one file-level worker failure and its interaction file passed 9/9 alone",
@@ -589,23 +587,25 @@
       ],
       "milestoneAcceptance": "none"
     },
-    "regionalStableMountedRulers82": {
-      "id": "regional-stable-mounted-rulers-local-20261012",
-      "buildSha256": "65a9defd4abac702bdd5fec7555b8b609ef3eb9d9cf7b047f6ac4af8be2b0d84",
-      "recordedAt": "2026-10-12T08:24:00Z",
-      "implementation": "local_candidate_pending_publication_and_runtime",
+    "wildHerdsGrass83": {
+      "id": "wild-herds-grass-local-20261012",
+      "buildSha256": "9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f",
+      "recordedAt": "2026-10-12T09:18:51Z",
+      "implementation": "local_candidate_pending_publication_and_rendered_runtime",
       "checks": {
-        "focused": "9/9 passed; 274/274 full source/workflow suite passed serially",
-        "exactCandidateBytes": 37964284,
+        "focused": "4/4 passed",
+        "fullSourceWorkflow": "278/278 passed serially",
+        "repository": "passed",
+        "exactCandidateBytes": 37969171,
         "inlineCompile": "passed",
-        "browser": "pending; prior remote head passed dialogue/wagon/manual Save checks then exposed an asynchronous level-up inventory before map input"
+        "browser": "pending on new hash; preceding run passed core gameplay through wagon reload then harness failed on delayed level-up inventory before map input"
       },
-      "scope": "Seventeen named major settlement stable audits with deduplicated safe same-region additions; twice-weekly three-hour grounded palace-leader horseback circuits with two guards, persisted recall/completion state, live dialogue and urgent palace recall.",
+      "scope": "Five grouped wild-horse sites in Northern Steppe and suitable Greek uplands; grounded travel/graze routes, persisted identities/positions, existing taming/registration integration, actual grass blades and Low/Very Low distance budgets; desert regions excluded.",
       "pending": [
-        "ordinary reachability and stable service clicks at representative regions",
-        "rendered ruler, horse and escort contact across complete routes",
-        "weekly navigation, hostile encounters, quest availability and return to court",
-        "Low performance and ordinary offline pause Save/reload"
+        "rendered reachable herd encounters, group behavior and slope navigation",
+        "ordinary moving-herd taming, registration and pause Save/reload",
+        "grass silhouette, grazing contact, ecology review and harvest-route clearance",
+        "Low and Very Low measured performance"
       ],
       "milestoneAcceptance": "none"
     }

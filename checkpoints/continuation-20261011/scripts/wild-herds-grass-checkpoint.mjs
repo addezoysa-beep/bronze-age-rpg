@@ -1,0 +1,26 @@
+export const wildHerdsGrassRuntime = `
+/* Purposeful wild horse herds and bounded grass fields for suitable non-desert regions. */
+const WILD_HERD_SITES83=[
+ {id:'scythia_north',region:'scythia',ox:-82,oz:34,count:5,grass:7},
+ {id:'scythia_south',region:'scythia',ox:74,oz:-38,count:4,grass:6},
+ {id:'ithaca_high',region:'ithaca',ox:-38,oz:34,count:4,grass:5},
+ {id:'sparta_west',region:'sparta',ox:-96,oz:-24,count:4,grass:6},
+ {id:'troy_upland',region:'troy',ox:-48,oz:42,count:3,grass:4}
+];
+const WILD_HERDS83=[],WILD_GRASS83=[];
+function wildHerdSave83(){livingState();return G.world.wildHerds83||=( {version:1,herds:{},horses:{}} );}
+function herdPoint83(I,x,z){const p=landPoint15(x,z)||freeLandNear(x,z,4);if(!p||nearestIsle(p.x,p.z)!==I.id||heightAt(p.x,p.z)<2.4||colBlocked(p.x,p.z,.7))return null;return{x:p.x,z:p.z};}
+function herdRoutes83(I,c){const raw=[[0,0],[18,7],[9,23],[-13,18],[-22,-2],[-7,-18]],out=[];for(const [x,z]of raw){const p=herdPoint83(I,c.x+x,c.z+z);if(p&&!out.some(q=>hyp(q.x-p.x,q.z-p.z)<4))out.push(p);}return out.length>=3?out:null;}
+function grassPatch83(x,z,seed){const g=part(b=>{for(let i=0;i<34;i++){const a=hash2(seed,i)*TAU,r=2+hash2(i,seed+9)*8,h=.34+hash2(seed+17,i)*.52,w=.018+hash2(i+31,seed)*.018,c=i%5===0?K.ochre:i%3===0?K.olive:K.green;b.cyl(cos(a)*r,h*.5,sin(a)*r,0,w,h,5,c,{rz:(hash2(i,seed)-.5)*.16});}});g.position.set(x,groundY(x,z),z);OVER.add(g);WILD_GRASS83.push({g,x,z});return g;}
+function addHerdHorse83(site,I,c,routes,index){const saved=wildHerdSave83(),id='herd83_'+site.id+'_'+index,rec=saved.horses[id]||=( {x:c.x+(index-2)*1.7,z:c.z+(index%2)*2.1,route:index%routes.length} );const p=herdPoint83(I,rec.x,rec.z)||c,q=makeHorse(hx([0x33241f,0x725039,0xa7845f,0xd5c8ad,0x51443d][index%5]));q.kind='horse';const a={id,name:['Steppe Mare','Dun Grazer','Bay Yearling','Grey Courser','Chestnut Mare'][index%5],kind:'horse',q,g:q.g,x:p.x,z:p.z,hx:c.x,hz:c.z,hp:140,maxHp:140,power:2+index%4,a:index*.7,dead:false,owned:false,agitated:0,herd83:site.id,rec83:rec};q.g.position.set(a.x,groundY(a.x,a.z),a.z);OVER.add(q.g);WILD_HORSES16.push(a);INTS.push({x:()=>a.x,z:()=>a.z,r:3,vis:()=>!a.dead&&!a.owned&&!G.world.tamedHorses16?.[a.id],label:()=>'Calm and ride '+a.name+' · Power '+a.power,act:()=>beginTame31(a)});return a;}
+function installWildHerds83(){if(WILD_HERDS83.length)return;const save=wildHerdSave83();for(const site of WILD_HERD_SITES83){const I=IS[site.region];if(!I||I.biome==='desert')continue;const c=herdPoint83(I,I.cx+site.ox,I.cz+site.oz);if(!c)continue;const routes=herdRoutes83(I,c);if(!routes)continue;const state=save.herds[site.id]||=( {route:0,phase:'graze',left:8} ),horses=[];for(let i=0;i<site.count;i++)horses.push(addHerdHorse83(site,I,c,routes,i));for(let i=0;i<site.grass;i++){const a=i/site.grass*TAU,p=herdPoint83(I,c.x+cos(a)*(8+(i%3)*5),c.z+sin(a)*(8+(i%3)*5));if(p)grassPatch83(p.x,p.z,i+site.id.length*19);}WILD_HERDS83.push({id:site.id,region:site.region,c,routes,state,horses});DISCOVER(I.name+' Wild Horse Grazing',c.x,c.z,24,7);}INT_GRID16.count=-1;}
+function updateWildHerds83(dt){if(AREA!=='over')return;const preset=GRAPHICS28?.preset||'auto',horseRange=preset==='verylow'?105:preset==='low'?155:230,grassRange=preset==='verylow'?70:preset==='low'?105:170;for(const p of WILD_GRASS83)p.g.visible=hyp(P.x-p.x,P.z-p.z)<grassRange;for(const h of WILD_HERDS83){const leader=h.horses.find(a=>!a.dead&&!a.owned&&!G.world.tamedHorses16?.[a.id]);if(!leader)continue;h.state.left=Math.max(0,(h.state.left||0)-dt);const target=h.routes[h.state.route%h.routes.length];if(h.state.phase==='graze'&&h.state.left<=0){h.state.phase='travel';h.state.route=(h.state.route+1)%h.routes.length;}if(h.state.phase==='travel'&&hyp(leader.x-target.x,leader.z-target.z)<2.2){h.state.phase='graze';h.state.left=8+hash2(h.state.route,h.id.length)*8;}for(let i=0;i<h.horses.length;i++){const a=h.horses[i],owned=a.owned||G.world.tamedHorses16?.[a.id];if(a.dead||owned){a.g.visible=false;continue;}a.agitated=Math.max(0,(a.agitated||0)-dt);const near=hyp(P.x-a.x,P.z-a.z),visible=near<horseRange;a.g.visible=visible;if(TAME16?.a===a)continue;const ang=i/h.horses.length*TAU,spread=h.state.phase==='graze'?4.5:2.7,tx=target.x+sin(ang)*spread,tz=target.z+cos(ang)*spread,d=hyp(a.x-tx,a.z-tz),moving=h.state.phase==='travel'&&d>1.2;if(moving)groundRouteStep(a,tx,tz,1.45,dt,.55);else if(h.state.phase==='graze'){a.a+=clamp(angDiff(Math.atan2(tx-a.x,tz-a.z),a.a),-dt*.35,dt*.35);}a.q.neck&&(a.q.neck.rotation.x=moving?.08:.58+sin(T_NOW*.55+i)*.035);quadrupedPose(a.q,moving?1.45:0,T_NOW+i*.31);a.g.position.set(a.x,groundY(a.x,a.z),a.z);a.g.rotation.y=a.a;a.rec83.x=a.x;a.rec83.z=a.z;a.rec83.route=h.state.route;}}}
+const wildHerdPopulate83Before=populate;populate=async function(){await wildHerdPopulate83Before();installWildHerds83();};
+const wildHerdVisual83Before=updVisuals;updVisuals=function(dt){wildHerdVisual83Before(dt);updateWildHerds83(dt);};
+`;
+
+export function applyWildHerdsGrassCheckpoint(html){
+ const marker='window.WDS_READY33=true;';
+ if(html.includes('const WILD_HERD_SITES83=')||html.split(marker).length!==2)throw new Error('Unexpected wild herd source');
+ return html.replace(marker,wildHerdsGrassRuntime+'\n'+marker);
+}
