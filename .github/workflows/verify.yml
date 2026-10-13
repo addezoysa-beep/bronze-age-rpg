@@ -26,7 +26,7 @@ jobs:
         if: github.event_name == 'pull_request' && github.base_ref == 'main'
         run: node scripts/main-check.mjs
   browser:
-    timeout-minutes: 15
+    timeout-minutes: 20
     name: Offline browser smoke
     runs-on: ubuntu-latest
     steps:
@@ -34,20 +34,34 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Select current build source
+        id: source
+        run: |
+          if [ -f checkpoints/continuation-20261011/scripts/build-current.mjs ]; then
+            echo 'directory=checkpoints/continuation-20261011' >> "$GITHUB_OUTPUT"
+            echo 'builder=scripts/build-current.mjs' >> "$GITHUB_OUTPUT"
+            echo 'artifact=checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html' >> "$GITHUB_OUTPUT"
+          else
+            echo 'directory=.' >> "$GITHUB_OUTPUT"
+            echo 'builder=scripts/build-offline.mjs' >> "$GITHUB_OUTPUT"
+            echo 'artifact=dist/' >> "$GITHUB_OUTPUT"
+          fi
       - run: npm install --ignore-scripts
+        working-directory: ${{ steps.source.outputs.directory }}
       - run: npx playwright install --with-deps chromium
-      - run: node scripts/build-offline.mjs
+        working-directory: ${{ steps.source.outputs.directory }}
+      - run: node ${{ steps.source.outputs.builder }}
+        working-directory: ${{ steps.source.outputs.directory }}
       - run: node scripts/browser-candidate-smoke.mjs
-        env:
-          WDS_SMOKE_PRESET: verylow
+        working-directory: ${{ steps.source.outputs.directory }}
       - uses: actions/upload-artifact@v4
         if: success()
         with:
-          name: pause-fixed-offline-candidate
-          path: dist/
+          name: current-offline-candidate
+          path: ${{ steps.source.outputs.artifact }}
           if-no-files-found: error
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: offline-browser-evidence
-          path: verification/runtime/
+          path: ${{ steps.source.outputs.directory }}/verification/runtime/
