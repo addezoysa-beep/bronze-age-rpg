@@ -1,5 +1,6 @@
 import {runRemedyScenario} from './browser-remedy-scenario.mjs';
 import {runGripScenario} from './browser-grip-scenario.mjs';
+import {runArrowScenario} from './browser-arrow-scenario.mjs';
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
@@ -112,6 +113,7 @@ try {
   else if(scenario==='remedy')await runRemedyScenario(page,check);
   else if(scenario==='grip')await runGripScenario(page,check,output);
   else if(scenario==='lock')await runCombatLockScenario(page,check);
+  else if(scenario==='arrow')await runArrowScenario(page,check);
   else if(scenario==='travel'){
     await runInteractionScenario(page,check);
     await runPaidWagonScenario(page,check);

@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        scenario: [travel, pan, lock, grip, remedy]
+        scenario: [travel, pan, lock, grip, remedy, arrow]
     defaults:
       run:
         working-directory: checkpoints/continuation-20261011
