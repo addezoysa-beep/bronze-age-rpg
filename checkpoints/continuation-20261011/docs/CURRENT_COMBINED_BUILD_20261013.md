@@ -1,3 +1,5 @@
+Latest correction: e96ef458a8f7d6217e5e672c7f8e9b8146680322d42449dcda97b482c489b9d2 (38,085,980 bytes) supersedes add0bd26, which failed browser startup in the dragon wing. See ARROW_HUD_STARTUP_20261013.md. 67 focused local tests pass; current remote runtime checks pending. Historical statements below refer to the earlier candidate.
+
 # Current combined cinematic candidate
 
 The current build entry point for PR29 is `node scripts/build-current.mjs`.

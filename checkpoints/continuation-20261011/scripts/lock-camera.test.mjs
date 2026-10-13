@@ -27,6 +27,7 @@ import {storyCinematicsPatch} from './story-cinematics-patch.mjs';
 import {feedbackMenuStablePatch} from './feedback-menu-stable-patch.mjs';
 import {lockGateDecayPatch} from './lock-gate-decay-patch.mjs';
 import {optionalPuzzlesPatch} from './optional-puzzles-patch.mjs';
+import {arrowHudHitPatch} from './arrow-hud-hit-patch.mjs';
 const source=fs.readFileSync(new URL('../recovered/Cinematic-Lock-Lesson.html',import.meta.url),'utf8');
 const candidate=fs.readFileSync(new URL('../'+(process.env.WDS_CANDIDATE_FILE||'Wine-Dark-Sea-Combined-Cinematic.html'),import.meta.url),'utf8');
 function harness(){
@@ -52,7 +53,7 @@ test('all three delivered scripts compile',()=>{
  assert.equal(scripts.length,3);for(const m of scripts)new vm.Script(m[2]);
 });
 test('build preserves recovered bytes around the final addition',()=>{
- assert.equal(candidate.replace(lockCameraPatch+openingProgressionPatch+lawCinematicPatch+troyDispositionPatch+lionAnatomyPatch+dragonAnatomyPatch+stableInscriptionPatch+npcMountedChargePatch+labyrinthAntlerPatch+rivalTentCampPatch+seaFortPatch+handGripPatch+spearShieldPatch+oneHandCombatPatch+greatswordPosePatch+bowAmmoIdentityPatch+arrowSilhouettePricePatch+ownedChestPatch+dogRestWakePatch+dungeonAtmospherePatch+storyCinematicsPatch+feedbackMenuStablePatch+lockGateDecayPatch+optionalPuzzlesPatch+'\n',''),source);
+ assert.equal(candidate.replace(lockCameraPatch+openingProgressionPatch+lawCinematicPatch+troyDispositionPatch+lionAnatomyPatch+dragonAnatomyPatch+stableInscriptionPatch+npcMountedChargePatch+labyrinthAntlerPatch+rivalTentCampPatch+seaFortPatch+handGripPatch+spearShieldPatch+oneHandCombatPatch+greatswordPosePatch+bowAmmoIdentityPatch+arrowSilhouettePricePatch+ownedChestPatch+dogRestWakePatch+dungeonAtmospherePatch+storyCinematicsPatch+feedbackMenuStablePatch+lockGateDecayPatch+optionalPuzzlesPatch+arrowHudHitPatch+'\n',''),source);
  assert.equal(crypto.createHash('sha256').update(source).digest('hex'),'bf1405897255eeba324ca3095b49cf972bd7184b1f5f060c3dec952377a04fa1');
 });
 

@@ -30,7 +30,7 @@ jobs:
         run: node scripts/build-current.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: combined-cinematic-add0bd26
+          name: combined-cinematic-e96ef458
           path: |
             checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
             checkpoints/continuation-20261011/dist/current-build-manifest.json

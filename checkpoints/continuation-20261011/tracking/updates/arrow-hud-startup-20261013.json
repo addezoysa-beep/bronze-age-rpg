@@ -1,0 +1,10 @@
+{
+  "buildSha256": "e96ef458a8f7d6217e5e672c7f8e9b8146680322d42449dcda97b482c489b9d2",
+  "bytes": 38085980,
+  "affectedMilestones": ["M1", "M2"],
+  "status": "implemented-runtime-pending",
+  "supersedesFailedStartupBuild": "add0bd26bbef5aefabe610f120cd3ffdaebdfb3b43133d36b4b82528441ea16e",
+  "changes": ["Correct dragon triangle cardinality", "HUD selected arrow count and total", "Bracket/button/Alt-wheel ammunition selection", "Projectile damage independent of melee height/duck context", "Shield block feedback"],
+  "pending": ["Ordinary exact-build startup", "Crouched FP/TP ranged hit/miss/shield evidence", "Distant-hit perception repair", "Ordinary offline Save/reload", "Crime trainer and populated jail/NPC interaction expansion"],
+  "milestoneAcceptance": "pending"
+}

@@ -13,7 +13,7 @@ import { root, gameHash, sha256 } from './workflow.mjs';
 
 const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Combined-Cinematic.html');
 const artifactHash = sha256(readFileSync(gameFile));
-if(artifactHash!=='add0bd26bbef5aefabe610f120cd3ffdaebdfb3b43133d36b4b82528441ea16e')throw Error('Current combined browser candidate hash mismatch');
+if(artifactHash!=='e96ef458a8f7d6217e5e672c7f8e9b8146680322d42449dcda97b482c489b9d2')throw Error('Current combined browser candidate hash mismatch');
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
 const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Combined-Cinematic.html',
@@ -43,7 +43,7 @@ try {
   const start = performance.now();
   await page.goto(pathToFileURL(gameFile).href, { waitUntil: 'load', timeout: 60000 });
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
-  check('build-title', /Build 59/.test(await page.title()), await page.title());
+  check('build-title', /Combined Cinematic/.test(await page.title()), await page.title());
   await page.locator('#bnew').click();
   await page.locator('#new-voyage30, [data-new]').first().click({ noWaitAfter: true });
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
