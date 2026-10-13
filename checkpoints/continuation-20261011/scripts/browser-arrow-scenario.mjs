@@ -21,7 +21,7 @@ export async function runArrowScenario(page,check){
   await page.waitForFunction(hp=>ENEMIES.find(e=>e.id==='arrow-hit114').hp<hp,before.hp,{timeout:7000});
   const after=await page.evaluate(()=>({hp:ENEMIES.find(e=>e.id==='arrow-hit114').hp,arrows:G.arrows,stock:G.arrowStock30.wood}));check('ordinary-arrow-damage-'+(first?'FP':'TP')+'-'+(crouch?'crouch':'stand'),after.hp<before.hp&&after.arrows===before.arrows-1,after);
  }
- await page.keyboard.press('Escape');await page.locator('#psave').click();const saved=await page.evaluate(()=>({slot:SAVE_SLOT,data:JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))}));
+ await page.keyboard.press('Escape');const oldAt=await page.evaluate(()=>JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))?.savedAt||0);await page.locator('#psave').click({noWaitAfter:true});await page.waitForFunction(at=>JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))?.savedAt>at,oldAt);const saved=await page.evaluate(()=>({slot:SAVE_SLOT,data:JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))}));
  await page.reload({waitUntil:'load'});await page.locator('#bnew').waitFor({state:'visible'});await page.locator('#bnew').click();await page.locator('[data-load="'+saved.slot+'"]').click({noWaitAfter:true});await page.waitForFunction(()=>G.started&&['play','talk'].includes(STATE));
  const after=await page.evaluate(()=>({x:P.x,z:P.z,mat:G.arrowMaterial30,stock:G.arrowStock30,total:G.arrows}));check('arrow-selection-stock-exact-position-ordinary-reload',after.mat===saved.data.arrowMaterial30&&after.total===saved.data.arrows&&JSON.stringify(after.stock)===JSON.stringify(saved.data.arrowStock30)&&Math.hypot(after.x-saved.data.pos.x,after.z-saved.data.pos.z)<1e-6,after);
 }

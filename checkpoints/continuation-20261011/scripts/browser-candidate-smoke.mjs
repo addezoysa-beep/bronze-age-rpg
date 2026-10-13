@@ -94,7 +94,9 @@ try {
     return { target: hit?.id || hit?.tagName, reachable: hit === button || button.contains(hit), pointerLocked: Boolean(document.pointerLockElement) };
   });
   check('pause-save-hit-target', saveHit.reachable && !saveHit.pointerLocked, saveHit);
-  await page.locator('#psave').click({ timeout: 30000 });
+  const beforeSaveAt = await page.evaluate(() => {try{return JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))?.savedAt||0;}catch{return 0;}});
+  await page.locator('#psave').click({ timeout: 30000, noWaitAfter: true });
+  await page.waitForFunction(before=>{try{const saved=JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)));return saved?.started&&saved.pos&&saved.savedAt>before;}catch{return false;}},beforeSaveAt,{timeout:30000});
   const saved = await page.evaluate(() => {
     const raw = localStorage.getItem(slotKey(SAVE_SLOT));
     return raw ? { slot: SAVE_SLOT, data: JSON.parse(raw) } : null;
