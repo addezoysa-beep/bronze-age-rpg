@@ -12,7 +12,7 @@ fs.mkdirSync(new URL('recovered/',root),{recursive:true});fs.writeFileSync(new U
 delete process.env.WDS_CANDIDATE_FILE;
 await import('./build-continuation.mjs');
 const name='Wine-Dark-Sea-Combined-Cinematic.html',candidate=fs.readFileSync(new URL(name,root));
-if(hash(candidate)!=='e96ef458a8f7d6217e5e672c7f8e9b8146680322d42449dcda97b482c489b9d2')throw Error('Combined candidate identity mismatch');
+if(hash(candidate)!=='de232a9f53e24672152a01b7e90e1a3e8f9421d31bdf2bf523c4bea4aa524cea')throw Error('Combined candidate identity mismatch');
 fs.mkdirSync(new URL('dist/',root),{recursive:true});fs.writeFileSync(new URL('dist/'+name,root),candidate);
 fs.writeFileSync(new URL('dist/current-build-manifest.json',root),JSON.stringify({file:name,buildSha256:hash(candidate),bytes:candidate.length,recoveredSourceSha256:hash(recovered),preservedPublishedSeedSha256:hash(published),milestoneAcceptance:'pending',includes:['cinematic opening','animated FP/TP sling','all local continuation patches through storage and dungeon atmosphere','main-story/guard/puzzle cinematic extension','ghost stable seller removal','automatic graphics policy']},null,2)+'\n');
 console.log(JSON.stringify({file:name,sha256:hash(candidate),bytes:candidate.length}));

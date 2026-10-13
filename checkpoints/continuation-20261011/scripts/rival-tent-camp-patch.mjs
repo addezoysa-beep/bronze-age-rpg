@@ -21,7 +21,7 @@ export const rivalTentCampPatch=String.raw`
  }
  function campTent98(b,x,z,yaw,cloth){
   const r=RIGY(b,x,z,yaw);r.box(-1.8,1.2,0,.13,2.4,.13,K.woodD).box(1.8,1.2,0,.13,2.4,.13,K.woodD).box(0,2.35,0,3.7,.12,.12,K.woodD);
-  r.roof(0,2.15,0,4.3,1.75,5.4,cloth);r.box(0,.12,0,3.8,.18,4.7,K.hide);addRectRot(x,z,3.8,4.6,yaw);
+  r.roof(0,2.15,0,4.3,1.75,5.4,cloth);r.box(0,.12,0,3.8,.18,4.7,hx(0x77614a));addRectRot(x,z,3.8,4.6,yaw);
  }
  function buildRivalCamp98(){
   if(RIVAL_CAMP98.status!=='unbuilt')return RIVAL_CAMP98;

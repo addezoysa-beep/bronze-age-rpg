@@ -21,9 +21,11 @@ miss is reproduced or fixed. Rendered crouch/standing, FP/TP, slope/range/shield
 ammo consumption and offline ordinary Save/reload still require current-hash
 browser checks. Distant-hit auto-detection remains a separate pending repair.
 
-New candidate SHA256 e96ef458a8f7d6217e5e672c7f8e9b8146680322d42449dcda97b482c489b9d2,
-38,085,980 bytes. Recovered cinematic/animated-sling seed unchanged. No milestone
+New candidate SHA256 de232a9f53e24672152a01b7e90e1a3e8f9421d31bdf2bf523c4bea4aa524cea,
+38,085,986 bytes. Recovered cinematic/animated-sling seed unchanged. No milestone
 accepted. Newly requested criminal trainers, populated regional jails with
 prisoner dialogue/release/arrest cycles, and NPC mutual interactions remain
 pending; the existing arrest system creates a regional jail but does not prove
 those requested populated/reachable services or schedules.
+
+The first replacement e96ef458 also failed startup because rival camp bedding used nonexistent K.hide. It now uses explicit hide RGB; all continuation K palette references are audited against actual K0, with explicit fallback required for absent entries. Current hash supersedes both failed candidates.

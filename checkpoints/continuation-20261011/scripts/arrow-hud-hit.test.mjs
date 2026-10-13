@@ -39,3 +39,7 @@ test('dragon wing construction executes actual Batch triangle/quad methods with 
  vm.runInContext(source.slice(start,end)+`cyl(...a){if(!Array.isArray(a[7]))throw Error('bad cylinder color');return this;}ball(...a){if(!Array.isArray(a[4]))throw Error('bad ball color');return this;}};globalThis.Batch=Batch;`,c);
  c.animalPart=f=>{const b=new c.Batch();f(b);for(const v of [...b.p,...b.c])assert.ok(Number.isFinite(v));return new Group();};c.anatomyLoft=()=>{};c.shapedLeg=()=>{const g=new Group();g.userData.knee=new Group();return g;};vm.runInContext(dragonAnatomyPatch,c);const model=c.makeDragon();assert.equal(model.userData.dragonRig.wings.length,2);assert.equal(model.userData.dragonRig.legs.length,4);
 });
+test('all continuation mesh palette references exist or specify an explicit fallback',()=>{
+ const start=source.indexOf('const K0='),end=source.indexOf('const sh=',start),palette=source.slice(start,end),known=new Set([...palette.matchAll(/\b(\w+):0x/g)].map(m=>m[1]));
+ for(const file of fs.readdirSync(new URL('./',import.meta.url)).filter(f=>f.endsWith('-patch.mjs'))){const code=fs.readFileSync(new URL(file,import.meta.url),'utf8');for(const m of code.matchAll(/\bK\.(\w+)/g)){const suffix=code.slice(m.index+m[0].length);assert.ok(known.has(m[1])||/^\s*\|\|/.test(suffix),file+' references undefined K.'+m[1]);}}
+});
