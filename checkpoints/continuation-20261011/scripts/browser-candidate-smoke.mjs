@@ -11,11 +11,12 @@ import {runPaidWagonScenario} from './browser-wagon-scenario.mjs';
 import {runInteractionScenario} from './browser-interaction-scenario.mjs';
 import { root, gameHash, sha256 } from './workflow.mjs';
 
-const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Save-Fix.html');
+const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Combined-Cinematic.html');
 const artifactHash = sha256(readFileSync(gameFile));
+if(artifactHash!=='add0bd26bbef5aefabe610f120cd3ffdaebdfb3b43133d36b4b82528441ea16e')throw Error('Current combined browser candidate hash mismatch');
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
-const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Save-Fix.html',
+const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Combined-Cinematic.html',
   recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload, king quest, nested wagon-guide mouse choices, paid Ur travel and destination manual Save/reload. Does not accept a milestone.',
   environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [] };
 let browser;
@@ -31,7 +32,7 @@ try {
   browser = await chromium.launch({ headless: true, executablePath: process.env.PLAYWRIGHT_EXECUTABLE_PATH });
   report.environment.browser = await browser.version();
   const context = await browser.newContext({ viewport: { width: 1365, height: 768 }, offline: true });
-  const preset = process.env.WDS_SMOKE_PRESET || 'verylow';
+  const preset = 'auto';
   report.environment.graphicsPreset = preset;
   await context.addInitScript(p => { localStorage.setItem('wine-dark-graphics28', p); }, preset);
   page = await context.newPage();
@@ -84,11 +85,8 @@ try {
   });
   check('pause-guide-layout', guideLayout.insidePanel && guideLayout.overlayParagraphs === 0, guideLayout);
   await page.waitForFunction(() => document.pointerLockElement === null);
-  for (const [preset, expected] of [['low', false], ['medium', true], ['verylow', false]]) {
-    await page.locator('#pause [data-graphics28="'+preset+'"]').click();
-    const graphics = await page.evaluate(() => ({preset:GRAPHICS28.preset, shadows:renderer.shadowMap.enabled, stored:localStorage.getItem('wine-dark-graphics28')}));
-    check('graphics-'+preset+'-shadow-budget',graphics.preset===preset&&graphics.shadows===expected&&graphics.stored===preset,graphics);
-  }
+  const graphics = await page.evaluate(() => ({preset:GRAPHICS28.preset,choices:document.querySelectorAll('[data-graphics-row28]').length,renderControls:['pq1','pq2','pq3'].filter(id=>document.getElementById(id)&&getComputedStyle(document.getElementById(id)).display!=='none').length}));
+  check('automatic-graphics-and-single-menu',graphics.preset==='auto'&&graphics.choices===0&&graphics.renderControls===0,graphics);
   const saveHit = await page.locator('#psave').evaluate(button => {
     const r = button.getBoundingClientRect();
     const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
@@ -136,5 +134,6 @@ finally {
   writeFileSync(resolve(output, 'browser-smoke.json'), `${JSON.stringify(report, null, 2)}\n`);
   console.log(JSON.stringify(report, null, 2));
 }
+
 
 

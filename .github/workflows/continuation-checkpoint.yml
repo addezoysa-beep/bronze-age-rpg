@@ -20,16 +20,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Reproduce current combined cinematic source
+        run: node scripts/build-current.mjs
       - name: Source and workflow tests
         run: node --test --test-concurrency=2 scripts/*.test.mjs
       - name: Repository validation
         run: node scripts/verify.mjs
-      - name: Reproduce exact offline candidate
-        run: node scripts/build-offline.mjs
+      - name: Reproduce exact current candidate after checks
+        run: node scripts/build-current.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: continuation-checkpoint
-          path: checkpoints/continuation-20261011/dist/
+          name: combined-cinematic-add0bd26
+          path: |
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
+            checkpoints/continuation-20261011/dist/current-build-manifest.json
   browser-checkpoint:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
@@ -48,14 +52,13 @@ jobs:
           node-version: '22'
       - run: npm install --ignore-scripts
       - run: npx playwright install --with-deps chromium
-      - run: node scripts/build-offline.mjs
-      - name: Exact checkpoint ordinary-input browser verification
+      - run: node scripts/build-current.mjs
+      - name: Exact combined checkpoint ordinary-input browser verification
         run: node scripts/browser-candidate-smoke.mjs
         env:
-          WDS_SMOKE_PRESET: verylow
           WDS_SMOKE_SCENARIO: ${{ matrix.scenario }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: continuation-browser-${{ matrix.scenario }}
+          name: combined-browser-${{ matrix.scenario }}
           path: checkpoints/continuation-20261011/verification/runtime/

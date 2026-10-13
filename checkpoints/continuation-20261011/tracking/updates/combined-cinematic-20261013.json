@@ -1,0 +1,16 @@
+{
+  "id": "combined-cinematic-20261013",
+  "milestoneIds": ["M0", "M1", "M2", "M3", "M4"],
+  "buildSha256": "add0bd26bbef5aefabe610f120cd3ffdaebdfb3b43133d36b4b82528441ea16e",
+  "bytes": 38082770,
+  "summary": "Reconcile and publish exact recovered cinematic/sling source with all local continuation modules; add story/guard/puzzle cinematics, tactile lock UI, gate approach dialogue, optional mechanism variants and revenant weapon decay. Preserve source, main branch, prior PR ownership and pending acceptance.",
+  "changedFiles": ["scripts/build-current.mjs", "scripts/build-continuation.mjs", "scripts/seed-recovery.json", "scripts/lock-camera.test.mjs", "scripts/story-cinematics-patch.mjs", "scripts/feedback-menu-stable-patch.mjs", "scripts/lock-gate-decay-patch.mjs", "scripts/optional-puzzles-patch.mjs", "scripts/browser-candidate-smoke.mjs", "docs/CURRENT_COMBINED_BUILD_20261013.md"],
+  "tests": {"command":"node --test scripts/lock-camera.test.mjs","passed":60,"failed":0,"scope":"Three inline scripts compile, recovered source exact preservation, 60 source/executable wrapper contracts; not ordinary rendered input/Save/FPS or full milestone acceptance."},
+  "sourceRecovery": {"publishedSeedSha256":"5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f","recoveredSha256":"bf1405897255eeba324ca3095b49cf972bd7184b1f5f060c3dec952377a04fa1","byteExactRecovery":"passed locally"},
+  "runtime": "pending; browser package present but local executable absent; remote new-hash browser jobs configured",
+  "evidence": ["docs/CURRENT_COMBINED_BUILD_20261013.md"],
+  "masterDelivery": "pending",
+  "masterReview": {"status":"pending","evidence":null},
+  "milestonesAccepted": [],
+  "nextAction": "Verify remote exact reproduction/artifact; ordinary current-build startup, sling/cinematics, gate/puzzle and manual Save/reload; then full main-story/predator/audio feedback."
+}
