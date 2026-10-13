@@ -1,3 +1,5 @@
+Chest conservation correction: latest7146ff368b8fa7b7904210a93d06f0c37fc59d06d6428a273f92b0d4e7e8d1fd, 38,086,199 bytes, separates owned storage record from UI snapshot to prevent double withdrawal and refreshes deposits in UI. Focused integrated68 tests plus5 separate unintegrated stealth draft tests pass locally. Earlier de232 startup/render/move confirmed; current714 runtime pending.
+
 Latest correction: de232a9f53e24672152a01b7e90e1a3e8f9421d31bdf2bf523c4bea4aa524cea (38,085,986 bytes) supersedes add0bd26, which failed browser startup in the dragon wing. See ARROW_HUD_STARTUP_20261013.md. 68 focused local tests pass; current remote runtime checks pending. Historical statements below refer to the earlier candidate.
 
 # Current combined cinematic candidate

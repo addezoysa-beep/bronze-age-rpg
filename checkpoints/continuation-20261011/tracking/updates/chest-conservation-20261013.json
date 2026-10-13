@@ -1,0 +1,28 @@
+{
+  "id": "chest-conservation-20261013",
+  "milestoneIds": [
+    "M2"
+  ],
+  "buildSha256": "7146ff368b8fa7b7904210a93d06f0c37fc59d06d6428a273f92b0d4e7e8d1fd",
+  "bytes": 38086199,
+  "summary": "Separate owned chest UI item snapshot from persisted storage to prevent double subtraction; refresh deposited items from the persisted record. Other chests retain original storage rules.",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending",
+    "evidence": null
+  },
+  "tests": {
+    "command": "node --test --test-concurrency=2 scripts/*.test.mjs",
+    "passed": 73,
+    "failed": 0,
+    "scope": "68 integrated source/executable tests plus5 separate unintegrated stealth draft tests; includes UI callback plus decrement conservation sequence. No ordinary exact-hash chest Save/reload acceptance."
+  },
+  "pending": [
+    "Current-hash ordinary Store/Take and Save/reload",
+    "Identify regional travel testing chest; exact name absent in recovered/current source",
+    "Current arrow gameplay matrix"
+  ],
+  "milestonesAccepted": []
+}

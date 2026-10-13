@@ -14,7 +14,7 @@ export const ownedChestPatch=String.raw`
  }
  function openOwnedChest106(q){
   if(!q||!ownedChestState106().includes(q)||hyp(P.x-q.x,P.z-q.z)>3.2||AREA!=='over')return false;
-  showLoot('Your cedar storage chest',q.items,(k,n)=>{if(!ownedChestState106().includes(q)||!Number.isInteger(n)||n<1||(q.items[k]||0)<n)return false;q.items[k]-=n;if(!q.items[k])delete q.items[k];lootEquipment({[k]:n});hudAll();return true;});
+  showLoot('Your cedar storage chest',{...q.items},(k,n)=>{if(!ownedChestState106().includes(q)||!Number.isInteger(n)||n<1||(q.items[k]||0)<n)return false;q.items[k]-=n;if(!q.items[k])delete q.items[k];lootEquipment({[k]:n});hudAll();return true;});
   if(LOOT_CONTEXT){LOOT_CONTEXT.storage52=q;renderLoot();}return true;
  }
  function chestCollider106(runtime,remove=false){
@@ -45,6 +45,7 @@ export const ownedChestPatch=String.raw`
   if(!removePlayerItem('owned_chest106',1))return false;
   const q={id:'ownedChest106:'+(++G.world.ownedChestSerial106),x:p.x,z:p.z,items:{}};G.world.ownedChests106.push(q);buildOwnedChest106(q);hudAll();if(STATE==='bag')closeBag();toast('Cedar storage chest placed · use the pause menu to save its position and contents.');return true;
  }
+ const chestRender106Before=renderLoot;renderLoot=function(){if(LOOT_CONTEXT?.storage52?.id?.startsWith('ownedChest106:'))LOOT_CONTEXT.items={...LOOT_CONTEXT.storage52.items};return chestRender106Before();};
  const chestBag106Before=renderBag;renderBag=function(){chestBag106Before();if(BAG_TAB!=='materials')return;for(const row of $('bagbody')?.querySelectorAll('[data-select="owned_chest106"]')||[]){const actions=row.querySelector('.item-actions');if(actions&&!actions.querySelector('[data-place106]')){const b=document.createElement('button');b.dataset.place106='1';b.textContent='Place';b.onclick=()=>placeOwnedChest106();actions.prepend(b);}}};
  const chestPopulate106Before=populate;populate=async function(){await chestPopulate106Before();syncOwnedChests106();INT_GRID16.count=-1;};
  const chestRestore106Before=restoreLivingWorld;restoreLivingWorld=function(){const r=chestRestore106Before();syncOwnedChests106();return r;};
