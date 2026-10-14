@@ -7,13 +7,12 @@
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
-  "currentGithubBuildSha256": "278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1",
-  "currentGithubHead": "ae116787676cead2445df0fcc599b4b6e856394c",
+  "currentLocalBuildSha256": "bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f",
+  "currentGithubBuildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
+  "currentGithubHead": "513271aaed761f9a651373ddc0d611ee818eb763",
   "publication": {
-    "state": "authorized_new_checkpoint_ready_to_publish",
-    "noRetry": false,
-    "authorization": "Explicit October14 renewed user PR29 publication authorization; earlier hold superseded"
+    "state": "authorized_current_checkpoint_ready",
+    "noRetry": false
   },
   "evidence": {
     "local": {
@@ -44,7 +43,7 @@
     "Carry overruns forward; never waive gates to fit an hour or deadline.",
     "Every hour includes implementation with tests, evidence and durable handoff; no test-only substitute for feature production.",
     "No acceptance from definitions, fixture-only progression, source strings or old-hash evidence.",
-    "Ordinary offline pause Save/exact-position reload mandatory; keep8\u201310 attack-capable attackers.",
+    "Ordinary offline pause Save/exact-position reload mandatory; keep8–10 attack-capable attackers.",
     "Every previous120 task ID is mapped, along with latest feedback; roster numbers remain unapproved.",
     "Continue unfinished scope after120 if necessary; final release needs all current-hash acceptance and actual Master review."
   ],
@@ -1017,7 +1016,7 @@
     {
       "hour": 70,
       "allocatedActiveHours": 1,
-      "task": "Finish The Dactyl\u2019s Veined Grotto",
+      "task": "Finish The Dactyl’s Veined Grotto",
       "requiredCheck": "Same complete ordinary-play contract, distinctive geography/clues/enemies and once-only rewards",
       "originalTaskIds": [
         75
@@ -1672,5 +1671,15 @@
     "implemented": true,
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
-  }
+  },
+  "currentCheckpoint": "Integrate hidden-herd pose budget and reuse exact shaft-seat vectors; ordinary/current performance gates remain open",
+  "partialSlots": [
+    2,
+    3,
+    4,
+    22,
+    62,
+    117
+  ]
 }
+

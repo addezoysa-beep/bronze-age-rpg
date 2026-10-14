@@ -4,6 +4,7 @@ export const handGripPatch=String.raw`
    The handle stays on the palm crease while four fingers close with distinct
    flexion and the thumb opposes the shaft. It applies to actor and view rigs. */
 (function(){
+ const SEAT_VECTOR100=new THREE.Vector3();
  const GRIP_KIND100=['stick','staff','spear','pole','sword','dagger','axe','greatsword','sling','bow'];
  function tagGripRig100(h){if(!h)return h;for(const [kind,item]of Object.entries(h.W||{}))if(item?.userData)item.userData.gripKind100=kind;return h;}
  function gripCurl100(palm,kind='stick',side=1){
@@ -21,7 +22,7 @@ export const handGripPatch=String.raw`
   // The original anchor is at the wrist. Shift the handle into the palm crease,
   // with a slightly deeper seat for long shafts so bending cannot detach it.
   const seat=/^(stick|staff|spear|pole)$/.test(kind)?-.014:-.008;
-  source.position.add(new THREE.Vector3(0,0,seat).applyQuaternion(source.quaternion));
+  source.position.add(SEAT_VECTOR100.set(0,0,seat).applyQuaternion(source.quaternion));
   source.userData.gripSeat100=seat;gripCurl100(palm,kind,side);
  };
  const setWeapon100Before=setWeapon;setWeapon=function(h,kind){tagGripRig100(h);return setWeapon100Before(h,kind);};
@@ -31,3 +32,4 @@ export const handGripPatch=String.raw`
  tagGripRig100(PH);
  Object.assign(globalThis,{GRIP_KIND100,tagGripRig100,gripCurl100,gripKind100});
 })();`;
+

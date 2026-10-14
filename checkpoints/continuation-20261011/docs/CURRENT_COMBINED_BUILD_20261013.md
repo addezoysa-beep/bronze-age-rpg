@@ -1,3 +1,5 @@
+Current post-load implementation: bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f,38,148,911bytes. Offscreen wild-horse presentation budget147 is now integrated; live routes/grazing/save state unchanged. Exact weapon seat math reuses one private vector.80 recovered continuation checks pass; full current remote/browser/reference old-save8–10 performance pending. Preserved previous118 reproduced byte-for-byte; historical passes below are NOT current acceptance. See docs/POSTLOAD_POSE_CHECKPOINT_20261014.md. Expanded Troy stays lower priority, all milestones open.
+
 # Current save-load performance checkpoint — October14
 
 Candidate SHA256 118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a,38147120bytes, Wine-Dark-Sea-Load-Performance-Checkpoint.html.188 local checks pass:168 integrated,20 separate unintegrated draft checks. Current CI must build from manifest; no new-hash runtime or reference-device performance acceptance yet.
@@ -76,3 +78,4 @@ integration/critical regressions, 10 for the three main-story route families,
 performance regressions and correction. This is a planning budget, not measured
 remaining time or a promise of uninterrupted execution. Reassess after runtime
 failures are known. The original 120-task/M0–M5 scope remains open.
+

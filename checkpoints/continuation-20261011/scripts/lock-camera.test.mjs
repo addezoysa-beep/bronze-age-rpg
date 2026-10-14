@@ -238,7 +238,7 @@ test('Watchtower fort reuses a legacy garrison, tops up to eight, consumes arrow
  for(const e of fort.enemies)e.alive=false;assert.equal(c.seaFortClear99(),true);assert.equal(world.seaFort99.cleared,true);assert.equal(events.filter(e=>e[0]==='banner').length,1);assert.equal(c.seaFortClear99(),true);assert.equal(events.filter(e=>e[0]==='banner').length,1);
 });
 test('shaft grip seats the handle and uses asymmetric finger/thumb opposition',()=>{
- class Vector3{constructor(x=0,y=0,z=0){Object.assign(this,{x,y,z});}applyQuaternion(){return this;}}
+ class Vector3{constructor(x=0,y=0,z=0){Object.assign(this,{x,y,z});}set(x,y,z){Object.assign(this,{x,y,z});return this;}applyQuaternion(){return this;}}
  const stub=()=>{},c={globalThis:null,THREE:{Vector3},closeGrip23:stub,setWeapon:stub,refreshWeapon:stub,syncLeftHand:stub,populate:async()=>{},PH:{W:{}},VIEW:null,LEFT_RIG:null,LEFT_VIEW:null,G:{hands:{}},NPCS:[],ENEMIES:[]};c.globalThis=c;vm.createContext(c);vm.runInContext(handGripPatch,c);
  const finger=()=>({f:{rotation:{x:0,z:0}},m:{rotation:{x:0}},tip:{rotation:{x:0}}}),palm={userData:{fingers:[finger(),finger(),finger(),finger()],thumb:{rotation:{x:0,y:0,z:0}}}};
  const source={visible:true,quaternion:{},position:{z:0,add(v){this.z+=v.z;}},userData:{gripKind100:'staff'}},arm={userData:{palm,wrist:{},side59:-1}};c.closeGrip23(arm,source);
@@ -507,3 +507,4 @@ test('HUD target selection retains lock priority and clears stale bosses',()=>{
  assert.equal(c.healthBarTarget72(),e);assert.equal(c.BOSS,null);c.LOCK=null;assert.equal(c.healthBarTarget72(),other);
  c.STATE='pause';assert.equal(c.healthBarTarget72(),null);
 });
+

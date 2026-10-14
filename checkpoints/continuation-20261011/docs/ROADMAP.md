@@ -1,3 +1,5 @@
+Current post-load implementation: bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f,38,148,911bytes. Offscreen wild-horse presentation budget147 is now integrated; live routes/grazing/save state unchanged. Exact weapon seat math reuses one private vector.80 recovered continuation checks pass; full current remote/browser/reference old-save8–10 performance pending. Preserved previous118 reproduced byte-for-byte; historical passes below are NOT current acceptance. See docs/POSTLOAD_POSE_CHECKPOINT_20261014.md. Expanded Troy stays lower priority, all milestones open.
+
 # Prioritized Implementation Roadmap
 
 ## Current user priority — October14
@@ -256,3 +258,4 @@ Troy retinues, elite Trojan visual foil and revised production ordering: [latest
 Latest Phthia relocation and modest-region/core-civilization scope supersede earlier Achilles-at-Troy staging: [Phthia scope correction](PHTHIA_SCOPE_CORRECTION_20261014.md). Optional player writing minigame deferred; records/artifacts/lessons remain.
 
 Full staged Trojan campaign now supersedes instant new-game siege: [sequence and coverage](TROJAN_CAMPAIGN_SEQUENCE_20261014.md). Separate prewar foundation has six passing source fixtures, NOT integrated; all physical convoy/city/scene/ending gates pending.
+

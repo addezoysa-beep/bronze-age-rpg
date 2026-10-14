@@ -44,7 +44,7 @@
         {
           "id": "OPEN-60",
           "status": "planned",
-          "scope": "Empty inventory/zero recipes; actual Lykos \u2192 Phocas \u2192 wolves/king \u2192 Pan \u2192 Daedalus dependencies, sling training/grant and actual cave item; objective-first story dialogue and reversible early social redirects.",
+          "scope": "Empty inventory/zero recipes; actual Lykos → Phocas → wolves/king → Pan → Daedalus dependencies, sling training/grant and actual cave item; objective-first story dialogue and reversible early social redirects.",
           "acceptance": "New voyage earns mandatory tools, completes captain/puzzles for physical main item and gets clear next direction; old saves and reload at each stage, no flag-only completion.",
           "implementation": "partial_local_candidate",
           "latestEvidence": "verification/records/phocas-law-warning-local-20261011.json"
@@ -70,7 +70,7 @@
         {
           "id": "TASK-60",
           "status": "planned",
-          "scope": "Thirty\u2013forty total shared player/NPC tasks: carry/pour aligned amphoras/liquid, harvest/prune/tend/hammer/knead/cook/serve/sweep/sit/eat/drink/write/music as fitting; fix grain legs/clothing and bending grips.",
+          "scope": "Thirty–forty total shared player/NPC tasks: carry/pour aligned amphoras/liquid, harvest/prune/tend/hammer/knead/cook/serve/sweep/sit/eat/drink/write/music as fitting; fix grain legs/clothing and bending grips.",
           "acceptance": "Every implemented action available to both actor types with sensible prerequisites/safety; FP/TP body/clothes/props attached, jobs choose relevant tasks."
         },
         {
@@ -108,13 +108,13 @@
         {
           "id": "CRIME-60",
           "status": "planned",
-          "scope": "1\u20132 active criminals per region, visible sneak/theft/pickpocket, thief links, recoverable theft; varied bounded assassins.",
+          "scope": "1–2 active criminals per region, visible sneak/theft/pickpocket, thief links, recoverable theft; varied bounded assassins.",
           "acceptance": "Essential items protected, recoverable theft outcomes, readable assassin counterplay/rates and reload-safe state."
         },
         {
           "id": "BARD-60",
           "status": "planned",
-          "scope": "Optional follower with funny deed-dependent songs, regional court bards; rulers escorted by guards/advisors tour/fight bandits 1\u20132 days/week.",
+          "scope": "Optional follower with funny deed-dependent songs, regional court bards; rulers escorted by guards/advisors tour/fight bandits 1–2 days/week.",
           "acceptance": "Recruit/dismiss/songs reflect deeds, actual routes/tasks, quest fallback, persistent weekly cycle."
         },
         {
@@ -273,7 +273,7 @@
       "artifactSha256": "e9101c26c369d17eb911a5ca644d02c14422456a29da153679b0220059a0c0bf",
       "sourceTests": 157,
       "specification": "docs/WORK_AND_LOCK_PRIORITY_20261011.md",
-      "acceptance": "30\u201340 distinct actions, roughly3\u20134/job, shared player/NPC, real destinations/props/occupancy, paid farming/herding/quarry contracts, coordinated river haulage; exact-hash gameplay/Low/Save evidence. Twenty-eight actions across grain, herding, smithing, quarry, river cargo, Mesopotamian irrigation and Ur seed-plough work pass source fixtures. The separate Ur household shares prepare/guide/seed/level poses with a modeled ox/plough rig, assigned plot, supplied tools, ordered work, inventory conservation and one daily wage. Rendered/first-person/ordinary pause Save acceptance, full quarry-to-dock NPC route and the remaining action groups are pending."
+      "acceptance": "30–40 distinct actions, roughly3–4/job, shared player/NPC, real destinations/props/occupancy, paid farming/herding/quarry contracts, coordinated river haulage; exact-hash gameplay/Low/Save evidence. Twenty-eight actions across grain, herding, smithing, quarry, river cargo, Mesopotamian irrigation and Ur seed-plough work pass source fixtures. The separate Ur household shares prepare/guide/seed/level poses with a modeled ox/plough rig, assigned plot, supplied tools, ordered work, inventory conservation and one daily wage. Rendered/first-person/ordinary pause Save acceptance, full quarry-to-dock NPC route and the remaining action groups are pending."
     },
     "mountServices73": {
       "status": "in_progress",
@@ -326,7 +326,7 @@
         {
           "id": "PAN-RETURN-117",
           "implementation": "candidate_source_tested",
-          "scope": "Pan bandits/captain \u2192 physical tablet \u2192 King report \u2192 inventor Daedalus/Crete; own-boat/ferry and existing harvest/material earn-skiff directions.",
+          "scope": "Pan bandits/captain → physical tablet → King report → inventor Daedalus/Crete; own-boat/ferry and existing harvest/material earn-skiff directions.",
           "acceptance": "Natural dialogue/puzzle/boss/item/royal return route and save checkpoints."
         },
         {
@@ -351,7 +351,7 @@
           "id": "CIVILIAN-PVE-119",
           "implementation": "candidate_source_tested",
           "scope": "NPC-caused civilian harm floors health at1 then flee; player assault preserves lethal law consequences.",
-          "acceptance": "Actual mixed NPC/companion/player damage and flee without reducing8\u201310 attackers."
+          "acceptance": "Actual mixed NPC/companion/player damage and flee without reducing8–10 attackers."
         },
         {
           "id": "ENCOUNTER-SPAR-119",
@@ -362,7 +362,7 @@
         {
           "id": "SPEAR-THROW-123",
           "implementation": "pending",
-          "scope": "Eligible Myrmidons/captains/revenants/oathkeepers/high spear users throw/recover; player skill unlock; embedded identity, damage\u2265thrust.",
+          "scope": "Eligible Myrmidons/captains/revenants/oathkeepers/high spear users throw/recover; player skill unlock; embedded identity, damage≥thrust.",
           "acceptance": "Ordinary tree unlock/throw/contact/recovery/finite hands, save-safe loot."
         },
         {
@@ -404,7 +404,7 @@
         {
           "id": "AUDIO-PREDATOR-130",
           "implementation": "pending",
-          "scope": "Faster wolf/bear/jackal/lion; less chatter, species-safe injuries and3\u20134 human pain variations.",
+          "scope": "Faster wolf/bear/jackal/lion; less chatter, species-safe injuries and3–4 human pain variations.",
           "acceptance": "Audible actual species injury variants, bounded frequency/concurrency and rendered speed/contact."
         },
         {
@@ -761,10 +761,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
-    "bytes": 38147120,
-    "sourceChecks": 188,
-    "sourceScope": "168 integrated source/executable/compile checks and20 separate draft checks; new exact-hash runtime/Low performance pending.",
+    "buildSha256": "bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f",
+    "bytes": 38148911,
+    "sourceChecks": 80,
+    "sourceScope": "Recovered continuation subset; full remote baseline/browser pending. New147 integrated and actual grip seat allocation checks.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"
@@ -779,8 +779,9 @@
       "20-second optional road preparation grace after immediate save restore",
       "skip identical terrain focus refresh without suppressing changed destinations/cache/settings",
       "ordinary Save/exact reload plus first-minute Low frame timings",
-      "representative old save and8\u201310 truly active attackers remain required"
+      "representative old save and8–10 truly active attackers remain required"
     ],
     "referencePerformance": "pending; CI software-rendered fresh-save observation is not acceptance"
   }
 }
+
