@@ -1,28 +1,27 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-14T12:04:45Z",
+  "updatedAt": "2026-10-14T15:40:20.643896+00:00",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1",
-  "currentGithubBuildSha256": "e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4",
-  "currentGithubHead": "67fc3de7f101536afde83aa2298625fa192c93b9",
+  "currentLocalBuildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
+  "currentGithubBuildSha256": "278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1",
+  "currentGithubHead": "ae116787676cead2445df0fcc599b4b6e856394c",
   "publication": {
-    "state": "renewed_user_authorization_publish_pending",
-    "commitAwaitingApproval": "a1599e0102d97cc92ed1901101b3f09d41c2720c",
+    "state": "authorized_new_checkpoint_ready_to_publish",
     "noRetry": false,
-    "authorization": "Explicit October14 user request to reconcile and publish PR29; historical rejection hold superseded"
+    "authorization": "Explicit October14 renewed user PR29 publication authorization; earlier hold superseded"
   },
   "evidence": {
     "local": {
-      "passed": 177,
-      "integrated": 157,
+      "passed": 188,
+      "integrated": 168,
       "unintegratedHealerReachDraft": 7,
       "unintegratedStealthDraft": 7,
-      "scope": "source/compile/executable contracts, not complete gameplay acceptance",
+      "scope": "Source/executable/compile only;20 unintegrated draft tests",
       "unintegratedTrojanPrewar": 6
     },
     "github": {
@@ -1654,5 +1653,24 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Ordinary current candidate clothing/layer/helmet/save checks and critical main campaign/Pan/travel/performance, then core BronzeAge fixtures; preserve lower Trojan draft"
+  "nextDependencyReadyWork": "Ordinary current candidate clothing/layer/helmet/save checks and critical main campaign/Pan/travel/performance, then core BronzeAge fixtures; preserve lower Trojan draft",
+  "latestObjectives": [
+    "Save-load and first-minute Low performance; preserve preset, profile stages, bound optional road work",
+    "Repair actual second legacy tavern shift/route ownership conflict",
+    "Carry arrow held-nock, remedy reload and travel failures forward with diagnostics",
+    "Natural opening/Pan/physical tablet/King/Daedalus, grips and regional services; core Bronze Age before expanded Troy"
+  ],
+  "lastExecutionPerformanceCheckpoint": {
+    "partialSlots": [
+      2,
+      3,
+      4,
+      22,
+      62,
+      117
+    ],
+    "implemented": true,
+    "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
+    "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
+  }
 }

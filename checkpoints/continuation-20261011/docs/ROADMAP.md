@@ -2,7 +2,7 @@
 
 ## Current user priority — October14
 
-1. Main campaign completion and critical quality-of-life fixes, including ordinary inventory/equipment, opening/Pan progression, travel, Save/reload and measured combat freezes.
+1. Save-load/first-minute Low performance (new user priority), then main campaign completion and critical quality-of-life fixes, including ordinary inventory/equipment, opening/Pan progression, travel, Save/reload and measured combat freezes.
 2. Core visible Bronze Age six-characteristic fixtures: accessible cities/walls/buildings/monuments, religious roles, authority/laws, stratification and physical records. Keep optional expensive writing minigames deferred.
 3. Planned delivery checks and remaining dependency-ready120-hour milestone/asset work, including authorized VFX/music after core fixtures.
 4. Expanded Trojan campaign (new cities, fleet voyage and extended cinematics) is explicitly LOWER PRIORITY. Preserve its separate foundation and all requested stages, but do not resume those chapters ahead of the priorities above.
@@ -18,6 +18,8 @@ Court QOL `e9e6c00c`: Garden Keeper and Cook schedules bind actual garden/hearth
 Core civilization access `744e3cbd`: existing Dur-Kurigalzu ziggurat has continuous stairs to actual summit, a narrow landing and ordinary sanctuary entry, with offering furniture and two priest/attendant actors. Six source/executable checks pass; old monument collision opens only along the stair route for properly elevated actors. CIV-CITIES/CIV-RELIGION remain partial: rendered approach/climb/exit, ordinary Save/reload, all-city walls and richer rituals/ceremonial garb are unverified or pending.
 
 Wall access `6dd2e248`: eligible Troy interior approaches gain stairs and wall-top footing, with narrow inner-parapet openings and indexed local queries. Gate/quest state and other obstacles remain unchanged. Seven contracts include the actual active parapet construction. CIV-CITIES remains partial: natural/rendered ascent/descent, gatehouse circuits, other cities and ordinary Save/performance checks are pending; no whole milestone acceptance.
+
+Save-load checkpoint146: saved Low retained, load stages timed, optional roads deferred20seconds after immediate restore, identical focus refresh suppressed. Six load/two graphics contracts plus actual legacy tavern cast-owner correction pass. New exact-hash Low/browser/reference-old-save8–10 results pending. No faster-load/FPS claim until measured.
 
 ## Evidence and Baseline
 

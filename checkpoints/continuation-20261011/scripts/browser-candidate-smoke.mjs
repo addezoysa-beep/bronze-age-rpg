@@ -1,3 +1,4 @@
+import {runLoadPerformanceScenario} from './browser-load-performance-scenario.mjs';
 import {runRemedyScenario} from './browser-remedy-scenario.mjs';
 import {runTavernFeedbackScenario} from './browser-tavern-feedback-scenario.mjs';
 import {runGripScenario} from './browser-grip-scenario.mjs';
@@ -13,13 +14,13 @@ import {runPaidWagonScenario} from './browser-wagon-scenario.mjs';
 import {runInteractionScenario} from './browser-interaction-scenario.mjs';
 import { root, gameHash, sha256 } from './workflow.mjs';
 
-const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Combined-Cinematic.html');
-const artifactHash = sha256(readFileSync(gameFile));
 const manifest=JSON.parse(readFileSync(resolve(root,'dist/current-build-manifest.json'),'utf8'));
-if(manifest.file!=='Wine-Dark-Sea-Combined-Cinematic.html'||manifest.buildSha256!==artifactHash||manifest.bytes!==readFileSync(gameFile).length)throw Error('Current manifest/browser candidate identity mismatch');
+if(!/^[A-Za-z0-9-]+\.html$/.test(manifest.file||''))throw Error('Current manifest has an invalid candidate filename');
+const gameFile=resolve(root,'dist',manifest.file),candidateBytes=readFileSync(gameFile),artifactHash=sha256(candidateBytes);
+if(manifest.buildSha256!==artifactHash||manifest.bytes!==candidateBytes.length)throw Error('Current manifest/browser candidate identity mismatch');
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
-const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Combined-Cinematic.html',
+const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: `dist/${manifest.file}`,
   recordedAt: new Date().toISOString(), scope: 'Desktop startup, visible scene, input movement, manual save/reload, king quest, nested wagon-guide mouse choices, paid Ur travel and destination manual Save/reload. Does not accept a milestone.',
   environment: { viewport: '1365x768', offline: true }, pageErrors: [], externalRequests: [], checks: [] };
 let browser;
@@ -35,7 +36,8 @@ try {
   browser = await chromium.launch({ headless: true, executablePath: process.env.PLAYWRIGHT_EXECUTABLE_PATH });
   report.environment.browser = await browser.version();
   const context = await browser.newContext({ viewport: { width: 1365, height: 768 }, offline: true });
-  const preset = 'auto';
+  const preset = process.env.WDS_SMOKE_PRESET||'auto';
+  if(!['auto','verylow','low','medium','high'].includes(preset))throw Error('Invalid test graphics preset');
   report.environment.graphicsPreset = preset;
   await context.addInitScript(p => { localStorage.setItem('wine-dark-graphics28', p); }, preset);
   page = await context.newPage();
@@ -89,7 +91,7 @@ try {
   check('pause-guide-layout', guideLayout.insidePanel && guideLayout.overlayParagraphs === 0, guideLayout);
   await page.waitForFunction(() => document.pointerLockElement === null);
   const graphics = await page.evaluate(() => ({preset:GRAPHICS28.preset,choices:document.querySelectorAll('[data-graphics-row28]').length,renderControls:['pq1','pq2','pq3'].filter(id=>document.getElementById(id)&&getComputedStyle(document.getElementById(id)).display!=='none').length}));
-  check('automatic-graphics-and-single-menu',graphics.preset==='auto'&&graphics.choices===0&&graphics.renderControls===0,graphics);
+  check('saved-graphics-and-single-menu',graphics.preset===preset&&graphics.choices===0&&graphics.renderControls===0,graphics);
   const saveHit = await page.locator('#psave').evaluate(button => {
     const r = button.getBoundingClientRect();
     const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
@@ -113,9 +115,11 @@ try {
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
   const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
+  report.loadStages=await page.evaluate(()=>window.__WDS_LOAD_PERF__?.snapshot()||null);
   const scenario=process.env.WDS_SMOKE_SCENARIO || 'travel';
   report.scenario=scenario;
-  if(scenario==='tavern')await runTavernFeedbackScenario(page,check);
+  if(scenario==='loadperf')await runLoadPerformanceScenario(page,check,report);
+  else if(scenario==='tavern')await runTavernFeedbackScenario(page,check);
   else if(scenario==='pan')await runPanScenario(page,check);
   else if(scenario==='remedy')await runRemedyScenario(page,check);
   else if(scenario==='grip')await runGripScenario(page,check,output);

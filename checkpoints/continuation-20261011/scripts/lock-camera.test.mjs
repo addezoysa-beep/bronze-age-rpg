@@ -404,7 +404,7 @@ test('puzzle-open cinema waits out nearby combat and does not alter puzzle or qu
 });
 test('legacy invisible stable seller is removed while nearby actual keepers remain usable',()=>{
  const legacy={label:()=> 'Buy a trained horse or saddle'},valid={label:()=> 'Ikaria Stable · Timaios, Hippos and owned mounts'},n={name:'Timaios',x:1,z:1,area:'over'},e=()=>({hidden:false,style:{},parentElement:{querySelector:()=>({})}}),els={pq1:e(),pq2:e(),pq3:e()};let bought=0,graphics=null;
- const c={globalThis:null,INTS:[legacy,valid],INT_GRID16:{count:0},NPCS:[n],AREA:'over',P:{x:0,z:0},hyp:Math.hypot,stableBuy20(){bought++;},currentInts:()=>[legacy,valid],populate:async()=>{},toast(){},graphicsMenu28(){},applyGraphics28:p=>graphics=p,$:id=>els[id]||null,document:{querySelectorAll:()=>[],title:''}};c.globalThis=c;vm.createContext(c);vm.runInContext(feedbackMenuStablePatch,c);
+ const c={globalThis:null,INTS:[legacy,valid],INT_GRID16:{count:0},NPCS:[n],AREA:'over',P:{x:0,z:0},hyp:Math.hypot,stableBuy20(){bought++;},currentInts:()=>[legacy,valid],populate:async()=>{},toast(){},GRAPHICS28:{preset:'low'},graphicsMenu28(){},applyGraphics28:p=>graphics=p,$:id=>els[id]||null,document:{querySelectorAll:()=>[],title:''}};c.globalThis=c;vm.createContext(c);vm.runInContext(feedbackMenuStablePatch,c);
  assert.equal(c.INTS.length,1);assert.equal(c.currentInts().length,1);c.stableBuy20({name:'Invisible Stable Keeper',x:0,z:0});assert.equal(bought,0);c.stableBuy20(n);assert.equal(bought,1);c.P.x=100;c.stableBuy20(n);assert.equal(bought,1);
  assert.equal(graphics,'auto');assert.ok(els.pq1.hidden&&els.pq2.hidden&&els.pq3.hidden);assert.match(c.document.title,/Combined Cinematic/);
 });

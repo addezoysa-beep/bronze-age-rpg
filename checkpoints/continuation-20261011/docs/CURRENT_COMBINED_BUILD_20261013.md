@@ -1,3 +1,15 @@
+# Current save-load performance checkpoint — October14
+
+Candidate SHA256 118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a,38147120bytes, Wine-Dark-Sea-Load-Performance-Checkpoint.html.188 local checks pass:168 integrated,20 separate unintegrated draft checks. Current CI must build from manifest; no new-hash runtime or reference-device performance acceptance yet.
+
+Latest user priority: faster loading and smoother saved-game startup even on Low. Fix actual saved-quality override (Low/Very low no longer replaced with Adaptive); avoid duplicate water geometry rebuild when quality already matches. Bounded load timings record people/places, architecture bucketing, sea chart, nearby terrain, cold startup and immediate saved-state restoration. Defer only optional road A*/mesh preparation20seconds after reload, retaining original combat/loading veto and algorithm; all live NPC/enemy simulation and save restoration remain immediate. Skip only IDENTICAL terrain focus with unchanged radius/limit/tile-map/count; changed destinations/quality/cache still call actual streaming algorithm. New Low browser observation follows ordinary pause Save/exact Load and samples60seconds. Software CI/fresh-save measurements cannot accept reference-device old-save8–10 performance.
+
+Prior278 at ae116787 passed476 full remote source/workflow checks and scoped ordinary startup/movement/Save/exact reload/Pan prepared tablet/lock/stick-contact checks. Tavern STILL FAILED: second old tavern shift iterates o.cast outside RESIDENTS; off-shift dedicated server reset outdoor.145 now isolates valid dedicated staff from BOTH legacy resident/cast shift/route owners, restoring all arrays finally; ordinary shifts retain behavior, no routine teleport or fake death/follower. Five actual-loop contracts pass. Arrow ordinary pointer input reaches held=true/nock but draw times out15sec in software CI; timer/frame diagnostics pending, no alleged bow repair. Remedy/travel still running at last inspection.278 artifact11906861821 exists, distinct from this new candidate.
+
+No milestone accepted; full natural opening/Pan/physical tablet/King/Daedalus, full visual grips/loadouts, representative old saves and reference Low8–10 remain required. Keep healer144/Trojan135/arrow-search drafts unintegrated. All supplied baseline/recovered/synced artifacts preserved; current feature branch/PR29 publication authorized. Continue ready main/QOL/core work while exact-new CI runs, not expanded Troy.120 active-hour allocation unchanged; unmeasured remaining time is not decremented.
+
+# Historical278 integration record
+
 # Current integration candidate — October14
 
 Authoritative build identity: dist/current-build-manifest.json, produced by node scripts/build-current.mjs. Pinned SHA256 278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1,38142463bytes. Browser harness checks manifest filename/hash/byte count against actual HTML. Deliver only that artifact plus manifest; historical generated files below are not current.

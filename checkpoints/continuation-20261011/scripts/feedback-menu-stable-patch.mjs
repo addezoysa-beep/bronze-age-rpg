@@ -10,7 +10,9 @@ export const feedbackMenuStablePatch=String.raw`
  graphicsMenu28=function(){};
  for(const id of ['pq1','pq2','pq3']){const e=$(id);if(e){e.hidden=true;e.style.display='none';const label=e.parentElement?.querySelector('.muted');if(label)label.hidden=true;}}
  for(const e of document.querySelectorAll('[data-graphics-row28]'))e.remove();
- applyGraphics28('auto',false);
+ // Preserve the player's saved quality; new installs default to Adaptive.
+ let savedGraphics111='auto';try{const v=localStorage.getItem('wine-dark-graphics28');if(['auto','verylow','low','medium','high'].includes(v))savedGraphics111=v;}catch(_){}
+ if(GRAPHICS28.preset!==savedGraphics111)applyGraphics28(savedGraphics111,false);
  document.title='Wine-Dark Sea · Combined Cinematic Checkpoint · 2026-10-13';
  const title=$('title');if(title&&!$('build-identity111')){const note=document.createElement('p');note.id='build-identity111';note.textContent='Combined cinematic + animated sling checkpoint · 13 October 2026';note.style.cssText='color:#cbb791;font-size:12px;text-align:center';(title.querySelector('.bd')||title).appendChild(note);}
  Object.assign(globalThis,{pruneGhostStable111});

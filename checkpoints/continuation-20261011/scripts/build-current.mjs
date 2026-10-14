@@ -12,7 +12,7 @@ fs.mkdirSync(new URL('recovered/',root),{recursive:true});fs.writeFileSync(new U
 delete process.env.WDS_CANDIDATE_FILE;
 await import('./build-continuation.mjs');
 const name='Wine-Dark-Sea-Combined-Cinematic.html',candidate=fs.readFileSync(new URL(name,root));
-if(hash(candidate)!=='278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1')throw Error('Combined candidate identity mismatch');
+if(hash(candidate)!=='118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a')throw Error('Combined candidate identity mismatch');
 fs.mkdirSync(new URL('dist/',root),{recursive:true});fs.writeFileSync(new URL('dist/'+name,root),candidate);
-fs.writeFileSync(new URL('dist/current-build-manifest.json',root),JSON.stringify({file:name,buildSha256:hash(candidate),bytes:candidate.length,recoveredSourceSha256:hash(recovered),preservedPublishedSeedSha256:hash(published),milestoneAcceptance:'pending',includes:['cinematic opening','animated FP/TP sling','all local continuation patches through storage and dungeon atmosphere','main-story/guard/puzzle cinematic extension','ghost stable seller removal','automatic graphics policy']},null,2)+'\n');
+fs.writeFileSync(new URL('dist/current-build-manifest.json',root),JSON.stringify({file:name,buildSha256:hash(candidate),bytes:candidate.length,recoveredSourceSha256:hash(recovered),preservedPublishedSeedSha256:hash(published),milestoneAcceptance:'pending',includes:['cinematic opening','animated FP/TP sling','all local continuation patches through storage and dungeon atmosphere','main-story/guard/puzzle cinematic extension','ghost stable seller removal','saved graphics policy retained','bounded startup/save timing diagnostics','optional roadfinding deferred for 20 seconds after save restore','stationary terrain refresh suppression when cache state is unchanged']},null,2)+'\n');
 console.log(JSON.stringify({file:name,sha256:hash(candidate),bytes:candidate.length}));

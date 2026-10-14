@@ -32,7 +32,7 @@ jobs:
         with:
           name: combined-cinematic-current
           path: |
-            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Load-Performance.html
             checkpoints/continuation-20261011/dist/current-build-manifest.json
   browser-checkpoint:
     if: github.event_name == 'pull_request'
@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        scenario: [travel, pan, lock, grip, remedy, arrow, tavern]
+        scenario: [travel, pan, lock, grip, remedy, arrow, tavern, loadperf]
     defaults:
       run:
         working-directory: checkpoints/continuation-20261011
@@ -57,6 +57,7 @@ jobs:
         run: node scripts/browser-candidate-smoke.mjs
         env:
           WDS_SMOKE_SCENARIO: ${{ matrix.scenario }}
+          WDS_SMOKE_PRESET: ${{ matrix.scenario == 'loadperf' && 'low' || 'auto' }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
