@@ -1,6 +1,6 @@
 # Pan, tavern, Hippos and NPC feedback — October13
 
-Candidate 4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160; 38,107,212 bytes. Preserves recovered animated FP/TP sling/cinematic seed and prior continuation. All M0–M5 unaccepted. Source-tested below does not mean ordinary rendered gameplay accepted.
+Candidate 483034b8cd86acbdfb003df00bf1146ec8ded2f5f941d600c3d40fdd966845d9; 38,108,623 bytes. Preserves recovered animated FP/TP sling/cinematic seed and prior continuation. All M0–M5 unaccepted. Source-tested below does not mean ordinary rendered gameplay accepted.
 
 ## PAN-RETURN-117
 
@@ -124,8 +124,12 @@ Acceptance: Ordinary deposit/take conservation/reload per supported chest, no cl
 
 ## Evidence and handoff
 
-89 local tests pass:84 integrated compile/source/executable checks and5 unintegrated stealth draft tests. Full legacy suite absent locally; remote full-suite/current-hash browser rerun required. Previous7146ff36 run38481457696 source367 pass and prepared Pan browser pass; bow/lock/healer/grip/travel reload failures stay open. Reference-device Low8/10 combat and natural full story/Pan route remain pending.
+94 local tests pass:89 integrated compile/source/executable checks and5 unintegrated stealth draft tests. Full legacy suite absent locally; remote full-suite/current-hash browser rerun required. Previous7146ff36 run38481457696 source367 pass and prepared Pan browser pass; bow/lock/healer/grip/travel reload failures stay open. Reference-device Low8/10 combat and natural full story/Pan route remain pending.
 
 October13 17:00 Eastern interim target passed without complete acceptance. Continue authorized scope. Original120 active-hour allocations remain open; elapsed scheduled hours are not active work hours. Do not fabricate remaining measured hours or drop prior scope. Next: current-hash CI, actual input/service/grip repair, independent boss-rumor/roaming/workplace implementations. No automatic slot/milestone acceptance.
 
 Follow-up: replaces the obsolete broken Buy food and drink interaction and uses actual interior canStand collision for serving routes, not outdoor terrain at offset dungeon coordinates. One extra executable indoor movement/wall/pause regression passes. Previous55562a50 remote382 pass/artifact exists but is superseded; new exact-hash checks pending.
+
+MEDICAL-132: identified healers regain their current treatment/recipe/restorative service menu without flattening unrelated optional quest gates. Three late-create/populate/restore/hostile-area/proximity fixtures pass. Previous55562a50 actual startup/render/movement/manual Save/exact reload passed several jobs; prepared Pan fixture failed because it left ordinary bandits alive. The corrected fixture explicitly clears bandits before testing real chest/item callbacks; it is not natural combat acceptance. Grip and healer failures retained as inspected evidence. Source binding fix and current-hash ordinary rerun pending.
+
+Actual tavern definition regression now executes configureTavern15: def.tavern is BOOLEAN and def.house contains region/cast. Resolve actual house/cast, reuse first two workers, and place BOTH at indoor bar/table anchors rather than merely reparenting outdoor coordinates. Dedicated tavern browser scenario exercises ordinary E/counter mouse Drink milk/payment, actual server motion and pause Save/exact-position reload on a prepared interior fixture. Its result remains pending, and does not prove natural entry or every-region work cycles.

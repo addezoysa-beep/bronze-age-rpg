@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-10-14T12:04:45Z",
+  "timezone": "America/New_York",
+  "title": "Updated120-active-hour remaining work allocation",
+  "targetActiveHours": 120,
+  "measuredHoursCompleted": null,
+  "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
+  "allMilestonesAccepted": false,
+  "currentLocalBuildSha256": "e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4",
+  "currentGithubBuildSha256": "4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160",
+  "currentGithubHead": "2a78fb5f3bd0a7e57fe1912ce76ec3344a585904",
+  "publication": {
+    "state": "renewed_user_authorization_publish_pending",
+    "commitAwaitingApproval": "a1599e0102d97cc92ed1901101b3f09d41c2720c",
+    "noRetry": false,
+    "authorization": "Explicit October14 user request to reconcile and publish PR29; historical rejection hold superseded"
+  },
+  "evidence": {
+    "local": {
+      "passed": 167,
+      "integrated": 154,
+      "unintegratedStealthDraft": 7,
+      "scope": "source/compile/executable contracts, not complete gameplay acceptance",
+      "unintegratedTrojanPrewar": 6
+    },
+    "github": {
+      "build": "4445d03c",
+      "sourcePassed": 383,
+      "lockBrowser": "passed scoped scenario",
+      "panBrowser": "failed stale cleared-bandit fixture; correction local",
+      "gripBrowser": "failed wrist anchor distance",
+      "remedyBrowser": "failed story-gated healer; source correction local",
+      "arrowBrowser": "failed before damage; input/fixture triage pending",
+      "travelBrowser": "failed"
+    }
+  },
+  "policy": [
+    "Active work hours, not hourly automation runs or guaranteed continuous execution.",
+    "Reuses existing implementation; verify/repair it rather than duplicate or restart.",
+    "No current-hash gate passes or completed hours are invented from historical source tests.",
+    "If a slot finishes early with required checks passed, start next dependency-ready slot in same execution.",
+    "Blocked checks leave slot open; advance independent authorized work without mutating candidate under test.",
+    "Carry overruns forward; never waive gates to fit an hour or deadline.",
+    "Every hour includes implementation with tests, evidence and durable handoff; no test-only substitute for feature production.",
+    "No acceptance from definitions, fixture-only progression, source strings or old-hash evidence.",
+    "Ordinary offline pause Save/exact-position reload mandatory; keep8\u201310 attack-capable attackers.",
+    "Every previous120 task ID is mapped, along with latest feedback; roster numbers remain unapproved.",
+    "Continue unfinished scope after120 if necessary; final release needs all current-hash acceptance and actual Master review."
+  ],
+  "groups": [
+    {
+      "from": 1,
+      "to": 18,
+      "title": "Critical gameplay, performance and story/service repairs",
+      "hours": 18,
+      "milestones": [
+        "M0",
+        "M1",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "from": 19,
+      "to": 36,
+      "title": "Regional equipment, economy, crafting and M2",
+      "hours": 18,
+      "milestones": [
+        "M2"
+      ]
+    },
+    {
+      "from": 37,
+      "to": 58,
+      "title": "Creature/faction production and M3 encounters",
+      "hours": 22,
+      "milestones": [
+        "M1",
+        "M3"
+      ]
+    },
+    {
+      "from": 59,
+      "to": 88,
+      "title": "Puzzles, forts, legendary sites and main-story M4",
+      "hours": 30,
+      "milestones": [
+        "M4"
+      ]
+    },
+    {
+      "from": 89,
+      "to": 110,
+      "title": "Mounts, workplaces, regional law/life and M5 audio",
+      "hours": 22,
+      "milestones": [
+        "M5",
+        "M3"
+      ]
+    },
+    {
+      "from": 111,
+      "to": 120,
+      "title": "Integrated verification, review and final delivery",
+      "hours": 10,
+      "milestones": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "hour": 1,
+      "allocatedActiveHours": 1,
+      "task": "Reconcile latest local build, saved download and held PR checkpoint",
+      "requiredCheck": "Exact bytes/hash, preserved sling/cinematics; publish only after explicit approval",
+      "originalTaskIds": [
+        1,
+        112
+      ],
+      "workStatus": "in_progress_publication_blocked",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 2,
+      "allocatedActiveHours": 1,
+      "task": "Restore current-build browser path and representative old-save fixture",
+      "requiredCheck": "Ordinary offline launch; named save/browser/device; remote availability separated from publication hold",
+      "originalTaskIds": [
+        2,
+        3
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 3,
+      "allocatedActiveHours": 1,
+      "task": "Repair unreliable standing/crouched FP/TP bow damage and release",
+      "requiredCheck": "Actual mouse draws/releases, correct origin, swept contacts, shields, material damage and one ammo consumed",
+      "originalTaskIds": [
+        5,
+        29,
+        34
+      ],
+      "workStatus": "in_progress_runtime_failure",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 4,
+      "allocatedActiveHours": 1,
+      "task": "Fix distant-shot detection and directional search",
+      "requiredCheck": "Hidden shooter is not instantly located; genuine sight/hearing reacquires; bounded search, pack alerts and expiry",
+      "originalTaskIds": [
+        3,
+        4,
+        62
+      ],
+      "workStatus": "draft_not_integrated",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 5,
+      "allocatedActiveHours": 1,
+      "task": "Verify lock acquisition/cycling, camera/strafe and roll retention",
+      "requiredCheck": "Ordinary Q/configured input, hostile selection, marker, death/range/LOS/menu/travel release on current hash",
+      "originalTaskIds": [
+        6
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "4445d03c run38501612940 lock browser passed actual Q/cycle/unlock/configured input and ordinary Save/reload. New483 hash still unverified; full roll/target matrix remains."
+    },
+    {
+      "hour": 6,
+      "allocatedActiveHours": 1,
+      "task": "Repair the highest-impact rendered stick/staff/hand regression",
+      "requiredCheck": "Actual palm contact and wrist anatomy in FP/TP idle/move/guard/roll; no relaxed visual gate High-priority clothing/menu repair: acquired tunics wearable, mantle/cape controls; real preview/mesh and ordinary Save verification.",
+      "originalTaskIds": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "workStatus": "in_progress_rendered_check_failed",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 7,
+      "allocatedActiveHours": 1,
+      "task": "Prioritize tactile lockpicking and locked-gate/puzzle cinematics",
+      "requiredCheck": "Readable resistance/pick motion, no exposed solution; gate message, tools/cancel/reset/reload; sling/arrow/weight inputs",
+      "originalTaskIds": [
+        71,
+        72,
+        73
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 8,
+      "allocatedActiveHours": 1,
+      "task": "Complete mandatory cinematic Lykos and Phocas lock lessons",
+      "requiredCheck": "Actual successful lock exercise required; finite supplies, safe cancel/resume and no dialogue bypass",
+      "originalTaskIds": [
+        7,
+        8
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 9,
+      "allocatedActiveHours": 1,
+      "task": "Complete critical opening, Pan tablet, royal return and Daedalus handoff",
+      "requiredCheck": "Empty inventory/recipes; real actions/items/boss; King marker then actual inventor and clear Crete/boat/ferry directions",
+      "originalTaskIds": [
+        9,
+        70
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 10,
+      "allocatedActiveHours": 1,
+      "task": "Repair palace/city weapon stops, crime/boss/assassin cinematics",
+      "requiredCheck": "Reachable sheathe/leave/fine/surrender/refuse options; no forced punishment on cancel; NPC-caused civilian harm nonlethal Verify every nonplayer actor damage path remains nonlethal under enemy attacks and runs away at critical health; ordinary boss/assassin approach cutscene.",
+      "originalTaskIds": [
+        10
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 11,
+      "allocatedActiveHours": 1,
+      "task": "Fix and verify Troy allegiance/hostility transitions",
+      "requiredCheck": "No unprovoked allied Achaean attacks; player provocation/side changes, essential NPCs and protected Hector coherent Achilles/Myrmidons home in Phthia; retain Troy direction/training/recruitment routes.",
+      "originalTaskIds": [
+        11,
+        89
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 12,
+      "allocatedActiveHours": 1,
+      "task": "Verify Hippos care/lead/pasture/return and inventor-only Daedalus",
+      "requiredCheck": "Horse physically reaches both destinations through gates; ownership/quilt conservation; real inventor triggers story, no stable clone",
+      "originalTaskIds": [
+        17,
+        92,
+        93
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 13,
+      "allocatedActiveHours": 1,
+      "task": "Verify dedicated tavern service, milk and essential healer menus",
+      "requiredCheck": "Actual indoor staff and counter, mouse meal/drink payment, thirst, recipes, insufficient funds/work directions and reload Hungry/thirsty/injured players receive accurate directions to actual regional food, water and healing services.",
+      "originalTaskIds": [
+        102,
+        110
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Resource directions at 63ce546f use actual regional service actors and entrances, with click-time availability checks. Six executable direction tests and actual delivered-script integrity pass. Ordinary acquisition, travel and manual Save/reload pending; this slot is not accepted."
+    },
+    {
+      "hour": 14,
+      "allocatedActiveHours": 1,
+      "task": "Fix urgent garden/server/courier workplace misplacement",
+      "requiredCheck": "Real work anchor, purposeful route, arrival/facing/task; couriers deliver rather than stand; no duplicate invisible workers",
+      "originalTaskIds": [
+        100,
+        101
+      ],
+      "workStatus": "partial_local_implementation_needs_runtime_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "e9e6c00c actual palace garden/hearth approaches and blocked court-path hold added with eight checks including real six layouts/legacy mover. Table-server route and workplace suspension retained. Rendered garden/prop, outdoor courtyard/courier/manualSave/performance coverage remains pending."
+    },
+    {
+      "hour": 15,
+      "allocatedActiveHours": 1,
+      "task": "Implement first regional-boss rumors and scaled roaming ambushes",
+      "requiredCheck": "Actual local alive/dead boss references; bounded captain/assassin encounters, readable approach and legal level-scaled gear/moves",
+      "originalTaskIds": [
+        60
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 16,
+      "allocatedActiveHours": 1,
+      "task": "Run early exact-build ordinary Save/reload and story/service regression",
+      "requiredCheck": "Accessible pause Save, exact position, no forced clicks/programmatic saves; old/new save and repeated transactions",
+      "originalTaskIds": [
+        21,
+        22
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 17,
+      "allocatedActiveHours": 1,
+      "task": "Measure and fix Low old-save freezes with eight and ten attackers",
+      "requiredCheck": "Current-hash before/after p95, long frames, allocations/terrain/HUD/streaming; retain all attack-capable actors",
+      "originalTaskIds": [
+        3,
+        4,
+        62
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 18,
+      "allocatedActiveHours": 1,
+      "task": "Package first coherent checkpoint and review revised estimates",
+      "requiredCheck": "Exact version/hash/download, completed versus unverified/pending; carry failures forward, no milestone acceptance from smoke",
+      "originalTaskIds": [
+        23
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 19,
+      "allocatedActiveHours": 1,
+      "task": "Audit active weapon/armor material/region variants and obtainability",
+      "requiredCheck": "Actual final overrides, buy/sell/craft/loot/progression matrix, no definitions-only delivery claims",
+      "originalTaskIds": [
+        24
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 20,
+      "allocatedActiveHours": 1,
+      "task": "Finish anatomical finger/thumb, stick/staff and left/right grips",
+      "requiredCheck": "Rendered grasp, bending and movement; common player/NPC/FP/TP attachment without swapped hands",
+      "originalTaskIds": [
+        25
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 21,
+      "allocatedActiveHours": 1,
+      "task": "Finish spear/shield stance and thrust/recovery",
+      "requiredCheck": "Upright idle, real thrust, shield coverage/free-hand brace and terrain contact with action/stamina safety",
+      "originalTaskIds": [
+        26
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 22,
+      "allocatedActiveHours": 1,
+      "task": "Implement player spear-throw skill and eligible enemy throws",
+      "requiredCheck": "Skill-tree unlock; Myrmidons/captains/revenants/oathkeepers/high spear users throw/recover; finite equipment, embed identity and damage at least thrust Throw embeds in people/props/terrain with damage at least thrust; finite same-identity recovery and skill unlock, all named eligible factions. Shared player/NPC spear throwing windup, actual hand release, follow-through and recovery animation required.",
+      "originalTaskIds": [
+        26,
+        58
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 23,
+      "allocatedActiveHours": 1,
+      "task": "Finish sword/dagger/axe grips and six-form combat poses",
+      "requiredCheck": "Distinct attacks/body weight/recovery, hand contact, guard/dodge and legal dual-hand combinations",
+      "originalTaskIds": [
+        27
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 24,
+      "allocatedActiveHours": 1,
+      "task": "Finish greatsword two-hand rig and regional smith commissions",
+      "requiredCheck": "Support hand contact, equip restrictions, affordable route, real payment/maturation/single collection and reload",
+      "originalTaskIds": [
+        28
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 25,
+      "allocatedActiveHours": 1,
+      "task": "Finish bow/arrow/sling mesh, nock/draw/cord/pouch/release",
+      "requiredCheck": "Selected ammo matches preview/nock/projectile/recovery; animated FP/TP sling retained; aiming convergence and damage",
+      "originalTaskIds": [
+        29
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 26,
+      "allocatedActiveHours": 1,
+      "task": "Finish Aegean/Minoan equipment silhouettes",
+      "requiredCheck": "Actual usable armor/weapons, distinct anatomy/materials, craft/vendor routes and rendered review Appropriate Myrmidon plumes and Sea Peoples helmet ornaments; visible player capes and all-item mesh coverage.",
+      "originalTaskIds": [
+        30
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 27,
+      "allocatedActiveHours": 1,
+      "task": "Finish Egyptian/Mesopotamian equipment silhouettes",
+      "requiredCheck": "Region-specific usable gear, valid recipe/material access, hand/equip/mesh and ordinary reload",
+      "originalTaskIds": [
+        31
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 28,
+      "allocatedActiveHours": 1,
+      "task": "Finish rare-metal and decayed revenant equipment variants",
+      "requiredCheck": "Copper/bronze/silver/gold/iron/orichalcum/canonical adamantium variants; all revenant armor/weapons visibly aged, obtainable and save-safe",
+      "originalTaskIds": [
+        32
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 29,
+      "allocatedActiveHours": 1,
+      "task": "Finish coherent equipment economy and city/service tiers",
+      "requiredCheck": "Active prices, loot/sell/craft arbitrage, stock/ingredients/advanced lessons; starter affordability and honest local/job directions Craftable/sellable/stealable jewelry with ownership, value and law conservation.",
+      "originalTaskIds": [
+        33
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 30,
+      "allocatedActiveHours": 1,
+      "task": "Finish wooden versus tipped arrows across every active path",
+      "requiredCheck": "Sharpened wood only, clear tipped price/damage advantage; player/NPC stocks, previews, nock/fire/recover, conservation",
+      "originalTaskIds": [
+        34
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 31,
+      "allocatedActiveHours": 1,
+      "task": "Finish mining/smelting/smith teaching and regional materials",
+      "requiredCheck": "Actual ore/tool/furnace/recipe gates, normal acquisition/crafting, no bypass or duplicated outputs",
+      "originalTaskIds": [
+        35
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 32,
+      "allocatedActiveHours": 1,
+      "task": "Verify all four remedies through ordinary acquisition/crafting/use",
+      "requiredCheck": "Health/stamina effects, bounded gradual heal/endurance, restrictions, nonstacking/expiry/death/old-save and UI Save/reload",
+      "originalTaskIds": [
+        36
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 33,
+      "allocatedActiveHours": 1,
+      "task": "Finish placeable owned chest and supported container storage",
+      "requiredCheck": "Learn/craft/place/store/take conservation, ownership/weight; identify travel-testing chest and verify persistence instead of claiming every chest supports deposits",
+      "originalTaskIds": [
+        37
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 34,
+      "allocatedActiveHours": 1,
+      "task": "Verify level-up, skill/attribute points and equipment HUD",
+      "requiredCheck": "Independent points, dialogue-safe overlays, readable hands/ammo selection, controls and save persistence",
+      "originalTaskIds": [
+        38
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 35,
+      "allocatedActiveHours": 1,
+      "task": "Run complete six-archetype hand/loadout/contact matrix",
+      "requiredCheck": "Player/NPC, FP/TP, idle/move/attack/guard/roll/equip; actual screenshots/contact evidence and failures repaired",
+      "originalTaskIds": [
+        39
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 36,
+      "allocatedActiveHours": 1,
+      "task": "Review M2 crafting/economy/storage/gear acceptance",
+      "requiredCheck": "Current-hash regional acquire/craft/equip/reload evidence and actual review; all unmet cells remain open",
+      "originalTaskIds": [
+        39
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 37,
+      "allocatedActiveHours": 1,
+      "task": "Lock complete creature coverage matrix",
+      "requiredCheck": "Every requested creature/region/mesh/rig/action/spawn/loot listed; no silent omissions or definitions-only encounters",
+      "originalTaskIds": [
+        40
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 38,
+      "allocatedActiveHours": 1,
+      "task": "Finish wolves/dogs/jackals speed, gait, rest/wake and injury cues",
+      "requiredCheck": "Faster coherent predators, species-safe pain/no human groans, stealth waking and quieter contextual chatter",
+      "originalTaskIds": [
+        41
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 39,
+      "allocatedActiveHours": 1,
+      "task": "Finish lion anatomy, silhouette, mane/paws and full rig",
+      "requiredCheck": "Produce/repair real mesh; locomotion/attack/recovery/rest/sleep and reachable regional encounters; rendered approval",
+      "originalTaskIds": [
+        12,
+        13
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 40,
+      "allocatedActiveHours": 1,
+      "task": "Finish dragon anatomy, wings/tail, attacks and mountain distribution",
+      "requiredCheck": "Produce/repair real mesh/rig, first-appearance cinema, meaningful additional reachable spawns and boss initialization",
+      "originalTaskIds": [
+        14,
+        15,
+        49
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 41,
+      "allocatedActiveHours": 1,
+      "task": "Finish bear anatomy/rig and regional predator availability",
+      "requiredCheck": "Grounded gait/attacks/rest, faster coherent chase, real regional spawn/combat/loot rather than registry claims",
+      "originalTaskIds": [
+        16
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 42,
+      "allocatedActiveHours": 1,
+      "task": "Finish boar/pig/goat/ram/ibex models and behavior",
+      "requiredCheck": "Distinct bodies, charge/headbutt/flanking/rest actions, contact/stamina/loot and real encounters",
+      "originalTaskIds": [
+        42
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 43,
+      "allocatedActiveHours": 1,
+      "task": "Finish deer/antelope/cattle/sheep and birds/herds",
+      "requiredCheck": "Distinct rigs, grazing/flee/pen routes, appropriate regions, player work/harvest safety and city-livestock law",
+      "originalTaskIds": [
+        43
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 44,
+      "allocatedActiveHours": 1,
+      "task": "Finish centaur and Cyclops/giant models/rigs",
+      "requiredCheck": "Distinct anatomy, shared legal contacts/attacks, faction relations, real reachability and loot Medium priority: remove horse head protruding from centaur torso; inspect independent skinned horse meshes and rendered junction. Retain medium-priority protruding horse-head defect.",
+      "originalTaskIds": [
+        44
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 45,
+      "allocatedActiveHours": 1,
+      "task": "Finish Hydra and Laestrygonian models/animations",
+      "requiredCheck": "Coherent proportions/multi-head contacts, attacks/recovery, region/loot/progression and grounded navigation",
+      "originalTaskIds": [
+        45
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 46,
+      "allocatedActiveHours": 1,
+      "task": "Finish Leviathan and marine creature roster",
+      "requiredCheck": "Sharks/squid/turtles/fish variants plus sea boss, swim/attack/flee/contact/spawn/loot and bounded render budgets",
+      "originalTaskIds": [
+        46
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 47,
+      "allocatedActiveHours": 1,
+      "task": "Finish vampires/werewolves/undead/ghouls and dark spawns",
+      "requiredCheck": "Pale red-eyed vampires, convincing distinct rigs/rest/attacks, reachable night/dungeon conditions and actual loot",
+      "originalTaskIds": [
+        47
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 48,
+      "allocatedActiveHours": 1,
+      "task": "Finish kobaloi anatomy, evasions, third attack and alerts",
+      "requiredCheck": "Shared grounded duck/roll, feints, rest/wake and horn/yell; bounded LOS/range/cooldown alert propagation",
+      "originalTaskIds": [
+        48
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 49,
+      "allocatedActiveHours": 1,
+      "task": "Finish horse knees/hocks/hooves/bucking and charge contacts",
+      "requiredCheck": "Rendered walk/trot/gallop/turn/slopes, rider/quilt contact; swept impacts/cooldowns/civilian law; no overlap damage Lower-priority original researched cartoon horse anatomy, restrained power-tier musculature; retain charge damage and gait checks.",
+      "originalTaskIds": [
+        17,
+        50
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 50,
+      "allocatedActiveHours": 1,
+      "task": "Resolve approved expanded faction roster and relationships",
+      "requiredCheck": "Well beyond four, multiple types each; no invented numeric approval; preserve originals and resolve Mine Raiders/deserter overlap",
+      "originalTaskIds": [
+        51
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 51,
+      "allocatedActiveHours": 1,
+      "task": "Finish Labyrinth Initiate mask/equipment/animation production",
+      "requiredCheck": "Branched antler masks, ominous varied silhouettes across actual archetypes; contacts and visible attacks/defenses",
+      "originalTaskIds": [
+        18,
+        52
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 52,
+      "allocatedActiveHours": 1,
+      "task": "Finish Exiled Royal Retainer identity/equipment/discipline",
+      "requiredCheck": "Distinct meshes/loadouts, feints/formations/healing and real multi-type encounters/camp integration",
+      "originalTaskIds": [
+        53
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 53,
+      "allocatedActiveHours": 1,
+      "task": "Finish Barrow Oathkeeper/revenant archer and swordsman",
+      "requiredCheck": "Decayed regional armor/weapons, bow/sword-specific meshes/actions/awakening/loot; no pristine weapon bypass",
+      "originalTaskIds": [
+        54
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 54,
+      "allocatedActiveHours": 1,
+      "task": "Finish Copper Mine Deserter identity/loadouts",
+      "requiredCheck": "Resolve naming, distinct equipment/animations/tactics and region/spawn/loot contracts",
+      "originalTaskIds": [
+        55
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 55,
+      "allocatedActiveHours": 1,
+      "task": "Produce remaining approved faction groups A",
+      "requiredCheck": "Actual models/equipment/multiple combat animations/AI/region/relationship coverage, not new names or palette-only variants",
+      "originalTaskIds": [
+        56
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 56,
+      "allocatedActiveHours": 1,
+      "task": "Produce remaining approved faction groups B",
+      "requiredCheck": "Same full production and reachable encounter requirements; preserve every approved roster member",
+      "originalTaskIds": [
+        57
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 57,
+      "allocatedActiveHours": 1,
+      "task": "Finish equipment-driven mixed enemy tactics and spear recovery",
+      "requiredCheck": "Spear/sword/axe/greatsword/bow/sling, readable feints, dodges, retreat healing, alerts and legal switching Enemy chariot archer variant: separate visible driver and archer with coordinated navigation/LOS/finite shots.",
+      "originalTaskIds": [
+        58,
+        59
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 58,
+      "allocatedActiveHours": 1,
+      "task": "Run mixed eight/ten attacker creature/faction matrix and M3 review",
+      "requiredCheck": "Open/narrow terrain, simultaneous attack capability, contacts/LOS/loot/save, Low timings and actual roster review",
+      "originalTaskIds": [
+        61,
+        62,
+        63
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 59,
+      "allocatedActiveHours": 1,
+      "task": "Audit all legendary sites, hideouts, caves and story dependencies",
+      "requiredCheck": "Eight named sites/twelve hideouts plus forts/caves, entrances/exits/keys/physical rewards and coverage cells",
+      "originalTaskIds": [
+        64
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 60,
+      "allocatedActiveHours": 1,
+      "task": "Finish reusable distinct coastal/hill/court fort layouts",
+      "requiredCheck": "Real geography, approaches/stairs/cover/routes/defenders/clear/loot; useful differences beyond color changes Very high-priority major-city hearts, climbable walls/stairs/viewpoints, granaries and accessible priest-populated ziggurats.",
+      "originalTaskIds": [
+        65
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Core-priority partial access6dd2e248 adds eligible Troy interior stairs/indexed wall footing/inner-parapet cuts with seven contracts; prior ziggurat access retained. No all-city/fort/layout, rendered navigation or ordinary Save/performance acceptance; slot remains open."
+    },
+    {
+      "hour": 61,
+      "allocatedActiveHours": 1,
+      "task": "Finish scattered sea forts with fair archer defenses",
+      "requiredCheck": "Boat landing/climb routes, grounded finite range/LOS arrows, clear-gated chests and no duplicate rewards after reload Periodic raids across walled cities: NPCs flee inside, guards shoot/sally, bounded rates and persistent safe outcomes.",
+      "originalTaskIds": [
+        20,
+        66
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 62,
+      "allocatedActiveHours": 1,
+      "task": "Finish rival tent camps and sparse-region outposts",
+      "requiredCheck": "Distinct layouts/faction equipment/multiple AI types, valid navigation, believable occupation, loot and exits",
+      "originalTaskIds": [
+        19,
+        67
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 63,
+      "allocatedActiveHours": 1,
+      "task": "Finish cave/mine atmosphere and dark dungeon encounters",
+      "requiredCheck": "Puddles/stalactites/stalagmites/chains, culling/collision/path clearance and reachable vampires",
+      "originalTaskIds": [
+        68
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 64,
+      "allocatedActiveHours": 1,
+      "task": "Finish mundane supplies in enemy areas",
+      "requiredCheck": "Reachable food/sling stones/wooden-arrow chests and pickups, finite conservation, acquisition and save-safe depletion",
+      "originalTaskIds": [
+        69
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 65,
+      "allocatedActiveHours": 1,
+      "task": "Finish full Pan puzzle/key/captain/tablet/King/Daedalus route",
+      "requiredCheck": "Ordinary sling target, crate/plate, all bandits and captain, physical tablet, royal report and Crete continuation with checkpoint saves",
+      "originalTaskIds": [
+        70
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 66,
+      "allocatedActiveHours": 1,
+      "task": "Finish clue-driven puzzle variety and cinematic transitions",
+      "requiredCheck": "Sling/arrow/weight/sequence/light/writing combinations where supported, locked-gate feedback, readable clues and no arbitrary secrets",
+      "originalTaskIds": [
+        71
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 67,
+      "allocatedActiveHours": 1,
+      "task": "Finish telegraphed traps and reset/re-entry safety",
+      "requiredCheck": "Reachable controls/rewards, readable warning, bounded damage, no softlocks or repeated unintended payouts after reload",
+      "originalTaskIds": [
+        72
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 68,
+      "allocatedActiveHours": 1,
+      "task": "Finish tactile lockpicking difficulty/accessibility matrix",
+      "requiredCheck": "No visible answer; hand/pick motion and useful resistance/audio, supported optional haptics, tools/fail/cancel/reset/door save",
+      "originalTaskIds": [
+        73
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 69,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Cinder Fissure",
+      "requiredCheck": "Distinct reachable route/puzzle/trap/encounter/legendary reward/exit/reset/reload and rendered review",
+      "originalTaskIds": [
+        74
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 70,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Dactyl\u2019s Veined Grotto",
+      "requiredCheck": "Same complete ordinary-play contract, distinctive geography/clues/enemies and once-only rewards",
+      "originalTaskIds": [
+        75
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 71,
+      "allocatedActiveHours": 1,
+      "task": "Finish Gull Isle Windworn Vault",
+      "requiredCheck": "Reachable island/entry/branching puzzle/defenders/reward/return, old/new saves and actual visuals",
+      "originalTaskIds": [
+        76
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 72,
+      "allocatedActiveHours": 1,
+      "task": "Finish Reed Isle Drowned Grotto",
+      "requiredCheck": "Water/entry/air/land navigation, readable mechanism, encounter/reward/exit and persistent state",
+      "originalTaskIds": [
+        77
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 73,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Broken Border Hall",
+      "requiredCheck": "Distinct architecture/faction routes/puzzle/trap/clear/reward/exit and save-safe re-entry",
+      "originalTaskIds": [
+        78
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 74,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Blue Oath Barrow",
+      "requiredCheck": "Actual revenant encounters/clues/keys/legendary reward/return and nonduplicating persistence",
+      "originalTaskIds": [
+        79
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 75,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Scorpion Seal Cavern",
+      "requiredCheck": "Grounded environmental identity, fair traps/puzzles/defenders, reachable reward/exit and reload",
+      "originalTaskIds": [
+        80
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 76,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Sunless Burial Grotto",
+      "requiredCheck": "Dark navigation/light/writing clues, vampires/undead, reward/exit/reset and ordinary save verification",
+      "originalTaskIds": [
+        81
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 77,
+      "allocatedActiveHours": 1,
+      "task": "Finish Labyrinth hideouts in Crete/Alashiya/Troy",
+      "requiredCheck": "Three distinct branching defended layouts, faction types, meaningful puzzle/loot/exit and full save matrix",
+      "originalTaskIds": [
+        82
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 78,
+      "allocatedActiveHours": 1,
+      "task": "Finish Retainer hideouts in Mycenae/Athens/Sparta",
+      "requiredCheck": "Three distinct approaches/interiors/cover/encounters/rewards, actual ordinary completion and return",
+      "originalTaskIds": [
+        83
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 79,
+      "allocatedActiveHours": 1,
+      "task": "Finish Oathkeeper hideouts in Steppe/Olympus/Mesopotamia",
+      "requiredCheck": "Three distinct tomb/fort settings, revenant gear/AI, clues/keys/reward/exit and persistent clears",
+      "originalTaskIds": [
+        84
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 80,
+      "allocatedActiveHours": 1,
+      "task": "Finish Deserter hideouts in Alashiya/Phoenicia/Egypt",
+      "requiredCheck": "Three distinct mine/camp/fort settings, region gear/navigation/loot/return and reload-safe rewards",
+      "originalTaskIds": [
+        85
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 81,
+      "allocatedActiveHours": 1,
+      "task": "Finish mountain destinations, teachers and legendary clues",
+      "requiredCheck": "Reachable climbs/landmarks/enemies/skill teaching, progression gates, safe return and once-only rewards",
+      "originalTaskIds": [
+        86
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 82,
+      "allocatedActiveHours": 1,
+      "task": "Finish secluded champion island and skeletal remains",
+      "requiredCheck": "Persistent placement; fixed twice-initial-player health/stamina; highest-tier all-kind drops, legal visible weapon switches and no loot duplication",
+      "originalTaskIds": [
+        87
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 83,
+      "allocatedActiveHours": 1,
+      "task": "Finish Theseus/Athens and main-quest court cinematics",
+      "requiredCheck": "Essential NPC availability/actions/options/subsequent dialogue, rescue progression and save-safe scene cancel/resume",
+      "originalTaskIds": [
+        88
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 84,
+      "allocatedActiveHours": 1,
+      "task": "Finish four-civilization writing-artifact and final-boss chain",
+      "requiredCheck": "Actual learnable scripts, each physical artifact and boss ward; chronology researched/disclosed, no flag-only completion",
+      "originalTaskIds": [
+        103
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 85,
+      "allocatedActiveHours": 1,
+      "task": "Finish Trojan War peace branch",
+      "requiredCheck": "Ordinary council/Helen/Paris/leader actions and subsequent dialogue, relations/rewards and save checkpoints Distinct Agamemnon/Menelaus/Odysseus retinues at siege; Achilles/Myrmidons now based in Phthia, retained home quest availability; elite Trojans whitish-gold gear/capes/helmets versus Myrmidons. Early pre-departure peaceful gate entry, Helen/Priam agreement and actual return; prevent all war chapters.",
+      "originalTaskIds": [
+        89
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 86,
+      "allocatedActiveHours": 1,
+      "task": "Finish Trojan War sack branch",
+      "requiredCheck": "Actual raids/siege/standards/council consequences, protected essential NPCs, relations/loot/reload and ending Distinct Agamemnon/Menelaus/Odysseus retinues at siege; Achilles/Myrmidons now based in Phthia, retained home quest availability; elite Trojans whitish-gold gear/capes/helmets versus Myrmidons. Full requested staged departure/convoy/Dardanus/Lyrnessus/Briseis/dispute/mediation/Patroclus death/raids/horse/Hector-Achilles duel/night gate/sack/Aeneas exit; see detailed sequence.",
+      "originalTaskIds": [
+        89
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 87,
+      "allocatedActiveHours": 1,
+      "task": "Finish island/cave/tomb identity and remaining encounter coverage",
+      "requiredCheck": "Distinct geography/ecology/architecture/content, actual vampire/werewolf conditions and reachable safe exits",
+      "originalTaskIds": [
+        90
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 88,
+      "allocatedActiveHours": 1,
+      "task": "Run complete M4 site/hideout/story regression and review",
+      "requiredCheck": "Every required site/hideout/branch physically completed, clues/traps/loot/exit/reset/save on current hash",
+      "originalTaskIds": [
+        91
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 89,
+      "allocatedActiveHours": 1,
+      "task": "Finish regional stable/well coverage and Ikaria yard",
+      "requiredCheck": "Reachable real keepers/registration/water, extra Ikaria horses/immersive inscription, no ghost sellers or duplicate NPC services",
+      "originalTaskIds": [
+        92
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 90,
+      "allocatedActiveHours": 1,
+      "task": "Finish owned mount/chariot registry, shared H call and theft",
+      "requiredCheck": "Multiple selection/Owned labels, bareback registration/quilt, law/protected horses, unavailable/dead mounts and old-save persistence",
+      "originalTaskIds": [
+        93
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 91,
+      "allocatedActiveHours": 1,
+      "task": "Finish Steppe/Egypt horse/chariot/wagon/boat/ferry services",
+      "requiredCheck": "Best steppe horses/lessons, northern wagon, Egypt services; audited substantially higher ferries, own-boat quest and poor-player job directions Explicitly verify Steppe-owned/usable chariots and enemy driver-plus-archer variant; generic definitions do not count.",
+      "originalTaskIds": [
+        94
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 92,
+      "allocatedActiveHours": 1,
+      "task": "Finish wild horse herds/grass and taming routes",
+      "requiredCheck": "Actual clustered graze/travel, suitable ecology, visible bucking/balance, navigable registration and Low culling/LOD",
+      "originalTaskIds": [
+        50
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 93,
+      "allocatedActiveHours": 1,
+      "task": "Finish archery/sparring/horsemanship NPC challenges",
+      "requiredCheck": "Reachable ordinary competitions, meaningful rewards/cinematics, actual rival, fair fail/quit and nonduplicating daily payouts",
+      "originalTaskIds": [
+        95
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 94,
+      "allocatedActiveHours": 1,
+      "task": "Finish mounted rulers/nobles and weekly court circuits",
+      "requiredCheck": "Visible horse/chariot boarding, escorts/advisors, noble status dialogue, actual routes and retained quest access/fallbacks",
+      "originalTaskIds": [
+        96
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 95,
+      "allocatedActiveHours": 1,
+      "task": "Finish Luxor/Valley/Nile ferry and swimming routes",
+      "requiredCheck": "Ordinary boarding/disembark/bank exits, safe fare failures/arrivals, reachable regional puzzles and reload Locate and verify reachable Valley of the Kings, not only source definitions.",
+      "originalTaskIds": [
+        97
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 96,
+      "allocatedActiveHours": 1,
+      "task": "Finish waves/boat buoyancy/deck/camera and dive routes",
+      "requiredCheck": "Visible variable sea states, responsive pitch/roll, comfortable controls, hull/passenger contact, safe swim/board and Low/save",
+      "originalTaskIds": [
+        98
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 97,
+      "allocatedActiveHours": 1,
+      "task": "Finish Egyptian/Mesopotamian ecology/art/cultural props",
+      "requiredCheck": "No inappropriate pines; palms/reeds/oasis/riparian variation, regional fauna, harvest/navigation and educational source checks Six civilization characteristics expressed physically through regional art/buildings/ceremonial clothing/authority/records.",
+      "originalTaskIds": [
+        99
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 98,
+      "allocatedActiveHours": 1,
+      "task": "Finish all grounded workplaces, couriers and shared-action parity",
+      "requiredCheck": "Real asset/tools, reservations/occupancy, arrival/facing/duration/routes, cooperative NPC interactions and player/NPC safety",
+      "originalTaskIds": [
+        100
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 99,
+      "allocatedActiveHours": 1,
+      "task": "Finish vineyards/orchards/gardens and shared tending actions",
+      "requiredCheck": "Prune/tie/tend/pick at actual assigned crops with attached props, larger harvestable fields and performance checks",
+      "originalTaskIds": [
+        101
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 100,
+      "allocatedActiveHours": 1,
+      "task": "Finish kitchen/tavern knead/cook/pour/serve actions",
+      "requiredCheck": "Shared high-quality player/NPC tasks, actual counter/table duties and aligned vessels/food/liquid, no speed variants counted as new actions",
+      "originalTaskIds": [
+        102
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 101,
+      "allocatedActiveHours": 1,
+      "task": "Finish scribe prepare/inscribe/read tasks and lessons",
+      "requiredCheck": "Visible regional writing on artifacts, meaningful ordinary lessons/puzzle use and chronology/historical-source review Player script-writing minigames on appropriate clay/papyrus media with researched chronology. Scope correction: optional player writing minigame deferred; prioritize physical tablets/scripts/lessons.",
+      "originalTaskIds": [
+        103
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 102,
+      "allocatedActiveHours": 1,
+      "task": "Finish bard tune/play/sing, follower and court songs",
+      "requiredCheck": "Shared tasks, funny deed-dependent lyrics, region voices/court bards, actual recruitment/dismissal and persistent deeds",
+      "originalTaskIds": [
+        104
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 103,
+      "allocatedActiveHours": 1,
+      "task": "Finish quarry teams, docks and river cargo routes",
+      "requiredCheck": "Synchronized strike/wedge/lever/rope hands/load, grain/stone requested upriver transport/loading/unloading; paid jobs and actual forty-action coverage",
+      "originalTaskIds": [
+        105
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 104,
+      "allocatedActiveHours": 1,
+      "task": "Finish regional criminals/trainers/robbery/assassin cycles",
+      "requiredCheck": "Visible sneak/theft/mischief, lockpick/sneak/combat lessons, faction-safe robbery, protected quest items and bounded scaled regional ambushes Fictional nomadic family hunters/traders: skins/flint/wood gear, unfamiliar speech choices, bounded aggression/escape/cooldown/retry.",
+      "originalTaskIds": [
+        60
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 105,
+      "allocatedActiveHours": 1,
+      "task": "Finish major-region jails and NPC-to-NPC day cycles",
+      "requiredCheck": "Real cells/inmate unfairness/regret dialogue, release/reoffend/guard arrest, civilian warnings/fine/jail/refuse/escape and save safety",
+      "originalTaskIds": [
+        10,
+        110
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 106,
+      "allocatedActiveHours": 1,
+      "task": "Audit prior music and produce two epic plus two sailing tracks",
+      "requiredCheck": "Preserve original five/five-more/extra sea requests; four distinct new assets with offline duration/size evidence",
+      "originalTaskIds": [
+        106
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 107,
+      "allocatedActiveHours": 1,
+      "task": "Produce three sailing/exploring and two action/dramatic tracks",
+      "requiredCheck": "Five additional distinct usable compositions; contextual triggers, offline embedding and no duplicate/relabel counting",
+      "originalTaskIds": [
+        107
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 108,
+      "allocatedActiveHours": 1,
+      "task": "Produce three chill tracks and integrate all twelve additions",
+      "requiredCheck": "Actual decode/play/transitions/concurrency; earlier requested tracks retained, complete asset audit and package budget",
+      "originalTaskIds": [
+        108
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 109,
+      "allocatedActiveHours": 1,
+      "task": "Finish species/hoof/sail/weapon/armor/flesh/NPC audio",
+      "requiredCheck": "No wolf-human or captain-ghoul errors; predator injury cues, three-four human pain variations, less chatter and bounded concurrency",
+      "originalTaskIds": [
+        109
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 110,
+      "allocatedActiveHours": 1,
+      "task": "Run M5 world/work/audio/survival/service acceptance review",
+      "requiredCheck": "Actual regional loops, hunger/cooking/milk/remedies/followers, forty tasks/cargo/music, travel and current-hash reload Bronze Age/civilization dialogue refers to real regional world; civilized/savage views are NPC attitudes.",
+      "originalTaskIds": [
+        110,
+        111
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 111,
+      "allocatedActiveHours": 1,
+      "task": "Integrate reviewed feature checkpoints into one coherent source",
+      "requiredCheck": "Preserve baseline/private access/PR ownership; no rejected upload workaround, actual approvals and reproducible hash",
+      "originalTaskIds": [
+        112
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 112,
+      "allocatedActiveHours": 1,
+      "task": "Run fresh full source/workflow/offline startup/input checks",
+      "requiredCheck": "Production globals/shapes, zero uncaught errors/external requests, correct build/version and ordinary controls",
+      "originalTaskIds": [
+        113
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 113,
+      "allocatedActiveHours": 1,
+      "task": "Run complete natural new-game rescue/artifact/boss/story branches",
+      "requiredCheck": "No seeded quest flags/items in acceptance; essential dialogue/actions/rewards, both Trojan resolutions and checkpoint saves",
+      "originalTaskIds": [
+        114
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 114,
+      "allocatedActiveHours": 1,
+      "task": "Run complete regional equipment/economy/remedy/storage matrix",
+      "requiredCheck": "Ordinary acquire/learn/craft/buy/sell/equip/use/ammo/recover/Store/Take, conservation and insufficient funds",
+      "originalTaskIds": [
+        115
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 115,
+      "allocatedActiveHours": 1,
+      "task": "Run every creature/faction/spawn/combat/loot coverage gap",
+      "requiredCheck": "Actual reachability, behavior/rig/contact/action, legal equipment and simultaneous mixed encounters",
+      "originalTaskIds": [
+        61,
+        115
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 116,
+      "allocatedActiveHours": 1,
+      "task": "Run all legendary/hideout/puzzle/trap/route coverage gaps",
+      "requiredCheck": "Eight sites/twelve hideouts plus forts/sea/mountains, safe exit/reset and no duplicate essential rewards",
+      "originalTaskIds": [
+        91,
+        116
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 117,
+      "allocatedActiveHours": 1,
+      "task": "Run old/new save migration and interrupted-action recovery",
+      "requiredCheck": "Exact-position manual reload across mounts/work/law/loot/quests/timed effects/chests/taverns/ownership",
+      "originalTaskIds": [
+        116
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 118,
+      "allocatedActiveHours": 1,
+      "task": "Run reference Low/high performance and repeated travel memory tests",
+      "requiredCheck": "Measured eight/ten attack-capable actors, old save, p95/long frames/AI/allocation; no attacker cuts or hidden rendering bypass",
+      "originalTaskIds": [
+        117
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 119,
+      "allocatedActiveHours": 1,
+      "task": "Complete rendered/audio/package review and exact-hash Master review",
+      "requiredCheck": "Full hand/anatomy/animation/contact coverage, decoded audio/size budget; actual review evidence and release-gate outcome",
+      "originalTaskIds": [
+        118,
+        119
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 120,
+      "allocatedActiveHours": 1,
+      "task": "Package final candidate and publish honest coverage/handoff",
+      "requiredCheck": "Exact hash/reproduction/download, completed/unverified/pending and every failed gate; release only if all acceptance passes",
+      "originalTaskIds": [
+        120
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    }
+  ],
+  "latestFeedbackRecord": "docs/CIVILIZATION_CLOTHING_FEEDBACK_20261013.md",
+  "previousDeliveredPlaytestSha256": "483034b8cd86acbdfb003df00bf1146ec8ded2f5f941d600c3d40fdd966845d9",
+  "scopeRisk": "Full staged Trojan campaign, two additional cities, physical convoy and multi-actor cinematics substantially extend earlier two-branch allocation; remaining120 remains provisional, no scope or checks dropped.",
+  "priorityOrder": [
+    "main campaign and critical quality-of-life",
+    "core visible Bronze Age six-characteristic fixtures",
+    "planned delivery checks and remaining dependency-ready120-hour milestone/asset work",
+    "expanded Trojan campaign lower priority"
+  ],
+  "latestTroyFeedback": "docs/TROJAN_CAMPAIGN_SEQUENCE_20261014.md",
+  "deferredOptionalFeatures": [
+    "player papyrus/script-writing minigame; physical records/scripts/lessons retained"
+  ],
+  "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
+  "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
+  "nextDependencyReadyWork": "Ordinary current candidate clothing/layer/helmet/save checks and critical main campaign/Pan/travel/performance, then core BronzeAge fixtures; preserve lower Trojan draft"
+}

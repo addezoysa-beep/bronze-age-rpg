@@ -10,7 +10,11 @@ export async function runArrowScenario(page,check){
  check('arrow-HUD-button-material-and-count',selected.mat==='bronze'&&selected.total===16&&/8/.test(selected.text),selected);
  await page.keyboard.press('[');check('arrow-bracket-selection-conserves-stock',await page.evaluate(()=>G.arrowMaterial30==='wood'&&G.arrows===16),{});
  await page.evaluate(()=>{for(const e of ENEMIES)if(e.area===AREA&&hyp(e.x-P.x,e.z-P.z)<50)e.friendly=true;let site=null;for(let i=0;i<16&&!site;i++){const yaw=i*Math.PI/8;let safe=true;for(let d=1;d<=12;d++){const x=P.x+Math.sin(yaw)*d,z=P.z+Math.cos(yaw)*d;if(colBlocked(x,z,.6)||Math.abs(groundY(x,z)-P.y)>.35){safe=false;break;}}if(safe)site={x:P.x+Math.sin(yaw)*12,z:P.z+Math.cos(yaw)*12,yaw};}if(!site)throw Error('No unobstructed level bow fixture route');const e=spawnEnemy('wolf',site.x,site.z,{area:AREA,id:'arrow-hit114'});e.hp=e.maxHp=1000;e.stun=999;e.friendly=false;CAM.yaw=P.yaw=site.yaw;clearCombatLock62();});
- await page.keyboard.press('q');await page.waitForFunction(()=>LOCK?.id==='arrow-hit114');
+ // spawnEnemy starts with g.visible=false. Let the real renderer/scheduler make
+ // the prepared target eligible before the ordinary Q input; never force visibility.
+ await page.waitForFunction(()=>{const e=ENEMIES.find(e=>e.id==='arrow-hit114');return e&&e.g.visible&&combatLockEligible62(e);},null,{timeout:15000});
+ check('arrow-fixture-actually-rendered-and-lock-eligible',await page.evaluate(()=>{const e=ENEMIES.find(e=>e.id==='arrow-hit114');return e.g.visible&&combatLockEligible62(e);}),{});
+ await page.keyboard.press('q');await page.waitForFunction(()=>LOCK?.id==='arrow-hit114',null,{timeout:15000});
  for(const first of[false,true])for(const crouch of[false,true]){
   if(await page.evaluate(()=>FIRST_PERSON)!==first)await page.keyboard.press('v');
   if(await page.evaluate(()=>P.crouch)!==crouch)await page.keyboard.press('b');

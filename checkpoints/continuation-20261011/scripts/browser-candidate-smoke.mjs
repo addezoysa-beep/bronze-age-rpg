@@ -1,4 +1,5 @@
 import {runRemedyScenario} from './browser-remedy-scenario.mjs';
+import {runTavernFeedbackScenario} from './browser-tavern-feedback-scenario.mjs';
 import {runGripScenario} from './browser-grip-scenario.mjs';
 import {runArrowScenario} from './browser-arrow-scenario.mjs';
 import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
@@ -14,7 +15,8 @@ import { root, gameHash, sha256 } from './workflow.mjs';
 
 const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Combined-Cinematic.html');
 const artifactHash = sha256(readFileSync(gameFile));
-if(artifactHash!=='4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160')throw Error('Current combined browser candidate hash mismatch');
+const manifest=JSON.parse(readFileSync(resolve(root,'dist/current-build-manifest.json'),'utf8'));
+if(manifest.file!=='Wine-Dark-Sea-Combined-Cinematic.html'||manifest.buildSha256!==artifactHash||manifest.bytes!==readFileSync(gameFile).length)throw Error('Current manifest/browser candidate identity mismatch');
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
 const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Combined-Cinematic.html',
@@ -111,7 +113,8 @@ try {
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
   const scenario=process.env.WDS_SMOKE_SCENARIO || 'travel';
   report.scenario=scenario;
-  if(scenario==='pan')await runPanScenario(page,check);
+  if(scenario==='tavern')await runTavernFeedbackScenario(page,check);
+  else if(scenario==='pan')await runPanScenario(page,check);
   else if(scenario==='remedy')await runRemedyScenario(page,check);
   else if(scenario==='grip')await runGripScenario(page,check,output);
   else if(scenario==='lock')await runCombatLockScenario(page,check);

@@ -1,14 +1,20 @@
-// Prepared defeated-captain fixture, not a full cave/puzzle/boss acceptance.
+// Prepared cleared-bandit/defeated-captain fixture, not a full cave/puzzle/boss acceptance.
 export async function runPanScenario(page,check){
- await page.evaluate(async()=>{
+ const prepared=await page.evaluate(async()=>{
   if(STATE==='talk')cancelDialogue();F().lykos=F().wolvesDone=F().king=F().cave=1;F().daedalus=0;opening25().stage='done';
   // Prepared post-boss fixture includes the captain's key; real key acquisition is a separate acceptance gate.
   G.inv.key_cave=Math.max(1,G.inv.key_cave||0);
   delete G.inv.relic_pan_tally61;delete livingState().panTallyCollected61;delete livingState().loot['chest:cave:100'];
   await enterDungeon('cave',{x:LOC.cave.x,z:LOC.cave.z,yaw:0});
+  const remainingBefore=panBanditsRemain117(),objectiveBefore=mainObjective13().t;
+  // New royal-return gate requires remaining ordinary bandits cleared as well.
+  // Fixture setup only: actual combat/key acquisition is still a separate acceptance gate.
+  for(const e of ENEMIES)if(e.area==='cave'&&['robber','pirate','captain','bandit','archer','spearman'].includes(e.kind)){e.alive=false;e.hp=0;e.g.visible=false;}
   const ch=DG.chests.find(c=>c.idx===100);if(!ch)throw Error('Captain reward chest missing');
   P.x=ch.x;P.z=ch.z;P.y=dungeonFloor(P.x,P.z,P);STATE='play';
+  return{remainingBefore,objectiveBefore};
  });
+ check('prepared-captain-flag-retains-remaining-bandit-requirement',prepared.remainingBefore?/Clear the remaining bandits/.test(prepared.objectiveBefore):/captain.*chest/.test(prepared.objectiveBefore),prepared);
  const before=await page.evaluate(()=>({item:G.inv.relic_pan_tally61||0,objective:mainObjective13().t}));
  check('captain-flag-is-not-item',before.item===0&&/captain.*chest/.test(before.objective),before);
  await page.keyboard.press('e');await page.locator('[data-loot="relic_pan_tally61"]').waitFor({state:'visible'});

@@ -30,12 +30,14 @@ export async function runFastTravelScenario(page,check){
   // Preserve production actors; choose a quiet departure rather than deleting threats.
   for(const d of candidates){const p=landmarkLanding60(d);if(!nearbyThreats(p.x,p.z).some(e=>hyp(e.x-p.x,e.z-p.z)<24)){P.x=p.x;P.z=p.z;P.y=groundY(p.x,p.z);break}}
   G.disc[a.id]=1;delete G.disc[b.id];G.disc[b.name]=1;
-  const locked=candidates.find(d=>d!==a&&d!==b&&!G.disc[d.id]&&!G.disc[d.name]);
+  const locked=candidates.find(d=>d!==a&&d!==b&&!G.disc[d.id]&&!G.disc[d.name]&&hyp(P.x-d.x,P.z-d.z)>Math.max(250,d.r+100)&&!visitedLandmark60(d));
+  if(!locked)throw Error('No genuinely undiscovered distant landmark for the locked-destination assertion');
   return {a,b,locked,silver:G.silver};
  });
  await openChartThroughControls(page);await page.locator('#chart-search16').fill(setup.b.name);
  check('old-name-discovery-visible',await page.locator('#chart-results16 button').count()===1,setup.b);
- if(setup.locked){await page.locator('#chart-search16').fill(setup.locked.name);check('undiscovered-not-offered',await page.locator('#chart-results16 button').count()===0,setup.locked);await page.locator('#chart-search16').fill(setup.b.name)}
+ check('unknown-fixture-still-undiscovered',await page.evaluate(d=>!visitedLandmark60(d)&&hyp(P.x-d.x,P.z-d.z)>d.r,setup.locked),setup.locked);
+ await page.locator('#chart-search16').fill(setup.locked.name);check('undiscovered-not-offered',await page.locator('#chart-results16 button').count()===0,setup.locked);await page.locator('#chart-search16').fill(setup.b.name);
  for(const [weather,destination] of [['storm',setup.b],['rain',setup.a]]){
   await page.evaluate(kind=>G.weather.kind=kind,weather);
   await closeInventoryPanels(page);
@@ -57,3 +59,4 @@ export async function runFastTravelScenario(page,check){
  const restored=await page.evaluate(()=>({x:P.x,z:P.z,silver:G.silver}));
  check('fast-travel-exact-reload',Math.hypot(restored.x-saved.data.pos.x,restored.z-saved.data.pos.z)<1e-6&&restored.silver===saved.data.silver,restored);
 }
+

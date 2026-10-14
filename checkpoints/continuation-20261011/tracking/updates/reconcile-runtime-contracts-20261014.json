@@ -1,0 +1,19 @@
+{
+ "id":"reconcile-runtime-contracts-20261014",
+ "summary":"Reconcile newest local QOL/civilization/Pan source and repair exact-build browser contracts per oversight; preserve baseline and all eight–ten attacker requirements",
+ "buildSha256":"e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4",
+ "milestoneIds":["M0","M1","M2","M4","M5"],
+ "candidateFile":"dist/Wine-Dark-Sea-Combined-Cinematic.html",
+ "bytes":38141576,
+ "localTests":{"passed":167,"integrated":154,"unintegratedArrowDraft":7,"unintegratedTrojanDraft":6,"scope":"source/executable/compile; actual embedded Three geometry, not browser/visual/performance"},
+ "preservedSourceSha256":"bf1405897255eeba324ca3095b49cf972bd7184b1f5f060c3dec952377a04fa1",
+ "publishedParent":"2a78fb5f3bd0a7e57fe1912ce76ec3344a585904",
+ "priorRuntimeScope":{"buildSha256":"4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160","sourceTests":383,"lockJob":115649626678,"passed":"scoped startup, movement, ordinary Save/exact reload and lock controls","notCarriedForward":true},
+ "masterDelivery":{"status":"pending","evidence":"PR29 publication and this Master workstream; confirm actual head/CI"},
+ "masterReview":{"status":"pending","priorReview":"https://github.com/addezoysa-beep/bronze-age-rpg/pull/29#issuecomment-6171181401","scope":"prior exact4445 code/log review, not new e699 acceptance"},
+ "browser":{"status":"pending","required":["current startup/ordinary Save","Pan remaining-bandit/chest/reload","healer/Food remedies","palm-seat rendered grip","unknown/discovered travel","FP/TP arrow firing/damage","tavern services"]},
+ "pending":["Natural empty-start opening/Pan/King/Daedalus","Full main-story branches","Rendered hand/loadout/anatomy/city fixtures","Manual offline Save/exact reload","Reference-device old-save Low8–10 performance","Actual current-hash Master review"],
+ "acceptedMilestones":0,
+ "publicationAuthorization":"Renewed explicit user direction October14; historical hold superseded, stop remote writes only on a new rejection",
+ "next":"Fix actual new CI/browser failures while advancing independent main/QOL/core work; expanded Troy lower priority"
+}

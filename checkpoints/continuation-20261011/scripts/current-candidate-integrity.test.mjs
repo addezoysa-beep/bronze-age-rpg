@@ -1,0 +1,12 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+test('actual current builder preserves seed and compiles every delivered script including latest QOL modules',()=>{
+ const root=new URL('../',import.meta.url),name='Current-QOL-Integrity-Fixture.html';
+ const output=execFileSync(process.execPath,['scripts/build-continuation.mjs'],{cwd:fileURLToPath(root),env:{...process.env,WDS_CANDIDATE_FILE:name},encoding:'utf8'});
+ const manifest=JSON.parse(output.trim()),bytes=fs.readFileSync(new URL(name,root)),html=bytes.toString('utf8'),seed=fs.readFileSync(new URL('recovered/Cinematic-Lock-Lesson.html',root),'utf8'),end=seed.lastIndexOf('</script>');
+ assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),manifest.sha256);assert.equal(bytes.length,manifest.bytes);
+ assert.ok(html.startsWith(seed.slice(0,end)));assert.ok(html.endsWith(seed.slice(end)));
+ const scripts=[...html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)].filter(m=>!/src\s*=/.test(m[1]));assert.equal(scripts.length,3);for(const m of scripts)new vm.Script(m[2]);
+ for(const marker of ['CLOTHING_MENU_133','PHTHIA_REGION_134','PLAYER_HELMET_ORNAMENT_136','RESOURCE_DIRECTIONS_137','WORKPLACE_ROUTING_138','COURT_WORK_ANCHORS_139','ZIGGURAT_ACCESS_140','TROY_WALL_ACCESS_141'])assert.ok(html.includes(marker),marker);
+ assert.ok(html.includes('GRANARY_SERVICE_142'));assert.ok(html.includes('PAN_OBJECTIVE_RECOVERY_143'));
+ assert.ok(!html.includes('TROJAN_PREWAR_135'),'incomplete lower-priority campaign stays outside playable candidate');
+});

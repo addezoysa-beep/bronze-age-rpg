@@ -1,6 +1,27 @@
 # Prioritized Implementation Roadmap
 
+## Current user priority — October14
+
+1. Main campaign completion and critical quality-of-life fixes, including ordinary inventory/equipment, opening/Pan progression, travel, Save/reload and measured combat freezes.
+2. Core visible Bronze Age six-characteristic fixtures: accessible cities/walls/buildings/monuments, religious roles, authority/laws, stratification and physical records. Keep optional expensive writing minigames deferred.
+3. Planned delivery checks and remaining dependency-ready120-hour milestone/asset work, including authorized VFX/music after core fixtures.
+4. Expanded Trojan campaign (new cities, fleet voyage and extended cinematics) is explicitly LOWER PRIORITY. Preserve its separate foundation and all requested stages, but do not resume those chapters ahead of the priorities above.
+
+Immediate continuation: clothing/helmet/cape quality-of-life and current-build ordinary/runtime gates, then core Bronze Age implementation. Existing basic Troy allegiance bugs remain critical QOL; expanded Trojan production stays queued. No milestone or slot is accepted because priority changes.
+
+Resource QOL checkpoint: secondary dialogue directions now resolve actual regional meal staff, usable wells and healers, with availability revalidation and interior entrance coordinates. Source contracts and actual delivered-script compilation pass at hash `63ce546f`; ordinary service navigation/menu use and offline Save/reload are still pending. No invented merchant stock or quest completion is granted by directions.
+
+Workplace QOL checkpoint `c54a1c85`: table-server indoor corridor routing replaces local wall shuffling; invalid workplace occupants yield reservation, facing and grain poses to recruitment/combat/flight. Six executable tests plus actual-builder compilation pass. Slot14 remains partial: garden anchors, courier navigation, rendered service completion, pause Save/reload and reference performance are not accepted.
+
+Court QOL `e9e6c00c`: Garden Keeper and Cook schedules bind actual garden/hearth approaches with reservations, collision-aware routes and original rest/shift/quest identity. Court staff no longer use direct unreachable path fallback. Eight focused tests include all six real palace plans and actual legacy court mover. Slot14 remains partial: no rendered task/prop contact, outdoor courtyard/courier full coverage, ordinary Save or performance acceptance.
+
+Core civilization access `744e3cbd`: existing Dur-Kurigalzu ziggurat has continuous stairs to actual summit, a narrow landing and ordinary sanctuary entry, with offering furniture and two priest/attendant actors. Six source/executable checks pass; old monument collision opens only along the stair route for properly elevated actors. CIV-CITIES/CIV-RELIGION remain partial: rendered approach/climb/exit, ordinary Save/reload, all-city walls and richer rituals/ceremonial garb are unverified or pending.
+
+Wall access `6dd2e248`: eligible Troy interior approaches gain stairs and wall-top footing, with narrow inner-parapet openings and indexed local queries. Gate/quest state and other obstacles remain unchanged. Seven contracts include the actual active parapet construction. CIV-CITIES remains partial: natural/rendered ascent/descent, gatehouse circuits, other cities and ordinary Save/performance checks are pending; no whole milestone acceptance.
+
 ## Evidence and Baseline
+
+October14 main/QOL reconciliation: current e699feca includes all local Phthia/garment/helmet/service/workplace/city work plus recovered granaries142 and read-only physical-tablet/area-correct Pan guidance143.167 local checks, no full runtime acceptance. Prepared browser contracts repaired per oversight6171181401 without weakening assertions: intended parent-space palm seat, genuine distant unknown discovery, ordinary healer interaction, remaining-bandit prerequisite and rendered arrow eligibility. Manifest governs current delivery; user renewed publication authorization. All M0–M5 acceptance remains open. Expanded Trojan remains lower priority.
 
 Build 59 is a candidate, not yet a milestone-verified release. `index.html` is a
 byte-for-byte import of the user-supplied offline file (37,815,418 bytes).
@@ -220,4 +241,14 @@ Candidate `5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f` (37
 
 ## October13 merged-source feedback checkpoint
 
-See [PAN_TAVERN_HIPPOS_FEEDBACK_20261013.md](PAN_TAVERN_HIPPOS_FEEDBACK_20261013.md) and tracker october13Feedback for complete IDs and ordinary-play gates. Candidate4445d03c adds King physical-tablet return, inventor-only Daedalus, tavern counter/table service and milk thirst, actual Hippos path/pasture/return, NPC civilian nonlethal flight, encounter/spar cinema and pale/red-eyed vampires. Source-tested, NOT gameplay accepted. Spears/skill recovery, Lykos forced lock, criminals/jails/cycles, garden/courier duties, regional boss rumors, all-region scaled assassins and all previous expansions remain pending. Prior7146ff36 bow/lock/healer/grip/reload CI failures remain explicit blockers. All M0–M5 unaccepted. GitHub builders retain combined animated-sling/cinematic seed.
+See [PAN_TAVERN_HIPPOS_FEEDBACK_20261013.md](PAN_TAVERN_HIPPOS_FEEDBACK_20261013.md) and tracker october13Feedback for complete IDs and ordinary-play gates. Candidate483034b8 adds King physical-tablet return, inventor-only Daedalus, tavern counter/table service and milk thirst, actual Hippos path/pasture/return, NPC civilian nonlethal flight, encounter/spar cinema and pale/red-eyed vampires. Source-tested, NOT gameplay accepted. Spears/skill recovery, Lykos forced lock, criminals/jails/cycles, garden/courier duties, regional boss rumors, all-region scaled assassins and all previous expansions remain pending. Prior7146ff36 bow/lock/healer/grip/reload CI failures remain explicit blockers. All M0–M5 unaccepted. GitHub builders retain combined animated-sling/cinematic seed.
+
+Latest October13 late-evening requirements: see [creature/spear/service feedback](CREATURE_SPEAR_SERVICE_FEEDBACK_20261013.md) and the revised120-hour tracker. Centaur torso/head defect medium priority; researched cartoon horse anatomy lower priority. No additions accepted from source alone.
+
+High-priority CLOTHING-RAGS-01 local repair and very high-priority visible six-characteristic civilization expansion: see [clothing/civilization feedback](CIVILIZATION_CLOTHING_FEEDBACK_20261013.md). All new mesh/city/raid/jewelry/script/nomadic acceptance remains open.
+
+Troy retinues, elite Trojan visual foil and revised production ordering: [latest steering](TROY_RETINUES_PRIORITY_20261013.md). Quest branches remain unaccepted.
+
+Latest Phthia relocation and modest-region/core-civilization scope supersede earlier Achilles-at-Troy staging: [Phthia scope correction](PHTHIA_SCOPE_CORRECTION_20261014.md). Optional player writing minigame deferred; records/artifacts/lessons remain.
+
+Full staged Trojan campaign now supersedes instant new-game siege: [sequence and coverage](TROJAN_CAMPAIGN_SEQUENCE_20261014.md). Separate prewar foundation has six passing source fixtures, NOT integrated; all physical convoy/city/scene/ending gates pending.

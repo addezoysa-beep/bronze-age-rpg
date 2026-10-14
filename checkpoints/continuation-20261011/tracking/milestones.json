@@ -414,6 +414,18 @@
           "acceptance": "Ordinary deposit/take conservation/reload per supported chest, no claim arbitrary loot chest stores."
         }
       ]
+    },
+    "october14LocalContinuation": {
+      "status": "confirmed_by_user",
+      "implementation": "integrated_candidate_unverified",
+      "specifications": [
+        "docs/CREATURE_SPEAR_SERVICE_FEEDBACK_20261013.md",
+        "docs/CIVILIZATION_CLOTHING_FEEDBACK_20261013.md",
+        "docs/PHTHIA_SCOPE_CORRECTION_20261014.md",
+        "docs/TROJAN_CAMPAIGN_SEQUENCE_20261014.md"
+      ],
+      "checkpoint": "tracking/updates/reconcile-runtime-contracts-20261014.json",
+      "scope": "All local Phthia,clothing,helmet,resource/workplace/city/granary and Pan guidance retained. All expanded requirements open; no acceptance from definitions/fixtures."
     }
   },
   "milestones": [
@@ -745,5 +757,16 @@
         "scope": "Prepared Pan not full route; no current-hash carry forward."
       }
     }
+  },
+  "currentCandidate": {
+    "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
+    "manifest": "dist/current-build-manifest.json",
+    "buildSha256": "e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4",
+    "bytes": 38141576,
+    "sourceChecks": 167,
+    "sourceScope": "154 integrated,13 unintegrated draft; remote full suite/browser pending",
+    "masterReview": "pending",
+    "milestoneAcceptance": "pending",
+    "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"
   }
 }

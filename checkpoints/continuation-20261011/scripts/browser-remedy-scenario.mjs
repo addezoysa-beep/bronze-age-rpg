@@ -4,7 +4,7 @@ export async function runRemedyScenario(page,check){
   if(STATE==='talk')cancelDialogue();const s=SERVICES48.get('ikaria');createServices48(s);
   const n=s.cast.find(n=>n.service48==='heal');if(!n)throw new Error('No reachable healer');
   G.silver=1000;G.time=12;P.x=n.x;P.z=n.z+2;P.y=groundY(P.x,P.z);P.dead=false;n.sleep35=false;n.sleeping=false;
-  G.hp=10;ensureStamina();G.stamina=10;G.remedies62={};n.talk(n);
+  G.hp=10;ensureStamina();G.stamina=10;G.remedies62={};
  });
  async function openShop(){
  if(await page.evaluate(()=>STATE==='play')){await page.keyboard.press('e');await page.waitForFunction(()=>STATE==='talk');}
@@ -51,4 +51,5 @@ export async function runRemedyScenario(page,check){
  check('remedy-exact-position-reload',Math.hypot(restored.pos.x-saved.data.pos.x,restored.pos.z-saved.data.pos.z)<1e-6,restored.pos);
  check('remedy-reload-bounded-remaining-effects',restored.effects.heal.left<=saved.data.remedies62.heal.left&&restored.effects.heal.budget<=saved.data.remedies62.heal.budget&&restored.effects.endurance.left<=saved.data.remedies62.endurance.left&&Object.keys(saved.data.remedies62).length===2&&['fig_restorative62','concentrated_remedy62','herb_infusion62','endurance_draught62'].every(k=>restored.inv[k]===0),{});
 }
+
 

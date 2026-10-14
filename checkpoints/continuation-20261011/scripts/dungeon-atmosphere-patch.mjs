@@ -4,7 +4,7 @@ export const dungeonAtmospherePatch=String.raw`
    collider/puzzle changes. Terrain/roof samples anchor every natural formation. */
 (function(){
  function atmosphereKind108(dg){
-  if(!dg?.def||dg.def.palace16||dg.def.home46||dg.def.inn48||/^(home_|tavern_|jail_|palace_)/.test(dg.id))return null;
+  if(!dg?.def||dg.def.granary142||dg.def.palace16||dg.def.home46||dg.def.inn48||/^(home_|tavern_|jail_|palace_)/.test(dg.id))return null;
   return dg.def.mine36?'mine':/cave|grotto|lair|cavern/i.test(dg.id+' '+dg.def.name)?'cave':'dungeon';
  }
  function atmospherePlan108(dg){

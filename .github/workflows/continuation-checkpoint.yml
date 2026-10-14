@@ -30,7 +30,7 @@ jobs:
         run: node scripts/build-current.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: combined-cinematic-4445d03c
+          name: combined-cinematic-current
           path: |
             checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
             checkpoints/continuation-20261011/dist/current-build-manifest.json
@@ -41,7 +41,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        scenario: [travel, pan, lock, grip, remedy, arrow]
+        scenario: [travel, pan, lock, grip, remedy, arrow, tavern]
     defaults:
       run:
         working-directory: checkpoints/continuation-20261011

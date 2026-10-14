@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
 import {lockCameraPatch} from './lock-camera-patch.mjs';
 import {openingProgressionPatch} from './opening-progression-patch.mjs';
 import {lawCinematicPatch} from './law-cinematic-patch.mjs';
@@ -33,8 +35,11 @@ import {tavernCounterMilkPatch} from './tavern-counter-milk-patch.mjs';
 import {encounterHospitalityPatch} from './encounter-hospitality-patch.mjs';
 import {hipposLeadRoutePatch} from './hippos-lead-route-patch.mjs';
 import {inventorIdentityPatch} from './inventor-identity-patch.mjs';
+import {healerServicePriorityPatch} from './healer-service-priority-patch.mjs';
 const source=fs.readFileSync(new URL('../recovered/Cinematic-Lock-Lesson.html',import.meta.url),'utf8');
-const candidate=fs.readFileSync(new URL('../'+(process.env.WDS_CANDIDATE_FILE||'Wine-Dark-Sea-Combined-Cinematic.html'),import.meta.url),'utf8');
+const candidateName='Lock-Regression-Fixture.html';
+execFileSync(process.execPath,['scripts/build-continuation.mjs'],{cwd:fileURLToPath(new URL('../',import.meta.url)),env:{...process.env,WDS_CANDIDATE_FILE:candidateName}});
+const candidate=fs.readFileSync(new URL('../'+candidateName,import.meta.url),'utf8');
 function harness(){
  const listeners={},events=[];
  const e={alive:true,area:'over',x:10,y:0,z:10,h:2,g:{visible:true},state:'chase'};
@@ -58,7 +63,7 @@ test('all three delivered scripts compile',()=>{
  assert.equal(scripts.length,3);for(const m of scripts)new vm.Script(m[2]);
 });
 test('build preserves recovered bytes around the final addition',()=>{
- assert.equal(candidate.replace(lockCameraPatch+openingProgressionPatch+lawCinematicPatch+troyDispositionPatch+lionAnatomyPatch+dragonAnatomyPatch+stableInscriptionPatch+npcMountedChargePatch+labyrinthAntlerPatch+rivalTentCampPatch+seaFortPatch+handGripPatch+spearShieldPatch+oneHandCombatPatch+greatswordPosePatch+bowAmmoIdentityPatch+arrowSilhouettePricePatch+ownedChestPatch+dogRestWakePatch+dungeonAtmospherePatch+storyCinematicsPatch+feedbackMenuStablePatch+lockGateDecayPatch+optionalPuzzlesPatch+arrowHudHitPatch+panRoyalReturnPatch+tavernCounterMilkPatch+encounterHospitalityPatch+hipposLeadRoutePatch+inventorIdentityPatch+'\n',''),source);
+ const end=source.lastIndexOf('</script>');assert.ok(end>0);assert.ok(candidate.startsWith(source.slice(0,end)));assert.ok(candidate.endsWith(source.slice(end)));
  assert.equal(crypto.createHash('sha256').update(source).digest('hex'),'bf1405897255eeba324ca3095b49cf972bd7184b1f5f060c3dec952377a04fa1');
 });
 

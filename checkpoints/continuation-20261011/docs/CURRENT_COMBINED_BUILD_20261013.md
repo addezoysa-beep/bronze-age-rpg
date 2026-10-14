@@ -1,3 +1,17 @@
+# Current integration candidate — October14
+
+Authoritative build identity: dist/current-build-manifest.json, produced by node scripts/build-current.mjs. Pinned SHA256 e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4,38141576bytes. Browser harness checks manifest filename/hash/byte count against actual HTML. Deliver only that artifact plus manifest; historical generated files below are not current.
+
+This reconciles local Phthia relocation/old-save migration, clothing ownership conservation, helmet attachment, real resource directions, server/court routing, ziggurat/wall/granary access and physical Pan objective guidance into PR29. Recovered seed bf140589 remains pinned byte-for-byte; original baseline/main untouched. Extended Trojan and arrow-search drafts remain unintegrated.
+
+167 local checks pass:154 integrated source/executable/compile,13 separate drafts. Grip geometry contracts now exercise actual embedded Three.js transforms and actual active closeGrip23 with the intended -.014 palm seat and unchanged1e-6/65-degree bounds. Prepared Pan scenario retains the real remaining-bandit requirement, travel fixture requires actual unknown distant landmark, remedy purchases are entered through ordinary E, arrow fixture waits for genuinely rendered eligible target. None is current-hash browser acceptance yet.
+
+Prior published head2a78fb5 reproduces4445d03c (38107212bytes),383 remote source/workflow tests and scoped startup/ordinary Save/lock browser passes. Five affected jobs failed on that OLDER hash. Oversight exact review: https://github.com/addezoysa-beep/bronze-age-rpg/pull/29#issuecomment-6171181401. That review does not pass this candidate. User renewed publication authorization; previous hold is historical. All M0–M5 gates/Master review remain unaccepted.
+
+Next: exact-current ordinary startup/Save and affected Pan, remedy, grip, arrow, travel/tavern routes, then full natural opening/Pan/King/Daedalus and measured reference-device Low8–10 old-save performance. Prepared fixtures are not full story/visual/performance acceptance.
+
+# Historical notes — verbatim earlier identities, not current delivery
+
 Chest conservation correction: latest7146ff368b8fa7b7904210a93d06f0c37fc59d06d6428a273f92b0d4e7e8d1fd, 38,086,199 bytes, separates owned storage record from UI snapshot to prevent double withdrawal and refreshes deposits in UI. Focused integrated68 tests plus5 separate unintegrated stealth draft tests pass locally. Earlier de232 startup/render/move confirmed; current714 runtime pending.
 
 Latest correction: de232a9f53e24672152a01b7e90e1a3e8f9421d31bdf2bf523c4bea4aa524cea (38,085,986 bytes) supersedes add0bd26, which failed browser startup in the dragon wing. See ARROW_HUD_STARTUP_20261013.md. 68 focused local tests pass; current remote runtime checks pending. Historical statements below refer to the earlier candidate.
