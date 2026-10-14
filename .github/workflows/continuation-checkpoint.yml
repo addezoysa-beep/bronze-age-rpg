@@ -34,7 +34,7 @@ jobs:
         with:
           name: combined-cinematic-current
           path: |
-            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Load-Performance.html
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
             checkpoints/continuation-20261011/dist/current-build-manifest.json
   browser-checkpoint:
     if: github.event_name == 'pull_request'
