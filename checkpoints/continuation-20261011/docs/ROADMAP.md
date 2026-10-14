@@ -21,6 +21,8 @@ Wall access `6dd2e248`: eligible Troy interior approaches gain stairs and wall-t
 
 ## Evidence and Baseline
 
+Exact-head runtime follow-through: e699/67fc3de7 passed466 full source checks plus scoped Pan chest/item/manualSave-reload, lock and FP/TP stick contact; no whole milestone acceptance. Actual tavern household relocation failure fixed in new278 candidate with three legacy-loop contracts, preserving normal residents. Read-only reload storage and bow-input diagnostics investigate remaining current failures without bypassing ordinary UI. Healer-reach144 has7 independent source contracts but remains outside candidate. Main/QOL/runtime remain first; all current278 browser/fullstory/Low8–10/reference/Master gates pending.
+
 October14 main/QOL reconciliation: current e699feca includes all local Phthia/garment/helmet/service/workplace/city work plus recovered granaries142 and read-only physical-tablet/area-correct Pan guidance143.167 local checks, no full runtime acceptance. Prepared browser contracts repaired per oversight6171181401 without weakening assertions: intended parent-space palm seat, genuine distant unknown discovery, ordinary healer interaction, remaining-bandit prerequisite and rendered arrow eligibility. Manifest governs current delivery; user renewed publication authorization. All M0–M5 acceptance remains open. Expanded Trojan remains lower priority.
 
 Build 59 is a candidate, not yet a milestone-verified release. `index.html` is a

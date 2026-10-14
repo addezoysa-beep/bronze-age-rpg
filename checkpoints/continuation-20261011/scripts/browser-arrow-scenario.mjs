@@ -1,4 +1,8 @@
 // Prepared ammunition/hostile fixture; actions below use ordinary game controls.
+async function waitBowInput(page,label,predicate){
+ try{return await page.waitForFunction(predicate,null,{timeout:15000});}
+ catch(error){const state=await page.evaluate(()=>({state:STATE,phase:ARCHERY27.phase,charge:ARCHERY27.charge,held:ARCHERY27.held,recovery:BOW_RECOVERY,weapon:G.weapon,peaceful:G.peaceful16,dead:P.dead,mode:P.mode,roll:P.rollT,rest:!!P.rest,mining:!!P.mine,stamina:G.stamina,pointerLocked:document.pointerLockElement?.id||null,mouse:{l:mouse.l,r:mouse.r},lock:LOCK?.id||null}));throw Error(label+': '+JSON.stringify(state)+'; '+error.message);}
+}
 export async function runArrowScenario(page,check){
  for(let i=0;i<5&&await page.evaluate(()=>STATE!=='play');i++)await page.keyboard.press('Escape');
  await page.waitForFunction(()=>STATE==='play');
@@ -18,14 +22,14 @@ export async function runArrowScenario(page,check){
  for(const first of[false,true])for(const crouch of[false,true]){
   if(await page.evaluate(()=>FIRST_PERSON)!==first)await page.keyboard.press('v');
   if(await page.evaluate(()=>P.crouch)!==crouch)await page.keyboard.press('b');
-  await page.waitForFunction(()=>ARCHERY27.phase==='idle'&&BOW_RECOVERY<=0);
+  await waitBowInput(page,'ready-before-canvas',()=>ARCHERY27.phase==='idle'&&BOW_RECOVERY<=0);
   const rect=await page.locator('#gl').boundingBox();await page.mouse.move(rect.x+rect.width/2,rect.y+rect.height/2);
   const hit=await page.evaluate(({x,y})=>{const node=document.elementFromPoint(x,y);return{id:node?.id,tag:node?.tagName,locked:document.pointerLockElement?.id||null};},{x:rect.x+rect.width/2,y:rect.y+rect.height/2});check('ordinary-bow-canvas-hit-target',hit.id==='gl',hit);
-  if(await page.evaluate(()=>!document.pointerLockElement)){await page.mouse.click(rect.x+rect.width/2,rect.y+rect.height/2);await page.waitForFunction(()=>document.pointerLockElement?.id==='gl',null,{timeout:15000});}
-  await page.waitForFunction(()=>ARCHERY27.phase==='idle'&&BOW_RECOVERY<=0);
+  if(await page.evaluate(()=>!document.pointerLockElement)){await page.mouse.click(rect.x+rect.width/2,rect.y+rect.height/2);await waitBowInput(page,'ordinary-canvas-pointer-lock',()=>document.pointerLockElement?.id==='gl');}
+  await waitBowInput(page,'ready-after-pointer-lock-click',()=>ARCHERY27.phase==='idle'&&BOW_RECOVERY<=0);
   const before=await page.evaluate(()=>({hp:ENEMIES.find(e=>e.id==='arrow-hit114').hp,arrows:G.arrows}));
   await page.mouse.down();
-  await page.waitForFunction(()=>ARCHERY27.phase==='draw'&&ARCHERY27.charge>=.9,null,{timeout:15000});await page.mouse.up();
+  await waitBowInput(page,'ordinary-held-bow-draw',()=>ARCHERY27.phase==='draw'&&ARCHERY27.charge>=.9);await page.mouse.up();
   await page.waitForFunction(hp=>ENEMIES.find(e=>e.id==='arrow-hit114').hp<hp,before.hp,{timeout:7000});
   const after=await page.evaluate(()=>({hp:ENEMIES.find(e=>e.id==='arrow-hit114').hp,arrows:G.arrows,stock:G.arrowStock30.wood}));check('ordinary-arrow-damage-'+(first?'FP':'TP')+'-'+(crouch?'crouch':'stand'),after.hp<before.hp&&after.arrows===before.arrows-1,after);
  }

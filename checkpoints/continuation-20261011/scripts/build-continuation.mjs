@@ -41,6 +41,7 @@ import {zigguratAccessPatch} from './ziggurat-access-patch.mjs';
 import {troyWallAccessPatch} from './troy-wall-access-patch.mjs';
 import {granaryServicePatch} from './granary-service-patch.mjs';
 import {panObjectiveRecoveryPatch} from './pan-objective-recovery-patch.mjs';
+import {tavernResidenceGuardPatch} from './tavern-residence-guard-patch.mjs';
 const root=new URL('../',import.meta.url);
 const input=fs.readFileSync(new URL('recovered/Cinematic-Lock-Lesson.html',root));
 const sourceHash=crypto.createHash('sha256').update(input).digest('hex');
@@ -48,7 +49,7 @@ if(sourceHash!=='bf1405897255eeba324ca3095b49cf972bd7184b1f5f060c3dec952377a04fa
 const source=input.toString('utf8'),end=source.lastIndexOf('</script>');
 if(end<0)throw Error('Final inline script missing');
 const output=Buffer.from(source.slice(0,end)+lockCameraPatch+openingProgressionPatch+lawCinematicPatch+troyDispositionPatch+lionAnatomyPatch+dragonAnatomyPatch+stableInscriptionPatch+npcMountedChargePatch+labyrinthAntlerPatch+rivalTentCampPatch+seaFortPatch+handGripPatch+spearShieldPatch+oneHandCombatPatch+greatswordPosePatch+bowAmmoIdentityPatch+arrowSilhouettePricePatch+ownedChestPatch+dogRestWakePatch+dungeonAtmospherePatch+storyCinematicsPatch+feedbackMenuStablePatch+lockGateDecayPatch+optionalPuzzlesPatch+arrowHudHitPatch+panRoyalReturnPatch+tavernCounterMilkPatch+encounterHospitalityPatch+hipposLeadRoutePatch+inventorIdentityPatch+healerServicePriorityPatch+clothingMenuPatch+phthiaRegionPatch+playerHelmetOrnamentPatch+resourceDirectionsPatch+workplaceRoutingPatch+courtWorkAnchorsPatch+zigguratAccessPatch+troyWallAccessPatch+'\n'+source.slice(end));
-const combined=Buffer.from(output.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>granaryServicePatch+panObjectiveRecoveryPatch+'\n</script>'));
+const combined=Buffer.from(output.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>granaryServicePatch+panObjectiveRecoveryPatch+tavernResidenceGuardPatch+'\n</script>'));
 const outputName=process.env.WDS_CANDIDATE_FILE||'Wine-Dark-Sea-Combined-Cinematic.html';
 if(!/^[A-Za-z0-9-]+\.html$/.test(outputName))throw Error('Candidate filename must be a simple local HTML filename');
 fs.writeFileSync(new URL(outputName,root),combined);

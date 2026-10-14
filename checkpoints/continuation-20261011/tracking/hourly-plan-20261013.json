@@ -7,9 +7,9 @@
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4",
-  "currentGithubBuildSha256": "4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160",
-  "currentGithubHead": "2a78fb5f3bd0a7e57fe1912ce76ec3344a585904",
+  "currentLocalBuildSha256": "278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1",
+  "currentGithubBuildSha256": "e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4",
+  "currentGithubHead": "67fc3de7f101536afde83aa2298625fa192c93b9",
   "publication": {
     "state": "renewed_user_authorization_publish_pending",
     "commitAwaitingApproval": "a1599e0102d97cc92ed1901101b3f09d41c2720c",
@@ -18,8 +18,9 @@
   },
   "evidence": {
     "local": {
-      "passed": 167,
-      "integrated": 154,
+      "passed": 177,
+      "integrated": 157,
+      "unintegratedHealerReachDraft": 7,
       "unintegratedStealthDraft": 7,
       "scope": "source/compile/executable contracts, not complete gameplay acceptance",
       "unintegratedTrojanPrewar": 6

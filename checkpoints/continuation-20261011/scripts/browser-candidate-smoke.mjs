@@ -106,6 +106,8 @@ try {
   check('manual-save', Boolean(saved?.data?.started && saved.data.pos && saved.data.savedAt), { slot: saved?.slot, position: saved?.data?.pos });
   await page.reload({ waitUntil: 'load' });
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
+  const reloadedStorage=await page.evaluate(slot=>({url:location.href,bytes:localStorage.getItem(slotKey(slot))?.length||0,summary:saveSummary(slot),keys:Object.keys(localStorage)}),saved.slot);
+  check('saved-slot-persists-after-reload-before-menu',reloadedStorage.bytes>0&&!!reloadedStorage.summary,reloadedStorage);
   await page.locator('#bnew').click();
   await page.locator(`[data-load="${saved.slot}"]`).click({ noWaitAfter: true });
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
