@@ -1,0 +1,15 @@
+{
+ "id":"save-storage-trace-20261014",
+ "summary":"Add bounded storage-operation diagnostics to ordinary Save/reload verification; preserve all storage returns/exceptions without restoring saves or forcing UI",
+ "buildSha256":"bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f",
+ "milestoneIds":["M0","M1"],
+ "bytes":38148911,
+ "gameBytesChanged":false,
+ "tests":{"localPassed":84,"storageContracts":4,"scope":"Available isolated continuation suite, not full remote baseline or gameplay acceptance"},
+ "masterDelivery":{"status":"pending","evidence":"Private PR29 browser diagnostics checkpoint"},
+ "masterReview":{"status":"pending"},
+ "currentCI":{"run":38620559146,"status":"failed","scope":"Jobs ended before steps/logs; no new source/runtime pass claimed; reason not established"},
+ "diagnostics":"Before/returned/threw setItem/removeItem/clear records only key/byte length/stack, never saved player data; bounded32 per document and128 report entries; ordinary Save/Load unchanged",
+ "acceptedMilestones":0,
+ "next":"Read actual deletion/origin evidence when browser jobs execute; fix real cause without forcing persistence; continue reference Low old-save8–10 and natural campaign gates"
+}

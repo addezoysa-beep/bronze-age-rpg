@@ -1,3 +1,4 @@
+import {installStorageAudit} from './browser-storage-audit.mjs';
 import {runLoadPerformanceScenario} from './browser-load-performance-scenario.mjs';
 import {runRemedyScenario} from './browser-remedy-scenario.mjs';
 import {runTavernFeedbackScenario} from './browser-tavern-feedback-scenario.mjs';
@@ -35,12 +36,15 @@ try {
   const { chromium } = imported.default || imported;
   browser = await chromium.launch({ headless: true, executablePath: process.env.PLAYWRIGHT_EXECUTABLE_PATH });
   report.environment.browser = await browser.version();
+  report.storageEvents=[];
   const context = await browser.newContext({ viewport: { width: 1365, height: 768 }, offline: true });
   const preset = process.env.WDS_SMOKE_PRESET||'auto';
   if(!['auto','verylow','low','medium','high'].includes(preset))throw Error('Invalid test graphics preset');
   report.environment.graphicsPreset = preset;
   await context.addInitScript(p => { localStorage.setItem('wine-dark-graphics28', p); }, preset);
+  await context.addInitScript(installStorageAudit);
   page = await context.newPage();
+  page.on('console',message=>{const s=message.text();if(s.startsWith('[WDS_STORAGE_AUDIT]')&&report.storageEvents.length<128){try{report.storageEvents.push(JSON.parse(s.slice('[WDS_STORAGE_AUDIT]'.length)));}catch{report.storageEvents.push({diagnosticError:'Malformed storage trace'});}}});
   // Software-rendered CI startup may exceed the default input timeout.
   page.setDefaultTimeout(180000);
   page.on('pageerror', error => report.pageErrors.push(error.message));
@@ -147,6 +151,3 @@ finally {
   writeFileSync(resolve(output, 'browser-smoke.json'), `${JSON.stringify(report, null, 2)}\n`);
   console.log(JSON.stringify(report, null, 2));
 }
-
-
-
