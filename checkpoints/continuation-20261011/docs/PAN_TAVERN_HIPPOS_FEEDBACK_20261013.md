@@ -1,6 +1,6 @@
 # Pan, tavern, Hippos and NPC feedback — October13
 
-Candidate 55562a5045fff645fd1e586c62d74e6b849b349daec82d86c5ea599e4a56c350; 38,106,629 bytes. Preserves recovered animated FP/TP sling/cinematic seed and prior continuation. All M0–M5 unaccepted. Source-tested below does not mean ordinary rendered gameplay accepted.
+Candidate 4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160; 38,107,212 bytes. Preserves recovered animated FP/TP sling/cinematic seed and prior continuation. All M0–M5 unaccepted. Source-tested below does not mean ordinary rendered gameplay accepted.
 
 ## PAN-RETURN-117
 
@@ -124,6 +124,8 @@ Acceptance: Ordinary deposit/take conservation/reload per supported chest, no cl
 
 ## Evidence and handoff
 
-88 local tests pass:83 integrated compile/source/executable checks and5 unintegrated stealth draft tests. Full legacy suite absent locally; remote full-suite/current-hash browser rerun required. Previous7146ff36 run38481457696 source367 pass and prepared Pan browser pass; bow/lock/healer/grip/travel reload failures stay open. Reference-device Low8/10 combat and natural full story/Pan route remain pending.
+89 local tests pass:84 integrated compile/source/executable checks and5 unintegrated stealth draft tests. Full legacy suite absent locally; remote full-suite/current-hash browser rerun required. Previous7146ff36 run38481457696 source367 pass and prepared Pan browser pass; bow/lock/healer/grip/travel reload failures stay open. Reference-device Low8/10 combat and natural full story/Pan route remain pending.
 
 October13 17:00 Eastern interim target passed without complete acceptance. Continue authorized scope. Original120 active-hour allocations remain open; elapsed scheduled hours are not active work hours. Do not fabricate remaining measured hours or drop prior scope. Next: current-hash CI, actual input/service/grip repair, independent boss-rumor/roaming/workplace implementations. No automatic slot/milestone acceptance.
+
+Follow-up: replaces the obsolete broken Buy food and drink interaction and uses actual interior canStand collision for serving routes, not outdoor terrain at offset dungeon coordinates. One extra executable indoor movement/wall/pause regression passes. Previous55562a50 remote382 pass/artifact exists but is superseded; new exact-hash checks pending.

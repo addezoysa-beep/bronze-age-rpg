@@ -15,8 +15,12 @@ export async function runArrowScenario(page,check){
   if(await page.evaluate(()=>FIRST_PERSON)!==first)await page.keyboard.press('v');
   if(await page.evaluate(()=>P.crouch)!==crouch)await page.keyboard.press('b');
   await page.waitForFunction(()=>ARCHERY27.phase==='idle'&&BOW_RECOVERY<=0);
+  const rect=await page.locator('#gl').boundingBox();await page.mouse.move(rect.x+rect.width/2,rect.y+rect.height/2);
+  const hit=await page.evaluate(({x,y})=>{const node=document.elementFromPoint(x,y);return{id:node?.id,tag:node?.tagName,locked:document.pointerLockElement?.id||null};},{x:rect.x+rect.width/2,y:rect.y+rect.height/2});check('ordinary-bow-canvas-hit-target',hit.id==='gl',hit);
+  if(await page.evaluate(()=>!document.pointerLockElement)){await page.mouse.click(rect.x+rect.width/2,rect.y+rect.height/2);await page.waitForFunction(()=>document.pointerLockElement?.id==='gl',null,{timeout:15000});}
+  await page.waitForFunction(()=>ARCHERY27.phase==='idle'&&BOW_RECOVERY<=0);
   const before=await page.evaluate(()=>({hp:ENEMIES.find(e=>e.id==='arrow-hit114').hp,arrows:G.arrows}));
-  const rect=await page.locator('#gl').boundingBox();await page.mouse.move(rect.x+rect.width/2,rect.y+rect.height/2);await page.mouse.down();
+  await page.mouse.down();
   await page.waitForFunction(()=>ARCHERY27.phase==='draw'&&ARCHERY27.charge>=.9,null,{timeout:15000});await page.mouse.up();
   await page.waitForFunction(hp=>ENEMIES.find(e=>e.id==='arrow-hit114').hp<hp,before.hp,{timeout:7000});
   const after=await page.evaluate(()=>({hp:ENEMIES.find(e=>e.id==='arrow-hit114').hp,arrows:G.arrows,stock:G.arrowStock30.wood}));check('ordinary-arrow-damage-'+(first?'FP':'TP')+'-'+(crouch?'crouch':'stand'),after.hp<before.hp&&after.arrows===before.arrows-1,after);

@@ -6,8 +6,8 @@
     "M4",
     "M5"
   ],
-  "buildSha256": "55562a5045fff645fd1e586c62d74e6b849b349daec82d86c5ea599e4a56c350",
-  "bytes": 38106629,
+  "buildSha256": "4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160",
+  "bytes": 38107212,
   "summary": "King physical-tablet return, inventor-only Daedalus, tavern counter/table service and drinkable milk, actual Hippos path/pasture/return, civilian NPC nonlethal flight, boss/assassin/spar cinema and daily spar extra reward, pale red-eyed vampires. Animated sling/cinematic seed retained.",
   "masterDelivery": {
     "status": "pending"
@@ -17,9 +17,9 @@
     "evidence": null
   },
   "tests": {
-    "passed": 88,
+    "passed": 89,
     "failed": 0,
-    "scope": "83 integrated plus5 unintegrated stealth draft; remote suite/browser pending"
+    "scope": "84 integrated plus5 unintegrated stealth draft; remote suite/browser pending"
   },
   "pending": [
     "SPEAR-THROW-123",

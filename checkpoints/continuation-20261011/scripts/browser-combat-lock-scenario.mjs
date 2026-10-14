@@ -3,6 +3,8 @@ export async function runCombatLockScenario(page,check){
  for(let i=0;i<5&&await page.evaluate(()=>STATE!=='play');i++)await page.keyboard.press('Escape');
  await page.waitForFunction(()=>STATE==='play');
  await page.evaluate(()=>{clearCombatLock62();for(const [id,dx,dz]of[['lock-a62',0,9],['lock-b62',5,11]]){const e=spawnEnemy('wolf',P.x+dx,P.z+dz,{area:AREA,id});e.stun=30;}CAM.yaw=0;});
+ await page.waitForFunction(()=>ENEMIES.filter(e=>/lock-[ab]62/.test(e.id||'')).length===2&&ENEMIES.filter(e=>/lock-[ab]62/.test(e.id||'')).every(e=>combatLockEligible62(e)),null,{timeout:15000});
+ check('lock-fixture-rendered-visible-eligible',await page.evaluate(()=>ENEMIES.filter(e=>/lock-[ab]62/.test(e.id||'')).every(e=>e.g.visible&&combatLockEligible62(e))),{});
  await page.keyboard.press('q');
  await page.waitForFunction(()=>LOCK&&/lock-[ab]62/.test(LOCK.id));
  const a=await page.evaluate(()=>({id:LOCK.id,melee:!!P.melee,marker:document.getElementById('ret').style.display}));
