@@ -1,0 +1,40 @@
+{
+  "id": "pan-tavern-hippos-20261013",
+  "milestoneIds": [
+    "M1",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "buildSha256": "55562a5045fff645fd1e586c62d74e6b849b349daec82d86c5ea599e4a56c350",
+  "bytes": 38106629,
+  "summary": "King physical-tablet return, inventor-only Daedalus, tavern counter/table service and drinkable milk, actual Hippos path/pasture/return, civilian NPC nonlethal flight, boss/assassin/spar cinema and daily spar extra reward, pale red-eyed vampires. Animated sling/cinematic seed retained.",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending",
+    "evidence": null
+  },
+  "tests": {
+    "passed": 88,
+    "failed": 0,
+    "scope": "83 integrated plus5 unintegrated stealth draft; remote suite/browser pending"
+  },
+  "pending": [
+    "SPEAR-THROW-123",
+    "WORK-LOCATION-124",
+    "CRIME-JAIL-125",
+    "BOSS-RUMOR-126",
+    "ROAMING-ASSASSIN-127",
+    "LOCK-LESSON-LYKOS-128",
+    "BOW-STEALTH-129",
+    "AUDIO-PREDATOR-130",
+    "STORAGE-131",
+    "current-hash ordinary gameplay/offline Save/reload",
+    "previous Q/bow/healer/grip/reload CI failures",
+    "reference Low8/10 combat",
+    "all milestone acceptance"
+  ],
+  "milestonesAccepted": []
+}

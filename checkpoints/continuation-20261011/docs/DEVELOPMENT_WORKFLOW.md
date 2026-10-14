@@ -98,4 +98,3 @@ constraint from the cloud executor's current turn.
 These local follow-ups require the Mac and desktop app to remain available.
 An active cloud turn is distinct from a cloud-only recurring schedule; no such
 cloud-only continuation has been verified during setup.
-

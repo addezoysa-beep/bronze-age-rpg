@@ -318,6 +318,102 @@
       "upstreamHead": "13c93973b7e04a0d9d88a35a2b860956c5106ddd",
       "artifactSha256": "a1c89b3e85d2c51a9866c8bb5c0f3bafd6e4e12cecaa423d72d9fa40ddacc0e0",
       "runtime": "pending exact checkpoint browser; full weapon matrix visual acceptance remains failed/pending"
+    },
+    "october13Feedback": {
+      "status": "confirmed_by_user",
+      "specification": "docs/PAN_TAVERN_HIPPOS_FEEDBACK_20261013.md",
+      "items": [
+        {
+          "id": "PAN-RETURN-117",
+          "implementation": "candidate_source_tested",
+          "scope": "Pan bandits/captain → physical tablet → King report → inventor Daedalus/Crete; own-boat/ferry and existing harvest/material earn-skiff directions.",
+          "acceptance": "Natural dialogue/puzzle/boss/item/royal return route and save checkpoints."
+        },
+        {
+          "id": "INVENTOR-122",
+          "implementation": "candidate_source_tested",
+          "scope": "Daedalus only inventor/story craftsman; no cloned royal stable; actual quest talk and marker.",
+          "acceptance": "Ordinary actual inventor menu advances after royal report, old saves."
+        },
+        {
+          "id": "TAVERN-MILK-118",
+          "implementation": "candidate_source_tested",
+          "scope": "Anchored indoor counter and separate table server, meal ordering, milk thirst consumption, actual work directions when poor.",
+          "acceptance": "Ordinary entry/counter buy/eat/drink, conservation, physical serving route, regional coverage, reload."
+        },
+        {
+          "id": "HIPPOS-121",
+          "implementation": "candidate_source_tested",
+          "scope": "Fence-aware bounded path follow without35m freeze; horse physically reaches pasture and returns, no completion teleport.",
+          "acceptance": "Ordinary gate/pasture/Timaios leading, blocked recovery and ownership/reload conservation."
+        },
+        {
+          "id": "CIVILIAN-PVE-119",
+          "implementation": "candidate_source_tested",
+          "scope": "NPC-caused civilian harm floors health at1 then flee; player assault preserves lethal law consequences.",
+          "acceptance": "Actual mixed NPC/companion/player damage and flee without reducing8–10 attackers."
+        },
+        {
+          "id": "ENCOUNTER-SPAR-119",
+          "implementation": "candidate_source_tested",
+          "scope": "One-shot boss/assassin approach cinema, real spar intro/results and daily extra reward; pale/red-eyed vampires.",
+          "acceptance": "Ordinary cancel/resume/win/loss/daily payout/reload and rendered vampire review."
+        },
+        {
+          "id": "SPEAR-THROW-123",
+          "implementation": "pending",
+          "scope": "Eligible Myrmidons/captains/revenants/oathkeepers/high spear users throw/recover; player skill unlock; embedded identity, damage≥thrust.",
+          "acceptance": "Ordinary tree unlock/throw/contact/recovery/finite hands, save-safe loot."
+        },
+        {
+          "id": "WORK-LOCATION-124",
+          "implementation": "partial_counter_only",
+          "scope": "Actual garden tasks, courier delivery/navigation, workstation roles; tavern counter candidate only.",
+          "acceptance": "Observe useful physical cycles/contact/blocked recovery, shared player parity, Low/save."
+        },
+        {
+          "id": "CRIME-JAIL-125",
+          "implementation": "pending",
+          "scope": "Regional criminal sneak/combat/lockpick teachers, visible mischief; major-region jails with unfairness/regret inmates, release/reoffend/arrest and NPC-NPC daily interactions.",
+          "acceptance": "Real regional trainer/jail and save-safe crime/release/arrest/day interactions, essential item protection."
+        },
+        {
+          "id": "BOSS-RUMOR-126",
+          "implementation": "pending",
+          "scope": "Townsfolk mention actual regional bosses including Minotaur, not invented services/secret reveals.",
+          "acceptance": "Alive/dead/local encounter dialogue transitions and main quest unchanged."
+        },
+        {
+          "id": "ROAMING-ASSASSIN-127",
+          "implementation": "pending",
+          "scope": "Random ransom captains/assassins across every region, scaled actual gear/moves and approach cinematics.",
+          "acceptance": "Real region/loadout/move/cooldown/counterplay/loot/save matrix, no civilian kills."
+        },
+        {
+          "id": "LOCK-LESSON-LYKOS-128",
+          "implementation": "pending_Lykos",
+          "scope": "Both Phocas/Lykos require actual lock exercise; Phocas preserved seed, Lykos still pending.",
+          "acceptance": "Ordinary lock/hit not dialogue bypass; cancel/resume/reload."
+        },
+        {
+          "id": "BOW-STEALTH-129",
+          "implementation": "partial_hit_context_unintegrated_search_draft",
+          "scope": "Reliable crouched/distant material arrow hits; hidden shots directional investigation not exact autolocation.",
+          "acceptance": "Ordinary FP/TP mouse draw/hit/shield/terrain/LOS/search/alert/expiry and Low/save."
+        },
+        {
+          "id": "AUDIO-PREDATOR-130",
+          "implementation": "pending",
+          "scope": "Faster wolf/bear/jackal/lion; less chatter, species-safe injuries and3–4 human pain variations.",
+          "acceptance": "Audible actual species injury variants, bounded frequency/concurrency and rendered speed/contact."
+        },
+        {
+          "id": "STORAGE-131",
+          "implementation": "partial_owned_storage_only",
+          "scope": "Persistent deposits in appropriate chests; regional travel testing chest identity not yet located.",
+          "acceptance": "Ordinary deposit/take conservation/reload per supported chest, no claim arbitrary loot chest stores."
+        }
+      ]
     }
   },
   "milestones": [
@@ -618,6 +714,36 @@
         "Low and Very Low measured performance"
       ],
       "milestoneAcceptance": "none"
+    },
+    "panTavernHippos": {
+      "id": "pan-tavern-hippos-20261013",
+      "buildSha256": "55562a5045fff645fd1e586c62d74e6b849b349daec82d86c5ea599e4a56c350",
+      "bytes": 38106629,
+      "implementation": "candidate_source_tested",
+      "checks": {
+        "localTests": {
+          "passed": 88,
+          "failed": 0,
+          "integrated": 83,
+          "unintegratedStealthDraft": 5
+        },
+        "browser": "pending current hash"
+      },
+      "milestoneAcceptance": "none",
+      "previousBuildBrowser": {
+        "buildSha256": "7146ff368b8fa7b7904210a93d06f0c37fc59d06d6428a273f92b0d4e7e8d1fd",
+        "run": 38481457696,
+        "sourceTests": 367,
+        "passed": "Prepared defeated-captain tablet/chest/pause Save/reload; startup/render/movement/reload several jobs; arrow selector conservation",
+        "failed": [
+          "Q lock acquisition",
+          "bow draw charge",
+          "healer access",
+          "stick idle wrist seat",
+          "travel data-load1 reload disabled"
+        ],
+        "scope": "Prepared Pan not full route; no current-hash carry forward."
+      }
     }
   }
 }

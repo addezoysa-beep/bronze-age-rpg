@@ -14,7 +14,7 @@ import { root, gameHash, sha256 } from './workflow.mjs';
 
 const gameFile = resolve(root, 'dist/Wine-Dark-Sea-Combined-Cinematic.html');
 const artifactHash = sha256(readFileSync(gameFile));
-if(artifactHash!=='7146ff368b8fa7b7904210a93d06f0c37fc59d06d6428a273f92b0d4e7e8d1fd')throw Error('Current combined browser candidate hash mismatch');
+if(artifactHash!=='55562a5045fff645fd1e586c62d74e6b849b349daec82d86c5ea599e4a56c350')throw Error('Current combined browser candidate hash mismatch');
 const output = resolve(root, 'verification/runtime');
 mkdirSync(output, { recursive: true });
 const report = { test: 'offline-browser-smoke', status: 'failed', buildSha256: artifactHash, sourceSha256: gameHash(), gameFile: 'dist/Wine-Dark-Sea-Combined-Cinematic.html',
