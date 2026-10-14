@@ -25,8 +25,8 @@
     "tavernContracts": 5
   },
   "masterDelivery": {
-    "status": "pending",
-    "evidence": "Authorized PR29 feature checkpoint publication pending concrete new head"
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/29; actual0055d52f2b02375d1ae5ff6801bc76e62cf3dbc9 and PR body delivered"
   },
   "masterReview": {
     "status": "pending"
@@ -54,5 +54,12 @@
   },
   "failures": "Arrow ordinary held input stays nock in software CI at15sec; no speculative bow fix or widened timeout. Tavern second legacy cast shift reproduced by actual source; now excludes dedicated staff from both resident/cast owner loops and restores arrays finally. Source fixture initially lacked real GRAPHICS28; harness corrected, production fallback not weakened.",
   "acceptedMilestones": 0,
-  "next": "Current-hash ordinary startup/Save/Low firstminute; measure actual dominant phase before next optimization; representative oldsave8\u201310 reference combat and natural campaign remain open."
+  "next": "Current-hash ordinary startup/Save/Low firstminute; measure actual dominant phase before next optimization; representative oldsave8\u201310 reference combat and natural campaign remain open.",
+  "remoteSource": {
+    "run": 38591577417,
+    "job": 115947532550,
+    "passed": 487,
+    "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a"
+  },
+  "packagingFailure": "11907523098 contains manifest only because stale Load-Performance.html path; unusable and not delivered. Correct path + exact-file preflight now required."
 }
