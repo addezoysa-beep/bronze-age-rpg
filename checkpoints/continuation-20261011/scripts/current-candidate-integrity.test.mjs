@@ -18,6 +18,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('WEAPON_FRAME_BUDGET_157'));assert.ok(html.includes('TRAIL_BOUNDS_CACHE_158'));assert.ok(html.indexOf('WEAPON_FRAME_BUDGET_157')>html.indexOf('CONTINUATION_ANATOMICAL_SHAFT_GRIP_V1'),'optimized orientation calls final dynamic shaft wrapper');
  assert.ok(html.includes('BATCH_CONSTRUCTION_159'));
  assert.ok(html.includes('TAVERN_ROUTE_SWEEP_160'));assert.ok(html.indexOf('TAVERN_ROUTE_SWEEP_160')>html.indexOf('WORKPLACE_ROUTING_138'),'fine furniture-edge routing is final active server step');
+ assert.ok(html.includes('TAVERN_PLAN_BUDGET_162'));
  assert.ok(html.indexOf('NPC_ARROW_EMISSION_161')>html.indexOf('CONTINUATION_WATCHTOWER_SEA_FORT_V1'),'emitter context captures material before finite fort deduction');
 });
 

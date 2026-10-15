@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T13:16:29Z",
+  "updatedAt": "2026-10-15T14:46:50Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "85211cbc556ac80ef2ef7222ede769338116018551c18feb3660847faf7cc5a6",
-  "currentGithubBuildSha256": "426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb",
-  "currentGithubHead": "136ae208bf767d12781d9c598cd6833c34093504",
+  "currentLocalBuildSha256": "dadac47586cbd6fa6edc25f9ed78551ab87620673487be8f8960334a6fdad62c",
+  "currentGithubBuildSha256": "85211cbc556ac80ef2ef7222ede769338116018551c18feb3660847faf7cc5a6",
+  "currentGithubHead": "bf26b1b197f19af6d67c84f0171c2709e76e2af6",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Swept furniture-aware tavern routes and captured finite-fort NPC arrow identity;152 local checks. docs/NEXT_RUN_SERVICE_ARROW_20261015.md. Current browser/reference/Save/Master gates remain open, no slot acceptance or measured-hour decrement.",
+  "currentCheckpoint": "Resumable tavern planner:128 expansions per simulation frame, no repeated same-frame budget, restart on changed context;155 local checks. docs/NEXT_RUN_BOUNDED_ROUTING_20261015.md. Cloud browser open timed out before page state; current browser/reference/Save/Master gates open. Prior slots remain partial/blocked, no new accepted slot or measured-hour decrement.",
   "partialSlots": [
     2,
     3,
