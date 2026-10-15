@@ -1,0 +1,16 @@
+✔ actual current builder preserves seed and compiles every delivered script including latest QOL modules (1402.793406ms)
+✔ visible title and ordinary pause controls apply actual native graphics tier beside media without duplicate panels (27.992078ms)
+✔ manual quality clamps safely, avoids water geometry churn inside a tier, and uses independent device preferences (20.82571ms)
+✔ one and two FPS intervals lower adaptive resolution and real native render tiers instead of being discarded by old120ms cutoff (37.831319ms)
+✔ fast adaptive recovery is delayed and bounded; pause/loading/hidden/huge background gaps cannot contaminate frame samples (18.979792ms)
+✔ manual quality survives slow/fast adaptation and native external preset controls remain coherent (18.089911ms)
+✔ valid settings restore on cold startup, legacy Low retained, invalid or denied storage safe without touching any game save (166.59855ms)
+✔ active RAF source passes wall interval separately from bounded simulation and graphics patch does not replace combat/simulation/save functions (0.7837ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1485.234503
