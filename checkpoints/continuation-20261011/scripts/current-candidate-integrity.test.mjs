@@ -16,5 +16,6 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('LANDMARK_TRAVEL_SAFETY_155'));assert.ok(html.indexOf('ATOMIC_SAVE_DECODE_156')<html.indexOf('LOAD_PERFORMANCE_146'),'atomic decode keeps existing timing wrapper');assert.ok(html.indexOf('ATOMIC_SAVE_DECODE_156')<html.indexOf('CONTINUE_SAVE_SAFETY_150'),'failed Continue guard wraps atomic decoder');
  assert.ok(!html.includes('TROJAN_PREWAR_135'),'incomplete lower-priority campaign stays outside playable candidate');
  assert.ok(html.includes('WEAPON_FRAME_BUDGET_157'));assert.ok(html.includes('TRAIL_BOUNDS_CACHE_158'));assert.ok(html.indexOf('WEAPON_FRAME_BUDGET_157')>html.indexOf('CONTINUATION_ANATOMICAL_SHAFT_GRIP_V1'),'optimized orientation calls final dynamic shaft wrapper');
+ assert.ok(html.includes('BATCH_CONSTRUCTION_159'));
 });
 

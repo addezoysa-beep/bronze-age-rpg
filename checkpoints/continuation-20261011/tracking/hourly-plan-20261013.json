@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T11:09:40Z",
+  "updatedAt": "2026-10-15T12:00:30Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978",
-  "currentGithubBuildSha256": "2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
-  "currentGithubHead": "1b0d7f828a23714fc3ee2f00e80edb0e822c3dbb",
+  "currentLocalBuildSha256": "426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb",
+  "currentGithubBuildSha256": "dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978",
+  "currentGithubHead": "520428883f6fa2a7cac25f223ddc55f355f58473",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Ranged rig/shared held orientation exact scratch math; version-invalidated rigid melee trail bounds.137 local contracts; docs/NEXT_RUN_WEAPON_FRAME_20261015.md; all slots/runtime/Master gates open, no measured remaining-hour reduction.",
+  "currentCheckpoint": "Cylinder transform hoisting and loft ring/radial reuse;143 local checks, exact geometry parity and scoped Node benchmark. docs/NEXT_RUN_MESH_CONSTRUCTION_20261015.md. No browser/reference/FPS/slot/Master acceptance or measured-hour reduction.",
   "partialSlots": [
     2,
     3,

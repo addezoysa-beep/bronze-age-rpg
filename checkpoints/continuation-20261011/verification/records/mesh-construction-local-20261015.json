@@ -1,0 +1,17 @@
+{
+ "buildSha256":"426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb",
+ "bytes":38172569,
+ "scope":"Isolated local Node/VM synthetic30-cylinder+30-loft construction; NOT browser startup/world/FPS/old-save/combat/reference acceptance",
+ "command":"node scripts/benchmark-batch-construction.mjs",
+ "rounds":7,
+ "order":"alternating after one warmup per implementation",
+ "ms":{"original":[30.829683000000045,37.685722,33.832447,37.527589000000035,33.78117099999997,35.42409999999995,34.45452999999998],"candidate":[40.213190999999995,29.587345999999968,28.46547000000004,27.838003999999955,28.408052999999995,29.187678000000005,32.115199000000075]},
+ "medianMs":{"original":34.45452999999998,"candidate":29.187678000000005},
+ "countsBeforeFinalParityMesh":{"original":{"transforms":4080,"trig":224160},"candidate":{"transforms":480,"trig":66720}},
+ "sameFloat64BufferSha256":"e755c37d838257322feffa7cb716a325736840f10b15831ab61994d24edc093a",
+ "vertices":20160,
+ "initialHarnessFailure":"Node crypto rejected bare ArrayBuffer; corrected to supported Float64Array input, rerun passed. No game failure hidden.",
+ "localTests":{"passed":143,"failed":0,"scope":"Isolated available continuation subset, not full remote baseline"},
+ "currentBrowserRuntime":"pending",
+ "milestoneAcceptance":"none"
+}
