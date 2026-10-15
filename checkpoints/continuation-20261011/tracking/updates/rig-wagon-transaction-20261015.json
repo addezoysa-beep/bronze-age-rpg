@@ -1,0 +1,15 @@
+{
+ "id":"rig-wagon-transaction-20261015",
+ "summary":"Reuse exact shared arm/palm math objects and make paid wagon arrival/refunds explicit and once-only across standard, Egyptian, Steppe and legacy Tareq paths",
+ "buildSha256":"efd5777c6de942109bafb0be37754dcc28b85e5f4d71b9776cf9c2b742ae00d2",
+ "bytes":38160659,
+ "milestoneIds":["M0","M1","M2","M3","M5"],
+ "masterDelivery":{"status":"pending","evidence":"Authorized private PR29 feature checkpoint"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":109,"failed":0,"scope":"Available isolated continuation/source/executable/compile subset; not full remote baseline suite or gameplay acceptance","newRigContracts":4,"newRoadContracts":7},
+ "evidence":["docs/NEXT_RUN_RIG_WAGON_20261015.md","scripts/rig-math-scratch.test.mjs","scripts/road-travel-transaction.test.mjs"],
+ "runtime":{"status":"pending","required":"Exact-current ordinary guide/menu arrival/refund/insufficient funds, pause Save/exact reload, FP/TP six-archetype hand visuals, Low reference old-save8–10 active attackers"},
+ "blockers":"Last CI jobs fail before steps/logs with no established cause; local Chromium1234 absent after invalid archive install. Historical travel storage/server/arrow failures remain open.",
+ "acceptedMilestones":0,
+ "next":"Exact current full source/browser evidence and ordinary travel/save/hand/combat checks; continue dependency-ready main/QOL production without weakening gates"
+}

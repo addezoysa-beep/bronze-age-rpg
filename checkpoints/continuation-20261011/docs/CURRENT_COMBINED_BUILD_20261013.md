@@ -1,4 +1,4 @@
-Current actor-query candidate:b1f4f1f1f90d68a3c73c906e09d34489ccdfc0f93d12a86680e32525f3cf8a2c,38,154,322bytes.98 available local source/executable/compile checks pass; full remote/current runtime pending. Direct ecology bucket queries and exact reusable greatsword support math retain simulation/attack counts; no FPS or milestone acceptance. Authoritative handoff docs/NEXT_RUN_ACTOR_QUERY_20261015.md. Prior notes below historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
+Current rig/wagon candidate:efd5777c6de942109bafb0be37754dcc28b85e5f4d71b9776cf9c2b742ae00d2,38,160,659bytes.109 available local source/executable/compile checks pass; full remote/current runtime pending. Exact shared arm/palm scratch math and transactional wagon arrival/fares, no pose/attacker reduction or FPS/milestone acceptance. Authoritative handoff docs/NEXT_RUN_RIG_WAGON_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
 
 # Current save-load performance checkpoint — October14
 

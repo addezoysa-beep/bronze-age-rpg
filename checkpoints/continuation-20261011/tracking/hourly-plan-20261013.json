@@ -7,9 +7,9 @@
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "b1f4f1f1f90d68a3c73c906e09d34489ccdfc0f93d12a86680e32525f3cf8a2c",
-  "currentGithubBuildSha256": "213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2",
-  "currentGithubHead": "e91d8f372388249ccbe2fb93ac84ee8b8031a471",
+  "currentLocalBuildSha256": "efd5777c6de942109bafb0be37754dcc28b85e5f4d71b9776cf9c2b742ae00d2",
+  "currentGithubBuildSha256": "b1f4f1f1f90d68a3c73c906e09d34489ccdfc0f93d12a86680e32525f3cf8a2c",
+  "currentGithubHead": "16347cac7fc44a80a8903202d751b090f8c96a5c",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Direct settlement/herd threat queries and allocation-free greatsword support math;98 available local contracts, all exact-current runtime/reference gates pending. Canonical current evidence docs/NEXT_RUN_ACTOR_QUERY_20261015.md; no automatic slot advance or measured remaining-hour reduction.",
+  "currentCheckpoint": "Exact shared arm/palm scratch math and transactional wagon fares/arrival;109 available local contracts, full current runtime/reference gates pending. Canonical current evidence docs/NEXT_RUN_RIG_WAGON_20261015.md; no automatic slot advance or measured remaining-hour reduction.",
   "partialSlots": [
     2,
     3,

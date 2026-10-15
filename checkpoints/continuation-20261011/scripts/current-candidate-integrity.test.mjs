@@ -12,6 +12,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
  assert.ok(html.includes('CLOTH_POSE_CACHE_148'));assert.ok(html.includes('CONTINUE_SAVE_SAFETY_150'));
  assert.ok(html.includes('ECOLOGY_QUERY_151'));assert.ok(html.includes('GREATSWORD_SCRATCH_152'));
+ assert.ok(html.includes('RIG_MATH_SCRATCH_153'));assert.ok(html.indexOf('RIG_MATH_SCRATCH_153')<html.indexOf('CONTINUATION_ANATOMICAL_SHAFT_GRIP_V1'),'final shaft seating wraps optimized base grip');assert.ok(html.includes('ROAD_TRAVEL_TRANSACTION_154'));
  assert.ok(!html.includes('TROJAN_PREWAR_135'),'incomplete lower-priority campaign stays outside playable candidate');
 });
 
