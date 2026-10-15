@@ -1,5 +1,7 @@
 # Bronze Age RPG — updated 120-hour work schedule
 
+October15 continuation: existing hourly task was re-enabled on the user's reminder and remains the same task. Increased-workload instruction means successive useful dependency-ready implementation/tests within each execution, carrying unfinished checks forward. Latest candidate and actual evidence are in tracking/milestones.json and docs/NEXT_RUN_GROUND_PULSES_20261015.md; older hashes/publication-hold notes below are historical. Current private source publication is authorized; exact-build acceptance still requires ordinary Save/render/reference Low8–10/Master review. Full120 allocations and M0–M5 remain open, no automatic task or hour advance.
+
 Updated October 13, 2026, late evening, America/New_York.
 
 This is a revised **120 active-work-hour allocation from the current checkpoint**, not 120 hours already worked, a promise of continuous execution, or a guarantee that all expanded requirements fit. The October13 5p.m. target was missed. No M0–M5 milestone is accepted. Current defects, content quality and unmeasured runtime gaps can require more than120 hours; carry overruns forward rather than weaken acceptance. No new calendar completion date is promised.
@@ -227,3 +229,4 @@ All requirements below are authorized; source evidence does not accept gameplay.
 Research starting points: University of Minnesota Extension, Conformation of the horse (https://extension.umn.edu/agriculture/animals-and-livestock/horse/conformation-of-the-horse); Blender Studio, Modeling Stylised Assets on Pet Projects (https://studio.blender.org/blog/modeling-stylised-assets-on-pet-projects/). Anatomy and stylization are compatible; these sources do not establish delivered model quality or redistribution rights for third-party assets.
 
 Continue first dependency-ready critical milestone implementation; these medium/lower-priority additions do not displace freezes, input, opening/story, grips or ordinary offline Save gates. Preserve all earlier scope and publication hold.
+

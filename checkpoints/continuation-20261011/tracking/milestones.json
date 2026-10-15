@@ -6,14 +6,44 @@
     "october15Playtesting": {
       "specification": "docs/USER_PLAYTESTING_20261015.md",
       "status": "authorized_partial_implementation_runtime_pending",
-      "sourceImplemented": ["GREAT-163 dispatch", "KEY-163 physical Alashiya drop/recovery", "PICK-163 cues/difficulty/recipe/robber/thief/jars", "LAB-163 and RELIC-163 dialogue/objective sequence", "SEA-163 bounded foam wake only", "MIX-163 pause sliders", "GROUND-163 Pharos obsolete streamed-channel phase mismatch only", "OCCUPY-163 absent friendly watch until rescue completion"],
-      "next": ["GROUND-163 Alashiya burial/Pharos-Tyre full geometry and per-region coverage; island size changes pending", "SEA-163 obtainable captain rally horn and safe boat call", "OCCUPY-163 rendered barracks/ordinary old-save acceptance", "BOSS-163 Shekelesh armor/laugh/attack/opening/references", "DEEDS-163 good deeds", "CIVIC-163 walls/raids/population/art dialogue", "SERVICE-163 local identities", "PULSES-163 ingredient availability", "TRADE-163 labels/organization/trade/item meshes", "NAME-163 logical bow/sling identities"],
+      "sourceImplemented": [
+        "GREAT-163 dispatch",
+        "KEY-163 physical Alashiya drop/recovery",
+        "PICK-163 cues/difficulty/recipe/robber/thief/jars",
+        "LAB-163 and RELIC-163 dialogue/objective sequence",
+        "SEA-163 bounded foam wake only",
+        "MIX-163 pause sliders",
+        "GROUND-163 Pharos obsolete streamed-channel phase mismatch only",
+        "OCCUPY-163 absent friendly watch until rescue completion",
+        "GROUND-163 foundation/entrance-stair samples follow actual terrain triangles only",
+        "PULSES-163 actual lentils46/beans46 procurement and soup lessons at existing tavern counter"
+      ],
+      "next": [
+        "GROUND-163 Alashiya burial/Pharos-Tyre full geometry and per-region coverage; island size changes pending",
+        "SEA-163 obtainable captain rally horn and safe boat call",
+        "OCCUPY-163 rendered barracks/ordinary old-save acceptance",
+        "BOSS-163 Shekelesh armor/laugh/attack/opening/references",
+        "DEEDS-163 good deeds",
+        "CIVIC-163 walls/raids/population/art dialogue",
+        "SERVICE-163 local identities",
+        "PULSES-163 ingredient availability",
+        "TRADE-163 labels/organization/trade/item meshes",
+        "NAME-163 logical bow/sling identities"
+      ],
       "acceptance": "Every new request retained; none accepted solely from source checks. Current ordinary inputs, physical quest/loot/door transitions, rendered contact/audio, offline pause Save/exact reload and reference Low8–10 combat remain mandatory."
     },
     "threeFormatDelivery": {
       "status": "confirmed_by_user_via_pr29_comment_6176352988",
-      "formats": ["complete downloadable ZIP", "direct standalone HTML", "immutable private GitHub build/artifact download"],
-      "checks": ["full HTML SHA256/bytes/commit and extracted ZIP/GitHub identity", "complete archive/manifest and standalone embedded-asset startup", "actual user download accessibility/auth/expiry"],
+      "formats": [
+        "complete downloadable ZIP",
+        "direct standalone HTML",
+        "immutable private GitHub build/artifact download"
+      ],
+      "checks": [
+        "full HTML SHA256/bytes/commit and extracted ZIP/GitHub identity",
+        "complete archive/manifest and standalone embedded-asset startup",
+        "actual user download accessibility/auth/expiry"
+      ],
       "current": "Local exact ZIP/HTML/manifest inspected; startup, user-download accessibility and current GitHub build unavailable/unverified, not accepted",
       "evidence": "docs/DELIVERY_CONTRACT_20261015.md"
     },
@@ -775,10 +805,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "21adde42658b77cb4ce75ab7c521a58cc65ee344f945b1f5f2e1e3394553a10c",
-    "bytes": 38197965,
-    "sourceChecks": 183,
-    "sourceScope": "Available isolated source/executable/compile/package subset;8 new terrain-worker/occupation contracts. Actual generated worker code executes with matching chunk buffers, not browser/reference FPS. Current ordinary browser/visual/audio/Save/combat/Master gates pending; Chromium executable rechecked absent.",
+    "buildSha256": "ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617",
+    "bytes": 38202669,
+    "sourceChecks": 602,
+    "sourceScope": "Full restored local source/executable/workflow/compile/package suite602/602,7 new. Current builder exact ebc54234 and all3 inline scripts compile; repository validation baseline14e unchanged. No current browser/render/ordinary mouse/audio/Save/reference Low8–10/Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"
@@ -798,4 +828,5 @@
     "referencePerformance": "pending; CI software-rendered fresh-save observation is not acceptance"
   }
 }
+
 

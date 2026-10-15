@@ -1,0 +1,55 @@
+{
+  "id": "ground-pulses-20261015",
+  "buildSha256": "ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617",
+  "bytes": 38202669,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M4",
+    "M5"
+  ],
+  "summary": "Actual raster-based foundations/stairs; ordinary tavern dry pulse ingredients and soup lessons; exact source/baseline recovery and required-check metadata repair",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "passed": 602,
+    "failed": 0,
+    "new": 7,
+    "command": "node --test --test-concurrency=2 scripts/*.test.mjs",
+    "evidence": "verification/ground-pulses-source-tests.txt",
+    "scope": "Full restored local source/executable/workflow/compile/package suite; not remote CI or browser gameplay"
+  },
+  "repositoryValidation": {
+    "status": "passed",
+    "scope": "Build59 unchanged14e1907f,3 inline scripts; tracker/update validation, current aggregate exact builder separate",
+    "evidence": "verification/ground-pulses-repository-checks.json"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "ordinary counter purchase/lessons/active station craft/Food use; rendered foundations/stairs/entrance/return; exact offline pause Save/reload; old-save reference Low8–10 real attackers; actual Master review"
+  },
+  "recovery": {
+    "parentRebuilt": "21adde42658b77cb4ce75ab7c521a58cc65ee344f945b1f5f2e1e3394553a10c",
+    "seedSha256": "bf1405897255eeba324ca3095b49cf972bd7184b1f5f060c3dec952377a04fa1",
+    "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "initialBroadRun": "failed missing baseline; new fixture missing known scheduling dependencies corrected; final restored602 pass without assertion removal"
+  },
+  "delivery": {
+    "htmlBytes": 38202669,
+    "zipBytes": 26943775,
+    "zipSha256": "237356b6eb55e2a0e208345aa3cb9ed51e0d87dbbe639794c448bb445445db0b",
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run",
+    "githubBuildDownload": "unavailable"
+  },
+  "limitations": "Actual Alashiya terrain test footprint demonstrates3.97m raster/smooth mismatch, not evidence an actual house occupies the probe or all assets are grounded. Recipe tests use actual definitions/manual conservation, not ordinary complete active crafting acceptance. No island resizing/sea-level/global moves. No attacker/simulation/pose cuts. No slot/hour/milestone acceptance.",
+  "next": "Remaining all-region grounding/late flatten coverage, main campaign/QOL ordinary Save/arrow/grip/story and reference performance; safe existing war_horn29 owned-boat navigation extension; every120-task/M0–M5 requirement retained"
+}

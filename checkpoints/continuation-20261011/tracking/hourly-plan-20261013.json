@@ -1,27 +1,23 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T18:18:42Z",
+  "updatedAt": "2026-10-15T19:03:05Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "21adde42658b77cb4ce75ab7c521a58cc65ee344f945b1f5f2e1e3394553a10c",
-  "currentGithubBuildSha256": "adf0b867ccaa5b0980b4a67b2fde6b7b8e976790d0b5351a68ece882fea2d3e7",
-  "currentGithubHead": "e146e23976d2694965c8371bc901577244b0dde6",
+  "currentLocalBuildSha256": "ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617",
+  "currentGithubBuildSha256": "21adde42658b77cb4ce75ab7c521a58cc65ee344f945b1f5f2e1e3394553a10c",
+  "currentGithubHead": "bb51661a39235910735920219eb0f4b3635c6243",
   "publication": {
-    "state": "authorized_current_checkpoint_ready",
+    "state": "authorized_local_ready",
     "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 188,
-      "integrated": 168,
-      "unintegratedHealerReachDraft": 7,
-      "unintegratedStealthDraft": 7,
-      "scope": "Source/executable/compile only;20 unintegrated draft tests",
-      "unintegratedTrojanPrewar": 6
+      "passed": 602,
+      "scope": "Full restored local source/executable/workflow/compile/package suite,7 new; not remote/browser/reference performance acceptance"
     },
     "github": {
       "build": "4445d03c",
@@ -1672,7 +1668,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Three critical ready objectives: Pharos setup/stream height parity, actual terrain-worker dependency repair, Alashiya watch absent during occupation;183 local checks. docs/NEXT_RUN_TERRAIN_OCCUPATION_20261015.md. Full120-task/M0–M5 scope retained; source work partial, current runtime/Save/reference/Master gates blocked/pending, no slot accepted or measured-hour decrement. Existing hourly task was found paused and successfully re-enabled on user request.",
+  "currentCheckpoint": "Recovered exact seed/baseline and published source after workspace maintenance; current foundation raster correction170 and normal tavern pulse ingredients/lessons171.602/602 restored local source checks,7 new; exact current builder and package pass. Current browser/Save/reference Low8–10/Master gates pending. Full120-task/M0–M5 and increased-throughput successive-checkpoint policy retained, no slot/hour acceptance.",
   "partialSlots": [
     2,
     3,
@@ -1682,4 +1678,5 @@
     117
   ]
 }
+
 
