@@ -7,9 +7,9 @@
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2",
-  "currentGithubBuildSha256": "bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f",
-  "currentGithubHead": "b1fb9c0103c3cfe616431aab283bcd32bb445489",
+  "currentLocalBuildSha256": "b1f4f1f1f90d68a3c73c906e09d34489ccdfc0f93d12a86680e32525f3cf8a2c",
+  "currentGithubBuildSha256": "213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2",
+  "currentGithubHead": "e91d8f372388249ccbe2fb93ac84ee8b8031a471",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Identical cloth-pose cache, inclusive factory timings and failed-Continue slot preservation;92 local contracts, all exact-current runtime/reference gates pending. Canonical current evidence is docs/NEXT_RUN_CLOTH_SAVE_20261015.md; historical evidence below remains hash-scoped.",
+  "currentCheckpoint": "Direct settlement/herd threat queries and allocation-free greatsword support math;98 available local contracts, all exact-current runtime/reference gates pending. Canonical current evidence docs/NEXT_RUN_ACTOR_QUERY_20261015.md; no automatic slot advance or measured remaining-hour reduction.",
   "partialSlots": [
     2,
     3,

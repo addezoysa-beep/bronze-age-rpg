@@ -1,0 +1,15 @@
+{
+ "id":"actor-query-scratch-20261015",
+ "summary":"Direct settlement/herd spatial threat queries and reusable greatsword support-wrist math without changing candidate order, cadence, simulation, or contact tolerances",
+ "buildSha256":"b1f4f1f1f90d68a3c73c906e09d34489ccdfc0f93d12a86680e32525f3cf8a2c",
+ "bytes":38154322,
+ "milestoneIds":["M0","M1","M2","M3","M5"],
+ "masterDelivery":{"status":"pending","evidence":"Authorized private PR29 checkpoint"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":98,"failed":0,"scope":"Available isolated continuation/source/executable/compile subset, not full remote suite or gameplay acceptance","newEcologyContracts":4,"newGreatswordContracts":2},
+ "evidence":["docs/NEXT_RUN_ACTOR_QUERY_20261015.md","scripts/ecology-query.test.mjs","scripts/greatsword-scratch.test.mjs"],
+ "runtime":{"status":"pending","required":"Current ordinary Save/exact Load, natural campaign, rendered FP/TP/contact and Low reference old-save8–10 simultaneous attackers"},
+ "blockers":"Last remote jobs fail before steps/logs, cause unknown; fresh local Chromium install failed with invalid/truncated ZIP archives, executable still absent. Historical travel storage/server/arrow failures still open.",
+ "acceptedMilestones":0,
+ "next":"Running exact-hash full source/browser evidence, inspect storage traces, measure factory/actor/visual work and fix actual runtime failures"
+}

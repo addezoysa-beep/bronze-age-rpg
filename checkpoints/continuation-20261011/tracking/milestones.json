@@ -761,10 +761,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2",
-    "bytes": 38152339,
-    "sourceChecks": 92,
-    "sourceScope": "Available recovered continuation subset; full remote baseline/browser pending. Identical cloth pose cache, inclusive factory timings and failed-Continue preservation tested against active legacy functions; no runtime/FPS acceptance.",
+    "buildSha256": "b1f4f1f1f90d68a3c73c906e09d34489ccdfc0f93d12a86680e32525f3cf8a2c",
+    "bytes": 38154322,
+    "sourceChecks": 98,
+    "sourceScope": "Available recovered continuation subset; full remote baseline/browser pending. Direct ecology queries preserve exact original movement/attack results; greatsword scratch math matches actual prior rotations; no runtime/FPS acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"

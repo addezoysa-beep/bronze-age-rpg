@@ -4,12 +4,14 @@ export const greatswordPosePatch=String.raw`
    the primary palm at the final pose boundary, then orient and close the support
    wrist on the same handle without moving the weapon a second time. */
 (function(){
+ /* GREATSWORD_SCRATCH_152: exact synchronous wrist math, no per-call temporaries. */
+ const axis103=new THREE.Vector3(),sourceQ103=new THREE.Quaternion(),parentQ103=new THREE.Quaternion(),wanted103=new THREE.Quaternion(),neutral103=new THREE.Quaternion();
  function greatswordSupport103(arm,source){
   if(!arm?.userData?.wrist||!source?.visible||!source.parent)return false;
   const wrist=arm.userData.wrist;source.updateWorldMatrix(true,false);
-  const axis=DOWN_AXIS.clone().applyQuaternion(source.getWorldQuaternion(new THREE.Quaternion()));
-  axis.applyQuaternion(wrist.parent.getWorldQuaternion(new THREE.Quaternion()).invert()).normalize();
-  const wanted=new THREE.Quaternion().setFromUnitVectors(GRIP_X23,axis),neutral=new THREE.Quaternion(),angle=neutral.angleTo(wanted);
+  const axis=axis103.copy(DOWN_AXIS).applyQuaternion(source.getWorldQuaternion(sourceQ103));
+  axis.applyQuaternion(wrist.parent.getWorldQuaternion(parentQ103).invert()).normalize();
+  const wanted=wanted103.setFromUnitVectors(GRIP_X23,axis),neutral=neutral103.identity(),angle=neutral.angleTo(wanted);
   wrist.quaternion.copy(neutral).slerp(wanted,angle?Math.min(1,(PI*65/180)/angle):1).normalize();
   gripCurl100(arm.userData.palm,'greatsword',arm.userData.side59||1);arm.userData.palm.userData.greatswordSupport103=true;return true;
  }
@@ -22,3 +24,4 @@ export const greatswordPosePatch=String.raw`
  updateViewPose=function(dt){greatView103Before(dt);if(P.mode!=='swim'&&VIEW?.right&&(G.hands?.right||G.weapon)==='greatsword')finalGreatswordGrip103(VIEW.right,VIEW.left,VIEW.weapons?.greatsword);};
  Object.assign(globalThis,{greatswordSupport103,finalGreatswordGrip103});
 })();`;
+
