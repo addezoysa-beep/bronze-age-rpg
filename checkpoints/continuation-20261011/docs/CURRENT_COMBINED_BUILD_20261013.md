@@ -1,4 +1,4 @@
-Current rig/wagon candidate:efd5777c6de942109bafb0be37754dcc28b85e5f4d71b9776cf9c2b742ae00d2,38,160,659bytes.109 available local source/executable/compile checks pass; full remote/current runtime pending. Exact shared arm/palm scratch math and transactional wagon arrival/fares, no pose/attacker reduction or FPS/milestone acceptance. Authoritative handoff docs/NEXT_RUN_RIG_WAGON_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
+Current travel/save-safety candidate:2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76,38,163,737bytes.131 available local source/executable/compile checks pass; full remote/current runtime pending. Rechecked map arrivals and atomic one-parse load preserve inventory/remedies, no resource grants or performance/milestone acceptance. Authoritative handoff docs/NEXT_RUN_TRAVEL_SAVE_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
 
 # Current save-load performance checkpoint — October14
 

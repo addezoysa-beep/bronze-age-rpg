@@ -3,6 +3,13 @@
   "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "masterConversationId": "6ac9c216-df0c-83ea-ac8d-41f13f292693",
   "requirements": {
+    "threeFormatDelivery": {
+      "status": "confirmed_by_user_via_pr29_comment_6176352988",
+      "formats": ["complete downloadable ZIP", "direct standalone HTML", "immutable private GitHub build/artifact download"],
+      "checks": ["full HTML SHA256/bytes/commit and extracted ZIP/GitHub identity", "complete archive/manifest and standalone embedded-asset startup", "actual user download accessibility/auth/expiry"],
+      "current": "Local exact ZIP/HTML/manifest inspected; startup, user-download accessibility and current GitHub build unavailable/unverified, not accepted",
+      "evidence": "docs/DELIVERY_CONTRACT_20261015.md"
+    },
     "simultaneousAttackers": {
       "min": 8,
       "max": 10,
@@ -761,10 +768,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "efd5777c6de942109bafb0be37754dcc28b85e5f4d71b9776cf9c2b742ae00d2",
-    "bytes": 38160659,
-    "sourceChecks": 109,
-    "sourceScope": "Available recovered continuation subset; full remote baseline/browser pending. Exact active arm/palm scratch math and transactional paid wagon arrival/refunds tested; no runtime/FPS/visual acceptance.",
+    "buildSha256": "2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
+    "bytes": 38163737,
+    "sourceChecks": 131,
+    "sourceScope": "Available recovered continuation subset; full remote baseline/browser pending. Actual stream/landmark arrival contracts, atomic one-parse decode and preserved empty inventory/remedies; no runtime/FPS/visual acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"

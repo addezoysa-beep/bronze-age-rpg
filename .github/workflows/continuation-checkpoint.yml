@@ -30,12 +30,15 @@ jobs:
         run: node scripts/build-current.mjs
       - name: Verify complete exact game before artifact upload
         run: node scripts/verify-current-artifact.mjs
+      - name: Package and inspect complete HTML and ZIP for the same exact hash
+        run: node scripts/package-current-candidate.mjs dist/Wine-Dark-Sea-Combined-Cinematic.html
       - uses: actions/upload-artifact@v4
         with:
           name: combined-cinematic-current
           path: |
             checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
             checkpoints/continuation-20261011/dist/current-build-manifest.json
+            checkpoints/continuation-20261011/deliveries/**/*.zip
   browser-checkpoint:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
