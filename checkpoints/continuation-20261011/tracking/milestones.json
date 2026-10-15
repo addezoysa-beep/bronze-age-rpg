@@ -805,10 +805,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617",
-    "bytes": 38202669,
-    "sourceChecks": 602,
-    "sourceScope": "Full restored local source/executable/workflow/compile/package suite602/602,7 new. Current builder exact ebc54234 and all3 inline scripts compile; repository validation baseline14e unchanged. No current browser/render/ordinary mouse/audio/Save/reference Low8–10/Master acceptance.",
+    "buildSha256": "765bb3890b44d0e4e1b0287865c57a6f8d45e6319db274ae45efa4a6f8ee467a",
+    "bytes": 38207582,
+    "sourceChecks": 609,
+    "sourceScope": "Full restored local source/executable/workflow/compile/package suite609/609,7 new boat-call contracts. All3 aggregate inline scripts compile; native hull/drop/snapshot fixtures are not current browser/render/ordinary menu/audio/Save/reference Low8–10/Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"

@@ -24,6 +24,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('PAUSE_MEDIA_CONTROLS_166'));
  assert.ok(html.includes('TERRAIN_PHASE_PARITY_167'));assert.ok(html.includes('ALASHIYA_OCCUPATION_168'));assert.ok(html.includes('STREAM_WORKER_DEPENDENCIES_169'));
  assert.ok(html.includes('FOUNDATION_SURFACE_170'));assert.ok(html.includes('TAVERN_PULSES_171'));
+ assert.ok(html.includes('CAPTAIN_BOAT_CALL_172'));
  assert.ok(html.indexOf('NPC_ARROW_EMISSION_161')>html.indexOf('CONTINUATION_WATCHTOWER_SEA_FORT_V1'),'emitter context captures material before finite fort deduction');
 });
 

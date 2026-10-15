@@ -1,5 +1,7 @@
 # Exact-build three-format delivery
 
+Latest172 boat-call package supersedes the historical candidates below: HTML765bb3890b44d0e4e1b0287865c57a6f8d45e6319db274ae45efa4a6f8ee467a,38,207,582bytes; complete ZIP SHA256a9ac3f7dd8b0846b29203de160fdd7792f5d55f26d6ce7d7b0fd148755d376c6. Stored under deliveries/<full hash> with actual two-entry archive/extracted HTML/manifest identity and3 inline scripts verified. Full local suite609/609. Standalone startup/embedded decode/user access not run; immutable current GitHub-generated download unavailable, source PR not a substitute. Ordinary menu/audio/boat boarding/Save/reference performance/Master gates remain open.
+
 User requirement retained from PR29 comment6176352988: each substantive update must provide a complete ZIP, actual directly downloadable standalone HTML, and an immutable private GitHub build/artifact download for the SAME build. A source-viewer page, repository/PR homepage, foreign-chat sandbox path or manifest-only ZIP is not a substitute. Never make the repository public or bypass release review to produce a link.
 
 Three gates: content identity (full HTML SHA256/bytes/commit, extracted ZIP and generated GitHub build match); package integrity (inspect actual complete nonempty HTML+manifest and verify standalone startup/embedded assets); download accessibility (intended files resolve for the user, including private auth/expiration). Label passed/failed/not-run subchecks; source checks and Master review remain distinct. Missing outputs explicitly unavailable, no invented links.

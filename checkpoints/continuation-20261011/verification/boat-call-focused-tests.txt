@@ -1,0 +1,16 @@
+✔ existing horn menu retains company choices; clear-water call approaches continuously with actual hull checks and no player/item/money movement (11.645055ms)
+✔ planning is incremental and once per simulation timestamp; blocked channel refuses without teleport or item/fare loss (1.992759ms)
+✔ ownership/horn/seaworthiness/area/mode/race/range/dock guards preserve old saves and refuse unavailable calls (10.152283ms)
+✔ pause/menu time cannot advance a call; boarding, harbour departure, external boat move and changed game cancel without overriding destination state (9.443166ms)
+✔ new obstruction is swept before movement; turn-only frames do not emit moving wake, cancellation and repeat cooldown are bounded (3.263961ms)
+✔ native snapshot records actual in-flight boat coordinates, no generator/save-field leakage; restore cancels transient journey (2.446878ms)
+✔ actual existing horn-blower death adds the same physical horn to loot, never directly to player inventory (29.186442ms)
+✔ actual current builder preserves seed and compiles every delivered script including latest QOL modules (2395.851312ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2541.536472

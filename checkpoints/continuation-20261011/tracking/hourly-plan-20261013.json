@@ -1,23 +1,23 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T19:03:05Z",
+  "updatedAt": "2026-10-15T23:03:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617",
-  "currentGithubBuildSha256": "21adde42658b77cb4ce75ab7c521a58cc65ee344f945b1f5f2e1e3394553a10c",
-  "currentGithubHead": "bb51661a39235910735920219eb0f4b3635c6243",
+  "currentLocalBuildSha256": "765bb3890b44d0e4e1b0287865c57a6f8d45e6319db274ae45efa4a6f8ee467a",
+  "currentGithubBuildSha256": "ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617",
+  "currentGithubHead": "775db478cfc461d5e916b2bb29f9fb014ffd46f6",
   "publication": {
-    "state": "authorized_local_ready",
+    "state": "delivered_private_draft_review_pending",
     "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 602,
-      "scope": "Full restored local source/executable/workflow/compile/package suite,7 new; not remote/browser/reference performance acceptance"
+      "passed": 609,
+      "scope": "Full restored local source/executable/workflow/compile/package suite,7 new boat-call contracts; not remote/browser/reference performance acceptance"
     },
     "github": {
       "build": "4445d03c",
@@ -1668,7 +1668,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Recovered exact seed/baseline and published source after workspace maintenance; current foundation raster correction170 and normal tavern pulse ingredients/lessons171.602/602 restored local source checks,7 new; exact current builder and package pass. Current browser/Save/reference Low8–10/Master gates pending. Full120-task/M0–M5 and increased-throughput successive-checkpoint policy retained, no slot/hour acceptance.",
+  "currentCheckpoint": "172 Captain’s Rally Horn owned-boat call near actual harbours through clear direct channels; all163–171 retained.609/609 full local source checks,7 new; publication status distinguishes local765bb389 from earlier remote fallback. Ordinary acquisition/menu/boarding/audio/render/Save/reference Low8–10/Master gates pending. Full120/M0–M5 and successive ready-checkpoint policy retained; no slot/hour acceptance or measured remaining-time reduction.",
   "partialSlots": [
     2,
     3,
