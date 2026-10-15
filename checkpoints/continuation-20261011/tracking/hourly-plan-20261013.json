@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T14:46:50Z",
+  "updatedAt": "2026-10-15T17:48:09Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "dadac47586cbd6fa6edc25f9ed78551ab87620673487be8f8960334a6fdad62c",
-  "currentGithubBuildSha256": "85211cbc556ac80ef2ef7222ede769338116018551c18feb3660847faf7cc5a6",
-  "currentGithubHead": "bf26b1b197f19af6d67c84f0171c2709e76e2af6",
+  "currentLocalBuildSha256": "adf0b867ccaa5b0980b4a67b2fde6b7b8e976790d0b5351a68ece882fea2d3e7",
+  "currentGithubBuildSha256": "dadac47586cbd6fa6edc25f9ed78551ab87620673487be8f8960334a6fdad62c",
+  "currentGithubHead": "54ea0ed42a3b15877b72dfe12471d200b007fe7b",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Resumable tavern planner:128 expansions per simulation frame, no repeated same-frame budget, restart on changed context;155 local checks. docs/NEXT_RUN_BOUNDED_ROUTING_20261015.md. Cloud browser open timed out before page state; current browser/reference/Save/Master gates open. Prior slots remain partial/blocked, no new accepted slot or measured-hour decrement.",
+  "currentCheckpoint": "User13:34 feedback batch: greatsword dispatch, physical Alashiya key, easier/cued locks and plentiful picks, required Labyrinth/Delphi guidance, foam wake and pause VFX/music sliders;175 local checks. docs/NEXT_RUN_PLAYTEST_RESCUE_20261015.md. Remaining new feedback recorded in USER_PLAYTESTING_20261015.md; all runtime/Save/reference/Master gates and120 slots retained, no accepted slot or measured-hour decrement.",
   "partialSlots": [
     2,
     3,

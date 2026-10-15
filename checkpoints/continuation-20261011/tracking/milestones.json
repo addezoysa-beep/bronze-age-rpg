@@ -3,6 +3,13 @@
   "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "masterConversationId": "6ac9c216-df0c-83ea-ac8d-41f13f292693",
   "requirements": {
+    "october15Playtesting": {
+      "specification": "docs/USER_PLAYTESTING_20261015.md",
+      "status": "authorized_partial_implementation_runtime_pending",
+      "sourceImplemented": ["GREAT-163 dispatch", "KEY-163 physical Alashiya drop/recovery", "PICK-163 cues/difficulty/recipe/robber/thief/jars", "LAB-163 and RELIC-163 dialogue/objective sequence", "SEA-163 bounded foam wake only", "MIX-163 pause sliders"],
+      "next": ["GROUND-163 Alashiya/Pharos/Tyre and per-region coverage", "SEA-163 obtainable captain rally horn and safe boat call", "OCCUPY-163 barracks/soldier gating", "BOSS-163 Shekelesh armor/laugh/attack/opening/references", "DEEDS-163 good deeds", "CIVIC-163 walls/raids/population/art dialogue", "SERVICE-163 local identities", "PULSES-163 ingredient availability", "TRADE-163 labels/organization/trade/item meshes", "NAME-163 logical bow/sling identities"],
+      "acceptance": "Every new request retained; none accepted solely from source checks. Current ordinary inputs, physical quest/loot/door transitions, rendered contact/audio, offline pause Save/exact reload and reference Low8–10 combat remain mandatory."
+    },
     "threeFormatDelivery": {
       "status": "confirmed_by_user_via_pr29_comment_6176352988",
       "formats": ["complete downloadable ZIP", "direct standalone HTML", "immutable private GitHub build/artifact download"],
@@ -768,10 +775,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "dadac47586cbd6fa6edc25f9ed78551ab87620673487be8f8960334a6fdad62c",
-    "bytes": 38177972,
-    "sourceChecks": 155,
-    "sourceScope": "Available isolated continuation/source/executable/compile/package subset, including per-frame route budget/restart/disconnected-target contracts. Cloud browser opening timed out before page state; no browser/visual/Save/FPS acceptance.",
+    "buildSha256": "adf0b867ccaa5b0980b4a67b2fde6b7b8e976790d0b5351a68ece882fea2d3e7",
+    "bytes": 38192697,
+    "sourceChecks": 175,
+    "sourceScope": "Available isolated source/executable/compile/package subset;20 new playtest contracts. No current ordinary browser/visual/audio/Save/FPS acceptance; prior Cloud tab open timed out before page state, Chromium executable absent.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"
