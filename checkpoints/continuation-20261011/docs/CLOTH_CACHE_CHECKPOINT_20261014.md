@@ -1,0 +1,13 @@
+# Cloth pose cache and factory profiling
+
+Exact candidate SHA256 `806eec410655648df86e2a247ff84c8038ecb2309e2aeecfb4d472c2716465f2`,38,150,739bytes. Recovered cinematic seed, Phthia, garment conservation, helmets, integrated147 and shaft seat reuse preserved. Main campaign/QOL/core Bronze Age remain ahead of expanded Troy.
+
+Actual fitPlayerCloth38 recalculated vertices, uploaded positions and recomputed full normals at every invocation, even with identical spine matrix/stride/geometry.148 caches only exactly unchanged inputs and generated attribute versions. Matrix/stride changes, geometry/position/normal/index identity/version and cloth row/data replacement invalidate it; every changed pose runs the original implementation. No update-frequency cuts, pose quantization or larger tolerance. WeakMap avoids retaining removed garment meshes.
+
+Three executable contracts run the original delivered function with actual embedded Three.js.100 identical poses perform one normal recomputation instead of100 and have exactly matching position/normal arrays;100 changing poses recompute every time and arrays still match exactly. External geometry/attributes/data replacement and unrelated-parent behavior covered. This is structural work reduction, not measured game FPS or visual acceptance. Idle breathing/movement may change inputs and legitimately require recalculation.
+
+149 adds inclusive timings for active human rig, horse rig, enemy and dungeon factories using bounded existing146 counters. Nested factory timings must not be added together; they identify construction/restore cost rather than claiming frame/FPS improvement. Active factory arguments, results and exceptions preserved in an executable test. Actual source declares all four factories.
+
+88 available recovered continuation/source/executable/compile checks pass. All3inline scripts compile and recovered seed prefix/tail preserved. Full remote baseline suite and current-hash ordinary gameplay/Save/Load/rendered clothing/Low/reference old-save8–10 acceptance pending. Fresh local Playwright is present but Chromium1234 executable absent. Currentb1fb GitHub workflows fail before job steps/logs; cause not established. No startup or performance success carried from older hashes.
+
+Next: current full source and browser evidence when jobs run; check cloth through idle/walk/roll/crouch/attack/FP/TP/garment switches and ordinary pause Save/exact reload. Profile factory measurements and actor/visual work; diagnose actual Save persistence/server movement/arrow waits. Keep natural opening/Pan/tablet/King/Daedalus and every prior requirement. No milestone accepted and120 active-hour budget unchanged.

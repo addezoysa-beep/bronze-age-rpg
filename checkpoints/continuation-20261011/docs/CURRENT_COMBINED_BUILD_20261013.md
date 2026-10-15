@@ -1,4 +1,4 @@
-Current post-load implementation: bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f,38,148,911bytes. Offscreen wild-horse presentation budget147 is now integrated; live routes/grazing/save state unchanged. Exact weapon seat math reuses one private vector.80 recovered continuation checks pass; full current remote/browser/reference old-save8–10 performance pending. Preserved previous118 reproduced byte-for-byte; historical passes below are NOT current acceptance. See docs/POSTLOAD_POSE_CHECKPOINT_20261014.md. Expanded Troy stays lower priority, all milestones open.
+Current cloth/Continue-safety candidate:213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2,38,152,339bytes.92 available local source/executable/compile checks pass; full remote/current runtime pending. Exact unchanged-pose cache, inclusive factory timings and failed-Continue slot preservation; no measured speedup or milestone acceptance. Authoritative handoff docs/NEXT_RUN_CLOTH_SAVE_20261015.md. Prior notes below are historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
 
 # Current save-load performance checkpoint — October14
 

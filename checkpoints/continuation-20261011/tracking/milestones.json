@@ -761,10 +761,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f",
-    "bytes": 38148911,
-    "sourceChecks": 80,
-    "sourceScope": "Recovered continuation subset; full remote baseline/browser pending. New147 integrated and actual grip seat allocation checks.",
+    "buildSha256": "213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2",
+    "bytes": 38152339,
+    "sourceChecks": 92,
+    "sourceScope": "Available recovered continuation subset; full remote baseline/browser pending. Identical cloth pose cache, inclusive factory timings and failed-Continue preservation tested against active legacy functions; no runtime/FPS acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"

@@ -10,5 +10,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('GRANARY_SERVICE_142'));assert.ok(html.includes('PAN_OBJECTIVE_RECOVERY_143'));
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
+ assert.ok(html.includes('CLOTH_POSE_CACHE_148'));assert.ok(html.includes('CONTINUE_SAVE_SAFETY_150'));
  assert.ok(!html.includes('TROJAN_PREWAR_135'),'incomplete lower-priority campaign stays outside playable candidate');
 });
+

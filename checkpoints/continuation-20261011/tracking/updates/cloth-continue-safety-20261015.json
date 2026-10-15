@@ -1,0 +1,15 @@
+{
+ "id":"cloth-continue-safety-20261015",
+ "summary":"Identical cloth-input cache and factory timings plus preservation of manual slots when Continue fails; no simulation or attacker reduction",
+ "buildSha256":"213e8ca66082f30110d5fe273db03cea2d5d54381dff015faa6e05c7cd88c5f2",
+ "bytes":38152339,
+ "milestoneIds":["M0","M1","M2","M5"],
+ "masterDelivery":{"status":"pending","evidence":"Authorized private PR29 checkpoint"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":92,"failed":0,"scope":"Available recovered continuation subset; actual legacy function contracts and delivered inline compile; not full remote suite or runtime"},
+ "evidence":["docs/NEXT_RUN_CLOTH_SAVE_20261015.md","scripts/continue-save-safety.test.mjs","scripts/cloth-pose-cache.test.mjs","scripts/load-factory-profile.test.mjs"],
+ "runtime":{"status":"pending","required":"Exact-current ordinary menus/Save/exact reload, failed Continue feedback, rendered cloth/gear and reference Low old-save8–10 attackers"},
+ "blockers":"Remote jobs failed before steps/logs, cause not established; local Chromium1234 absent. Earlier saved-slot disappearance not explained by this independent failed-Continue hazard.",
+ "acceptedMilestones":0,
+ "next":"Get running full source/browser evidence, inspect storage traces, repair actual server/arrow/runtime failures and measure main/QOL performance"
+}
