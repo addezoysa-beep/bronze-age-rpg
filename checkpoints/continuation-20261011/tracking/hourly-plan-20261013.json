@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-14T15:40:20.643896+00:00",
+  "updatedAt": "2026-10-15T11:09:40Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
-  "currentGithubBuildSha256": "efd5777c6de942109bafb0be37754dcc28b85e5f4d71b9776cf9c2b742ae00d2",
-  "currentGithubHead": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+  "currentLocalBuildSha256": "dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978",
+  "currentGithubBuildSha256": "2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
+  "currentGithubHead": "1b0d7f828a23714fc3ee2f00e80edb0e822c3dbb",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Map travel safety, atomic decode, same-count terrain-cache invalidation and real ZIP/HTML packaging;131 available local contracts. Runtime/reference/three-format accessibility pending; docs/NEXT_RUN_TRAVEL_SAVE_20261015.md. No slot acceptance,3x claim or measured remaining-hour reduction.",
+  "currentCheckpoint": "Ranged rig/shared held orientation exact scratch math; version-invalidated rigid melee trail bounds.137 local contracts; docs/NEXT_RUN_WEAPON_FRAME_20261015.md; all slots/runtime/Master gates open, no measured remaining-hour reduction.",
   "partialSlots": [
     2,
     3,

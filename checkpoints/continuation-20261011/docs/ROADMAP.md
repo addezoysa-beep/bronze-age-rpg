@@ -1,4 +1,4 @@
-Current travel/save-safety candidate:2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76,38,163,737bytes.131 available local source/executable/compile checks pass; full remote/current runtime pending. Rechecked map arrivals and atomic one-parse load preserve inventory/remedies, no resource grants or performance/milestone acceptance. Authoritative handoff docs/NEXT_RUN_TRAVEL_SAVE_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
+Current weapon-frame candidate:dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978,38,169,603bytes.137 available local source/executable/compile/package checks pass; full remote/current runtime pending. Exact ranged/held transforms preserved and unchanged rigid trail bounds cached. No FPS/visual/milestone acceptance. Authoritative handoff docs/NEXT_RUN_WEAPON_FRAME_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
 
 # Prioritized Implementation Roadmap
 

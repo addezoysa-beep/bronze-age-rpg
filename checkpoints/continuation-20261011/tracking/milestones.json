@@ -768,10 +768,10 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
-    "bytes": 38163737,
-    "sourceChecks": 131,
-    "sourceScope": "Available recovered continuation subset; full remote baseline/browser pending. Actual stream/landmark arrival contracts, atomic one-parse decode and preserved empty inventory/remedies; no runtime/FPS/visual acceptance.",
+    "buildSha256": "dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978",
+    "bytes": 38169603,
+    "sourceChecks": 137,
+    "sourceScope": "Available isolated continuation/source/executable/compile/package subset; exact embedded-Three ranged/held/trail parity. No measured FPS, runtime, visual or milestone acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL,core Bronze Age,remaining delivery; expanded Troy lower"
