@@ -1,4 +1,4 @@
-Current mesh-construction candidate:426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb,38,172,569bytes.143 available local source/executable/compile/package checks pass; full remote/current runtime pending. Exact cylinder/loft geometry preserved with less repeated construction work. Scoped local Node benchmark only, not browser/world/FPS/visual acceptance. Authoritative handoff docs/NEXT_RUN_MESH_CONSTRUCTION_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
+Current service/arrow candidate:85211cbc556ac80ef2ef7222ede769338116018551c18feb3660847faf7cc5a6,38,177,340bytes.152 available local source/executable/compile/package checks pass; full remote/current runtime pending. Source-reproduced coarse tavern-edge blockage repaired and finite-fort arrow identity retained through release/recovery. No gameplay/visual/Save/FPS acceptance. Authoritative handoff docs/NEXT_RUN_SERVICE_ARROW_20261015.md. Prior notes historical/hash-scoped; main/QOL/core Bronze Age before expanded Troy.
 
 # Prioritized Implementation Roadmap
 

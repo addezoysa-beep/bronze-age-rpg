@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T12:00:30Z",
+  "updatedAt": "2026-10-15T13:16:29Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb",
-  "currentGithubBuildSha256": "dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978",
-  "currentGithubHead": "520428883f6fa2a7cac25f223ddc55f355f58473",
+  "currentLocalBuildSha256": "85211cbc556ac80ef2ef7222ede769338116018551c18feb3660847faf7cc5a6",
+  "currentGithubBuildSha256": "426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb",
+  "currentGithubHead": "136ae208bf767d12781d9c598cd6833c34093504",
   "publication": {
     "state": "authorized_current_checkpoint_ready",
     "noRetry": false
@@ -1672,7 +1672,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Cylinder transform hoisting and loft ring/radial reuse;143 local checks, exact geometry parity and scoped Node benchmark. docs/NEXT_RUN_MESH_CONSTRUCTION_20261015.md. No browser/reference/FPS/slot/Master acceptance or measured-hour reduction.",
+  "currentCheckpoint": "Swept furniture-aware tavern routes and captured finite-fort NPC arrow identity;152 local checks. docs/NEXT_RUN_SERVICE_ARROW_20261015.md. Current browser/reference/Save/Master gates remain open, no slot acceptance or measured-hour decrement.",
   "partialSlots": [
     2,
     3,

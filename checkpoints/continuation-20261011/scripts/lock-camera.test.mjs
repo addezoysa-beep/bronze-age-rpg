@@ -280,7 +280,7 @@ test('nocked bow arrows use player selection and actual NPC ammunition stock',()
  const rig=()=>({userData:{bowRig:{arrow:{geometry:null,userData:{}}}}}),playerRig=rig(),npcRig=rig(),h={bow:npcRig};c.PH.bow27=playerRig;c.ENEMIES.push({hum:h,inventory:{arrow_flint:3,arrow_wood:0}});
  assert.equal(c.bowAmmoMaterial104(c.PH),'flint');assert.equal(c.bowAmmoMaterial104(h),'flint');c.actorBow27(h);assert.equal(npcRig.userData.bowRig.arrow.geometry,'geometry:flint');
  c.G.arrowMaterial30='wood';c.poseDrawBow(playerRig,.8,true);assert.equal(playerRig.userData.bowRig.arrow.geometry,'geometry:wood');
- const plainRig=rig(),plain={bow:plainRig};c.NPCS.push({h:plain,inventory:{}});c.actorBow27(plain);assert.equal(plainRig.userData.bowRig.arrow.geometry,'geometry:wood');
+ const plainRig=rig(),plain={bow:plainRig};c.NPCS.push({h:plain,inventory:{}});c.actorBow27(plain);assert.equal(plainRig.userData.bowRig.arrow.geometry,'geometry:bronze');
  assert.ok(source.includes("p.m.geometry=arrowGeometry30(p.arrowMaterial30)"),'fired projectiles already use ammo geometry');
  assert.ok(source.includes("a.m.geometry=arrowGeometry30(a.arrowMaterial30)"),'recoverable arrows already retain ammo geometry');
 });
