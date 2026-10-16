@@ -13,17 +13,17 @@
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
   "currentLocalBuildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
-  "currentGithubBuildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
-  "currentGithubHead": "270cd99629a893d2cdbf69207ab811091fa7ef15",
+  "currentGithubBuildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
+  "currentGithubHead": "2025a31497eb9be698b81df2663d26adbd9ed530",
   "publication": {
     "state": "delivered_private_draft_review_pending",
     "pr": 29,
-    "sourceCommit": "270cd99629a893d2cdbf69207ab811091fa7ef15",
+    "sourceCommit": "2025a31497eb9be698b81df2663d26adbd9ed530",
     "draft": true,
     "merged": false,
     "workflowRunsAtSourceHead": 0,
     "status": "delivered",
-    "scope": "Source/tests/records delivered private draft. No GitHub-generated current download or full-suite/Master acceptance."
+    "scope": "Private source/tests/records delivered. Full serial718 local checks, not remote CI/browser/Master; matching GitHub-generated download unavailable."
   },
   "evidence": {
     "local": {
