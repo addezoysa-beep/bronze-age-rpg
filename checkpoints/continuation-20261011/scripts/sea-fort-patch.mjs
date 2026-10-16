@@ -30,10 +30,12 @@ export const seaFortPatch=String.raw`
   addBridge(x,z+20,x,z+8,2.7,y+.15,.55);
   // An open south gate and offset inner court create two readable firing lanes.
   fortWall(b,x-15,z-12,x-4,z-12,3.4,K.stoneD);fortWall(b,x+4,z-12,x+15,z-12,3.4,K.stoneD);
-  fortWall(b,x-15,z-12,x-15,z+13,3.4,K.stoneD);fortWall(b,x+15,z-12,x+15,z+13,3.4,K.stoneD);fortWall(b,x-15,z+13,x+15,z+13,3.4,K.stoneD);
+  // WATCHTOWER_SOUTH_GATE_178: the landing is south, so its causeway needs a
+  // matching six-metre gap in BOTH the rendered wall and collision footprint.
+  fortWall(b,x-15,z-12,x-15,z+13,3.4,K.stoneD);fortWall(b,x+15,z-12,x+15,z+13,3.4,K.stoneD);fortWall(b,x-15,z+13,x-3,z+13,3.4,K.stoneD);fortWall(b,x+3,z+13,x+15,z+13,3.4,K.stoneD);
   fortWall(b,x-4,z-2,x+8,z-2,2.1,K.woodD);
   for(const side of[-1,1]){const tx=x+side*11,tz=z+8;b.box(tx,y+1.8,tz,5,.55,5,K.stone).box(tx,y+.75,tz,4,1.5,4,K.stoneD);for(let i=0;i<5;i++)b.box(tx-side*3.2,y+.3+i*.36,tz-2+i*.62,1.25,.22,.7,K.wood);}
-  addRectRot(x-15,z+.5,.45,25,0);addRectRot(x+15,z+.5,.45,25,0);addRectRot(x,z+13,30,.45,0);addRectRot(x-9,z-2,10,.35,0);addRectRot(x+9,z-2,10,.35,0);
+  addRectRot(x-15,z+.5,.45,25,0);addRectRot(x+15,z+.5,.45,25,0);addRectRot(x-9,z+13,12,.45,0);addRectRot(x+9,z+13,12,.45,0);addRectRot(x-9,z-2,10,.35,0);addRectRot(x+9,z-2,10,.35,0);
   const chest=makeChestMesh(K.gold);chest.g.position.set(x-5,groundY(x-5,z+5),z+5);OVER.add(chest.g);SEA_FORT99.chest=chest;
   INTS.push({x:x-5,z:z+5,r:2.8,vis:()=>seaFortState99().cleared,label:()=> 'Search the watchtower command chest',act:seaFortChest99});
   const state=seaFortState99();if(!state.cleared){
@@ -52,3 +54,4 @@ export const seaFortPatch=String.raw`
  const seaFortFrame99Before=frame;frame=function(t){if(SEA_FORT99.status==='ready'&&!seaFortState99().cleared&&T_NOW>=SEA_FORT99.nextCheck){SEA_FORT99.nextCheck=T_NOW+.5;seaFortClear99();}return seaFortFrame99Before(t);};
  Object.assign(globalThis,{SEA_FORT99,roles99,seaFortState99,seaFortClear99,buildSeaFort99});
 })();`;
+

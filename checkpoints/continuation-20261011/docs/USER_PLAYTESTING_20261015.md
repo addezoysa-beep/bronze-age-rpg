@@ -1,3 +1,7 @@
+# Watchtower follow-up — October16
+
+Checkpoint178/179 is now implemented at exact local hash 1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601 (38,234,356 bytes) with647/647 full local checks and9 new tests. It fixes the inspected south landing wall/collider mismatch and adds two actual protected captive NPCs, guarded release, a grounded route to the open causeway and a once-only kin aid deed through existing Ikaria household/176 choices. Children wait at the causeway; sailing/home escort remains pending. Ordinary rendered play, full progression, pause Save/exact reload and Master review remain pending; do not accept milestones. This preserves the latest October15 order: main campaign/QOL and physical Bronze Age first; additional performance/8–10 stress lower, all prior requests retained.
+
 # User playtesting — October15,13:34 Eastern
 
 177 source implementation advances BOSS-163 only partially: actual warlord rig scale armor/crest, live encounter cinematic, earlier king naming.638 local checks; current exact update record/handoff governs. No generated laugh/custom swing or beginning visual cameo yet; actual camera/mesh/audio/ordinary Save acceptance pending.175/176 retained, hostage rescues still pending. Do not mark entire BOSS-163 or milestone complete.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T02:09:13.965Z",
+  "updatedAt": "2026-10-16T04:12:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -8,22 +8,25 @@
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
   "latestUserPriorityOverride20261015": {
-    "feedback": "Frames reportedly much better after slider; main quest/QOL/Bronze Age/all five milestones first. Performance tuning and8–10 stress lower, not removed.",
+    "feedback": "Frames reportedly much better after slider; main quest/QOL/Bronze Age/all five milestones first. Performance tuning and8\u201310 stress lower, not removed.",
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "0376a58975523abb24f41e9bd3ba1e74d8c07b0d44d61d5115d3f6f33fb9893e",
-  "currentGithubBuildSha256": "15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c",
-  "currentGithubHead": "e9fbaba0c58bdaa8c5b18f4628612f009de53bff",
+  "currentLocalBuildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
+  "currentGithubBuildSha256": "0376a58975523abb24f41e9bd3ba1e74d8c07b0d44d61d5115d3f6f33fb9893e",
+  "currentGithubHead": "031811aa7527bdaa878e8cc1aa929e716c9c78b8",
   "publication": {
-    "state": "local_checked_private_publication_pending",
+    "state": "new_local_candidate_pending_PR29_delivery",
     "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 638,
-      "scope": "Full local source/executable/workflow/compile/package suite,6new177; not browser/render/audio/ordinary Save/Master acceptance",
-      "evidence": "verification/shekelesh177-final-tests.txt"
+      "passed": 647,
+      "failed": 0,
+      "new": 9,
+      "durationMs": 44730.883868,
+      "scope": "Full local source/executable/workflow/compile/package suite at exact candidate; not ordinary browser/render/audio/manual Save/Master acceptance",
+      "evidence": "verification/watchtower179-full-tests.txt"
     },
     "github": {
       "build": "4445d03c",
@@ -45,7 +48,7 @@
     "Carry overruns forward; never waive gates to fit an hour or deadline.",
     "Every hour includes implementation with tests, evidence and durable handoff; no test-only substitute for feature production.",
     "No acceptance from definitions, fixture-only progression, source strings or old-hash evidence.",
-    "Ordinary offline pause Save/exact-position reload mandatory; keep8–10 attack-capable attackers.",
+    "Ordinary offline pause Save/exact-position reload mandatory; keep8\u201310 attack-capable attackers.",
     "Every previous120 task ID is mapped, along with latest feedback; roster numbers remain unapproved.",
     "Continue unfinished scope after120 if necessary; final release needs all current-hash acceptance and actual Master review."
   ],
@@ -1018,7 +1021,7 @@
     {
       "hour": 70,
       "allocatedActiveHours": 1,
-      "task": "Finish The Dactyl’s Veined Grotto",
+      "task": "Finish The Dactyl\u2019s Veined Grotto",
       "requiredCheck": "Same complete ordinary-play contract, distinctive geography/clues/enemies and once-only rewards",
       "originalTaskIds": [
         75
@@ -1654,12 +1657,12 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Main campaign/QOL/BronzeAge: complete Shekelesh audio/attack/opening presentation, child hostage rescue deeds, service/trade identity and physical civilization fixtures; current-build ordinary full route/Save when browser available. Performance/8–10 stress lower per user.",
+  "nextDependencyReadyWork": "Package and deliver 178/179 on fresh PR29 head; then continue main-campaign physical-item/hostage progression, main QOL/service identity, visible Bronze Age fixtures; keep ordinary pause Save/exact reload gates open.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
     "Carry arrow held-nock, remedy reload and travel failures forward with diagnostics",
-    "Core Bronze Age household/city/authority/physical records and remaining M0–M5 production; expanded Troy and further performance/8–10 stress lower but retained"
+    "Core Bronze Age household/city/authority/physical records and remaining M0\u2013M5 production; expanded Troy and further performance/8\u201310 stress lower but retained"
   ],
   "lastExecutionPerformanceCheckpoint": {
     "partialSlots": [
@@ -1674,7 +1677,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "177 Shekelesh articulated scale cuirass/crest, actual boss encounter cinematic and earlier king naming. Native physical ward/attack/damage/quest/rewards unchanged. Cancellable, completion-only seen marker, bounded retry and combat/visibility/LOS guards.638local checks. Main/QOL/BronzeAge first; full120/M0–M5 retained, no slot/hour/milestone acceptance. Laugh/custom swing/opening visual cameo and rendered/ordinary Save gates remain open.",
+  "currentCheckpoint": "178/179 implemented locally: corrected actual Watchtower south landing gap/collider; added Thaleia/Mikon child captives, barred pen and guarded ordinary release, collision-aware grounded route to open causeway, plus once-only household kin/resource deed composed over native 176 dialogue. Full 647/647 local source/executable/workflow/compile/package checks pass; 9 new. Ordinary approach/render/route/manual Save/exact reload and Master acceptance pending. Children wait at causeway; no home transport. Preserve full120/M0\u2013M5, main/QOL/BronzeAge first; performance/8\u201310 stress lower but retained; no slots or milestones accepted.",
   "partialSlots": [
     2,
     3,
@@ -1684,5 +1687,3 @@
     117
   ]
 }
-
-

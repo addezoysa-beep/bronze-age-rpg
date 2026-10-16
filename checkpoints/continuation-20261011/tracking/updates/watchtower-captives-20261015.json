@@ -1,0 +1,45 @@
+{
+  "id": "watchtower-captives-20261015",
+  "buildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
+  "bytes": 38234356,
+  "milestoneIds": [
+    "M0",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "summary": "Correct actual Watchtower south landing wall/collision gap, then add two real protected child captives with barred pen, garrison-clear release, grounded causeway route and once-only Ikaria kin recognition",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 647,
+    "failed": 0,
+    "new": 9,
+    "durationMs": 44730.883868,
+    "scope": "Full local source/executable/workflow/compile/package suite; exact candidate hash, not rendered browser/runtime or ordinary Save acceptance",
+    "evidence": "verification/watchtower179-full-tests.txt"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "ordinary Ikaria household clue, natural Watchtower landing/ascent/south gate/garrison combat/pen release, both children reaching causeway, kin reward/journal/obstruction, ordinary pause Save/exact reload at each phase and old save"
+  },
+  "limits": "One optional two-child rescue at existing Watchtower Isle, not all forts/all requested deeds. Children remain at the open causeway awaiting passage; no invented return-home/boat boarding or across-sea teleport. No main quest flag/physical relic/inventory grant on reading, forced input, player movement or automatic Save. Native protected-child convention, actual garrison clear and callback revalidation retained. Full120/M0–M5/all prior production and remaining Shekelesh audio/swing/opening scope stay open. Further performance/8–10 stress lower per user, retained. Source/geometry fixtures not visual/global navigation or whole-milestone acceptance.",
+  "next": "docs/NEXT_RUN_WATCHTOWER_RESCUE_20261015.md",
+  "package": {
+    "status": "passed",
+    "htmlSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
+    "bytes": 38234356,
+    "zipSha256": "f7a5e4e6841a6ca4b70d3d2ce6ddb03206da209cb3a4cbbb1dcb9cb70a748597",
+    "archiveEntries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "browserRuntime": "blocked: Playwright package is available but Chromium executable is absent"
+  }
+}\n
