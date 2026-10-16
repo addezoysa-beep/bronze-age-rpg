@@ -829,7 +829,13 @@
     "sourceScope": "647/647 full local source/executable/workflow/compile/package checks; nine new watchtower landing/captive-rescue checks. Ordinary browser, complete route, rendered child/terrain contact, audio, manual pause Save/exact reload and Master acceptance remain pending.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
-    "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower"
+    "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
+    "masterDelivery": {
+      "pr": 29,
+      "head": "7076187a41b04f63c654635207401a21bc861c4f",
+      "draft": true,
+      "merged": false
+    }
   },
   "saveLoadPerformance146": {
     "priority": "Critical main-campaign/QOL before expanded Troy",

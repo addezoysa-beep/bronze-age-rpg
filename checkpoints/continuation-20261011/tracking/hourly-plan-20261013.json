@@ -13,11 +13,16 @@
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
   "currentLocalBuildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
-  "currentGithubBuildSha256": "0376a58975523abb24f41e9bd3ba1e74d8c07b0d44d61d5115d3f6f33fb9893e",
-  "currentGithubHead": "031811aa7527bdaa878e8cc1aa929e716c9c78b8",
+  "currentGithubBuildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
+  "currentGithubHead": "7076187a41b04f63c654635207401a21bc861c4f",
   "publication": {
-    "state": "new_local_candidate_pending_PR29_delivery",
-    "noRetry": false
+    "state": "delivered_private_draft_review_pending",
+    "pr": 29,
+    "branch": "checkpoint/authorized-continuation-20261011",
+    "head": "7076187a41b04f63c654635207401a21bc861c4f",
+    "draft": true,
+    "merged": false,
+    "workflowRunsAtHead": 0
   },
   "evidence": {
     "local": {
@@ -29,14 +34,11 @@
       "evidence": "verification/watchtower179-full-tests.txt"
     },
     "github": {
-      "build": "4445d03c",
-      "sourcePassed": 383,
-      "lockBrowser": "passed scoped scenario",
-      "panBrowser": "failed stale cleared-bandit fixture; correction local",
-      "gripBrowser": "failed wrist anchor distance",
-      "remedyBrowser": "failed story-gated healer; source correction local",
-      "arrowBrowser": "failed before damage; input/fixture triage pending",
-      "travelBrowser": "failed"
+      "pr": 29,
+      "head": "7076187a41b04f63c654635207401a21bc861c4f",
+      "state": "open_draft_unmerged",
+      "workflowRunsAtHead": 0,
+      "ci": "not_run_for_[skip_ci]_checkpoint_commit"
     }
   },
   "policy": [
