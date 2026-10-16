@@ -53,7 +53,7 @@ export const rangedPresentationPatch=String.raw`
    previews use the same animated construction, not the held item's old mesh. */
 (function(){
  function playerBowKey210(){for(const key of[G.handItems48?.right,G.handItems?.right])if(/^bow_/.test(key||''))return key;return 'bow_'+(G.weaponMaterials?.bow||'wood');}
- function bowKey210(h){if(h===PH)return playerBowKey210();const n=bowOwner104(h),k=Object.keys(n?.inventory||{}).find(k=>k.startsWith('bow_')&&n.inventory[k]>0);return k||'bow_'+(n?.weaponMaterial||'wood');}
+ function bowKey210(h){if(h===PH)return playerBowKey210();const n=bowOwner104(h),cargo=n&&(n._party||G.world?.followers?.includes(n.name))&&G.logistics?.followers?.[n.name],equipped=cargo?.weapon;if(/^bow_/.test(equipped||'')&&cargo.items?.[equipped]>0)return equipped;const stock=n?.inventory||{},material=n?.weaponMaterial&&'bow_'+n.weaponMaterial;if(material&&stock[material]>0)return material;const k=Object.keys(stock).find(k=>k.startsWith('bow_')&&stock[k]>0);return k||'bow_'+(n?.weaponMaterial||'wood');}
  function applyBowConstruction210(g,key){const rig=g?.userData?.bowRig,p=rangedConstruction208(key)||rangedConstruction208('bow_wood');if(!rig||g.userData.bowConstructionKey210===p.key)return false;
   if(p.composite&&!rig.horn210)rig.horn210=rig.segments.map(({sign,limb})=>{const m=animalPart(b=>anatomyLoft(b,[[0,0,.027,.022,.006],[0,sign*.19,.009,.020,.006],[0,sign*.4,-.037,.014,.005],[0,sign*.58,-.100,.006,.004]],'y',K.bone,12));limb.add(m);return m;});
   for(const m of rig.horn210||[])m.visible=p.composite;g.userData.bowConstructionKey210=p.key;g.userData.bowConstruction210=p.composite?'wood-and-horn':'wood';return true;
