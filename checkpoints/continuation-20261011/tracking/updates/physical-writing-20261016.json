@@ -9,8 +9,10 @@
   ],
   "summary": "Distinct existing regional writing artifacts, correct tracing exemplars and educational chronology/material context, guarded native scribe/DOM transactions while retaining actual four physical relics and ward",
   "masterDelivery": {
-    "status": "pending",
-    "pullRequest": 29
+    "status": "delivered",
+    "pullRequest": 29,
+    "sourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780",
+    "evidence": "Private draft PR29 source commit 2932625edba68a51adae1c98976a8fe801f1b780; PR description updated successfully. Open/draft/unmerged,0 associated current source-head Actions runs; no runtime/Master acceptance."
   },
   "masterReview": {
     "status": "pending"
@@ -63,7 +65,8 @@
     "latestJobObservation": "38711529714 Offline browser smoke and Repository checks failed with empty step arrays; annotations endpoint unsupported by GitHub fetch. Earlier runner/account restriction retained, no retry or permissions/account change.",
     "currentParentHead": "80b73f7f6d43d00af87544d81ba08affac137e76",
     "workflowRunsAtParentHead": 0,
-    "schedule": "Existing recurring continuation verified enabled; no new automation or schedule change"
+    "schedule": "Existing recurring continuation verified enabled; no new automation or schedule change",
+    "workflowRunsAtSourceHead": 0
   },
   "limits": "Original enlarged schematic geometry, not reproduced font/artifact outlines or rendered palaeographic acceptance. Clay/fiber native practice remains explicitly classroom-only; final phrase game glosses not literal translations. No new writing minigame, movement/save schema/quest item/ward/cost/focus/reward change. Prior175–182 and all120/M0–M5 retained, no milestone accepted. Child home transport, boss laugh/cameo, region grounding and shared service saved-key migration pending; main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower retained.",
   "next": "docs/NEXT_RUN_WRITING_20261016.md",

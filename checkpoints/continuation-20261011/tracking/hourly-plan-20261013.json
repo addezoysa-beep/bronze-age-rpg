@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T06:13:26.686Z",
+  "updatedAt": "2026-10-16T06:17:38.895Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -13,14 +13,15 @@
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
   "currentLocalBuildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
-  "currentGithubBuildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
-  "currentGithubHead": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
+  "currentGithubBuildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+  "currentGithubHead": "2932625edba68a51adae1c98976a8fe801f1b780",
   "publication": {
-    "state": "local_checks_passed_delivery_pending",
+    "state": "delivered_private_draft_review_pending",
     "pr": 29,
+    "sourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780",
     "draft": true,
     "merged": false,
-    "previousSourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7"
+    "workflowRunsAtSourceHead": 0
   },
   "evidence": {
     "local": {
@@ -33,8 +34,8 @@
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
-      "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+      "sourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780",
+      "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
       "state": "open_draft_unmerged",
       "workflowRunsAtSourceHead": 0,
       "ci": "not_run_[skip_ci]_checkpoint_under_recorded_external_runner_restriction",
@@ -1198,10 +1199,11 @@
       "originalTaskIds": [
         103
       ],
-      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "workStatus": "partial",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred.",
+      "implementationEvidence": "183–185 physical artifact/context/native lesson safety;677 full local checks,13new at fd6db44e, tracking/updates/physical-writing-20261016.json. Shared prepare/inscribe/read action/prop contact, ordinary lesson/puzzle/Save/render/history coverage remains incomplete; no action count or slot acceptance."
     },
     {
       "hour": 85,
@@ -1665,7 +1667,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Continue main campaign/QOL and core physical Bronze Age production: remaining Shekelesh laugh/opening/actual rescue route, grounded civic/monument/records fixtures and conservative shared Egypt/Luxor/Valley saved service identity migration. Current ordinary menus/full story/pause Save/exact reload/render/Master gates remain pending while runtime blocked. Further performance/8–10 stress lower, retained. Provisional120-hour allocation is not a measured completion ETA.",
+  "nextDependencyReadyWork": "Current main-route ordinary menus/crashes/offline pause Save/exact reload if a working browser becomes available; retain blocked gates and avoid repeated hung downloads/restricted matrices. Continue remaining main rescue/home transport, Shekelesh laugh/opening cameo/rendered swing and core physical Bronze Age city/authority/records production. Four-school artifact/context/lesson source checkpoint183–185 already integrated; do not duplicate. Conservative shared saved-service identity migration remains open. All120/M0–M5 retained, performance/8–10 and expanded Troy lower. Remaining120-active-hour allocation is not a measured completion ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1685,14 +1687,15 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "180 local service display identities preserving legacy keys;181 current cloth/healer/arms native menu revalidation and conservation, including remedy/arrow/commission submenus;182 real Shekelesh axe wind/contact/recovery using existing player forms3/5 and native hit/throw logic.664 full local checks pass,17 new across three source checkpoints. Ordinary rendered menus/story/combat/Save/reload and Master acceptance pending; no milestone/hour accepted. Legacy shared Egypt/Luxor/Valley identity migration, laugh/opening cameo/home transport remain open. Full120/every prior requirement retained.",
+  "currentCheckpoint": "183 existing regional school artifact production;184 correct native tracing exemplars and researched material/chronology context;185 actual native scribe/DOM stale-transaction safety.677 full LOCAL source/executable/workflow/compile/package checks pass,13new. Exact HTML/ZIP identity passed, source delivered to PR29. Ordinary rendered school/main-route/Save/exact reload/Master acceptance pending; no slot/hour/milestone accepted. Native physical relics/ward/cost/focus rules and prior175–182 retained. Full120/every prior requirement preserved.",
   "partialSlots": [
     2,
     3,
     4,
     22,
     62,
-    117
+    117,
+    84
   ],
   "physicalWriting183185": {
     "status": "implemented_runtime_pending",
