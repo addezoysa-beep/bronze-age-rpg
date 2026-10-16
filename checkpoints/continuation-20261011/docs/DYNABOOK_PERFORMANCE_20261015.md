@@ -1,5 +1,9 @@
 # Urgent low-end performance feedback
 
+174 continuation removes temporary coordinate arrays from native192-slot combat particle updates and the per-frame Very-low combined animal list without changing results/thresholds. Exact native float/state/attribute-version and culling parity fixtures, final VFX/alert composition and fail-closed seed anchors added. See docs/NEXT_RUN_ALLOCATION_20261015.md and exact update record for current full-suite/package/publication. This bounded allocation optimization is not a measured reference-device FPS gain or dominant-stall diagnosis.
+
+Delivered source to private draft PR29 head7252e2b94fa690871594ff2706fc7156e0132e05, exact6aa6095b; full616 local checks and complete HTML/ZIP identity pass. PR body actual head/draft/unmerged verified. Post-delivery metadata local; review remains pending. CI explicitly skipped under recorded runner restriction, not a pass; no repeated blocked remote matrices. Current user receives complete local HTML/ZIP, third immutable generated GitHub download unavailable. Resume actual profile/ordinary gates, not duplicate173.
+
 User reports a later release running around1–2FPS on a very low-end Dynabook. Exact release hash, device CPU/GPU/RAM, browser, screen size and representative save are unknown; do not infer which bottleneck or device driver is responsible. Treat as critical alongside existing Save/load/Low8–10 work. Preserve hourly updates/full120/M0–M5/main campaign and all expansions; extended Troy remains lower priority.
 
 Source findings: feedbackMenuStable111 replaced graphicsMenu28 with no-op and removed existing graphics rows/buttons. Native adaptive perf ignores dt>.12seconds, although actual frame() passes real RAF intervals separately from bounded simulation dt. Thus a1–2FPS stream is excluded from adaptation rather than triggering relief. These are inspected code defects, not a rendered diagnosis of the Dynabook.

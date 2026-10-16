@@ -1,23 +1,23 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-15T23:19:01Z",
+  "updatedAt": "2026-10-16T00:00:23Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
   "measuredHoursCompleted": null,
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
-  "currentLocalBuildSha256": "6aa6095bb9d6a52836c28a6897d4c580c94bbd6fada8c582fd810bf310bc2671",
-  "currentGithubBuildSha256": "765bb3890b44d0e4e1b0287865c57a6f8d45e6319db274ae45efa4a6f8ee467a",
-  "currentGithubHead": "3b518d78b01a6d483a403f89aafe02e35e4bf872",
+  "currentLocalBuildSha256": "72a439f0cba311b2c2aafc70590518d130c4d1f2cbf9a78b82d327e3d52ae673",
+  "currentGithubBuildSha256": "6aa6095bb9d6a52836c28a6897d4c580c94bbd6fada8c582fd810bf310bc2671",
+  "currentGithubHead": "7252e2b94fa690871594ff2706fc7156e0132e05",
   "publication": {
     "state": "delivered_private_draft_review_pending",
     "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 616,
-      "scope": "Full local source/executable/workflow/compile/package suite,7 new graphics/adaptive contracts; not remote/browser/Dynabook/reference performance acceptance"
+      "passed": 620,
+      "scope": "Full local source/executable/workflow/compile/package suite,4new particle/culling allocation parity contracts; not remote/browser/Dynabook/reference performance acceptance"
     },
     "github": {
       "build": "4445d03c",
@@ -1668,7 +1668,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Urgent Dynabook1–2FPS feedback173: restored visible title/pause graphics slider beside music/VFX; fixed adaptive quality discarding frames over120ms; device preference persistence and native visual tiers, no new simulation/attacker cuts.616/616 local checks,7new; no measured hardware FPS improvement. All163–172 retained. Ordinary controls/Save/reference old-save Low8–10/Master gates remain pending; full120/M0–M5 retained, no slot/hour acceptance or measured ETA reduction.",
+  "currentCheckpoint": "174 removes per-live-particle coordinate array, attribute-name list and Very-low concatenated animal-list allocations with exact native state/visibility parity.620/620local checks,4new. Retains173 graphics/adaptive repair and all163–172; no effect/attacker/AI/simulation reductions or measured hardware FPS gain. Ordinary controls/Save/reference old-save Low8–10/Dynabook/Master gates pending; full120/M0–M5 retained, no slot/hour acceptance or measured ETA reduction.",
   "partialSlots": [
     2,
     3,

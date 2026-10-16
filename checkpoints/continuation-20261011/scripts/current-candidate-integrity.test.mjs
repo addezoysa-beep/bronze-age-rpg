@@ -9,6 +9,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  for(const marker of ['CLOTHING_MENU_133','PHTHIA_REGION_134','PLAYER_HELMET_ORNAMENT_136','RESOURCE_DIRECTIONS_137','WORKPLACE_ROUTING_138','COURT_WORK_ANCHORS_139','ZIGGURAT_ACCESS_140','TROY_WALL_ACCESS_141'])assert.ok(html.includes(marker),marker);
  assert.ok(html.includes('GRANARY_SERVICE_142'));assert.ok(html.includes('PAN_OBJECTIVE_RECOVERY_143'));
  assert.ok(html.includes('GRAPHICS_WORKLOAD_173'));
+ assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
  assert.ok(html.includes('CLOTH_POSE_CACHE_148'));assert.ok(html.includes('CONTINUE_SAVE_SAFETY_150'));

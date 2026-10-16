@@ -4,7 +4,7 @@
  "bytes":38211815,
  "milestoneIds":["M0","M1","M5"],
  "summary":"Urgent Dynabook1–2FPS report: restore visible graphics workload slider on title and beside pause music/VFX, device persistence and adaptive slow-frame cutoff repair",
- "masterDelivery":{"status":"pending"},
+ "masterDelivery":{"status":"delivered","commit":"7252e2b94fa690871594ff2706fc7156e0132e05","evidence":"https://github.com/addezoysa-beep/bronze-age-rpg/pull/29"},
  "masterReview":{"status":"pending"},
  "localChecks":{"passed":616,"failed":0,"new":7,"durationMs":31407.787708,"evidence":"verification/dynabook173-full-tests.txt","scope":"Full local source/executable/workflow/compile/package suite plus native graphics/DOM and adaptive timing fixtures; not browser/hardware FPS acceptance"},
  "repositoryValidation":{"status":"passed","baselineUnchanged":true,"scope":"original baseline14e,3 inline scripts,6milestones,69update records; exact aggregate rebuild separate passed"},

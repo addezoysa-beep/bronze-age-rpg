@@ -1,0 +1,13 @@
+✔ actual current builder preserves seed and compiles every delivered script including latest QOL modules (1475.163169ms)
+✔ 192-particle mixed live/expired/alert updates preserve every float, lifetime, flag and attribute version while eliminating coordinate-array submissions (10.509687ms)
+✔ native cull order/visibility/nearby attack-capable actors unchanged for all distances, party/ship/area/modes without merged animal array (5.75683ms)
+✔ existing final decorative VFX wrapper still composes after optimized particle base without hiding alerts (1.316189ms)
+✔ changed native anchors fail closed instead of silently omitting behavior (106.607261ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1574.840402
