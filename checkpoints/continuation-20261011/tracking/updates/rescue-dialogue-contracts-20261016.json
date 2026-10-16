@@ -8,8 +8,10 @@
   ],
   "summary": "Guard actual Proteus/Kadmos completion and stale menus, physical readable sea chart with storage-safe explicit legacy recovery, idempotent Erigone actor/seal release with current-save/boss/cage/physical relic completion gates; no home escort/new ending",
   "masterDelivery": {
-    "status": "pending",
-    "pullRequest": 29
+    "status": "delivered",
+    "pullRequest": 29,
+    "sourceCommit": "270cd99629a893d2cdbf69207ab811091fa7ef15",
+    "evidence": "Private draft PR29 source 270cd99629a893d2cdbf69207ab811091fa7ef15 successfully advanced by expected-head lease; description updated with scoped87/full-baseline-blocked distinction. No merge/release/Master acceptance."
   },
   "masterReview": {
     "status": "pending"

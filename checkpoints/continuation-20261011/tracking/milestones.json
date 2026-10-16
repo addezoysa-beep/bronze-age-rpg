@@ -849,8 +849,9 @@
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "pending",
+      "status": "delivered",
       "pr": 29,
+      "sourceCommit": "270cd99629a893d2cdbf69207ab811091fa7ef15",
       "draft": true,
       "merged": false
     },
