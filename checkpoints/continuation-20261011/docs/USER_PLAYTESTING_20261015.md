@@ -1,3 +1,7 @@
+# Shekelesh attack follow-up — October16
+
+182 partially advances BOSS-163: actual native boss axe blows now use existing shared player forms through wind/contact/recovery, excluding native projectile bursts. Native attack/damage/timing/ward/reward/quest logic remains unchanged. Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5 has664/664 local checks,17new this run with180/181. Rendered animation/hand/armor contact, full boss/princess route, laugh/opening cameo and ordinary Save/exact reload remain pending; no whole BOSS-163 or milestone acceptance. All service/economy/identity/region and prior full120 requirements retained.
+
 # Service follow-up — October16
 
 180/181 advances SERVICE-163/QOL partially: actual local display names in native service dialogue/labels/directions and guarded cloth/healer/arms choices, including existing remedy and greatsword submenus.659 local checks pass,12new; source fixtures are not ordinary browser/manual Save/Master acceptance. Stable legacy save names remain intact; newly inspected Egypt/Luxor/Valley shared-key collision remains open for deliberate migration. Stock/city tiers/complete regional identity coverage and all prior requests remain retained. See docs/NEXT_RUN_SERVICE_QOL_20261016.md.

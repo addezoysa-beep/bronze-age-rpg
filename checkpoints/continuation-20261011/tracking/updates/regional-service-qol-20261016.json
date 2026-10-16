@@ -10,7 +10,10 @@
   ],
   "summary": "Distinct visible local cloth/healer/arms cast at inspected service hubs while retaining legacy save identity; guarded native service choices, nested remedies/arrows/patterns and greatsword commissions",
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "evidence": "Private draft PR29 source 3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85 and updated PR description; open/unmerged. No current-head Actions pass claimed.",
+    "pullRequest": 29,
+    "sourceCommit": "3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85"
   },
   "masterReview": {
     "status": "pending"

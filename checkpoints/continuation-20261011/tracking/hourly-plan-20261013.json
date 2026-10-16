@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T05:12:15.358Z",
+  "updatedAt": "2026-10-16T05:22:52.959Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,21 +12,21 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
-  "currentGithubBuildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
-  "currentGithubHead": "b0e166993c0107c7b0d9687c7ef6ffbc65867a81",
+  "currentLocalBuildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+  "currentGithubBuildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
+  "currentGithubHead": "3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85",
   "publication": {
-    "state": "local_candidate_pending_private_PR29_delivery",
+    "state": "new_local182_candidate_pending_private_PR29_delivery",
     "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 659,
+      "passed": 664,
       "failed": 0,
-      "new": 12,
-      "evidence": "verification/service181-full-tests.txt",
-      "durationMs": 37781.497463,
-      "scope": "Full local source/executable/workflow/compile/package suite; native source DOM callback fixtures, not ordinary rendered browser/manual Save/Master acceptance"
+      "new": 17,
+      "durationMs": 37203.093525,
+      "evidence": "verification/shekelesh182-full-tests.txt",
+      "scope": "Full local source/executable/workflow/compile/package suite; actual native enemyAttack/embedded Three shared target fixtures for182, not ordinary browser/render/contact/manual Save/Master acceptance"
     },
     "github": {
       "pr": 29,
@@ -297,7 +297,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 14,
@@ -504,7 +504,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 30,
@@ -542,7 +542,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 33,
@@ -593,7 +593,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 37,
@@ -1193,9 +1193,10 @@
       "originalTaskIds": [
         103
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 85,
@@ -1516,7 +1517,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 111,
@@ -1550,9 +1551,10 @@
       "originalTaskIds": [
         114
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 114,
@@ -1565,7 +1567,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
     },
     {
       "hour": 115,
@@ -1658,7 +1660,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Finish exact181 package/source delivery, then main campaign/QOL and physical Bronze Age fixtures; resolve inspected shared service save identity conservatively using actual checkpoint/death/cargo/order records, and current-build ordinary Save/full route when runtime available. Further performance/8–10 stress lower but retained.",
+  "nextDependencyReadyWork": "Deliver exact182 HTML/ZIP/source evidence; then main story/QOL and core visible Bronze Age fixtures. Continue remaining Shekelesh audio/opening/rescue route and deliberate legacy service identity migration, with ordinary current-build menus/full story/manual Save/exact reload when runtime available. Further performance and8–10 stress lower, retained. Remaining120-hour allocation is provisional, not measured ETA/completed work.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1678,7 +1680,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "180 authored visible local service identities at inspected hubs, original save names/actors/stock and name-based dialogue hooks preserved;181 actual cloth/heal/arms ordinary choice revalidation, nested remedies/arrows/lessons/commissions, no duplicated wrapper growth.659 local checks,12new; current rendered/UI/manual Save/old-save/Master acceptance pending. Shared legacy Egypt/Luxor/Valley saved-name collision identified and retained open for separate migration. All prior178/179 and120/M0–M5 preserved, no slot accepted.",
+  "currentCheckpoint": "180 local service display identities preserving legacy keys;181 current cloth/healer/arms native menu revalidation and conservation, including remedy/arrow/commission submenus;182 real Shekelesh axe wind/contact/recovery using existing player forms3/5 and native hit/throw logic.664 full local checks pass,17 new across three source checkpoints. Ordinary rendered menus/story/combat/Save/reload and Master acceptance pending; no milestone/hour accepted. Legacy shared Egypt/Luxor/Valley identity migration, laugh/opening cameo/home transport remain open. Full120/every prior requirement retained.",
   "partialSlots": [
     2,
     3,

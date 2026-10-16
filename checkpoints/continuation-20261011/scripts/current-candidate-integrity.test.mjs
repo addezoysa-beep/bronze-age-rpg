@@ -14,6 +14,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('SHEKELESH_PRESENTATION_177'));
  assert.ok(html.includes('WATCHTOWER_SOUTH_GATE_178'));assert.ok(html.includes('WATCHTOWER_CAPTIVES_179'));
  assert.ok(html.includes('REGIONAL_SERVICE_IDENTITIES_180'));assert.ok(html.includes('SERVICE_INTERACTION_GUARD_181'));
+ assert.ok(html.includes('SHEKELESH_SHARED_SWING_182'));
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));

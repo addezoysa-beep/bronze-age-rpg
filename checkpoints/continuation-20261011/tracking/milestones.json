@@ -825,22 +825,28 @@
       "buildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
       "sourceScope": "Local display cast and native service callback reach guards; legacy save names retained. Shared Egypt/Luxor/Valley identity collision remains pending; see exact record.",
       "next": "Ordinary representative service menus, map/nearby labels, acquisition/commissions/learning and offline pause Save/exact reload. Separate evidence-led identity migration without moving player/recruits or duplicating cargo/orders."
+    },
+    "shekeleshSharedSwing182": {
+      "id": "shekelesh-shared-swing-20261016",
+      "status": "implemented_source_verified_runtime_pending",
+      "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+      "scope": "Existing player axe forms3/5 tied to native boss wind/hit/recovery; native damage/throw/ward/reward logic retained. Rendered contact/laugh/opening appearance/full boss route and ordinary Save remain pending."
     }
   },
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
-    "bytes": 38242719,
-    "sourceChecks": 659,
-    "sourceScope": "659/659 full local source/executable/workflow/compile/package checks,12 new local display identity and native service-menu availability/conservation checks. Ordinary rendered controls/full route/manual Save/exact reload and Master acceptance pending.",
+    "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+    "bytes": 38244580,
+    "sourceChecks": 664,
+    "sourceScope": "664/664 full local source/executable/workflow/compile/package checks;17 new this run (12 service180/181,5 Shekelesh182). Current rendered ordinary controls/full route/manual Save/exact reload/audio/performance/Master acceptance pending.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "pending",
       "pr": 29,
-      "parentHead": "b0e166993c0107c7b0d9687c7ef6ffbc65867a81"
+      "parentHead": "3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85"
     }
   },
   "saveLoadPerformance146": {
