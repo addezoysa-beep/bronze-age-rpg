@@ -1,3 +1,7 @@
+# Current180/181 package
+
+Exact HTML 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020,38,242,719bytes;659/659 full local checks. Complete HTML/manifest ZIP SHA256 3cf886d3a052515c98c4fecc536d9ec549a97da78e2faad819a9d032355d2525 has exactly two entries; actual extracted HTML/hash/bytes/manifest/inline compilation pass. Standalone startup, embedded decoding, user download accessibility and immutable current GitHub-generated download remain not run/unavailable. Native source callback fixtures do not accept ordinary browser/Save/render/Master gates. Earlier packages below are historical.
+
 # Exact-build three-format delivery
 
 Newest175–176 main-quest/household candidate: HTML15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c,38,221,804bytes; complete ZIP SHA2564d7b40f19ef93300f77cd567155355e95d9833ad924fe7d72cfe61b97ed6fa32. Actual two archive entries/extracted HTML/manifest and3 inline compile verified;632/632local checks. Startup/embedded decode/user download access not run, current generated GitHub download unavailable; private source PR is not third artifact. All prior candidates below historical fallbacks.

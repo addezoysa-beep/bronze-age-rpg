@@ -1,3 +1,7 @@
+# Service follow-up — October16
+
+180/181 advances SERVICE-163/QOL partially: actual local display names in native service dialogue/labels/directions and guarded cloth/healer/arms choices, including existing remedy and greatsword submenus.659 local checks pass,12new; source fixtures are not ordinary browser/manual Save/Master acceptance. Stable legacy save names remain intact; newly inspected Egypt/Luxor/Valley shared-key collision remains open for deliberate migration. Stock/city tiers/complete regional identity coverage and all prior requests remain retained. See docs/NEXT_RUN_SERVICE_QOL_20261016.md.
+
 # Watchtower follow-up — October16
 
 Checkpoint178/179 is now implemented at exact local hash 1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601 (38,234,356 bytes) with647/647 full local checks and9 new tests. It fixes the inspected south landing wall/collider mismatch and adds two actual protected captive NPCs, guarded release, a grounded route to the open causeway and a once-only kin aid deed through existing Ikaria household/176 choices. Children wait at the causeway; sailing/home escort remains pending. Ordinary rendered play, full progression, pause Save/exact reload and Master review remain pending; do not accept milestones. This preserves the latest October15 order: main campaign/QOL and physical Bronze Age first; additional performance/8–10 stress lower, all prior requests retained.

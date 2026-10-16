@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T04:12:00Z",
+  "updatedAt": "2026-10-16T05:12:15.358Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -8,30 +8,25 @@
   "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
   "allMilestonesAccepted": false,
   "latestUserPriorityOverride20261015": {
-    "feedback": "Frames reportedly much better after slider; main quest/QOL/Bronze Age/all five milestones first. Performance tuning and8\u201310 stress lower, not removed.",
+    "feedback": "Frames reportedly much better after slider; main quest/QOL/Bronze Age/all five milestones first. Performance tuning and8–10 stress lower, not removed.",
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
+  "currentLocalBuildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
   "currentGithubBuildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
-  "currentGithubHead": "7076187a41b04f63c654635207401a21bc861c4f",
+  "currentGithubHead": "b0e166993c0107c7b0d9687c7ef6ffbc65867a81",
   "publication": {
-    "state": "delivered_private_draft_review_pending",
-    "pr": 29,
-    "branch": "checkpoint/authorized-continuation-20261011",
-    "head": "7076187a41b04f63c654635207401a21bc861c4f",
-    "draft": true,
-    "merged": false,
-    "workflowRunsAtHead": 0
+    "state": "local_candidate_pending_private_PR29_delivery",
+    "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 647,
+      "passed": 659,
       "failed": 0,
-      "new": 9,
-      "durationMs": 44730.883868,
-      "scope": "Full local source/executable/workflow/compile/package suite at exact candidate; not ordinary browser/render/audio/manual Save/Master acceptance",
-      "evidence": "verification/watchtower179-full-tests.txt"
+      "new": 12,
+      "evidence": "verification/service181-full-tests.txt",
+      "durationMs": 37781.497463,
+      "scope": "Full local source/executable/workflow/compile/package suite; native source DOM callback fixtures, not ordinary rendered browser/manual Save/Master acceptance"
     },
     "github": {
       "pr": 29,
@@ -50,7 +45,7 @@
     "Carry overruns forward; never waive gates to fit an hour or deadline.",
     "Every hour includes implementation with tests, evidence and durable handoff; no test-only substitute for feature production.",
     "No acceptance from definitions, fixture-only progression, source strings or old-hash evidence.",
-    "Ordinary offline pause Save/exact-position reload mandatory; keep8\u201310 attack-capable attackers.",
+    "Ordinary offline pause Save/exact-position reload mandatory; keep8–10 attack-capable attackers.",
     "Every previous120 task ID is mapped, along with latest feedback; roster numbers remain unapproved.",
     "Continue unfinished scope after120 if necessary; final release needs all current-hash acceptance and actual Master review."
   ],
@@ -302,7 +297,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Resource directions at 63ce546f use actual regional service actors and entrances, with click-time availability checks. Six executable direction tests and actual delivered-script integrity pass. Ordinary acquisition, travel and manual Save/reload pending; this slot is not accepted."
+      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
     },
     {
       "hour": 14,
@@ -506,9 +501,10 @@
       "originalTaskIds": [
         33
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
     },
     {
       "hour": 30,
@@ -546,7 +542,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
     },
     {
       "hour": 33,
@@ -594,9 +590,10 @@
       "originalTaskIds": [
         39
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
     },
     {
       "hour": 37,
@@ -1023,7 +1020,7 @@
     {
       "hour": 70,
       "allocatedActiveHours": 1,
-      "task": "Finish The Dactyl\u2019s Veined Grotto",
+      "task": "Finish The Dactyl’s Veined Grotto",
       "requiredCheck": "Same complete ordinary-play contract, distinctive geography/clues/enemies and once-only rewards",
       "originalTaskIds": [
         75
@@ -1516,9 +1513,10 @@
         110,
         111
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
     },
     {
       "hour": 111,
@@ -1564,9 +1562,10 @@
       "originalTaskIds": [
         115
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "180/181 93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020: local service display names and native callback guards only;659 source/executable/workflow/compile/package checks. Ordinary rendered regional stock/acquisition/economy/remedy/manual Save acceptance remains pending. Shared legacy service identity migration remains open."
     },
     {
       "hour": 115,
@@ -1659,12 +1658,12 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Package and deliver 178/179 on fresh PR29 head; then continue main-campaign physical-item/hostage progression, main QOL/service identity, visible Bronze Age fixtures; keep ordinary pause Save/exact reload gates open.",
+  "nextDependencyReadyWork": "Finish exact181 package/source delivery, then main campaign/QOL and physical Bronze Age fixtures; resolve inspected shared service save identity conservatively using actual checkpoint/death/cargo/order records, and current-build ordinary Save/full route when runtime available. Further performance/8–10 stress lower but retained.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
     "Carry arrow held-nock, remedy reload and travel failures forward with diagnostics",
-    "Core Bronze Age household/city/authority/physical records and remaining M0\u2013M5 production; expanded Troy and further performance/8\u201310 stress lower but retained"
+    "Core Bronze Age household/city/authority/physical records and remaining M0–M5 production; expanded Troy and further performance/8–10 stress lower but retained"
   ],
   "lastExecutionPerformanceCheckpoint": {
     "partialSlots": [
@@ -1679,7 +1678,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "178/179 implemented locally: corrected actual Watchtower south landing gap/collider; added Thaleia/Mikon child captives, barred pen and guarded ordinary release, collision-aware grounded route to open causeway, plus once-only household kin/resource deed composed over native 176 dialogue. Full 647/647 local source/executable/workflow/compile/package checks pass; 9 new. Ordinary approach/render/route/manual Save/exact reload and Master acceptance pending. Children wait at causeway; no home transport. Preserve full120/M0\u2013M5, main/QOL/BronzeAge first; performance/8\u201310 stress lower but retained; no slots or milestones accepted.",
+  "currentCheckpoint": "180 authored visible local service identities at inspected hubs, original save names/actors/stock and name-based dialogue hooks preserved;181 actual cloth/heal/arms ordinary choice revalidation, nested remedies/arrows/lessons/commissions, no duplicated wrapper growth.659 local checks,12new; current rendered/UI/manual Save/old-save/Master acceptance pending. Shared legacy Egypt/Luxor/Valley saved-name collision identified and retained open for separate migration. All prior178/179 and120/M0–M5 preserved, no slot accepted.",
   "partialSlots": [
     2,
     3,
