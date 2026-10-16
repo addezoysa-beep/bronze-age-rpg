@@ -1,0 +1,30 @@
+✖ cold saved boat coordinates align the actual ship mesh before captive restore, including held alighting controls (162.012215ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 448.810987
+
+✖ failing tests:
+
+test at scripts/captive-home.test.mjs:22:1
+✖ cold saved boat coordinates align the actual ship mesh before captive restore, including held alighting controls (162.012215ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  -900 !== 295.2
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-home.test.mjs:22:496)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: -900,
+    expected: 295.2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

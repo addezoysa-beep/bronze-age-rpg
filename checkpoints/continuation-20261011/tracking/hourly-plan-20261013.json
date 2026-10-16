@@ -12,13 +12,13 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
-  "currentGithubBuildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
-  "currentGithubHead": "150d91c66492591e8cfc86313c2e09f04b4370d6",
+  "currentLocalBuildSha256": "bf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093",
+  "currentGithubBuildSha256": "bf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093",
+  "currentGithubHead": "0547d062da76d84d5c102abebb5449241266e49c",
   "publication": {
-    "status": "delivered",
+    "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
+    "sourceCommit": "0547d062da76d84d5c102abebb5449241266e49c",
     "draft": true,
     "merged": false,
     "evidence": "Private draft PR29 source 150d91c66492591e8cfc86313c2e09f04b4370d6 advanced with expected-head lease and description updated; final full local suite still pending at publication, not remote/ordinary/Master acceptance.",
@@ -45,7 +45,8 @@
       "workflowRunsAtSourceHead": 0,
       "ci": "not_run_[skip_ci]_checkpoint_under_recorded_external_runner_restriction",
       "historicalEvidence": "Earlier hashes retained in own update records; no older runtime pass borrowed"
-    }
+    },
+    "captiveHome": "verification/home202-full-tests.txt"
   },
   "policy": [
     "Active work hours, not hourly automation runs or guaranteed continuous execution.",
@@ -1359,7 +1360,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "8411f8c8:741 full LOCAL source/executable/compile/package checks.196 sequential ramp boarding/197 actual child deck transforms/198 safe horn berth turn; not global sea, natural main route, child unloading/home reunion, ordinary Save/render/Master acceptance or a completed allocation."
+      "currentEvidence": "Current199–202 delivered source0547d062da76d84d5c102abebb5449241266e49c, exact candidatebf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093,38,306,982bytes: actual Ikarion Harbour reverse-ramp child unloading, player-walked actual household approach and guarded ordinary kin reunion, retaining original once-only aid.201 fixes actual native interaction selection;202 aligns saved boat numeric x/z/yaw into actual mesh before passenger restore.754/754 final exact-hash full LOCAL serial checks passed,13new,91,116.06636ms; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed.7 frozen source/test readbacks match,0 source-head Actions runs. Ordinary rendered full route/offline pause Save/exact reload/full cold Continue/old saves/Master remain pending; ship-loss/external relocation ordinary recovery open. No milestone/slot accepted. Full120/every M0–M5/prior requirement retained; main/QOL/physical BronzeAge first, further performance/8–10 and expanded Troy lower. No measured remaining ETA. See docs/NEXT_RUN_CAPTIVE_HOME_20261016.md."
     },
     {
       "hour": 97,
@@ -1568,7 +1569,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "8411f8c8:741 full LOCAL source/executable/compile/package checks.196 sequential ramp boarding/197 actual child deck transforms/198 safe horn berth turn; not global sea, natural main route, child unloading/home reunion, ordinary Save/render/Master acceptance or a completed allocation."
+      "currentEvidence": "Current199–202 delivered source0547d062da76d84d5c102abebb5449241266e49c, exact candidatebf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093,38,306,982bytes: actual Ikarion Harbour reverse-ramp child unloading, player-walked actual household approach and guarded ordinary kin reunion, retaining original once-only aid.201 fixes actual native interaction selection;202 aligns saved boat numeric x/z/yaw into actual mesh before passenger restore.754/754 final exact-hash full LOCAL serial checks passed,13new,91,116.06636ms; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed.7 frozen source/test readbacks match,0 source-head Actions runs. Ordinary rendered full route/offline pause Save/exact reload/full cold Continue/old saves/Master remain pending; ship-loss/external relocation ordinary recovery open. No milestone/slot accepted. Full120/every M0–M5/prior requirement retained; main/QOL/physical BronzeAge first, further performance/8–10 and expanded Troy lower. No measured remaining ETA. See docs/NEXT_RUN_CAPTIVE_HOME_20261016.md."
     },
     {
       "hour": 114,
@@ -1617,9 +1618,10 @@
       "originalTaskIds": [
         116
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "Current199–202 delivered source0547d062da76d84d5c102abebb5449241266e49c, exact candidatebf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093,38,306,982bytes: actual Ikarion Harbour reverse-ramp child unloading, player-walked actual household approach and guarded ordinary kin reunion, retaining original once-only aid.201 fixes actual native interaction selection;202 aligns saved boat numeric x/z/yaw into actual mesh before passenger restore.754/754 final exact-hash full LOCAL serial checks passed,13new,91,116.06636ms; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed.7 frozen source/test readbacks match,0 source-head Actions runs. Ordinary rendered full route/offline pause Save/exact reload/full cold Continue/old saves/Master remain pending; ship-loss/external relocation ordinary recovery open. No milestone/slot accepted. Full120/every M0–M5/prior requirement retained; main/QOL/physical BronzeAge first, further performance/8–10 and expanded Troy lower. No measured remaining ETA. See docs/NEXT_RUN_CAPTIVE_HOME_20261016.md."
     },
     {
       "hour": 118,
@@ -1674,7 +1676,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Actual safe Ikaria dock unloading/reverse ramp, then real walked household approach/reunion; child ship-loss/externally moved-boat recovery still open. Ordinary current full route/render/offline pause Save/exact reload/Master gates retained; all120/every prior requirement, main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower. No measured remaining ETA.",
+  "nextDependencyReadyWork": "Interrupted passage/ship-loss ordinary recovery and native cold Continue ordering, then natural main route/ordinary offline pause Save/exact reload/render; main/QOL/physical BronzeAge first, all120/M0–M5 retained, no measured remaining ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1694,7 +1696,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Latest196–198 LOCAL candidate8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c,38,295,610bytes: actual sequential child ramp boarding, ship-local yaw/pitch/roll passengers and collision-checked final horn berth alignment. 741/741 final exact-hash full LOCAL serial checks passed,12new,578,706.942569ms; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed. No child unloading/home reunion or player-walkable ramp collider; ship-loss/external-relocation recovery and ordinary browser/render/offline pause Save/exact reload/Master acceptance remain open. All120/every M0–M5/every prior requirement retained/unaccepted, main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower. See docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md. Earlier candidate paragraphs below are historical.",
+  "currentCheckpoint": "Current199–202 delivered source0547d062da76d84d5c102abebb5449241266e49c, exact candidatebf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093,38,306,982bytes: actual Ikarion Harbour reverse-ramp child unloading, player-walked actual household approach and guarded ordinary kin reunion, retaining original once-only aid.201 fixes actual native interaction selection;202 aligns saved boat numeric x/z/yaw into actual mesh before passenger restore.754/754 final exact-hash full LOCAL serial checks passed,13new,91,116.06636ms; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed.7 frozen source/test readbacks match,0 source-head Actions runs. Ordinary rendered full route/offline pause Save/exact reload/full cold Continue/old saves/Master remain pending; ship-loss/external relocation ordinary recovery open. No milestone/slot accepted. Full120/every M0–M5/prior requirement retained; main/QOL/physical BronzeAge first, further performance/8–10 and expanded Troy lower. No measured remaining ETA. See docs/NEXT_RUN_CAPTIVE_HOME_20261016.md.",
   "partialSlots": [
     2,
     3,
@@ -1761,5 +1763,14 @@
     "handoff": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
     "scope": "Actual sequential pier/ramp boarding, ship-frame passengers and bounded final horn alignment; no child unloading/home reunion",
     "checks": "741 full LOCAL serial current hash,12new; ordinary browser/render/manual Save/Master pending"
+  },
+  "captiveHome199200": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "bf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093",
+    "handoff": "docs/NEXT_RUN_CAPTIVE_HOME_20261016.md",
+    "scope": "Actual Ikarion berth unloading, player-walked actual household approach and guarded ordinary kin reunion; no extra reward/teleport/Save, full safety/runtime acceptance pending",
+    "checks": "754/754 final exact-hash full LOCAL serial,13new; no ordinary browser/render/offline Save/Master acceptance",
+    "input201": "Actual native findInt/tryInteract now selects contextual ramp before zero-distance native disembark; guarded ordinary callback, no forced click/player movement",
+    "cold202": "Align restored numeric BOAT x/z/yaw into actual mesh before passenger/ramp restore; held crossing does not rely on a suppressed movement update. No player movement or Save."
   }
 }
