@@ -1,0 +1,90 @@
+{
+  "id": "captive-boarding-20261016",
+  "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
+  "bytes": 38295610,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "DEEDS-163"
+  ],
+  "summary": "Physical sequential Watchtower child ramp boarding and actual ship-frame rear-deck passengers, guarded native boat/horn controls and persistent partial/aboard state; no home landing/reunion implemented; bounded collision-checked final horn berth alignment",
+  "masterDelivery": {
+    "status": "pending",
+    "pullRequest": 29
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "pending",
+    "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
+    "evidence": "verification/boarding198-full-tests.txt",
+    "scope": "LOCAL source/executable/native Three transforms/captured dialogue and horn-menu callbacks; not ordinary browser/render/Save/Master acceptance"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
+    "bytes": 38295610,
+    "zipSha256": "8e8cbea1024bbc78278ad764ea8c0a0f5c6513af00b57dd56181cc81f74760b5",
+    "htmlPath": "deliveries/8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c/Wine-Dark-Sea-8411f8c8.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Natural Watchtower route/release/shore escort/berth/ordinary mouse ramp boarding, real boat travel and ship loss/respawn/interruption recovery, rendered child/ramp/gunwale/stair/rig/contact/camera/spacing, ordinary offline pause Save/exact-position reload and old saves; future actual dock unloading and family reunion still require implementation"
+  },
+  "external": {
+    "parentHead": "24d060282e9b144783f7b8954e989b9a3d290124",
+    "workflowRunsAtParentHead": 0,
+    "browserPackage": "present",
+    "chromium1234Executable": "absent",
+    "currentGithubGeneratedDownload": "unavailable",
+    "latestActions": "Older5bcd failed jobs, empty steps and no artifacts; no restricted rerun/account/access change"
+  },
+  "implementationLimits": "Owned seaworthy boat at actual DOCKS berth with matching yaw/stationary/clear approach and rear seats; actual swept1.25m/s crossing, first child before second, shared walk pose (not a new task animation), ramp primitives reused/disposed. Native embark/move/captured horn callbacks guarded during crossing. Post-visual localToWorld/world quaternion retain child world scale under enlarged hulls and yaw/pitch/roll. No normal party membership/far teleport/player movement/reward/item/fare/ownership/programmatic Save added. Missing/malformed new state keeps old179/194 defaults. Player departure/danger/menu pauses crossing, but externally relocated/changed boat or ship-loss recovery remains open; do not accept full escort safety. Children stay aboard when player leaves; child unloading/home reunion absent, no home flag. Actual native makeShip primitive audit is not rendered contact acceptance. Full120/every M0–M5/every prior requirement retained, none accepted; main/QOL/BronzeAge first, further performance/8–10 and expanded Troy lower.198 actual horn call turns to dock yaw with <=1rad/s and <=.025rad collision samples, no final x/z change/wake. Already-near misaligned boats can call; changed berth yaw cancels. Ramp is child geometry/navigation, not an added player ground collider; native player embark retained.",
+  "next": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
+  "changedFiles": [
+    "scripts/captive-boarding-patch.mjs",
+    "scripts/captive-boarding.test.mjs",
+    "scripts/captain-boat-call-patch.mjs",
+    "scripts/captive-passage-patch.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "tracking/updates/captive-boarding-20261016.json",
+    "verification/boarding197-full-tests.txt",
+    "scripts/captain-boat-call.test.mjs",
+    "verification/boarding198-focused-tests.txt",
+    "verification/boarding198-full-tests.txt"
+  ],
+  "initialRevision": {
+    "unshippedBuildSha256": "2062a26d2dd222f2852984474e618f3144e673b899875203d3f7c3901c9f99a9",
+    "passed": 738,
+    "failed": 0,
+    "durationMs": 551283.11188,
+    "evidence": "verification/boarding197-full-tests.txt",
+    "scope": "First boarding/deck revision before198 horn alignment/UI feedback; not final-hash evidence"
+  },
+  "initialFailures": {
+    "focused": "Pre-final focused29/30 failed only a strict zero assertion on1.36e-17 cosine residual. New assertion requires exact fixed x/z throughout mooring and1e-8 initial berth tolerance; final current-hash full rerun required.",
+    "evidence": "verification/boarding198-focused-tests.txt"
+  }
+}

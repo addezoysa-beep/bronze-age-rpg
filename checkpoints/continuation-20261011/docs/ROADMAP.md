@@ -286,3 +286,5 @@ Latest Phthia relocation and modest-region/core-civilization scope supersede ear
 Full staged Trojan campaign now supersedes instant new-game siege: [sequence and coverage](TROJAN_CAMPAIGN_SEQUENCE_20261014.md). Separate prewar foundation has six passing source fixtures, NOT integrated; all physical convoy/city/scene/ending gates pending.
 
 
+Latest196–198 LOCAL candidate8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c,38,295,610bytes: actual sequential child ramp boarding, ship-local yaw/pitch/roll passengers and collision-checked final horn berth alignment. Final full LOCAL serial checks pending; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed. No child unloading/home reunion or player-walkable ramp collider; ship-loss/external-relocation recovery and ordinary browser/render/offline pause Save/exact reload/Master acceptance remain open. All120/every M0–M5/every prior requirement retained/unaccepted, main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower. See docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md. Earlier candidate paragraphs below are historical.
+

@@ -109,3 +109,5 @@ These local follow-ups require the Mac and desktop app to remain available.
 An active cloud turn is distinct from a cloud-only recurring schedule; no such
 cloud-only continuation has been verified during setup.
 
+Latest196–198 LOCAL candidate8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c,38,295,610bytes: actual sequential child ramp boarding, ship-local yaw/pitch/roll passengers and collision-checked final horn berth alignment. Final full LOCAL serial checks pending; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed. No child unloading/home reunion or player-walkable ramp collider; ship-loss/external-relocation recovery and ordinary browser/render/offline pause Save/exact reload/Master acceptance remain open. All120/every M0–M5/every prior requirement retained/unaccepted, main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower. See docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md. Earlier candidate paragraphs below are historical.
+

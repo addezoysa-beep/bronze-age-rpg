@@ -12,7 +12,7 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
+  "currentLocalBuildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
   "currentGithubBuildSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
   "currentGithubHead": "fe19a1397fe5a5b300fb9a7bc9c78dca3b87beca",
   "publication": {
@@ -1670,7 +1670,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Actual stationary berth/gangplank child boarding and ship-local deck attachment, then real Ikaria disembark/walk/reunion;194/195 currently only shore/pier escort. Ordinary current full route/render/offline pause Save/exact reload/Master gates remain open. Retain all120/every prior requirement, main/QOL/BronzeAge first; performance/8–10 and expanded Troy lower. No measured remaining ETA.",
+  "nextDependencyReadyWork": "Actual safe Ikaria dock unloading/reverse ramp, then real walked household approach/reunion; child ship-loss/externally moved-boat recovery still open. Ordinary current full route/render/offline pause Save/exact reload/Master gates retained; all120/every prior requirement, main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower. No measured remaining ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1690,7 +1690,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Current194/195 shore-escort candidate d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d,38,285,449bytes;729/729 final exact-hash full LOCAL serial checks,11new. After real Watchtower pen/causeway escape, both actual children can be led along a bounded player-walked shore/dock trail, told to wait and restored at their saved footing. Swept terrain/collision/native dock checks, guarded menus, danger/distance/departure stops; no teleport, player relocation, reward or programmatic Save added. Pause retains child visibility; old kin aid remains once-only. Physical boat boarding/sailing/home reunion NOT implemented. Exact rebuild/repository/package/3-inline compilation pass, not ordinary browser/render/manual pause Save/exact reload/Master acceptance. All120/every M0–M5/prior scope retained/unaccepted; main/QOL/BronzeAge first, further performance/8–10 and expanded Troy lower. See docs/NEXT_RUN_CAPTIVE_PASSAGE_20261016.md.",
+  "currentCheckpoint": "196/197 actual ramp boarding/deck transforms and198 collision-checked horn mooring implemented; final full checks pending, no ordinary runtime or home rescue acceptance",
   "partialSlots": [
     2,
     3,
@@ -1748,5 +1748,12 @@
     "handoff": "docs/NEXT_RUN_CAPTIVE_PASSAGE_20261016.md",
     "scope": "Actual player-walked shore/dock escort, wait, persistence and honest pier stage; not boarding/sailing/home rescue",
     "checks": "729 full LOCAL serial final exact hash,11new; ordinary render/Save/Master pending"
+  },
+  "captiveBoarding196198": {
+    "status": "implemented_source_checks_pending",
+    "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
+    "handoff": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
+    "scope": "Actual sequential pier/ramp boarding, ship-frame passengers and bounded final horn alignment; no child unloading/home reunion",
+    "checks": "pending current full LOCAL serial, ordinary browser/render/manual Save/Master pending"
   }
 }
