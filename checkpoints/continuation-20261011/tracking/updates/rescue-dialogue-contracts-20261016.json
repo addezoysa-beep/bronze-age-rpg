@@ -1,0 +1,81 @@
+{
+  "id": "rescue-dialogue-contracts-20261016",
+  "buildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+  "bytes": 38273619,
+  "milestoneIds": [
+    "M0",
+    "M4"
+  ],
+  "summary": "Guard actual Proteus/Kadmos completion and stale menus, physical readable sea chart with storage-safe explicit legacy recovery, idempotent Erigone actor/seal release with current-save/boss/cage/physical relic completion gates; no home escort/new ending",
+  "masterDelivery": {
+    "status": "pending",
+    "pullRequest": 29
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 87,
+    "failed": 0,
+    "newTests": 15,
+    "durationMs": 16618.704239,
+    "evidence": "verification/rescue191-serial-tests.txt",
+    "scope": "SCOPED serial set: current continuation/3-inline compilation, actual native dialogue/callback/cage/bossDown, prior writing/sanctuary/services/relics/Watchtower and package fixtures. Not full repository suite/browser/Save/Master acceptance"
+  },
+  "fullSuite": {
+    "status": "blocked",
+    "evidence": "verification/rescue191-full-tests.txt",
+    "reason": "Truncated local index.html10712576bytes/SHA79ed427fd5ccb19a26994792bbd028f51385e7adc5af144e3a42380a27d897c8; expected unchanged37815418bytes/SHA14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177. build-current rejects Unexpected offline source hash. Second baseline copy truncated12279296bytes. Large GitHub file/blob fetch returned transport closed; line fetch empty. No identities weakened/rejected upload workaround."
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+    "bytes": 38273619,
+    "zipSha256": "24acfb7af9a155baeee7767c4b2b6e4183e4ba41e637ad26f062a15b88f8ea3d",
+    "htmlPath": "deliveries/101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42/Wine-Dark-Sea-10194560.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "method": "Direct continuation rebuilt from exact intact bf140589 seed twice; same hash. Not baseline-to-current reproduction, which remains blocked.",
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Natural Labyrinth/Delphi/Proteus/chart/Special-menu/Kadmos/fort key/ward/boss/actual cage/princess route, ordinary cancel/retry/reload/old saves, rendering, pause Save/exact-position reload, Master review"
+  },
+  "external": {
+    "parentHead": "8379ba4532ce9f50aef67eba372ea7f490a99290",
+    "workflowRunsAtParentHead": 0,
+    "browserPackage": "present previously, no new download attempt",
+    "chromium1234Executable": "absent",
+    "currentGithubGeneratedDownload": "unavailable"
+  },
+  "initialFailures": {
+    "driver": "First multi-concurrency scoped run had no full footer; not counted. Serial complete87/87 accepted only for its scoped method.",
+    "repository": "verify.mjs refuses truncated baseline with Current game has no update record; no baseline-hash record fabricated to silence it."
+  },
+  "limits": "No physical boat/home escort or new finale chapter; final Erigone scene is still native rescued-in-hall victory, text no longer asserts a return voyage happened. Original native completion autosaves retained; chart recovery/read do not save automatically. Added chart uses ordinary Special item label/weight/read, not a new rendered collectible mesh. Every120/M0–M5 gate/prior requirement preserved. Prior693 pass90d hash is not this candidate’s full suite. More performance/8–10 and expanded Troy lower, not removed.",
+  "next": "docs/NEXT_RUN_RESCUE_20261016.md",
+  "changedFiles": [
+    "scripts/rescue-dialogue-contracts-patch.mjs",
+    "scripts/rescue-dialogue-contracts.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_RESCUE_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "verification/rescue191-full-tests.txt",
+    "verification/rescue191-serial-tests.txt"
+  ]
+}

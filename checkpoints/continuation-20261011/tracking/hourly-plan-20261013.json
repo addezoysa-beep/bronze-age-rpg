@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T07:19:20.954Z",
+  "updatedAt": "2026-10-16",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,7 +12,7 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+  "currentLocalBuildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
   "currentGithubBuildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
   "currentGithubHead": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
   "publication": {
@@ -1668,7 +1668,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Current main-route/rescue/UI/crash and ordinary offline pause Save/exact reload when runtime becomes available; otherwise continue remaining real captive transport, boss laugh/cameo and physical civic/authority/cultural fixtures with tests. Do not duplicate sanctuary186–188 or writing183–185. Retain region grounding, stock/economy/gear/actions/creature/faction/site/audio and saved-service identity migration; performance/8–10 stress and expanded Troy lower, not removed.120-active-hour plan is not a measured remaining ETA.",
+  "nextDependencyReadyWork": "Recover exact unchanged Build59 input without weakening identity gate; rerun full suite/repository/build-current. Continue main rescue/actual child boat-home transport, boss laugh/cameo and civic/authority work. Current scoped87 checks are not current full acceptance. Ordinary offline pause Save/exact reload, main route/render/Master remain pending. All120 retained, no measured remaining ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1688,7 +1688,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "186 two actual sanctuary physical offering/clerical stations;187 region-palette spine-attached ceremonial decoration;188 guarded voluntary grain/record/visible bowl and actual scribe directions.693 full LOCAL checks,16new; exact-hash ordinary browser/render/manual pause Save/exact reload/Master acceptance pending. Prior175–185/full120/M0–M5 preserved; no milestone/slot acceptance.",
+  "currentCheckpoint": "Current189–191 candidate 101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42,38,273,619bytes.87/87 scoped LOCAL source/native-callback/compile/package-fixture checks pass,15new; NOT a full-suite pass. Full baseline rebuild/repository check blocked by truncated local index.html (10,712,576bytes,79ed427f…), expected unchanged Build59 37,815,418bytes/14e1907f…. Second baseline recovery copy is also truncated. GitHub large-file fetch/blob returned transport closed; line fetch empty. Exact recovered cinematic seed remains bf140589…/38,008,329bytes; direct continuation rebuild and current HTML/ZIP identity checked separately. Guarded Proteus/Kadmos story transactions, readable physical chart/storage-safe explicit recovery, idempotent/guarded actual Erigone release/completion. No boat/home escort or extra ending chapter, no ordinary browser/render/Save/Master acceptance. Native existing autosaves retained, new chart read/recovery adds none. All120/every M0–M5/prior scope retained; no slot/milestone accepted. See docs/NEXT_RUN_RESCUE_20261016.md; previous headings below historical.",
   "partialSlots": [
     2,
     3,
@@ -1716,5 +1716,12 @@
     "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
     "handoff": "docs/NEXT_RUN_SANCTUARY_20261016.md",
     "scope": "Two existing interiors only, no full ceremonial outfit/work-action count/global religion acceptance"
+  },
+  "rescue189191": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+    "handoff": "docs/NEXT_RUN_RESCUE_20261016.md",
+    "scope": "Proteus/Kadmos native transaction safety, held/readable/storage-conserved sea chart, actual guarded/idempotent princess release; no home escort/new ending scene",
+    "checks": "87 scoped local pass,15new; full source suite blocked by truncated baseline, prior693 not carried forward"
   }
 }
