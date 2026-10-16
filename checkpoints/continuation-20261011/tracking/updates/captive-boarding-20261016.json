@@ -12,17 +12,26 @@
   ],
   "summary": "Physical sequential Watchtower child ramp boarding and actual ship-frame rear-deck passengers, guarded native boat/horn controls and persistent partial/aboard state; no home landing/reunion implemented; bounded collision-checked final horn berth alignment",
   "masterDelivery": {
-    "status": "pending",
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
+    "draft": true,
+    "merged": false,
+    "evidence": "Private draft PR29 source 150d91c66492591e8cfc86313c2e09f04b4370d6 advanced under expected-head lease;8 source/test readbacks match, source description updated. Final741 local checks and package evidence recorded separately; no merge/release/Master acceptance.",
     "pullRequest": 29
   },
   "masterReview": {
     "status": "pending"
   },
   "localChecks": {
-    "status": "pending",
+    "status": "passed",
+    "passed": 741,
+    "failed": 0,
+    "newTests": 12,
+    "durationMs": 578706.942569,
     "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
     "evidence": "verification/boarding198-full-tests.txt",
-    "scope": "LOCAL source/executable/native Three transforms/captured dialogue and horn-menu callbacks; not ordinary browser/render/Save/Master acceptance"
+    "scope": "Full LOCAL serial source/executable/native callbacks/Three geometry+transforms/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance"
   },
   "package": {
     "status": "passed",
@@ -50,7 +59,14 @@
     "browserPackage": "present",
     "chromium1234Executable": "absent",
     "currentGithubGeneratedDownload": "unavailable",
-    "latestActions": "Older5bcd failed jobs, empty steps and no artifacts; no restricted rerun/account/access change"
+    "latestActions": "Older5bcd failed jobs, empty steps and no artifacts; no restricted rerun/account/access change",
+    "workflowRunsAtSourceHead": 0,
+    "remoteSourceReadback": {
+      "status": "passed",
+      "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
+      "files": 8,
+      "scope": "Exact returned UTF-8 source/test strings match frozen local source; not a generated GitHub build download"
+    }
   },
   "implementationLimits": "Owned seaworthy boat at actual DOCKS berth with matching yaw/stationary/clear approach and rear seats; actual swept1.25m/s crossing, first child before second, shared walk pose (not a new task animation), ramp primitives reused/disposed. Native embark/move/captured horn callbacks guarded during crossing. Post-visual localToWorld/world quaternion retain child world scale under enlarged hulls and yaw/pitch/roll. No normal party membership/far teleport/player movement/reward/item/fare/ownership/programmatic Save added. Missing/malformed new state keeps old179/194 defaults. Player departure/danger/menu pauses crossing, but externally relocated/changed boat or ship-loss recovery remains open; do not accept full escort safety. Children stay aboard when player leaves; child unloading/home reunion absent, no home flag. Actual native makeShip primitive audit is not rendered contact acceptance. Full120/every M0–M5/every prior requirement retained, none accepted; main/QOL/BronzeAge first, further performance/8–10 and expanded Troy lower.198 actual horn call turns to dock yaw with <=1rad/s and <=.025rad collision samples, no final x/z change/wake. Already-near misaligned boats can call; changed berth yaw cancels. Ramp is child geometry/navigation, not an added player ground collider; native player embark retained.",
   "next": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",

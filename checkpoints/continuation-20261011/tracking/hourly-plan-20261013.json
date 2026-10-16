@@ -13,35 +13,38 @@
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
   "currentLocalBuildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
-  "currentGithubBuildSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
-  "currentGithubHead": "fe19a1397fe5a5b300fb9a7bc9c78dca3b87beca",
+  "currentGithubBuildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
+  "currentGithubHead": "150d91c66492591e8cfc86313c2e09f04b4370d6",
   "publication": {
-    "state": "delivered_private_draft_review_pending",
+    "status": "delivered",
     "pr": 29,
-    "sourceCommit": "fe19a1397fe5a5b300fb9a7bc9c78dca3b87beca",
+    "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
     "draft": true,
     "merged": false,
-    "workflowRunsAtSourceHead": 0,
-    "status": "delivered",
-    "scope": "Private source/tests/records delivered;729 full local serial checks; ordinary/remote CI/Master and matching GitHub-generated download pending."
+    "evidence": "Private draft PR29 source 150d91c66492591e8cfc86313c2e09f04b4370d6 advanced with expected-head lease and description updated; final full local suite still pending at publication, not remote/ordinary/Master acceptance.",
+    "state": "delivered_private_draft_review_pending",
+    "scope": "Private source/tests/records delivered;741 full LOCAL serial checks and exact local package, ordinary/remote CI/Master and matching GitHub-generated download pending."
   },
   "evidence": {
     "local": {
-      "passed": 693,
+      "status": "passed",
+      "passed": 741,
       "failed": 0,
-      "new": 16,
-      "durationMs": 40081.236232,
-      "evidence": "verification/sanctuary188-full-tests.txt",
-      "scope": "Full LOCAL source/executable/workflow/compile/package suite; actual native summit/home furniture/dialogue buttons, Batch/Three/spine, native dungeon collision paths, conservation/old-save fixtures; not rendered browser/ordinary Save/Master acceptance"
+      "newTests": 12,
+      "durationMs": 578706.942569,
+      "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
+      "evidence": "verification/boarding198-full-tests.txt",
+      "scope": "Full LOCAL serial source/executable/native callbacks/Three geometry+transforms/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance",
+      "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
-      "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+      "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
+      "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
       "state": "open_draft_unmerged",
       "workflowRunsAtSourceHead": 0,
       "ci": "not_run_[skip_ci]_checkpoint_under_recorded_external_runner_restriction",
-      "historicalEvidence": "Retained in milestone/update records; no older runtime pass borrowed for current hash"
+      "historicalEvidence": "Earlier hashes retained in own update records; no older runtime pass borrowed"
     }
   },
   "policy": [
@@ -1353,9 +1356,10 @@
       "originalTaskIds": [
         98
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "8411f8c8:741 full LOCAL source/executable/compile/package checks.196 sequential ramp boarding/197 actual child deck transforms/198 safe horn berth turn; not global sea, natural main route, child unloading/home reunion, ordinary Save/render/Master acceptance or a completed allocation."
     },
     {
       "hour": 97,
@@ -1564,7 +1568,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "8411f8c8:741 full LOCAL source/executable/compile/package checks.196 sequential ramp boarding/197 actual child deck transforms/198 safe horn berth turn; not global sea, natural main route, child unloading/home reunion, ordinary Save/render/Master acceptance or a completed allocation."
     },
     {
       "hour": 114,
@@ -1690,7 +1694,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "196/197 actual ramp boarding/deck transforms and198 collision-checked horn mooring implemented; final full checks pending, no ordinary runtime or home rescue acceptance",
+  "currentCheckpoint": "Latest196–198 LOCAL candidate8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c,38,295,610bytes: actual sequential child ramp boarding, ship-local yaw/pitch/roll passengers and collision-checked final horn berth alignment. 741/741 final exact-hash full LOCAL serial checks passed,12new,578,706.942569ms; exact baseline-to-current rebuild/HTML+ZIP/3-inline compilation passed. No child unloading/home reunion or player-walkable ramp collider; ship-loss/external-relocation recovery and ordinary browser/render/offline pause Save/exact reload/Master acceptance remain open. All120/every M0–M5/every prior requirement retained/unaccepted, main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower. See docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md. Earlier candidate paragraphs below are historical.",
   "partialSlots": [
     2,
     3,
@@ -1699,7 +1703,9 @@
     62,
     117,
     84,
-    97
+    97,
+    96,
+    113
   ],
   "physicalWriting183185": {
     "status": "implemented_runtime_pending",
@@ -1750,10 +1756,10 @@
     "checks": "729 full LOCAL serial final exact hash,11new; ordinary render/Save/Master pending"
   },
   "captiveBoarding196198": {
-    "status": "implemented_source_checks_pending",
+    "status": "implemented_source_verified_runtime_pending",
     "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
     "handoff": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
     "scope": "Actual sequential pier/ramp boarding, ship-frame passengers and bounded final horn alignment; no child unloading/home reunion",
-    "checks": "pending current full LOCAL serial, ordinary browser/render/manual Save/Master pending"
+    "checks": "741 full LOCAL serial current hash,12new; ordinary browser/render/manual Save/Master pending"
   }
 }

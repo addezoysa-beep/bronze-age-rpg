@@ -843,20 +843,29 @@
     "manifest": "dist/current-build-manifest.json",
     "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
     "bytes": 38295610,
-    "sourceChecks": null,
-    "sourceScope": "Final LOCAL full serial source/executable/compile/package checks pending for196/197/198; ordinary browser/render/offline pause Save/Master pending",
+    "sourceChecks": 741,
+    "sourceScope": "Full LOCAL serial source/executable/native callbacks/Three geometry+transforms/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance;12new196–198 fixtures",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "pending",
-      "pr": 29
+      "status": "delivered",
+      "pr": 29,
+      "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
+      "draft": true,
+      "merged": false,
+      "evidence": "Private draft PR29 source 150d91c66492591e8cfc86313c2e09f04b4370d6 advanced with expected-head lease and description updated; final full local suite still pending at publication, not remote/ordinary/Master acceptance."
     },
     "next": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
     "fullSuite": {
-      "status": "pending",
+      "status": "passed",
+      "passed": 741,
+      "failed": 0,
+      "newTests": 12,
+      "durationMs": 578706.942569,
       "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
-      "evidence": "verification/boarding198-full-tests.txt"
+      "evidence": "verification/boarding198-full-tests.txt",
+      "scope": "Full LOCAL serial source/executable/native callbacks/Three geometry+transforms/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance"
     }
   },
   "saveLoadPerformance146": {
