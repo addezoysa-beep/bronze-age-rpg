@@ -22,6 +22,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('CAPTIVE_PASSAGE_194'));assert.ok(html.includes('CAPTIVE_DOCK_TRAIL_195'));
  assert.ok(html.includes('CAPTIVE_BOARDING_196'));assert.ok(html.includes('CAPTIVE_DECK_197'));
  assert.ok(html.includes('CAPTAIN_BERTH_198'));
+ assert.ok(html.includes('CAPTIVE_LANDING_199'));assert.ok(html.includes('CAPTIVE_HOME_200'));
+ assert.ok(html.includes('HARBOUR_INPUT_201'));assert.ok(html.includes('CAPTIVE_COLD_FRAME_202'));
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
@@ -42,5 +44,3 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('CAPTAIN_BOAT_CALL_172'));
  assert.ok(html.indexOf('NPC_ARROW_EMISSION_161')>html.indexOf('CONTINUATION_WATCHTOWER_SEA_FORT_V1'),'emitter context captures material before finite fort deduction');
 });
-
-

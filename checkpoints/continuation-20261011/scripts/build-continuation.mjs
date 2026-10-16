@@ -81,6 +81,7 @@ import {rescueObjectivePatch} from './rescue-objective-patch.mjs';
 import {mainStoryTransactionsPatch} from './main-story-transactions-patch.mjs';
 import {captivePassagePatch} from './captive-passage-patch.mjs';
 import {captiveBoardingPatch} from './captive-boarding-patch.mjs';
+import {captiveHomePatch} from './captive-home-patch.mjs';
 const root=new URL('../',import.meta.url);
 const input=fs.readFileSync(new URL('recovered/Cinematic-Lock-Lesson.html',root));
 const sourceHash=crypto.createHash('sha256').update(input).digest('hex');
@@ -89,10 +90,8 @@ const source=input.toString('utf8'),end=source.lastIndexOf('</script>');
 if(end<0)throw Error('Final inline script missing');
 const output=Buffer.from(source.slice(0,end)+lockCameraPatch+openingProgressionPatch+lawCinematicPatch+troyDispositionPatch+lionAnatomyPatch+dragonAnatomyPatch+stableInscriptionPatch+npcMountedChargePatch+labyrinthAntlerPatch+rivalTentCampPatch+seaFortPatch+rigMathScratchPatch+handGripPatch+spearShieldPatch+oneHandCombatPatch+greatswordPosePatch+bowAmmoIdentityPatch+arrowSilhouettePricePatch+ownedChestPatch+dogRestWakePatch+dungeonAtmospherePatch+storyCinematicsPatch+feedbackMenuStablePatch+lockGateDecayPatch+optionalPuzzlesPatch+arrowHudHitPatch+panRoyalReturnPatch+tavernCounterMilkPatch+encounterHospitalityPatch+hipposLeadRoutePatch+inventorIdentityPatch+healerServicePriorityPatch+clothingMenuPatch+phthiaRegionPatch+playerHelmetOrnamentPatch+resourceDirectionsPatch+workplaceRoutingPatch+courtWorkAnchorsPatch+zigguratAccessPatch+troyWallAccessPatch+'\n'+source.slice(end));
 const combined=Buffer.from(output.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>particleCullAllocationPatch(source)+granaryServicePatch+panObjectiveRecoveryPatch +tavernResidenceGuardPatch+atomicSaveDecodePatch+loadPerformancePatch +wildHorsePoseBudgetPatch+clothPoseCachePatch+loadFactoryProfilePatch+continueSaveSafetyPatch+ecologyQueryPatch+roadTravelTransactionPatch+landmarkTravelSafetyPatch+weaponFrameBudgetPatch+batchConstructionPatch+tavernRouteSweepPatch+playtestCriticalQolPatch+rescueRelicGuidancePatch+seaFoamWakePatch+pauseMediaControlsPatch+terrainPhaseParityPatch+alashiyaOccupationPatch+streamWorkerDependenciesPatch+'\n</script>'));
-const grounded=Buffer.from(combined.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>foundationSurfacePatch+tavernPulsesPatch+captainBoatCallPatch+graphicsWorkloadPatch+relicRecoveryGuidancePatch+householdReliefPatch+shekeleshPresentationPatch+watchtowerCaptivesPatch+regionalServiceIdentitiesPatch+serviceInteractionGuardPatch+shekeleshSharedSwingPatch+physicalWritingPatch+sanctuaryOfferingsPatch+rescueDialogueContractsPatch+rescueObjectivePatch+mainStoryTransactionsPatch+captivePassagePatch+captiveBoardingPatch+'\n</script>'));
+const grounded=Buffer.from(combined.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>foundationSurfacePatch+tavernPulsesPatch+captainBoatCallPatch+graphicsWorkloadPatch+relicRecoveryGuidancePatch+householdReliefPatch+shekeleshPresentationPatch+watchtowerCaptivesPatch+regionalServiceIdentitiesPatch+serviceInteractionGuardPatch+shekeleshSharedSwingPatch+physicalWritingPatch+sanctuaryOfferingsPatch+rescueDialogueContractsPatch+rescueObjectivePatch+mainStoryTransactionsPatch +captivePassagePatch+captiveBoardingPatch+captiveHomePatch+'\n</script>'));
 const outputName=process.env.WDS_CANDIDATE_FILE||'Wine-Dark-Sea-Combined-Cinematic.html';
 if(!/^[A-Za-z0-9-]+\.html$/.test(outputName))throw Error('Candidate filename must be a simple local HTML filename');
 fs.writeFileSync(new URL(outputName,root),grounded);
 console.log(JSON.stringify({sourceSha256:sourceHash,sourceBytes:input.length,sha256:crypto.createHash('sha256').update(grounded).digest('hex'),bytes:grounded.length}));
-
-
