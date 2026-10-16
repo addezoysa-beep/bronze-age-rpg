@@ -1,0 +1,159 @@
+{
+  "id": "pan-storage-skiff-handoff-20261016",
+  "buildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
+  "bytes": 38323947,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "OPEN-60",
+    "STORY-60",
+    "LAB-163"
+  ],
+  "summary": "Storage-aware actual Pan tablet recovery/withdrawal, live conserved skiff repair transaction and actual native royal actor handoff dispatch",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "ea54892595812d918cedd39080b16e27013b0f20",
+    "draft": true,
+    "merged": false,
+    "evidence": "Private owned draft PR29 advanced under expected-head lease; PR description updated,8 source/test files fetched back identically. No merge/release/ordinary/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 781,
+    "failed": 0,
+    "newTests": 14,
+    "durationMs": 96238.5367,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/pan207-full-tap.txt",
+    "scope": "Full LOCAL serial source/executable/native dialogue/storage/menu/callback/Three/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
+  },
+  "scopedChecks": {
+    "passed": 26,
+    "failed": 0,
+    "newTests": 14,
+    "evidence": "verification/pan207-focused-tests.txt",
+    "scope": "Native old-closure control and current late-binding order, actual native DOM/cargo/owned/world loot callback checks; not ordinary rendered gameplay"
+  },
+  "initialFailure": {
+    "passed": 10,
+    "failed": 1,
+    "cause": "Fixture DOM node lacked querySelector used by retained skiff quest HUD. Corrected fixture only; final scoped25/25 pass.",
+    "bindingScopeCorrection": "Initial native84 fixture deliberately installed binding before later story wrappers. Added actual current late-binding sequence; do not call old-callback control a reproduced current startup bug. Preliminary780/780 full LOCAL checks passed at775c6e7f before comment/test clarification; final current-hash781/781 rerun passed, old pass not borrowed."
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary empty-inventory Lykos/Phocas/king/Pan chest/report/skiff/Daedalus, storage loss/retrieval, offline pause Save/exact-position reload/old-save/render/Master"
+  },
+  "external": {
+    "parentHead": "ff8fdb428446d37bac5d7ab79a1206935b8ef0aa",
+    "latestActions": [
+      38711529714,
+      38711529696,
+      38711522032
+    ],
+    "latestActionsHead": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+    "latestActionsConclusion": "failure",
+    "localBrowser": "No installed Chromium/Chrome/Firefox executable found; package exists, Chromium1234 absent; no repeated download/Cloud hang/blocked matrix",
+    "sourceCommit": "ea54892595812d918cedd39080b16e27013b0f20"
+  },
+  "changes": [
+    "205 scans actual horse/follower/ship/owned/reusable/world loot copies; physical possession still required, no duplication of stored tablet. Native carrier/owned debit-before delivery and world-loot callback-before-debit both preserve one tablet despite old collection receipt.",
+    "205 missing copy recreated only at real dungeon chest when built; no outdoor entrance coordinate used for cave loot, no extra Save/heart/XP/reward replay. Existing advanced legacy progression retained. Read-only objective after royal report still directs actual storage/missing-tablet retrieval.",
+    "206 replaces captured unowned skiff repair with current-save/work/actor/foot/range/material/harvest/current named dock/berth/ferry/loading revalidation. Existing4wood3fiber45XP retained once; no negative materials or duplicate ownership/XP. Owned upgrades/contracts retained, no forced save beyond original successful repair.",
+    "207 hardens royal handoff dispatch against a pre117 captured native84 callback. A control fixture proves that old closure cannot report; a separate current late-binding-order fixture passes. This is not evidence normal fresh startup reproduces the old binding. Only critical handoff dynamically resolves current kingTalk; all current gate/full-dialogue/cancel and before/after services retained."
+  ],
+  "remaining": [
+    "Full ordinary story/Save/render and Master gates",
+    "Ship-loss/moved-hull/offshore recovery still incomplete;203/204 retained",
+    "Full120/M0–M5 and every prior equipment/creature/faction/site/work/music/BronzeAge request retained",
+    "Matching immutable GitHub-generated build download unavailable; standalone startup/embedded decode/user-download accessibility not run"
+  ],
+  "changedFiles": [
+    "scripts/pan-storage-recovery-patch.mjs",
+    "scripts/skiff-repair-transaction-patch.mjs",
+    "scripts/main-story-transactions-patch.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "scripts/pan-skiff-transactions.test.mjs"
+  ],
+  "evidence": [
+    "verification/pan207-focused-tests.txt",
+    "verification/pan207-full-tap.txt",
+    "docs/NEXT_RUN_PAN_SKIFF_20261016.md"
+  ],
+  "package": {
+    "status": "passed",
+    "htmlSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
+    "bytes": 38323947,
+    "zipSha256": "ac8e2d3ca05c0e7d4c9385e414a7e43f612ece2e07561f478d3131130fef76a3",
+    "htmlPath": "deliveries/1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735/Wine-Dark-Sea-1da8704b.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "sourceReadbacks": [
+    {
+      "path": "scripts/pan-storage-recovery-patch.mjs",
+      "equal": true
+    },
+    {
+      "path": "scripts/skiff-repair-transaction-patch.mjs",
+      "equal": true
+    },
+    {
+      "path": "scripts/main-story-transactions-patch.mjs",
+      "equal": true
+    },
+    {
+      "path": "scripts/build-continuation.mjs",
+      "equal": true
+    },
+    {
+      "path": "scripts/build-current.mjs",
+      "equal": true
+    },
+    {
+      "path": "scripts/current-candidate-integrity.test.mjs",
+      "equal": true
+    },
+    {
+      "path": "scripts/pan-skiff-transactions.test.mjs",
+      "equal": true
+    },
+    {
+      "path": "verification/pan207-focused-tests.txt",
+      "equal": true
+    }
+  ],
+  "completed": [
+    "205–207 implementation and current-hash full LOCAL source/executable checks only",
+    "Exact local reproduction and package checks"
+  ],
+  "partial": [
+    "Main/Pan/current storage/skiff/report checkpoint runtime acceptance",
+    "Full120/M0–M5 production and required verification"
+  ],
+  "blocked": [
+    "No local browser executable; remote runners restricted before steps; ordinary current-hash validation pending",
+    "Matching GitHub-generated playable download unavailable"
+  ],
+  "newlyStarted": [
+    "205–207 this run, not accepted slots"
+  ],
+  "remainingEstimate": "Not measured;120 allocated active-hour plan is not an ETA"
+}

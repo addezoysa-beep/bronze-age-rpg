@@ -841,31 +841,31 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee",
-    "bytes": 38316178,
-    "sourceChecks": 767,
-    "sourceScope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master",
+    "buildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
+    "bytes": 38323947,
+    "sourceChecks": 781,
+    "sourceScope": "Full LOCAL serial source/executable/native dialogue/storage/menu/callback/Three/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "bd250ae0e6449c61679dbd3ea6a845bbe819314a",
+      "sourceCommit": "ea54892595812d918cedd39080b16e27013b0f20",
       "draft": true,
       "merged": false,
-      "evidence": "Private draft PR29 source advanced under expected-head lease; current description updated,8 source/test exact readbacks match,0 associated source-head Actions runs. No merge/release/ordinary/Master acceptance."
+      "evidence": "Private owned draft PR29 advanced under expected-head lease; PR description updated,8 source/test files fetched back identically. No merge/release/ordinary/Master acceptance."
     },
-    "next": "docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md",
+    "next": "docs/NEXT_RUN_PAN_SKIFF_20261016.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 767,
+      "passed": 781,
       "failed": 0,
-      "newTests": 13,
-      "durationMs": 95045.329093,
+      "newTests": 14,
+      "durationMs": 96238.5367,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/recovery204-full-tap.txt",
-      "scope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
+      "evidence": "verification/pan207-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native dialogue/storage/menu/callback/Three/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
     }
   },
   "saveLoadPerformance146": {
