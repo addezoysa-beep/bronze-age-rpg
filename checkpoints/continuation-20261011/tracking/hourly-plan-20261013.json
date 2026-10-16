@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T05:22:52.959Z",
+  "updatedAt": "2026-10-16T05:24:56.505Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -13,11 +13,15 @@
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
   "currentLocalBuildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
-  "currentGithubBuildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
-  "currentGithubHead": "3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85",
+  "currentGithubBuildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+  "currentGithubHead": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
   "publication": {
-    "state": "new_local182_candidate_pending_private_PR29_delivery",
-    "noRetry": false
+    "state": "delivered_private_draft_review_pending",
+    "pr": 29,
+    "sourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
+    "draft": true,
+    "merged": false,
+    "workflowRunsAtSourceHead": 0
   },
   "evidence": {
     "local": {
@@ -30,10 +34,12 @@
     },
     "github": {
       "pr": 29,
-      "head": "7076187a41b04f63c654635207401a21bc861c4f",
+      "sourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
+      "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
       "state": "open_draft_unmerged",
-      "workflowRunsAtHead": 0,
-      "ci": "not_run_for_[skip_ci]_checkpoint_commit"
+      "workflowRunsAtSourceHead": 0,
+      "ci": "not_run_[skip_ci]_checkpoint_under_recorded_external_runner_restriction",
+      "historicalEvidence": "Retained in milestone/update records; no older runtime pass borrowed for current hash"
     }
   },
   "policy": [
@@ -1660,7 +1666,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Deliver exact182 HTML/ZIP/source evidence; then main story/QOL and core visible Bronze Age fixtures. Continue remaining Shekelesh audio/opening/rescue route and deliberate legacy service identity migration, with ordinary current-build menus/full story/manual Save/exact reload when runtime available. Further performance and8–10 stress lower, retained. Remaining120-hour allocation is provisional, not measured ETA/completed work.",
+  "nextDependencyReadyWork": "Continue main campaign/QOL and core physical Bronze Age production: remaining Shekelesh laugh/opening/actual rescue route, grounded civic/monument/records fixtures and conservative shared Egypt/Luxor/Valley saved service identity migration. Current ordinary menus/full story/pause Save/exact reload/render/Master gates remain pending while runtime blocked. Further performance/8–10 stress lower, retained. Provisional120-hour allocation is not a measured completion ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
