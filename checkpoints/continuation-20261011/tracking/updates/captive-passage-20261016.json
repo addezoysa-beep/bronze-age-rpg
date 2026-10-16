@@ -1,0 +1,125 @@
+{
+  "id": "captive-passage-20261016",
+  "buildSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
+  "bytes": 38285449,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "summary": "Actual post-escape child shore/pier escort follows a bounded player-walked route with wait/resume, swept native dock/terrain/collision, saved footing and stale-menu/danger/departure safety; pause retains visibility. Boat/home transport pending.",
+  "requirementIds": [
+    "DEEDS-163"
+  ],
+  "masterDelivery": {
+    "status": "pending",
+    "pullRequest": 29
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 729,
+    "failed": 0,
+    "newTests": 11,
+    "durationMs": 79573.725975,
+    "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
+    "evidence": "verification/captive195-full-tests.txt",
+    "scope": "Full LOCAL serial source/native callback/executable/workflow/3-inline compile/package; native dockSurface27/groundRouteStep/dlg/button deterministic shore fixtures; not ordinary browser/full geography/render/Save/Master acceptance"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
+    "bytes": 38285449,
+    "zipSha256": "f9f285dedea107e6145d0c5ffc2212eb92fa0ac9ef39c9ddfd3d5cdc2fbba23b",
+    "htmlPath": "deliveries/d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d/Wine-Dark-Sea-d613cc26.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Natural Watchtower arrival/combat/release/escape/follow/wait/actual shore/stair/pier route, visual spacing/contact/occlusion, ordinary mouse and pause Save/exact-position reload/old saves, Master review; boarding/sailing/home additionally still require implementation"
+  },
+  "sourceProbe": {
+    "method": "Separate actual native IS.i7/height/flat data with native coast search, height-only (not global colliders/rendered navigation)",
+    "centre": {
+      "x": 700,
+      "z": -560
+    },
+    "padHeight": 7.209607648021334,
+    "causewayHeight": 7.209607648021334,
+    "dockHead": {
+      "x": 700,
+      "z": -529,
+      "height": 1.3105229665494171
+    },
+    "dockEnd": {
+      "x": 700,
+      "z": -514,
+      "height": -3.8547454252098876
+    },
+    "pierLength": 15,
+    "scope": "No full reachability or boat boarding acceptance inferred."
+  },
+  "external": {
+    "parentHead": "26b03c74f1821e6e06d213a0a91faebd66370ca2",
+    "workflowRunsAtParentHead": 0,
+    "latestActions": [
+      {
+        "id": 38711529714,
+        "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "id": 38711529696,
+        "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "id": 38711522032,
+        "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+        "status": "completed",
+        "conclusion": "failure"
+      }
+    ],
+    "browserPackage": "present",
+    "chromium1234Executable": "absent",
+    "currentGithubGeneratedDownload": "unavailable"
+  },
+  "implementationLimits": "11 new fixtures pass; no new work-animation count or teleport/follower recruitment. Max256 walked breadcrumbs, <=.09m at1.8m/s with dtcap.05, <=.2m segment collision/height samples, no future waypoint skip. Pair stops for danger/departure/mount/swim/range/obstruction and can resume near both children. Actual current dock surface+endpoint needed for pier arrival. No boarding, ship deck attachment, sea travel or home arrival/reunion. Existing reward still once-only for actual earlier escape, narrative current location; no extra reward/flag/payment/Save added. Hooks preserve old saves/179 escape, valid194 saved positions bypass old fort-box clamp; malformed data fail closed. All120/every M0–M5/prior request retained/unaccepted; main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower.",
+  "next": "docs/NEXT_RUN_CAPTIVE_PASSAGE_20261016.md",
+  "changedFiles": [
+    "scripts/captive-passage-patch.mjs",
+    "scripts/captive-passage.test.mjs",
+    "scripts/watchtower-captives-patch.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_CAPTIVE_PASSAGE_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "tracking/updates/captive-passage-20261016.json",
+    "verification/captive195-full-tests.txt",
+    "verification/captive195-pre-immersion-tests.txt"
+  ],
+  "initialRevision": {
+    "unshippedBuildSha256": "2bcce82ff80b5ddad6db2a125685f04d456231d90a1abb08ba615cb13d6790c2",
+    "passed": 729,
+    "evidence": "verification/captive195-pre-immersion-tests.txt",
+    "reason": "Changed new NPC dialogue to physical in-world phrasing, retaining unfinished-boat warning in contextual UI. Final hash requires own full rerun."
+  }
+}

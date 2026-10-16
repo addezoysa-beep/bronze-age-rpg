@@ -841,27 +841,26 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
-    "bytes": 38276761,
-    "sourceChecks": 718,
-    "sourceScope": "718/718 full LOCAL serial source/executable/workflow/compile/package checks,10new this run. Exact original baseline recovered; full baseline-to-current reproduction restored. Ordinary browser/fullroute/render/manual pause Save/exact reload/Master acceptance pending",
+    "buildSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
+    "bytes": 38285449,
+    "sourceChecks": 729,
+    "sourceScope": "729/729 final exact-hash full LOCAL serial source/executable/workflow/compile/package checks,11new shore/dock194/195 contracts; ordinary browser/navigation/render/manual pause Save/exact reload/Master acceptance pending",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "delivered",
+      "status": "pending",
       "pr": 29,
-      "sourceCommit": "2025a31497eb9be698b81df2663d26adbd9ed530",
       "draft": true,
       "merged": false
     },
-    "next": "docs/NEXT_RUN_MAIN_GUARD_20261016.md",
+    "next": "docs/NEXT_RUN_CAPTIVE_PASSAGE_20261016.md",
     "fullSuite": {
       "status": "passed",
       "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
-      "evidence": "verification/main193-full-tests.txt",
-      "durationMs": 80634.590275,
-      "scope": "Local serial full suite; no remote CI/browser/runtime acceptance"
+      "evidence": "verification/captive195-full-tests.txt",
+      "durationMs": 79573.725975,
+      "scope": "LOCAL serial, not remote CI/ordinary gameplay"
     }
   },
   "saveLoadPerformance146": {
