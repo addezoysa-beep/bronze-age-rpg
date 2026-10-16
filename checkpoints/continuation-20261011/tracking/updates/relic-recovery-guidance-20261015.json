@@ -1,0 +1,12 @@
+{
+ "id":"relic-recovery-guidance-20261015",
+ "buildSha256":"15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c",
+ "bytes":38221804,"milestoneIds":["M0","M4","M5"],
+ "summary":"Prevent missing physical writing-relic softlock; original-stone no-repeat-XP recovery, storage conservation and explicit post-Kadmos ward-preparation objectives",
+ "masterDelivery":{"status":"pending"},"masterReview":{"status":"pending"},
+ "localChecks":{"passed":632,"failed":0,"new":7,"durationMs":32905.844697,"evidence":"verification/story176-final-full-tests.txt","scope":"Full integrated local source/executable/workflow/compile/package suite with175/176; earlier626/631 intermediate hashes not borrowed. Not ordinary browser/full route acceptance."},
+ "repositoryValidation":{"status":"passed","baselineUnchanged":true,"scope":"original14e baseline,3 inline scripts,6milestones,72update records; exact aggregate reconstruction separately passed"},
+ "runtime":{"status":"pending","required":"ordinary lessons/claim/storage/recovery/dialogue/objectives, ward/princess route, pause Save/exact reload and actual Master review"},
+ "priority":"User reports smoother frames; main quest/QOL/core BronzeAge/M0–M5 first; performance tuning and8–10 stress lower but retained. Crashes/progression/ordinary Save gates mandatory.",
+ "next":"docs/NEXT_RUN_RELIC_STORY_20261015.md; full120/every request retained, no source-only gameplay acceptance"
+}

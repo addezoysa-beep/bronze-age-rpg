@@ -1,5 +1,7 @@
 # Urgent low-end performance feedback
 
+SUPERSEDING user priority eveningOctober15: frames reportedly much better, slider useful; no more primary-focus performance work now. Main quest/QOL/Bronze Age/M0–M5 first;8–10stress lower but retained. Keep ordinary pause Save/exact reload, crashes/progression and final exact-hash performance gates; no benchmark acceptance inferred from unspecific positive playtest. Earlier performance-first next steps below are historical, not current queue order.
+
 174 continuation removes temporary coordinate arrays from native192-slot combat particle updates and the per-frame Very-low combined animal list without changing results/thresholds. Exact native float/state/attribute-version and culling parity fixtures, final VFX/alert composition and fail-closed seed anchors added. See docs/NEXT_RUN_ALLOCATION_20261015.md and exact update record for current full-suite/package/publication. This bounded allocation optimization is not a measured reference-device FPS gain or dominant-stall diagnosis.
 
 Delivered source to private draft PR29 head7252e2b94fa690871594ff2706fc7156e0132e05, exact6aa6095b; full616 local checks and complete HTML/ZIP identity pass. PR body actual head/draft/unmerged verified. Post-delivery metadata local; review remains pending. CI explicitly skipped under recorded runner restriction, not a pass; no repeated blocked remote matrices. Current user receives complete local HTML/ZIP, third immutable generated GitHub download unavailable. Resume actual profile/ordinary gates, not duplicate173.

@@ -1,0 +1,21 @@
+✔ actual current builder preserves seed and compiles every delivered script including latest QOL modules (1494.271648ms)
+✔ actual native adult household dialogue retains soup/directions/home choices and adds optional aid; child and early story unchanged (26.896417ms)
+✔ accept/deliver use real regional resources exactly once, no silver charge, no main-quest or player-state mutation (75.825123ms)
+✔ insufficient or invalid resource amounts are conserved; delivery revalidates hostile/dead/distance/area/party/current actor guards (148.777667ms)
+✔ decline and abandon spend nothing and allow later acceptance; JSON reload and other parent cannot duplicate rewards (18.891964ms)
+✔ only inspected first household per supported region participates; population rebinding is idempotent and never spawns NPCs (25.519753ms)
+✔ scribe indoors directs to actual outer home/house entrance instead of interior world coordinates (4.626132ms)
+✔ horse/follower/owned and reusable-chest storage is located instead of fabricating duplicate relics (6.428028ms)
+✔ actual native relic-stone first claim grants one object and XP once; lost completed relic recovers physically at same stone without repeat XP or duplicates (2.795163ms)
+✔ recovery refuses missing lessons/dead/wrong area/distance/stale stone and never grants remotely or repairs inventory on read (6.107795ms)
+✔ current-region writing lessons then actual stone are marked before fortress; missing item remains objective even if boss flag already set (1.560322ms)
+✔ Delphi discovery leads retained, early story and won game keep native objective; all four physical items and flags still required by native ward (1.590838ms)
+✔ JSON old-save reload preserves player/story/literacy, recovery stays once-only; population rebinding does not wrap callbacks repeatedly (1.57938ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1576.267065

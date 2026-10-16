@@ -1,5 +1,7 @@
 # Exact-build three-format delivery
 
+Newest175–176 main-quest/household candidate: HTML15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c,38,221,804bytes; complete ZIP SHA2564d7b40f19ef93300f77cd567155355e95d9833ad924fe7d72cfe61b97ed6fa32. Actual two archive entries/extracted HTML/manifest and3 inline compile verified;632/632local checks. Startup/embedded decode/user download access not run, current generated GitHub download unavailable; private source PR is not third artifact. All prior candidates below historical fallbacks.
+
 Newest174 allocation candidate: HTML72a439f0cba311b2c2aafc70590518d130c4d1f2cbf9a78b82d327e3d52ae673,38,212,944bytes; complete ZIP SHA256b05e844d584d12c0ab7657bdb8ac24df428de37c3eb93c2470d5032ec4a9dc3c. Actual two archive entries/extracted HTML/manifest and3 inline compile verified,620/620local checks. Startup/decoding/user access not run, immutable GitHub-generated download unavailable; source PR is not third artifact. All prior candidates below historical fallbacks.
 
 Newest173 Dynabook response candidate: HTML6aa6095bb9d6a52836c28a6897d4c580c94bbd6fada8c582fd810bf310bc2671,38,211,815bytes. Complete ZIP SHA2568295495f0d5a73bad627e2f2ad1fd3b4c203e28c5c5514261517bef2f5947b9d. Exact two archive entries/extracted HTML/manifest identity and3 inline compilation pass, full local616/616. Startup/embedded decode/user access not run, immutable GitHub-generated download unavailable. Current update record retains publication/review/runtime scope. Previous172 and earlier packages remain historical fallbacks.
