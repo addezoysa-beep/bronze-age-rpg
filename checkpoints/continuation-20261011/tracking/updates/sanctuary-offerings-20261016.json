@@ -9,8 +9,10 @@
   ],
   "summary": "Two actual sanctuary offering/clerical fixtures, spine-attached stylized regional ceremonial decoration and guarded optional grain/record/visible bowl with actual regional scribe directions; no quest/heal/XP reward or forced Save",
   "masterDelivery": {
-    "status": "pending",
-    "pullRequest": 29
+    "status": "delivered",
+    "pullRequest": 29,
+    "sourceCommit": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
+    "evidence": "Private draft PR29 source commit 9874bc99523dc076f11b0af3735e84fc7aee4c10; PR description updated successfully,0 associated source-head Actions runs. Draft/open/unmerged; no CI/runtime/Master acceptance."
   },
   "masterReview": {
     "status": "pending"

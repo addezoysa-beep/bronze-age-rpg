@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T07:16:16.335Z",
+  "updatedAt": "2026-10-16T07:19:20.954Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -13,14 +13,15 @@
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
   "currentLocalBuildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
-  "currentGithubBuildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
-  "currentGithubHead": "2932625edba68a51adae1c98976a8fe801f1b780",
+  "currentGithubBuildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+  "currentGithubHead": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
   "publication": {
-    "state": "local_checks_passed_delivery_pending",
+    "state": "delivered_private_draft_review_pending",
     "pr": 29,
+    "sourceCommit": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
     "draft": true,
     "merged": false,
-    "previousSourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780"
+    "workflowRunsAtSourceHead": 0
   },
   "evidence": {
     "local": {
@@ -33,8 +34,8 @@
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780",
-      "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+      "sourceCommit": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
+      "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
       "state": "open_draft_unmerged",
       "workflowRunsAtSourceHead": 0,
       "ci": "not_run_[skip_ci]_checkpoint_under_recorded_external_runner_restriction",
