@@ -24,6 +24,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('CAPTAIN_BERTH_198'));
  assert.ok(html.includes('CAPTIVE_LANDING_199'));assert.ok(html.includes('CAPTIVE_HOME_200'));
  assert.ok(html.includes('HARBOUR_INPUT_201'));assert.ok(html.includes('CAPTIVE_COLD_FRAME_202'));
+ assert.ok(html.includes('CAPTIVE_RETURN_203'));assert.ok(html.includes('CAPTIVE_HOLD_REPAIR_204'));
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
