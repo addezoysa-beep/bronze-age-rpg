@@ -1,0 +1,89 @@
+✔ ordinary cancellation retraces partial boarding to the real pier without player/item/story/reward teleport or Save (497.081879ms)
+✖ partial unloading turns back aboard in reverse order, never grants landing/reunion and can restart unloading (1.245105ms)
+✖ pause, danger, player departure, obstruction and moved boat hold return in place; cleared ordinary interruptions resume (131.318741ms)
+✖ returning phases survive partial JSON/cold-mesh restore without a child/player snap or false completion; new game clears state (134.888119ms)
+✔ invalid/missing return records fail closed and unavailable actor/boat/danger cannot start cancellation (871.217775ms)
+✔ stale ordinary return interactions cannot act after replaced save, changed revision or departed player (320.176152ms)
+✖ actual native findInt/tryInteract offers return instead of zero-distance Go ashore during unloading and guards controls while retracing (1.003994ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 3
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2152.389153
+
+✖ failing tests:
+
+test at scripts/captive-return.test.mjs:7:1
+✖ partial unloading turns back aboard in reverse order, never grants landing/reunion and can restart unloading (1.245105ms)
+  evalmachine.<anonymous>:1
+  function setup(){'),shoreSource.indexOf("test('ordinary child dialogue")),boarding=fs.readFileSync(new URL('./captive-boarding.test.mjs',import.meta.url),'utf8'),boardingHelpers=boarding.slice(boarding.indexOf('const native=n=>'),boarding.indexOf("test('actual native child dialogue"));
+                                                 ^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'ordinary'
+      at new Script (node:vm:117:7)
+      at createScript (node:vm:269:10)
+      at Object.runInContext (node:vm:300:10)
+      at setup (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:4:197)
+      at TestContext.<anonymous> (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:7:166)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+
+test at scripts/captive-return.test.mjs:8:1
+✖ pause, danger, player departure, obstruction and moved boat hold return in place; cleared ordinary interruptions resume (131.318741ms)
+  evalmachine.<anonymous>:1
+  function setup(){'),shoreSource.indexOf("test('ordinary child dialogue")),boarding=fs.readFileSync(new URL('./captive-boarding.test.mjs',import.meta.url),'utf8'),boardingHelpers=boarding.slice(boarding.indexOf('const native=n=>'),boarding.indexOf("test('actual native child dialogue"));
+                                                 ^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'ordinary'
+      at new Script (node:vm:117:7)
+      at createScript (node:vm:269:10)
+      at Object.runInContext (node:vm:300:10)
+      at setup (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:4:197)
+      at TestContext.<anonymous> (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:8:185)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+
+test at scripts/captive-return.test.mjs:9:1
+✖ returning phases survive partial JSON/cold-mesh restore without a child/player snap or false completion; new game clears state (134.888119ms)
+  evalmachine.<anonymous>:1
+  function setup(){'),shoreSource.indexOf("test('ordinary child dialogue")),boarding=fs.readFileSync(new URL('./captive-boarding.test.mjs',import.meta.url),'utf8'),boardingHelpers=boarding.slice(boarding.indexOf('const native=n=>'),boarding.indexOf("test('actual native child dialogue"));
+                                                 ^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'ordinary'
+      at new Script (node:vm:117:7)
+      at createScript (node:vm:269:10)
+      at Object.runInContext (node:vm:300:10)
+      at setup (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:4:197)
+      at TestContext.<anonymous> (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:9:192)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+
+test at scripts/captive-return.test.mjs:12:1
+✖ actual native findInt/tryInteract offers return instead of zero-distance Go ashore during unloading and guards controls while retracing (1.003994ms)
+  evalmachine.<anonymous>:1
+  function setup(){'),shoreSource.indexOf("test('ordinary child dialogue")),boarding=fs.readFileSync(new URL('./captive-boarding.test.mjs',import.meta.url),'utf8'),boardingHelpers=boarding.slice(boarding.indexOf('const native=n=>'),boarding.indexOf("test('actual native child dialogue"));
+                                                 ^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'ordinary'
+      at new Script (node:vm:117:7)
+      at createScript (node:vm:269:10)
+      at Object.runInContext (node:vm:300:10)
+      at setup (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:4:197)
+      at TestContext.<anonymous> (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captive-return.test.mjs:12:158)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)

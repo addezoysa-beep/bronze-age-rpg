@@ -841,31 +841,31 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "bf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093",
-    "bytes": 38306982,
-    "sourceChecks": 754,
-    "sourceScope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance",
+    "buildSha256": "6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee",
+    "bytes": 38316178,
+    "sourceChecks": 767,
+    "sourceScope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "0547d062da76d84d5c102abebb5449241266e49c",
+      "sourceCommit": "bd250ae0e6449c61679dbd3ea6a845bbe819314a",
       "draft": true,
       "merged": false,
-      "evidence": "Private draft PR29 advanced under expected-head lease; current source/limits description updated,7 exact UTF-8 source/test readbacks match,0 associated source-head Actions runs. Final754 local checks not remote/browser/Master acceptance."
+      "evidence": "Private draft PR29 source advanced under expected-head lease; current description updated,8 source/test exact readbacks match,0 associated source-head Actions runs. No merge/release/ordinary/Master acceptance."
     },
-    "next": "docs/NEXT_RUN_CAPTIVE_HOME_20261016.md",
+    "next": "docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 754,
+      "passed": 767,
       "failed": 0,
       "newTests": 13,
-      "durationMs": 91116.06636,
-      "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
-      "evidence": "verification/home202-full-tests.txt",
-      "scope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance"
+      "durationMs": 95045.329093,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/recovery204-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
     }
   },
   "saveLoadPerformance146": {
