@@ -12,8 +12,10 @@
     "DEEDS-163"
   ],
   "masterDelivery": {
-    "status": "pending",
-    "pullRequest": 29
+    "status": "delivered",
+    "pullRequest": 29,
+    "sourceCommit": "fe19a1397fe5a5b300fb9a7bc9c78dca3b87beca",
+    "evidence": "Private draft PR29 source fe19a1397fe5a5b300fb9a7bc9c78dca3b87beca advanced with expected-head lease; description updated,0 associated source-head Actions runs.729 full local serial, not remote CI/ordinary/Master acceptance; no merge/release."
   },
   "masterReview": {
     "status": "pending"
