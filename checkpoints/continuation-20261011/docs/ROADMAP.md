@@ -2,6 +2,8 @@ Current main-campaign/household candidate15a20392b6b95ee5f532dba2759a9ff881fe073
 
 # Prioritized Implementation Roadmap
 
+Current177 Shekelesh source checkpoint0376a589/38,225,607bytes: articulated scale cuirass/crest, cancellable first actual-boss encounter cinematic and king naming.638 local checks pass,6new; no browser/visual/audio/manual Save/Master acceptance. See docs/NEXT_RUN_SHEKELESH_20261015.md and exact update record. Earlier15a20392 paragraph is historical fallback. Laugh/custom swing/beginning visual cameo, actual hostage rescues and all broader production remain open. Main quest/QOL/BronzeAge first; performance/8–10 stress lower, retained. Full120/M0–M5 unchanged/unaccepted.
+
 LATEST USER PRIORITY October15 evening: slider improved frames in playtesting; further performance tuning and8–10-enemy stress testing LOWER. Main quest/QOL, core Bronze Age and full M0–M5 work first. Ordinary Save/exact reload, crashes/progression and exact-hash/Master gates remain essential. Preserve all requirements/full120, don't follow stale performance-first text below. Active175 physical relic recovery/ward directions: docs/NEXT_RUN_RELIC_STORY_20261015.md. No benchmark/whole-milestone acceptance inferred from positive playtest.
 
 Active174 exact particle/culling allocation checkpoint: see docs/NEXT_RUN_ALLOCATION_20261015.md. Native particle floats/lifetimes/buffer versions and existing Very-low visibility compare equal in focused fixtures; final166 VFX/alerts retained. Full regression/package status in tracking/updates/particle-cull-allocation-20261015.json. No measured Dynabook improvement, no attacker/simulation/effect-count reductions. Keep main/QOL/Save/Low8–10 and full120/M0–M5 priorities.

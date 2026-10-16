@@ -22,3 +22,7 @@ Higher-throughput policy comment6175986059 retained: advance substantive ready b
 
 Exact HTML ebc5423441a1bd7163df294202937fb751b99a03404edec28bbd4bc40fbb8617,38,202,669bytes. Complete ZIP SHA256237356b6eb55e2a0e208345aa3cb9ed51e0d87dbbe639794c448bb445445db0b. Actual two archive entries, extracted HTML/manifest identity and all3 inline compilation passed. Full local source602/602; package startup/embedded decoding and actual user access NOT RUN. Pinned GitHub-generated current build/artifact download UNAVAILABLE; private source commit/PR is not a third download. Current conversation receives HTML/ZIP from its own current workspace. See tracking/updates/ground-pulses-20261015.json. Earlier candidate identities above are historical.
 
+# Current177 package
+
+Exact0376a58975523abb24f41e9bd3ba1e74d8c07b0d44d61d5115d3f6f33fb9893e,38,225,607bytes;638 full local checks. Complete two-entry HTML/manifest ZIP identity passed, ZIP0db329f8704482e01569af5e3acfe9f0b5d4163f200a25f74bf23daebcf2d40a. Standalone startup/embedded decoding/user download access not run, immutable current GitHub-generated download unavailable. Previous package entries below historical. Actual runtime/Save/render/audio/Master gates open; no accepted release.
+

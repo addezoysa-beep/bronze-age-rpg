@@ -1,5 +1,7 @@
 # User playtesting — October15,13:34 Eastern
 
+177 source implementation advances BOSS-163 only partially: actual warlord rig scale armor/crest, live encounter cinematic, earlier king naming.638 local checks; current exact update record/handoff governs. No generated laugh/custom swing or beginning visual cameo yet; actual camera/mesh/audio/ordinary Save acceptance pending.175/176 retained, hostage rescues still pending. Do not mark entire BOSS-163 or milestone complete.
+
 LATEST evening feedback: user reports frames much better and slider useful, then explicitly prioritizes main quest/QOL, Bronze Age and M0–M5 above more performance work;8–10 stress lower, not removed. Increased useful throughput/successive checkpoints requested, not proof of measured3x production. Ordinary pause Save/exact reload/crash/progression checks essential. Active175 repairs missing physical relic/collection-flag mismatch; current record distinguishes source tests from full route/manual acceptance.
 
 URGENT user feedback19:15Eastern October15: later release runs roughly1–2FPS on a very low-end Dynabook; requests graphics slider alongside music/VFX and prompt optimization while full hourly workplan continues. Exact device/save/build unknown.173 restores visible device graphics control and repairs adaptive slow-frame exclusion; source checks are not hardware FPS acceptance. See docs/DYNABOOK_PERFORMANCE_20261015.md. Main/QOL/Save and reference Low8–10 remain critical; every earlier request retained.

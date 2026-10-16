@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T01:10:43Z",
+  "updatedAt": "2026-10-16T02:09:13.965Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,17 +12,18 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c",
-  "currentGithubBuildSha256": "72a439f0cba311b2c2aafc70590518d130c4d1f2cbf9a78b82d327e3d52ae673",
-  "currentGithubHead": "335d2c5c8744dcb502321f150ec6aea186b326bc",
+  "currentLocalBuildSha256": "0376a58975523abb24f41e9bd3ba1e74d8c07b0d44d61d5115d3f6f33fb9893e",
+  "currentGithubBuildSha256": "15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c",
+  "currentGithubHead": "e9fbaba0c58bdaa8c5b18f4628612f009de53bff",
   "publication": {
-    "state": "delivered_private_draft_review_pending",
+    "state": "local_checked_private_publication_pending",
     "noRetry": false
   },
   "evidence": {
     "local": {
-      "passed": 632,
-      "scope": "Full local source/executable/workflow/compile/package suite,12new relic/household contracts; not remote/browser/full quest/ordinary Save/Master acceptance"
+      "passed": 638,
+      "scope": "Full local source/executable/workflow/compile/package suite,6new177; not browser/render/audio/ordinary Save/Master acceptance",
+      "evidence": "verification/shekelesh177-final-tests.txt"
     },
     "github": {
       "build": "4445d03c",
@@ -1653,7 +1654,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Ordinary current candidate clothing/layer/helmet/save checks and critical main campaign/Pan/travel/performance, then core BronzeAge fixtures; preserve lower Trojan draft",
+  "nextDependencyReadyWork": "Main campaign/QOL/BronzeAge: complete Shekelesh audio/attack/opening presentation, child hostage rescue deeds, service/trade identity and physical civilization fixtures; current-build ordinary full route/Save when browser available. Performance/8–10 stress lower per user.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1673,7 +1674,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Successive175 physical relic recovery/conservation/indoor entrances/ward guidance and176four existing household resource-help deeds,632local checks with12new. Retains all earlier features and all120/M0–M5. Main quest/QOL/BronzeAge first; performance/8–10stress lower per latest user, retained. Ordinary full route/menu/navigation/Save/Master pending; no slot/hour acceptance or measured ETA reduction.",
+  "currentCheckpoint": "177 Shekelesh articulated scale cuirass/crest, actual boss encounter cinematic and earlier king naming. Native physical ward/attack/damage/quest/rewards unchanged. Cancellable, completion-only seen marker, bounded retry and combat/visibility/LOS guards.638local checks. Main/QOL/BronzeAge first; full120/M0–M5 retained, no slot/hour/milestone acceptance. Laugh/custom swing/opening visual cameo and rendered/ordinary Save gates remain open.",
   "partialSlots": [
     2,
     3,
