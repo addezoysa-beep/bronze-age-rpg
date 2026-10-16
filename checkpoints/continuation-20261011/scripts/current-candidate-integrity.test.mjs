@@ -16,6 +16,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('REGIONAL_SERVICE_IDENTITIES_180'));assert.ok(html.includes('SERVICE_INTERACTION_GUARD_181'));
  assert.ok(html.includes('SHEKELESH_SHARED_SWING_182'));
  assert.ok(html.includes('PHYSICAL_WRITING_183'));assert.ok(html.includes('SCRIPT_CONTEXT_184'));assert.ok(html.includes('SCRIBE_TRANSACTIONS_185'));
+ assert.ok(html.includes('SANCTUARY_LIFE_186'));assert.ok(html.includes('CEREMONIAL_ROLES_187'));assert.ok(html.includes('OFFERING_RECORDS_188'));
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));

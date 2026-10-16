@@ -470,6 +470,11 @@
       ],
       "checkpoint": "tracking/updates/reconcile-runtime-contracts-20261014.json",
       "scope": "All local Phthia,clothing,helmet,resource/workplace/city/granary and Pan guidance retained. All expanded requirements open; no acceptance from definitions/fixtures."
+    },
+    "sanctuary186188": {
+      "status": "partial_source_implementation_runtime_pending",
+      "specification": "docs/SANCTUARY_LIFE_RESEARCH_20261016.md",
+      "scope": "Two actual sanctuary physical/ceremonial/optional grain-record/direction examples only; no whole religion, ceremonial outfit, shared animation or milestone acceptance"
     }
   },
   "milestones": [
@@ -836,21 +841,20 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
-    "bytes": 38253739,
-    "sourceChecks": 677,
-    "sourceScope": "677/677 full LOCAL source/executable/workflow/compile/package checks,13new writing183–185; no ordinary browser/render/fullroute/manual pause Save/exact reload/Master acceptance",
+    "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+    "bytes": 38264009,
+    "sourceChecks": 693,
+    "sourceScope": "693/693 full LOCAL source/executable/workflow/compile/package checks,16new sanctuary186–188; ordinary browser/render/fullroute/manual pause Save/exact reload/Master acceptance pending",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "delivered",
+      "status": "pending",
       "pr": 29,
-      "sourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780",
       "draft": true,
       "merged": false
     },
-    "next": "docs/NEXT_RUN_WRITING_20261016.md"
+    "next": "docs/NEXT_RUN_SANCTUARY_20261016.md"
   },
   "saveLoadPerformance146": {
     "priority": "Critical main-campaign/QOL before expanded Troy",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T06:17:38.895Z",
+  "updatedAt": "2026-10-16T07:16:16.335Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,25 +12,24 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+  "currentLocalBuildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
   "currentGithubBuildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
   "currentGithubHead": "2932625edba68a51adae1c98976a8fe801f1b780",
   "publication": {
-    "state": "delivered_private_draft_review_pending",
+    "state": "local_checks_passed_delivery_pending",
     "pr": 29,
-    "sourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780",
     "draft": true,
     "merged": false,
-    "workflowRunsAtSourceHead": 0
+    "previousSourceCommit": "2932625edba68a51adae1c98976a8fe801f1b780"
   },
   "evidence": {
     "local": {
-      "passed": 677,
+      "passed": 693,
       "failed": 0,
-      "new": 13,
-      "durationMs": 37490.383,
-      "evidence": "verification/physical-writing185-full-tests.txt",
-      "scope": "Full LOCAL source/executable/workflow/compile/package checks; native four-school lesson/relic/buttons/geometry fixtures, not browser/ordinary Save/render/Master acceptance"
+      "new": 16,
+      "durationMs": 40081.236232,
+      "evidence": "verification/sanctuary188-full-tests.txt",
+      "scope": "Full LOCAL source/executable/workflow/compile/package suite; actual native summit/home furniture/dialogue buttons, Batch/Three/spine, native dungeon collision paths, conservation/old-save fixtures; not rendered browser/ordinary Save/Master acceptance"
     },
     "github": {
       "pr": 29,
@@ -1363,9 +1362,10 @@
       "originalTaskIds": [
         99
       ],
-      "workStatus": "pending",
+      "workStatus": "partial",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "implementationEvidence": "186–188 two actual sanctuary/cultural/clerical fixtures at 90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520;693 local checks,16new. Exact ordinary render/entry/Save/Master gates pending; broader ecology/culture/religion coverage incomplete."
     },
     {
       "hour": 98,
@@ -1667,7 +1667,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Current main-route ordinary menus/crashes/offline pause Save/exact reload if a working browser becomes available; retain blocked gates and avoid repeated hung downloads/restricted matrices. Continue remaining main rescue/home transport, Shekelesh laugh/opening cameo/rendered swing and core physical Bronze Age city/authority/records production. Four-school artifact/context/lesson source checkpoint183–185 already integrated; do not duplicate. Conservative shared saved-service identity migration remains open. All120/M0–M5 retained, performance/8–10 and expanded Troy lower. Remaining120-active-hour allocation is not a measured completion ETA.",
+  "nextDependencyReadyWork": "Current main-route/rescue/UI/crash and ordinary offline pause Save/exact reload when runtime becomes available; otherwise continue remaining real captive transport, boss laugh/cameo and physical civic/authority/cultural fixtures with tests. Do not duplicate sanctuary186–188 or writing183–185. Retain region grounding, stock/economy/gear/actions/creature/faction/site/audio and saved-service identity migration; performance/8–10 stress and expanded Troy lower, not removed.120-active-hour plan is not a measured remaining ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1687,7 +1687,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "183 existing regional school artifact production;184 correct native tracing exemplars and researched material/chronology context;185 actual native scribe/DOM stale-transaction safety.677 full LOCAL source/executable/workflow/compile/package checks pass,13new. Exact HTML/ZIP identity passed, source delivered to PR29. Ordinary rendered school/main-route/Save/exact reload/Master acceptance pending; no slot/hour/milestone accepted. Native physical relics/ward/cost/focus rules and prior175–182 retained. Full120/every prior requirement preserved.",
+  "currentCheckpoint": "186 two actual sanctuary physical offering/clerical stations;187 region-palette spine-attached ceremonial decoration;188 guarded voluntary grain/record/visible bowl and actual scribe directions.693 full LOCAL checks,16new; exact-hash ordinary browser/render/manual pause Save/exact reload/Master acceptance pending. Prior175–185/full120/M0–M5 preserved; no milestone/slot acceptance.",
   "partialSlots": [
     2,
     3,
@@ -1695,7 +1695,8 @@
     22,
     62,
     117,
-    84
+    84,
+    97
   ],
   "physicalWriting183185": {
     "status": "implemented_runtime_pending",
@@ -1708,5 +1709,11 @@
     ],
     "summary": "Four regional physical teaching artifacts, named matching exemplars/chronology context, native stale lesson transaction/DOM safety; all120 and milestone acceptance gates retained",
     "handoff": "docs/NEXT_RUN_WRITING_20261016.md"
+  },
+  "sanctuary186188": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+    "handoff": "docs/NEXT_RUN_SANCTUARY_20261016.md",
+    "scope": "Two existing interiors only, no full ceremonial outfit/work-action count/global religion acceptance"
   }
 }
