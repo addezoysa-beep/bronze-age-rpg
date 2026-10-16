@@ -1,124 +1,130 @@
 TAP version 13
-# Subtest: native equip autosave observes corrected selected-bow tier without any added save call
-ok 1 - native equip autosave observes corrected selected-bow tier without any added save call
+# Subtest: rejected missing or left-hand bow selections cannot mutate native hand identity, equipment, ownership or save count
+ok 1 - rejected missing or left-hand bow selections cannot mutate native hand identity, equipment, ownership or save count
   ---
-  duration_ms: 5.434989
+  duration_ms: 4.496309
+  type: 'test'
+  ...
+# Subtest: native equip autosave observes corrected selected-bow tier without any added save call
+ok 2 - native equip autosave observes corrected selected-bow tier without any added save call
+  ---
+  duration_ms: 1.641923
   type: 'test'
   ...
 # Subtest: ranged craft refuses nonfinite counts, pause/death/mount/air/action states without spending or granting
-ok 2 - ranged craft refuses nonfinite counts, pause/death/mount/air/action states without spending or granting
+ok 3 - ranged craft refuses nonfinite counts, pause/death/mount/air/action states without spending or granting
   ---
-  duration_ms: 12.364662
+  duration_ms: 11.740268
   type: 'test'
   ...
 # Subtest: logical construction labels preserve old IDs/counts, named gear and unrelated item labels without passive migration of equipment
-ok 3 - logical construction labels preserve old IDs/counts, named gear and unrelated item labels without passive migration of equipment
+ok 4 - logical construction labels preserve old IDs/counts, named gear and unrelated item labels without passive migration of equipment
   ---
-  duration_ms: 1.589446
+  duration_ms: 1.5929
   type: 'test'
   ...
 # Subtest: actual native equip selects actual bow draw tier per item, never grants missing items or changes ammo/material families
-ok 4 - actual native equip selects actual bow draw tier per item, never grants missing items or changes ammo/material families
+ok 5 - actual native equip selects actual bow draw tier per item, never grants missing items or changes ammo/material families
   ---
-  duration_ms: 1.414454
+  duration_ms: 1.488613
   type: 'test'
   ...
 # Subtest: actual weapon30/48 craft chain needs taught plan, finite ingredients and bench; basic bow consumes no horn and makes one physical item
-ok 5 - actual weapon30/48 craft chain needs taught plan, finite ingredients and bench; basic bow consumes no horn and makes one physical item
+ok 6 - actual weapon30/48 craft chain needs taught plan, finite ingredients and bench; basic bow consumes no horn and makes one physical item
   ---
-  duration_ms: 1.694364
+  duration_ms: 2.011758
   type: 'test'
   ...
 # Subtest: sling crafting uses fiber/leather, not wood; output is usable through native equip and material quantities are conserved
-ok 6 - sling crafting uses fiber/leather, not wood; output is usable through native equip and material quantities are conserved
+ok 7 - sling crafting uses fiber/leather, not wood; output is usable through native equip and material quantities are conserved
   ---
-  duration_ms: 1.563638
+  duration_ms: 1.584242
   type: 'test'
   ...
 # Subtest: separate horn composite plan consumes its real ingredients once and does not conjure an extra basic bow
-ok 7 - separate horn composite plan consumes its real ingredients once and does not conjure an extra basic bow
+ok 8 - separate horn composite plan consumes its real ingredients once and does not conjure an extra basic bow
   ---
-  duration_ms: 2.299462
+  duration_ms: 2.061279
   type: 'test'
   ...
 # Subtest: crafting basic or advanced bow preserves currently selected bow tier/material and unrelated hands, no automatic equip
-ok 8 - crafting basic or advanced bow preserves currently selected bow tier/material and unrelated hands, no automatic equip
+ok 9 - crafting basic or advanced bow preserves currently selected bow tier/material and unrelated hands, no automatic equip
   ---
-  duration_ms: 2.711871
+  duration_ms: 2.873981
   type: 'test'
   ...
 # Subtest: old horn-dependent bow knowledge is retained once without moving inventory/equipment/cargo/player or saving
-ok 9 - old horn-dependent bow knowledge is retained once without moving inventory/equipment/cargo/player or saving
+ok 10 - old horn-dependent bow knowledge is retained once without moving inventory/equipment/cargo/player or saving
   ---
-  duration_ms: 1.454754
+  duration_ms: 1.589817
   type: 'test'
   ...
 # Subtest: fresh new-game wrapper adds no inventory or known recipe, and later basic learning is not upgraded on reload
-ok 10 - fresh new-game wrapper adds no inventory or known recipe, and later basic learning is not upgraded on reload
+ok 11 - fresh new-game wrapper adds no inventory or known recipe, and later basic learning is not upgraded on reload
   ---
-  duration_ms: 1.580282
+  duration_ms: 1.504602
   type: 'test'
   ...
 # Subtest: actual guarded regional smith lesson offers advanced construction only at existing qualifying service hubs, preserves fee/knowledge and stale range guards
-ok 11 - actual guarded regional smith lesson offers advanced construction only at existing qualifying service hubs, preserves fee/knowledge and stale range guards
+ok 12 - actual guarded regional smith lesson offers advanced construction only at existing qualifying service hubs, preserves fee/knowledge and stale range guards
   ---
-  duration_ms: 333.474087
+  duration_ms: 349.534721
   type: 'test'
   ...
 # Subtest: actual native loot cannot upgrade or swap a physically equipped wooden bow; untracked legacy ownership remains untouched
-ok 12 - actual native loot cannot upgrade or swap a physically equipped wooden bow; untracked legacy ownership remains untouched
+ok 13 - actual native loot cannot upgrade or swap a physically equipped wooden bow; untracked legacy ownership remains untouched
   ---
-  duration_ms: 2.425001
+  duration_ms: 2.25423
   type: 'test'
   ...
 # Subtest: actual active86 arrow release uses selected physical bow tier, finite ammo and unchanged stamina cost
-ok 13 - actual active86 arrow release uses selected physical bow tier, finite ammo and unchanged stamina cost
+ok 14 - actual active86 arrow release uses selected physical bow tier, finite ammo and unchanged stamina cost
   ---
-  duration_ms: 49.140444
+  duration_ms: 54.028457
   type: 'test'
   ...
 # Subtest: actual native animated bow limbs retain attached bounded horn laminations through charge changes, cache does not add meshes each frame
-ok 14 - actual native animated bow limbs retain attached bounded horn laminations through charge changes, cache does not add meshes each frame
+ok 15 - actual native animated bow limbs retain attached bounded horn laminations through charge changes, cache does not add meshes each frame
   ---
-  duration_ms: 37.190559
+  duration_ms: 41.008857
   type: 'test'
   ...
 # Subtest: FP/TP and actual NPC inventory choose construction independently of selected/nocked arrow identity
-ok 15 - FP/TP and actual NPC inventory choose construction independently of selected/nocked arrow identity
+ok 16 - FP/TP and actual NPC inventory choose construction independently of selected/nocked arrow identity
   ---
-  duration_ms: 39.404603
+  duration_ms: 42.818038
   type: 'test'
   ...
 # Subtest: bow and sling previews are real finite geometry, cached bounded independent clones without circular rig serialization or ammo/actor mutation
-ok 16 - bow and sling previews are real finite geometry, cached bounded independent clones without circular rig serialization or ammo/actor mutation
+ok 17 - bow and sling previews are real finite geometry, cached bounded independent clones without circular rig serialization or ammo/actor mutation
   ---
-  duration_ms: 42.228082
+  duration_ms: 45.958502
   type: 'test'
   ...
 # Subtest: construction lookup uses actual bow keys and does not treat stale sword/fists hand records as a wooden bow
-ok 17 - construction lookup uses actual bow keys and does not treat stale sword/fists hand records as a wooden bow
+ok 18 - construction lookup uses actual bow keys and does not treat stale sword/fists hand records as a wooden bow
   ---
-  duration_ms: 27.753994
+  duration_ms: 31.398852
   type: 'test'
   ...
 # Subtest: a companion carrying two bows renders its actual native cargo selection, not the first bow in its packs
-ok 18 - a companion carrying two bows renders its actual native cargo selection, not the first bow in its packs
+ok 19 - a companion carrying two bows renders its actual native cargo selection, not the first bow in its packs
   ---
-  duration_ms: 35.021343
+  duration_ms: 33.694804
   type: 'test'
   ...
 # Subtest: advanced lesson ordinary DOM and native numbered-choice callback paths conserve stale/cancelled/known/insufficient quotes
-ok 19 - advanced lesson ordinary DOM and native numbered-choice callback paths conserve stale/cancelled/known/insufficient quotes
+ok 20 - advanced lesson ordinary DOM and native numbered-choice callback paths conserve stale/cancelled/known/insufficient quotes
   ---
-  duration_ms: 1532.243285
+  duration_ms: 1478.315325
   type: 'test'
   ...
-1..19
-# tests 19
+1..20
+# tests 20
 # suites 0
-# pass 19
+# pass 20
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 2590.794997
+# duration_ms 2628.023186

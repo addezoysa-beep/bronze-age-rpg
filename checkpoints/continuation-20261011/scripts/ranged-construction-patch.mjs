@@ -10,7 +10,7 @@ export const rangedConstructionPatch=String.raw`
  // wooden bow must not inherit the last composite's tier, even after looting.
  // Untracked legacy ownership is retained until an actual item is selected.
  let equipping208=false;
- const equip208Before=equipHand;equipHand=function(key,side){const p=rangedConstruction208(key);if(!p||p.kind!=='bow'||side!=='right'||!(playerItems()[key]>0))return equip208Before.apply(this,arguments);const previous=G.own.bow,was=equipping208;G.own.bow=p.rank;equipping208=true;try{const r=equip208Before.apply(this,arguments);if(G.hands?.right!=='bow'||G.handItems?.right!==key)G.own.bow=previous;return r;}catch(e){G.own.bow=previous;throw e;}finally{equipping208=was;}};
+ const equip208Before=equipHand;equipHand=function(key,side){const p=rangedConstruction208(key);if(!p||p.kind!=='bow')return equip208Before.apply(this,arguments);if(side!=='right')return toast('The bow needs both hands; equip it in the right hand.'),false;if(!(playerItems()[key]>0))return toast('You do not carry that bow.'),false;const previous=G.own.bow,was=equipping208;G.own.bow=p.rank;equipping208=true;try{const r=equip208Before.apply(this,arguments);if(G.hands?.right!=='bow'||G.handItems?.right!==key)G.own.bow=previous;return r;}catch(e){G.own.bow=previous;throw e;}finally{equipping208=was;}};
  const refresh208Before=refreshWeapon;refreshWeapon=function(){if(!equipping208&&G.hands?.right==='bow'){const key=G.handItems?.right,p=rangedConstruction208(key);if(p?.kind==='bow'&&G.inv[key]>0){G.own.bow=p.rank;G.weaponMaterials||={};G.weaponMaterials.bow=p.material;}}return refresh208Before.apply(this,arguments);};
  Object.assign(globalThis,{rangedConstruction208});
 })();`;
