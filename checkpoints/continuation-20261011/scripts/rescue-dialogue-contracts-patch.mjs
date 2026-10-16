@@ -6,8 +6,8 @@ export const rescueDialogueContractsPatch=String.raw`
  const princess191=new Map(),CHART190='proteus_chart190';
  LABEL48[CHART190]='Proteus’ annotated sea chart';WEIGHT[CHART190]=.15;
  function storyReach189(n){return !!n&&NPCS.includes(n)&&!n.dead&&!n.hostile&&!n._party&&!P.dead&&P.mode==='foot'&&P.grounded!==false&&(n.area||'over')===AREA&&Number.isFinite(n.x+n.z+P.x+P.z)&&hyp(n.x-P.x,n.z-P.z)<=4&&['play','talk'].includes(STATE);}
- function stamp189(){return{game:G,flags:F(),values:JSON.stringify(F())};}
- function current189(s){return G===s.game&&F()===s.flags&&JSON.stringify(F())===s.values;}
+ function stamp189(){return{game:G,flags:F(),values:JSON.stringify(F()),pan:G.world?.panReturn117,panValues:JSON.stringify(G.world?.panReturn117),rescue:G.world?.rescuePlan164,rescueValues:JSON.stringify(G.world?.rescuePlan164)};}
+ function current189(s){return G===s.game&&F()===s.flags&&JSON.stringify(F())===s.values&&G.world?.panReturn117===s.pan&&JSON.stringify(G.world?.panReturn117)===s.panValues&&G.world?.rescuePlan164===s.rescue&&JSON.stringify(G.world?.rescuePlan164)===s.rescueValues;}
  function invoke189(n,action,s){if(!storyReach189(n)||s&&!current189(s))return toast('This conversation has changed. Speak to the available traveller again.'),false;if(active189===n)return action();const oldSay=say,oldActive=active189;active189=n;
   say=function(name,lines,done,choices){const stamp=stamp189();const list=choices?.map(c=>({...c,go:typeof c.go==='function'?function(){const args=arguments;return invoke189(n,()=>c.go.apply(this,args),stamp);}:c.go}));let used=false;return oldSay(name,lines,typeof done==='function'?()=>{if(used)return false;const result=invoke189(n,done,stamp);if(result!==false)used=true;return result;}:done,list);};
   try{return action();}finally{say=oldSay;active189=oldActive;}
@@ -48,5 +48,5 @@ export const rescueDialogueContractsPatch=String.raw`
  const build191Before=buildDungeon;buildDungeon=function(id){const r=build191Before.apply(this,arguments);if(id==='fort')installPrincess191(DGS.fort);return r;};
  const restore191Before=restoreLivingWorld;restoreLivingWorld=function(){dialogue189=null;const r=restore191Before.apply(this,arguments);bindStory189();if(DGS.fort)installPrincess191(DGS.fort);return r;};
  const line189Before=dlgLine;dlgLine=function(){const r=line189Before.apply(this,arguments);if(active189)dialogue189={n:active189,stamp:stamp189(),lines:DLG.lines,choices:DLG.choices};const d=dialogue189;if(!d||d.lines!==DLG.lines||d.choices!==DLG.choices)return r;for(const b of $('dchoices').children){const click=b.onclick;if(typeof click!=='function')continue;b.onclick=function(e){if(STATE!=='talk'||d.lines!==DLG.lines||d.choices!==DLG.choices||!current189(d.stamp)||!storyReach189(d.n))return toast('This conversation is no longer available.'),false;return click.call(this,e);};}return r;};
- Object.assign(globalThis,{storyReach189,bindStory189,chartStorage190,recoverChart190,readChart190,princessTalk191,rescueReady191,installPrincess191});
+ Object.assign(globalThis,{invokeStory189:invoke189,storyReach189,bindStory189,chartStorage190,recoverChart190,readChart190,princessTalk191,rescueReady191,installPrincess191});
 })();`;

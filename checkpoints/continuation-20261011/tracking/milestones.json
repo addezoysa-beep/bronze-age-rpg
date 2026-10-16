@@ -839,27 +839,28 @@
     }
   },
   "currentCandidate": {
-    "file": "Wine-Dark-Sea-Combined-Cinematic.html",
-    "manifest": "deliveries/101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42/current-build-manifest.json",
-    "buildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
-    "bytes": 38273619,
-    "sourceChecks": 87,
-    "sourceScope": "87/87 SCOPED local native/source/compile/package-fixture checks,15new; full suite/repository baseline rebuild blocked by truncated local unchanged source. Prior693 full suite belongs only to90d6bdf6. Ordinary gameplay/render/Save/Master pending",
+    "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
+    "manifest": "dist/current-build-manifest.json",
+    "buildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
+    "bytes": 38276761,
+    "sourceChecks": 718,
+    "sourceScope": "718/718 full LOCAL serial source/executable/workflow/compile/package checks,10new this run. Exact original baseline recovered; full baseline-to-current reproduction restored. Ordinary browser/fullroute/render/manual pause Save/exact reload/Master acceptance pending",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "delivered",
+      "status": "pending",
       "pr": 29,
-      "sourceCommit": "270cd99629a893d2cdbf69207ab811091fa7ef15",
       "draft": true,
       "merged": false
     },
-    "next": "docs/NEXT_RUN_RESCUE_20261016.md",
+    "next": "docs/NEXT_RUN_MAIN_GUARD_20261016.md",
     "fullSuite": {
-      "status": "blocked",
-      "evidence": "verification/rescue191-full-tests.txt",
-      "reason": "Unexpected offline source hash: local index.html truncated10712576bytes; expected37815418/14e1907f. No baseline/hash check weakened."
+      "status": "passed",
+      "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
+      "evidence": "verification/main193-full-tests.txt",
+      "durationMs": 80634.590275,
+      "scope": "Local serial full suite; no remote CI/browser/runtime acceptance"
     }
   },
   "saveLoadPerformance146": {

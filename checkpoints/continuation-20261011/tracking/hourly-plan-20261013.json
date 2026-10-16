@@ -12,7 +12,7 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+  "currentLocalBuildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
   "currentGithubBuildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
   "currentGithubHead": "270cd99629a893d2cdbf69207ab811091fa7ef15",
   "publication": {
@@ -1670,7 +1670,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Recover exact unchanged Build59 input without weakening identity gate; rerun full suite/repository/build-current. Continue main rescue/actual child boat-home transport, boss laugh/cameo and civic/authority work. Current scoped87 checks are not current full acceptance. Ordinary offline pause Save/exact reload, main route/render/Master remain pending. All120 retained, no measured remaining ETA.",
+  "nextDependencyReadyWork": "Main route/ordinary Save/exact reload/render verification if browser becomes available; baseline blocker resolved, full local718 suite now passes. Continue real child boat/home transport, boss laugh/opening cameo and physical civic/authority production while retaining every120/M0–M5/equipment/economy/creature/faction/site/action/audio request. Further performance/8–10 and expanded Troy lower. No measured remaining ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1690,7 +1690,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Current189–191 candidate 101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42,38,273,619bytes.87/87 scoped LOCAL source/native-callback/compile/package-fixture checks pass,15new; NOT a full-suite pass. Full baseline rebuild/repository check blocked by truncated local index.html (10,712,576bytes,79ed427f…), expected unchanged Build59 37,815,418bytes/14e1907f…. Second baseline recovery copy is also truncated. GitHub large-file fetch/blob returned transport closed; line fetch empty. Exact recovered cinematic seed remains bf140589…/38,008,329bytes; direct continuation rebuild and current HTML/ZIP identity checked separately. Guarded Proteus/Kadmos story transactions, readable physical chart/storage-safe explicit recovery, idempotent/guarded actual Erigone release/completion. No boat/home escort or extra ending chapter, no ordinary browser/render/Save/Master acceptance. Native existing autosaves retained, new chart read/recovery adds none. All120/every M0–M5/prior scope retained; no slot/milestone accepted. See docs/NEXT_RUN_RESCUE_20261016.md; previous headings below historical.",
+  "currentCheckpoint": "Current192/193 exact candidate9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97,38,276,761bytes;718/718 full LOCAL serial checks pass,10new this run. Original unchanged Build59 recovered at exact37815418bytes/14e1907f, truncated local copy preserved. Full baseline-to-current reproduction/repository validation restored. Read-only final rescue objective now requires actual Erigone completion rather than just boss defeat; actual king/inventor/Delphi callbacks and composed actor menus gain current-save/route/actor stale-transaction safety. Native physical item and ward gates retained. Exact HTML/ZIP/3-inline compilation pass, not ordinary gameplay/Save/render/Master acceptance. All120/M0–M5 remain open, main/QOL/BronzeAge first; performance/8–10 and expanded Troy lower but retained. See docs/NEXT_RUN_MAIN_GUARD_20261016.md. Prior baseline-blocked paragraphs below describe historical attempts, now resolved.",
   "partialSlots": [
     2,
     3,
@@ -1725,5 +1725,21 @@
     "handoff": "docs/NEXT_RUN_RESCUE_20261016.md",
     "scope": "Proteus/Kadmos native transaction safety, held/readable/storage-conserved sea chart, actual guarded/idempotent princess release; no home escort/new ending scene",
     "checks": "87 scoped local pass,15new; full source suite blocked by truncated baseline, prior693 not carried forward"
+  },
+  "baselineRecovery192": {
+    "status": "resolved",
+    "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "sourceBytes": 37815418,
+    "retainedCorruptCopy": "index.html.truncated-79ed427fd5cc",
+    "previousCandidateFullChecks": 710,
+    "previousCandidate": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+    "previousEvidence": "verification/baseline192-full-tests.txt"
+  },
+  "mainStory192193": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
+    "handoff": "docs/NEXT_RUN_MAIN_GUARD_20261016.md",
+    "checks": "718 full LOCAL serial checks,10new; ordinary browser/Save/render/Master pending",
+    "scope": "Actual rescue objective and king/inventor/Oracle callback contracts, not additional home transport"
   }
 }
