@@ -1,3 +1,7 @@
+# Physical writing183–185 continuation
+
+Main/QOL/physical Bronze Age priority advances existing four-school artifacts, correct exemplar/lesson correspondence and optional educational material/chronology discussion, with safe actual native answer/DOM callbacks.677 full LOCAL checks,13new; fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106. No new writing minigame or automatic quest completion. Four native physical relics/ward/costs/focused-quest rules retained; original schematic geometry is not rendered/historical facsimile acceptance. All ordinary UI/render/old-save/fullroute/manual Save/exact reload/Master gates open; no milestone accepted. See docs/NEXT_RUN_WRITING_20261016.md and primary research/coverage. Every earlier request/full120 preserved, expanded Troy and further performance/8–10stress remain lower priority, not removed.
+
 # Shekelesh attack follow-up — October16
 
 182 partially advances BOSS-163: actual native boss axe blows now use existing shared player forms through wind/contact/recovery, excluding native projectile bursts. Native attack/damage/timing/ward/reward/quest logic remains unchanged. Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5 has664/664 local checks,17new this run with180/181. Rendered animation/hand/armor contact, full boss/princess route, laugh/opening cameo and ordinary Save/exact reload remain pending; no whole BOSS-163 or milestone acceptance. All service/economy/identity/region and prior full120 requirements retained.

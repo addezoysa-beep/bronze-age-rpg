@@ -836,20 +836,20 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
-    "bytes": 38244580,
-    "sourceChecks": 664,
-    "sourceScope": "664/664 full local source/executable/workflow/compile/package checks;17 new this run (12 service180/181,5 Shekelesh182). Current rendered ordinary controls/full route/manual Save/exact reload/audio/performance/Master acceptance pending.",
+    "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+    "bytes": 38253739,
+    "sourceChecks": 677,
+    "sourceScope": "677/677 full LOCAL source/executable/workflow/compile/package checks,13new writing183–185; no ordinary browser/render/fullroute/manual pause Save/exact reload/Master acceptance",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "delivered",
+      "status": "pending",
       "pr": 29,
-      "sourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
       "draft": true,
       "merged": false
-    }
+    },
+    "next": "docs/NEXT_RUN_WRITING_20261016.md"
   },
   "saveLoadPerformance146": {
     "priority": "Critical main-campaign/QOL before expanded Troy",

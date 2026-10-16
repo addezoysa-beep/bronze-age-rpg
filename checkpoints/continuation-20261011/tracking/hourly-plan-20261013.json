@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16T05:24:56.505Z",
+  "updatedAt": "2026-10-16T06:13:26.686Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,25 +12,24 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+  "currentLocalBuildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
   "currentGithubBuildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
   "currentGithubHead": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
   "publication": {
-    "state": "delivered_private_draft_review_pending",
+    "state": "local_checks_passed_delivery_pending",
     "pr": 29,
-    "sourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7",
     "draft": true,
     "merged": false,
-    "workflowRunsAtSourceHead": 0
+    "previousSourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7"
   },
   "evidence": {
     "local": {
-      "passed": 664,
+      "passed": 677,
       "failed": 0,
-      "new": 17,
-      "durationMs": 37203.093525,
-      "evidence": "verification/shekelesh182-full-tests.txt",
-      "scope": "Full local source/executable/workflow/compile/package suite; actual native enemyAttack/embedded Three shared target fixtures for182, not ordinary browser/render/contact/manual Save/Master acceptance"
+      "new": 13,
+      "durationMs": 37490.383,
+      "evidence": "verification/physical-writing185-full-tests.txt",
+      "scope": "Full LOCAL source/executable/workflow/compile/package checks; native four-school lesson/relic/buttons/geometry fixtures, not browser/ordinary Save/render/Master acceptance"
     },
     "github": {
       "pr": 29,
@@ -1694,5 +1693,17 @@
     22,
     62,
     117
-  ]
+  ],
+  "physicalWriting183185": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+    "requirements": [
+      "CIV-WRITING",
+      "SCRIPT-EDUCATION",
+      "M5",
+      "slot103"
+    ],
+    "summary": "Four regional physical teaching artifacts, named matching exemplars/chronology context, native stale lesson transaction/DOM safety; all120 and milestone acceptance gates retained",
+    "handoff": "docs/NEXT_RUN_WRITING_20261016.md"
+  }
 }

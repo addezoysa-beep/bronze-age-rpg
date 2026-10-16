@@ -1,4 +1,8 @@
-# Current180–182 package
+# Current183–185 package
+
+Exact HTML fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106,38,253,739bytes;677/677 full LOCAL checks,13new. Complete two-entry HTML/manifest ZIP SHA2562ce0823c13c8419855ea0ce75b3334f8f1e849963af8cc33099409b8d6ff9fa0. Extracted bytes/hash/manifest and all3 inline compilation pass. Standalone startup/embedded decoding/user download access not run; immutable current GitHub-generated artifact download unavailable. Source PR is not that missing third artifact. Ordinary route/Save/render/audio/performance/Master gates stay open. Previous candidates below historical.
+
+# Previous180–182 package
 
 Exact HTML e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5,38,244,580bytes;664/664 full local source/executable/workflow/compile/package checks,17new this run. Complete two-entry HTML/manifest ZIP SHA256 e706e8c6347dddb7ade0b1b06f096305f964596292b38625bfcca3c3dc7574ad; actual extracted bytes/hash/manifest/inline compilation pass. Standalone startup, embedded decoding, user access and immutable current GitHub-generated artifact download remain not run/unavailable. The private source PR is not that missing third artifact. Ordinary controls/full route/Save/render/Master gates remain open; earlier entries below are historical.
 

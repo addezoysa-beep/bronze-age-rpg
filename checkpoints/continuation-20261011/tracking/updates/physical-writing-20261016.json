@@ -1,0 +1,86 @@
+{
+  "id": "physical-writing-20261016",
+  "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+  "bytes": 38253739,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "summary": "Distinct existing regional writing artifacts, correct tracing exemplars and educational chronology/material context, guarded native scribe/DOM transactions while retaining actual four physical relics and ward",
+  "masterDelivery": {
+    "status": "pending",
+    "pullRequest": 29
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 677,
+    "failed": 0,
+    "newTests": 13,
+    "durationMs": 37490.383,
+    "evidence": "verification/physical-writing185-full-tests.txt",
+    "scope": "Full LOCAL source/executable/workflow/compile/package suite, native Batch/Three geometry, native dialogue button callbacks and complete four-school lesson/actual-item fixtures; not ordinary browser/render/Save/Master acceptance"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+    "bytes": 38253739,
+    "zipSha256": "2ce0823c13c8419855ea0ce75b3334f8f1e849963af8cc33099409b8d6ff9fa0",
+    "htmlPath": "deliveries/fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106/Wine-Dark-Sea-fd6db44e.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "All four natural school approaches/rendered readability/material contact, ordinary native lesson inputs/wrong answer/material conservation, actual relic collection and ward route; representative old save, ordinary offline pause Save/exact-position reload, no forced clicks or programmatic saves; full main route/Master review"
+  },
+  "recovery": {
+    "initialFailure": "Generated recovered seed truncated to2466816bytes; original remaining bytes retained at verification/recovered-seed-before183.html, untracked diagnostic only",
+    "resolved": "Existing pinned build-current reconstructed exact38008329-byte bf140589 seed from unchanged Build59 and tracked recovery hunks; gates unchanged",
+    "focusedFailures": "Geometry fixture initially omitted actual T; loaded actual T. Actual native DOM close changed paused state before guard; production pre-close/current-dialogue guard added and tested. Wedge normals corrected and tested.",
+    "final": "677/677 full local tests pass; exact rebuild/package identity pass"
+  },
+  "external": {
+    "browserPackage": "present",
+    "chromium1234Executable": "absent",
+    "githubGeneratedDownload": "unavailable",
+    "latestActionsRuns": [
+      "38711529714",
+      "38711529696",
+      "38711522032"
+    ],
+    "latestActionsHead": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+    "latestJobObservation": "38711529714 Offline browser smoke and Repository checks failed with empty step arrays; annotations endpoint unsupported by GitHub fetch. Earlier runner/account restriction retained, no retry or permissions/account change.",
+    "currentParentHead": "80b73f7f6d43d00af87544d81ba08affac137e76",
+    "workflowRunsAtParentHead": 0,
+    "schedule": "Existing recurring continuation verified enabled; no new automation or schedule change"
+  },
+  "limits": "Original enlarged schematic geometry, not reproduced font/artifact outlines or rendered palaeographic acceptance. Clay/fiber native practice remains explicitly classroom-only; final phrase game glosses not literal translations. No new writing minigame, movement/save schema/quest item/ward/cost/focus/reward change. Prior175–182 and all120/M0–M5 retained, no milestone accepted. Child home transport, boss laugh/cameo, region grounding and shared service saved-key migration pending; main/QOL/BronzeAge first, performance/8–10 and expanded Troy lower retained.",
+  "next": "docs/NEXT_RUN_WRITING_20261016.md",
+  "changedFiles": [
+    "scripts/physical-writing-patch.mjs",
+    "scripts/physical-writing.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/PHYSICAL_WRITING_RESEARCH_20261016.md",
+    "docs/NEXT_RUN_WRITING_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "verification/physical-writing185-full-tests.txt"
+  ]
+}
