@@ -1,0 +1,185 @@
+{
+  "id": "site-provisions-20261017",
+  "buildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
+  "bytes": 38340299,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M4"
+  ],
+  "requirementIds": [
+    "120-69",
+    "120-71",
+    "120-72"
+  ],
+  "summary": "211 finite mundane entry chests in existing eight legendary/twelve hideout definitions;212 current-voyage/room optional mechanism input guards;213 saved/new-voyage lid presentation",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "389099f0133e6e49b0e51ac4790fcacc3731b457",
+    "draft": true,
+    "merged": false,
+    "evidence": "Private owned source PR29 advanced under expected-head lease, current body updated;11 exact source/test readbacks match;0 source-head Actions runs. No merge/release/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 815,
+    "failed": 0,
+    "newTests": 14,
+    "durationMs": 99620.139311,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/site213-full-tap.txt",
+    "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 74,
+    "failed": 0,
+    "newTests": 14,
+    "evidence": [
+      "verification/site212-final-focused-tests.txt",
+      "verification/site213-lids-focused-tests.txt"
+    ],
+    "scope": "LOCAL native loot buttons/Take-all/ammo, real chest geometry, native defineSite56/carve twenty-entry matrix and native dialogue callback fixtures; not ordinary gameplay"
+  },
+  "changes": [
+    "One plain provision chest per eligible existing faction site/hideout, connected entry floor search bounded64nodes/3cells excluding doors/props/solids/unsafe slopes; invalid/no-clear placement skips rather than inventing a location. Existing quest gates/defenders/rewards unchanged.",
+    "Each voyage/site lazily holds2bread8stone6wooden arrows, partially lootable through native item buttons and Take All; permanent depletion in serialized world state, old-save defaults safe, no cache-placement/open automatic Save or XP. Native successful loot snapshot retained.",
+    "Loot callbacks require current game, actual dungeon object/area, live nearby foot player, current container/items/menu and valid positive counts; no stale deductions/awards after travel/save/menu replacement. Native ammo wrapper receives actual arrow_wood identity.",
+    "Optional readable sound/bowl mechanisms now reject stale/remote/dead/mounted/paused/replaced room/save/state/menu input before native close or progress; legitimate native close-before-go remains valid. Original pattern/reset/reward/cinematic behavior retained.",
+    "213 read-only chest lid presentation sync after native build/restore/newGame; partially/depleted saved supplies show opened lid, absent old/new voyage defaults closed. No contents mutation or automatic Save."
+  ],
+  "initialFailures": {
+    "first": "67/70 focused pass; geometry extraction included unrelated GEO objects and dialogue fixture missed sfx.",
+    "second": "Geometry fixture then needed native part and MAT setup. A shell command ended with build exit0 despite a failing test; complete fail footer was inspected and excluded.",
+    "final": "Final71/71 plus3/3 focused pass, final815/815 full LOCAL exit0/complete footer. No source changes during frozen final suite.",
+    "lidFixture": "First two native-return sentinel fixtures had return17/return23 token typos; corrected to return17/23 literals with whitespace;3/3 pass, no game behavior change."
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary site/hideout arrival, cache floor/contact/access/native item/TakeAll, all puzzle clue/reset/reward/reentry paths, offline pause Save/exact reload/old-save/cold Continue and Master"
+  },
+  "remaining": [
+    "All full120/every M0–M5/prior requests retained",
+    "Critical ordinary main-route/Save/render and Master gates",
+    "Full20-site gameplay matrix not established by source definitions",
+    "Moved/offshore rescue/service identity migration/equipment/economy/creatures/factions/work/music"
+  ],
+  "evidence": [
+    "verification/site212-final-focused-tests.txt",
+    "verification/site213-full-tap.txt",
+    "docs/NEXT_RUN_SITE_PROVISIONS_20261017.md",
+    "verification/site213-lids-focused-tests.txt"
+  ],
+  "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or an ETA",
+  "preliminaryFullSuite": {
+    "buildSha256": "35b7477cc81d0a879fa28ada74f5095c44fcaf520bf2b500a30785cdec181293",
+    "passed": 812,
+    "failed": 0,
+    "durationMs": 98389.155617,
+    "evidence": "verification/site212-preliminary-full-tap.txt",
+    "scope": "Pre213 exact LOCAL suite; not borrowed for final213 hash"
+  },
+  "external": {
+    "sourceCommit": "389099f0133e6e49b0e51ac4790fcacc3731b457",
+    "parentHead": "04dcff21c7d5f033245318c421a2c0a521542cfb",
+    "sourceReadbacks": [
+      {
+        "path": "scripts/site-provisions-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/site-supply-lids-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/site-provisions.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/site-supply-lids.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/optional-puzzles-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/lock-camera.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-continuation.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-current.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/current-candidate-integrity.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "verification/site212-final-focused-tests.txt",
+        "equal": true
+      },
+      {
+        "path": "verification/site213-lids-focused-tests.txt",
+        "equal": true
+      }
+    ],
+    "sourceActionsRuns": 0,
+    "localBrowser": "Playwright present; Chromium1234 absent",
+    "latestActions": [
+      38711529714,
+      38711529696,
+      38711522032
+    ],
+    "latestActionsHead": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+    "conclusion": "failure before steps/artifacts; no retries"
+  },
+  "package": {
+    "directory": "/workspace/scratch/378db630510c/performance-checkpoint/deliveries/3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
+    "direct": "/workspace/scratch/378db630510c/performance-checkpoint/deliveries/3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zip": "/workspace/scratch/378db630510c/performance-checkpoint/deliveries/3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f/Wine-Dark-Sea-3c45ad55.zip",
+    "manifestFile": "/workspace/scratch/378db630510c/performance-checkpoint/deliveries/3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f/current-build-manifest.json",
+    "bytes": 38340299,
+    "buildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
+    "zipSha256": "70af3f859765218ec44e542043c55acbe0d5ac1c5b376d72a0a8ad03b0800ed3",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "checks": {
+      "localHtmlZipIdentity": "passed",
+      "localArchiveContents": "passed",
+      "inlineCompilation": "passed",
+      "standaloneStartup": "not_run",
+      "githubGeneratedIdentity": "not_run",
+      "userDownloadAccessibility": "not_run"
+    },
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "completed": [
+    "211–213 implementation and current-hash full LOCAL verification",
+    "Exact rebuild/package and private source delivery"
+  ],
+  "partial": [
+    "Full120/M0–M5/requested production and ordinary runtime acceptance",
+    "8legendary/12hideout source definition matrix, not ordinary coverage"
+  ],
+  "blocked": [
+    "Local browser executable absent; latest remote runner failures before steps/artifacts",
+    "Matching GitHub-generated download unavailable"
+  ],
+  "newlyStarted": [
+    "211–213 source checkpoints, not accepted numbered slots"
+  ]
+}

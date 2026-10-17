@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-17T20:59:00Z",
+  "updatedAt": "2026-10-17T22:12:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,9 +12,9 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
+  "currentLocalBuildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
   "currentGithubBuildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
-  "currentGithubHead": "5591ece88482b2339551267e30ae17c034894826",
+  "currentGithubHead": "389099f0133e6e49b0e51ac4790fcacc3731b457",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
@@ -1029,7 +1029,8 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "211–213 finite entry provisions, guarded optional mechanism context and saved-lid presentation;815 exact-hash LOCAL source checks. Ordinary cache/puzzle/trap/full original scope/runtime still pending."
     },
     {
       "hour": 70,
@@ -1053,7 +1054,8 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "211–213 finite entry provisions, guarded optional mechanism context and saved-lid presentation;815 exact-hash LOCAL source checks. Ordinary cache/puzzle/trap/full original scope/runtime still pending."
     },
     {
       "hour": 72,
@@ -1065,7 +1067,8 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "211–213 finite entry provisions, guarded optional mechanism context and saved-lid presentation;815 exact-hash LOCAL source checks. Ordinary cache/puzzle/trap/full original scope/runtime still pending."
     },
     {
       "hour": 73,
@@ -1678,7 +1681,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Ordinary Pan/report/skiff/Daedalus and ranged acquisition/crafting/equip/Save/render when browser available. Continue useful independent main/QOL/physical BronzeAge implementation; all120/every M0–M5/prior scope retained. No measured remaining ETA.",
+  "nextDependencyReadyWork": "Ordinary main/Pan/report/skiff/Daedalus and offline pause Save/exact reload; ranged and actual cache/puzzle routes when browser available. Continue dependency-ready main/QOL/physical BronzeAge; full120 retained, no ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1698,7 +1701,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "208–210 implemented/source-verified at801 full LOCAL checks; ordinary runtime/Save/render/Master pending",
+  "currentCheckpoint": "211–213 implemented and815 full LOCAL checks/source delivered;ordinary/runtime/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1814,5 +1817,23 @@
     },
     "accepted": false,
     "evidence": "tracking/updates/ranged-construction-20261016.json"
+  },
+  "siteProvisions211212": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
+    "accepted": false,
+    "evidence": "tracking/updates/site-provisions-20261017.json",
+    "followup213": "Cold load/new voyage lid state;3 focused checks pass",
+    "sourceCommit": "389099f0133e6e49b0e51ac4790fcacc3731b457",
+    "checks": {
+      "status": "passed",
+      "passed": 815,
+      "failed": 0,
+      "newTests": 14,
+      "durationMs": 99620.139311,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/site213-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
+    }
   }
 }

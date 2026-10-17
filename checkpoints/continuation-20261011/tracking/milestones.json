@@ -841,31 +841,31 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
-    "bytes": 38334505,
-    "sourceChecks": 801,
-    "sourceScope": "Full LOCAL serial source/executable/native callback/DOM-harness/Three/workflow/compile/package; NOT ordinary browser/render/story/offline pause Save/Master",
+    "buildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
+    "bytes": 38340299,
+    "sourceChecks": 815,
+    "sourceScope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "5591ece88482b2339551267e30ae17c034894826",
+      "sourceCommit": "389099f0133e6e49b0e51ac4790fcacc3731b457",
       "draft": true,
       "merged": false,
-      "evidence": "Private owned draft PR29 advanced with expected-head lease; current PR body updated;6 exact source/test readbacks match;0 source-head Actions runs. No merge/release/Master acceptance."
+      "evidence": "Private owned source PR29 advanced under expected-head lease, current body updated;11 exact source/test readbacks match;0 source-head Actions runs. No merge/release/Master acceptance."
     },
-    "next": "docs/NEXT_RUN_RANGED_CONSTRUCTION_20261016.md",
+    "next": "docs/NEXT_RUN_SITE_PROVISIONS_20261017.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 801,
+      "passed": 815,
       "failed": 0,
-      "newTests": 20,
-      "durationMs": 138337.254642,
+      "newTests": 14,
+      "durationMs": 99620.139311,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/ranged210-full-tap.txt",
-      "scope": "Full LOCAL serial source/executable/native callback/DOM-harness/Three/workflow/compile/package; NOT ordinary browser/render/story/offline pause Save/Master"
+      "evidence": "verification/site213-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
   "saveLoadPerformance146": {
