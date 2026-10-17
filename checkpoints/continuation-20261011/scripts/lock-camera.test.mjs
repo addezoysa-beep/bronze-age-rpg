@@ -432,7 +432,7 @@ test('revenant weapons decay after spawn and late equip without repainting livin
  const bow=mesh();h.W.bow=bow;c.setWeapon(h,'bow');assert.ok(bow.geometry.decayed);const living={W:{sword:mesh()}};c.setWeapon(living,'sword');assert.equal(living.W.sword.geometry.clean,true);
 });
 test('two optional puzzle variants reset fairly and give only one ordinary loot reward',()=>{
- for(const seed of [0,1]){const world={loot:{}},c={globalThis:null,faceHash:()=>seed,livingState:()=>world,save(){},closeDlg(){},say(){},beginStoryCinema110(){},toast(){},putLoot(id,x,z,area,items){world.loot[id]={x,z,area,items};c.rewards=(c.rewards||0)+1;},DGS:{},buildDungeon(){},atmospherePlan108:()=>[],Batch:class{},K:{}};c.globalThis=c;vm.createContext(c);vm.runInContext(optionalPuzzlesPatch,c);const dg={id:'test'},p={x:1,z:2};
+ for(const seed of [0,1]){const world={loot:{}},c={globalThis:null,G:{world},P:{x:1,z:2,mode:'foot'},STATE:'play',AREA:'test',DG:null,DLG:{},dlgLine(){},$:()=>({children:[]}),hyp:Math.hypot,faceHash:()=>seed,livingState:()=>world,save(){},closeDlg(){c.STATE='play';},say(name,lines,done,choices){c.DLG={lines,choices};c.STATE='talk';},beginStoryCinema110(){},toast(){},putLoot(id,x,z,area,items){world.loot[id]={x,z,area,items};c.rewards=(c.rewards||0)+1;},DGS:{},buildDungeon(){},atmospherePlan108:()=>[],Batch:class{},K:{}};c.globalThis=c;vm.createContext(c);vm.runInContext(optionalPuzzlesPatch,c);const dg={id:'test'},p={x:1,z:2};c.DGS.test=c.DG=dg;
   if(seed===0){c.mechanismInput113(dg,p,'high');assert.equal(c.mechanismState113('test').progress,0);for(const a of ['low','high','middle'])c.mechanismInput113(dg,p,a);}else{c.mechanismInput113(dg,p,'left');c.mechanismInput113(dg,p,'reset');assert.equal(c.mechanismState113('test').left,0);for(let i=0;i<3;i++)c.mechanismInput113(dg,p,'left');for(let i=0;i<5;i++)c.mechanismInput113(dg,p,'right');}
   assert.equal(c.mechanismState113('test').solved,true);assert.equal(c.rewards,1);c.mechanismInput113(dg,p,'left');assert.equal(c.rewards,1);assert.deepEqual(Object.keys(world.loot['mechanism113:test'].items).sort(),['arrow_wood','bread','stone']);
  }
@@ -507,4 +507,5 @@ test('HUD target selection retains lock priority and clears stale bosses',()=>{
  assert.equal(c.healthBarTarget72(),e);assert.equal(c.BOSS,null);c.LOCK=null;assert.equal(c.healthBarTarget72(),other);
  c.STATE='pause';assert.equal(c.healthBarTarget72(),null);
 });
+
 
