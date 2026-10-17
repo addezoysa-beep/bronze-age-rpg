@@ -28,6 +28,7 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('PAN_STORAGE_RECOVERY_205'));assert.ok(html.includes('SKIFF_REPAIR_TRANSACTION_206'));assert.ok(html.includes('ROYAL_HANDOFF_DISPATCH_207'));
  assert.ok(html.includes('RANGED_CONSTRUCTION_208'));assert.ok(html.includes('RANGED_CRAFTING_209'));assert.ok(html.includes('RANGED_PRESENTATION_210'));
  assert.ok(html.includes('SITE_PROVISIONS_211'));assert.ok(html.includes('MECHANISM_CONTEXT_212'));
+ assert.ok(html.includes('SITE_SUPPLY_PRESENTATION_213'));
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
