@@ -1,0 +1,123 @@
+{
+  "id": "ranged-construction-20261016",
+  "buildSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
+  "bytes": 38334505,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "requirementIds": [
+    "NAME-163",
+    "TRADE-163",
+    "OPEN-60"
+  ],
+  "summary": "208–210 logical construction, conserved physical crafting/knowledge, selected bow power and actual cached rig/previews",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "5591ece88482b2339551267e30ae17c034894826",
+    "draft": true,
+    "merged": false,
+    "evidence": "Private owned draft PR29 advanced with expected-head lease; current PR body updated;6 exact source/test readbacks match;0 source-head Actions runs. No merge/release/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 801,
+    "failed": 0,
+    "newTests": 20,
+    "durationMs": 138337.254642,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/ranged210-full-tap.txt",
+    "scope": "Full LOCAL serial source/executable/native callback/DOM-harness/Three/workflow/compile/package; NOT ordinary browser/render/story/offline pause Save/Master"
+  },
+  "scopedChecks": {
+    "passed": 20,
+    "failed": 0,
+    "newTests": 20,
+    "evidence": "verification/ranged210-focused-tests.txt",
+    "scope": "LOCAL native equip/craft/lesson/active86 release/Three rig and preview fixtures, not ordinary rendered gameplay"
+  },
+  "changes": [
+    "208 retains serialized IDs/counts and named/unrelated items, labels actual wooden/horn/fiber construction; rank is set before original equip autosave; loot cannot silently upgrade held physical wooden bow; rejected missing/left bow cannot mutate exact-hand metadata. No added Save.",
+    "209 taught basic bow3wood4fiber produces1bow_wood; sling4fiber1leather produces1sling_wood; separate composite4wood2horn6fiber2hide produces1bow_bronze. Known-plan/workbench/role/work/action/finite-count guards and conservation retained; no automatic equip or phantom extra bow.",
+    "209 old horn-dependent known bow plan becomes advanced knowledge once, fresh game remains empty and basic learning does not later upgrade on reload. Existing inspected city-service classification/native18-silver lesson; current save/actor/range/dialogue/funds/knowledge guards cover actual DOM and native numbered callback paths.",
+    "210 horn laminations parent to actual bow limbs and cache/toggle; player/NPC/companion actual selected cargo weapon controls construction independently of ammo. Bow/sling native rig previews are finite, normalized, bounded-cache clones without circular rig serialization."
+  ],
+  "initialFailures": {
+    "scope": "Earlier pre-interruption development fixtures lacked native G.training, refreshWeapon/T_NOW or dlgLine stubs; corrected fixtures, not game acceptance.799/800 earlier hash passes are not borrowed. Final exact current source rerun801/801 completed; first801 stdout not saved before interruption, durable rerun complete."
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary learning/acquisition/crafting/equip/reject/fire/recovery/companion/FP/TP/old-save; full main route; offline pause Save/exact-position reload/cold Continue; rendered/Master/reference acceptance"
+  },
+  "external": {
+    "parentHead": "d55618afdc646830573fbce86a08e4f99823eeae",
+    "sourceCommit": "5591ece88482b2339551267e30ae17c034894826",
+    "sourceReadbacks": 6,
+    "sourceActionsRuns": 0,
+    "latestActions": [
+      38711529714,
+      38711529696,
+      38711522032
+    ],
+    "latestActionsHead": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+    "latestActionsConclusion": "failure; inspected jobs no steps/logs and no artifacts",
+    "localBrowser": "Playwright present; Chromium1234 executable absent; no repeated hung install/Cloud/blocked matrix"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
+    "bytes": 38334505,
+    "zipSha256": "291048d7b354ae25fd976398039290d7bc543fe6a423170ceb94e42b1225d6ad",
+    "htmlPath": "deliveries/cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa/Wine-Dark-Sea-cfd2833e.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "completed": [
+    "208–210 implementation and exact-hash LOCAL checks",
+    "Exact local rebuild/package and private source delivery"
+  ],
+  "partial": [
+    "Full NAME/TRADE/economy/stock/mesh/recipe coverage",
+    "Current-hash runtime and full120/M0–M5"
+  ],
+  "blocked": [
+    "Current ordinary rendered/story/Save acceptance: no local browser executable; latest remote runners no steps/artifacts",
+    "Matching GitHub-generated build download unavailable"
+  ],
+  "newlyStarted": [
+    "208–210; not accepted numbered slots"
+  ],
+  "remaining": [
+    "Ordinary main-route/render/Save/Master gates",
+    "Full equipment/economy/arbitrage/city stock/name/mesh audit",
+    "Moved/changed/offshore lost-hull rescue and Egypt/Luxor/Valley service saved-key collision",
+    "All creature/faction/site/work/music/BronzeAge/full120/M0–M5/prior requests retained"
+  ],
+  "remainingEstimate": "Unmeasured;120 allocated active-hour plan is not an ETA",
+  "evidence": [
+    "verification/ranged210-focused-tests.txt",
+    "verification/ranged210-full-tap.txt",
+    "docs/RANGED_CONSTRUCTION_EVIDENCE_20261016.md",
+    "docs/NEXT_RUN_RANGED_CONSTRUCTION_20261016.md"
+  ],
+  "changedFiles": [
+    "scripts/ranged-construction-patch.mjs",
+    "scripts/ranged-construction.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ]
+}

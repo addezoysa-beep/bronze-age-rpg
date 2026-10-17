@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-17T20:59:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,9 +12,9 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
+  "currentLocalBuildSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
   "currentGithubBuildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
-  "currentGithubHead": "ea54892595812d918cedd39080b16e27013b0f20",
+  "currentGithubHead": "5591ece88482b2339551267e30ae17c034894826",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
@@ -517,7 +517,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "208–210 adds logical wood/composite/fiber construction, physical basic/composite crafting/teaching/migration and bounded attached rig/previews;801 full LOCAL checks. Full original task coverage and current-hash runtime remain pending."
     },
     {
       "hour": 30,
@@ -593,7 +593,8 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "208–210 adds logical wood/composite/fiber construction, physical basic/composite crafting/teaching/migration and bounded attached rig/previews;801 full LOCAL checks. Full original task coverage and current-hash runtime remain pending."
     },
     {
       "hour": 36,
@@ -1677,7 +1678,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Verify current ordinary Pan/report/storage/skiff/Daedalus and pause Save/exact reload when browser available; advance main/QOL/core BronzeAge without repeating205–207 or optional escort loops. Moved/offshore hull rescue remains open.",
+  "nextDependencyReadyWork": "Ordinary Pan/report/skiff/Daedalus and ranged acquisition/crafting/equip/Save/render when browser available. Continue useful independent main/QOL/physical BronzeAge implementation; all120/every M0–M5/prior scope retained. No measured remaining ETA.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1697,7 +1698,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md.",
+  "currentCheckpoint": "208–210 implemented/source-verified at801 full LOCAL checks; ordinary runtime/Save/render/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1796,5 +1797,22 @@
       "evidence": "verification/pan207-full-tap.txt",
       "scope": "Full LOCAL serial source/executable/native dialogue/storage/menu/callback/Three/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
     }
+  },
+  "rangedConstruction208210": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
+    "sourceCommit": "5591ece88482b2339551267e30ae17c034894826",
+    "checks": {
+      "status": "passed",
+      "passed": 801,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 138337.254642,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/ranged210-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native callback/DOM-harness/Three/workflow/compile/package; NOT ordinary browser/render/story/offline pause Save/Master"
+    },
+    "accepted": false,
+    "evidence": "tracking/updates/ranged-construction-20261016.json"
   }
 }
