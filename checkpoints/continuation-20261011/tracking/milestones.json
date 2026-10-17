@@ -475,6 +475,11 @@
       "status": "partial_source_implementation_runtime_pending",
       "specification": "docs/SANCTUARY_LIFE_RESEARCH_20261016.md",
       "scope": "Two actual sanctuary physical/ceremonial/optional grain-record/direction examples only; no whole religion, ceremonial outfit, shared animation or milestone acceptance"
+    },
+    "mainRouteDirections214215": {
+      "status": "source_delivered_local_checks_passed_runtime_pending",
+      "evidence": "tracking/updates/main-route-directions-20261017.json",
+      "acceptance": "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master"
     }
   },
   "milestones": [
@@ -841,31 +846,35 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
-    "bytes": 38340299,
-    "sourceChecks": 815,
-    "sourceScope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master",
+    "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+    "bytes": 38345088,
+    "sourceChecks": 825,
+    "sourceScope": "Full LOCAL serial source/native/dialogue/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "389099f0133e6e49b0e51ac4790fcacc3731b457",
+      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
       "draft": true,
       "merged": false,
-      "evidence": "Private owned source PR29 advanced under expected-head lease, current body updated;11 exact source/test readbacks match;0 source-head Actions runs. No merge/release/Master acceptance."
+      "evidence": "Private owned PR29 source advanced with expected-head lease;5 exact source/test readbacks match and PR body updated. Metadata/evidence publication follows source. No merge/release/Master acceptance."
     },
-    "next": "docs/NEXT_RUN_SITE_PROVISIONS_20261017.md",
+    "next": "docs/NEXT_RUN_MAIN_DIRECTIONS_20261017.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 815,
+      "passed": 825,
       "failed": 0,
-      "newTests": 14,
-      "durationMs": 99620.139311,
+      "newTests": 10,
+      "durationMs": 100940.869241,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/site213-full-tap.txt",
-      "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
+      "scope": "Full LOCAL serial source/executable/native dialogue+map hint/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "evidence": "verification/directions215-full-tap.txt",
+      "result": "verification/directions215-full-result.json",
+      "completeFooter": true,
+      "okEntries": 825,
+      "exitCode": 0
     }
   },
   "saveLoadPerformance146": {

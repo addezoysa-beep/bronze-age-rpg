@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-17T22:12:00Z",
+  "updatedAt": "2026-10-17T23:14:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,39 +12,40 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
-  "currentGithubBuildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
-  "currentGithubHead": "389099f0133e6e49b0e51ac4790fcacc3731b457",
+  "currentLocalBuildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+  "currentGithubBuildSha256": null,
+  "currentGithubHead": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
   "publication": {
-    "status": "delivered_private_draft",
+    "status": "delivered",
     "pr": 29,
-    "sourceCommit": "bd250ae0e6449c61679dbd3ea6a845bbe819314a",
+    "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
     "draft": true,
     "merged": false,
-    "evidence": "Private draft PR29 source 150d91c66492591e8cfc86313c2e09f04b4370d6 advanced with expected-head lease and description updated; final full local suite still pending at publication, not remote/ordinary/Master acceptance.",
-    "state": "delivered_private_draft_review_pending",
-    "scope": "Private source/tests/records delivered;741 full LOCAL serial checks and exact local package, ordinary/remote CI/Master and matching GitHub-generated download pending."
+    "evidence": "Private owned PR29 source advanced with expected-head lease;5 exact source/test readbacks match and PR body updated. Metadata/evidence publication follows source. No merge/release/Master acceptance."
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 741,
+      "passed": 825,
       "failed": 0,
-      "newTests": 12,
-      "durationMs": 578706.942569,
-      "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
-      "evidence": "verification/boarding198-full-tests.txt",
-      "scope": "Full LOCAL serial source/executable/native callbacks/Three geometry+transforms/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master acceptance",
-      "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c"
+      "newTests": 10,
+      "durationMs": 100940.869241,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "Full LOCAL serial source/executable/native dialogue+map hint/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "evidence": "verification/directions215-full-tap.txt",
+      "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "result": "verification/directions215-full-result.json",
+      "completeFooter": true,
+      "okEntries": 825,
+      "exitCode": 0
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "150d91c66492591e8cfc86313c2e09f04b4370d6",
-      "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
+      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+      "sourceBuildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "workflowRunsAtSourceHead": 0,
-      "ci": "not_run_[skip_ci]_checkpoint_under_recorded_external_runner_restriction",
-      "historicalEvidence": "Earlier hashes retained in own update records; no older runtime pass borrowed"
+      "ci": "No matching current-head browser artifact; recorded older jobs fail without steps"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt"
@@ -1681,7 +1682,11 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Ordinary main/Pan/report/skiff/Daedalus and offline pause Save/exact reload; ranged and actual cache/puzzle routes when browser available. Continue dependency-ready main/QOL/physical BronzeAge; full120 retained, no ETA.",
+  "nextDependencyReadyWork": [
+    "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master",
+    "Continue main/QOL/physical BronzeAge implementation; retain full120/M0–M5 and lower-priority stress/expandedTroy scope",
+    "Script-school/relic-stone/storage area-aware markers remain outside214 narrow known-title scope; preserve actual physical relic/ward knowledge gates."
+  ],
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1701,7 +1706,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "211–213 implemented and815 full LOCAL checks/source delivered;ordinary/runtime/Master pending",
+  "currentCheckpoint": "214–215 source delivered;825 full LOCAL entries/complete footer/exit0;ordinary/runtime/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1835,5 +1840,117 @@
       "evidence": "verification/site213-full-tap.txt",
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
+  },
+  "currentGithubSourceBuildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+  "mainRoute214215": {
+    "id": "main-route-directions-20261017",
+    "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+    "bytes": 38345088,
+    "milestoneIds": [
+      "M0",
+      "M4",
+      "M5"
+    ],
+    "requirementIds": [
+      "120-8",
+      "120-70",
+      "120-110",
+      "P0-main-story",
+      "RESOURCE-DIRECTIONS"
+    ],
+    "summary": "214 current-area/main-route markers and live king/inventor/Oracle positions;215 current-speaker/resource-service direction transactions",
+    "masterDelivery": {
+      "status": "delivered",
+      "pr": 29,
+      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+      "draft": true,
+      "merged": false,
+      "evidence": "Private owned PR29 source advanced with expected-head lease;5 exact source/test readbacks match and PR body updated. Metadata/evidence publication follows source. No merge/release/Master acceptance."
+    },
+    "masterReview": {
+      "status": "pending"
+    },
+    "localChecks": {
+      "status": "passed",
+      "passed": 825,
+      "failed": 0,
+      "newTests": 10,
+      "durationMs": 100940.869241,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "Full LOCAL serial source/executable/native dialogue+map hint/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "evidence": "verification/directions215-full-tap.txt",
+      "result": "verification/directions215-full-result.json",
+      "completeFooter": true,
+      "okEntries": 825,
+      "exitCode": 0
+    },
+    "scopedChecks": {
+      "status": "passed",
+      "passed": 39,
+      "failed": 0,
+      "newTests": 10,
+      "scope": "LOCAL actual native dialogue/map-hint callback and objective fixtures, not ordinary browser",
+      "evidence": "verification/directions215-focused-tap.txt",
+      "durationMs": 4617.220736
+    },
+    "changes": [
+      "Known main leads use actual current NPC position, or actual current dungeon exit before an outdoor/other-room objective. Pan internal target/physical storage/lock lesson/optional work/actual192 fortress stages remain untouched. Labyrinth exterior marker suppressed inside maze, not replaced by an undiscovered key solution.",
+      "Resource help/directions use actual189 speaker/game/flags/foot/range/menu guards; current actor membership and current service registration checked again at selection. Live moved healer/tavern entrance is marked, removed/dead/hostile/recruited staff or removed/blocked well rejected. Replaced-menu and repeated direction callbacks inert.",
+      "No quest/discovery unlock/item/reward/damage/enemy-count changes. Successful native map hint retains its original snapshot; no new automatic Save and mandatory ordinary pause Save/exact reload remain."
+    ],
+    "initialFailures": [
+      "New focused suite first9/10: directly retained direction callback could mark after different menu replaced original. Added exact DLG lines/choices identity and one-use latch, then39/39 composed focused pass."
+    ],
+    "runtime": {
+      "status": "pending",
+      "required": "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master"
+    },
+    "external": {
+      "browser": "Playwright package available, Chromium1234 executable absent on2026-10-17; no failed download repeated",
+      "actions": "Latest38711529714/38711529696/38711522032 remain older5bcd473b failures; latest inspected browser/repository jobs no steps, artifacts empty. No current-head ordinary browser evidence.",
+      "parentHead": "fd8a73b99f27d6669f0cd3482048031e80b55a48",
+      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+      "sourceReadbacks": [
+        {
+          "path": "scripts/main-route-directions-patch.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/main-route-directions.test.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/build-continuation.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/build-current.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/current-candidate-integrity.test.mjs",
+          "equal": true
+        }
+      ]
+    },
+    "remaining": [
+      "Full120 tasks/every M0–M5/prior request retained, no slot/milestone accepted",
+      "Critical ordinary main-route/Save/render/Master gates",
+      "Moved/offshore rescue, service saved identity migration, full geometry/equipment/economy/creatures/factions/work/music"
+    ],
+    "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or a delivery ETA",
+    "evidence": [
+      "scripts/main-route-directions.test.mjs",
+      "verification/directions215-full-tap.txt",
+      "docs/NEXT_RUN_MAIN_DIRECTIONS_20261017.md"
+    ],
+    "package": {
+      "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "bytes": 38345088,
+      "zipSha256": "89427c2ccd5fdd0349a1a2f2cdf786f8e5fa2100eea24cc37166f4cd0d351c50",
+      "directory": "deliveries/6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "checks": "Exact direct/root/dist HTML, two-entry ZIP/manifest, extracted SHA/bytes and3inline compilation pass. Startup/user-download accessibility/GitHub-generated identity not run."
+    },
+    "record": "tracking/updates/main-route-directions-20261017.json"
   }
 }
