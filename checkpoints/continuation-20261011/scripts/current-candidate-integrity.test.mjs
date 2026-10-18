@@ -34,6 +34,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('CAPTIVE_BERTH_RECOVERY_219'));assert.ok(html.includes('CAPTIVE_MOORING_CONTROLS_220'));
  assert.ok(html.includes('CAPTIVE_EXACT_BERTH_221'));
  assert.ok(html.includes('SERVICE_SAVE_IDENTITY_222'));assert.ok(html.includes('LEGACY_IDENTITY_BOUNDARY_223'));
+ assert.ok(html.includes('EQUIPMENT_PRICE_LADDER_224'));assert.ok(html.includes('SETTLEMENT_ARMS_MARKET_225'));assert.ok(html.includes('COMMODITY_EXCHANGE_MARGIN_226'));
+ assert.ok(html.indexOf('SETTLEMENT_ARMS_MARKET_225')>html.indexOf('SERVICE_SAVE_IDENTITY_222'),'market context uses actual final service identity');
  assert.ok(html.indexOf('SERVICE_SAVE_IDENTITY_222')>html.indexOf('REGIONAL_SERVICE_IDENTITIES_180'),'stable native identities follow legacy display/guard registration');
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
