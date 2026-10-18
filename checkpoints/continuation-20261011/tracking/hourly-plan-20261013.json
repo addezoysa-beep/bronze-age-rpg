@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T05:19:55.704Z",
+  "updatedAt": "2026-10-18T06:14:59.780Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,38 +12,38 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+  "currentLocalBuildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
+  "currentGithubHead": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
+    "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
     "draft": true,
     "merged": false,
-    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from a51219f939e6ff8df65184f12426954e19d66760; no merge/release"
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from024e0bec7e63b5fe315750084fa31c023b582bbd; no merge/release"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 905,
+      "passed": 925,
       "failed": 0,
-      "newTests": 19,
-      "durationMs": 126782.31276,
+      "newTests": 20,
+      "durationMs": 160948.58678,
       "completeFooter": true,
-      "okEntries": 905,
+      "okEntries": 925,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/provisions229-full-tap.txt",
-      "result": "verification/provisions229-full-result.json",
-      "scope": "Full LOCAL source/native service/dialogue, ingredient purchase/learned craft/hearth/Food and snapshot21/Continue plus JSON/Three/workflow/compile/package; NOT ordinary mouse/browser/render/offline pause Save/FPS/Master acceptance.",
-      "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416"
+      "evidence": "verification/harbour232-full-tap.txt",
+      "result": "verification/harbour232-full-result.json",
+      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+      "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
-      "sourceBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+      "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+      "sourceBuildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
       "ci": "No matching current-head browser artifact; latest older5bcd473b jobs fail with no executed steps/artifacts"
@@ -1628,15 +1628,21 @@
       "originalTaskIds": [
         114
       ],
-      "workStatus": "partial_source_verified_runtime_pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md.",
+      "currentEvidence": "Current230–232 source e446c37bfd05aac65d8cbb90e7ed691a0b586931; exact game 6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795,38,390,253bytes. Earned rally-horn recall of the original seaworthy rescue boat through a clear <=120-unit straight harbour approach to its exact saved ramp; incremental preflight/swept movement and guarded native Rally/start/stop/restart/restore. Original people/anchor/cursors/player/items/quest flags/rewards retained. 925/925 full LOCAL serial checks pass, complete925 entries/footer/exit0/hash unchanged,160948.58678ms;46 focused,20new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass; ZIPc4f39e3d59f93f813b3d2e66c947e6f17d9f5c33f99cb9e0705f1a87f5bd6058. Native collision/control/snapshot/Continue fixtures are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Startup/embedded decoding/user-access unverified; matching GitHub-generated playable download unavailable. Recovery PARTIAL: sunken/missing/replacement hulls, >120, changed docks and blocked/detour approaches remain unfinished. All120/every M0–M5/prior scope retained/unaccepted; main/QOL/physicalBronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. See docs/NEXT_RUN_HARBOUR_RECOVERY_20261018.md and tracking/updates/captive-harbour-recovery-20261018.json.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
         "evidence": "tracking/updates/relic-area-guidance-20261017.json",
         "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      },
+      "captiveHarbour230232": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+        "evidence": "tracking/updates/captive-harbour-recovery-20261018.json",
+        "scope": "Original owned seaworthy rescue boat, earned horn, <=120 clear straight approach only; actual controls/native serializer fixtures, NOT full rescue/Save or completed original allocation."
       }
     },
     {
@@ -1695,7 +1701,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "currentEvidence": "Current230–232 source e446c37bfd05aac65d8cbb90e7ed691a0b586931; exact game 6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795,38,390,253bytes. Earned rally-horn recall of the original seaworthy rescue boat through a clear <=120-unit straight harbour approach to its exact saved ramp; incremental preflight/swept movement and guarded native Rally/start/stop/restart/restore. Original people/anchor/cursors/player/items/quest flags/rewards retained. 925/925 full LOCAL serial checks pass, complete925 entries/footer/exit0/hash unchanged,160948.58678ms;46 focused,20new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass; ZIPc4f39e3d59f93f813b3d2e66c947e6f17d9f5c33f99cb9e0705f1a87f5bd6058. Native collision/control/snapshot/Continue fixtures are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Startup/embedded decoding/user-access unverified; matching GitHub-generated playable download unavailable. Recovery PARTIAL: sunken/missing/replacement hulls, >120, changed docks and blocked/detour approaches remain unfinished. All120/every M0–M5/prior scope retained/unaccepted; main/QOL/physicalBronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. See docs/NEXT_RUN_HARBOUR_RECOVERY_20261018.md and tracking/updates/captive-harbour-recovery-20261018.json.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
@@ -1713,6 +1719,12 @@
         "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
         "evidence": "tracking/updates/regional-provisions-20261018.json",
         "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      },
+      "captiveHarbour230232": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+        "evidence": "tracking/updates/captive-harbour-recovery-20261018.json",
+        "scope": "Original owned seaworthy rescue boat, earned horn, <=120 clear straight approach only; actual controls/native serializer fixtures, NOT full rescue/Save or completed original allocation."
       }
     },
     {
@@ -1768,7 +1780,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/home route and offline pause Save/exact reload when runtime available. Continue dependency-ready main-story distant/offshore rescue recovery and core BronzeAge physical/world work; audit remaining smith/ore/advanced recipe access and real earnings without duplicating224–229. All120/M0–M5 retained; further8–10 and expandedTroy lower.",
+  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/artifact/captive-home and offline pause Save/exact reload when runtime available. Continue evidence-based sunken/missing/farther/blocked-route rescue recovery or core physical BronzeAge/main/QOL work; remaining smith/ore/advanced teaching/earnings remain. Do not duplicate205–232. Full120/every M0–M5; further8–10/expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1788,7 +1800,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "227–229 source delivered;905/905 full LOCAL,55 focused,19new;stock/teaching/economy PARTIAL;ordinary/render/Save/Master pending",
+  "currentCheckpoint": "230–232 source delivered;925/925 full LOCAL,46 focused,20new;clear <=120 harbour recovery PARTIAL;ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1923,7 +1935,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+  "currentGithubSourceBuildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2187,5 +2199,48 @@
       "Runtime currently blocked locally by absent Chromium1234/system executables; latest older5bcd473b Actions runs fail without executed job steps/artifacts, no current generated GitHub playable download. Do not repeat hung downloads/Cloud/heavy runner or change account/privacy. Further8–10 performance and expandedTroy lower priority, retained. No measured remaining ETA."
     ],
     "acceptance": "No original slot/active hour/milestone accepted. Actual browser/ordinary pause Save/current-hash Master gates remain mandatory."
+  },
+  "captiveHarbour230232": {
+    "status": "source_implemented_runtime_pending_partial_recovery",
+    "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+    "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+    "record": "tracking/updates/captive-harbour-recovery-20261018.json",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 925,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 160948.58678,
+      "completeFooter": true,
+      "okEntries": 925,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/harbour232-full-tap.txt",
+      "result": "verification/harbour232-full-result.json",
+      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 46,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 18837.597464,
+      "evidence": "verification/harbour232-focused-tap.txt",
+      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    },
+    "changes": [
+      "230 at the actual original saved rescue dock, a finite earned war_horn29 can recall the same owned seaworthy BOAT from <=120 game units or a large heading mismatch. Original boarding/alighting/returning anchor, people, cursors, child/player positions, inventory, quest flags and rewards are not rewritten.",
+      "231 incremental16-sample-per-timestamp preflight checks starting turn, straight original approach and final saved yaw with actual native hull collision/bounds. Movement <=.12m/.03rad per50ms tick is swept at <=.025m/.005rad; new obstruction stops BEFORE that frame's movement. Boats are not teleported, recreated or re-anchored; no detour path, wreck resurrection or quest completion.",
+      "231 exact current game/boat/mesh/dock/anchor/people/return/landing/revision guards, ownership/hull/horn/danger/player departure stops, paused/dialogue holds, ordinary stop/restart and six-second horn cooldown. Transient plan/generator stays outside serialized G; native snapshot/base Continue/checkpoint21 preserve actual in-flight coordinates, restore cancels the job and fresh ordinary interaction restarts.",
+      "232 normal actual Rally company horn menu replaces its private ramp-blocked call with current rescue-recall/cancel choices only for this case; native follower orders and ordinary no-rescue boat calls retained. Original dock currentInts and actual findInt/tryInteract expose start/stop ashore, Go ashore still wins when mounted, short219–221 no-horn controls retained. No new programmatic Save or item/money/XP grant."
+    ],
+    "remaining": [
+      "Recovery PARTIAL: only original saved docks, owned seaworthy same vessel, earned finite horn and unobstructed <=120 straight approaches/turning space. Sunken/missing/replacement hulls, farther boats, changed original docks, routing around land/shoals and arbitrary offshore rescues remain unfinished. Without a horn, only old short219–221 realignment remains.",
+      "All120/every M0–M5/prior requirement retained/unaccepted. Ordinary full main/Pan/artifact/Alashiya/princess and captive home route, rendered child/ramp/boat contact/audio, offline pause-menu Save/exact-position reload/cold Continue/old saves and Master gates mandatory. Controlled native/Three/JSON fixtures do not establish these.",
+      "222–223 ambiguous legacy service records remain conservative/partial, not guessed/copied.224–229 market/pantry/cook/remedy source retained, full smith/mining/advanced recipe/economy/earnings/arrow coverage remains incomplete; full geography/equipment/creatures/factions/sites/work/music remain.",
+      "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, retained. Playwright package present but its expected Chromium1234/system paths absent; latest older5bcd473b jobs have no executed steps/artifacts, no current matching generated GitHub playable download. No hung browser/download/runner/account workaround. Remaining ETA unmeasured."
+    ],
+    "acceptance": "No original active-hour slot or M0–M5 milestone accepted; mandatory ordinary current-hash route/Save/render/Master gates remain."
   }
 }

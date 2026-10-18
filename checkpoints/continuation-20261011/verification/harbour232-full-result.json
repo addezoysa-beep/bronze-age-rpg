@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 925,
+  "passed": 925,
+  "failed": 0,
+  "durationMs": 160948.58678,
+  "completeFooter": true,
+  "okEntries": 925,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/harbour232-full-tap.txt"
+}
