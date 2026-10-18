@@ -959,41 +959,21 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
-    "bytes": 38460314,
-    "sourceChecks": 1080,
-    "sourceScope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "bytes": 38464267,
+    "sourceChecks": null,
+    "sourceScope": "LOCAL actual native Pan/Tomb/Catacombs mesh triangles/ray intersections/collision-driven crate pushes/plate group and prepared snapshot/Continue/manual Save250–258 plus existing tests. Not ordinary mouse/Save/rendered/whole-route/all-site or Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "delivered",
-      "pr": 29,
-      "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
-      "draft": true,
-      "merged": false,
-      "evidence": "Seven exact source/handoff readbacks after expected-head nonforce publication from a74caacfd99e373878fa5f8bbbbbe305613c7431"
+      "status": "pending"
     },
-    "next": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+    "next": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
     "fullSuite": {
-      "status": "passed",
-      "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
-      "hashUnchanged": true,
-      "exitCode": 0,
-      "signal": null,
-      "error": null,
-      "tests": 1080,
-      "passed": 1080,
-      "failed": 0,
-      "durationMs": 235675.069372,
-      "completeFooter": true,
-      "okEntries": 1080,
-      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
-      "log": "verification/telltales256-full-tap.txt",
-      "newTests": 5,
-      "newSince253": 14,
-      "newSince251": 27
+      "status": "running",
+      "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+      "log": "verification/terrain259-full-tap.txt"
     }
   },
   "saveLoadPerformance146": {

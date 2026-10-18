@@ -1,0 +1,57 @@
+{
+  "id": "puzzle-terrain-contact-20261018",
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "bytes": 38464267,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "MOVE-01",
+    "STORY-01",
+    "SITE-01",
+    "EGYPT-01",
+    "120-022",
+    "120-070",
+    "120-072",
+    "120-116"
+  ],
+  "summary": "257 exact native dungeon triangle-floor sampling and258 derived full-footprint crate grounding across native pushes/build/entry/Continue; existing route/flags/rewards retained",
+  "changedFiles": [
+    "scripts/dungeon-floor-triangles-patch.mjs",
+    "scripts/puzzle-crate-contact-patch.mjs",
+    "scripts/puzzle-terrain-harness.mjs",
+    "scripts/puzzle-terrain-contact.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "running",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "log": "verification/terrain259-full-tap.txt"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 56,
+    "newTests": 12,
+    "durationMs": 30646.339537,
+    "evidence": "verification/terrain258-focused-tap.txt",
+    "scope": "LOCAL actual native Pan/Tomb/Catacombs mesh triangles/ray intersections/collision-driven crate pushes/plate group and prepared snapshot/Continue/manual Save250–258 plus existing tests. Not ordinary mouse/Save/rendered/whole-route/all-site or Master acceptance."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md"
+}
+

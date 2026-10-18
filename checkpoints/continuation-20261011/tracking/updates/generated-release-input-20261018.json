@@ -1,0 +1,33 @@
+{
+  "id": "generated-release-input-20261018",
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "bytes": 38464267,
+  "milestoneIds": [
+    "M0"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "120-119"
+  ],
+  "summary": "259 explicit generated-candidate input for existing release CLI, actual file/manifest/tracker identity and three-inline compile; all original review/evidence/milestone gates retained",
+  "changedFiles": [
+    "scripts/release-candidate-input.mjs",
+    "scripts/release-candidate-input.test.mjs",
+    "scripts/release-gate.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "pending",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32"
+  },
+  "runtime": {
+    "status": "not_applicable_workflow_only"
+  },
+  "milestoneAcceptance": "none"
+}
+
