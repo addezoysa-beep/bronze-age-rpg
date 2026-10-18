@@ -15,6 +15,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.indexOf('MINE_CONTRACT_CONTEXT_236')>html.indexOf('REGIONAL_SMITH_LESSONS_233'));
  for(const marker of ['QUARRY_SHIFT_CONTEXT_239','FOREMAN_WORK_MENU_240'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('QUARRY_SHIFT_CONTEXT_239')>html.indexOf('MINE_CONTRACT_CONTEXT_236'));
+ for(const marker of ['RIVER_WORK_PROMPTS_241','CARGO_SHIFT_CONTEXT_242','CARGO_BARGE_LIFETIME_243'])assert.ok(html.includes(marker),marker);
+ assert.ok(html.indexOf('RIVER_WORK_PROMPTS_241')>html.indexOf('QUARRY_SHIFT_CONTEXT_239'));
  for(const marker of ['CAPTIVE_HARBOUR_RECOVERY_230','CAPTIVE_CHANNEL_RECHECK_231','RALLY_RESCUE_MENU_232'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('CAPTIVE_HARBOUR_RECOVERY_230')>html.indexOf('REGIONAL_PROVISIONS_227'));
  for(const marker of ['REGIONAL_PROVISIONS_227','REGIONAL_COOK_LESSONS_228','TAVERN_COUNTER_PAGES_229'])assert.ok(html.includes(marker),marker);
