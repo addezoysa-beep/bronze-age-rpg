@@ -102,6 +102,7 @@ import {riverCargoContractPatch} from './river-cargo-contract-patch.mjs';
 import {egyptGrainRecordsPatch} from './egypt-grain-records-patch.mjs';
 import {nilePassengerPatch} from './nile-passenger-patch.mjs';
 import {checkpointRestoreSafetyPatch,manualCheckpointFeedbackPatch} from './checkpoint-restore-safety-patch.mjs';
+import {dungeonMechanismCheckpointPatch} from './dungeon-mechanism-checkpoint-patch.mjs';
 const root=new URL('../',import.meta.url);
 const input=fs.readFileSync(new URL('recovered/Cinematic-Lock-Lesson.html',root));
 const sourceHash=crypto.createHash('sha256').update(input).digest('hex');
@@ -112,7 +113,8 @@ const output=Buffer.from(source.slice(0,end)+lockCameraPatch+openingProgressionP
 const combined=Buffer.from(output.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>particleCullAllocationPatch(source)+granaryServicePatch+panObjectiveRecoveryPatch +tavernResidenceGuardPatch+atomicSaveDecodePatch+loadPerformancePatch +wildHorsePoseBudgetPatch+clothPoseCachePatch+loadFactoryProfilePatch+continueSaveSafetyPatch+ecologyQueryPatch+roadTravelTransactionPatch+landmarkTravelSafetyPatch+weaponFrameBudgetPatch+batchConstructionPatch+tavernRouteSweepPatch+playtestCriticalQolPatch+rescueRelicGuidancePatch+seaFoamWakePatch+pauseMediaControlsPatch+terrainPhaseParityPatch+alashiyaOccupationPatch+streamWorkerDependenciesPatch+'\n</script>'));
 const grounded=Buffer.from(combined.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>foundationSurfacePatch+tavernPulsesPatch+captainBoatCallPatch+graphicsWorkloadPatch+relicRecoveryGuidancePatch+householdReliefPatch+shekeleshPresentationPatch+watchtowerCaptivesPatch+regionalServiceIdentitiesPatch+serviceInteractionGuardPatch+shekeleshSharedSwingPatch+physicalWritingPatch+sanctuaryOfferingsPatch+rescueDialogueContractsPatch+rescueObjectivePatch+mainStoryTransactionsPatch +captivePassagePatch+captiveBoardingPatch+captiveHomePatch+captiveReturnPatch+captiveHoldRepairPatch+panStorageRecoveryPatch+skiffRepairTransactionPatch+rangedConstructionPatch+rangedCraftingPatch+rangedPresentationPatch+siteProvisionsPatch+siteSupplyLidsPatch+mainRouteDirectionsPatch+liveResourceDirectionsPatch+captiveBerthRecoveryPatch +serviceSaveIdentityPatch +regionalMarketPatch+regionalProvisionsPatch+captiveHarbourRecoveryPatch+regionalSmithWorkshopPatch+mineContractPatch+quarryContractPatch+riverCargoContractPatch+egyptGrainRecordsPatch+nilePassengerPatch+'\n</script>'));
 const safeCheckpoint=Buffer.from(grounded.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>checkpointRestoreSafetyPatch+manualCheckpointFeedbackPatch+'\n</script>'));
+const mechanismCandidate=Buffer.from(safeCheckpoint.toString('utf8').replace(/<\/script>(?![\s\S]*<\/script>)/,()=>dungeonMechanismCheckpointPatch+'\n</script>'));
 const outputName=process.env.WDS_CANDIDATE_FILE||'Wine-Dark-Sea-Combined-Cinematic.html';
 if(!/^[A-Za-z0-9-]+\.html$/.test(outputName))throw Error('Candidate filename must be a simple local HTML filename');
-fs.writeFileSync(new URL(outputName,root),safeCheckpoint);
-console.log(JSON.stringify({sourceSha256:sourceHash,sourceBytes:input.length,sha256:crypto.createHash('sha256').update(safeCheckpoint).digest('hex'),bytes:safeCheckpoint.length}));
+fs.writeFileSync(new URL(outputName,root),mechanismCandidate);
+console.log(JSON.stringify({sourceSha256:sourceHash,sourceBytes:input.length,sha256:crypto.createHash('sha256').update(mechanismCandidate).digest('hex'),bytes:mechanismCandidate.length}));

@@ -1,0 +1,45 @@
+{
+  "id": "dungeon-mechanism-checkpoint-20261018",
+  "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+  "bytes": 38456613,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "STORY-01",
+    "SITE-01",
+    "EGYPT-01",
+    "120-022",
+    "120-070",
+    "120-072",
+    "120-116"
+  ],
+  "summary": "252 current-room manual checkpoint mechanism continuation;253 restored native spike cycle/pose without reward/key bypass",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "running",
+    "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+    "log": "verification/mechanism253-full-tap.txt"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 30,
+    "newTests": 13,
+    "durationMs": 4714.940176,
+    "evidence": "verification/mechanism253-focused-tap.txt",
+    "scope": "LOCAL native core Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded real Three/Batch geometry, actual snapshot21/base Continue/Save and composed250/251 prepared fixtures. Controlled enemy spawns, sounds/HUD/palette jitter. NOT ordinary mouse/offline Save/rendered/mainroute/all-site acceptance."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md"
+}
