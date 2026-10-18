@@ -950,41 +950,41 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
-    "bytes": 38433758,
-    "sourceChecks": 1019,
-    "sourceScope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+    "bytes": 38445515,
+    "sourceChecks": 1037,
+    "sourceScope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+      "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
       "draft": true,
       "merged": false,
-      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from5c912dcf76f16035ab5fc275bfcd2bc6cf4c6890"
+      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from7d1e43600779c7897934ff6a4a28417c5281f8f7"
     },
-    "next": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+    "next": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+      "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1019,
-      "passed": 1019,
+      "tests": 1037,
+      "passed": 1037,
       "failed": 0,
-      "durationMs": 215807.966007,
+      "durationMs": 894723.797662,
       "completeFooter": true,
-      "okEntries": 1019,
+      "okEntries": 1037,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
-      "log": "verification/grain246-full-tap.txt",
-      "newTests": 15,
-      "evidence": "verification/grain246-full-tap.txt",
-      "result": "verification/grain246-full-result.json"
+      "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+      "log": "verification/nile249-full-tap.txt",
+      "newTests": 18,
+      "evidence": "verification/nile249-full-tap.txt",
+      "result": "verification/nile249-full-result.json"
     }
   },
   "saveLoadPerformance146": {
@@ -1036,6 +1036,15 @@
     "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
     "ordinaryAcceptance": "pending",
     "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "nilePassenger247249": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+    "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+    "evidence": "tracking/updates/nile-passenger-20261018.json",
+    "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+    "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
   }
 }
-

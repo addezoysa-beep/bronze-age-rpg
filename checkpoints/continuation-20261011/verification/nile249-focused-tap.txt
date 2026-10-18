@@ -1,0 +1,124 @@
+TAP version 13
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 1 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 9328.495102
+  type: 'test'
+  ...
+# Subtest: a blocked first destination does not hide a different clear registered Nile passage
+ok 2 - a blocked first destination does not hide a different clear registered Nile passage
+  ---
+  duration_ms: 507.377358
+  type: 'test'
+  ...
+# Subtest: registered boatman quote rejects a different menu/save/changed port without spending or replacing unrelated interactions
+ok 3 - registered boatman quote rejects a different menu/save/changed port without spending or replacing unrelated interactions
+  ---
+  duration_ms: 1393.652957
+  type: 'test'
+  ...
+# Subtest: actual E update/tryInteract/act chain opens blocked captain; stale menu cannot return or retry
+ok 4 - actual E update/tryInteract/act chain opens blocked captain; stale menu cannot return or retry
+  ---
+  duration_ms: 433.41559
+  type: 'test'
+  ...
+# Subtest: New Voyage clears the pending owned loading lock and ferry but leaves new state untouched
+ok 5 - New Voyage clears the pending owned loading lock and ferry but leaves new state untouched
+  ---
+  duration_ms: 412.536543
+  type: 'test'
+  ...
+# Subtest: native river port button hooks reaches guarded booking; same original fare/model and own boat untouched
+ok 6 - native river port button hooks reaches guarded booking; same original fare/model and own boat untouched
+  ---
+  duration_ms: 530.88058
+  type: 'test'
+  ...
+# Subtest: native booking accepts remote mounted player; Nile contract rejects it without fare or warm stream
+ok 7 - native booking accepts remote mounted player; Nile contract rejects it without fare or warm stream
+  ---
+  duration_ms: 815.852889
+  type: 'test'
+  ...
+# Subtest: wrong/dead/hostile/recruited/indoor crew, absent pier, blocked shore, invalid cost and insufficient funds refuse safely
+ok 8 - wrong/dead/hostile/recruited/indoor crew, absent pier, blocked shore, invalid cost and insufficient funds refuse safely
+  ---
+  duration_ms: 7226.135293
+  type: 'test'
+  ...
+# Subtest: unavailable/malformed/dry route has no fare, teleport or stream lock
+ok 9 - unavailable/malformed/dry route has no fare, teleport or stream lock
+  ---
+  duration_ms: 3227.776805
+  type: 'test'
+  ...
+# Subtest: pending preparation rechecks save, player, crew, pier, destination and fare; duplicate cannot race booking
+ok 10 - pending preparation rechecks save, player, crew, pier, destination and fare; duplicate cannot race booking
+  ---
+  duration_ms: 4641.748593
+  type: 'test'
+  ...
+# Subtest: model/preparation/save failures retain no fare and restore original physical departure, later retry works
+ok 11 - model/preparation/save failures retain no fare and restore original physical departure, later retry works
+  ---
+  duration_ms: 2374.986505
+  type: 'test'
+  ...
+# Subtest: pause/invalid delta does not advance; bounded delta and endpoint use actual clear pier-supported arrival
+ok 12 - pause/invalid delta does not advance; bounded delta and endpoint use actual clear pier-supported arrival
+  ---
+  duration_ms: 658.009187
+  type: 'test'
+  ...
+# Subtest: blocked arrival waits aboard without repeated loading or losing fare; real captain retry later lands
+ok 13 - blocked arrival waits aboard without repeated loading or losing fare; real captain retry later lands
+  ---
+  duration_ms: 433.738863
+  type: 'test'
+  ...
+# Subtest: blocked landing return follows reversed same route and refunds original fare once on clear departure
+ok 14 - blocked landing return follows reversed same route and refunds original fare once on clear departure
+  ---
+  duration_ms: 403.237116
+  type: 'test'
+  ...
+# Subtest: native snapshot/Continue resumes same crossing coordinates without second fare or ship
+ok 15 - native snapshot/Continue resumes same crossing coordinates without second fare or ship
+  ---
+  duration_ms: 418.367525
+  type: 'test'
+  ...
+# Subtest: waiting and returning crossings survive snapshot/Continue and only one refund
+ok 16 - waiting and returning crossings survive snapshot/Continue and only one refund
+  ---
+  duration_ms: 383.472408
+  type: 'test'
+  ...
+# Subtest: malformed/foreign/changed-port saved records do not fabricate a trip, money or replacement ship
+ok 17 - malformed/foreign/changed-port saved records do not fabricate a trip, money or replacement ship
+  ---
+  duration_ms: 2276.658687
+  type: 'test'
+  ...
+# Subtest: New Voyage invalidates pending booking and old landing callbacks without mutating new game
+ok 18 - New Voyage invalidates pending booking and old landing callbacks without mutating new game
+  ---
+  duration_ms: 453.129247
+  type: 'test'
+  ...
+# Subtest: non-Nile sea ferry continues through the original booking/tick path
+ok 19 - non-Nile sea ferry continues through the original booking/tick path
+  ---
+  duration_ms: 396.281802
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 39806.262469

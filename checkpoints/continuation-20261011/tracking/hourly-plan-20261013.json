@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T15:17:18.957Z",
+  "updatedAt": "2026-10-18T16:34:10.481Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,42 +12,42 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+  "currentLocalBuildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+  "currentGithubHead": "c3bd73a10be568f9958b6226868e1e8429101fb3",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+    "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
     "draft": true,
     "merged": false,
-    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from5c912dcf76f16035ab5fc275bfcd2bc6cf4c6890"
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from7d1e43600779c7897934ff6a4a28417c5281f8f7"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+      "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1019,
-      "passed": 1019,
+      "tests": 1037,
+      "passed": 1037,
       "failed": 0,
-      "durationMs": 215807.966007,
+      "durationMs": 894723.797662,
       "completeFooter": true,
-      "okEntries": 1019,
+      "okEntries": 1037,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
-      "log": "verification/grain246-full-tap.txt",
-      "newTests": 15,
-      "evidence": "verification/grain246-full-tap.txt",
-      "result": "verification/grain246-full-result.json"
+      "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+      "log": "verification/nile249-full-tap.txt",
+      "newTests": 18,
+      "evidence": "verification/nile249-full-tap.txt",
+      "result": "verification/nile249-full-result.json"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
-      "sourceBuildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+      "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+      "sourceBuildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
       "ci": "No matching current-head browser artifact; inspected older5bcd473b jobs have zero executed steps/artifacts"
@@ -362,7 +362,17 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      }
     },
     {
       "hour": 17,
@@ -1515,7 +1525,18 @@
         "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
-      }
+      },
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      },
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured."
     },
     {
       "hour": 96,
@@ -1744,7 +1765,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
       "regionalProvisions227229": {
         "status": "partial_source_runtime_pending",
         "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
@@ -1759,6 +1780,16 @@
         "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
       }
     },
     {
@@ -1925,7 +1956,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current241–243 source fa0caf793e1411e347bafc7805c453603df0a179; exact game b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42,38426008bytes. Current-day real-crew river-work prompts, player/NPC feet within actual Nile pier surfaces, guarded original four-action wages and retained two-barge scene lifetime across restore.1004/1004 full LOCAL (20new), complete entries/footer/exit0/hash unchanged,209115.405638ms;21focused. Six source/test exact readbacks; private draft PR29 unmerged. Exact rebuild/HTML/two-entry ZIP/3-inline compile passed; ZIP7d31e4fda36a0be55bff81204d494f1ac7d0f1ba5e933271e7b93fb0553dedd1. NOT ordinary mouse/gameplay, offline pause Save/exact reload, rendered contact/audio/referenceFPS or Master acceptance. Destination unloading/manifests/requested upstream stone routes and all120/every M0–M5 remain partial/unaccepted. Main/QOL/physical BronzeAge first; further8–10/expandedTroy lower, retained. Chromium absent, matching GitHub-generated playable download unavailable, startup/download accessibility unverified. Remaining ETA unmeasured. See docs/NEXT_RUN_RIVER_WORK_20261018.md.",
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
@@ -1985,6 +2016,16 @@
         "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
       }
     },
     {
@@ -2040,7 +2081,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Mandatory ordinary main/Pan/captive/home/Egypt route and offline pause Save/exact reload when runtime available; inspect generated Egyptian chamber reachability and Nile boarding/arrival next. No duplicate241–246. Full cargo/destination unloading/upstream stone and all prior120/M0–M5 retained; further8–10 and expandedTroy lower.",
+  "nextDependencyReadyWork": "Mandatory current-hash ordinary main/Pan/captive-home/Egypt/Nile and offline pause Save/exact reload when runtime available. Inspect remaining generated chambers/bank-swim routes and legacy passage recovery without guessing origins; complete next dependency-ready main/QOL/physical BronzeAge production. No duplicate247–249. All120/M0–M5 retained; cargo destination unloading/upstream stone and further8–10/expandedTroy remain, latter lower priority.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -2060,7 +2101,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "244–246 source delivered;1019/1019 full LOCAL,15new; Egyptian grain quest partial, ordinary route/Save/render/Master pending",
+  "currentCheckpoint": "247–249 source delivered;1037/1037 full LOCAL,18new; Nile booking/landing/new-style passage partial, ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -2195,7 +2236,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+  "currentGithubSourceBuildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2616,6 +2657,15 @@
     "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
     "ordinaryAcceptance": "pending",
     "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "nilePassenger247249": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+    "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+    "evidence": "tracking/updates/nile-passenger-20261018.json",
+    "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+    "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
   }
 }
-
