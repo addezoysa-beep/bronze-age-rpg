@@ -33,6 +33,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('RELIC_AREA_GUIDANCE_216'));assert.ok(html.includes('RELIC_CARGO_CONSERVATION_217'));assert.ok(html.includes('FIELD_RUBBING_GUIDANCE_218'));
  assert.ok(html.includes('CAPTIVE_BERTH_RECOVERY_219'));assert.ok(html.includes('CAPTIVE_MOORING_CONTROLS_220'));
  assert.ok(html.includes('CAPTIVE_EXACT_BERTH_221'));
+ assert.ok(html.includes('SERVICE_SAVE_IDENTITY_222'));assert.ok(html.includes('LEGACY_IDENTITY_BOUNDARY_223'));
+ assert.ok(html.indexOf('SERVICE_SAVE_IDENTITY_222')>html.indexOf('REGIONAL_SERVICE_IDENTITIES_180'),'stable native identities follow legacy display/guard registration');
  assert.ok(html.includes('PARTICLE_CULL_ALLOCATION_174'));assert.ok(html.indexOf('PARTICLE_CULL_ALLOCATION_174')<html.indexOf('PAUSE_MEDIA_CONTROLS_166'),'existing final VFX controls wrap allocation-free particle base');
  assert.ok(html.includes('TAVERN_RESIDENCE_GUARD_145'));assert.ok(!html.includes('HEALER_REACH_GUARD_144'),'independent healer draft stays outside candidate under regression');
  assert.ok(html.includes('LOAD_PERFORMANCE_146'));
