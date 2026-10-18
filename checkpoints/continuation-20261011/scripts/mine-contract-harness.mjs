@@ -1,0 +1,9 @@
+import fs from 'node:fs';import vm from 'node:vm';import {smithHarness} from './regional-smith-harness.mjs';import {mineContractPatch} from './mine-contract-patch.mjs';
+const seed=fs.readFileSync(new URL('../recovered/Cinematic-Lock-Lesson.html',import.meta.url),'utf8'),lines=seed.split('\n');
+const line=p=>{const s=lines.find(l=>l.startsWith(p));if(!s)throw Error('Missing actual native '+p);return s;};
+export function mineHarness(patched=true){const h=smithHarness(),c=h.c;Object.assign(c,{DUN:{},hudQuest(){},opening25:()=>({stage:c.openingStage||'done'}),openingPending25:()=>c.openingStage&&c.openingStage!=='done',mapReveal13(x,z,r){c.reveal={x,z,r};},xpNeed:()=>100000,addXp(n){c.G.xp+=n;},equip(w){c.G.weapon=w;},logisticsState(){c.G.world.oreVeins||={};},veinReady:()=>true});c.G.xp=0;c.G.own||={};c.G.world.activeQuest='main';
+vm.runInContext(['function claimQuest36(','function pickaxeOwned(','function caveContract36(','function teacherTalk48(','function startMining(','function addXp('].map(line).join('\n'),c);c.G.lvl=1;
+if(patched)vm.runInContext(mineContractPatch,c);
+function site(id='ikaria',metals=['copper','tin']){const s={id,name:id+' · Veined Mine Cave',cave:'mine36_'+id,x:20+c.MINE_SITES36.length*100,z:30,metals},n=c.addNPC({name:id+' Mine Keeper',x:s.x+9,z:s.z+8,role:'craft',culture:'aegean',talk:c.caveContract36});s.n=n;n.mineSite36=s;c.MINE_SITES36.push(s);c.DUN[s.cave]={mine36:{id,metals}};return{s,n};}
+return{...h,site};}
+export function installNativeMineProgress236(c){Object.assign(c,{keys:{},once:{},playerLoad:()=>0,carryingCapacity:()=>100,floor:Math.floor,weaponSound(){},spawnFx(){},dungeonFloor:()=>3,veinKey:q=>q.area+':'+q.x+':'+q.z,ORE_KEYS:{copper:'copperOre',tin:'tinOre'},updatePlayer(){},killEnemy:e=>{e.alive=false;}});vm.runInContext(line('const miningPlayerBefore=')+'\n'+line('const miningTrack36Before=')+'\n'+line('const mineKill36Before='),c);}

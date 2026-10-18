@@ -11,6 +11,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('GRAPHICS_WORKLOAD_173'));
  for(const marker of ['REGIONAL_SMITH_LESSONS_233','COMMISSION_TRANSACTIONS_234','LIVE_WORKSHOP_DIRECTIONS_235'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('REGIONAL_SMITH_LESSONS_233')>html.indexOf('RALLY_RESCUE_MENU_232'));
+ for(const marker of ['MINE_CONTRACT_CONTEXT_236','PHYSICAL_MINING_TOOLS_237','GALLERY_REWARD_HANDOFF_238'])assert.ok(html.includes(marker),marker);
+ assert.ok(html.indexOf('MINE_CONTRACT_CONTEXT_236')>html.indexOf('REGIONAL_SMITH_LESSONS_233'));
  for(const marker of ['CAPTIVE_HARBOUR_RECOVERY_230','CAPTIVE_CHANNEL_RECHECK_231','RALLY_RESCUE_MENU_232'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('CAPTIVE_HARBOUR_RECOVERY_230')>html.indexOf('REGIONAL_PROVISIONS_227'));
  for(const marker of ['REGIONAL_PROVISIONS_227','REGIONAL_COOK_LESSONS_228','TAVERN_COUNTER_PAGES_229'])assert.ok(html.includes(marker),marker);
