@@ -19,6 +19,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.indexOf('RIVER_WORK_PROMPTS_241')>html.indexOf('QUARRY_SHIFT_CONTEXT_239'));
  for(const marker of ['EGYPT_RECORD_QUEST_244','PHYSICAL_SEAL_SETTLEMENT_245','GRAIN_ACCOUNT_OBJECTIVE_246'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('EGYPT_RECORD_QUEST_244')>html.indexOf('RIVER_WORK_PROMPTS_241'));
+ for(const marker of ['NILE_BOOKING_247','NILE_CHECKED_LANDING_248','NILE_PASSAGE_SAVE_249'])assert.ok(html.includes(marker),marker);
+ assert.ok(html.indexOf('NILE_BOOKING_247')>html.indexOf('EGYPT_RECORD_QUEST_244'));
  for(const marker of ['CAPTIVE_HARBOUR_RECOVERY_230','CAPTIVE_CHANNEL_RECHECK_231','RALLY_RESCUE_MENU_232'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('CAPTIVE_HARBOUR_RECOVERY_230')>html.indexOf('REGIONAL_PROVISIONS_227'));
  for(const marker of ['REGIONAL_PROVISIONS_227','REGIONAL_COOK_LESSONS_228','TAVERN_COUNTER_PAGES_229'])assert.ok(html.includes(marker),marker);
@@ -71,4 +73,3 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.includes('CAPTAIN_BOAT_CALL_172'));
  assert.ok(html.indexOf('NPC_ARROW_EMISSION_161')>html.indexOf('CONTINUATION_WATCHTOWER_SEA_FORT_V1'),'emitter context captures material before finite fort deduction');
 });
-

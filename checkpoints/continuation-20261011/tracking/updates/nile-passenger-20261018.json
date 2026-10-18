@@ -1,0 +1,27 @@
+{
+  "id": "nile-passenger-20261018",
+  "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+  "bytes": 38445515,
+  "milestoneIds": [
+    "M0",
+    "M5"
+  ],
+  "summary": "247 guarded Nile booking;248 checked landing/wait/return;249 saved passenger continuity; full checks pending",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "running",
+    "scopedPassed": 19,
+    "newTests": 18,
+    "durationMs": 39806.262469,
+    "scope": "LOCAL native port/button/E/Three/base snapshot/Continue fixtures; NOT ordinary browser/render/Save/Master"
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none"
+}
