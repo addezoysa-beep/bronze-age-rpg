@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T21:22:00Z",
+  "updatedAt": "2026-10-18T22:13:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,45 +12,43 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+  "currentLocalBuildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+  "currentGithubHead": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
     "draft": true,
     "merged": false,
-    "evidence": "Seven exact source/handoff readbacks after expected-head nonforce publication from a74caacfd99e373878fa5f8bbbbbe305613c7431"
+    "evidence": "Fourteen exact source/handoff readbacks, expected-head nonforce publication from96d595e70dc2a20038a3e5650d1e31eec77f0a2b"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+      "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1080,
-      "passed": 1080,
+      "tests": 1100,
+      "passed": 1100,
       "failed": 0,
-      "durationMs": 235675.069372,
+      "durationMs": 254374.088223,
       "completeFooter": true,
-      "okEntries": 1080,
+      "okEntries": 1100,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
-      "log": "verification/telltales256-full-tap.txt",
-      "newTests": 5,
-      "newSince253": 14,
-      "newSince251": 27
+      "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/terrain259-full-tap.txt",
+      "newTests": 20
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
-      "sourceBuildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+      "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+      "sourceBuildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No current build; latest old5bcd473b failed jobs zero steps/artifacts"
+      "ci": "No matching current artifact; latest old5bcd473b jobs failed before steps,0artifacts"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt",
@@ -127,6 +125,24 @@
       "newTests": 5,
       "newSince253": 14,
       "newSince251": 27
+    },
+    "dungeonTerrain257259": {
+      "status": "passed",
+      "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1100,
+      "passed": 1100,
+      "failed": 0,
+      "durationMs": 254374.088223,
+      "completeFooter": true,
+      "okEntries": 1100,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/terrain259-full-tap.txt",
+      "newTests": 20
     }
   },
   "policy": [
@@ -324,6 +340,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -370,6 +395,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -508,6 +542,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1291,6 +1334,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1343,6 +1395,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2158,6 +2219,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2267,6 +2337,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2292,7 +2371,14 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "generatedReleaseInput259": {
+        "status": "source_workflow_verified_release_blocked",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/generated-release-input-20261018.json",
+        "acceptance": "not a release or milestone acceptance"
+      }
     },
     {
       "hour": 120,

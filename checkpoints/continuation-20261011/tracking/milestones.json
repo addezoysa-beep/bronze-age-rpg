@@ -71,6 +71,15 @@
         "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "terrainContact": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     "additionalRemedies": {
@@ -961,19 +970,37 @@
     "manifest": "dist/current-build-manifest.json",
     "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
     "bytes": 38464267,
-    "sourceChecks": null,
-    "sourceScope": "LOCAL actual native Pan/Tomb/Catacombs mesh triangles/ray intersections/collision-driven crate pushes/plate group and prepared snapshot/Continue/manual Save250–258 plus existing tests. Not ordinary mouse/Save/rendered/whole-route/all-site or Master acceptance.",
+    "sourceChecks": 1100,
+    "sourceScope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
-      "status": "pending"
+      "status": "delivered",
+      "pr": 29,
+      "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+      "draft": true,
+      "merged": false,
+      "evidence": "Fourteen exact source/handoff readbacks, expected-head nonforce publication from96d595e70dc2a20038a3e5650d1e31eec77f0a2b"
     },
     "next": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
     "fullSuite": {
-      "status": "running",
+      "status": "passed",
       "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
-      "log": "verification/terrain259-full-tap.txt"
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1100,
+      "passed": 1100,
+      "failed": 0,
+      "durationMs": 254374.088223,
+      "completeFooter": true,
+      "okEntries": 1100,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/terrain259-full-tap.txt",
+      "newTests": 20
     }
   },
   "saveLoadPerformance146": {
@@ -1068,5 +1095,21 @@
     "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
     "ordinaryAcceptance": "pending",
     "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "dungeonTerrain257258": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+    "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "generatedReleaseInput259": {
+    "status": "source_workflow_verified_release_blocked",
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "evidence": "tracking/updates/generated-release-input-20261018.json",
+    "acceptance": "not a release or milestone acceptance"
   }
 }
