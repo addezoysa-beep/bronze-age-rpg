@@ -25,15 +25,35 @@
     "scripts/current-candidate-integrity.test.mjs"
   ],
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+    "draft": true,
+    "merged": false,
+    "evidence": "Seven exact source/handoff readbacks after expected-head nonforce publication from a74caacfd99e373878fa5f8bbbbbe305613c7431"
   },
   "masterReview": {
     "status": "pending"
   },
   "localChecks": {
-    "status": "running",
+    "status": "passed",
     "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
-    "log": "verification/telltales256-full-tap.txt"
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1080,
+    "passed": 1080,
+    "failed": 0,
+    "durationMs": 235675.069372,
+    "completeFooter": true,
+    "okEntries": 1080,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "log": "verification/telltales256-full-tap.txt",
+    "newTests": 5,
+    "newSince253": 14,
+    "newSince251": 27
   },
   "scopedChecks": {
     "status": "passed",
@@ -42,12 +62,50 @@
     "newSince253": 14,
     "newSince251": 27,
     "evidence": "verification/telltales256-focused-tap.txt",
-    "scope": "LOCAL actual native core/Three/snapshot/Continue prepared fixtures, six native Sun King spike plates and final inline compile. NOT ordinary mouse/browser, rendered cue/audio readability/grounding, reference Low cost, all-site hazards, offline pause Save/exact reload or Master acceptance."
+    "scope": "LOCAL actual native core/Three/snapshot/Continue prepared fixtures, six native Sun King spike plates and final inline compile. NOT ordinary mouse/browser, rendered cue/audio readability/grounding, reference Low cost, all-site hazards, offline pause Save/exact reload or Master acceptance.",
+    "durationMs": 9105.694466
   },
   "runtime": {
     "status": "pending"
   },
   "milestoneAcceptance": "none",
-  "next": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md"
+  "next": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+  "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+  "package": {
+    "bytes": 38460314,
+    "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+    "zipSha256": "c98e3508c46be6847cc5534882b0d4f20ca02d3b2b1497a021c346cafdf5d10d",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "checks": {
+      "localHtmlZipIdentity": "passed",
+      "localArchiveContents": "passed",
+      "inlineCompilation": "passed",
+      "standaloneStartup": "not_run",
+      "githubGeneratedIdentity": "not_run",
+      "userDownloadAccessibility": "not_run"
+    },
+    "gameFile": "Wine-Dark-Sea-Combined-Cinematic.html",
+    "archive": "Wine-Dark-Sea-ce369e7c.zip"
+  },
+  "staticAudio": {
+    "status": "passed",
+    "uniqueBuffers": 192,
+    "decodedBytes": 25857919,
+    "evidence": "verification/telltales256-embedded-audio.json",
+    "scope": "Static detected audio-buffer format/decode/package budget only. Not exhaustive computed assets, browser AudioContext decode/startup/cache/concurrency/transitions, listening/voice identity/music quality or acceptance of requested additional12 scores."
+  },
+  "failuresAndCorrections": [
+    "Initial254 draft VM array prototype mismatch corrected by comparing copied JSON; no puzzle assertion removed, final39 focused pass.",
+    "Initial256 draft asserted zero existing native entry/Continue save calls; corrected to compare before/after cue tick, no new Save call. Native manual-slot policy still checked by250–253 fixtures.",
+    "Initial static audio metadata probe exited before reading full pipe:36EPIPE with all192 full ffmpeg decodes passing. Require ffprobe frame count/full input; final192probe+decode pass."
+  ],
+  "ordinaryAcceptance": "pending; no slot or milestone accepted",
+  "releaseGate": {
+    "status": "blocked",
+    "evidence": "verification/telltales256-release-gate.json",
+    "rootCLI": "Root CLI uses preserved Build59 index.html and reports mismatch; no baseline replacement or gate waiver. Existing releaseErrors invoked separately with actual generated candidate hash also blocks current review/milestone/evidence/roster prerequisites."
+  }
 }
-

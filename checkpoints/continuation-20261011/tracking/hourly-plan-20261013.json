@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T21:15:00Z",
+  "updatedAt": "2026-10-18T21:22:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,43 +12,45 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+  "currentLocalBuildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+  "currentGithubHead": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+    "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
     "draft": true,
     "merged": false,
-    "evidence": "Seven exact source/handoff readbacks; expected-head nonforce publication"
+    "evidence": "Seven exact source/handoff readbacks after expected-head nonforce publication from a74caacfd99e373878fa5f8bbbbbe305613c7431"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+      "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1075,
-      "passed": 1075,
+      "tests": 1080,
+      "passed": 1080,
       "failed": 0,
-      "durationMs": 239154.118336,
+      "durationMs": 235675.069372,
       "completeFooter": true,
-      "okEntries": 1075,
+      "okEntries": 1080,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
-      "log": "verification/brazier255-full-tap.txt",
-      "newTests": 9
+      "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/telltales256-full-tap.txt",
+      "newTests": 5,
+      "newSince253": 14,
+      "newSince251": 27
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
-      "sourceBuildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+      "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+      "sourceBuildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "Latest Actions old5bcd473b zero steps/artifacts; no current generated build"
+      "ci": "No current build; latest old5bcd473b failed jobs zero steps/artifacts"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt",
@@ -105,6 +107,26 @@
       "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
       "log": "verification/brazier255-full-tap.txt",
       "newTests": 9
+    },
+    "trapTelltales256": {
+      "status": "passed",
+      "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1080,
+      "passed": 1080,
+      "failed": 0,
+      "durationMs": 235675.069372,
+      "completeFooter": true,
+      "okEntries": 1080,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/telltales256-full-tap.txt",
+      "newTests": 5,
+      "newSince253": 14,
+      "newSince251": 27
     }
   },
   "policy": [
@@ -293,6 +315,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -330,6 +361,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -459,6 +499,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1233,6 +1282,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1246,7 +1304,16 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance.",
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
     },
     {
       "hour": 67,
@@ -1267,6 +1334,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2073,6 +2149,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2173,6 +2258,15 @@
         "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {

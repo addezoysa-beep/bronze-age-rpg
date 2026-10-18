@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 1080,
+  "passed": 1080,
+  "failed": 0,
+  "durationMs": 235675.069372,
+  "completeFooter": true,
+  "okEntries": 1080,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/telltales256-full-tap.txt"
+}
