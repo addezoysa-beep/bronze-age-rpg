@@ -1,0 +1,117 @@
+{
+  "id": "mine-contract-20261018",
+  "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+  "bytes": 38410317,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-35",
+    "120-22",
+    "120-116",
+    "CRAFT-01"
+  ],
+  "summary": "236 actual mine dialogue transaction guards;237 physical picks, local metal teaching and bounded loan;238 original once-only wages and selected-objective restoration",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from e4fbd0c3121c82f654b11690d06f1ae7a4e79a1d; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 971,
+    "failed": 0,
+    "newTests": 21,
+    "durationMs": 174986.527334,
+    "completeFooter": true,
+    "okEntries": 971,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/mine238-full-tap.txt",
+    "result": "verification/mine238-full-result.json",
+    "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "changes": [
+    "236 actual registered mine/keeper/gallery dialogue and ordinary teacher dispatch now revalidate current game, menu, quest-book/nested progress, live actor/site/gallery identity, coordinates/metal list, area and resting on-foot availability. Stale report/accept/map callbacks cannot reward or mutate another save; malformed records are retained rather than overwritten. Existing optional gallery layout/enemies/counters remain.",
+    "237 pickaxeOwned requires an actual positive integer generic/typed inventory tool instead of ownership flag alone. First eligible gallery loan remains one physical flint pick; issued/legacy loans and physical existing tools prevent refills across resume/other mines, material identity is retained. Existing pick-head/handle recipes teach recovery using4stone+2wood+1fiber at an actual bench. Mine lessons teach actual local exposed metals only (silverIngot recipe ID), preserving already learned plans and opening/one-active-frontier-assignment gates.",
+    "238 reporting validates both actual player-mined ore and gallery kills plus reward capacity before paying the original65silver/2copper/45XP/copper-tool patterns once, keeping mined ore. A selected gallery marker returns to the objective captured on acceptance; a separately selected current objective is not reset. Saved prior marker/loan/progress and legacy missing counters are safe under native snapshot/Continue fixtures. Existing map/mining native automatic saves retained; no new save call or bypass of ordinary pause Save."
+  ],
+  "initialFailures": [
+    "First focused17/19: new test used c.site instead of the harness site helper; snapshot harness cleared actual DUN mine registry. Corrected setup retains actual gallery registry and helper. Follow-up19/19 passed, then two real native progress/legacy-default fixtures added; final focused22/22 including builder, and full971/971 pass.",
+    "Whole dirty-worktree diff-check reports a preexisting/restored blank EOF in captive-passage-patch.mjs. Not edited or silently normalized; scoped new-source diff-check clean.",
+    "Repository-wide Actions artifact collection endpoint is unsupported by connector (400); inspected supported individual older run artifact lists are empty. No account/runner changes or repeated failures."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary keeper accept, actual surface/dungeon ore and three gallery fights, physical pick, bench/furnace/craft/earnings and full route; ordinary offline pause Save/exact reload/old-save/render/Master"
+  },
+  "package": {
+    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+    "bytes": 38410317,
+    "zipSha256": "84ede34d2c67ff85b054a21e8afa009b2b62c567f7f75f31d4efe1654965b48f",
+    "entries": 2,
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "external": {
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "parentHead": "e4fbd0c3121c82f654b11690d06f1ae7a4e79a1d",
+    "sourceReadbacks": 6,
+    "currentGithubGeneratedBuild": null,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "jobs": [
+        116343817505,
+        116343817574
+      ],
+      "executedSteps": 0,
+      "artifacts": 0
+    },
+    "localBrowser": {
+      "package": "present",
+      "expectedExecutable": "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+      "executablePresent": false
+    }
+  },
+  "remaining": [
+    "Ordinary new-game/main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess and captive-home routes, actual mouse/UI dialogue/trade/learn/craft/collect/equip/offline pause Save/exact-position reload/cold Continue/old saves/render/audio/reference FPS/Master remain pending. Controlled native callbacks, actual mining hooks, snapshot/Continue/checkpoint21 and Three fixtures are not these gates.",
+    "Mine/economy remains PARTIAL: actual field→surface/dungeon mine→furnace→smith traversal, balanced earnings versus equipment prices, all local ore/keeper availability, bench hand/contact visuals, independent generic/legacy teachers/merchants, all recipe/loot/sell/rare materials and full work contracts need coverage. Ambiguous legacy ownership-only pick is not fabricated as an inventory item; already issued loans are not replenished. Existing stone-pick recipes remain recovery route.",
+    "Rescue recovery230–232 remains limited to original owned seaworthy hull, earned horn and saved <=120 clear straight approach; sunken/missing/replacement/farther hulls, changed docks and detour/blocked routes remain.222–223 ambiguous legacy service identity remains conservative/partial.",
+    "All120/every M0–M5/prior requirement retained/unaccepted. Main campaign/QOL/core physical BronzeAge first; further8–10 stress/performance and expandedTroy lower, not removed. Browser package present but Chromium1234 absent; inspected older Actions jobs have no executed steps/artifacts and matching GitHub-generated playable download unavailable. No failed browser/download/account/runner retries or measured remaining ETA."
+  ],
+  "next": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+  "changedFiles": [
+    "scripts/mine-contract-patch.mjs",
+    "scripts/mine-contract-harness.mjs",
+    "scripts/mine-contract.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ],
+  "postMetadataChecks": {
+    "passed": 11,
+    "failed": 0,
+    "method": "node scripts/verify.mjs; node scripts/package-current-candidate.mjs; node --test --test-concurrency=1 scripts/workflow.test.mjs scripts/package-current-candidate.test.mjs",
+    "baselineUnchanged": true,
+    "scope": "LOCAL tracker/workflow/release-gate negative fixtures and package identity/roundtrip; not runtime acceptance"
+  }
+}

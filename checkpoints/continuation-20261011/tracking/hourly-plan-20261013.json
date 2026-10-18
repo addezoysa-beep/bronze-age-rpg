@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T09:24:09.393Z",
+  "updatedAt": "2026-10-18T10:11:46.745Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,41 +12,41 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+  "currentLocalBuildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+  "currentGithubHead": "c109463172462b9afef4c4e16a348db04e2b1c63",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
     "draft": true,
     "merged": false,
-    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from1ec26f67d20c873fd5b52e5d5e79df545daf5aac; no merge/release"
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from e4fbd0c3121c82f654b11690d06f1ae7a4e79a1d; no merge/release"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 925,
+      "passed": 971,
       "failed": 0,
-      "newTests": 20,
-      "durationMs": 160948.58678,
+      "newTests": 21,
+      "durationMs": 174986.527334,
       "completeFooter": true,
-      "okEntries": 925,
+      "okEntries": 971,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/harbour232-full-tap.txt",
-      "result": "verification/harbour232-full-result.json",
-      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
-      "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795"
+      "evidence": "verification/mine238-full-tap.txt",
+      "result": "verification/mine238-full-result.json",
+      "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+      "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
-      "sourceBuildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+      "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+      "sourceBuildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No matching current-head browser artifact; latest older5bcd473b jobs fail with no executed steps/artifacts"
+      "ci": "No matching current-head browser artifact; inspected older5bcd473b jobs have zero executed steps/artifacts"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt"
@@ -140,10 +140,10 @@
         1,
         112
       ],
-      "workStatus": "in_progress_publication_blocked",
+      "workStatus": "source_reconciled_publication_delivered_runtime_pending",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Current source recovered and exact baseline-to-current rebuilt; private draft PR29 source delivered. Publication hold diagnoses below are historical; any genuinely new rejection remains a stop condition. No merge/release or runtime acceptance."
     },
     {
       "hour": 2,
@@ -639,7 +639,7 @@
         "evidence": "tracking/updates/regional-market-economy-20261018.json",
         "scope": "Existing worked-ingot access and two commodity margins; full mining/teaching/smelting progression incomplete"
       },
-      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "currentEvidence": "Current236–238 source c109463172462b9afef4c4e16a348db04e2b1c63; exact game 776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603,38,410,317bytes. Guarded existing mine contract context, real physical picks and bounded local-ore lessons/first loan, once-only original gallery wages and preserved objective selection. 971/971 full LOCAL checks (21new), complete971 entries/footer/exit0/hash unchanged,174986.527334ms. Six exact source/test readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compilation pass; ZIP84ede34d2c67ff85b054a21e8afa009b2b62c567f7f75f31d4efe1654965b48f. Controlled native dialogue/mining/progress/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/audio/reference FPS or Master acceptance. Economy/work/story/rescue/full120/every M0–M5 remain PARTIAL/unaccepted. Matching GitHub-generated playable download unavailable, startup/decoding/user download accessibility not verified. Browser package present/Chromium1234 absent. Main/QOL/core physical BronzeAge first; further8–10 stress and expandedTroy lower, retained. Remaining ETA unmeasured. See docs/NEXT_RUN_MINE_CONTRACT_20261018.md and tracking/updates/mine-contract-20261018.json.",
       "regionalSmith233235": {
         "status": "partial_source_runtime_pending",
         "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
@@ -671,6 +671,15 @@
           "evidence": "verification/smith235-focused-tap.txt",
           "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
         }
+      },
+      "mineContracts236238": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+        "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+        "evidence": "tracking/updates/mine-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+        "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+        "ordinaryAcceptance": "pending"
       }
     },
     {
@@ -1829,7 +1838,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current230–232 source e446c37bfd05aac65d8cbb90e7ed691a0b586931; exact game 6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795,38,390,253bytes. Earned rally-horn recall of the original seaworthy rescue boat through a clear <=120-unit straight harbour approach to its exact saved ramp; incremental preflight/swept movement and guarded native Rally/start/stop/restart/restore. Original people/anchor/cursors/player/items/quest flags/rewards retained. 925/925 full LOCAL serial checks pass, complete925 entries/footer/exit0/hash unchanged,160948.58678ms;46 focused,20new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass; ZIPc4f39e3d59f93f813b3d2e66c947e6f17d9f5c33f99cb9e0705f1a87f5bd6058. Native collision/control/snapshot/Continue fixtures are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Startup/embedded decoding/user-access unverified; matching GitHub-generated playable download unavailable. Recovery PARTIAL: sunken/missing/replacement hulls, >120, changed docks and blocked/detour approaches remain unfinished. All120/every M0–M5/prior scope retained/unaccepted; main/QOL/physicalBronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. See docs/NEXT_RUN_HARBOUR_RECOVERY_20261018.md and tracking/updates/captive-harbour-recovery-20261018.json.",
+      "currentEvidence": "Current236–238 source c109463172462b9afef4c4e16a348db04e2b1c63; exact game 776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603,38,410,317bytes. Guarded existing mine contract context, real physical picks and bounded local-ore lessons/first loan, once-only original gallery wages and preserved objective selection. 971/971 full LOCAL checks (21new), complete971 entries/footer/exit0/hash unchanged,174986.527334ms. Six exact source/test readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compilation pass; ZIP84ede34d2c67ff85b054a21e8afa009b2b62c567f7f75f31d4efe1654965b48f. Controlled native dialogue/mining/progress/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/audio/reference FPS or Master acceptance. Economy/work/story/rescue/full120/every M0–M5 remain PARTIAL/unaccepted. Matching GitHub-generated playable download unavailable, startup/decoding/user download accessibility not verified. Browser package present/Chromium1234 absent. Main/QOL/core physical BronzeAge first; further8–10 stress and expandedTroy lower, retained. Remaining ETA unmeasured. See docs/NEXT_RUN_MINE_CONTRACT_20261018.md and tracking/updates/mine-contract-20261018.json.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
@@ -1853,6 +1862,15 @@
         "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
         "evidence": "tracking/updates/captive-harbour-recovery-20261018.json",
         "scope": "Original owned seaworthy rescue boat, earned horn, <=120 clear straight approach only; actual controls/native serializer fixtures, NOT full rescue/Save or completed original allocation."
+      },
+      "mineContracts236238": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+        "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+        "evidence": "tracking/updates/mine-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+        "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+        "ordinaryAcceptance": "pending"
       }
     },
     {
@@ -1908,7 +1926,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/artifact/captive-home and offline pause Save/exact reload when runtime available. Continue substantive main/QOL/core physicalBronzeAge work, nonregistered legacy recipe/economy pathways and fair work earnings, or evidence-based remaining physical rescue recovery. Do not duplicate205–235. Full120/every M0–M5; further8–10/expandedTroy lower.",
+  "nextDependencyReadyWork": "Mandatory current-hash ordinary main/Pan/artifact/captive-home/mine/craft and offline pause Save/exact reload when runtime is available. Meanwhile continue substantive main/QOL/core physical BronzeAge, independent legacy teacher/economy bypasses and fair grounded work earnings, or source-supported remaining rescue recovery. Do not duplicate205–238. Full120/every M0–M5 retained; further8–10/expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1928,7 +1946,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "233–235 source delivered;950/950 full LOCAL,74 focused,25 new;regional smith/bench/commission work PARTIAL;ordinary/render/Save/Master pending",
+  "currentCheckpoint": "236–238 source delivered;971/971 full LOCAL,21new;existing mine/tool/reward/objective work PARTIAL; ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -2063,7 +2081,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+  "currentGithubSourceBuildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2240,7 +2258,7 @@
       "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   },
-  "currentGithubHeadScope": "Published source commit, NOT a generated GitHub playable build",
+  "currentGithubHeadScope": "Source checkpoint; evidence metadata commit follows on same private draft PR29",
   "regionalMarket224226": {
     "status": "source_implemented_runtime_pending_partial_economy",
     "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
@@ -2401,6 +2419,30 @@
       "durationMs": 37456.832025,
       "evidence": "verification/smith235-focused-tap.txt",
       "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    }
+  },
+  "mineContracts236238": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "evidence": "tracking/updates/mine-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+    "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+    "ordinaryAcceptance": "pending",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 971,
+      "failed": 0,
+      "newTests": 21,
+      "durationMs": 174986.527334,
+      "completeFooter": true,
+      "okEntries": 971,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/mine238-full-tap.txt",
+      "result": "verification/mine238-full-result.json",
+      "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
     }
   }
 }

@@ -950,36 +950,36 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
-    "bytes": 38403410,
-    "sourceChecks": 950,
-    "sourceScope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+    "bytes": 38410317,
+    "sourceChecks": 971,
+    "sourceScope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+      "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
       "draft": true,
       "merged": false,
-      "evidence": "Six source/test exact readbacks; expected-head nonforce lease from1ec26f67d20c873fd5b52e5d5e79df545daf5aac; no merge/release"
+      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from e4fbd0c3121c82f654b11690d06f1ae7a4e79a1d; no merge/release"
     },
-    "next": "docs/NEXT_RUN_SMITH_WORKSHOP_20261018.md",
+    "next": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 950,
+      "passed": 971,
       "failed": 0,
-      "newTests": 25,
-      "durationMs": 152763.40934,
+      "newTests": 21,
+      "durationMs": 174986.527334,
       "completeFooter": true,
-      "okEntries": 950,
+      "okEntries": 971,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/smith235-full-tap.txt",
-      "result": "verification/smith235-full-result.json",
-      "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      "evidence": "verification/mine238-full-tap.txt",
+      "result": "verification/mine238-full-result.json",
+      "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
     }
   },
   "saveLoadPerformance146": {
@@ -995,5 +995,14 @@
       "representative old save and8–10 truly active attackers remain required"
     ],
     "referencePerformance": "pending; CI software-rendered fresh-save observation is not acceptance"
+  },
+  "mineContracts236238": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "evidence": "tracking/updates/mine-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+    "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+    "ordinaryAcceptance": "pending"
   }
 }
