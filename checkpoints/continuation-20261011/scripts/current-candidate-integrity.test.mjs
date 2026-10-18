@@ -27,6 +27,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.indexOf('DUNGEON_MECHANISM_CHECKPOINT_252')>html.indexOf('MANUAL_CHECKPOINT_FEEDBACK_251'));
  for(const marker of ['BRAZIER_PREFIX_254','BRAZIER_CONTEXT_255'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('BRAZIER_PREFIX_254')>html.indexOf('DUNGEON_TRAP_PHASE_253'));
+ assert.ok(html.includes('TRAP_TELLTALES_256'));
+ assert.ok(html.indexOf('TRAP_TELLTALES_256')>html.indexOf('BRAZIER_PREFIX_254'));
  for(const marker of ['CAPTIVE_HARBOUR_RECOVERY_230','CAPTIVE_CHANNEL_RECHECK_231','RALLY_RESCUE_MENU_232'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('CAPTIVE_HARBOUR_RECOVERY_230')>html.indexOf('REGIONAL_PROVISIONS_227'));
  for(const marker of ['REGIONAL_PROVISIONS_227','REGIONAL_COOK_LESSONS_228','TAVERN_COUNTER_PAGES_229'])assert.ok(html.includes(marker),marker);

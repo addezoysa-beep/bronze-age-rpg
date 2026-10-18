@@ -1,0 +1,53 @@
+{
+  "id": "trap-telltales-20261018",
+  "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+  "bytes": 38460314,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "SITE-01",
+    "AUDIO-01",
+    "EGYPT-01",
+    "120-072",
+    "120-116"
+  ],
+  "summary": "256 physical bronze trap catches and bounded nearby mechanical warning before unchanged native spike damage interval; retains252–255 puzzle/checkpoint continuity",
+  "changedFiles": [
+    "scripts/trap-telltales-patch.mjs",
+    "scripts/trap-telltales.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "running",
+    "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+    "log": "verification/telltales256-full-tap.txt"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 44,
+    "newTests": 5,
+    "newSince253": 14,
+    "newSince251": 27,
+    "evidence": "verification/telltales256-focused-tap.txt",
+    "scope": "LOCAL actual native core/Three/snapshot/Continue prepared fixtures, six native Sun King spike plates and final inline compile. NOT ordinary mouse/browser, rendered cue/audio readability/grounding, reference Low cost, all-site hazards, offline pause Save/exact reload or Master acceptance."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md"
+}
+
