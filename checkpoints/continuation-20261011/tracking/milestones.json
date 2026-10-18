@@ -950,39 +950,39 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
-    "bytes": 38456613,
-    "sourceChecks": 1066,
-    "sourceScope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
+    "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+    "bytes": 38458653,
+    "sourceChecks": 1075,
+    "sourceScope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+      "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
       "draft": true,
       "merged": false,
-      "evidence": "Pinned source recovered from private PR29; six source files read back, no source changes in evidence finalization."
+      "evidence": "Seven exact source/handoff readbacks; expected-head nonforce publication"
     },
-    "next": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+    "next": "docs/NEXT_RUN_BRAZIER_CONTINUITY_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+      "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1066,
-      "passed": 1066,
+      "tests": 1075,
+      "passed": 1075,
       "failed": 0,
-      "durationMs": 235833.673494,
+      "durationMs": 239154.118336,
       "completeFooter": true,
-      "okEntries": 1066,
+      "okEntries": 1075,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
-      "log": "verification/mechanism253-full-tap.txt",
-      "newTests": 13
+      "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
+      "log": "verification/brazier255-full-tap.txt",
+      "newTests": 9
     }
   },
   "saveLoadPerformance146": {
@@ -1061,5 +1061,12 @@
     "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
     "ordinaryAcceptance": "pending",
     "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+  },
+  "coreBrazier254255": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+    "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+    "evidence": "tracking/updates/core-brazier-continuity-20261018.json",
+    "ordinaryAcceptance": "pending"
   }
 }

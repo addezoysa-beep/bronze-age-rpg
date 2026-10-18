@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 1075,
+  "passed": 1075,
+  "failed": 0,
+  "durationMs": 239154.118336,
+  "completeFooter": true,
+  "okEntries": 1075,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/brazier255-full-tap.txt"
+}

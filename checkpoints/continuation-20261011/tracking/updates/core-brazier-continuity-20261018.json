@@ -26,15 +26,33 @@
     "scripts/current-candidate-integrity.test.mjs"
   ],
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+    "draft": true,
+    "merged": false,
+    "evidence": "Seven exact source/handoff readbacks; expected-head nonforce publication"
   },
   "masterReview": {
     "status": "pending"
   },
   "localChecks": {
-    "status": "running",
+    "status": "passed",
     "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
-    "log": "verification/brazier255-full-tap.txt"
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1075,
+    "passed": 1075,
+    "failed": 0,
+    "durationMs": 239154.118336,
+    "completeFooter": true,
+    "okEntries": 1075,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
+    "log": "verification/brazier255-full-tap.txt",
+    "newTests": 9
   },
   "scopedChecks": {
     "status": "passed",
@@ -48,6 +66,23 @@
     "status": "pending"
   },
   "milestoneAcceptance": "none",
-  "next": "docs/NEXT_RUN_BRAZIER_CONTINUITY_20261018.md"
+  "next": "docs/NEXT_RUN_BRAZIER_CONTINUITY_20261018.md",
+  "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+  "package": {
+    "bytes": 38458653,
+    "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+    "zipSha256": "7fba770ef5cbc08aa94110cfa071048657527d0685d75a7cd5917947ea381602",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "checks": {
+      "localHtmlZipIdentity": "passed",
+      "localArchiveContents": "passed",
+      "inlineCompilation": "passed",
+      "standaloneStartup": "not_run",
+      "githubGeneratedIdentity": "not_run",
+      "userDownloadAccessibility": "not_run"
+    }
+  }
 }
-

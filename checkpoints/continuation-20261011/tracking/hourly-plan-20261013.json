@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T21:08:00Z",
+  "updatedAt": "2026-10-18T21:15:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,40 +12,40 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+  "currentLocalBuildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+  "currentGithubHead": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+    "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
     "draft": true,
     "merged": false,
-    "evidence": "Pinned source recovered from private PR29; six source files read back, no source changes in evidence finalization."
+    "evidence": "Seven exact source/handoff readbacks; expected-head nonforce publication"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+      "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1066,
-      "passed": 1066,
+      "tests": 1075,
+      "passed": 1075,
       "failed": 0,
-      "durationMs": 235833.673494,
+      "durationMs": 239154.118336,
       "completeFooter": true,
-      "okEntries": 1066,
+      "okEntries": 1075,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
-      "log": "verification/mechanism253-full-tap.txt",
-      "newTests": 13
+      "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
+      "log": "verification/brazier255-full-tap.txt",
+      "newTests": 9
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
-      "sourceBuildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+      "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+      "sourceBuildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
       "ci": "Latest Actions old5bcd473b zero steps/artifacts; no current generated build"
@@ -87,6 +87,24 @@
       "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
       "log": "verification/mechanism253-full-tap.txt",
       "newTests": 13
+    },
+    "coreBrazier254255": {
+      "status": "passed",
+      "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1075,
+      "passed": 1075,
+      "failed": 0,
+      "durationMs": 239154.118336,
+      "completeFooter": true,
+      "okEntries": 1075,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
+      "log": "verification/brazier255-full-tap.txt",
+      "newTests": 9
     }
   },
   "policy": [
