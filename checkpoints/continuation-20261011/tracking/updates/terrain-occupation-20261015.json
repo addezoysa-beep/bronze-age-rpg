@@ -1,0 +1,17 @@
+{
+ "id":"terrain-occupation-20261015",
+ "buildSha256":"21adde42658b77cb4ce75ab7c521a58cc65ee344f945b1f5f2e1e3394553a10c",
+ "bytes":38197965,
+ "milestoneIds":["M0","M1","M4","M5"],
+ "summary":"Pharos setup/stream height parity, missing real terrain-worker dependencies, and absent Alashiya watch until actual rescue completion",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":183,"failed":0,"new":8,"scope":"Available isolated source/executable/compile/package checks; actual serialized worker VM parity and native NPC/watch fixtures, not full baseline or browser runtime"},
+ "runtime":{"status":"pending","required":"Rendered Pharos/Alashiya/Tyre terrain/asset/dock/navigation, ordinary occupied/completed guard and barracks state, old/new offline pause Save/exact reload, actual worker fallback/Low first minute plus8–10 genuinely concurrent attackers"},
+ "blockers":"Chromium1234 rechecked absent/package present; prior Cloud tab timeout before page state and external runner restriction, no repeated downloads/hung browser/heavy reruns",
+ "schedule":{"status":"existing_hourly_task_reenabled_on_user_request","all120TasksAndM0M5Retained":true,"uninterruptedWorkerClaim":false},
+ "limitations":"No island size changes or general Alashiya buried-asset cure claimed. Worker source fix is not a measured frame-time cure. No accepted slot, completed-hour inference or milestone acceptance.",
+ "acceptedMilestones":0,
+ "delivery":{"htmlBytes":38197965,"zipBytes":26942006,"zipSha256":"f4dd00c1e346d94c747904adbc27510f27ff8e1aa83e0de343a7e4114c1b819f","localHtmlZipIdentity":"passed","localArchiveContents":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","userAccessibility":"not_run","githubBuildDownload":"unavailable"},
+ "next":"Remaining Alashiya burial/region grounding and actual browser/reference gates; safe obtainable captain boat horn and main/core requirements next"
+}

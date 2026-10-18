@@ -1,0 +1,15 @@
+{
+ "id":"postload-pose-budget-20261014",
+ "summary":"Integrate offscreen wild-herd presentation budget and reuse exact shaft-seat vector while preserving simulation, save positions and hand geometry",
+ "buildSha256":"bf22a397a307c979cbfe937d550d3a4fcf0ffec6b3565e420e2b32cfd9c2be5f",
+ "bytes":38148911,
+ "milestoneIds":["M0","M1","M5"],
+ "localTests":{"passed":80,"failed":0,"scope":"Available recovered continuation suite, actual-script compile and executable contracts; not full remote baseline suite or runtime acceptance"},
+ "masterDelivery":{"status":"pending","evidence":"Authorized private PR29 checkpoint publication"},
+ "masterReview":{"status":"pending"},
+ "runtime":{"status":"pending","scope":"Current-hash ordinary Low startup/Save/exact Load, visible horse re-entry, full grips and reference old-save8–10 performance required"},
+ "changedFiles":["scripts/build-continuation.mjs","scripts/build-current.mjs","scripts/hand-grip-patch.mjs","scripts/grip-seat-allocation.test.mjs","scripts/lock-camera.test.mjs"],
+ "evidence":["docs/POSTLOAD_POSE_CHECKPOINT_20261014.md","scripts/wild-horse-pose-budget.test.mjs"],
+ "acceptedMilestones":0,
+ "next":"Full current suite and browser rerun when jobs execute; improve measured actor/visual/world construction costs and keep travel Save/server/arrow failures open"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "shekelesh-shared-swing-20261016",
+  "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+  "bytes": 38244580,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4"
+  ],
+  "summary": "Shekelesh native axe blows use two existing player forms through wind/contact/recovery, while native damage, arrow-burst alternation, clocks, movement, ward and rewards remain authoritative",
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "Private draft PR29 source commit ec7a3208430e76b31c7081401cb9ae8a623114e7; PR description updated successfully. Open/draft/unmerged,0 associated Actions runs at this source head; no CI/runtime/Master acceptance claimed.",
+    "pullRequest": 29,
+    "sourceCommit": "ec7a3208430e76b31c7081401cb9ae8a623114e7"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 664,
+    "failed": 0,
+    "newTests": 5,
+    "otherNewTestsInRun": 12,
+    "durationMs": 37203.093525,
+    "evidence": "verification/shekelesh182-full-tests.txt",
+    "scope": "Full local source/executable/workflow/compile/package suite; actual native enemyAttack/embedded Three shared target fixtures for182, not ordinary browser/render/contact/manual Save/Master acceptance"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+    "bytes": 38244580,
+    "zipSha256": "e706e8c6347dddb7ade0b1b06f096305f964596292b38625bfcca3c3dc7574ad",
+    "htmlPath": "deliveries/e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5/Wine-Dark-Sea-e35c8be1.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Reach actual Shekelesh with four physical relics, ordinary FP/TP encounter scene/cancel, melee wind/hit/recovery and alternating native projectile burst, blocking/dodging and actual damage/contact, no weapon/hand/armor detachment, death/reload/ward/princess route and ordinary offline pause Save/exact-position reload"
+  },
+  "limits": "Boss presentation timing only, using existing player forms3/5 rather than a new action count. Preserves native600HP/26damage, native hit function pointer, ward/item/cage/reward logic, movement/collision and projectile behavior. Native hit/shared target fixture continuity is not rendered anatomical quality or full combat acceptance. Shekelesh laugh candidate remains unintegrated/not auditioned; beginning visual cameo still pending.180/181 service display/guards and all prior work retained, shared service save-key migration pending. Full120/M0–M5/all prior production scope retained; main/QOL/BronzeAge first, performance/8–10 stress lower but not removed.",
+  "next": "docs/NEXT_RUN_AXE_STORY_20261016.md",
+  "changedFiles": [
+    "scripts/shekelesh-shared-swing-patch.mjs",
+    "scripts/shekelesh-shared-swing.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_AXE_STORY_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "verification/shekelesh182-full-tests.txt"
+  ]
+}

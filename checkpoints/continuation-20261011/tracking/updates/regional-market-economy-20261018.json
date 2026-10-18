@@ -1,0 +1,154 @@
+{
+  "id": "regional-market-economy-20261018",
+  "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+  "bytes": 38367370,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-33",
+    "120-34",
+    "120-35",
+    "120-36",
+    "120-110",
+    "120-116",
+    "SERVICE-163",
+    "TRADE-163"
+  ],
+  "summary": "224 material/quality equipment ladder;225 finite actual-settlement arms/ammo/metal markets and guarded spare buybacks;226 two inspected commodity exchange margin repairs",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from aded6fe45e87b72dcf629adb5d63ca0b7fc51022; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 886,
+    "failed": 0,
+    "newTests": 21,
+    "durationMs": 116798.628623,
+    "completeFooter": true,
+    "okEntries": 886,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/market226-full-tap.txt",
+    "result": "verification/market226-full-result.json",
+    "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 48,
+    "failed": 0,
+    "newTests": 21,
+    "durationMs": 20078.270485,
+    "evidence": "verification/market226-focused-tap.txt",
+    "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
+  },
+  "changes": [
+    "224 shared inspected material/quality ladder and classic shop upgrade prices; actual buyService48 equipment quotes cannot retain old low costs. Native weapon damage/AI/ammo values and ingredient/trainer/quest grants unchanged.",
+    "225 actual SERVICES48 cast-membership settlement tiers and guarded normal service menu: four goods/page, region-cultural copper/bronze/iron gear, wooden basic tools, trained sling only, existing ammo30 eight-arrow packs and actual worked-ingot keys. Existing workshop commissions/pattern/treatment/cloth/remedies paths retained, no invented merchant/recipe/new-game gift.",
+    "225 saved finite per-hub stock and buyer purse in G.world.regionalMarkets225, conservative old-save defaults, bounded once-per-forward-day replenishment, malformed record rejection; quote checks actual game/menu/service/actor/day/reach/stock and one-use callback.",
+    "225 spare physical-equipment buybacks at35% shared price via actual removeTransfer52, excludes only registered/equipped/quest items and protects global shield-derived state; budget bounds purchasing. No full loot-sale system acceptance.",
+    "226 actual store/craft audit found silver ore+fuel16 to30 and gold ore+fuel38 to65 exchange loops. Existing recipe inputs, known-plan/real-smelter gates unchanged; exchange payouts reduced10/30, labels match. Actual purchase+learned-craft fixtures conserve resources and cannot profit on those two paths."
+  ],
+  "initialFailures": [
+    "Initial16 new checks15/16: prior resource-directions appender made a6-goods page exceed9 choices. Production changed to4 goods/page and grouped Workshop; unchanged <=9-button assertion passes. No anchor or safety assertion weakened.",
+    "Initial harness composition selected a later multiline regional-generation prefix; fixture now extracts exact two actual complete registry-generation lines, without invented recipe entries. Actual native code and final current build compile."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary village/town/major-city/Valley service mouse entry/navigation/purchase/sell/insufficient funds, physical item+ammo identity, lessons/commissions/crafting/mining, old-save stock/day/restock, offline pause Save/exact reload/cold Continue, rendered arrow/grip/audio/main routes/Master"
+  },
+  "economyAcceptance": "PARTIAL, not completed/accepted: arms stock/material prices and two observed exchange paths only; full recipes, ingredients/cook/healer tiers, loot/every sell/arbitrage route/earnings and rendered/ordinary access remain.",
+  "examples": {
+    "regionalCopperSwordSilver": 216,
+    "regionalBronzeSwordSilver": 432,
+    "regionalIronSwordSilver": 1440,
+    "physicalLeatherBreastplateSilver": 156,
+    "woodArrowBundle8Silver": 6,
+    "flintArrowBundle8Silver": 18,
+    "spareGearBuybackFraction": 0.35,
+    "marketBuyerPurses": [
+      180,
+      900,
+      3000
+    ],
+    "silverExchange": {
+      "storeOreAndFuelCost": 16,
+      "oldPayout": 30,
+      "newPayout": 10
+    },
+    "goldExchange": {
+      "storeOreAndFuelCost": 38,
+      "oldPayout": 65,
+      "newPayout": 30
+    }
+  },
+  "package": {
+    "bytes": 38367370,
+    "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+    "zipSha256": "7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9",
+    "entries": 2,
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "external": {
+    "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+    "parentHead": "aded6fe45e87b72dcf629adb5d63ca0b7fc51022",
+    "sourceReadbacks": 6,
+    "currentGithubGeneratedBuild": null,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "state": "completed_failure",
+      "scope": "Older source only, NOT current candidate",
+      "inspectedJobs": [
+        {
+          "id": 116343817505,
+          "name": "Offline browser smoke",
+          "steps": [],
+          "conclusion": "failure"
+        },
+        {
+          "id": 116343817574,
+          "name": "Repository checks",
+          "steps": [],
+          "conclusion": "failure"
+        }
+      ],
+      "artifacts": []
+    },
+    "browser": "Playwright package present; Chromium1234/usual system executables absent on current recheck. No repeated hung downloads/Cloud/runner/account workaround.",
+    "otherPRHeadsUnchanged": true
+  },
+  "remaining": [
+    "All120/every M0–M5/prior expansion retained/unaccepted. Ordinary main/home/Pan route and pause Save/exact-position reload/crash/progression/Master gates mandatory.",
+    "Markets225 cover arms/ammo/worked metal with bounded spare physical gear buybacks only; full ingredient/cook/healer tiers, advanced recipe-teaching breadth, every merchant/loot/sell/craft/arbitrage path, earnings/affordability, NPC directions and arrow material mesh/damage/recovery runtime remain unfinished.",
+    "222–223 legacy ambiguous service state remains partial; short saved-berth219–221 is not distant/offshore/sunken rescue recovery. Full geography/equipment/creatures/factions/sites/work/music remain.",
+    "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, not removed. No measured remaining ETA."
+  ],
+  "remainingEstimate": "Unmeasured;120 active-hour allocations are not an elapsed-hour completion estimate",
+  "evidence": [
+    "verification/market226-focused-tap.txt",
+    "verification/market226-full-tap.txt",
+    "verification/market226-full-result.json",
+    "docs/NEXT_RUN_MARKET_ECONOMY_20261018.md"
+  ]
+}

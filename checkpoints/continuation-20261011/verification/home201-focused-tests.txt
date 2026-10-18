@@ -1,0 +1,20 @@
+✔ new obstruction and externally moved hull stop partial unloading without relocation or false home; clearing obstruction resumes (166.241717ms)
+✔ reunited saved state restores actual household footing and never repeats aid; absent/malformed landing witness cannot fabricate home (231.805143ms)
+✔ distant/dead/hostile/recruited/interior or unrelated kin and missing child cannot complete reunion (1527.956873ms)
+✔ native currentInts harbour choice unloads nearer child first with bounded reverse ramp walking and no player/inventory/story/reward movement (159.863153ms)
+✔ wrong port/berth/heading, hull loss, danger and obstructed boards refuse unloading without granting shore or moving actors (873.304101ms)
+✔ pause, player departure and danger hold unloading; native movement, embark and horn remain held until both are ashore (135.702137ms)
+✔ partial unloading and ashore JSON restore retain actual saved footing, no Watchtower or family teleport; changed berth holds safely (310.131293ms)
+✔ stale harbour interaction cannot unload from a replaced save/revised boat or remote player (389.371227ms)
+✔ actual child dialogue marks real family exterior and follows only player-walked shore/dock route; kin needs both nearby children (223.055217ms)
+✔ actual captured guardian dialogue reunites only physically nearby children; existing aid once only and no extra completion reward (446.337521ms)
+✔ home callbacks cannot close replacement menus, start remote follow or reunite after replaced save, changed route or distant child (929.152906ms)
+✔ actual native findInt and tryInteract select the harbour ramp ahead of zero-distance Go ashore without forced input (129.736637ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5738.409602

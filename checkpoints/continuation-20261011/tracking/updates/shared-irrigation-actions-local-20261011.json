@@ -1,0 +1,20 @@
+{
+  "id": "shared-irrigation-actions-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "dbd1153845e44fa9b04a869b8978061d5c63be43a7f69a8f84e8c3e22ab07ce2",
+  "summary": "Local TASK-60/WORK-60 checkpoint adds shared feeder inspection, silt clearing, bank hoeing and diversion-gate work at a bounded Euphrates barley field. Source, repository and workflow checks pass; rendered navigation/contact and ordinary pause Save/reload acceptance remain pending.",
+  "changedFiles": [
+    "scripts/shared-irrigation-actions-checkpoint.mjs",
+    "scripts/shared-irrigation-actions.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/ROADMAP.md",
+    "docs/WORK_AND_LOCK_PRIORITY_20261011.md",
+    "tracking/milestones.json",
+    "verification/records/shared-irrigation-actions-local-20261011.json"
+  ],
+  "evidence": ["verification/records/shared-irrigation-actions-local-20261011.json"],
+  "masterDelivery": {"status": "pending"},
+  "masterReview": {"status": "pending"},
+  "milestoneIds": ["M0", "M2", "M3", "M5"]
+}

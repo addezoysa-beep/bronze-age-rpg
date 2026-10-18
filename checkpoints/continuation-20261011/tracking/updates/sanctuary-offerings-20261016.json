@@ -1,0 +1,87 @@
+{
+  "id": "sanctuary-offerings-20261016",
+  "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+  "bytes": 38264009,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "summary": "Two actual sanctuary offering/clerical fixtures, spine-attached stylized regional ceremonial decoration and guarded optional grain/record/visible bowl with actual regional scribe directions; no quest/heal/XP reward or forced Save",
+  "masterDelivery": {
+    "status": "delivered",
+    "pullRequest": 29,
+    "sourceCommit": "9874bc99523dc076f11b0af3735e84fc7aee4c10",
+    "evidence": "Private draft PR29 source commit 9874bc99523dc076f11b0af3735e84fc7aee4c10; PR description updated successfully,0 associated source-head Actions runs. Draft/open/unmerged; no CI/runtime/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 693,
+    "failed": 0,
+    "newTests": 16,
+    "durationMs": 40081.236232,
+    "evidence": "verification/sanctuary188-full-tests.txt",
+    "scope": "Full LOCAL source/executable/workflow/compile/package suite. Actual native summit/home furniture/DOM/collision paths, actual embedded Three/Batch/spine, conservation/JSON/stale/death fixtures; not ordinary browser/rendered contact/Save/Master acceptance"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+    "bytes": 38264009,
+    "zipSha256": "30e54f725e0aa33de5909295fed58a0519031ef7bdb5097921ee450c1e7d066e",
+    "htmlPath": "deliveries/90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520/Wine-Dark-Sea-90d6bdf6.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Natural summit/Amun travel/entry/exits, rendered clergy/cloth/prop/ground/contact/readability, ordinary mouse offer/read/cancel/guards/directions, actual writing/relic route, representative old saves, ordinary offline pause Save/exact-position reload, full main route/Master review"
+  },
+  "initialFailures": {
+    "geometry": "Fixture omitted actual native K.cream; restored fixture colour. Planner then corrected to native default two-metre solids and crate rules; actual dgSolid/dgBlocked routes tested.",
+    "driver": "Initial full-suite output had no complete footer and was not accepted. Final complete suite693/693 is recorded.",
+    "review": "Removed unneeded new-clerk invulnerability before publication; actual native saved-death composition checked. Earlier c078715e/692 is an unshipped intermediate, not final current evidence.",
+    "metadata": "Pre-publication diff caught overbroad numeric replacement affecting two historical hash strings; restored both exact previous values before delivery. No historical evidence repointed."
+  },
+  "external": {
+    "parentHead": "a5fa8d372dd7506e002fb53965cd58ccdb5c933f",
+    "workflowRunsAtParentHead": 0,
+    "latestOlderActionsRuns": [
+      "38711529714",
+      "38711529696",
+      "38711522032"
+    ],
+    "latestOlderActionsHead": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+    "latestOlderConclusion": "failure, unchanged from prior run; prior account/runner restriction retained, no rerun/permission/account change",
+    "browserPackage": "present",
+    "chromium1234Executable": "absent",
+    "currentGithubGeneratedDownload": "unavailable"
+  },
+  "limits": "Two interiors only. Native summit actor/table reused; Amun one mortal clerk/table only if valid floor/station; existing objects/exit retained. Stylized collar/sash/fringe is not a full outfit or new work animation. One voluntary grain/site/day, no health/stamina/silver/XP/reputation/quest benefit or automatic Save. Historical access/ritual simplification disclosed. Source/JSON/native callback evidence does not accept ordinary UI/render/offline Save/Master gates. All120/every M0–M5 gate and prior175–185 retained. Further tuning/8–10 and expanded Troy lower, not removed. Main rescue/child home transport, boss laugh/cameo, full grounding/stock/cultures/creatures/factions/sites/actions/audio and saved-service identity migration open.",
+  "next": "docs/NEXT_RUN_SANCTUARY_20261016.md",
+  "changedFiles": [
+    "scripts/sanctuary-offerings-patch.mjs",
+    "scripts/sanctuary-offerings.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/SANCTUARY_LIFE_RESEARCH_20261016.md",
+    "docs/NEXT_RUN_SANCTUARY_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "verification/sanctuary188-full-tests.txt"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "stable-call-registry-local-20261012",
+  "recordedAt": "2026-10-12T05:17:00Z",
+  "implementation": "candidate_pending_publication_and_runtime",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "a2e7af41d66efeb6369e1b4e83e336f9206c33a669c479dee1141d644543a5c5",
+  "exactCandidateBytes": 37955966,
+  "scope": [
+    "Acquiring another horse snapshots and retains the prior horse identity, coat, power, position and availability.",
+    "Stable services list every registered horse and owned chariot and persist exactly one responder for the existing shared H call.",
+    "Unavailable/dead mounts refuse selection; additional horse purchases preserve funds on failure and do not overwrite prior horses.",
+    "Old saves with one owned horse migrate to one legacy registry record; snapshot/load record current position and repair invalid call selections."
+  ],
+  "checks": {
+    "focused": "10/10 passed including VM-executed acquisition, switching and chariot selection",
+    "fullSourceWorkflow": "265/265 passed",
+    "exactBuild": "reproduced; inline scripts compiled",
+    "browser": "pending"
+  },
+  "pending": [
+    "ordinary stable mouse menu and back-navigation",
+    "major-region stable coverage and route reachability",
+    "physical H summon and switching for several horses/chariots",
+    "unavailable/dead mount behavior and old-save migration in gameplay",
+    "ordinary offline pause Save/exact-position reload"
+  ],
+  "milestoneAcceptance": "none",
+  "nextAction": "Publish to the owned continuation PR, verify remote build, then implement audited major-region stable coverage and ordinary runtime scenarios."
+}

@@ -1,0 +1,128 @@
+{
+  "id": "service-save-identity-20261017",
+  "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+  "bytes": 38356463,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M5"
+  ],
+  "requirementIds": [
+    "SERVICE-180-LEGACY-KEY",
+    "120-33",
+    "120-97",
+    "120-110",
+    "120-116"
+  ],
+  "summary": "222 distinct native Luxor/Valley identities for genuinely fresh voyages;223 conservative unmarked/mixed legacy boundary and native snapshot/Continue rebinding",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+    "draft": true,
+    "merged": false,
+    "evidence": "Five source/test exact readbacks; expected-head nonforce lease; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 865,
+    "failed": 0,
+    "newTests": 14,
+    "durationMs": 110055.014334,
+    "completeFooter": true,
+    "okEntries": 865,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/service223-full-tap.txt",
+    "result": "verification/service223-full-result.json",
+    "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 33,
+    "failed": 0,
+    "newTests": 14,
+    "durationMs": 11596.936799,
+    "evidence": "verification/service223-focused-tap.txt",
+    "scope": "LOCAL actual service creator/dialogue/treatment/commission/snapshot21/Continue21/atomic single-parse load plus JSON/workflow/compile; NOT ordinary gameplay or offline pause Save"
+  },
+  "changes": [
+    "Genuinely new voyages get versioned service identity marker only after native newGame replaces G. No G0 reassignment, decoder replacement, seed edit or additional Save. Snapshot and restore hooks establish names before actual native snapshot/name-index Continue.",
+    "Existing Luxor/Valley native actors have distinct readable saved names, service-region map keys and existing discovery IDs; original count/order/locations/roles/stock/prices/menus/treatment/remedy/pattern/commission callbacks remain. Original Egypt services retain legitimate old-format names.",
+    "Existing unmarked saves retain exact ambiguous original names, deaths/followers/cargo/orders/checkpoint records and player position. Marked snapshots with a legacy actual Luxor/Valley ordinal also conservatively retain legacy identities. No guessed origin, cloned cargo/order, state deletion, actor teleport/spawn or resurrection is introduced.",
+    "Runtime rebinding supports fresh-to-old-to-fresh game changes and later lazy services; primary Egypt's legitimate old-format order/cargo/follower keys do not incorrectly disable fresh unique names. Custom/unrelated/removed actors are not renamed."
+  ],
+  "initialFailures": [
+    "Initial new suite11/12: fixture incorrectly invoked actual buyService48 as if it were a treatment callback. Source function inspection confirmed its (item,count,cost) signature; test now clicks actual native Treat injuries and checks full health/exact16silver. No production guard weakened.",
+    "Package CLI correctly refused new candidate against stale previous tracker identity; explicit packageCandidate invocation with the new dist manifest passed exact identity/two entries/inline compilation. No identity guard weakened."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary Egypt/Luxor/Valley visits, map/directions/trade/remedies/commissions, fresh and old save-slot switching, ordinary offline pause-menu Save/exact-position reload/cold Continue/render/Master"
+  },
+  "legacyMigration": {
+    "status": "partial",
+    "policy": "Only genuinely new voyages corrected. Ambiguous unmarked/mixed old records preserved, not inferred or declared resolved.",
+    "remaining": "No automatic resolution of historical shared death/follower/cargo/order origin. Need explicit recoverable evidence or safe ordinary reassignment without duplication before claiming full migration."
+  },
+  "package": {
+    "bytes": 38356463,
+    "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+    "zipSha256": "2428fa2855d9ad2b22b19b803ac99b234810b8f85b5f1422ccb2b7332817fdc4",
+    "entries": 2,
+    "localHtmlZipIdentity": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "external": {
+    "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+    "parentHead": "256a181a892dcd9fadc038287c691ce67e798c0a",
+    "sourceReadbacks": 5,
+    "currentGithubGeneratedBuild": null,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "state": "completed_failure",
+      "scope": "Older source only, not current candidate; no current browser artifact",
+      "inspectedJobs": [
+        {
+          "id": 116343817505,
+          "name": "Offline browser smoke",
+          "steps": [],
+          "conclusion": "failure"
+        },
+        {
+          "id": 116343817574,
+          "name": "Repository checks",
+          "steps": [],
+          "conclusion": "failure"
+        }
+      ],
+      "artifacts": []
+    },
+    "browser": "Playwright package present; Chromium1234/usual system executables absent. No repeated hung download/Cloud/runner or account workaround.",
+    "otherPRHeadsUnchanged": true
+  },
+  "remaining": [
+    "All120/every M0–M5/prior scope retained, unaccepted. Ordinary main/home/Pan routes and pause Save/exact reload/old saves/Master mandatory.",
+    "Historical shared service state unresolved; moved>6m/offshore/sunken captive recovery, full geometry/equipment/economy/creatures/factions/sites/work/music remain.",
+    "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance/expandedTroy lower, not removed."
+  ],
+  "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or ETA",
+  "evidence": [
+    "verification/service223-focused-tap.txt",
+    "verification/service223-full-tap.txt",
+    "verification/service223-full-result.json",
+    "docs/NEXT_RUN_SERVICE_IDENTITY_20261017.md"
+  ]
+}

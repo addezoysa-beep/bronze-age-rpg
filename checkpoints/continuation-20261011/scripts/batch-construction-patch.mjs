@@ -1,0 +1,15 @@
+export const batchConstructionPatch=String.raw`
+/* BATCH_CONSTRUCTION_159: retain complete topology while hoisting repeated primitive work. */
+(function(){
+ const cylinderBefore159=Batch.prototype.cyl,loftBefore159=anatomyLoft;
+ Batch.prototype.cyl=function(x,y,z,rt,rb,h,n,col,o){
+  if(!Number.isInteger(n)||n<1||n>128)return cylinderBefore159.apply(this,arguments);
+  const f=T(x,y,z,o),hh=h/2,slope=(rb-rt)/(h||1),nf=T(0,0,0,o),axes=[nf(1,0,0),nf(0,1,0),nf(0,0,1)];
+  for(let i=0;i<n;i++){const a0=i/n*TAU,a1=(i+1)/n*TAU,c0=cos(a0),s0=sin(a0),c1=cos(a1),s1=sin(a1),B0=f(rb*c0,-hh,rb*s0),B1=f(rb*c1,-hh,rb*s1),T0=f(rt*c0,hh,rt*s0),T1=f(rt*c1,hh,rt*s1),before=this.p.length;
+   if(rt>0)this.quad(B1,B0,T0,T1,col);else this.tri(B1,B0,T0,col);
+   for(let k=before;k<this.p.length;k+=3){const v=[this.p[k]-x,this.p[k+1]-y,this.p[k+2]-z],lx=v[0]*axes[0][0]+v[1]*axes[0][1]+v[2]*axes[0][2],lz=v[0]*axes[2][0]+v[1]*axes[2][1]+v[2]*axes[2][2],r=hyp(lx,lz)||1,q=nf(lx/r,slope,lz/r),l=hyp(...q)||1;this.n[k]=q[0]/l;this.n[k+1]=q[1]/l;this.n[k+2]=q[2]/l;}if(rt>0)this.tri(f(0,hh,0),T1,T0,col);if(rb>0)this.tri(f(0,-hh,0),B0,B1,col);
+  }return this;
+ };
+ anatomyLoft=function(b,rings,axis,col,S=16){if(!Number.isInteger(S)||S<1||S>128||!rings.length)return loftBefore159.apply(this,arguments);const start=b.p.length,radials=Array.from({length:S},(_,j)=>axis==='y'?[cos((j+.5)/S*TAU),0,sin((j+.5)/S*TAU)]:[cos((j+.5)/S*TAU),sin((j+.5)/S*TAU),0]),grid=rings.map(r=>{const row=[];for(let j=0;j<=S;j++){const a=j/S*TAU;row.push(axis==='y'?[r[0]+cos(a)*r[3],r[1],r[2]+sin(a)*r[4]]:axis==='x'?[r[0],r[1]+cos(a)*r[3],r[2]+sin(a)*r[4]]:[r[0]+cos(a)*r[3],r[1]+sin(a)*r[4],r[2]]);}return row;});for(let i=0;i<rings.length-1;i++)for(let j=0;j<S;j++){const a=grid[i][j],c=grid[i][j+1],d=grid[i+1][j+1],e=grid[i+1][j],u=c.map((v,k)=>v-a[k]),v=e.map((v,k)=>v-a[k]),n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],radial=radials[j],shade=1+(i%3-1)*.018;if(n.reduce((t,x,k)=>t+x*radial[k],0)<0)b.quad(a,e,d,c,sh(col,shade));else b.quad(a,c,d,e,sh(col,shade));}for(const i of[0,rings.length-1])for(let j=0;j<S;j++){const r=rings[i],center=[r[0],r[1],r[2]];const forward=rings[rings.length-1][axis==='y'?1:2]-rings[0][axis==='y'?1:2],desired=(i===0?-1:1)*Math.sign(forward),usual=axis==='y'?-1:1;if(desired===usual)b.tri(center,grid[i][j],grid[i][j+1],col);else b.tri(center,grid[i][j+1],grid[i][j],col)}const normals=new Map(),origin=rings[0],extent=Math.max(...rings.flatMap(r=>[abs(r[0]-origin[0])+r[3],abs(r[1]-origin[1])+Math.max(r[3],r[4]),abs(r[2]-origin[2])+r[4]])),scale=extent<6?10000:1000,key=k=>(Math.round((b.p[k]-origin[0])*scale)+65536)*17179869184+(Math.round((b.p[k+1]-origin[1])*scale)+65536)*131072+Math.round((b.p[k+2]-origin[2])*scale)+65536;for(let k=start;k<b.p.length;k+=3){const id=key(k),n=normals.get(id)||[0,0,0];for(let q=0;q<3;q++)n[q]+=b.n[k+q];normals.set(id,n)}for(let k=start;k<b.p.length;k+=3){const n=normals.get(key(k)),l=hyp(...n)||1;for(let q=0;q<3;q++)b.n[k+q]=n[q]/l}return b};
+})();
+`;

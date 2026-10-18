@@ -1,0 +1,23 @@
+export const optionalPuzzlesPatch=String.raw`
+/* Two optional clue-driven mechanisms add variety without changing required
+   quest gates. Rewards use ordinary persistent world-loot transfer. */
+(function(){
+ // MECHANISM_CONTEXT_212: captured choices belong to this room and voyage.
+ let menu212=null;
+ function nearMechanism212(dg,p){return DGS[dg.id]===dg&&DG===dg&&AREA===dg.id&&['play','talk'].includes(STATE)&&!P.dead&&P.mode==='foot'&&hyp(P.x-p.x,P.z-p.z)<=3.4;}
+ function currentMenu212(q,talk=false){return menu212===q&&G===q.game&&nearMechanism212(q.dg,q.p)&&(!talk||STATE==='talk')&&DLG.lines===q.lines&&DLG.choices===q.choices&&livingState().optionalMechanisms113?.[q.dg.id]===q.state;}
+ function bindMenu212(){const q=menu212;if(!q||DLG.lines!==q.lines||DLG.choices!==q.choices)return;for(const b of $('dchoices').children){if(b.mechanism212||typeof b.onclick!=='function')continue;const click=b.onclick;b.mechanism212=true;b.onclick=function(e){if(!currentMenu212(q,true))return false;return click.call(this,e);};}}
+ const line212Before=dlgLine;dlgLine=function(){const r=line212Before.apply(this,arguments);bindMenu212();return r;};
+ function mechanismState113(id){const w=livingState();w.optionalMechanisms113||={};return w.optionalMechanisms113[id]||={progress:0,left:0,right:0,solved:false,rewarded:false};}
+ function mechanismReward113(dg,p){const q=mechanismState113(dg.id);if(!q.solved||q.rewarded)return false;const id='mechanism113:'+dg.id;putLoot(id,p.x,p.z,dg.id,{stone:8,bread:2,arrow_wood:6},'Weathered mechanism stores');if(!livingState().loot[id])return false;q.rewarded=true;save();return true;}
+ function mechanismInput113(dg,p,action){if(!nearMechanism212(dg,p))return false;const q=mechanismState113(dg.id);if(q.solved)return mechanismReward113(dg,p);const echo=(faceHash(dg.id)%2)===0,pattern=['low','high','middle'];if(!(echo?['low','middle','high']:['left','right','reset']).includes(action))return false;
+  if(echo){q.progress=action===pattern[q.progress]?q.progress+1:0;if(q.progress===3)q.solved=true;}
+  else{if(action==='reset'){q.left=q.right=0;}else if(action==='left')q.left=Math.min(8,q.left+1);else if(action==='right')q.right=Math.min(8,q.right+1);q.solved=q.left===3&&q.right===5;}
+  save();if(q.solved){mechanismReward113(dg,p);closeDlg();say('The stone mechanism',['The hidden latch turns. A small store of food and ammunition is exposed.']);beginStoryCinema110(p,false);}else mechanismTalk113(dg,p);return q.solved;
+ }
+ function mechanismTalk113(dg,p){if(!nearMechanism212(dg,p))return false;const q=mechanismState113(dg.id);if(q.solved)return toast('The mechanism is open. Search the weathered stores nearby.');const echo=(faceHash(dg.id)%2)===0,choices=echo?['low','middle','high'].map(t=>({t:'Sound the '+t+' stone',go:()=>mechanismInput113(dg,p,t)})):[{t:'Pour one measure into the left bowl',go:()=>mechanismInput113(dg,p,'left')},{t:'Pour one measure into the right bowl',go:()=>mechanismInput113(dg,p,'right')},{t:'Drain both bowls and begin again',go:()=>mechanismInput113(dg,p,'reset')}],context={game:G,dg,p,state:q,lines:null,choices:null};choices.push({t:'Leave the mechanism',go:()=>closeDlg()});for(const choice of choices){const go=choice.go;choice.go=()=>currentMenu212(context)?go():false;}say('The weathered mechanism',echo?['Three marks surround the resonating stones: a root below, a bird above, and the line between. Sound them in that order.','A mistaken note quiets the sequence; no ammunition is required.']:["An incised account reads: ‘Three measures for the household, five for the granary.’ The left bowl bears a house; the right bears a sheaf.",'Left bowl: '+q.left+' measures. Right bowl: '+q.right+' measures.'],null,choices);context.lines=DLG.lines;context.choices=DLG.choices;menu212=context;bindMenu212();beginStoryCinema110(p,true);}
+ function installMechanism113(dg){if(!dg||dg.mechanism113)return;const p=atmospherePlan108(dg)[0];if(!p)return;dg.mechanism113={...p};const b=new Batch();b.box(p.x,p.y+.5,p.z,1.05,1,.45,K.stoneD);for(let i=0;i<3;i++)b.cyl(p.x+(i-1)*.29,p.y+1.08,p.z,.10,.13,.16,8,i===1?K.bronze:K.stoneL);dg.group.add(b.mesh());dg.ints.push({x:p.x,z:p.z,r:3,vis:()=>!mechanismState113(dg.id).solved,label:()=> 'Examine the weathered mechanism',act:()=>mechanismTalk113(dg,p)});if(mechanismState113(dg.id).solved)mechanismReward113(dg,p);}
+ const mechanismBuild113Before=buildDungeon;buildDungeon=function(id){const r=mechanismBuild113Before(id);installMechanism113(DGS[id]);return r;};for(const dg of Object.values(DGS))installMechanism113(dg);
+ Object.assign(globalThis,{mechanismState113,mechanismInput113,mechanismReward113,installMechanism113});
+})();`;
+

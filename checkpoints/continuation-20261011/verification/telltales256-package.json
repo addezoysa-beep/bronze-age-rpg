@@ -1,0 +1,20 @@
+{
+  "bytes": 38460314,
+  "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+  "zipSha256": "c98e3508c46be6847cc5534882b0d4f20ca02d3b2b1497a021c346cafdf5d10d",
+  "entries": [
+    "Wine-Dark-Sea-Combined-Cinematic.html",
+    "current-build-manifest.json"
+  ],
+  "checks": {
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "gameFile": "Wine-Dark-Sea-Combined-Cinematic.html",
+  "archive": "Wine-Dark-Sea-ce369e7c.zip"
+}
+

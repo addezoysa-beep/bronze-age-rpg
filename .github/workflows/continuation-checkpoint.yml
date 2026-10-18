@@ -1,0 +1,70 @@
+name: Continuation checkpoint
+on:
+  pull_request:
+    paths:
+      - 'checkpoints/continuation-20261011/**'
+      - '.github/workflows/continuation-checkpoint.yml'
+  push:
+    branches: ['checkpoint/authorized-continuation-20261011']
+permissions:
+  contents: read
+jobs:
+  verify-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: checkpoints/continuation-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce current combined cinematic source
+        run: node scripts/build-current.mjs
+      - name: Source and workflow tests
+        run: node --test --test-concurrency=2 scripts/*.test.mjs
+      - name: Repository validation
+        run: node scripts/verify.mjs
+      - name: Reproduce exact current candidate after checks
+        run: node scripts/build-current.mjs
+      - name: Verify complete exact game before artifact upload
+        run: node scripts/verify-current-artifact.mjs
+      - name: Package and inspect complete HTML and ZIP for the same exact hash
+        run: node scripts/package-current-candidate.mjs dist/Wine-Dark-Sea-Combined-Cinematic.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: combined-cinematic-current
+          path: |
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Combined-Cinematic.html
+            checkpoints/continuation-20261011/dist/current-build-manifest.json
+            checkpoints/continuation-20261011/deliveries/**/*.zip
+  browser-checkpoint:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [travel, pan, lock, grip, remedy, arrow, tavern, loadperf]
+    defaults:
+      run:
+        working-directory: checkpoints/continuation-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/build-current.mjs
+      - name: Exact combined checkpoint ordinary-input browser verification
+        run: node scripts/browser-candidate-smoke.mjs
+        env:
+          WDS_SMOKE_SCENARIO: ${{ matrix.scenario }}
+          WDS_SMOKE_PRESET: ${{ matrix.scenario == 'loadperf' && 'low' || 'auto' }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: combined-browser-${{ matrix.scenario }}
+          path: checkpoints/continuation-20261011/verification/runtime/

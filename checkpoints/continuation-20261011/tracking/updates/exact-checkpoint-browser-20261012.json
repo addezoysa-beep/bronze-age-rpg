@@ -1,0 +1,27 @@
+{
+  "id": "exact-checkpoint-browser-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "d0f566e873abfe9e3571e0dff07348497fb359a70c091bd50554a95d953b90cc",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4"
+  ],
+  "summary": "Add separate exact continuation travel, prepared Pan chest and combat lock browser jobs; correct prepared captain key fixture without implying key/boss route acceptance.",
+  "changedFiles": [
+    ".github/workflows/continuation-checkpoint.yml",
+    "checkpoints/continuation-20261011/scripts/browser-candidate-smoke.mjs",
+    "checkpoints/continuation-20261011/scripts/browser-pan-scenario.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "evidence": [],
+  "checks": {
+    "source": "289/289 passed",
+    "runtime": "pending GitHub; local Chromium download returned truncated zip"
+  }
+}

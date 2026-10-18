@@ -1,0 +1,16 @@
+{
+ "id":"weapon-frame-budget-20261015",
+ "summary":"Preserve exact ranged rig/shared held-weapon transforms using reusable math; avoid repeated unchanged rigid melee-trail vertex bounds scans",
+ "buildSha256":"dbd1c15fee59e538a97cf2e9897d1226800e08c066d0b53ee874ebff534aa978",
+ "bytes":38169603,
+ "milestoneIds":["M0","M1","M2"],
+ "masterDelivery":{"status":"pending","evidence":"Prepared isolated local branch, PR29 publication pending"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":137,"failed":0,"scope":"Available isolated continuation/source/executable/compile/package subset, not full remote baseline or runtime acceptance","newContracts":6},
+ "evidence":["scripts/weapon-frame-budget.test.mjs","scripts/current-candidate-integrity.test.mjs","docs/NEXT_RUN_WEAPON_FRAME_20261015.md"],
+ "parity":{"ranged":"1000 FP/TP wind/recover/idle states: exact cord vertices, dirty versions, pouch, stone; no per-call vectors;1000 bow wrist transforms, no per-call quaternions","held":"1000 reflected/unreflected transforms, left/right, seven weapon kinds, real153/100 palm/shaft/finger wrappers; exact output and caller inputs; detached visible seating preserved","trails":"1000 updates exact geometry/lifetime/opacity/color/pool, unchanged bounds scans1000->1; position/version/replacement/interleaving/bounds invalidation, conservative morph fallback"},
+ "runtime":{"status":"pending","required":"Ordinary FP/TP sling/bow/six-archetype inputs and rendered contact/trails, mandatory offline pause Save/exact reload, old-save Low8–10 attack-capable combat/frame comparison"},
+ "blockers":"Local Chromium1234 absent/package present. Current1b0d7f8 has no runs after explicit skip-CI. Prior runs stopped before steps/logs; oversight reports account restriction requiring owner action. No repeated matrix rerun or account changes.",
+ "acceptedMilestones":0,
+ "next":"Runtime gates as available; main campaign/QOL/performance/core Bronze Age before expanded Troy, all120-task/content scope retained"
+}

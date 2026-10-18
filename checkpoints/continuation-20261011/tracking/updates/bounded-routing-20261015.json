@@ -1,0 +1,16 @@
+{
+ "id":"bounded-routing-20261015",
+ "buildSha256":"dadac47586cbd6fa6edc25f9ed78551ab87620673487be8f8960334a6fdad62c",
+ "bytes":38177972,
+ "milestoneIds":["M0","M5"],
+ "summary":"Resumable furniture-aware tavern route search:128 node expansions per simulation frame, same-frame guard and context restart, unchanged collision/speed/combat",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":155,"failed":0,"routeContracts":9,"scope":"Available isolated source/executable/compile/package subset; full baseline/remote suite not run"},
+ "runtime":{"status":"pending","cloudBrowser":"Tab creation timed out before any page state; no startup/render/input/save/performance evidence","required":"Ordinary controls, offline pause Save/exact reload, natural story/physical rewards, reference Low old-save8–10 active attackers"},
+ "limitations":"Node expansion cap is not a millisecond budget or measured FPS improvement; historical runtime service/arrow timeouts unresolved",
+ "acceptedMilestones":0,
+ "delivery":{"htmlBytes":38177972,"zipBytes":26934817,"zipSha256":"25a5a5011d3305d8376d9a122795f0215e7c6d82d515a35192fc65cba0be8dbb","localHtmlZipIdentity":"passed","localArchiveContents":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","userAccessibility":"not_run","githubBuildDownload":"unavailable"},
+ "next":"Current-hash runtime gates and measured profile when browser/runner available; independent main/QOL/core Bronze Age implementation meanwhile"
+}
+

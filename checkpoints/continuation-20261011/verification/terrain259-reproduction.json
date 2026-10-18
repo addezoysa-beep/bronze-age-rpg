@@ -1,0 +1,30 @@
+{
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "scope": "Source/native/actual mesh fixture, not rendered ordinary gameplay",
+  "nativeBefore257": {
+    "point": {
+      "x": 10138.5,
+      "z": 14.5
+    },
+    "bilinearSample": 1.675344854593277,
+    "actualTriangleRay": 1.5307468175888062,
+    "gap": 0.14459803700447083
+  },
+  "nativeBefore258": {
+    "pushes": 40,
+    "displacementPerPush": 0.2,
+    "crateMeshBaseY": 0,
+    "finalPoint": {
+      "x": 10154.00000000003,
+      "z": 26
+    },
+    "nativeFloorAtCenter": 0.0979700163006957
+  },
+  "after": {
+    "tests": "verification/terrain258-focused-tap.txt",
+    "triangleRayTolerance": 0.000002,
+    "crateGeometryBottomToFootprintSupportTolerance": 1e-9,
+    "scope": "No pixel/visual or full-route acceptance"
+  }
+}
+

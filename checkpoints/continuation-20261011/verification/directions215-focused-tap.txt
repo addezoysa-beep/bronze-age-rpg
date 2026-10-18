@@ -1,0 +1,244 @@
+TAP version 13
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 1 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 1900.058378
+  type: 'test'
+  ...
+# Subtest: 214 royal return tracks the actual living king, not static palace, without mutating the voyage
+ok 2 - 214 royal return tracks the actual living king, not static palace, without mutating the voyage
+  ---
+  duration_ms: 2.690564
+  type: 'test'
+  ...
+# Subtest: 214 known main leads in unrelated dungeons point only to the actual current exit; missing/mismatched rooms never fabricate one
+ok 3 - 214 known main leads in unrelated dungeons point only to the actual current exit; missing/mismatched rooms never fabricate one
+  ---
+  duration_ms: 3.034819
+  type: 'test'
+  ...
+# Subtest: 214 live indoor inventor uses actual same-room position, outdoor approach uses actual entrance, never interior coordinates or home guesses
+ok 4 - 214 live indoor inventor uses actual same-room position, outdoor approach uses actual entrance, never interior coordinates or home guesses
+  ---
+  duration_ms: 0.819235
+  type: 'test'
+  ...
+# Subtest: 214 keeps actual Pan targets, storage recovery, required lock lesson, combat/work objectives and victory wording untouched
+ok 5 - 214 keeps actual Pan targets, storage recovery, required lock lesson, combat/work objectives and victory wording untouched
+  ---
+  duration_ms: 1.031132
+  type: 'test'
+  ...
+# Subtest: 214 composes actual192 rescue stages: unrelated-room exit, exterior fortress, live warlord, seal/princess and true completion
+ok 6 - 214 composes actual192 rescue stages: unrelated-room exit, exterior fortress, live warlord, seal/princess and true completion
+  ---
+  duration_ms: 0.724433
+  type: 'test'
+  ...
+# Subtest: 215 actual native dialogue and map-hint callback uses current moving healer, one original snapshot and no travel discovery
+ok 7 - 215 actual native dialogue and map-hint callback uses current moving healer, one original snapshot and no travel discovery
+  ---
+  duration_ms: 191.916145
+  type: 'test'
+  ...
+# Subtest: 215 actual retained DOM and choice callbacks reject changed voyage, player, actor, pause and replaced dialogue before close/hint/save
+ok 8 - 215 actual retained DOM and choice callbacks reject changed voyage, player, actor, pause and replaced dialogue before close/hint/save
+  ---
+  duration_ms: 2274.630725
+  type: 'test'
+  ...
+# Subtest: 215 removed/changed healer and missing tavern server are not reported as available, including after quote
+ok 9 - 215 removed/changed healer and missing tavern server are not reported as available, including after quote
+  ---
+  duration_ms: 1117.455373
+  type: 'test'
+  ...
+# Subtest: 215 actual well identity/removal/blockage and moved tavern entrance are rechecked at click, no quantity/money changes
+ok 10 - 215 actual well identity/removal/blockage and moved tavern entrance are rechecked at click, no quantity/money changes
+  ---
+  duration_ms: 514.611601
+  type: 'test'
+  ...
+# Subtest: 215 resources remain secondary, native close-before-go works, invalid direct callers cannot open a remote service menu
+ok 11 - 215 resources remain secondary, native close-before-go works, invalid direct callers cannot open a remote service menu
+  ---
+  duration_ms: 170.860945
+  type: 'test'
+  ...
+# Subtest: actual native king reward and117/164 inventor/Oracle completion happen only after full dialogue, once; cancellation grants nothing
+ok 12 - actual native king reward and117/164 inventor/Oracle completion happen only after full dialogue, once; cancellation grants nothing
+  ---
+  duration_ms: 13.738639
+  type: 'test'
+  ...
+# Subtest: all three composed actor callbacks revalidate actual game/flags/route record/actor/foot/range before rewards or knowledge grants
+ok 13 - all three composed actor callbacks revalidate actual game/flags/route record/actor/foot/range before rewards or knowledge grants
+  ---
+  duration_ms: 109.984321
+  type: 'test'
+  ...
+# Subtest: native actor-specific additional service choices survive binding, bind is bounded, stale buttons cannot close another conversation
+ok 14 - native actor-specific additional service choices survive binding, bind is bounded, stale buttons cannot close another conversation
+  ---
+  duration_ms: 3.647897
+  type: 'test'
+  ...
+# Subtest: current royal Pan evidence/remaining-bandit checks are retained under final193 transaction wrapper
+ok 15 - current royal Pan evidence/remaining-bandit checks are retained under final193 transaction wrapper
+  ---
+  duration_ms: 2.998095
+  type: 'test'
+  ...
+# Subtest: current late-bound native84 installation composes with193/205/207 and still completes the actual report once
+ok 16 - current late-bound native84 installation composes with193/205/207 and still completes the actual report once
+  ---
+  duration_ms: 55.969222
+  type: 'test'
+  ...
+# Subtest: legacy pre117 captured native84 king menu reaches117 physical report through207; normal completion once, Esc none
+ok 17 - legacy pre117 captured native84 king menu reaches117 physical report through207; normal completion once, Esc none
+  ---
+  duration_ms: 50.477458
+  type: 'test'
+  ...
+# Subtest: dynamic report preserves real tablet/bandit/current-save/player/actor predicates and native stale DOM protection
+ok 18 - dynamic report preserves real tablet/bandit/current-save/player/actor predicates and native stale DOM protection
+  ---
+  duration_ms: 284.600272
+  type: 'test'
+  ...
+# Subtest: native composed actor services outside critical handoff remain intact and binding is bounded
+ok 19 - native composed actor services outside critical handoff remain intact and binding is bounded
+  ---
+  duration_ms: 47.099606
+  type: 'test'
+  ...
+# Subtest: stored tablet in horse/follower/ship/owned/reusable/unclaimed loot blocks restore and duplicate grants without modifying storage
+ok 20 - stored tablet in horse/follower/ship/owned/reusable/unclaimed loot blocks restore and duplicate grants without modifying storage
+  ---
+  duration_ms: 273.944764
+  type: 'test'
+  ...
+# Subtest: actual native cargo withdrawal restores the only tablet despite its collected flag, keeps flag/quantity, no extra recovery Save
+ok 21 - actual native cargo withdrawal restores the only tablet despite its collected flag, keeps flag/quantity, no extra recovery Save
+  ---
+  duration_ms: 76.436754
+  type: 'test'
+  ...
+# Subtest: actual owned-chest withdrawal callback recovers stored tablet, old flag never swallows it
+ok 22 - actual owned-chest withdrawal callback recovers stored tablet, old flag never swallows it
+  ---
+  duration_ms: 39.094703
+  type: 'test'
+  ...
+# Subtest: reported-but-stored or lost tablet directs retrieval before inventor, read-only objective and dialogue do not recreate or complete
+ok 23 - reported-but-stored or lost tablet directs retrieval before inventor, read-only objective and dialogue do not recreate or complete
+  ---
+  duration_ms: 37.924253
+  type: 'test'
+  ...
+# Subtest: lost legacy tablet recovers only at actual dungeon chest, not outdoor entrance; preserves spent heart/reward and does not save
+ok 24 - lost legacy tablet recovers only at actual dungeon chest, not outdoor entrance; preserves spent heart/reward and does not save
+  ---
+  duration_ms: 38.326664
+  type: 'test'
+  ...
+# Subtest: skiff material check is live after quote; spent/negative materials, incomplete contract or blocked berth conserve all resources
+ok 25 - skiff material check is live after quote; spent/negative materials, incomplete contract or blocked berth conserve all resources
+  ---
+  duration_ms: 307.407625
+  type: 'test'
+  ...
+# Subtest: ordinary actual native skiff button claims actual named harbour once, native4wood3fiber45XP conserved; repeated captured action cannot charge again
+ok 26 - ordinary actual native skiff button claims actual named harbour once, native4wood3fiber45XP conserved; repeated captured action cannot charge again
+  ---
+  duration_ms: 39.61999
+  type: 'test'
+  ...
+# Subtest: skiff actual DOM callbacks cannot close unrelated menu or charge replaced saves/dead/remote/unavailable actor; native captured source binding replaced
+ok 27 - skiff actual DOM callbacks cannot close unrelated menu or charge replaced saves/dead/remote/unavailable actor; native captured source binding replaced
+  ---
+  duration_ms: 374.75908
+  type: 'test'
+  ...
+# Subtest: actual native world-loot callback transfers before UI debit; stored copy is not mistaken for an extra copy and stale/multiple takes conserve
+ok 28 - actual native world-loot callback transfers before UI debit; stored copy is not mistaken for an extra copy and stale/multiple takes conserve
+  ---
+  duration_ms: 236.964153
+  type: 'test'
+  ...
+# Subtest: 205 does not recreate the tablet or override objectives for advanced legacy saves
+ok 29 - 205 does not recreate the tablet or override objectives for advanced legacy saves
+  ---
+  duration_ms: 168.513933
+  type: 'test'
+  ...
+# Subtest: actual native false completion after boss defeat becomes exterior fortress guidance, not inside coordinates or invented home return
+ok 30 - actual native false completion after boss defeat becomes exterior fortress guidance, not inside coordinates or invented home return
+  ---
+  duration_ms: 2.386869
+  type: 'test'
+  ...
+# Subtest: inside fortress resolves actual live warlord/cage/actual princess across all remaining rescue stages without read-side mutation
+ok 31 - inside fortress resolves actual live warlord/cage/actual princess across all remaining rescue stages without read-side mutation
+  ---
+  duration_ms: 1.233976
+  type: 'test'
+  ...
+# Subtest: earlier native route and physical relic recovery guidance keep priority; cancellation remains unfinished and real won flag changes only display
+ok 32 - earlier native route and physical relic recovery guidance keep priority; cancellation remains unfinished and real won flag changes only display
+  ---
+  duration_ms: 1.087496
+  type: 'test'
+  ...
+# Subtest: unloaded/mismatched dungeon, unavailable actors and nonfinite points do not fabricate locations or build/spawn anything
+ok 33 - unloaded/mismatched dungeon, unavailable actors and nonfinite points do not fabricate locations or build/spawn anything
+  ---
+  duration_ms: 1.048978
+  type: 'test'
+  ...
+# Subtest: directions use real local tavern staff/entrance and exclude dead or other-region sellers
+ok 34 - directions use real local tavern staff/entrance and exclude dead or other-region sellers
+  ---
+  duration_ms: 2.589283
+  type: 'test'
+  ...
+# Subtest: water advice excludes blocked wells and healer advice excludes hostile/dead/party actors
+ok 35 - water advice excludes blocked wells and healer advice excludes hostile/dead/party actors
+  ---
+  duration_ms: 0.790002
+  type: 'test'
+  ...
+# Subtest: ordinary secondary choice preserves original quest choices and callback scenes
+ok 36 - ordinary secondary choice preserves original quest choices and callback scenes
+  ---
+  duration_ms: 0.627148
+  type: 'test'
+  ...
+# Subtest: no services yields honest missing-service feedback instead of inventing a merchant
+ok 37 - no services yields honest missing-service feedback instead of inventing a merchant
+  ---
+  duration_ms: 0.810633
+  type: 'test'
+  ...
+# Subtest: interior staff advice uses actual house entrance and revalidates availability before hint
+ok 38 - interior staff advice uses actual house entrance and revalidates availability before hint
+  ---
+  duration_ms: 0.778204
+  type: 'test'
+  ...
+# Subtest: water direction click retains real well identity and rechecks changed blockage
+ok 39 - water direction click retains real well identity and rechecks changed blockage
+  ---
+  duration_ms: 0.653438
+  type: 'test'
+  ...
+1..39
+# tests 39
+# suites 0
+# pass 39
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4617.220736

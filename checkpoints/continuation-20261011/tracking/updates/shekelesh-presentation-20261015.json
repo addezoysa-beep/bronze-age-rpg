@@ -1,0 +1,13 @@
+{
+ "id":"shekelesh-presentation-20261015",
+ "buildSha256":"0376a58975523abb24f41e9bd3ba1e74d8c07b0d44d61d5115d3f6f33fb9893e",
+ "bytes":38225607,"milestoneIds":["M0","M1","M3","M4"],
+ "summary":"Shekelesh articulated scale cuirass and crest, actual live-boss first-encounter cinematic and earlier king naming; native quest/relic ward/attacks untouched",
+ "masterDelivery":{"status":"pending"},"masterReview":{"status":"pending"},
+ "localChecks":{"passed":638,"failed":0,"new":6,"durationMs":34639.599336,"evidence":"verification/shekelesh177-final-tests.txt","scope":"Full local source/executable/workflow/compile/package suite. New tests compose actual native say/close/dlgAdvance, cancellation/retry, JSON defaults, combat/area/LOS/death guards and articulated bounded mesh attachments; not visual/browser acceptance"},
+ "runtime":{"status":"pending","required":"ordinary opening/king/progression/fort approach, scene camera/E/click/Esc/resume, actual rig/contact/render/audio and offline pause Save/exact-position reload"},
+ "package":{"status":"passed","zipSha256":"0db329f8704482e01569af5e3acfe9f0b5d4163f200a25f74bf23daebcf2d40a","entries":2,"htmlZipIdentity":"passed","inlineCompilation":"passed","startup":"not_run","userDownloadAccess":"not_run","githubGeneratedDownload":"unavailable"},
+ "separateAudioCandidate":{"provider":"ElevenLabs sound-effects skill","flowId":"UkDmAChi0fr6RirO1RXP","nodeId":"sX3WnyYnNUYOWwEh14PA","sessionId":"QNEuPxgrvoX17x0IibvS","generationId":"u84BUoKAuA3BOE38V7yS","status":"completed_unintegrated_not_auditioned","reportedDurationSeconds":0.48,"intendedDurationSeconds":3,"decision":"Do not embed: reported duration does not meet intended multi-burst laugh. No retry generation in this run; next use explicit duration after schema inspection. No model/voice clone or secret URL persisted."},
+ "limits":"First encounter focuses the actual existing boss, not a remote opening cameo.31 torso and8 crest boxes attached to spine/head once, no extra actors or hand/weapon mutation. Native shared axe attack remains unchanged; requested custom swing/laugh and brief beginning visual appearance still pending. No audio generated in this checkpoint. Scene completion marks presentation only; no grant/flag/reward/teleport/automatic Save. All M0–M5/full120 remain open. User requested main quest/QOL/BronzeAge first; performance and8–10 stress lower, retained.",
+ "next":"docs/NEXT_RUN_SHEKELESH_20261015.md"
+}

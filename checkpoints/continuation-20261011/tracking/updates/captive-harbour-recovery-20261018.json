@@ -1,0 +1,138 @@
+{
+  "id": "captive-harbour-recovery-20261018",
+  "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+  "bytes": 38390253,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-97",
+    "120-98",
+    "120-114",
+    "120-116",
+    "SEA-163",
+    "OCCUPY-163"
+  ],
+  "summary": "230 same rescue boat recalled through clear bounded harbour channel;231 swept rechecks/state holds;232 actual Rally menu recovery/cancel integration",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from024e0bec7e63b5fe315750084fa31c023b582bbd; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 925,
+    "failed": 0,
+    "newTests": 20,
+    "durationMs": 160948.58678,
+    "completeFooter": true,
+    "okEntries": 925,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/harbour232-full-tap.txt",
+    "result": "verification/harbour232-full-result.json",
+    "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 46,
+    "failed": 0,
+    "newTests": 20,
+    "durationMs": 18837.597464,
+    "evidence": "verification/harbour232-focused-tap.txt",
+    "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "changes": [
+    "230 at the actual original saved rescue dock, a finite earned war_horn29 can recall the same owned seaworthy BOAT from <=120 game units or a large heading mismatch. Original boarding/alighting/returning anchor, people, cursors, child/player positions, inventory, quest flags and rewards are not rewritten.",
+    "231 incremental16-sample-per-timestamp preflight checks starting turn, straight original approach and final saved yaw with actual native hull collision/bounds. Movement <=.12m/.03rad per50ms tick is swept at <=.025m/.005rad; new obstruction stops BEFORE that frame's movement. Boats are not teleported, recreated or re-anchored; no detour path, wreck resurrection or quest completion.",
+    "231 exact current game/boat/mesh/dock/anchor/people/return/landing/revision guards, ownership/hull/horn/danger/player departure stops, paused/dialogue holds, ordinary stop/restart and six-second horn cooldown. Transient plan/generator stays outside serialized G; native snapshot/base Continue/checkpoint21 preserve actual in-flight coordinates, restore cancels the job and fresh ordinary interaction restarts.",
+    "232 normal actual Rally company horn menu replaces its private ramp-blocked call with current rescue-recall/cancel choices only for this case; native follower orders and ordinary no-rescue boat calls retained. Original dock currentInts and actual findInt/tryInteract expose start/stop ashore, Go ashore still wins when mounted, short219–221 no-horn controls retained. No new programmatic Save or item/money/XP grant."
+  ],
+  "initialFailures": [
+    "Initial13 checks12/13: a guard fixture treated0.1 dock offset as outside the existing <=0.5 original-anchor recognition envelope. Invalid-dock setup corrected to5 units, while captured/in-flight exact0.01 dock-change rejection assertions retained. No production guard or assertion weakened.",
+    "Code inspection identified potential null-passage/dock access from an active horn-menu job; normal-menu fallback now precedes dereference and has explicit regression. This was not a reproduced user startup crash."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Actual horn loot/ordinary native tactics and dock interaction; boarding/alighting/both turn-back branches; clear and blocked channels, original hull movement/child ramp positions/contacts/audio; normal pause Save/exact-position reload/cold Continue/old saves and whole main/captive-home/Master."
+  },
+  "recoveryAcceptance": "PARTIAL: no wreck/respawn/sunken/farther/obstructed detour/changed-original-dock recovery or rendered whole-route acceptance.",
+  "bounds": {
+    "maxDistance": 120,
+    "requires": "same owned seaworthy vessel, earned finite war_horn29, actual saved dock and live children, nearby grounded player on foot, no danger/stream/race",
+    "planningPerTimestamp": 16,
+    "movementMetresPer50ms": 0.12,
+    "rotationRadiansPer50ms": 0.03,
+    "sweepMetres": 0.025,
+    "sweepRadians": 0.005,
+    "maxActiveSeconds": 95,
+    "hornCooldownSeconds": 6
+  },
+  "package": {
+    "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+    "bytes": 38390253,
+    "zipSha256": "c4f39e3d59f93f813b3d2e66c947e6f17d9f5c33f99cb9e0705f1a87f5bd6058",
+    "entries": 2,
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "external": {
+    "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+    "parentHead": "024e0bec7e63b5fe315750084fa31c023b582bbd",
+    "sourceReadbacks": 6,
+    "currentGithubGeneratedBuild": null,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "state": "completed_failure",
+      "scope": "Older source only, NOT current candidate",
+      "inspectedJobs": [
+        {
+          "id": 116343817505,
+          "name": "Offline browser smoke",
+          "steps": [],
+          "conclusion": "failure"
+        },
+        {
+          "id": 116343817574,
+          "name": "Repository checks",
+          "steps": [],
+          "conclusion": "failure"
+        }
+      ],
+      "artifacts": []
+    },
+    "browser": "Playwright installed; current chromium.executablePath() points to missing /root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome; usual system paths absent. No hung browser/download/heavy runner/account workaround.",
+    "otherPRHeadsUnchanged": true
+  },
+  "remaining": [
+    "Recovery PARTIAL: only original saved docks, owned seaworthy same vessel, earned finite horn and unobstructed <=120 straight approaches/turning space. Sunken/missing/replacement hulls, farther boats, changed original docks, routing around land/shoals and arbitrary offshore rescues remain unfinished. Without a horn, only old short219–221 realignment remains.",
+    "All120/every M0–M5/prior requirement retained/unaccepted. Ordinary full main/Pan/artifact/Alashiya/princess and captive home route, rendered child/ramp/boat contact/audio, offline pause-menu Save/exact-position reload/cold Continue/old saves and Master gates mandatory. Controlled native/Three/JSON fixtures do not establish these.",
+    "222–223 ambiguous legacy service records remain conservative/partial, not guessed/copied.224–229 market/pantry/cook/remedy source retained, full smith/mining/advanced recipe/economy/earnings/arrow coverage remains incomplete; full geography/equipment/creatures/factions/sites/work/music remain.",
+    "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, retained. Playwright package present but its expected Chromium1234/system paths absent; latest older5bcd473b jobs have no executed steps/artifacts, no current matching generated GitHub playable download. No hung browser/download/runner/account workaround. Remaining ETA unmeasured."
+  ],
+  "remainingEstimate": "Unmeasured;120 active-hour allocations are not scheduled elapsed time or a guaranteed ETA",
+  "evidence": [
+    "verification/harbour232-focused-tap.txt",
+    "verification/harbour232-full-tap.txt",
+    "verification/harbour232-full-result.json",
+    "docs/NEXT_RUN_HARBOUR_RECOVERY_20261018.md"
+  ]
+}

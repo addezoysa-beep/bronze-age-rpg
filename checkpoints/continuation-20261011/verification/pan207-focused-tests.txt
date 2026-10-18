@@ -1,0 +1,166 @@
+TAP version 13
+# Subtest: actual native king reward and117/164 inventor/Oracle completion happen only after full dialogue, once; cancellation grants nothing
+ok 1 - actual native king reward and117/164 inventor/Oracle completion happen only after full dialogue, once; cancellation grants nothing
+  ---
+  duration_ms: 12.064493
+  type: 'test'
+  ...
+# Subtest: all three composed actor callbacks revalidate actual game/flags/route record/actor/foot/range before rewards or knowledge grants
+ok 2 - all three composed actor callbacks revalidate actual game/flags/route record/actor/foot/range before rewards or knowledge grants
+  ---
+  duration_ms: 100.730808
+  type: 'test'
+  ...
+# Subtest: native actor-specific additional service choices survive binding, bind is bounded, stale buttons cannot close another conversation
+ok 3 - native actor-specific additional service choices survive binding, bind is bounded, stale buttons cannot close another conversation
+  ---
+  duration_ms: 3.057651
+  type: 'test'
+  ...
+# Subtest: current royal Pan evidence/remaining-bandit checks are retained under final193 transaction wrapper
+ok 4 - current royal Pan evidence/remaining-bandit checks are retained under final193 transaction wrapper
+  ---
+  duration_ms: 3.052973
+  type: 'test'
+  ...
+# Subtest: current late-bound native84 installation composes with193/205/207 and still completes the actual report once
+ok 5 - current late-bound native84 installation composes with193/205/207 and still completes the actual report once
+  ---
+  duration_ms: 49.002163
+  type: 'test'
+  ...
+# Subtest: legacy pre117 captured native84 king menu reaches117 physical report through207; normal completion once, Esc none
+ok 6 - legacy pre117 captured native84 king menu reaches117 physical report through207; normal completion once, Esc none
+  ---
+  duration_ms: 47.954359
+  type: 'test'
+  ...
+# Subtest: dynamic report preserves real tablet/bandit/current-save/player/actor predicates and native stale DOM protection
+ok 7 - dynamic report preserves real tablet/bandit/current-save/player/actor predicates and native stale DOM protection
+  ---
+  duration_ms: 264.814464
+  type: 'test'
+  ...
+# Subtest: native composed actor services outside critical handoff remain intact and binding is bounded
+ok 8 - native composed actor services outside critical handoff remain intact and binding is bounded
+  ---
+  duration_ms: 44.559511
+  type: 'test'
+  ...
+# Subtest: stored tablet in horse/follower/ship/owned/reusable/unclaimed loot blocks restore and duplicate grants without modifying storage
+ok 9 - stored tablet in horse/follower/ship/owned/reusable/unclaimed loot blocks restore and duplicate grants without modifying storage
+  ---
+  duration_ms: 247.151784
+  type: 'test'
+  ...
+# Subtest: actual native cargo withdrawal restores the only tablet despite its collected flag, keeps flag/quantity, no extra recovery Save
+ok 10 - actual native cargo withdrawal restores the only tablet despite its collected flag, keeps flag/quantity, no extra recovery Save
+  ---
+  duration_ms: 74.876119
+  type: 'test'
+  ...
+# Subtest: actual owned-chest withdrawal callback recovers stored tablet, old flag never swallows it
+ok 11 - actual owned-chest withdrawal callback recovers stored tablet, old flag never swallows it
+  ---
+  duration_ms: 39.780776
+  type: 'test'
+  ...
+# Subtest: reported-but-stored or lost tablet directs retrieval before inventor, read-only objective and dialogue do not recreate or complete
+ok 12 - reported-but-stored or lost tablet directs retrieval before inventor, read-only objective and dialogue do not recreate or complete
+  ---
+  duration_ms: 37.037498
+  type: 'test'
+  ...
+# Subtest: lost legacy tablet recovers only at actual dungeon chest, not outdoor entrance; preserves spent heart/reward and does not save
+ok 13 - lost legacy tablet recovers only at actual dungeon chest, not outdoor entrance; preserves spent heart/reward and does not save
+  ---
+  duration_ms: 37.906132
+  type: 'test'
+  ...
+# Subtest: skiff material check is live after quote; spent/negative materials, incomplete contract or blocked berth conserve all resources
+ok 14 - skiff material check is live after quote; spent/negative materials, incomplete contract or blocked berth conserve all resources
+  ---
+  duration_ms: 302.584892
+  type: 'test'
+  ...
+# Subtest: ordinary actual native skiff button claims actual named harbour once, native4wood3fiber45XP conserved; repeated captured action cannot charge again
+ok 15 - ordinary actual native skiff button claims actual named harbour once, native4wood3fiber45XP conserved; repeated captured action cannot charge again
+  ---
+  duration_ms: 39.354647
+  type: 'test'
+  ...
+# Subtest: skiff actual DOM callbacks cannot close unrelated menu or charge replaced saves/dead/remote/unavailable actor; native captured source binding replaced
+ok 16 - skiff actual DOM callbacks cannot close unrelated menu or charge replaced saves/dead/remote/unavailable actor; native captured source binding replaced
+  ---
+  duration_ms: 373.593679
+  type: 'test'
+  ...
+# Subtest: actual native world-loot callback transfers before UI debit; stored copy is not mistaken for an extra copy and stale/multiple takes conserve
+ok 17 - actual native world-loot callback transfers before UI debit; stored copy is not mistaken for an extra copy and stale/multiple takes conserve
+  ---
+  duration_ms: 204.792836
+  type: 'test'
+  ...
+# Subtest: 205 does not recreate the tablet or override objectives for advanced legacy saves
+ok 18 - 205 does not recreate the tablet or override objectives for advanced legacy saves
+  ---
+  duration_ms: 148.500349
+  type: 'test'
+  ...
+# Subtest: captain flag alone changes objective to actual chest item and prevents Daedalus continuation
+ok 19 - captain flag alone changes objective to actual chest item and prevents Daedalus continuation
+  ---
+  duration_ms: 2.043719
+  type: 'test'
+  ...
+# Subtest: normal unclaimed chest gains one tablet while conserving heart
+ok 20 - normal unclaimed chest gains one tablet while conserving heart
+  ---
+  duration_ms: 0.861553
+  type: 'test'
+  ...
+# Subtest: physical acquisition advances route and blocks duplicated reward
+ok 21 - physical acquisition advances route and blocks duplicated reward
+  ---
+  duration_ms: 0.760642
+  type: 'test'
+  ...
+# Subtest: old opened chest migration adds tablet without reviving heart
+ok 22 - old opened chest migration adds tablet without reviving heart
+  ---
+  duration_ms: 0.695824
+  type: 'test'
+  ...
+# Subtest: completed old Daedalus progression remains unblocked and no retroactive reward
+ok 23 - completed old Daedalus progression remains unblocked and no retroactive reward
+  ---
+  duration_ms: 0.544959
+  type: 'test'
+  ...
+# Subtest: unknown chest or uncleared cave grants nothing
+ok 24 - unknown chest or uncleared cave grants nothing
+  ---
+  duration_ms: 0.631227
+  type: 'test'
+  ...
+# Subtest: serialized receipt remains nonduplicating when reloaded
+ok 25 - serialized receipt remains nonduplicating when reloaded
+  ---
+  duration_ms: 1.043917
+  type: 'test'
+  ...
+# Subtest: active military and mine chest wrappers preserve no-chest boss creation on death and cleared-cave revisit
+ok 26 - active military and mine chest wrappers preserve no-chest boss creation on death and cleared-cave revisit
+  ---
+  duration_ms: 383.235952
+  type: 'test'
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2894.888997

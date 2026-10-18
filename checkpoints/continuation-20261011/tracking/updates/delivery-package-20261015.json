@@ -1,0 +1,15 @@
+{
+ "id":"delivery-package-20261015",
+ "summary":"Retain user three-format delivery contract; fix obsolete canonical preflight filename and inspect actual full local ZIP/HTML/manifest without claiming startup/accessibility/GitHub delivery",
+ "buildSha256":"2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
+ "bytes":38163737,
+ "zipSha256":"459c55ccc58565cc45a33b62f65e57987617b1d3946ff9c38b35397cf1becdba",
+ "milestoneIds":["M0"],
+ "masterDelivery":{"status":"pending","evidence":"Private PR29 and current conversation downloads after publication"},
+ "masterReview":{"status":"pending"},
+ "formats":{"localHtml":"available_source_tested","localZip":"available_content_inspected","githubBuildDownload":"unavailable"},
+ "checks":{"localContentIdentity":"passed","localArchiveContents":"passed","inlineCompilation":"passed","githubGeneratedIdentity":"not_run","standaloneStartupAndAssetDecode":"not_run","userDownloadAccessibility":"not_run"},
+ "evidence":["docs/DELIVERY_CONTRACT_20261015.md","scripts/package-current-candidate.test.mjs","scripts/verify-current-artifact.test.mjs","deliveries/2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76"],
+ "blockers":"No current GitHub build artifact while runner restriction remains unresolved; no local Chromium. Not a three-format accepted release.",
+ "acceptedMilestones":0
+}

@@ -1,0 +1,34 @@
+{
+  "id": "wells-riding-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
+  "summary": "Regional water coverage/approach search, five configured riding NPC circuits with bounded daily rewards, and Hippos/theft state protection. Local source-tested; no runtime acceptance.",
+  "changedFiles": [
+    "scripts/regional-wells-checkpoint.mjs",
+    "scripts/regional-wells.test.mjs",
+    "scripts/riding-challenges-checkpoint.mjs",
+    "scripts/riding-challenges.test.mjs",
+    "scripts/hippos-taming-theft-checkpoint.mjs",
+    "scripts/hippos-taming-theft.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/CREATURE_MOUNT_FEEDBACK_20261011.md",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json"
+  ],
+  "evidence": [
+    "verification/records/wells-riding-local-20261011.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M3",
+    "M5"
+  ]
+}

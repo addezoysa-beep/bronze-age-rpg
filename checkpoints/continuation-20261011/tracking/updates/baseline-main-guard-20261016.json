@@ -1,0 +1,104 @@
+{
+  "id": "baseline-main-guard-20261016",
+  "buildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
+  "bytes": 38276761,
+  "milestoneIds": [
+    "M0",
+    "M4"
+  ],
+  "summary": "Recover exact original baseline/reproducible full checks, fix false main-rescue completion guidance and guard actual composed king/inventor/Delphi transactions against stale save/route/actor callbacks; retain all prior source scope",
+  "masterDelivery": {
+    "status": "delivered",
+    "pullRequest": 29,
+    "sourceCommit": "2025a31497eb9be698b81df2663d26adbd9ed530",
+    "evidence": "Private draft PR29 source 2025a31497eb9be698b81df2663d26adbd9ed530 advanced with expected-head lease; PR description updated with full serial718/ordinary verification distinctions. No merge/release/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 718,
+    "failed": 0,
+    "newTests": 10,
+    "durationMs": 80634.590275,
+    "method": "node --test --test-concurrency=1 scripts/*.test.mjs",
+    "evidence": "verification/main193-full-tests.txt",
+    "scope": "Full LOCAL serial source/executable/workflow/compile/package tests; not remote CI/ordinary runtime/render/Save/Master acceptance"
+  },
+  "baselineRecovery": {
+    "status": "passed",
+    "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "sourceBytes": 37815418,
+    "sourceFile": "Wine-Dark-Sea-Offline.html",
+    "version": "55",
+    "sourceLibraryId": "libfile_c6e6e2e2476c819183cafb2c272784f1",
+    "localResolvedSource": "/workspace/scratch/378db630510c/baseline-recovery192/Bronze Age, open world adventure RPG/Wine-Dark-Sea-Offline.html",
+    "retainedTruncatedRepoInput": "index.html.truncated-79ed427fd5cc",
+    "previousTruncatedBytes": 10712576,
+    "method": "Current Library search/download helpers and actual hash/bytes/inline check, atomically restore repo baseline; original Library item unchanged. Full build-current exact original→published→cinematic→candidate pipeline succeeds without changing any identity gate.",
+    "previousCandidateRevalidation": {
+      "buildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+      "passed": 710,
+      "failed": 0,
+      "durationMs": 80914.340154,
+      "evidence": "verification/baseline192-full-tests.txt",
+      "scope": "Full serial after recovery; distinct from final9b38050d718 suite"
+    }
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
+    "bytes": 38276761,
+    "zipSha256": "103c2b8e20c393b4a43ab96a9c75f746e4c5a3198068ce1b0d523862917428d6",
+    "htmlPath": "deliveries/9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97/Wine-Dark-Sea-9b38050d.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Natural new game/Lykos/Phocas/Pan/royal return/Daedalus/Labyrinth/Delphi/four actual relics/Proteus/Kadmos/fort boss/cage/Erigone, actual ordinary mouse/cancel/retry/Save/exact reload/old saves, visuals/audio and Master review"
+  },
+  "external": {
+    "parentHead": "2338bf776587a5063f6728ab1c5784984cfcd63c",
+    "workflowRunsAtParentHead": 0,
+    "browserPackage": "present",
+    "chromium1234Executable": "absent",
+    "currentGithubGeneratedDownload": "unavailable"
+  },
+  "initialFailures": {
+    "materialization": "Current download helper required companion library_hosted_apps.py; fetched same current skill companion, then recovery succeeded. No raw transfer/credential extraction or permissions workaround.",
+    "baseline": "Prior truncated baseline blocker resolved; old failure evidence retained in prior record, not rewritten into a pass."
+  },
+  "limits": "192 read-only guidance does not grant items/flags/spawn/relocate NPCs or fabricate a completed home voyage.193 preserves actual composed services and native prerequisite checks, extending189 guard route snapshots. Existing save() callbacks remain governed by manual-only save policy; no programmatic save used as UI evidence. Actual child boat/home escort and extra ending chapter still absent. All120/every M0–M5/prior production remains incomplete/unaccepted; further performance/8–10 and expanded Troy lower but retained. No measured remaining ETA or productivity inference.",
+  "next": "docs/NEXT_RUN_MAIN_GUARD_20261016.md",
+  "changedFiles": [
+    "scripts/restore-baseline.mjs",
+    "scripts/restore-baseline.test.mjs",
+    "scripts/rescue-objective-patch.mjs",
+    "scripts/rescue-objective.test.mjs",
+    "scripts/main-story-transactions-patch.mjs",
+    "scripts/main-story-transactions.test.mjs",
+    "scripts/rescue-dialogue-contracts-patch.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_MAIN_GUARD_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "tracking/updates/baseline-main-guard-20261016.json",
+    "verification/baseline192-full-tests.txt",
+    "verification/main193-full-tests.txt"
+  ]
+}

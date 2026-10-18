@@ -1,0 +1,41 @@
+{
+  "id": "roll-lock-ground-local-20261011",
+  "recordedAt": "2026-10-11T10:15:00Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "basePlayableSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+  "buildSha256": "8690b2a561d60e30b36545f2ea4831d1f31990745de0b3c7ccd3f53ed504101e",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "bytes": 37828815,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {
+    "passed": 90,
+    "failed": 0,
+    "command": "node --test scripts/*.test.mjs"
+  },
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "implemented": [
+    "Q lock/unlock, Shift+Q cycling, configurable Q/Numpad0 and Backquote left attack from the prior local checkpoint",
+    "Alt now reaches the existing roll instead of the unrelated dash; Caps Lock is an optional persistent roll binding while Ctrl/C remain crouch and swimming controls",
+    "A 160 ms landing buffer starts one grounded roll and spends 14 stamina once; attack, guard, bow draw, rest, mining, non-foot mode and insufficient stamina block it",
+    "Player rolls and Kobalos/wolf evade displacement share collision-tested segments no longer than 0.24 world units while retaining player/enemy collision modes",
+    "Only visible, same-area humanoids in an active evade receive current-pose floor correction, limiting per-frame cost"
+  ],
+  "runtime": "Not run: no usable Chromium executable is present and the previous browser installation attempt returned an invalid/truncated archive. No rendered terrain, stairs, slope, interior, first/third-person, combat marker, performance or ordinary Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "The player roll retains the existing 0.42-second forward-roll animation and locomotion; rendered feel and the source-tested swept player collision still need ordinary-input review",
+    "Enemy floor contact is verified by source fixtures but not by rendered terrain, stairs, interiors or ten-attacker Low-performance evidence",
+    "Combat lock still targets ENEMIES only; hostile civilian NPC adaptation and the full melee/ranged matrix remain pending",
+    "No work animations, jobs, cargo, regional economy or sea content were implemented by this checkpoint"
+  ],
+  "nextActions": [
+    "Run ordinary Alt and configured Caps Lock rolls on flat ground, slopes, stairs, docks and interiors in first/third person; review recovery and camera comfort",
+    "Render active Kobalos/wolf evasions at normal and Low with ten attackers and confirm body, clothing and weapons do not penetrate or detach",
+    "Run Q/Shift+Q/configuration/marker/facing/ranged/melee and ordinary pause Save/exact-position reload scenarios on the exact hash",
+    "Reconcile and publish only after the earlier destination/export approval block is resolved; do not bypass it"
+  ],
+  "milestoneAcceptance": "none"
+}

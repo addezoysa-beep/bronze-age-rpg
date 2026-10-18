@@ -1,0 +1,20 @@
+{
+  "id": "chart-ordinary-retry-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f",
+  "milestoneIds": [
+    "M0",
+    "M4"
+  ],
+  "summary": "Exact d0f566e8 travel browser run38303142868 still failed chart fill with delayed level-up UI visible after initial quiet wait. Retry ordinary close and M until actual map state is observed; no forced click/state/save used in retry. Rain/storm arrival and Save acceptance remain pending.",
+  "changedFiles": [
+    "scripts/browser-fast-travel-scenario.mjs"
+  ],
+  "evidence": [],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  }
+}

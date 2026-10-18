@@ -1,0 +1,25 @@
+{
+  "reason": "Temporary working directory was pruned after the complete test run and remote source/evidence publication. Recovered the same published source and regenerated artifacts; no implementation change.",
+  "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+  "priorEvidenceCommit": "5e9853106c87797d9b64cc9b5f3e5d6466a44260",
+  "gameFile": "Wine-Dark-Sea-Combined-Cinematic.html",
+  "bytes": 38464267,
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "archive": "Wine-Dark-Sea-d7d791a1.zip",
+  "zipSha256": "4511fde29043462771f129d2b4d4682bbcc70ef84ee2f9c838c0fff25a31e038",
+  "priorArchiveSha256": "343dfccb070100cbf0aeb54082ddcbc2316c101be05c1a2731e4111b0826ab80",
+  "entries": [
+    "Wine-Dark-Sea-Combined-Cinematic.html",
+    "current-build-manifest.json"
+  ],
+  "checks": {
+    "exactRebuild": "passed",
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "fullSuite": "Prior completed 1100/1100 evidence retained; not rerun merely for identical artifact regeneration",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  }
+}

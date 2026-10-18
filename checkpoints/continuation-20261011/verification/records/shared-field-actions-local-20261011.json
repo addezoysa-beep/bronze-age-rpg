@@ -1,0 +1,40 @@
+{
+  "id": "shared-field-actions-local-20261011",
+  "recordedAt": "2026-10-11T12:13:15Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "0886ca00685229bf813858805cabec495e7edbb4870280d3103c17a1e4f3a4ea",
+  "bytes": 37841168,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {
+    "passed": 104,
+    "failed": 0,
+    "command": "node --test scripts/*.test.mjs"
+  },
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "implemented": [
+    "Four distinct shared grain actions: reap, bind sheaves, thresh and winnow",
+    "The same poseGrainWork62 rig drives Ikaria field NPCs and the player; legs use grounded IK while spine, arms, wrists, fingers and work props animate",
+    "A normal field interaction starts the sequence only on foot, grounded, outside danger and after Lykos's opening duty; household tools are provided for the empty-inventory start",
+    "Movement, dodge, interaction, death, area/mode change or a nearby hostile cancels without a reward",
+    "Two grain are awarded only after all four stages; each reserved plot rewards once per in-game day and unfinished transient work clears on reload"
+  ],
+  "runtime": "Not run: no usable Chromium executable is present. Source fixtures exercise the ordinary interaction callback and state transitions, but no rendered body/clothing/prop contact, first-person presentation, navigation, Low performance or pause-menu Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "Only four of the planned thirty-to-forty shared actions are implemented",
+    "The grain shift is useful work but not yet a paid farming contract with duration, quit/failure terms or wages",
+    "First-person work presentation and rendered sickle/sheaf/flail/basket alignment remain pending",
+    "Shepherd, quarry, irrigation, ploughing, cargo, orchard, smith, kitchen, scribe and bard action clusters remain planned"
+  ],
+  "nextActions": [
+    "Render the complete player and NPC four-action sequence from ordinary field prompts and correct any hand/prop/clothing contact faults",
+    "Pause-menu Save during and after field work, reload, verify no partial/duplicate reward and exact player position",
+    "Add the shared shepherd call/drive/gate/feed cluster tied to counted herd and pen routes",
+    "Add a paid farm contract layer without blocking the opening quest or duplicating wages"
+  ],
+  "milestoneAcceptance": "none"
+}

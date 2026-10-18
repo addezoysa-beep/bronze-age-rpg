@@ -1,0 +1,33 @@
+{
+  "id": "load-runtime-observation-20261014",
+  "summary": "Exact118 Low ordinary Save/reload/preset passes; document severe CI frame stalls and unresolved travel/server movement, preserve independent hidden-horse presentation draft",
+  "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M5"
+  ],
+  "masterDelivery": {
+    "status": "pending",
+    "evidence": "PR29 exact-hash runtime handoff pending publication"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "runtime": {
+    "run": 38591577417,
+    "job": 115947531988,
+    "status": "passed",
+    "scope": "Ordinary Low controls/Save/exact reload + telemetry only; no smoothness/reference-oldSave/8\u201310 acceptance"
+  },
+  "evidence": [
+    "verification/records/loadperf-118d9a82-20261014.json",
+    "docs/NEXT_LOAD_RUNTIME_20261014.md"
+  ],
+  "draft147": {
+    "tests": 3,
+    "integrated": false,
+    "scope": "actual source logical behavior parity for offscreen wild herds; no visual/runtime performance acceptance"
+  },
+  "acceptedMilestones": 0
+}

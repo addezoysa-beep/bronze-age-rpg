@@ -1,0 +1,65 @@
+{
+  "id": "save-load-performance-20261014",
+  "summary": "Preserve saved Low graphics, time real load stages, defer optional road preparation after restore, suppress identical stationary streaming refresh; fix second legacy tavern shift/route ownership conflict",
+  "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
+  "bytes": 38147120,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4",
+    "M5"
+  ],
+  "changedFiles": [
+    "scripts/load-performance-patch.mjs",
+    "scripts/feedback-menu-stable-patch.mjs",
+    "scripts/tavern-residence-guard-patch.mjs",
+    "scripts/browser-load-performance-scenario.mjs",
+    "scripts/build-continuation.mjs"
+  ],
+  "localTests": {
+    "passed": 188,
+    "integrated": 168,
+    "unintegratedDrafts": 20,
+    "newLoadContracts": 6,
+    "newGraphicsContracts": 2,
+    "tavernContracts": 5
+  },
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "https://github.com/addezoysa-beep/bronze-age-rpg/pull/29; actual0055d52f2b02375d1ae5ff6801bc76e62cf3dbc9 and PR body delivered"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "browser": {
+    "status": "pending",
+    "scope": "New Low CI fresh-save60second observation plus affected ordinary routes; not reference-device/old-save/8\u201310combat acceptance"
+  },
+  "priorRuntime": {
+    "buildSha256": "278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1",
+    "commit": "ae116787676cead2445df0fcc599b4b6e856394c",
+    "run": 38589206480,
+    "sourceTests": 476,
+    "passedJobs": {
+      "pan": 115939246222,
+      "lock": 115939246159,
+      "grip": 115939246472
+    },
+    "failedJobs": {
+      "tavern": 115939246413,
+      "arrow": 115939246108
+    },
+    "remedyTravel": "still in progress at inspection",
+    "notCarriedForward": true
+  },
+  "failures": "Arrow ordinary held input stays nock in software CI at15sec; no speculative bow fix or widened timeout. Tavern second legacy cast shift reproduced by actual source; now excludes dedicated staff from both resident/cast owner loops and restores arrays finally. Source fixture initially lacked real GRAPHICS28; harness corrected, production fallback not weakened.",
+  "acceptedMilestones": 0,
+  "next": "Current-hash ordinary startup/Save/Low firstminute; measure actual dominant phase before next optimization; representative oldsave8\u201310 reference combat and natural campaign remain open.",
+  "remoteSource": {
+    "run": 38591577417,
+    "job": 115947532550,
+    "passed": 487,
+    "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a"
+  },
+  "packagingFailure": "11907523098 contains manifest only because stale Load-Performance.html path; unusable and not delivered. Correct path + exact-file preflight now required."
+}

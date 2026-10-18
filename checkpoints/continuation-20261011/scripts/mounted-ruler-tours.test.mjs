@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+import {applyMountedRulerToursCheckpoint,mountedRulerToursRuntime} from './mounted-ruler-tours-checkpoint.mjs';
+
+function actor(name,x=0,z=0){return{name,x,z,dead:false,area:'palace',home:{x,z},h:{g:{parent:null,visible:true,position:{set(){}},rotation:{}},legL:{rotation:{}},legR:{rotation:{}}},talk(){this.talked=true;}};}
+function fixture(blocked=false){const leader=actor('Queen A'),guards=[actor('Guard 1',1,1),actor('Guard 2',-1,1)],palace={id:'palace_a',x:0,z:0,leader,guards},INTS=[],G={day:1,time:11,world:{}},f={Math,Number,PI:Math.PI,TAU:Math.PI*2,sin:Math.sin,cos:Math.cos,floor:Math.floor,abs:Math.abs,hyp:Math.hypot,lerp:(a,b,t)=>a+(b-a)*t,clamp:(v,a,b)=>Math.max(a,Math.min(b,v)),G,PALACES16:[palace],INTS,INT_GRID16:{count:0},OVER:{add(o){o.parent=this;}},AREA:'over',P:{x:0,z:0},T_NOW:1,populate:async()=>{},updVisuals(){},npcSchedule(){return{action:'base'};},nearestIsle:()=> 'isle',groundY:()=>10,colBlocked:()=>blocked,landPoint15:(x,z)=>({x,z}),makeHorse:()=>({g:{visible:false,position:{set(){}},rotation:{}},legs:[{rotation:{}},{rotation:{}},{rotation:{}},{rotation:{}}]}),save(){f.saved=true;}};vm.createContext(f);vm.runInContext(mountedRulerToursRuntime,f);return f;}
+test('checkpoint injects once and fails closed',()=>{const source='window.WDS_READY33=true;';const built=applyMountedRulerToursCheckpoint(source);assert.match(built,/function installRulerTours82\(/);assert.throws(()=>applyMountedRulerToursCheckpoint(built));});
+test('scheduled ruler uses a grounded closed route and two real escorts',async()=>{const f=fixture();await f.populate();const t=f.installRulerTours82()[0];assert.equal(t.status,'ready');assert.equal(t.route.length,5);assert.deepEqual(t.route[0],t.route.at(-1));f.updVisuals(.016);assert.equal(t.active,true);assert.equal(t.leader.area,'over');assert.equal(t.leader._stableRiding,true);assert.equal(t.escorts.filter(g=>g._rulerTour82===t).length,2);});
+test('weekly plan has two distinct days and tour ends outside its window',async()=>{const f=fixture();await f.populate();const t=f.installRulerTours82()[0];assert.equal(new Set(t.days).size,2);f.updVisuals(.016);f.G.time=14;f.updVisuals(.016);assert.equal(t.active,false);assert.equal(t.horse.g.visible,false);assert.equal(t.leader._rulerTour82,false);});
+test('urgent audience recalls the ruler once and reaches real dialogue',async()=>{const f=fixture();await f.populate();f.updVisuals(.016);const i=f.INTS.find(i=>String(i.label()).includes('urgent audience')),t=f.installRulerTours82()[0];assert.ok(i.vis());i.act();assert.equal(f.G.world.rulerTours82.palace_a.recalledDay,1);assert.equal(t.active,false);assert.equal(f.PALACES16[0].leader.talked,true);assert.equal(f.saved,true);assert.equal(i.vis(),false);});
+test('unsafe route is blocked honestly without a visible mount',async()=>{const f=fixture(true);await f.populate();assert.equal(f.installRulerTours82()[0].status,'blocked');assert.equal(f.INTS.length,0);});
+
+test('startup tour installation needs no undeclared ceil global', async()=>{
+ const f=fixture();assert.equal('ceil' in f,false);assert.equal(f.tourSegmentSafe82({x:0,z:0},{x:4,z:0}),true);await f.populate();assert.equal(f.installRulerTours82()[0].status,'ready');
+});

@@ -1,0 +1,135 @@
+{
+  "id": "river-work-20261018",
+  "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+  "bytes": 38426008,
+  "milestoneIds": [
+    "M0",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-100",
+    "120-105",
+    "120-116",
+    "LIFE-01"
+  ],
+  "summary": "241 current-day real crew/pier work;242 conserved current-context work wages;243 retained native two-barge lifetime",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from 1ce035403f6b6da50be469513684a5a80a9316d7; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 1004,
+    "failed": 0,
+    "newTests": 20,
+    "durationMs": 209115.405638,
+    "completeFooter": true,
+    "okEntries": 1004,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/cargo243-full-tap.txt",
+    "result": "verification/cargo243-full-result.json",
+    "scope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance."
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 21,
+    "failed": 0,
+    "newTests": 20,
+    "durationMs": 17352.221825,
+    "evidence": "verification/cargo243-focused-tap.txt",
+    "scope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance."
+  },
+  "changes": [
+    "241 currentInts offers the existing grain/stone shift at the actual current-day origin crew, with no once-populated day/port closures or extra static INTS. Real matched Nile dock surfaces now anchor load/tow/pole; original tow/pole positions were outside native pier width. Player and NPC station queries share the repaired coordinates/cache. Missing/dead/hostile/recruited crew or missing/unsafe/changed physical piers refuse jobs; native ferry dialogue/interactions retained.",
+    "242 current game/world/day/record/plan/crew/pier/phase/epoch work guards reject stale prompts/actions, repeated shift restarts and overlapping jobs. Pause/talk holds motion, invalid/large delta cannot instantly complete it, original movement/quit/death/district rules retained. Original16/18silver+9XP once per day; capacity preflight retains ready final step on invalid quantities, and shipment serial is safe beyond signed32bit. Actual final XP handler/queued attribute+skill level screen is checked after settlement.",
+    "243 native restore no longer discards the barge registry while leaving its groups in OVER; original two scene groups retained and aligned to saved cargo coordinates without an advancing frame. Pause/invalid delta no longer advances them. New Voyage reuses the built world; no new ship count, cargo manifest, destination unloading, route geometry, animation or automatic Save."
+  ],
+  "initialFailures": [
+    "First focused13/14 assumed INTS was empty, but native addNPC already installed two legitimate boatman interaction entries. Fixture now preserves and compares the exact preexisting list; no cargo prompt duplicates and no ferry interaction deletion. Expanded final21/21 and full1004/1004 passed.",
+    "Further inspected native dockSurface27 proves old tow1.5/pole1.2 lateral offsets lie outside the2.2-wide Nile pier. Repaired actual matched-pier station anchors shared by player/NPC; added native support-query and changed/missing pier regressions. This is not rendered route acceptance.",
+    "Native restore leak reproduced with controlled actual Three scene groups: repeated restore+native update builds12 groups after five reloads; patched retains the same two. Actual ship-model rendering, heap/FPS measurements and full game restore remain unverified."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary full main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess/captive-home, actual mine/craft/river work/ferry visits and offline pause Save/exact-position reload/cold Continue/old-save/rendered foot/hand/rope/hull contact/audio/reference FPS/Master gates pending. Source/native input hooks, prepared Three groups and base snapshot/Continue fixtures are not these gates."
+  },
+  "package": {
+    "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+    "bytes": 38426008,
+    "zipSha256": "7d31e4fda36a0be55bff81204d494f1ac7d0f1ba5e933271e7b93fb0553dedd1",
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run",
+    "entries": 2
+  },
+  "external": {
+    "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+    "parentHead": "1ce035403f6b6da50be469513684a5a80a9316d7",
+    "sourceReadbacks": 6,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "jobs": [
+        116343817505,
+        116343817574
+      ],
+      "executedSteps": 0,
+      "artifacts": 0
+    },
+    "localBrowser": {
+      "package": "present",
+      "expectedExecutable": "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+      "executablePresent": false
+    },
+    "currentGithubGeneratedBuild": null
+  },
+  "remaining": [
+    "Ordinary full main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess/captive-home, actual mine/craft/river work/ferry visits and offline pause Save/exact-position reload/cold Continue/old-save/rendered foot/hand/rope/hull contact/audio/reference FPS/Master gates pending. Source/native input hooks, prepared Three groups and base snapshot/Continue fixtures are not these gates.",
+    "Cargo/work remains PARTIAL: launch-only four-action work and original decorative two-barge circulation are retained, not full manifests/quarry-to-dock/physical destination unloading or requested upstream stone routing. No new shared-animation count or historical transport assertion. Reused Three scene-group fixture does not establish model quality, navigation, boat physics or measured memory/FPS gains.",
+    "All120/every M0–M5/prior creature/faction/site/action/music/gear/economy/story request retained/unaccepted; GEAR-01 failure remains. Main/QOL/physical BronzeAge first; further8–10 performance/expandedTroy lower, not removed. Remaining time unmeasured. Browser package present/Chromium1234 absent; older Actions5bcd473b jobs have zero steps/artifacts, no matching current GitHub-generated playable download. No failed browser/download/runner/account retry."
+  ],
+  "next": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+  "independentDraft": {
+    "status": "local_scoped_draft_not_in_candidate",
+    "paths": [
+      "scripts/egypt-grain-records-patch.mjs",
+      "scripts/egypt-grain-records-harness.mjs",
+      "scripts/egypt-grain-records.draft.mjs"
+    ],
+    "checks": 13,
+    "scope": "Existing Egyptian two-seal/public-private quest draft; not imported by b3c93cc0 builder and .draft.mjs excluded from source suite. Must integrate/rebuild/test before any candidate claim."
+  },
+  "changedFiles": [
+    "scripts/river-cargo-contract-patch.mjs",
+    "scripts/river-cargo-contract-harness.mjs",
+    "scripts/river-cargo-contract.test.mjs",
+    "scripts/build-current.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ],
+  "postMetadataChecks": {
+    "status": "passed",
+    "passed": 11,
+    "failed": 0,
+    "durationMs": 238.796794,
+    "baselineUnchanged": true,
+    "method": "node scripts/verify.mjs; node scripts/package-current-candidate.mjs; node --test --test-concurrency=1 scripts/workflow.test.mjs scripts/package-current-candidate.test.mjs",
+    "scope": "LOCAL metadata/workflow/package; not runtime"
+  }
+}

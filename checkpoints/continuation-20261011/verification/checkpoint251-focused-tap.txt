@@ -1,0 +1,364 @@
+TAP version 13
+# Subtest: actual legacy null/invalid nested load can replace G before failure; atomic decode keeps prior game/slot and disk untouched
+ok 1 - actual legacy null/invalid nested load can replace G before failure; atomic decode keeps prior game/slot and disk untouched
+  ---
+  duration_ms: 6.665326
+  type: 'test'
+  ...
+# Subtest: primitive/array roots are refused without default-game replacement or multiple decodes
+ok 2 - primitive/array roots are refused without default-game replacement or multiple decodes
+  ---
+  duration_ms: 2.426969
+  type: 'test'
+  ...
+# Subtest: valid legacy/full/explicit-empty inventory states and unknown fields match actual previous decoder exactly
+ok 3 - valid legacy/full/explicit-empty inventory states and unknown fields match actual previous decoder exactly
+  ---
+  duration_ms: 4.322631
+  type: 'test'
+  ...
+# Subtest: remedy normalization failure rolls back the active game and selected slot
+ok 4 - remedy normalization failure rolls back the active game and selected slot
+  ---
+  duration_ms: 1.955652
+  type: 'test'
+  ...
+# Subtest: Continue deletion guard still intercepts atomic decode failure
+ok 5 - Continue deletion guard still intercepts atomic decode failure
+  ---
+  duration_ms: 1.472016
+  type: 'test'
+  ...
+# Subtest: inspected saved-game extension is actual remedy normalization, not an omitted active loader
+ok 6 - inspected saved-game extension is actual remedy normalization, not an omitted active loader
+  ---
+  duration_ms: 14.577405
+  type: 'test'
+  ...
+# Subtest: 250 changed roster leaves ambiguous ordinal cargo alone rather than moving one merchant record to another
+ok 7 - 250 changed roster leaves ambiguous ordinal cargo alone rather than moving one merchant record to another
+  ---
+  duration_ms: 8.035161
+  type: 'test'
+  ...
+# Subtest: 250 actual222 fresh regional identities compose with reordered unique restore and retain independent saved cargo
+ok 8 - 250 actual222 fresh regional identities compose with reordered unique restore and retain independent saved cargo
+  ---
+  duration_ms: 5.637917
+  type: 'test'
+  ...
+# Subtest: 250 reproduces native missing collection crash; partial old checkpoint restores exact point without a write
+ok 9 - 250 reproduces native missing collection crash; partial old checkpoint restores exact point without a write
+  ---
+  duration_ms: 6.828316
+  type: 'test'
+  ...
+# Subtest: 250 reordered unique live actors retain physical position, death, hostility and actual inventory
+ok 10 - 250 reordered unique live actors retain physical position, death, hostility and actual inventory
+  ---
+  duration_ms: 2.423062
+  type: 'test'
+  ...
+# Subtest: 250 ambiguous duplicate merchants are ordinal-only and never spread saved cargo
+ok 11 - 250 ambiguous duplicate merchants are ordinal-only and never spread saved cargo
+  ---
+  duration_ms: 4.260109
+  type: 'test'
+  ...
+# Subtest: 250 service identity binding inspects original ordinals before unique actor matching
+ok 12 - 250 service identity binding inspects original ordinals before unique actor matching
+  ---
+  duration_ms: 2.287382
+  type: 'test'
+  ...
+# Subtest: 250 null actor records and malformed sheep/enemy containers cannot crash or inject nonfinite positions
+ok 13 - 250 null actor records and malformed sheep/enemy containers cannot crash or inject nonfinite positions
+  ---
+  duration_ms: 2.330366
+  type: 'test'
+  ...
+# Subtest: 250 valid native snapshot including null NPC health, sheep, enemies, camera, dungeon and unknown fields remains exact
+ok 14 - 250 valid native snapshot including null NPC health, sheep, enemies, camera, dungeon and unknown fields remains exact
+  ---
+  duration_ms: 2.648106
+  type: 'test'
+  ...
+# Subtest: 250 invalid player checkpoints refuse before native movement; actual Continue read-failure guard returns title without deleting storage
+ok 15 - 250 invalid player checkpoints refuse before native movement; actual Continue read-failure guard returns title without deleting storage
+  ---
+  duration_ms: 8.105505
+  type: 'test'
+  ...
+# Subtest: 250 invalid optional camera values do not overwrite live camera; old no-checkpoint path remains native
+ok 16 - 250 invalid optional camera values do not overwrite live camera; old no-checkpoint path remains native
+  ---
+  duration_ms: 3.997561
+  type: 'test'
+  ...
+# Subtest: 251 native pause Save and native F5 both write one exact checkpoint and report confirmed current slot
+ok 17 - 251 native pause Save and native F5 both write one exact checkpoint and report confirmed current slot
+  ---
+  duration_ms: 4.34847
+  type: 'test'
+  ...
+# Subtest: 251 gameplay save calls never write a slot and native manual restore retains exact position without added save
+ok 18 - 251 gameplay save calls never write a slot and native manual restore retains exact position without added save
+  ---
+  duration_ms: 1.661627
+  type: 'test'
+  ...
+# Subtest: 251 invalid position/slot, streaming, beginning, inactive and dead states do not overwrite an existing checkpoint
+ok 19 - 251 invalid position/slot, streaming, beginning, inactive and dead states do not overwrite an existing checkpoint
+  ---
+  duration_ms: 12.182383
+  type: 'test'
+  ...
+# Subtest: 251 storage quota failure and snapshot exception preserve prior bytes, return false and do not report success
+ok 20 - 251 storage quota failure and snapshot exception preserve prior bytes, return false and do not report success
+  ---
+  duration_ms: 3.106714
+  type: 'test'
+  ...
+# Subtest: 251 failed readback is unconfirmed, never success or automatic deletion/retry
+ok 21 - 251 failed readback is unconfirmed, never success or automatic deletion/retry
+  ---
+  duration_ms: 4.543138
+  type: 'test'
+  ...
+# Subtest: 251 persistent result is current-game/current-slot only and status panel is not duplicated
+ok 22 - 251 persistent result is current-game/current-slot only and status panel is not duplicated
+  ---
+  duration_ms: 1.581649
+  type: 'test'
+  ...
+# Subtest: actual legacy Continue cannot delete corrupt or null saves or silently start New
+ok 23 - actual legacy Continue cannot delete corrupt or null saves or silently start New
+  ---
+  duration_ms: 4.938923
+  type: 'test'
+  ...
+# Subtest: missing Continue and slot disappearing during terrain preparation never start New
+ok 24 - missing Continue and slot disappearing during terrain preparation never start New
+  ---
+  duration_ms: 1.462523
+  type: 'test'
+  ...
+# Subtest: valid old save still loads and explicit New keeps intentional replacement behavior
+ok 25 - valid old save still loads and explicit New keeps intentional replacement behavior
+  ---
+  duration_ms: 1.860641
+  type: 'test'
+  ...
+# Subtest: unrelated restore exceptions retain original stream error handling
+ok 26 - unrelated restore exceptions retain original stream error handling
+  ---
+  duration_ms: 0.896005
+  type: 'test'
+  ...
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 27 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 2965.69345
+  type: 'test'
+  ...
+# Subtest: a blocked first destination does not hide a different clear registered Nile passage
+ok 28 - a blocked first destination does not hide a different clear registered Nile passage
+  ---
+  duration_ms: 278.719693
+  type: 'test'
+  ...
+# Subtest: registered boatman quote rejects a different menu/save/changed port without spending or replacing unrelated interactions
+ok 29 - registered boatman quote rejects a different menu/save/changed port without spending or replacing unrelated interactions
+  ---
+  duration_ms: 733.489411
+  type: 'test'
+  ...
+# Subtest: actual E update/tryInteract/act chain opens blocked captain; stale menu cannot return or retry
+ok 30 - actual E update/tryInteract/act chain opens blocked captain; stale menu cannot return or retry
+  ---
+  duration_ms: 251.821548
+  type: 'test'
+  ...
+# Subtest: New Voyage clears the pending owned loading lock and ferry but leaves new state untouched
+ok 31 - New Voyage clears the pending owned loading lock and ferry but leaves new state untouched
+  ---
+  duration_ms: 246.651
+  type: 'test'
+  ...
+# Subtest: native river port button hooks reaches guarded booking; same original fare/model and own boat untouched
+ok 32 - native river port button hooks reaches guarded booking; same original fare/model and own boat untouched
+  ---
+  duration_ms: 254.011698
+  type: 'test'
+  ...
+# Subtest: native booking accepts remote mounted player; Nile contract rejects it without fare or warm stream
+ok 33 - native booking accepts remote mounted player; Nile contract rejects it without fare or warm stream
+  ---
+  duration_ms: 501.830845
+  type: 'test'
+  ...
+# Subtest: wrong/dead/hostile/recruited/indoor crew, absent pier, blocked shore, invalid cost and insufficient funds refuse safely
+ok 34 - wrong/dead/hostile/recruited/indoor crew, absent pier, blocked shore, invalid cost and insufficient funds refuse safely
+  ---
+  duration_ms: 5595.637679
+  type: 'test'
+  ...
+# Subtest: unavailable/malformed/dry route has no fare, teleport or stream lock
+ok 35 - unavailable/malformed/dry route has no fare, teleport or stream lock
+  ---
+  duration_ms: 1350.219971
+  type: 'test'
+  ...
+# Subtest: pending preparation rechecks save, player, crew, pier, destination and fare; duplicate cannot race booking
+ok 36 - pending preparation rechecks save, player, crew, pier, destination and fare; duplicate cannot race booking
+  ---
+  duration_ms: 2554.340334
+  type: 'test'
+  ...
+# Subtest: model/preparation/save failures retain no fare and restore original physical departure, later retry works
+ok 37 - model/preparation/save failures retain no fare and restore original physical departure, later retry works
+  ---
+  duration_ms: 935.783773
+  type: 'test'
+  ...
+# Subtest: pause/invalid delta does not advance; bounded delta and endpoint use actual clear pier-supported arrival
+ok 38 - pause/invalid delta does not advance; bounded delta and endpoint use actual clear pier-supported arrival
+  ---
+  duration_ms: 309.271158
+  type: 'test'
+  ...
+# Subtest: blocked arrival waits aboard without repeated loading or losing fare; real captain retry later lands
+ok 39 - blocked arrival waits aboard without repeated loading or losing fare; real captain retry later lands
+  ---
+  duration_ms: 270.197007
+  type: 'test'
+  ...
+# Subtest: blocked landing return follows reversed same route and refunds original fare once on clear departure
+ok 40 - blocked landing return follows reversed same route and refunds original fare once on clear departure
+  ---
+  duration_ms: 254.026822
+  type: 'test'
+  ...
+# Subtest: native snapshot/Continue resumes same crossing coordinates without second fare or ship
+ok 41 - native snapshot/Continue resumes same crossing coordinates without second fare or ship
+  ---
+  duration_ms: 257.078388
+  type: 'test'
+  ...
+# Subtest: waiting and returning crossings survive snapshot/Continue and only one refund
+ok 42 - waiting and returning crossings survive snapshot/Continue and only one refund
+  ---
+  duration_ms: 269.629669
+  type: 'test'
+  ...
+# Subtest: malformed/foreign/changed-port saved records do not fabricate a trip, money or replacement ship
+ok 43 - malformed/foreign/changed-port saved records do not fabricate a trip, money or replacement ship
+  ---
+  duration_ms: 1571.104965
+  type: 'test'
+  ...
+# Subtest: New Voyage invalidates pending booking and old landing callbacks without mutating new game
+ok 44 - New Voyage invalidates pending booking and old landing callbacks without mutating new game
+  ---
+  duration_ms: 256.963413
+  type: 'test'
+  ...
+# Subtest: non-Nile sea ferry continues through the original booking/tick path
+ok 45 - non-Nile sea ferry continues through the original booking/tick path
+  ---
+  duration_ms: 249.960231
+  type: 'test'
+  ...
+# Subtest: fresh actual creator has distinct native settlement/save/discovery/commission keys and local visible people
+ok 46 - fresh actual creator has distinct native settlement/save/discovery/commission keys and local visible people
+  ---
+  duration_ms: 324.524806
+  type: 'test'
+  ...
+# Subtest: native snapshots and actual index/name Continue restore independent merchant position, death, hostility and inventory
+ok 47 - native snapshots and actual index/name Continue restore independent merchant position, death, hostility and inventory
+  ---
+  duration_ms: 250.38865
+  type: 'test'
+  ...
+# Subtest: new distinct death/follower/cargo/order keys are not shared and native commission collection conserves a single output
+ok 48 - new distinct death/follower/cargo/order keys are not shared and native commission collection conserves a single output
+  ---
+  duration_ms: 260.278645
+  type: 'test'
+  ...
+# Subtest: primary Egypt legacy-looking native cargo/orders/follower names are valid fresh keys and do not undo Luxor identity
+ok 49 - primary Egypt legacy-looking native cargo/orders/follower names are valid fresh keys and do not undo Luxor identity
+  ---
+  duration_ms: 257.600139
+  type: 'test'
+  ...
+# Subtest: unmarked legacy duplicate cast/keys keep exact saved records, shared native outcomes and player state without guessed migration
+ok 50 - unmarked legacy duplicate cast/keys keep exact saved records, shared native outcomes and player state without guessed migration
+  ---
+  duration_ms: 265.968299
+  type: 'test'
+  ...
+# Subtest: switching between new and old voyages rebinds runtime names/regions/discovery IDs without changing either saved graph or player
+ok 51 - switching between new and old voyages rebinds runtime names/regions/discovery IDs without changing either saved graph or player
+  ---
+  duration_ms: 322.091807
+  type: 'test'
+  ...
+# Subtest: mixed marked checkpoint with a legacy Luxor ordinal conservatively preserves ambiguity without fanning out state
+ok 52 - mixed marked checkpoint with a legacy Luxor ordinal conservatively preserves ambiguity without fanning out state
+  ---
+  duration_ms: 284.012167
+  type: 'test'
+  ...
+# Subtest: native newGame boundary marks only a genuinely fresh voyage without mutating const G0 or inventing Save/item rewards
+ok 53 - native newGame boundary marks only a genuinely fresh voyage without mutating const G0 or inventing Save/item rewards
+  ---
+  duration_ms: 284.840235
+  type: 'test'
+  ...
+# Subtest: late lazy service creation, repeated restore/snapshot and JSON roundtrip do not grow cast, wrappers, inventory or rewards
+ok 54 - late lazy service creation, repeated restore/snapshot and JSON roundtrip do not grow cast, wrappers, inventory or rewards
+  ---
+  duration_ms: 339.364307
+  type: 'test'
+  ...
+# Subtest: unrelated cast, custom actor identity, actor membership and unsupported hubs are never renamed
+ok 55 - unrelated cast, custom actor identity, actor membership and unsupported hubs are never renamed
+  ---
+  duration_ms: 332.60919
+  type: 'test'
+  ...
+# Subtest: actual native treatment and local direction choices remain guarded and use a distinct local chart key
+ok 56 - actual native treatment and local direction choices remain guarded and use a distinct local chart key
+  ---
+  duration_ms: 276.41713
+  type: 'test'
+  ...
+# Subtest: actual native snapshot inside a fresh wrapper gets its marker before serializing; old pre-reset snapshot and failed call stay unmarked
+ok 57 - actual native snapshot inside a fresh wrapper gets its marker before serializing; old pre-reset snapshot and failed call stay unmarked
+  ---
+  duration_ms: 307.792889
+  type: 'test'
+  ...
+# Subtest: failed fresh boundary clears its transient scope and does not mark a later unrelated old game
+ok 58 - failed fresh boundary clears its transient scope and does not mark a later unrelated old game
+  ---
+  duration_ms: 227.42915
+  type: 'test'
+  ...
+# Subtest: actual atomic single-parse loader retains marked and unmarked identity policy before native Continue without save writes
+ok 59 - actual atomic single-parse loader retains marked and unmarked identity policy before native Continue without save writes
+  ---
+  duration_ms: 709.788606
+  type: 'test'
+  ...
+1..59
+# tests 59
+# suites 0
+# pass 59
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 26047.540365

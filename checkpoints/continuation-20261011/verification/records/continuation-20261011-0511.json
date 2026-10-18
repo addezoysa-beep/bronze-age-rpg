@@ -1,0 +1,67 @@
+{
+  "id": "continuation-20261011-0511",
+  "recordedOn": "2026-10-11",
+  "masterBase": "5f6846fcd056627d8f1caa4bd45c0ea7d94ebb77",
+  "masterExecutableUnchanged": true,
+  "masterPlayableSha256": "043091f39eff5a7ba3aec4a31df7cd58b7db844213dbafe5b69d1cf238b6fc5f",
+  "requirements": "docs/USER_FEEDBACK_20261011.md",
+  "candidates": [
+    {
+      "pr": 25,
+      "branch": "m1/fast-travel-recovery",
+      "head": "52a5853d5aa94996d143c6f6998ea5583b27ac3f",
+      "artifactSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+      "sourceTests": 70,
+      "initialRun": 38114307672,
+      "initialBrowser": "Failed180s arrival wait. Ordinary baseline Save/reload, king dialogue, paid Ur/fare/Save, map discovered/unknown/storm checks passed; no page errors/external requests. Visible character/level-up controls appeared; arrival+postarrival Save not accepted.",
+      "failureArtifact": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114307672/artifacts/11693396273",
+      "correction": "Harness waits for arrival independent of intentional bag/level-up menu, closes actual #bagclose with ordinary mouse; code hash unchanged.",
+      "correctedRun": 38114903163,
+      "runtime": "Scoped Troy map arrival/storm/unknown/ordinary pause Save/exact reload passed38114903163; reviewed for integration. All-destination/old-save/performance pending."
+    },
+    {
+      "pr": 26,
+      "branch": "m1/phocas-sling-route",
+      "base": "PR25 feature branch; retarget master after25 reviewed/merged",
+      "head": "a7084cfd6ecf74a793eb2c8380a6999953297250",
+      "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+      "sourceTests": 79,
+      "scope": "Direct physical wooden sling/equip, repeat-safe initial12stones/progress, explicit unfinished-drill choice, stone range hits/grounded bases. No full opening/aim/hit/certification visuals.",
+      "initialRun": 38114572790,
+      "runtime": "Initial repository CI passed; old browser harness still running at inspection. Latest corrected head pending; no UI acceptance."
+    },
+    {
+      "pr": 27,
+      "branch": "m4/pan-physical-tally",
+      "base": "PR26 feature branch; retarget after26 reviewed/merged",
+      "head": "e08983fdfe313f08efd2450c6a2a964a8bb395d4",
+      "artifactSha256": "eaf2fd7e68d62fef7d921e15e67081e204440cf73964034a333c9c650083785a",
+      "sourceTests": 87,
+      "testCommand": "node --test --test-concurrency=2 scripts/*.test.mjs",
+      "scope": "Normal boss-chest tangible tablet, objective/evidence-dependent Daedalus gate, old opened-chest migration without heart duplication and completed-story compatibility, nonduplicate receipt. Independent sling/Pan UI matrix jobs.",
+      "run": 38114918150,
+      "runtime": "Run38114918150: sling grant/equip passed then harness expected zero instead of preserving progress; Pan entry crashed active chest wrapper on missing ch. Corrected harness and production mine/military wrapper guards pushed;85 source tests pass, new CI pending.",
+      "failureArtifacts": [
+        "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114918150/artifacts/11693032328",
+        "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114918150/artifacts/11693521315"
+      ]
+    }
+  ],
+  "otherActive": "PR19grip/20remedies/21arrows remain unmerged; latest heads had no returned PR-triggered runs at initial inspection. Do not duplicate implementation or claim they are in master download.",
+  "nextActions": [
+    "Read latest candidate jobs/logs/artifacts; correct actual UI failures. Merge only reviewed scope; do not accept M0-M5.",
+    "Retarget/reconcile stacked25\u219226\u219227 and shared build-offline/docs/tracker; exact hashes apply to each candidate, not current master.",
+    "Full empty new-game Lykos/shearing/wolves/king/Phocas/Pan target/plate/key/captain/tangible-item/Daedalus ordinary walkthrough and all essential Trojan branches.",
+    "Ground-safe rolls, full grip FP/TP hand/action matrix and old-save Low combat remain P0/P1.",
+    "Then follow workplace/task/action contracts, immersion/scripts/regional law/economy and mountain/sea/islands requirements in canonical spec."
+  ],
+  "milestoneAcceptance": "none",
+  "unrecoverableBlockers": [],
+  "trainingFollowup": "Run38115196147 ordinary grant/equip passed, but unintended ambient training certified seeded partial lesson. Damage wrappers award based on held player weapon. Corrected sling credit to confirmed player stone impacts only, suppressing ally/arrow/unattributed callbacks;79/87 tests pass, corrected browser pending. Pan prepared UI still running before latest change; not accepted.",
+  "integratingFastTravel": {
+    "pr": 25,
+    "artifactSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+    "review": "scoped runtime/source reviewed; no milestone acceptance",
+    "build": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38114903163/artifacts/11693003135"
+  }
+}

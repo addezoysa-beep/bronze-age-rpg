@@ -1,0 +1,29 @@
+{
+  "id": "wild-herds-grass-local-20261012",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f",
+  "bytes": 37969171,
+  "tests": {"passed": 278, "failed": 0, "focusedWildHerds": 4},
+  "repositoryValidation": "passed",
+  "inlineCompilation": "passed",
+  "implemented": [
+    "five grouped wild-horse sites across scythia, ithaca, sparta and troy",
+    "grounded same-region multi-stop travel and grazing phases",
+    "persistent herd route plus individual horse identity and position defaults",
+    "existing ordinary taming, bareback and stable registration integration",
+    "thirty-eight actual grass-blade patches with Low/Very Low distance budgets",
+    "explicit desert-region exclusion"
+  ],
+  "browser": {
+    "newHash": "pending",
+    "precedingRun": "startup, movement, graphics presets, ordinary pause Save/exact reload, king dialogue, wagon UI, Ur fare/arrival and destination reload passed; delayed level-up inventory blocked map locator",
+    "harnessCorrection": "close the actually visible inventory through its ordinary Close control until stable play state before map input"
+  },
+  "pending": [
+    "rendered reachability, anatomy, group behavior, slopes and grazing contact",
+    "ordinary moving-herd taming and registration",
+    "measured Low/Very Low performance",
+    "ordinary offline pause Save/reload on this exact build"
+  ],
+  "milestoneAcceptance": "none"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "captive-return-repair-20261016",
+  "buildSha256": "6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee",
+  "bytes": 38316178,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "DEEDS-163",
+    "SEA-163"
+  ],
+  "summary": "Physical reverse-ramp cancellation, saved-position damaged-hull hold and retained native disembark/repair with conserved costs and stale callback guard",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "bd250ae0e6449c61679dbd3ea6a845bbe819314a",
+    "draft": true,
+    "merged": false,
+    "evidence": "Private draft PR29 source advanced under expected-head lease; current description updated,8 source/test exact readbacks match,0 associated source-head Actions runs. No merge/release/ordinary/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 767,
+    "failed": 0,
+    "newTests": 13,
+    "durationMs": 95045.329093,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/recovery204-full-tap.txt",
+    "scope": "Full LOCAL serial source/executable/native input/callback/Three/cold-transform/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
+  },
+  "scopedChecks": {
+    "passed": 35,
+    "failed": 0,
+    "evidence": "verification/recovery204-final-focused-tests.txt",
+    "scope": "Before1 additional actual private horn-menu return guard fixture"
+  },
+  "initialFailures": {
+    "passed": 3,
+    "failed": 4,
+    "evidence": "verification/return203-initial-fixture-tests.txt",
+    "cause": "Helper source slice found a quoted setup marker; four fixture SyntaxErrors corrected with newline-anchored real function extraction, no game checks weakened."
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee",
+    "bytes": 38316178,
+    "zipSha256": "4bfda7958f0497e83829ea82e5062d414395dd8cc7dd640729ad9921af15b2d2",
+    "htmlPath": "deliveries/6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee/Wine-Dark-Sea-6fe1a276.zip",
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ]
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Full natural route, actual rendered ramp/child/boat/terrain contact, current ordinary inputs, offline pause Save/exact-position reload/cold Continue/old saves/Master; moved/offshore hull-loss rescue still needs implementation"
+  },
+  "external": {
+    "parentHead": "087b48fd98ae7b61bf1ad4e4ff315dd079d28944",
+    "parentRuns": 0,
+    "browserPackage": "present",
+    "chromium1234Executable": "absent",
+    "githubGeneratedDownload": "unavailable",
+    "olderActions": "5bcd runs38711529714/38711529696/38711522032 failed; jobs116343817505/116343817574 empty steps, artifacts[]; other PR heads unchanged",
+    "sourceCommit": "bd250ae0e6449c61679dbd3ea6a845bbe819314a",
+    "sourceRuns": 0,
+    "sourceReadback": {
+      "status": "passed",
+      "files": 8
+    }
+  },
+  "implementationLimits": "Fixed actual boat/ramp required for return. Max6nodes/child,1.25m/s/dtcap.05, existing pose/ramp reused. No player/boat/child teleport, extra rewards/items/fare/ownership or programmatic Save. Native3wood OR20silver repair cost retained. Holds preserve positions but do not implement moved/changed hull/offshore sinking/respawn rescue. All120/M0–M5/prior requirements retained/unaccepted.",
+  "next": "docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md",
+  "changedFiles": [
+    "scripts/captive-return-patch.mjs",
+    "scripts/captive-return.test.mjs",
+    "scripts/captive-hold-repair-patch.mjs",
+    "scripts/captive-hold-repair.test.mjs",
+    "scripts/captive-boarding-patch.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "tracking/updates/captive-return-repair-20261016.json",
+    "verification/return203-initial-fixture-tests.txt",
+    "verification/return203-focused-tests.txt",
+    "verification/recovery204-focused-tests.txt",
+    "verification/recovery204-final-focused-tests.txt",
+    "verification/recovery204-incomplete-full-tests.txt",
+    "verification/recovery204-full-tap.txt"
+  ],
+  "incompleteFullRun": {
+    "status": "incomplete_not_passed",
+    "reportedExitCode": 0,
+    "lines": 222,
+    "evidence": "verification/recovery204-incomplete-full-tests.txt",
+    "reason": "No full completion footer; retained, not accepted as a full suite. Completion-checked TAP rerun passed767/767 independently."
+  }
+}

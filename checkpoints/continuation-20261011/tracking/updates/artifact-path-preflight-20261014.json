@@ -1,0 +1,33 @@
+{
+  "id": "artifact-path-preflight-20261014",
+  "summary": "Correct stale HTML artifact path and require exact complete game/manifest preflight; game bytes unchanged",
+  "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
+  "milestoneIds": [
+    "M0"
+  ],
+  "bytes": 38147120,
+  "changedFiles": [
+    ".github/workflows/continuation-checkpoint.yml",
+    "scripts/verify-current-artifact.mjs",
+    "scripts/verify-current-artifact.test.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending",
+    "evidence": "Authorized PR29 same-game packaging correction"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "tests": {
+    "localPreflightContracts": 3,
+    "priorExactGameSourceChecks": 487,
+    "priorRun": 38591577417,
+    "noGameMutation": true
+  },
+  "artifactFailure": {
+    "id": 11907523098,
+    "bytes": 706,
+    "scope": "manifest only, not playable; never recommend"
+  },
+  "next": "Confirm new upload includes complete38,147,120-byte exact HTML; continue ordinary Low/browser and old-save reference profiling"
+}

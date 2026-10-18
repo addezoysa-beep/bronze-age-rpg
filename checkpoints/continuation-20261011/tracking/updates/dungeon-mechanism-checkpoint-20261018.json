@@ -1,0 +1,87 @@
+{
+  "id": "dungeon-mechanism-checkpoint-20261018",
+  "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+  "bytes": 38456613,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "STORY-01",
+    "SITE-01",
+    "EGYPT-01",
+    "120-022",
+    "120-070",
+    "120-072",
+    "120-116"
+  ],
+  "summary": "252 current-room manual checkpoint mechanism continuation;253 restored native spike cycle/pose without reward/key bypass",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+    "draft": true,
+    "merged": false,
+    "evidence": "Pinned source recovered from private PR29; six source files read back, no source changes in evidence finalization."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1066,
+    "passed": 1066,
+    "failed": 0,
+    "durationMs": 235833.673494,
+    "completeFooter": true,
+    "okEntries": 1066,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
+    "log": "verification/mechanism253-full-tap.txt",
+    "newTests": 13
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 30,
+    "newTests": 13,
+    "durationMs": 5038.685792,
+    "evidence": "verification/mechanism253-focused-tap.txt",
+    "scope": "LOCAL native core Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded real Three/Batch geometry, actual snapshot21/base Continue/Save and composed250/251 prepared fixtures. Controlled enemy spawns, sounds/HUD/palette jitter. NOT ordinary mouse/offline Save/rendered/mainroute/all-site acceptance."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+  "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+  "package": {
+    "zipSha256": "1bb108df0fb644efa1c2ca8358797299e277e27f25cda94ad1ca91f45d61cb53",
+    "htmlBytes": 38456613,
+    "localIdentity": "passed",
+    "archiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedBuild": "unavailable",
+    "userDownloadAccessibility": "not_run"
+  },
+  "interruption": {
+    "status": "fresh_reverification_completed",
+    "previousFullSuite": "result lost after transient exec disconnect; not claimed passed",
+    "freshResult": "verification/mechanism253-full-result.json"
+  },
+  "changedFiles": [
+    "scripts/dungeon-mechanism-checkpoint-patch.mjs",
+    "scripts/dungeon-mechanism-harness.mjs",
+    "scripts/dungeon-mechanism-checkpoint.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ]
+}

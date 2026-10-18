@@ -1,0 +1,286 @@
+TAP version 13
+# Subtest: existing horn menu retains company choices; clear-water call approaches continuously with actual hull checks and no player/item/money movement
+ok 1 - existing horn menu retains company choices; clear-water call approaches continuously with actual hull checks and no player/item/money movement
+  ---
+  duration_ms: 9.025689
+  type: 'test'
+  ...
+# Subtest: planning is incremental and once per simulation timestamp; blocked channel refuses without teleport or item/fare loss
+ok 2 - planning is incremental and once per simulation timestamp; blocked channel refuses without teleport or item/fare loss
+  ---
+  duration_ms: 1.855392
+  type: 'test'
+  ...
+# Subtest: ownership/horn/seaworthiness/area/mode/race/range/dock guards preserve old saves and refuse unavailable calls
+ok 3 - ownership/horn/seaworthiness/area/mode/race/range/dock guards preserve old saves and refuse unavailable calls
+  ---
+  duration_ms: 8.687039
+  type: 'test'
+  ...
+# Subtest: pause/menu time cannot advance a call; boarding, harbour departure, external boat move and changed game cancel without overriding destination state
+ok 4 - pause/menu time cannot advance a call; boarding, harbour departure, external boat move and changed game cancel without overriding destination state
+  ---
+  duration_ms: 8.071281
+  type: 'test'
+  ...
+# Subtest: new obstruction is swept before movement; turn-only frames do not emit moving wake, cancellation and repeat cooldown are bounded
+ok 5 - new obstruction is swept before movement; turn-only frames do not emit moving wake, cancellation and repeat cooldown are bounded
+  ---
+  duration_ms: 2.798749
+  type: 'test'
+  ...
+# Subtest: native snapshot records actual in-flight boat coordinates, no generator/save-field leakage; restore cancels transient journey
+ok 6 - native snapshot records actual in-flight boat coordinates, no generator/save-field leakage; restore cancels transient journey
+  ---
+  duration_ms: 2.284319
+  type: 'test'
+  ...
+# Subtest: actual existing horn-blower death adds the same physical horn to loot, never directly to player inventory
+ok 7 - actual existing horn-blower death adds the same physical horn to loot, never directly to player inventory
+  ---
+  duration_ms: 20.613392
+  type: 'test'
+  ...
+# Subtest: horn arrival actually turns into dock yaw with bounded swept rotation, no final location jump or turn-only wake
+ok 8 - horn arrival actually turns into dock yaw with bounded swept rotation, no final location jump or turn-only wake
+  ---
+  duration_ms: 7.176275
+  type: 'test'
+  ...
+# Subtest: a nearby misaligned boat can be called into alignment; newly blocked final turns stop at last safe angle without losing money or teleport
+ok 9 - a nearby misaligned boat can be called into alignment; newly blocked final turns stop at last safe angle without losing money or teleport
+  ---
+  duration_ms: 1.463422
+  type: 'test'
+  ...
+# Subtest: 221 mooring reaches exact saved endpoint rather than stopping within loose crossing tolerance
+ok 10 - 221 mooring reaches exact saved endpoint rather than stopping within loose crossing tolerance
+  ---
+  duration_ms: 133.719058
+  type: 'test'
+  ...
+# Subtest: 221 distance-edge unloading offers ordinary recovery even when native fixed says true, then actual landing can resume
+ok 11 - 221 distance-edge unloading offers ordinary recovery even when native fixed says true, then actual landing can resume
+  ---
+  duration_ms: 144.779446
+  type: 'test'
+  ...
+# Subtest: 221 heading-edge unloading restores exact original yaw without changing the saved anchor or fabricating home
+ok 12 - 221 heading-edge unloading restores exact original yaw without changing the saved anchor or fabricating home
+  ---
+  duration_ms: 127.43114
+  type: 'test'
+  ...
+# Subtest: 220 damaged hull retains actual native repair choice/cost and honest hold guidance instead of masking it with unusable mooring
+ok 13 - 220 damaged hull retains actual native repair choice/cost and honest hold guidance instead of masking it with unusable mooring
+  ---
+  duration_ms: 147.830164
+  type: 'test'
+  ...
+# Subtest: 219 ordinary currentInts action eases the real boat beneath saved boarding ramp with bounded motion, unchanged anchor/children/player/items/flags
+ok 14 - 219 ordinary currentInts action eases the real boat beneath saved boarding ramp with bounded motion, unchanged anchor/children/player/items/flags
+  ---
+  duration_ms: 125.773143
+  type: 'test'
+  ...
+# Subtest: 219 shifted Ikarion unloading resumes the actual sequential ramp only after alignment; no home or completion fabricated
+ok 15 - 219 shifted Ikarion unloading resumes the actual sequential ramp only after alignment; no home or completion fabricated
+  ---
+  duration_ms: 152.823414
+  type: 'test'
+  ...
+# Subtest: 219 both existing returning directions retain their cursors and saved people through mooring, then retrace physically
+ok 16 - 219 both existing returning directions retain their cursors and saved people through mooring, then retrace physically
+  ---
+  duration_ms: 276.679875
+  type: 'test'
+  ...
+# Subtest: 219 intermediate collision and bounds samples stop BEFORE movement, preserve people, and permit a fresh attempt after clearing obstruction
+ok 17 - 219 intermediate collision and bounds samples stop BEFORE movement, preserve people, and permit a fresh attempt after clearing obstruction
+  ---
+  duration_ms: 244.937126
+  type: 'test'
+  ...
+# Subtest: 219 unavailable ownership/hull/boat/actor, danger, remote/mounted player, changed/missing dock and far/large-yaw boat refuse without writes
+ok 18 - 219 unavailable ownership/hull/boat/actor, danger, remote/mounted player, changed/missing dock and far/large-yaw boat refuse without writes
+  ---
+  duration_ms: 1911.334166
+  type: 'test'
+  ...
+# Subtest: 219 stale start interactions reject replaced save/revision/anchor/people/ship without realignment or state change
+ok 19 - 219 stale start interactions reject replaced save/revision/anchor/people/ship without realignment or state change
+  ---
+  duration_ms: 535.055947
+  type: 'test'
+  ...
+# Subtest: 219 active jobs stop on changed boat/save/dock/revision/people/ownership/danger/departure without an extra motion
+ok 20 - 219 active jobs stop on changed boat/save/dock/revision/people/ownership/danger/departure without an extra motion
+  ---
+  duration_ms: 1017.085187
+  type: 'test'
+  ...
+# Subtest: 220 pause/talk holds actual boat and people without expiry or Save; resume keeps one bounded step
+ok 21 - 220 pause/talk holds actual boat and people without expiry or Save; resume keeps one bounded step
+  ---
+  duration_ms: 110.739361
+  type: 'test'
+  ...
+# Subtest: 220 ordinary cancel retains exact boat/people, fresh start resumes; captured cancel cannot cancel a later job
+ok 22 - 220 ordinary cancel retains exact boat/people, fresh start resumes; captured cancel cannot cancel a later job
+  ---
+  duration_ms: 111.490633
+  type: 'test'
+  ...
+# Subtest: 220 JSON/cold restore clears transient job, preserves saved child/boat footing and offers ordinary restart; old start stays inert
+ok 23 - 220 JSON/cold restore clears transient job, preserves saved child/boat footing and offers ordinary restart; old start stays inert
+  ---
+  duration_ms: 114.180001
+  type: 'test'
+  ...
+# Subtest: 220 actual native interaction arbitration picks start/cancel on foot, leaves Go ashore available while still mounted, and explains limited recovery
+ok 24 - 220 actual native interaction arbitration picks start/cancel on foot, leaves Go ashore available while still mounted, and explains limited recovery
+  ---
+  duration_ms: 114.562985
+  type: 'test'
+  ...
+# Subtest: 219–220 absent ordinary crossing, distant hull and lost hull never invent a rescue or affect ordinary boat controls
+ok 25 - 219–220 absent ordinary crossing, distant hull and lost hull never invent a rescue or affect ordinary boat controls
+  ---
+  duration_ms: 371.029208
+  type: 'test'
+  ...
+# Subtest: ordinary original-dock horn action recalls a farther owned hull physically with exact saved anchor/people/player/items/flags preserved
+ok 26 - ordinary original-dock horn action recalls a farther owned hull physically with exact saved anchor/people/player/items/flags preserved
+  ---
+  duration_ms: 199.026143
+  type: 'test'
+  ...
+# Subtest: saved unloading and both returning directions preserve actual cursors during recall then resume their original physical routes
+ok 27 - saved unloading and both returning directions preserve actual cursors during recall then resume their original physical routes
+  ---
+  duration_ms: 547.779695
+  type: 'test'
+  ...
+# Subtest: channel planning is incremental, preflights final turn and never moves if a sampled original approach is obstructed
+ok 28 - channel planning is incremental, preflights final turn and never moves if a sampled original approach is obstructed
+  ---
+  duration_ms: 227.83465
+  type: 'test'
+  ...
+# Subtest: a new thin obstruction or bounds failure is swept BEFORE motion, leaving the actual hull at its last safe coordinates
+ok 29 - a new thin obstruction or bounds failure is swept BEFORE motion, leaving the actual hull at its last safe coordinates
+  ---
+  duration_ms: 227.651507
+  type: 'test'
+  ...
+# Subtest: a newly blocked turn holds before any intermediate rotation instead of snapping through the obstacle
+ok 30 - a newly blocked turn holds before any intermediate rotation instead of snapping through the obstacle
+  ---
+  duration_ms: 121.086436
+  type: 'test'
+  ...
+# Subtest: earned finite horn, ownership, seaworthy hull, safe actual children/dock/player and bounded range are mandatory with no loss on refusal
+ok 31 - earned finite horn, ownership, seaworthy hull, safe actual children/dock/player and bounded range are mandatory with no loss on refusal
+  ---
+  duration_ms: 2437.165035
+  type: 'test'
+  ...
+# Subtest: stale captured start cannot act after save/revision/anchor/people/dock/ship or original hull coordinates change
+ok 32 - stale captured start cannot act after save/revision/anchor/people/dock/ship or original hull coordinates change
+  ---
+  duration_ms: 910.214773
+  type: 'test'
+  ...
+# Subtest: in-flight external world/save/children/anchor/ship/motion/ownership/horn/danger/departure changes stop without an extra step
+ok 33 - in-flight external world/save/children/anchor/ship/motion/ownership/horn/danger/departure changes stop without an extra step
+  ---
+  duration_ms: 1455.64255
+  type: 'test'
+  ...
+# Subtest: pause and dialogue hold without timeout, saved child cursors or boat drift; resume permits only one bounded frame per timestamp
+ok 34 - pause and dialogue hold without timeout, saved child cursors or boat drift; resume permits only one bounded frame per timestamp
+  ---
+  duration_ms: 125.499435
+  type: 'test'
+  ...
+# Subtest: ordinary stop preserves exact position/people, cooldown prevents horn spam, new stop cannot be cancelled by an older captured stop
+ok 35 - ordinary stop preserves exact position/people, cooldown prevents horn spam, new stop cannot be cancelled by an older captured stop
+  ---
+  duration_ms: 139.966597
+  type: 'test'
+  ...
+# Subtest: JSON/cold restore cancels the transient job, retains native saved child/hull data and offers a fresh ordinary action without generators in G
+ok 36 - JSON/cold restore cancels the transient job, retains native saved child/hull data and offers a fresh ordinary action without generators in G
+  ---
+  duration_ms: 140.820207
+  type: 'test'
+  ...
+# Subtest: actual native interaction arbitration selects recall/stop ashore while native Go ashore remains selected when mounted
+ok 37 - actual native interaction arbitration selects recall/stop ashore while native Go ashore remains selected when mounted
+  ---
+  duration_ms: 129.188998
+  type: 'test'
+  ...
+# Subtest: small misalignment retains existing219 controls without a horn and unrelated boat movement stays native
+ok 38 - small misalignment retains existing219 controls without a horn and unrelated boat movement stays native
+  ---
+  duration_ms: 217.830557
+  type: 'test'
+  ...
+# Subtest: actual native rally menu replaces its private ramp-blocked boat call with guarded recovery and cancel while preserving normal company orders
+ok 39 - actual native rally menu replaces its private ramp-blocked boat call with guarded recovery and cancel while preserving normal company orders
+  ---
+  duration_ms: 135.18991
+  type: 'test'
+  ...
+# Subtest: rally menu stale quotes cannot start or cancel across replacement menu/save/boat/dock or a later recovery
+ok 40 - rally menu stale quotes cannot start or cancel across replacement menu/save/boat/dock or a later recovery
+  ---
+  duration_ms: 660.814498
+  type: 'test'
+  ...
+# Subtest: missing passage/dock during a transient recovery never crashes normal horn menu or fabricates a replacement vessel
+ok 41 - missing passage/dock during a transient recovery never crashes normal horn menu or fabricates a replacement vessel
+  ---
+  duration_ms: 261.806591
+  type: 'test'
+  ...
+# Subtest: real native hull collision probes reject shallow sampled channels and bound planning work, rather than relying on an always-clear mock
+ok 42 - real native hull collision probes reject shallow sampled channels and bound planning work, rather than relying on an always-clear mock
+  ---
+  duration_ms: 125.521098
+  type: 'test'
+  ...
+# Subtest: 120-pace bound and large yaw nearby are explicit, finite eligibility constraints; exactly bounded recovery reaches exact saved point
+ok 43 - 120-pace bound and large yaw nearby are explicit, finite eligibility constraints; exactly bounded recovery reaches exact saved point
+  ---
+  duration_ms: 403.662661
+  type: 'test'
+  ...
+# Subtest: actual native base snapshot/Continue and checkpoint21 restore in-flight numeric boat/player state before ordinary recovery restart, without Save or a serialized job
+ok 44 - actual native base snapshot/Continue and checkpoint21 restore in-flight numeric boat/player state before ordinary recovery restart, without Save or a serialized job
+  ---
+  duration_ms: 214.600796
+  type: 'test'
+  ...
+# Subtest: changed saved return cursor or landing record invalidates the active recovery without overwriting either checkpoint
+ok 45 - changed saved return cursor or landing record invalidates the active recovery without overwriting either checkpoint
+  ---
+  duration_ms: 286.034999
+  type: 'test'
+  ...
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 46 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 2612.239207
+  type: 'test'
+  ...
+1..46
+# tests 46
+# suites 0
+# pass 46
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 18837.597464

@@ -1,0 +1,33 @@
+{
+  "id": "pan-physical-route-integration-local-20261012",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78",
+  "bytes": 37971501,
+  "tests": {
+    "passed": 286,
+    "failed": 0,
+    "focusedPan": 8
+  },
+  "repositoryValidation": "passed",
+  "inlineCompilation": "passed",
+  "implemented": [
+    "captain-cleared flag alone cannot advance Daedalus",
+    "normal captain reward chest supplies exactly one physical salt-stained cargo tablet",
+    "taking the tablet records a save-safe nonduplicating receipt",
+    "old opened captain chest migrates the tablet without restoring the heart reward",
+    "active military and mine chest wrappers tolerate a missing chest context"
+  ],
+  "browser": {
+    "status": "pending_on_exact_hash",
+    "latestRun": 38229430152,
+    "latestArtifact": 11738223255,
+    "note": "The preceding hash reached the ordinary browser smoke step but failed; GitHub retained its evidence artifact while the decoded-log endpoint returned no text."
+  },
+  "pending": [
+    "empty-inventory Lykos and Phocas opening through real ordinary dialogue",
+    "Cave of Pan sling target, pressure plate, key, captain and chest traversal",
+    "ordinary tablet acquisition and Daedalus continuation",
+    "ordinary pause Save and exact-position reload on this exact candidate"
+  ],
+  "milestoneAcceptance": "none"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "shared-river-cargo-actions-local-20261011",
+  "recordedAt": "2026-10-11T18:20:00Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "2448001f0ddd0dc2951401b81168cbc133de00d5611e3e4771161f46713b25d1",
+  "bytes": 37879386,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {"passed": 139, "failed": 0, "command": "node --test scripts/*.test.mjs"},
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "browser": {
+    "status": "blocked",
+    "command": "npm run test:browser",
+    "error": "Playwright package unavailable in this workspace; no browser launched"
+  },
+  "githubStatus": {
+    "checkedAt": "2026-10-11T18:22:00Z",
+    "masterDevelopment": "53989c4b3d3568d71fb54085479946be90eb22df",
+    "pr19": "open draft at 13c93973b7e04a0d9d88a35a2b860956c5106ddd",
+    "pr20": "open draft at d6e20a477c565c40f89cbb49cabb9abc15d7a79a",
+    "pr21": "open draft at 29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b",
+    "pr26": "open at a7084cfd6ecf74a793eb2c8380a6999953297250; previous failed workflow remains the recorded head run",
+    "pr27": "open and stacked on PR26 at e08983fdfe313f08efd2450c6a2a964a8bb395d4",
+    "ownership": "heads and master unchanged; no active checkpoint duplicated or overwritten"
+  },
+  "implemented": [
+    "Four additional shared actions at inspected Nile landings: carry cargo, load the barge, use a short dockside launch line and pole clear of the landing",
+    "The same poseRiverCargo66 rig drives the player and existing landing boatmen with grounded legs, distinct arm motion and supplied carrier/load/line/pole props",
+    "Ordinary interactions enforce shift start, physical station and action order; movement or danger cancels only the transient step",
+    "Explicit quit, incapacitation and leaving-district paths end the shift without wages; completed stages survive restore while old saves and day rollover default safely",
+    "Final poling increments one persistent shipment and pays a bounded once-daily wage without consuming or generating player inventory",
+    "A cargo-identified grain barge travels upriver under sail and a stone barge travels downstream without sail between actual Lower Egypt Canal and Upper Egypt Quarry port coordinates",
+    "Barge positions persist in world save state and Low graphics uses nearer distance culling without deleting cargo traffic"
+  ],
+  "runtime": "Not run: the Playwright dependency is unavailable. Source fixtures execute ordinary interaction order, cancellation, quit/failure, restore, old-save defaults, inventory conservation, one daily wage, persistent route positions, direction-specific travel and Low-distance culling. No rendered ordinary-input or pause-menu Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "Twenty of the proposed forty shared actions are implemented",
+    "The full quarry-to-dock NPC procession, unloading at destination, river obstacles and player boarding interaction remain pending",
+    "Rendered hand/cargo/rope/pole/deck contact, hull-water presentation, navigation and Low performance need ordinary-play verification",
+    "Dockside launch-line use is deliberately short; this checkpoint does not claim long-distance Nile towing"
+  ],
+  "nextActions": [
+    "Render both cargo routes, worker schedules and the player shift and correct route, collision, prop/contact or presentation faults",
+    "Use ordinary pause-menu Save mid-shift, after launch and during each barge route, reload and verify positions, stages, inventory and wages",
+    "Implement unloading/destination work and a real quarry-to-landing porter procession without duplicating existing ferry behavior",
+    "Continue remaining shared action groups while preserving opening, grip, Low old-save combat and Pan progression priorities"
+  ],
+  "milestoneAcceptance": "none"
+}

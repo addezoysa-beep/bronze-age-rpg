@@ -1,0 +1,16 @@
+{
+ "id":"tavern-residence-runtime-20261014",
+ "summary":"Fix actual current-hash tavern resident relocation failure, preserve ordinary schedules; diagnose reload storage and bow input without forced UI or weakened checks",
+ "buildSha256":"278053d15967b5181cfe74054e9ccb034061a6ae5a546151ff08f0fcb65a6fd1",
+ "milestoneIds":["M0","M1","M4","M5"],
+ "bytes":38142463,
+ "localTests":{"passed":177,"integrated":157,"unintegratedOldDrafts":13,"unintegratedHealerDraft":7,"newActualHouseholdContracts":3},
+ "masterDelivery":{"status":"pending","evidence":"PR29 source publication; confirm actual newest head"},
+ "masterReview":{"status":"pending"},
+ "priorExactRuntime":{"buildSha256":"e699feca5605ea8bb087f79181de24e0a540d2dd87ec3e4d0063cc3af15018d4","commit":"67fc3de7f101536afde83aa2298625fa192c93b9","run":38586730966,"sourceTests":466,"passedJobs":{"pan":115930589033,"lock":115930589294,"grip":115930589444},"failedJobs":{"tavern":115930589393,"remedyCommonReload":115930589601,"arrow":115930589750},"travelPending":115930589282,"notCarriedForward":true},
+ "newFix":"Exclude valid dedicated tavern staff from RESIDENTS only during legacy householdTick, finally restore roster; normal residents unaffected, no fake death/follower flags",
+ "diagnostics":"Read saved-slot persistence immediately after reload before menu; label actual bow readiness/pointer/draw wait state. No programmatic reload/save/Load bypass or assertion relaxation.",
+ "browser":{"status":"pending"},
+ "acceptedMilestones":0,
+ "next":"Exact new browser routes, actual remaining Save/arrow/travel/tavern fixes; full natural campaign and reference Low8–10 still open"
+}

@@ -1,0 +1,15 @@
+{
+ "id":"particle-cull-allocation-20261015",
+ "buildSha256":"72a439f0cba311b2c2aafc70590518d130c4d1f2cbf9a78b82d327e3d52ae673",
+ "bytes":38212944,
+ "milestoneIds":["M0","M1","M5"],
+ "summary":"Remove per-live-particle coordinate arrays, per-tick attribute-name list and Very-low combined animal list, retaining exact native math/order and final VFX wrapper",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":620,"failed":0,"new":4,"durationMs":31375.804261,"evidence":"verification/allocation174-full-tests.txt","scope":"Full local source/executable/workflow/compile/package checks; native192-particle bitwise float/lifetime/attribute-version and culling visibility equality, final VFX composition, anchor refusal, aggregate compile; not browser/FPS acceptance"},
+ "repositoryValidation":{"status":"passed","baselineUnchanged":true,"scope":"original14e baseline,3 inline scripts,6milestones,70update records; aggregate exact rebuild separately passed"},
+ "delivery":{"htmlBytes":38212944,"zipSha256":"b05e844d584d12c0ab7657bdb8ac24df428de37c3eb93c2470d5032ec4a9dc3c","archiveEntries":2,"localHtmlZipIdentity":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","userDownloadAccessibility":"not_run","githubGeneratedIdentity":"not_run","githubBuildDownload":"unavailable"},
+ "runtime":{"status":"pending","required":"ordinary slider/render/audio/offline pause Save/exact reload and reference old-save Low8–10/Dynabook frame profile/Master"},
+ "limits":"Bounded allocation elimination, not a dominant-stall diagnosis or FPS claim. No effect count, lifetime, colour, physics, alert cue, culling threshold, NPC/enemy update or attack-capable count reductions. Preserves173 slider and all prior scope. First fixture failed comparing instrumented typed arrays with different own set functions; corrected to byte-buffer comparison, exact state assertions retained.",
+ "next":"Current ordinary Save/render/slider and measured Low old-save8–10 remain blocked/pending; profile dominant actual CPU/render path, retain full120/M0–M5 and every user request"
+}

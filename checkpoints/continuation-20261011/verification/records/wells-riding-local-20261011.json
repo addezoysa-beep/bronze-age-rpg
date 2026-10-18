@@ -1,0 +1,54 @@
+{
+  "id": "wells-riding-local-20261011",
+  "recordedAt": "2026-10-12T00:20:33.489939+00:00",
+  "implementation": "local_unpublished_candidate",
+  "buildSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "exactCandidateBytes": 37946093,
+  "branch": "m5/local-wells-riding-challenges",
+  "scope": [
+    "Reuse accessible wells and search bounded safe land/approach candidates for every current region; report missing terrain sites rather than claiming universal placement.",
+    "Five configured regional riding circuits (steppe, Egypt, Mesopotamia, Naxos, Ithaca) have ordinary E selection on horseback, ordered gates, a visible mounted NPC rival using shared riding poses, no entry fee, 20-silver daily prizes, bounded riding rank progression, pause-frozen timers and persisted results. Real terrain reachability is pending.",
+    "Protect other named owned mounts from Hippos reward/leading replacement; distinguish old named mounts from earned Hippos; reject remote care/theft callbacks and duplicate chariot-theft crimes."
+  ],
+  "checks": {
+    "focused": "34/34 passed (6 wells, 12 riding, 16 mount quest/theft)",
+    "fullSource": "249/249 passed including 8 workflow tests",
+    "repository": "passed for unchanged source, tracker and update schema; production candidate reproduces exact hash and compiles",
+    "browser": "blocked before launch: installed Playwright package, missing Chromium headless-shell executable; candidate-specific smoke attempted"
+  },
+  "pending": [
+    "actual region-by-region water coverage/navigation and refill UI including old-save inventory",
+    "ordinary mounted E instructor choice, full physical circuit race, NPC/rider/clothing contact and gates",
+    "Low-preset performance and 8\u201310 attackers unchanged; reference old-save performance pending",
+    "ordinary offline pause-menu Save/exact-position reload, persisted prizes and unfinished-race cancellation",
+    "lion/dragon redesign, more creature encounters, rival camps, archery/sparring competitions",
+    "remaining shared crop/vine/orchard and kitchen/scribe/bard actions, opening/Pan route and grip acceptance"
+  ],
+  "remoteOwnership": {
+    "masterBaseFromPR26": "53989c4b3d3568d71fb54085479946be90eb22df",
+    "openDirtyPRs": [
+      19,
+      20,
+      21,
+      26,
+      27
+    ],
+    "unchangedHeads": true,
+    "pr25": "merged",
+    "headWorkflowRuns": {
+      "19": [],
+      "20": [],
+      "21": [],
+      "26": [
+        38115436645
+      ],
+      "27": []
+    },
+    "observedFailure": "PR26 source checks passed; browser failed waiting for chart-search16 while level-up menu was open. Earlier exact candidate ordinary pause Save/reload, king and Ur wagon checks passed; not evidence for current candidate.",
+    "artifact": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/38115436645/artifacts/11693173753"
+  },
+  "publication": "not attempted; earlier destination/export authorization rejection remains; no alternate write route used",
+  "milestoneAcceptance": "none",
+  "nextAction": "Preserve active PR ownership. Re-enable exact-candidate browser verification when Chromium is available; prioritize full opening/Pan, grips, ordinary Save and old-save Low combat. Continue remaining shared actions and creature/camp/competition implementation independently."
+}

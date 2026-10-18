@@ -1,0 +1,15 @@
+✔ ordinary cancellation retraces partial boarding to the real pier without player/item/story/reward teleport or Save (561.401047ms)
+✔ partial unloading turns back aboard in reverse order, never grants landing/reunion and can restart unloading (619.240861ms)
+✔ pause, danger, player departure, obstruction and moved boat hold return in place; cleared ordinary interruptions resume (282.746988ms)
+✔ returning phases survive partial JSON/cold-mesh restore without a child/player snap or false completion; new game clears state (327.586156ms)
+✔ invalid/missing return records fail closed and unavailable actor/boat/danger cannot start cancellation (1018.501009ms)
+✔ stale ordinary return interactions cannot act after replaced save, changed revision or departed player (342.381397ms)
+✔ actual native findInt/tryInteract offers return instead of zero-distance Go ashore during unloading and guards controls while retracing (135.729858ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3504.764625

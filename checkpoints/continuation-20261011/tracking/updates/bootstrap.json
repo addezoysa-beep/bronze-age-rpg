@@ -1,0 +1,11 @@
+{
+  "id": "bootstrap", "createdOn": "2026-10-10", "kind": "baseline_import",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "milestoneIds": ["M0"],
+  "summary": "Preserve supplied Build 59 and establish master-owned roadmap, checks and tracking. No gameplay changes.",
+  "changedFiles": ["index.html", "docs/ROADMAP.md", "docs/DEVELOPMENT_WORKFLOW.md", "tracking/milestones.json", "scripts/", ".githooks/", ".github/"],
+  "evidence": ["baseline/build-59.json", "verification/records/baseline-static.json"],
+  "masterDelivery": {"status":"delivered","target":"6ac9c216-df0c-83ea-ac8d-41f13f292693","evidence":"Requirements/baseline handoff sent successfully to Master Development on 2026-10-10; publication and test results follow separately"},
+  "masterReview": {"status":"pending","buildSha256":null,"evidence":null},
+  "releaseStatus": "candidate"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 886,
+  "passed": 886,
+  "failed": 0,
+  "durationMs": 116798.628623,
+  "completeFooter": true,
+  "okEntries": 886,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/market226-full-tap.txt"
+}

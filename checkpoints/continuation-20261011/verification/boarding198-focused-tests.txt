@@ -1,0 +1,63 @@
+✔ existing horn menu retains company choices; clear-water call approaches continuously with actual hull checks and no player/item/money movement (58.415805ms)
+✔ planning is incremental and once per simulation timestamp; blocked channel refuses without teleport or item/fare loss (9.412671ms)
+✔ ownership/horn/seaworthiness/area/mode/race/range/dock guards preserve old saves and refuse unavailable calls (101.639983ms)
+✔ pause/menu time cannot advance a call; boarding, harbour departure, external boat move and changed game cancel without overriding destination state (58.917664ms)
+✔ new obstruction is swept before movement; turn-only frames do not emit moving wake, cancellation and repeat cooldown are bounded (39.011522ms)
+✔ native snapshot records actual in-flight boat coordinates, no generator/save-field leakage; restore cancels transient journey (29.444257ms)
+✔ actual existing horn-blower death adds the same physical horn to loot, never directly to player inventory (201.515705ms)
+✖ horn arrival actually turns into dock yaw with bounded swept rotation, no final location jump or turn-only wake (37.291232ms)
+✔ a nearby misaligned boat can be called into alignment; newly blocked final turns stop at last safe angle without losing money or teleport (13.497797ms)
+✔ actual native child dialogue starts a visible sequential ramp walk, not a transport flag or teleport (1776.190075ms)
+✔ moving/wrong/blocked/unowned berth, hostile approach and occupied rear deck refuse boarding without consumption (5739.047806ms)
+✔ boarding holds native embark, sailing and horn controls; pause/departure/danger stop walking and resume without moving player (1201.491254ms)
+✔ aboard actors follow the actual Three ship-local transform, yaw/pitch/roll and scale without joining teleporting party (1584.751428ms)
+✔ partial ramp and aboard records survive JSON restore without shore/fort snapping or relocating player (1709.502172ms)
+✔ stale native board button cannot close a replaced dialogue or board from a replaced save, changed route or remote actor (3395.660549ms)
+✔ malformed boat state falls back to retained safe shore record without granting boarding or rewards (4563.75947ms)
+✔ ramp meshes reuse geometry during walking, are removed on completion, and post-visual deck positioning uses final floating transform (604.105374ms)
+✔ actual captured captain horn-menu callback also refuses a moving call while children cross, not only exported global alias (370.436726ms)
+✔ rear passenger seats and upper crossing are checked against actual native makeShip deck, cargo and gunwale primitives (408.608484ms)
+✔ ordinary child dialogue only offers escort after actual pen-to-causeway escape; cancel grants no state/reward/transport (117.28763ms)
+✔ actual native dock-surface contract allows small swept shore/pier steps and both children physically reach the actual pier (185.709614ms)
+✔ player position is never changed by escort, held children remain on exact safe footing and pause preserves render visibility (98.534039ms)
+✔ fast travel distance, swimming/mounting/boat/departure or new danger stops pursuit without teleport, swimming children or false arrival (713.593093ms)
+✔ blocked/wet/cliff segments are refused, no direct waypoint skipping or invented dock reaches (124.158645ms)
+✔ partial shore/dock route survives JSON reload without fort snapback or player movement; new game resets safely (107.358071ms)
+✔ stale/hidden native choice cannot close another menu, use a replaced save or start remote escort (1961.070757ms)
+✔ actual landing direction is only a rumour; NPC speech stays physical while interface honestly states unfinished boat/home transport (295.623084ms)
+✔ malformed saved escort paths/positions fail closed without inventory/player changes or an outside-world actor (2069.7452ms)
+✔ new non-garrison danger and newly blocked child footing stop the pair with feedback, never advance them past obstruction (513.9942ms)
+✔ old once-only household reward remains available after real escape while leading/waiting, without duplicate reward or false home report (626.846232ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 29
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 39167.652975
+
+✖ failing tests:
+
+test at scripts/captain-boat-call.test.mjs:12:1
+✖ horn arrival actually turns into dock yaw with bounded swept rotation, no final location jump or turn-only wake (37.291232ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 1.3605888238837043e-17
+  - 0
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/captain-boat-call.test.mjs:12:434)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1.3605888238837043e-17,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

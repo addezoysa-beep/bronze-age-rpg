@@ -1,0 +1,110 @@
+{
+  "id": "puzzle-terrain-contact-20261018",
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "bytes": 38464267,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "MOVE-01",
+    "STORY-01",
+    "SITE-01",
+    "EGYPT-01",
+    "120-022",
+    "120-070",
+    "120-072",
+    "120-116"
+  ],
+  "summary": "257 exact native dungeon triangle-floor sampling and258 derived full-footprint crate grounding across native pushes/build/entry/Continue; existing route/flags/rewards retained",
+  "changedFiles": [
+    "scripts/dungeon-floor-triangles-patch.mjs",
+    "scripts/puzzle-crate-contact-patch.mjs",
+    "scripts/puzzle-terrain-harness.mjs",
+    "scripts/puzzle-terrain-contact.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ],
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "draft": true,
+    "merged": false,
+    "evidence": "Fourteen exact source/handoff readbacks, expected-head nonforce publication from96d595e70dc2a20038a3e5650d1e31eec77f0a2b"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1100,
+    "passed": 1100,
+    "failed": 0,
+    "durationMs": 254374.088223,
+    "completeFooter": true,
+    "okEntries": 1100,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "log": "verification/terrain259-full-tap.txt",
+    "newTests": 20
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 56,
+    "newTests": 12,
+    "durationMs": 30646.339537,
+    "evidence": "verification/terrain258-focused-tap.txt",
+    "scope": "LOCAL actual native Pan/Tomb/Catacombs mesh triangles/ray intersections/collision-driven crate pushes/plate group and prepared snapshot/Continue/manual Save250–258 plus existing tests. Not ordinary mouse/Save/rendered/whole-route/all-site or Master acceptance."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+  "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+  "package": {
+    "bytes": 38464267,
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "zipSha256": "343dfccb070100cbf0aeb54082ddcbc2316c101be05c1a2731e4111b0826ab80",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "checks": {
+      "localHtmlZipIdentity": "passed",
+      "localArchiveContents": "passed",
+      "inlineCompilation": "passed",
+      "standaloneStartup": "not_run",
+      "githubGeneratedIdentity": "not_run",
+      "userDownloadAccessibility": "not_run"
+    },
+    "gameFile": "Wine-Dark-Sea-Combined-Cinematic.html",
+    "archive": "Wine-Dark-Sea-d7d791a1.zip"
+  },
+  "staticAudio": {
+    "status": "passed",
+    "uniqueBuffers": 192,
+    "compressedBytes": 25857919,
+    "evidence": "verification/terrain259-embedded-audio.json",
+    "scope": "Static detected base64 audio buffer format/frame probe/full ffmpeg decode only, not browser playback/listening/quality/voice identity or new score count."
+  },
+  "failuresAndCorrections": [
+    "First terrain9-test draft8/9: cross-VM prototype equality in native-restored nested pos. Capture independent JSON expected graph before Continue; no checkpoint assertion weakened. Final12new terrain/56 focused and1100 full pass."
+  ],
+  "releaseGate": {
+    "status": "blocked",
+    "command": "node scripts/release-gate.mjs tracking/updates/puzzle-terrain-contact-20261018.json --candidate dist/Wine-Dark-Sea-Combined-Cinematic.html",
+    "evidence": "verification/terrain259-release-gate.json",
+    "scope": "Actual current generated hash, same original acceptance/review/evidence/roster rules, no baseline replacement or waiver."
+  }
+}

@@ -1,0 +1,3006 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-10-18T22:13:00Z",
+  "timezone": "America/New_York",
+  "title": "Updated120-active-hour remaining work allocation",
+  "targetActiveHours": 120,
+  "measuredHoursCompleted": null,
+  "remainingHoursEstimate": "120-hour allocation target, not measured ETA; scope and unresolved runtime gates can exceed it",
+  "allMilestonesAccepted": false,
+  "latestUserPriorityOverride20261015": {
+    "feedback": "Frames reportedly much better after slider; main quest/QOL/Bronze Age/all five milestones first. Performance tuning and8–10 stress lower, not removed.",
+    "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
+    "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
+  },
+  "currentLocalBuildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "currentGithubBuildSha256": null,
+  "currentGithubHead": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+  "publication": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "draft": true,
+    "merged": false,
+    "evidence": "Fourteen exact source/handoff readbacks, expected-head nonforce publication from96d595e70dc2a20038a3e5650d1e31eec77f0a2b"
+  },
+  "evidence": {
+    "local": {
+      "status": "passed",
+      "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1100,
+      "passed": 1100,
+      "failed": 0,
+      "durationMs": 254374.088223,
+      "completeFooter": true,
+      "okEntries": 1100,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/terrain259-full-tap.txt",
+      "newTests": 20
+    },
+    "github": {
+      "pr": 29,
+      "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+      "sourceBuildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+      "generatedBuildSha256": null,
+      "state": "open_draft_unmerged",
+      "ci": "No matching current artifact; latest old5bcd473b jobs failed before steps,0artifacts"
+    },
+    "captiveHome": "verification/home202-full-tests.txt",
+    "captiveRecovery": "verification/recovery204-full-tap.txt",
+    "checkpointSafety250251": {
+      "status": "passed",
+      "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1053,
+      "passed": 1053,
+      "failed": 0,
+      "durationMs": 290917.698077,
+      "completeFooter": true,
+      "okEntries": 1053,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/checkpoint251-full-tap.txt",
+      "newTests": 16
+    },
+    "dungeonCheckpoint252253": {
+      "status": "passed",
+      "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1066,
+      "passed": 1066,
+      "failed": 0,
+      "durationMs": 235833.673494,
+      "completeFooter": true,
+      "okEntries": 1066,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
+      "log": "verification/mechanism253-full-tap.txt",
+      "newTests": 13
+    },
+    "coreBrazier254255": {
+      "status": "passed",
+      "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1075,
+      "passed": 1075,
+      "failed": 0,
+      "durationMs": 239154.118336,
+      "completeFooter": true,
+      "okEntries": 1075,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native core sequence/build/entry/brazier callbacks, prepared snapshot/Continue/Three and complete source/workflow/compile/package suite. NOT ordinary mouse/browser, offline pause Save/exact reload, populated route/terrain/navigation/render/audio/FPS or Master acceptance.",
+      "log": "verification/brazier255-full-tap.txt",
+      "newTests": 9
+    },
+    "trapTelltales256": {
+      "status": "passed",
+      "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1080,
+      "passed": 1080,
+      "failed": 0,
+      "durationMs": 235675.069372,
+      "completeFooter": true,
+      "okEntries": 1080,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/telltales256-full-tap.txt",
+      "newTests": 5,
+      "newSince253": 14,
+      "newSince251": 27
+    },
+    "dungeonTerrain257259": {
+      "status": "passed",
+      "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1100,
+      "passed": 1100,
+      "failed": 0,
+      "durationMs": 254374.088223,
+      "completeFooter": true,
+      "okEntries": 1100,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/terrain259-full-tap.txt",
+      "newTests": 20
+    }
+  },
+  "policy": [
+    "Active work hours, not hourly automation runs or guaranteed continuous execution.",
+    "Reuses existing implementation; verify/repair it rather than duplicate or restart.",
+    "No current-hash gate passes or completed hours are invented from historical source tests.",
+    "If a slot finishes early with required checks passed, start next dependency-ready slot in same execution.",
+    "Blocked checks leave slot open; advance independent authorized work without mutating candidate under test.",
+    "Carry overruns forward; never waive gates to fit an hour or deadline.",
+    "Every hour includes implementation with tests, evidence and durable handoff; no test-only substitute for feature production.",
+    "No acceptance from definitions, fixture-only progression, source strings or old-hash evidence.",
+    "Ordinary offline pause Save/exact-position reload mandatory; keep8–10 attack-capable attackers.",
+    "Every previous120 task ID is mapped, along with latest feedback; roster numbers remain unapproved.",
+    "Continue unfinished scope after120 if necessary; final release needs all current-hash acceptance and actual Master review."
+  ],
+  "groups": [
+    {
+      "from": 1,
+      "to": 18,
+      "title": "Critical gameplay, performance and story/service repairs",
+      "hours": 18,
+      "milestones": [
+        "M0",
+        "M1",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "from": 19,
+      "to": 36,
+      "title": "Regional equipment, economy, crafting and M2",
+      "hours": 18,
+      "milestones": [
+        "M2"
+      ]
+    },
+    {
+      "from": 37,
+      "to": 58,
+      "title": "Creature/faction production and M3 encounters",
+      "hours": 22,
+      "milestones": [
+        "M1",
+        "M3"
+      ]
+    },
+    {
+      "from": 59,
+      "to": 88,
+      "title": "Puzzles, forts, legendary sites and main-story M4",
+      "hours": 30,
+      "milestones": [
+        "M4"
+      ]
+    },
+    {
+      "from": 89,
+      "to": 110,
+      "title": "Mounts, workplaces, regional law/life and M5 audio",
+      "hours": 22,
+      "milestones": [
+        "M5",
+        "M3"
+      ]
+    },
+    {
+      "from": 111,
+      "to": 120,
+      "title": "Integrated verification, review and final delivery",
+      "hours": 10,
+      "milestones": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "hour": 1,
+      "allocatedActiveHours": 1,
+      "task": "Reconcile latest local build, saved download and held PR checkpoint",
+      "requiredCheck": "Exact bytes/hash, preserved sling/cinematics; publish only after explicit approval",
+      "originalTaskIds": [
+        1,
+        112
+      ],
+      "workStatus": "source_reconciled_publication_delivered_runtime_pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current source recovered and exact baseline-to-current rebuilt; private draft PR29 source delivered. Publication hold diagnoses below are historical; any genuinely new rejection remains a stop condition. No merge/release or runtime acceptance."
+    },
+    {
+      "hour": 2,
+      "allocatedActiveHours": 1,
+      "task": "Restore current-build browser path and representative old-save fixture",
+      "requiredCheck": "Ordinary offline launch; named save/browser/device; remote availability separated from publication hold",
+      "originalTaskIds": [
+        2,
+        3
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 3,
+      "allocatedActiveHours": 1,
+      "task": "Repair unreliable standing/crouched FP/TP bow damage and release",
+      "requiredCheck": "Actual mouse draws/releases, correct origin, swept contacts, shields, material damage and one ammo consumed",
+      "originalTaskIds": [
+        5,
+        29,
+        34
+      ],
+      "workStatus": "in_progress_runtime_failure",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 4,
+      "allocatedActiveHours": 1,
+      "task": "Fix distant-shot detection and directional search",
+      "requiredCheck": "Hidden shooter is not instantly located; genuine sight/hearing reacquires; bounded search, pack alerts and expiry",
+      "originalTaskIds": [
+        3,
+        4,
+        62
+      ],
+      "workStatus": "draft_not_integrated",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 5,
+      "allocatedActiveHours": 1,
+      "task": "Verify lock acquisition/cycling, camera/strafe and roll retention",
+      "requiredCheck": "Ordinary Q/configured input, hostile selection, marker, death/range/LOS/menu/travel release on current hash",
+      "originalTaskIds": [
+        6
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "4445d03c run38501612940 lock browser passed actual Q/cycle/unlock/configured input and ordinary Save/reload. New483 hash still unverified; full roll/target matrix remains."
+    },
+    {
+      "hour": 6,
+      "allocatedActiveHours": 1,
+      "task": "Repair the highest-impact rendered stick/staff/hand regression",
+      "requiredCheck": "Actual palm contact and wrist anatomy in FP/TP idle/move/guard/roll; no relaxed visual gate High-priority clothing/menu repair: acquired tunics wearable, mantle/cape controls; real preview/mesh and ordinary Save verification.",
+      "originalTaskIds": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "workStatus": "in_progress_rendered_check_failed",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 7,
+      "allocatedActiveHours": 1,
+      "task": "Prioritize tactile lockpicking and locked-gate/puzzle cinematics",
+      "requiredCheck": "Readable resistance/pick motion, no exposed solution; gate message, tools/cancel/reset/reload; sling/arrow/weight inputs",
+      "originalTaskIds": [
+        71,
+        72,
+        73
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance.",
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 8,
+      "allocatedActiveHours": 1,
+      "task": "Complete mandatory cinematic Lykos and Phocas lock lessons",
+      "requiredCheck": "Actual successful lock exercise required; finite supplies, safe cancel/resume and no dialogue bypass",
+      "originalTaskIds": [
+        7,
+        8
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 9,
+      "allocatedActiveHours": 1,
+      "task": "Complete critical opening, Pan tablet, royal return and Daedalus handoff",
+      "requiredCheck": "Empty inventory/recipes; real actions/items/boss; King marker then actual inventor and clear Crete/boat/ferry directions",
+      "originalTaskIds": [
+        9,
+        70
+      ],
+      "workStatus": "partial_source_verified_runtime_pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md.",
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 10,
+      "allocatedActiveHours": 1,
+      "task": "Repair palace/city weapon stops, crime/boss/assassin cinematics",
+      "requiredCheck": "Reachable sheathe/leave/fine/surrender/refuse options; no forced punishment on cancel; NPC-caused civilian harm nonlethal Verify every nonplayer actor damage path remains nonlethal under enemy attacks and runs away at critical health; ordinary boss/assassin approach cutscene.",
+      "originalTaskIds": [
+        10
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 11,
+      "allocatedActiveHours": 1,
+      "task": "Fix and verify Troy allegiance/hostility transitions",
+      "requiredCheck": "No unprovoked allied Achaean attacks; player provocation/side changes, essential NPCs and protected Hector coherent Achilles/Myrmidons home in Phthia; retain Troy direction/training/recruitment routes.",
+      "originalTaskIds": [
+        11,
+        89
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 12,
+      "allocatedActiveHours": 1,
+      "task": "Verify Hippos care/lead/pasture/return and inventor-only Daedalus",
+      "requiredCheck": "Horse physically reaches both destinations through gates; ownership/quilt conservation; real inventor triggers story, no stable clone",
+      "originalTaskIds": [
+        17,
+        92,
+        93
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 13,
+      "allocatedActiveHours": 1,
+      "task": "Verify dedicated tavern service, milk and essential healer menus",
+      "requiredCheck": "Actual indoor staff and counter, mouse meal/drink payment, thirst, recipes, insufficient funds/work directions and reload Hungry/thirsty/injured players receive accurate directions to actual regional food, water and healing services.",
+      "originalTaskIds": [
+        102,
+        110
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      }
+    },
+    {
+      "hour": 14,
+      "allocatedActiveHours": 1,
+      "task": "Fix urgent garden/server/courier workplace misplacement",
+      "requiredCheck": "Real work anchor, purposeful route, arrival/facing/task; couriers deliver rather than stand; no duplicate invisible workers",
+      "originalTaskIds": [
+        100,
+        101
+      ],
+      "workStatus": "partial_local_implementation_needs_runtime_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "e9e6c00c actual palace garden/hearth approaches and blocked court-path hold added with eight checks including real six layouts/legacy mover. Table-server route and workplace suspension retained. Rendered garden/prop, outdoor courtyard/courier/manualSave/performance coverage remains pending."
+    },
+    {
+      "hour": 15,
+      "allocatedActiveHours": 1,
+      "task": "Implement first regional-boss rumors and scaled roaming ambushes",
+      "requiredCheck": "Actual local alive/dead boss references; bounded captain/assassin encounters, readable approach and legal level-scaled gear/moves",
+      "originalTaskIds": [
+        60
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 16,
+      "allocatedActiveHours": 1,
+      "task": "Run early exact-build ordinary Save/reload and story/service regression",
+      "requiredCheck": "Accessible pause Save, exact position, no forced clicks/programmatic saves; old/new save and repeated transactions",
+      "originalTaskIds": [
+        21,
+        22
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      },
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 17,
+      "allocatedActiveHours": 1,
+      "task": "Measure and fix Low old-save freezes with eight and ten attackers",
+      "requiredCheck": "Current-hash before/after p95, long frames, allocations/terrain/HUD/streaming; retain all attack-capable actors",
+      "originalTaskIds": [
+        3,
+        4,
+        62
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 18,
+      "allocatedActiveHours": 1,
+      "task": "Package first coherent checkpoint and review revised estimates",
+      "requiredCheck": "Exact version/hash/download, completed versus unverified/pending; carry failures forward, no milestone acceptance from smoke",
+      "originalTaskIds": [
+        23
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 19,
+      "allocatedActiveHours": 1,
+      "task": "Audit active weapon/armor material/region variants and obtainability",
+      "requiredCheck": "Actual final overrides, buy/sell/craft/loot/progression matrix, no definitions-only delivery claims",
+      "originalTaskIds": [
+        24
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 20,
+      "allocatedActiveHours": 1,
+      "task": "Finish anatomical finger/thumb, stick/staff and left/right grips",
+      "requiredCheck": "Rendered grasp, bending and movement; common player/NPC/FP/TP attachment without swapped hands",
+      "originalTaskIds": [
+        25
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 21,
+      "allocatedActiveHours": 1,
+      "task": "Finish spear/shield stance and thrust/recovery",
+      "requiredCheck": "Upright idle, real thrust, shield coverage/free-hand brace and terrain contact with action/stamina safety",
+      "originalTaskIds": [
+        26
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 22,
+      "allocatedActiveHours": 1,
+      "task": "Implement player spear-throw skill and eligible enemy throws",
+      "requiredCheck": "Skill-tree unlock; Myrmidons/captains/revenants/oathkeepers/high spear users throw/recover; finite equipment, embed identity and damage at least thrust Throw embeds in people/props/terrain with damage at least thrust; finite same-identity recovery and skill unlock, all named eligible factions. Shared player/NPC spear throwing windup, actual hand release, follow-through and recovery animation required.",
+      "originalTaskIds": [
+        26,
+        58
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 23,
+      "allocatedActiveHours": 1,
+      "task": "Finish sword/dagger/axe grips and six-form combat poses",
+      "requiredCheck": "Distinct attacks/body weight/recovery, hand contact, guard/dodge and legal dual-hand combinations",
+      "originalTaskIds": [
+        27
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 24,
+      "allocatedActiveHours": 1,
+      "task": "Finish greatsword two-hand rig and regional smith commissions",
+      "requiredCheck": "Support hand contact, equip restrictions, affordable route, real payment/maturation/single collection and reload",
+      "originalTaskIds": [
+        28
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      }
+    },
+    {
+      "hour": 25,
+      "allocatedActiveHours": 1,
+      "task": "Finish bow/arrow/sling mesh, nock/draw/cord/pouch/release",
+      "requiredCheck": "Selected ammo matches preview/nock/projectile/recovery; animated FP/TP sling retained; aiming convergence and damage",
+      "originalTaskIds": [
+        29
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 26,
+      "allocatedActiveHours": 1,
+      "task": "Finish Aegean/Minoan equipment silhouettes",
+      "requiredCheck": "Actual usable armor/weapons, distinct anatomy/materials, craft/vendor routes and rendered review Appropriate Myrmidon plumes and Sea Peoples helmet ornaments; visible player capes and all-item mesh coverage.",
+      "originalTaskIds": [
+        30
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 27,
+      "allocatedActiveHours": 1,
+      "task": "Finish Egyptian/Mesopotamian equipment silhouettes",
+      "requiredCheck": "Region-specific usable gear, valid recipe/material access, hand/equip/mesh and ordinary reload",
+      "originalTaskIds": [
+        31
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 28,
+      "allocatedActiveHours": 1,
+      "task": "Finish rare-metal and decayed revenant equipment variants",
+      "requiredCheck": "Copper/bronze/silver/gold/iron/orichalcum/canonical adamantium variants; all revenant armor/weapons visibly aged, obtainable and save-safe",
+      "originalTaskIds": [
+        32
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 29,
+      "allocatedActiveHours": 1,
+      "task": "Finish coherent equipment economy and city/service tiers",
+      "requiredCheck": "Active prices, loot/sell/craft arbitrage, stock/ingredients/advanced lessons; starter affordability and honest local/job directions Craftable/sellable/stealable jewelry with ownership, value and law conservation.",
+      "originalTaskIds": [
+        33
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "Price ladder/finite regional arms tiers/spare buyback and two exchange-loop repairs only"
+      },
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      },
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      }
+    },
+    {
+      "hour": 30,
+      "allocatedActiveHours": 1,
+      "task": "Finish wooden versus tipped arrows across every active path",
+      "requiredCheck": "Sharpened wood only, clear tipped price/damage advantage; player/NPC stocks, previews, nock/fire/recover, conservation",
+      "originalTaskIds": [
+        34
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json.",
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "Actual existing ammo30/loot30 bundles and tiered shelves only; no new arrow mesh/damage acceptance"
+      }
+    },
+    {
+      "hour": 31,
+      "allocatedActiveHours": 1,
+      "task": "Finish mining/smelting/smith teaching and regional materials",
+      "requiredCheck": "Actual ore/tool/furnace/recipe gates, normal acquisition/crafting, no bypass or duplicated outputs",
+      "originalTaskIds": [
+        35
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "Existing worked-ingot access and two commodity margins; full mining/teaching/smelting progression incomplete"
+      },
+      "currentEvidence": "Current236–238 source c109463172462b9afef4c4e16a348db04e2b1c63; exact game 776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603,38,410,317bytes. Guarded existing mine contract context, real physical picks and bounded local-ore lessons/first loan, once-only original gallery wages and preserved objective selection. 971/971 full LOCAL checks (21new), complete971 entries/footer/exit0/hash unchanged,174986.527334ms. Six exact source/test readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compilation pass; ZIP84ede34d2c67ff85b054a21e8afa009b2b62c567f7f75f31d4efe1654965b48f. Controlled native dialogue/mining/progress/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/audio/reference FPS or Master acceptance. Economy/work/story/rescue/full120/every M0–M5 remain PARTIAL/unaccepted. Matching GitHub-generated playable download unavailable, startup/decoding/user download accessibility not verified. Browser package present/Chromium1234 absent. Main/QOL/core physical BronzeAge first; further8–10 stress and expandedTroy lower, retained. Remaining ETA unmeasured. See docs/NEXT_RUN_MINE_CONTRACT_20261018.md and tracking/updates/mine-contract-20261018.json.",
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      },
+      "mineContracts236238": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+        "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+        "evidence": "tracking/updates/mine-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+        "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+        "ordinaryAcceptance": "pending"
+      }
+    },
+    {
+      "hour": 32,
+      "allocatedActiveHours": 1,
+      "task": "Verify all four remedies through ordinary acquisition/crafting/use",
+      "requiredCheck": "Health/stamina effects, bounded gradual heal/endurance, restrictions, nonstacking/expiry/death/old-save and UI Save/reload",
+      "originalTaskIds": [
+        36
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      }
+    },
+    {
+      "hour": 33,
+      "allocatedActiveHours": 1,
+      "task": "Finish placeable owned chest and supported container storage",
+      "requiredCheck": "Learn/craft/place/store/take conservation, ownership/weight; identify travel-testing chest and verify persistence instead of claiming every chest supports deposits",
+      "originalTaskIds": [
+        37
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 34,
+      "allocatedActiveHours": 1,
+      "task": "Verify level-up, skill/attribute points and equipment HUD",
+      "requiredCheck": "Independent points, dialogue-safe overlays, readable hands/ammo selection, controls and save persistence",
+      "originalTaskIds": [
+        38
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 35,
+      "allocatedActiveHours": 1,
+      "task": "Run complete six-archetype hand/loadout/contact matrix",
+      "requiredCheck": "Player/NPC, FP/TP, idle/move/attack/guard/roll/equip; actual screenshots/contact evidence and failures repaired",
+      "originalTaskIds": [
+        39
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "208–210 adds logical wood/composite/fiber construction, physical basic/composite crafting/teaching/migration and bounded attached rig/previews;801 full LOCAL checks. Full original task coverage and current-hash runtime remain pending."
+    },
+    {
+      "hour": 36,
+      "allocatedActiveHours": 1,
+      "task": "Review M2 crafting/economy/storage/gear acceptance",
+      "requiredCheck": "Current-hash regional acquire/craft/equip/reload evidence and actual review; all unmet cells remain open",
+      "originalTaskIds": [
+        39
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+    },
+    {
+      "hour": 37,
+      "allocatedActiveHours": 1,
+      "task": "Lock complete creature coverage matrix",
+      "requiredCheck": "Every requested creature/region/mesh/rig/action/spawn/loot listed; no silent omissions or definitions-only encounters",
+      "originalTaskIds": [
+        40
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 38,
+      "allocatedActiveHours": 1,
+      "task": "Finish wolves/dogs/jackals speed, gait, rest/wake and injury cues",
+      "requiredCheck": "Faster coherent predators, species-safe pain/no human groans, stealth waking and quieter contextual chatter",
+      "originalTaskIds": [
+        41
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 39,
+      "allocatedActiveHours": 1,
+      "task": "Finish lion anatomy, silhouette, mane/paws and full rig",
+      "requiredCheck": "Produce/repair real mesh; locomotion/attack/recovery/rest/sleep and reachable regional encounters; rendered approval",
+      "originalTaskIds": [
+        12,
+        13
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 40,
+      "allocatedActiveHours": 1,
+      "task": "Finish dragon anatomy, wings/tail, attacks and mountain distribution",
+      "requiredCheck": "Produce/repair real mesh/rig, first-appearance cinema, meaningful additional reachable spawns and boss initialization",
+      "originalTaskIds": [
+        14,
+        15,
+        49
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 41,
+      "allocatedActiveHours": 1,
+      "task": "Finish bear anatomy/rig and regional predator availability",
+      "requiredCheck": "Grounded gait/attacks/rest, faster coherent chase, real regional spawn/combat/loot rather than registry claims",
+      "originalTaskIds": [
+        16
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 42,
+      "allocatedActiveHours": 1,
+      "task": "Finish boar/pig/goat/ram/ibex models and behavior",
+      "requiredCheck": "Distinct bodies, charge/headbutt/flanking/rest actions, contact/stamina/loot and real encounters",
+      "originalTaskIds": [
+        42
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 43,
+      "allocatedActiveHours": 1,
+      "task": "Finish deer/antelope/cattle/sheep and birds/herds",
+      "requiredCheck": "Distinct rigs, grazing/flee/pen routes, appropriate regions, player work/harvest safety and city-livestock law",
+      "originalTaskIds": [
+        43
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 44,
+      "allocatedActiveHours": 1,
+      "task": "Finish centaur and Cyclops/giant models/rigs",
+      "requiredCheck": "Distinct anatomy, shared legal contacts/attacks, faction relations, real reachability and loot Medium priority: remove horse head protruding from centaur torso; inspect independent skinned horse meshes and rendered junction. Retain medium-priority protruding horse-head defect.",
+      "originalTaskIds": [
+        44
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 45,
+      "allocatedActiveHours": 1,
+      "task": "Finish Hydra and Laestrygonian models/animations",
+      "requiredCheck": "Coherent proportions/multi-head contacts, attacks/recovery, region/loot/progression and grounded navigation",
+      "originalTaskIds": [
+        45
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 46,
+      "allocatedActiveHours": 1,
+      "task": "Finish Leviathan and marine creature roster",
+      "requiredCheck": "Sharks/squid/turtles/fish variants plus sea boss, swim/attack/flee/contact/spawn/loot and bounded render budgets",
+      "originalTaskIds": [
+        46
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 47,
+      "allocatedActiveHours": 1,
+      "task": "Finish vampires/werewolves/undead/ghouls and dark spawns",
+      "requiredCheck": "Pale red-eyed vampires, convincing distinct rigs/rest/attacks, reachable night/dungeon conditions and actual loot",
+      "originalTaskIds": [
+        47
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 48,
+      "allocatedActiveHours": 1,
+      "task": "Finish kobaloi anatomy, evasions, third attack and alerts",
+      "requiredCheck": "Shared grounded duck/roll, feints, rest/wake and horn/yell; bounded LOS/range/cooldown alert propagation",
+      "originalTaskIds": [
+        48
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 49,
+      "allocatedActiveHours": 1,
+      "task": "Finish horse knees/hocks/hooves/bucking and charge contacts",
+      "requiredCheck": "Rendered walk/trot/gallop/turn/slopes, rider/quilt contact; swept impacts/cooldowns/civilian law; no overlap damage Lower-priority original researched cartoon horse anatomy, restrained power-tier musculature; retain charge damage and gait checks.",
+      "originalTaskIds": [
+        17,
+        50
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 50,
+      "allocatedActiveHours": 1,
+      "task": "Resolve approved expanded faction roster and relationships",
+      "requiredCheck": "Well beyond four, multiple types each; no invented numeric approval; preserve originals and resolve Mine Raiders/deserter overlap",
+      "originalTaskIds": [
+        51
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 51,
+      "allocatedActiveHours": 1,
+      "task": "Finish Labyrinth Initiate mask/equipment/animation production",
+      "requiredCheck": "Branched antler masks, ominous varied silhouettes across actual archetypes; contacts and visible attacks/defenses",
+      "originalTaskIds": [
+        18,
+        52
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 52,
+      "allocatedActiveHours": 1,
+      "task": "Finish Exiled Royal Retainer identity/equipment/discipline",
+      "requiredCheck": "Distinct meshes/loadouts, feints/formations/healing and real multi-type encounters/camp integration",
+      "originalTaskIds": [
+        53
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 53,
+      "allocatedActiveHours": 1,
+      "task": "Finish Barrow Oathkeeper/revenant archer and swordsman",
+      "requiredCheck": "Decayed regional armor/weapons, bow/sword-specific meshes/actions/awakening/loot; no pristine weapon bypass",
+      "originalTaskIds": [
+        54
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 54,
+      "allocatedActiveHours": 1,
+      "task": "Finish Copper Mine Deserter identity/loadouts",
+      "requiredCheck": "Resolve naming, distinct equipment/animations/tactics and region/spawn/loot contracts",
+      "originalTaskIds": [
+        55
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 55,
+      "allocatedActiveHours": 1,
+      "task": "Produce remaining approved faction groups A",
+      "requiredCheck": "Actual models/equipment/multiple combat animations/AI/region/relationship coverage, not new names or palette-only variants",
+      "originalTaskIds": [
+        56
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 56,
+      "allocatedActiveHours": 1,
+      "task": "Produce remaining approved faction groups B",
+      "requiredCheck": "Same full production and reachable encounter requirements; preserve every approved roster member",
+      "originalTaskIds": [
+        57
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 57,
+      "allocatedActiveHours": 1,
+      "task": "Finish equipment-driven mixed enemy tactics and spear recovery",
+      "requiredCheck": "Spear/sword/axe/greatsword/bow/sling, readable feints, dodges, retreat healing, alerts and legal switching Enemy chariot archer variant: separate visible driver and archer with coordinated navigation/LOS/finite shots.",
+      "originalTaskIds": [
+        58,
+        59
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 58,
+      "allocatedActiveHours": 1,
+      "task": "Run mixed eight/ten attacker creature/faction matrix and M3 review",
+      "requiredCheck": "Open/narrow terrain, simultaneous attack capability, contacts/LOS/loot/save, Low timings and actual roster review",
+      "originalTaskIds": [
+        61,
+        62,
+        63
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 59,
+      "allocatedActiveHours": 1,
+      "task": "Audit all legendary sites, hideouts, caves and story dependencies",
+      "requiredCheck": "Eight named sites/twelve hideouts plus forts/caves, entrances/exits/keys/physical rewards and coverage cells",
+      "originalTaskIds": [
+        64
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 60,
+      "allocatedActiveHours": 1,
+      "task": "Finish reusable distinct coastal/hill/court fort layouts",
+      "requiredCheck": "Real geography, approaches/stairs/cover/routes/defenders/clear/loot; useful differences beyond color changes Very high-priority major-city hearts, climbable walls/stairs/viewpoints, granaries and accessible priest-populated ziggurats.",
+      "originalTaskIds": [
+        65
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Core-priority partial access6dd2e248 adds eligible Troy interior stairs/indexed wall footing/inner-parapet cuts with seven contracts; prior ziggurat access retained. No all-city/fort/layout, rendered navigation or ordinary Save/performance acceptance; slot remains open."
+    },
+    {
+      "hour": 61,
+      "allocatedActiveHours": 1,
+      "task": "Finish scattered sea forts with fair archer defenses",
+      "requiredCheck": "Boat landing/climb routes, grounded finite range/LOS arrows, clear-gated chests and no duplicate rewards after reload Periodic raids across walled cities: NPCs flee inside, guards shoot/sally, bounded rates and persistent safe outcomes.",
+      "originalTaskIds": [
+        20,
+        66
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 62,
+      "allocatedActiveHours": 1,
+      "task": "Finish rival tent camps and sparse-region outposts",
+      "requiredCheck": "Distinct layouts/faction equipment/multiple AI types, valid navigation, believable occupation, loot and exits",
+      "originalTaskIds": [
+        19,
+        67
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 63,
+      "allocatedActiveHours": 1,
+      "task": "Finish cave/mine atmosphere and dark dungeon encounters",
+      "requiredCheck": "Puddles/stalactites/stalagmites/chains, culling/collision/path clearance and reachable vampires",
+      "originalTaskIds": [
+        68
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 64,
+      "allocatedActiveHours": 1,
+      "task": "Finish mundane supplies in enemy areas",
+      "requiredCheck": "Reachable food/sling stones/wooden-arrow chests and pickups, finite conservation, acquisition and save-safe depletion",
+      "originalTaskIds": [
+        69
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 65,
+      "allocatedActiveHours": 1,
+      "task": "Finish full Pan puzzle/key/captain/tablet/King/Daedalus route",
+      "requiredCheck": "Ordinary sling target, crate/plate, all bandits and captain, physical tablet, royal report and Crete continuation with checkpoint saves",
+      "originalTaskIds": [
+        70
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance.",
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 66,
+      "allocatedActiveHours": 1,
+      "task": "Finish clue-driven puzzle variety and cinematic transitions",
+      "requiredCheck": "Sling/arrow/weight/sequence/light/writing combinations where supported, locked-gate feedback, readable clues and no arbitrary secrets",
+      "originalTaskIds": [
+        71
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance.",
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 67,
+      "allocatedActiveHours": 1,
+      "task": "Finish telegraphed traps and reset/re-entry safety",
+      "requiredCheck": "Reachable controls/rewards, readable warning, bounded damage, no softlocks or repeated unintended payouts after reload",
+      "originalTaskIds": [
+        72
+      ],
+      "workStatus": "partial_source_runtime_pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 68,
+      "allocatedActiveHours": 1,
+      "task": "Finish tactile lockpicking difficulty/accessibility matrix",
+      "requiredCheck": "No visible answer; hand/pick motion and useful resistance/audio, supported optional haptics, tools/fail/cancel/reset/door save",
+      "originalTaskIds": [
+        73
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 69,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Cinder Fissure",
+      "requiredCheck": "Distinct reachable route/puzzle/trap/encounter/legendary reward/exit/reset/reload and rendered review",
+      "originalTaskIds": [
+        74
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "211–213 finite entry provisions, guarded optional mechanism context and saved-lid presentation;815 exact-hash LOCAL source checks. Ordinary cache/puzzle/trap/full original scope/runtime still pending."
+    },
+    {
+      "hour": 70,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Dactyl’s Veined Grotto",
+      "requiredCheck": "Same complete ordinary-play contract, distinctive geography/clues/enemies and once-only rewards",
+      "originalTaskIds": [
+        75
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 71,
+      "allocatedActiveHours": 1,
+      "task": "Finish Gull Isle Windworn Vault",
+      "requiredCheck": "Reachable island/entry/branching puzzle/defenders/reward/return, old/new saves and actual visuals",
+      "originalTaskIds": [
+        76
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "211–213 finite entry provisions, guarded optional mechanism context and saved-lid presentation;815 exact-hash LOCAL source checks. Ordinary cache/puzzle/trap/full original scope/runtime still pending."
+    },
+    {
+      "hour": 72,
+      "allocatedActiveHours": 1,
+      "task": "Finish Reed Isle Drowned Grotto",
+      "requiredCheck": "Water/entry/air/land navigation, readable mechanism, encounter/reward/exit and persistent state",
+      "originalTaskIds": [
+        77
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "211–213 finite entry provisions, guarded optional mechanism context and saved-lid presentation;815 exact-hash LOCAL source checks. Ordinary cache/puzzle/trap/full original scope/runtime still pending."
+    },
+    {
+      "hour": 73,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Broken Border Hall",
+      "requiredCheck": "Distinct architecture/faction routes/puzzle/trap/clear/reward/exit and save-safe re-entry",
+      "originalTaskIds": [
+        78
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 74,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Blue Oath Barrow",
+      "requiredCheck": "Actual revenant encounters/clues/keys/legendary reward/return and nonduplicating persistence",
+      "originalTaskIds": [
+        79
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 75,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Scorpion Seal Cavern",
+      "requiredCheck": "Grounded environmental identity, fair traps/puzzles/defenders, reachable reward/exit and reload",
+      "originalTaskIds": [
+        80
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 76,
+      "allocatedActiveHours": 1,
+      "task": "Finish The Sunless Burial Grotto",
+      "requiredCheck": "Dark navigation/light/writing clues, vampires/undead, reward/exit/reset and ordinary save verification",
+      "originalTaskIds": [
+        81
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 77,
+      "allocatedActiveHours": 1,
+      "task": "Finish Labyrinth hideouts in Crete/Alashiya/Troy",
+      "requiredCheck": "Three distinct branching defended layouts, faction types, meaningful puzzle/loot/exit and full save matrix",
+      "originalTaskIds": [
+        82
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 78,
+      "allocatedActiveHours": 1,
+      "task": "Finish Retainer hideouts in Mycenae/Athens/Sparta",
+      "requiredCheck": "Three distinct approaches/interiors/cover/encounters/rewards, actual ordinary completion and return",
+      "originalTaskIds": [
+        83
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 79,
+      "allocatedActiveHours": 1,
+      "task": "Finish Oathkeeper hideouts in Steppe/Olympus/Mesopotamia",
+      "requiredCheck": "Three distinct tomb/fort settings, revenant gear/AI, clues/keys/reward/exit and persistent clears",
+      "originalTaskIds": [
+        84
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 80,
+      "allocatedActiveHours": 1,
+      "task": "Finish Deserter hideouts in Alashiya/Phoenicia/Egypt",
+      "requiredCheck": "Three distinct mine/camp/fort settings, region gear/navigation/loot/return and reload-safe rewards",
+      "originalTaskIds": [
+        85
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 81,
+      "allocatedActiveHours": 1,
+      "task": "Finish mountain destinations, teachers and legendary clues",
+      "requiredCheck": "Reachable climbs/landmarks/enemies/skill teaching, progression gates, safe return and once-only rewards",
+      "originalTaskIds": [
+        86
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 82,
+      "allocatedActiveHours": 1,
+      "task": "Finish secluded champion island and skeletal remains",
+      "requiredCheck": "Persistent placement; fixed twice-initial-player health/stamina; highest-tier all-kind drops, legal visible weapon switches and no loot duplication",
+      "originalTaskIds": [
+        87
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 83,
+      "allocatedActiveHours": 1,
+      "task": "Finish Theseus/Athens and main-quest court cinematics",
+      "requiredCheck": "Essential NPC availability/actions/options/subsequent dialogue, rescue progression and save-safe scene cancel/resume",
+      "originalTaskIds": [
+        88
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 84,
+      "allocatedActiveHours": 1,
+      "task": "Finish four-civilization writing-artifact and final-boss chain",
+      "requiredCheck": "Actual learnable scripts, each physical artifact and boss ward; chronology researched/disclosed, no flag-only completion",
+      "originalTaskIds": [
+        103
+      ],
+      "workStatus": "partial",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred.",
+      "implementationEvidence": "183–185 physical artifact/context/native lesson safety;677 full local checks,13new at fd6db44e, tracking/updates/physical-writing-20261016.json. Shared prepare/inscribe/read action/prop contact, ordinary lesson/puzzle/Save/render/history coverage remains incomplete; no action count or slot acceptance.",
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
+    },
+    {
+      "hour": 85,
+      "allocatedActiveHours": 1,
+      "task": "Finish Trojan War peace branch",
+      "requiredCheck": "Ordinary council/Helen/Paris/leader actions and subsequent dialogue, relations/rewards and save checkpoints Distinct Agamemnon/Menelaus/Odysseus retinues at siege; Achilles/Myrmidons now based in Phthia, retained home quest availability; elite Trojans whitish-gold gear/capes/helmets versus Myrmidons. Early pre-departure peaceful gate entry, Helen/Priam agreement and actual return; prevent all war chapters.",
+      "originalTaskIds": [
+        89
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 86,
+      "allocatedActiveHours": 1,
+      "task": "Finish Trojan War sack branch",
+      "requiredCheck": "Actual raids/siege/standards/council consequences, protected essential NPCs, relations/loot/reload and ending Distinct Agamemnon/Menelaus/Odysseus retinues at siege; Achilles/Myrmidons now based in Phthia, retained home quest availability; elite Trojans whitish-gold gear/capes/helmets versus Myrmidons. Full requested staged departure/convoy/Dardanus/Lyrnessus/Briseis/dispute/mediation/Patroclus death/raids/horse/Hector-Achilles duel/night gate/sack/Aeneas exit; see detailed sequence.",
+      "originalTaskIds": [
+        89
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 87,
+      "allocatedActiveHours": 1,
+      "task": "Finish island/cave/tomb identity and remaining encounter coverage",
+      "requiredCheck": "Distinct geography/ecology/architecture/content, actual vampire/werewolf conditions and reachable safe exits",
+      "originalTaskIds": [
+        90
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 88,
+      "allocatedActiveHours": 1,
+      "task": "Run complete M4 site/hideout/story regression and review",
+      "requiredCheck": "Every required site/hideout/branch physically completed, clues/traps/loot/exit/reset/save on current hash",
+      "originalTaskIds": [
+        91
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 89,
+      "allocatedActiveHours": 1,
+      "task": "Finish regional stable/well coverage and Ikaria yard",
+      "requiredCheck": "Reachable real keepers/registration/water, extra Ikaria horses/immersive inscription, no ghost sellers or duplicate NPC services",
+      "originalTaskIds": [
+        92
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 90,
+      "allocatedActiveHours": 1,
+      "task": "Finish owned mount/chariot registry, shared H call and theft",
+      "requiredCheck": "Multiple selection/Owned labels, bareback registration/quilt, law/protected horses, unavailable/dead mounts and old-save persistence",
+      "originalTaskIds": [
+        93
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 91,
+      "allocatedActiveHours": 1,
+      "task": "Finish Steppe/Egypt horse/chariot/wagon/boat/ferry services",
+      "requiredCheck": "Best steppe horses/lessons, northern wagon, Egypt services; audited substantially higher ferries, own-boat quest and poor-player job directions Explicitly verify Steppe-owned/usable chariots and enemy driver-plus-archer variant; generic definitions do not count.",
+      "originalTaskIds": [
+        94
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 92,
+      "allocatedActiveHours": 1,
+      "task": "Finish wild horse herds/grass and taming routes",
+      "requiredCheck": "Actual clustered graze/travel, suitable ecology, visible bucking/balance, navigable registration and Low culling/LOD",
+      "originalTaskIds": [
+        50
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 93,
+      "allocatedActiveHours": 1,
+      "task": "Finish archery/sparring/horsemanship NPC challenges",
+      "requiredCheck": "Reachable ordinary competitions, meaningful rewards/cinematics, actual rival, fair fail/quit and nonduplicating daily payouts",
+      "originalTaskIds": [
+        95
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 94,
+      "allocatedActiveHours": 1,
+      "task": "Finish mounted rulers/nobles and weekly court circuits",
+      "requiredCheck": "Visible horse/chariot boarding, escorts/advisors, noble status dialogue, actual routes and retained quest access/fallbacks",
+      "originalTaskIds": [
+        96
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+    },
+    {
+      "hour": 95,
+      "allocatedActiveHours": 1,
+      "task": "Finish Luxor/Valley/Nile ferry and swimming routes",
+      "requiredCheck": "Ordinary boarding/disembark/bank exits, safe fare failures/arrivals, reachable regional puzzles and reload Locate and verify reachable Valley of the Kings, not only source definitions.",
+      "originalTaskIds": [
+        97
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      },
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured."
+    },
+    {
+      "hour": 96,
+      "allocatedActiveHours": 1,
+      "task": "Finish waves/boat buoyancy/deck/camera and dive routes",
+      "requiredCheck": "Visible variable sea states, responsive pitch/roll, comfortable controls, hull/passenger contact, safe swim/board and Low/save",
+      "originalTaskIds": [
+        98
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current203/204 delivered sourcebd250ae0e6449c61679dbd3ea6a845bbe819314a, exact candidate6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee,38,316,178bytes: physical reverse-ramp cancellation to actual pier/deck, saved damaged-hull hold and preserved native disembark/repair with original3wood OR20silver costs and stale-action conservation.767/767 completion-checked full LOCAL serial TAP checks passed,13new,95,045.329093ms.8 source/test readbacks match,0 source-head Actions runs. Exact baseline-to-current rebuild/HTML+two-entry ZIP/3-inline compile pass. Moved/changed hull/offshore sinking/respawn rescue remains unimplemented; ordinary full route/render/offline pause Save/exact reload/cold Continue/old-save/Master gates pending. No milestone/slot accepted. Full120/every M0–M5/prior request retained; main/QOL/physicalBronzeAge first, more performance/8–10 and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md."
+    },
+    {
+      "hour": 97,
+      "allocatedActiveHours": 1,
+      "task": "Finish Egyptian/Mesopotamian ecology/art/cultural props",
+      "requiredCheck": "No inappropriate pines; palms/reeds/oasis/riparian variation, regional fauna, harvest/navigation and educational source checks Six civilization characteristics expressed physically through regional art/buildings/ceremonial clothing/authority/records.",
+      "originalTaskIds": [
+        99
+      ],
+      "workStatus": "partial",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "implementationEvidence": "186–188 two actual sanctuary/cultural/clerical fixtures at 90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520;693 local checks,16new. Exact ordinary render/entry/Save/Master gates pending; broader ecology/culture/religion coverage incomplete."
+    },
+    {
+      "hour": 98,
+      "allocatedActiveHours": 1,
+      "task": "Finish all grounded workplaces, couriers and shared-action parity",
+      "requiredCheck": "Real asset/tools, reservations/occupancy, arrival/facing/duration/routes, cooperative NPC interactions and player/NPC safety",
+      "originalTaskIds": [
+        100
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current241–243 source fa0caf793e1411e347bafc7805c453603df0a179; exact game b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42,38426008bytes. Current-day real-crew river-work prompts, player/NPC feet within actual Nile pier surfaces, guarded original four-action wages and retained two-barge scene lifetime across restore.1004/1004 full LOCAL (20new), complete entries/footer/exit0/hash unchanged,209115.405638ms;21focused. Six source/test exact readbacks; private draft PR29 unmerged. Exact rebuild/HTML/two-entry ZIP/3-inline compile passed; ZIP7d31e4fda36a0be55bff81204d494f1ac7d0f1ba5e933271e7b93fb0553dedd1. NOT ordinary mouse/gameplay, offline pause Save/exact reload, rendered contact/audio/referenceFPS or Master acceptance. Destination unloading/manifests/requested upstream stone routes and all120/every M0–M5 remain partial/unaccepted. Main/QOL/physical BronzeAge first; further8–10/expandedTroy lower, retained. Chromium absent, matching GitHub-generated playable download unavailable, startup/download accessibility unverified. Remaining ETA unmeasured. See docs/NEXT_RUN_RIVER_WORK_20261018.md.",
+      "quarryContracts239240": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+        "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+        "evidence": "tracking/updates/quarry-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+      },
+      "riverWork241243": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+        "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+        "evidence": "tracking/updates/river-work-20261018.json",
+        "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance."
+      }
+    },
+    {
+      "hour": 99,
+      "allocatedActiveHours": 1,
+      "task": "Finish vineyards/orchards/gardens and shared tending actions",
+      "requiredCheck": "Prune/tie/tend/pick at actual assigned crops with attached props, larger harvestable fields and performance checks",
+      "originalTaskIds": [
+        101
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 100,
+      "allocatedActiveHours": 1,
+      "task": "Finish kitchen/tavern knead/cook/pour/serve actions",
+      "requiredCheck": "Shared high-quality player/NPC tasks, actual counter/table duties and aligned vessels/food/liquid, no speed variants counted as new actions",
+      "originalTaskIds": [
+        102
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 101,
+      "allocatedActiveHours": 1,
+      "task": "Finish scribe prepare/inscribe/read tasks and lessons",
+      "requiredCheck": "Visible regional writing on artifacts, meaningful ordinary lessons/puzzle use and chronology/historical-source review Player script-writing minigames on appropriate clay/papyrus media with researched chronology. Scope correction: optional player writing minigame deferred; prioritize physical tablets/scripts/lessons.",
+      "originalTaskIds": [
+        103
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
+    },
+    {
+      "hour": 102,
+      "allocatedActiveHours": 1,
+      "task": "Finish bard tune/play/sing, follower and court songs",
+      "requiredCheck": "Shared tasks, funny deed-dependent lyrics, region voices/court bards, actual recruitment/dismissal and persistent deeds",
+      "originalTaskIds": [
+        104
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 103,
+      "allocatedActiveHours": 1,
+      "task": "Finish quarry teams, docks and river cargo routes",
+      "requiredCheck": "Synchronized strike/wedge/lever/rope hands/load, grain/stone requested upriver transport/loading/unloading; paid jobs and actual forty-action coverage",
+      "originalTaskIds": [
+        105
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current241–243 source fa0caf793e1411e347bafc7805c453603df0a179; exact game b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42,38426008bytes. Current-day real-crew river-work prompts, player/NPC feet within actual Nile pier surfaces, guarded original four-action wages and retained two-barge scene lifetime across restore.1004/1004 full LOCAL (20new), complete entries/footer/exit0/hash unchanged,209115.405638ms;21focused. Six source/test exact readbacks; private draft PR29 unmerged. Exact rebuild/HTML/two-entry ZIP/3-inline compile passed; ZIP7d31e4fda36a0be55bff81204d494f1ac7d0f1ba5e933271e7b93fb0553dedd1. NOT ordinary mouse/gameplay, offline pause Save/exact reload, rendered contact/audio/referenceFPS or Master acceptance. Destination unloading/manifests/requested upstream stone routes and all120/every M0–M5 remain partial/unaccepted. Main/QOL/physical BronzeAge first; further8–10/expandedTroy lower, retained. Chromium absent, matching GitHub-generated playable download unavailable, startup/download accessibility unverified. Remaining ETA unmeasured. See docs/NEXT_RUN_RIVER_WORK_20261018.md.",
+      "quarryContracts239240": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+        "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+        "evidence": "tracking/updates/quarry-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+      },
+      "riverWork241243": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+        "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+        "evidence": "tracking/updates/river-work-20261018.json",
+        "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance."
+      }
+    },
+    {
+      "hour": 104,
+      "allocatedActiveHours": 1,
+      "task": "Finish regional criminals/trainers/robbery/assassin cycles",
+      "requiredCheck": "Visible sneak/theft/mischief, lockpick/sneak/combat lessons, faction-safe robbery, protected quest items and bounded scaled regional ambushes Fictional nomadic family hunters/traders: skins/flint/wood gear, unfamiliar speech choices, bounded aggression/escape/cooldown/retry.",
+      "originalTaskIds": [
+        60
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 105,
+      "allocatedActiveHours": 1,
+      "task": "Finish major-region jails and NPC-to-NPC day cycles",
+      "requiredCheck": "Real cells/inmate unfairness/regret dialogue, release/reoffend/guard arrest, civilian warnings/fine/jail/refuse/escape and save safety",
+      "originalTaskIds": [
+        10,
+        110
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 106,
+      "allocatedActiveHours": 1,
+      "task": "Audit prior music and produce two epic plus two sailing tracks",
+      "requiredCheck": "Preserve original five/five-more/extra sea requests; four distinct new assets with offline duration/size evidence",
+      "originalTaskIds": [
+        106
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 107,
+      "allocatedActiveHours": 1,
+      "task": "Produce three sailing/exploring and two action/dramatic tracks",
+      "requiredCheck": "Five additional distinct usable compositions; contextual triggers, offline embedding and no duplicate/relabel counting",
+      "originalTaskIds": [
+        107
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 108,
+      "allocatedActiveHours": 1,
+      "task": "Produce three chill tracks and integrate all twelve additions",
+      "requiredCheck": "Actual decode/play/transitions/concurrency; earlier requested tracks retained, complete asset audit and package budget",
+      "originalTaskIds": [
+        108
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 109,
+      "allocatedActiveHours": 1,
+      "task": "Finish species/hoof/sail/weapon/armor/flesh/NPC audio",
+      "requiredCheck": "No wolf-human or captain-ghoul errors; predator injury cues, three-four human pain variations, less chatter and bounded concurrency",
+      "originalTaskIds": [
+        109
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 110,
+      "allocatedActiveHours": 1,
+      "task": "Run M5 world/work/audio/survival/service acceptance review",
+      "requiredCheck": "Actual regional loops, hunger/cooking/milk/remedies/followers, forty tasks/cargo/music, travel and current-hash reload Bronze Age/civilization dialogue refers to real regional world; civilized/savage views are NPC attitudes.",
+      "originalTaskIds": [
+        110,
+        111
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      }
+    },
+    {
+      "hour": 111,
+      "allocatedActiveHours": 1,
+      "task": "Integrate reviewed feature checkpoints into one coherent source",
+      "requiredCheck": "Preserve baseline/private access/PR ownership; no rejected upload workaround, actual approvals and reproducible hash",
+      "originalTaskIds": [
+        112
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 112,
+      "allocatedActiveHours": 1,
+      "task": "Run fresh full source/workflow/offline startup/input checks",
+      "requiredCheck": "Production globals/shapes, zero uncaught errors/external requests, correct build/version and ordinary controls",
+      "originalTaskIds": [
+        113
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 113,
+      "allocatedActiveHours": 1,
+      "task": "Run complete natural new-game rescue/artifact/boss/story branches",
+      "requiredCheck": "No seeded quest flags/items in acceptance; essential dialogue/actions/rewards, both Trojan resolutions and checkpoint saves",
+      "originalTaskIds": [
+        114
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current230–232 source e446c37bfd05aac65d8cbb90e7ed691a0b586931; exact game 6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795,38,390,253bytes. Earned rally-horn recall of the original seaworthy rescue boat through a clear <=120-unit straight harbour approach to its exact saved ramp; incremental preflight/swept movement and guarded native Rally/start/stop/restart/restore. Original people/anchor/cursors/player/items/quest flags/rewards retained. 925/925 full LOCAL serial checks pass, complete925 entries/footer/exit0/hash unchanged,160948.58678ms;46 focused,20new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass; ZIPc4f39e3d59f93f813b3d2e66c947e6f17d9f5c33f99cb9e0705f1a87f5bd6058. Native collision/control/snapshot/Continue fixtures are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Startup/embedded decoding/user-access unverified; matching GitHub-generated playable download unavailable. Recovery PARTIAL: sunken/missing/replacement hulls, >120, changed docks and blocked/detour approaches remain unfinished. All120/every M0–M5/prior scope retained/unaccepted; main/QOL/physicalBronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. See docs/NEXT_RUN_HARBOUR_RECOVERY_20261018.md and tracking/updates/captive-harbour-recovery-20261018.json.",
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      },
+      "captiveHarbour230232": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+        "evidence": "tracking/updates/captive-harbour-recovery-20261018.json",
+        "scope": "Original owned seaworthy rescue boat, earned horn, <=120 clear straight approach only; actual controls/native serializer fixtures, NOT full rescue/Save or completed original allocation."
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 114,
+      "allocatedActiveHours": 1,
+      "task": "Run complete regional equipment/economy/remedy/storage matrix",
+      "requiredCheck": "Ordinary acquire/learn/craft/buy/sell/equip/use/ammo/recover/Store/Take, conservation and insufficient funds",
+      "originalTaskIds": [
+        115
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      }
+    },
+    {
+      "hour": 115,
+      "allocatedActiveHours": 1,
+      "task": "Run every creature/faction/spawn/combat/loot coverage gap",
+      "requiredCheck": "Actual reachability, behavior/rig/contact/action, legal equipment and simultaneous mixed encounters",
+      "originalTaskIds": [
+        61,
+        115
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 116,
+      "allocatedActiveHours": 1,
+      "task": "Run all legendary/hideout/puzzle/trap/route coverage gaps",
+      "requiredCheck": "Eight sites/twelve hideouts plus forts/sea/mountains, safe exit/reset and no duplicate essential rewards",
+      "originalTaskIds": [
+        91,
+        116
+      ],
+      "workStatus": "partial_source_runtime_pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 117,
+      "allocatedActiveHours": 1,
+      "task": "Run old/new save migration and interrupted-action recovery",
+      "requiredCheck": "Exact-position manual reload across mounts/work/law/loot/quests/timed effects/chests/taverns/ownership",
+      "originalTaskIds": [
+        116
+      ],
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "currentEvidence": "Current247–249 source c3bd73a10be568f9958b6226868e1e8429101fb3; exact HTML c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca,38445515bytes. Current-context Nile booking, checked shore/pier arrival with E captain wait/retry/reverse-route return and one refund, and new-style saved passage continuity. Full LOCAL 1037/1037,18new, complete entries/footer/exit0/hash unchanged,894723.797662ms;19focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP65c74b5007920c668596b1ad407c67a47dd032a7d9b737a626f9bf561207aec2. Six source exact readbacks; private draft PR29 unmerged. Isolated native/Three/base snapshot/Continue fixtures are NOT ordinary mouse/browser, real channel/boarding/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Pre249 ferry saves without journey origin/destination are not guessed/migrated. All120/every M0–M5/prior scope retained and unaccepted, GEAR-01 failed retained. Browser package present/Chromium1234 absent; matching GitHub-generated playable download unavailable. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      },
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "JSON stock/day/purse/malformed-state callbacks only, NOT ordinary offline pause Save/exact reload"
+      },
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      },
+      "captiveHarbour230232": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+        "evidence": "tracking/updates/captive-harbour-recovery-20261018.json",
+        "scope": "Original owned seaworthy rescue boat, earned horn, <=120 clear straight approach only; actual controls/native serializer fixtures, NOT full rescue/Save or completed original allocation."
+      },
+      "mineContracts236238": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+        "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+        "evidence": "tracking/updates/mine-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+        "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+        "ordinaryAcceptance": "pending"
+      },
+      "quarryContracts239240": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+        "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+        "evidence": "tracking/updates/quarry-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+      },
+      "riverWork241243": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+        "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+        "evidence": "tracking/updates/river-work-20261018.json",
+        "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance."
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "nilePassenger247249": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+        "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+        "evidence": "tracking/updates/nile-passenger-20261018.json",
+        "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+        "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      },
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      },
+      "trapTelltales256": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonTerrain257258": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    {
+      "hour": 118,
+      "allocatedActiveHours": 1,
+      "task": "Run reference Low/high performance and repeated travel memory tests",
+      "requiredCheck": "Measured eight/ten attack-capable actors, old save, p95/long frames/AI/allocation; no attacker cuts or hidden rendering bypass",
+      "originalTaskIds": [
+        117
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    },
+    {
+      "hour": 119,
+      "allocatedActiveHours": 1,
+      "task": "Complete rendered/audio/package review and exact-hash Master review",
+      "requiredCheck": "Full hand/anatomy/animation/contact coverage, decoded audio/size budget; actual review evidence and release-gate outcome",
+      "originalTaskIds": [
+        118,
+        119
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false,
+      "generatedReleaseInput259": {
+        "status": "source_workflow_verified_release_blocked",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/generated-release-input-20261018.json",
+        "acceptance": "not a release or milestone acceptance"
+      }
+    },
+    {
+      "hour": 120,
+      "allocatedActiveHours": 1,
+      "task": "Package final candidate and publish honest coverage/handoff",
+      "requiredCheck": "Exact hash/reproduction/download, completed/unverified/pending and every failed gate; release only if all acceptance passes",
+      "originalTaskIds": [
+        120
+      ],
+      "workStatus": "pending",
+      "currentHashRuntime": "pending",
+      "accepted": false
+    }
+  ],
+  "latestFeedbackRecord": "docs/CIVILIZATION_CLOTHING_FEEDBACK_20261013.md",
+  "previousDeliveredPlaytestSha256": "483034b8cd86acbdfb003df00bf1146ec8ded2f5f941d600c3d40fdd966845d9",
+  "scopeRisk": "Full staged Trojan campaign, two additional cities, physical convoy and multi-actor cinematics substantially extend earlier two-branch allocation; remaining120 remains provisional, no scope or checks dropped.",
+  "priorityOrder": [
+    "main campaign and critical quality-of-life",
+    "core visible Bronze Age six-characteristic fixtures",
+    "planned delivery checks and remaining dependency-ready120-hour milestone/asset work",
+    "expanded Trojan campaign lower priority"
+  ],
+  "latestTroyFeedback": "docs/TROJAN_CAMPAIGN_SEQUENCE_20261014.md",
+  "deferredOptionalFeatures": [
+    "player papyrus/script-writing minigame; physical records/scripts/lessons retained"
+  ],
+  "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
+  "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
+  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/captive-home/Egypt/Nile and offline pause Save/exact reload when runtime available. Next dependency-ready main/QOL/physical BronzeAge production; do not duplicate250–251. Every120/M0–M5 retained; no slot acceptance, further8–10 and expandedTroy lower priority.",
+  "latestObjectives": [
+    "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
+    "Repair actual second legacy tavern shift/route ownership conflict",
+    "Carry arrow held-nock, remedy reload and travel failures forward with diagnostics",
+    "Core Bronze Age household/city/authority/physical records and remaining M0–M5 production; expanded Troy and further performance/8–10 stress lower but retained"
+  ],
+  "lastExecutionPerformanceCheckpoint": {
+    "partialSlots": [
+      2,
+      3,
+      4,
+      22,
+      62,
+      117
+    ],
+    "implemented": true,
+    "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
+    "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
+  },
+  "currentCheckpoint": "250–251 checkpoint collections/unique NPC restore and truthful manual Save results; local checks passed, all ordinary acceptance pending",
+  "partialSlots": [
+    2,
+    3,
+    4,
+    22,
+    62,
+    117,
+    84,
+    97,
+    96,
+    113
+  ],
+  "physicalWriting183185": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "fd6db44e9747a83922e1274f3fc66f084f15a1dce6a0415dd541c15d2fa14106",
+    "requirements": [
+      "CIV-WRITING",
+      "SCRIPT-EDUCATION",
+      "M5",
+      "slot103"
+    ],
+    "summary": "Four regional physical teaching artifacts, named matching exemplars/chronology context, native stale lesson transaction/DOM safety; all120 and milestone acceptance gates retained",
+    "handoff": "docs/NEXT_RUN_WRITING_20261016.md"
+  },
+  "sanctuary186188": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "90d6bdf6e8c142cc451719a750722189ac71cf46cad97ca2141eed43b5ca3520",
+    "handoff": "docs/NEXT_RUN_SANCTUARY_20261016.md",
+    "scope": "Two existing interiors only, no full ceremonial outfit/work-action count/global religion acceptance"
+  },
+  "rescue189191": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+    "handoff": "docs/NEXT_RUN_RESCUE_20261016.md",
+    "scope": "Proteus/Kadmos native transaction safety, held/readable/storage-conserved sea chart, actual guarded/idempotent princess release; no home escort/new ending scene",
+    "checks": "87 scoped local pass,15new; full source suite blocked by truncated baseline, prior693 not carried forward"
+  },
+  "baselineRecovery192": {
+    "status": "resolved",
+    "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "sourceBytes": 37815418,
+    "retainedCorruptCopy": "index.html.truncated-79ed427fd5cc",
+    "previousCandidateFullChecks": 710,
+    "previousCandidate": "101945608d989d0c18203e1a406ddbee49e4c47d12a33a0baa8f2447bf08ba42",
+    "previousEvidence": "verification/baseline192-full-tests.txt"
+  },
+  "mainStory192193": {
+    "status": "implemented_runtime_pending",
+    "buildSha256": "9b38050d07835e6a581b9347672581b9cd1f164590b066ef40c8425c0ebc9d97",
+    "handoff": "docs/NEXT_RUN_MAIN_GUARD_20261016.md",
+    "checks": "718 full LOCAL serial checks,10new; ordinary browser/Save/render/Master pending",
+    "scope": "Actual rescue objective and king/inventor/Oracle callback contracts, not additional home transport"
+  },
+  "captivePassage194195": {
+    "status": "shore_implemented_boat_home_pending",
+    "buildSha256": "d613cc26ff07640eff17b2ef925999e7e24897a63947aea023eb51ebd460623d",
+    "handoff": "docs/NEXT_RUN_CAPTIVE_PASSAGE_20261016.md",
+    "scope": "Actual player-walked shore/dock escort, wait, persistence and honest pier stage; not boarding/sailing/home rescue",
+    "checks": "729 full LOCAL serial final exact hash,11new; ordinary render/Save/Master pending"
+  },
+  "captiveBoarding196198": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "8411f8c88dafe1667172d6b000afaef3c6a4fd76bbd5d22cf718950114f3845c",
+    "handoff": "docs/NEXT_RUN_CAPTIVE_BOARDING_20261016.md",
+    "scope": "Actual sequential pier/ramp boarding, ship-frame passengers and bounded final horn alignment; no child unloading/home reunion",
+    "checks": "741 full LOCAL serial current hash,12new; ordinary browser/render/manual Save/Master pending"
+  },
+  "captiveHome199200": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "bf4d1b1a0ee85fdb7e534ba9d6c2a5774318a1721d50e0bd532da079f16c3093",
+    "handoff": "docs/NEXT_RUN_CAPTIVE_HOME_20261016.md",
+    "scope": "Actual Ikarion berth unloading, player-walked actual household approach and guarded ordinary kin reunion; no extra reward/teleport/Save, full safety/runtime acceptance pending",
+    "checks": "754/754 final exact-hash full LOCAL serial,13new; no ordinary browser/render/offline Save/Master acceptance",
+    "input201": "Actual native findInt/tryInteract now selects contextual ramp before zero-distance native disembark; guarded ordinary callback, no forced click/player movement",
+    "cold202": "Align restored numeric BOAT x/z/yaw into actual mesh before passenger/ramp restore; held crossing does not rely on a suppressed movement update. No player movement or Save."
+  },
+  "captiveRecovery203204": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee",
+    "handoff": "docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md",
+    "checks": "767/767 full LOCAL completion-checked serial TAP,13new; ordinary browser/render/offline Save/Master pending",
+    "scope": "Actual bounded reverse-ramp cancellation and preserved saved footing/native disembark+repair, not full ship-loss/offshore rescue or ordinary Save/render/Master acceptance"
+  },
+  "panSkiff205207": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735",
+    "bytes": 38323947,
+    "record": "tracking/updates/pan-storage-skiff-handoff-20261016.json",
+    "localChecks": {
+      "status": "passed",
+      "passed": 781,
+      "failed": 0,
+      "newTests": 14,
+      "durationMs": 96238.5367,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/pan207-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native dialogue/storage/menu/callback/Three/workflow/compile/package; not remote CI or ordinary browser/render/offline pause Save/Master"
+    }
+  },
+  "rangedConstruction208210": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "cfd2833e2f79dbaf77e46f75950921cd66dc48fc5619ffb1795d31ea0d89f9fa",
+    "sourceCommit": "5591ece88482b2339551267e30ae17c034894826",
+    "checks": {
+      "status": "passed",
+      "passed": 801,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 138337.254642,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/ranged210-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native callback/DOM-harness/Three/workflow/compile/package; NOT ordinary browser/render/story/offline pause Save/Master"
+    },
+    "accepted": false,
+    "evidence": "tracking/updates/ranged-construction-20261016.json"
+  },
+  "siteProvisions211212": {
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "3c45ad55c2e49a2a766aa625a7aa4a448e0c05b315ac1afa12b60c92b898bb2f",
+    "accepted": false,
+    "evidence": "tracking/updates/site-provisions-20261017.json",
+    "followup213": "Cold load/new voyage lid state;3 focused checks pass",
+    "sourceCommit": "389099f0133e6e49b0e51ac4790fcacc3731b457",
+    "checks": {
+      "status": "passed",
+      "passed": 815,
+      "failed": 0,
+      "newTests": 14,
+      "durationMs": 99620.139311,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/site213-full-tap.txt",
+      "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
+    }
+  },
+  "currentGithubSourceBuildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+  "mainRoute214215": {
+    "id": "main-route-directions-20261017",
+    "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+    "bytes": 38345088,
+    "milestoneIds": [
+      "M0",
+      "M4",
+      "M5"
+    ],
+    "requirementIds": [
+      "120-8",
+      "120-70",
+      "120-110",
+      "P0-main-story",
+      "RESOURCE-DIRECTIONS"
+    ],
+    "summary": "214 current-area/main-route markers and live king/inventor/Oracle positions;215 current-speaker/resource-service direction transactions",
+    "masterDelivery": {
+      "status": "delivered",
+      "pr": 29,
+      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+      "draft": true,
+      "merged": false,
+      "evidence": "Private owned PR29 source advanced with expected-head lease;5 exact source/test readbacks match and PR body updated. Metadata/evidence publication follows source. No merge/release/Master acceptance."
+    },
+    "masterReview": {
+      "status": "pending"
+    },
+    "localChecks": {
+      "status": "passed",
+      "passed": 825,
+      "failed": 0,
+      "newTests": 10,
+      "durationMs": 100940.869241,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "Full LOCAL serial source/executable/native dialogue+map hint/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "evidence": "verification/directions215-full-tap.txt",
+      "result": "verification/directions215-full-result.json",
+      "completeFooter": true,
+      "okEntries": 825,
+      "exitCode": 0
+    },
+    "scopedChecks": {
+      "status": "passed",
+      "passed": 39,
+      "failed": 0,
+      "newTests": 10,
+      "scope": "LOCAL actual native dialogue/map-hint callback and objective fixtures, not ordinary browser",
+      "evidence": "verification/directions215-focused-tap.txt",
+      "durationMs": 4617.220736
+    },
+    "changes": [
+      "Known main leads use actual current NPC position, or actual current dungeon exit before an outdoor/other-room objective. Pan internal target/physical storage/lock lesson/optional work/actual192 fortress stages remain untouched. Labyrinth exterior marker suppressed inside maze, not replaced by an undiscovered key solution.",
+      "Resource help/directions use actual189 speaker/game/flags/foot/range/menu guards; current actor membership and current service registration checked again at selection. Live moved healer/tavern entrance is marked, removed/dead/hostile/recruited staff or removed/blocked well rejected. Replaced-menu and repeated direction callbacks inert.",
+      "No quest/discovery unlock/item/reward/damage/enemy-count changes. Successful native map hint retains its original snapshot; no new automatic Save and mandatory ordinary pause Save/exact reload remain."
+    ],
+    "initialFailures": [
+      "New focused suite first9/10: directly retained direction callback could mark after different menu replaced original. Added exact DLG lines/choices identity and one-use latch, then39/39 composed focused pass."
+    ],
+    "runtime": {
+      "status": "pending",
+      "required": "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master"
+    },
+    "external": {
+      "browser": "Playwright package available, Chromium1234 executable absent on2026-10-17; no failed download repeated",
+      "actions": "Latest38711529714/38711529696/38711522032 remain older5bcd473b failures; latest inspected browser/repository jobs no steps, artifacts empty. No current-head ordinary browser evidence.",
+      "parentHead": "fd8a73b99f27d6669f0cd3482048031e80b55a48",
+      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+      "sourceReadbacks": [
+        {
+          "path": "scripts/main-route-directions-patch.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/main-route-directions.test.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/build-continuation.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/build-current.mjs",
+          "equal": true
+        },
+        {
+          "path": "scripts/current-candidate-integrity.test.mjs",
+          "equal": true
+        }
+      ]
+    },
+    "remaining": [
+      "Full120 tasks/every M0–M5/prior request retained, no slot/milestone accepted",
+      "Critical ordinary main-route/Save/render/Master gates",
+      "Moved/offshore rescue, service saved identity migration, full geometry/equipment/economy/creatures/factions/work/music"
+    ],
+    "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or a delivery ETA",
+    "evidence": [
+      "scripts/main-route-directions.test.mjs",
+      "verification/directions215-full-tap.txt",
+      "docs/NEXT_RUN_MAIN_DIRECTIONS_20261017.md"
+    ],
+    "package": {
+      "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "bytes": 38345088,
+      "zipSha256": "89427c2ccd5fdd0349a1a2f2cdf786f8e5fa2100eea24cc37166f4cd0d351c50",
+      "directory": "deliveries/6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "checks": "Exact direct/root/dist HTML, two-entry ZIP/manifest, extracted SHA/bytes and3inline compilation pass. Startup/user-download accessibility/GitHub-generated identity not run."
+    },
+    "record": "tracking/updates/main-route-directions-20261017.json"
+  },
+  "relicAreas216218": {
+    "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+    "record": "tracking/updates/relic-area-guidance-20261017.json",
+    "runtime": "pending",
+    "source": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+    "scope": "Current-area relic/script/storage guidance, serialized ship-copy conservation and accepted field-rubbing objective only",
+    "localChecks": {
+      "status": "passed",
+      "passed": 835,
+      "failed": 0,
+      "newTests": 10,
+      "durationMs": 100752.667277,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/relic218-full-tap.txt",
+      "result": "verification/relic218-full-result.json",
+      "completeFooter": true,
+      "okEntries": 835,
+      "exitCode": 0,
+      "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+    }
+  },
+  "captiveMooring219221": {
+    "record": "tracking/updates/captive-berth-recovery-20261017.json",
+    "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+    "runtime": "pending",
+    "scope": "219 nearby saved-ramp boat realignment;220 ordinary cancel/resume/native repair/current-context controls;221 exact saved berth endpoints and unloading tolerance edges",
+    "source": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+    "localChecks": {
+      "status": "passed",
+      "passed": 851,
+      "failed": 0,
+      "newTests": 16,
+      "durationMs": 186289.828183,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/mooring221-full-tap.txt",
+      "result": "verification/mooring221-full-result.json",
+      "completeFooter": true,
+      "okEntries": 851,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+    }
+  },
+  "serviceSavedIdentity222223": {
+    "record": "tracking/updates/service-save-identity-20261017.json",
+    "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+    "source": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+    "runtime": "pending",
+    "legacyMigration": "partial_unmarked_and_mixed_ambiguous_records_preserved",
+    "localChecks": {
+      "status": "passed",
+      "passed": 865,
+      "failed": 0,
+      "newTests": 14,
+      "durationMs": 110055.014334,
+      "completeFooter": true,
+      "okEntries": 865,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/service223-full-tap.txt",
+      "result": "verification/service223-full-result.json",
+      "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+    }
+  },
+  "currentGithubHeadScope": "Current250–251 source d6efce22fd5923a0e42f28a91160ecb20236ae88; exact HTML 40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba,38451999bytes. Missing/malformed optional checkpoint arrays restore without the native q.npcs.length crash; unique current NPC identities survive roster reorder, ambiguous names only retain ordinal restoration for an unchanged named roster. Actual original checkpoint graph/disk retained; invalid player checkpoints use Continue150 read-failure refusal, never New/deletion. Manual Save/F5 preflight plus exact checkpoint readback and persistent accessible pause result; no gameplay auto-writes/forced clicks. Full LOCAL 1053/1053,16new, complete entries/footer/exit0/hash unchanged,290917.698077ms;59focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP3d7b987b7308e36545a12cab7c1d79c7d5fff7437777252b9aaa2699e5f3c9fa. Six source exact readbacks; private draft PR29 unmerged. Prepared native/DOM/storage fixtures are NOT ordinary mouse/browser, all old-save migrations, populated routes/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Browser smoke strengthened for ordinary button capture/exact XYZ/accessibility, syntax checked only, NOT run. Local Chromium1234/alternate browser absent; latest Actions old5bcd473b failed before steps/no artifacts, no current GitHub-generated third build. All120/every M0–M5/prior scope retained/unaccepted; GEAR-01 failed retained. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
+  "regionalMarket224226": {
+    "status": "source_implemented_runtime_pending_partial_economy",
+    "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+    "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+    "record": "tracking/updates/regional-market-economy-20261018.json",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 886,
+      "failed": 0,
+      "newTests": 21,
+      "durationMs": 116798.628623,
+      "completeFooter": true,
+      "okEntries": 886,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/market226-full-tap.txt",
+      "result": "verification/market226-full-result.json",
+      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 48,
+      "failed": 0,
+      "newTests": 21,
+      "durationMs": 20078.270485,
+      "evidence": "verification/market226-focused-tap.txt",
+      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
+    },
+    "changes": [
+      "224 shared inspected material/quality ladder and classic shop upgrade prices; actual buyService48 equipment quotes cannot retain old low costs. Native weapon damage/AI/ammo values and ingredient/trainer/quest grants unchanged.",
+      "225 actual SERVICES48 cast-membership settlement tiers and guarded normal service menu: four goods/page, region-cultural copper/bronze/iron gear, wooden basic tools, trained sling only, existing ammo30 eight-arrow packs and actual worked-ingot keys. Existing workshop commissions/pattern/treatment/cloth/remedies paths retained, no invented merchant/recipe/new-game gift.",
+      "225 saved finite per-hub stock and buyer purse in G.world.regionalMarkets225, conservative old-save defaults, bounded once-per-forward-day replenishment, malformed record rejection; quote checks actual game/menu/service/actor/day/reach/stock and one-use callback.",
+      "225 spare physical-equipment buybacks at35% shared price via actual removeTransfer52, excludes only registered/equipped/quest items and protects global shield-derived state; budget bounds purchasing. No full loot-sale system acceptance.",
+      "226 actual store/craft audit found silver ore+fuel16 to30 and gold ore+fuel38 to65 exchange loops. Existing recipe inputs, known-plan/real-smelter gates unchanged; exchange payouts reduced10/30, labels match. Actual purchase+learned-craft fixtures conserve resources and cannot profit on those two paths."
+    ],
+    "remaining": [
+      "All120/every M0–M5/prior expansion retained/unaccepted. Ordinary main/home/Pan route and pause Save/exact-position reload/crash/progression/Master gates mandatory.",
+      "Markets225 cover arms/ammo/worked metal with bounded spare physical gear buybacks only; full ingredient/cook/healer tiers, advanced recipe-teaching breadth, every merchant/loot/sell/craft/arbitrage path, earnings/affordability, NPC directions and arrow material mesh/damage/recovery runtime remain unfinished.",
+      "222–223 legacy ambiguous service state remains partial; short saved-berth219–221 is not distant/offshore/sunken rescue recovery. Full geography/equipment/creatures/factions/sites/work/music remain.",
+      "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, not removed. No measured remaining ETA."
+    ],
+    "acceptance": "No original slot/active hour or milestone accepted. Ordinary inputs/Save/render/current-hash Master remain mandatory."
+  },
+  "regionalProvisions227229": {
+    "status": "source_implemented_runtime_pending_partial_economy",
+    "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+    "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
+    "record": "tracking/updates/regional-provisions-20261018.json",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 905,
+      "failed": 0,
+      "newTests": 19,
+      "durationMs": 126782.31276,
+      "completeFooter": true,
+      "okEntries": 905,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/provisions229-full-tap.txt",
+      "result": "verification/provisions229-full-result.json",
+      "scope": "Full LOCAL source/native service/dialogue, ingredient purchase/learned craft/hearth/Food and snapshot21/Continue plus JSON/Three/workflow/compile/package; NOT ordinary mouse/browser/render/offline pause Save/FPS/Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 55,
+      "failed": 0,
+      "newTests": 19,
+      "durationMs": 23113.036931,
+      "evidence": "verification/provisions229-focused-tap.txt",
+      "scope": "Full LOCAL source/native service/dialogue, ingredient purchase/learned craft/hearth/Food and snapshot21/Continue plus JSON/Three/workflow/compile/package; NOT ordinary mouse/browser/render/offline pause Save/FPS/Master acceptance."
+    },
+    "changes": [
+      "227 actual existing healer and tavern/registered inn contexts select authored settlement tiers, not actor display-name guessing or interior nearest-island coordinates. Finite per-station ingredient/remedy shelves use actual grain/herb/honey/fig/date/mushroom/lentils46/beans46/water36/raw-dish IDs, with greater city depth and regional cuisine ingredients. No new NPC, quest reward or starting item/plan.",
+      "227 saved G.world.provisionMarkets227 quantities initialize only when absent, refill bounded half-caps once per forward day, never rewind/elapsed-day loop or null/malformed reset. Both actual kitchen staff share that kitchen's stock; distinct kitchens/healers retain independent saved keys. No new automatic Save from new purchase/teaching functions.",
+      "228 existing cooks teach base KNOWLEDGE48 plans and town/capital additions from their actual served DISHES22 cuisine. Existing healer shelves/lessons give all four requested remedies at major markets with modest village/town routes; old known recipes retained, physical ingredients/hearth rules/effect potency unchanged. Native smith/composite/greatsword routes retained, not broadly rewritten.",
+      "229 actual tavern counter grouped Carry/Eat/Ingredients/Lessons entry and four-item pages, bound <=9 composed native buttons; meal transactions continue through native serveTavern118, consume one real purchased item and retain existing autosaves. New stock/lesson/counter choices revalidate exact game/menu/day/stock/registered actor/hub/culture/reach/status and one-use callbacks. Actual native16-silver treatment retained."
+    ],
+    "remaining": [
+      "All120/every M0–M5/prior request retained/unaccepted. Main campaign/QOL/physical BronzeAge first; ordinary main/Pan/home route, crash/progression and offline pause Save/exact-position reload/cold Continue/Master remain mandatory.",
+      "Economy remains PARTIAL: full smith/advanced regional mining/ore recipe teaching, all ordinary merchant/loot/sell/craft/arbitrage/earnings/affordability paths, every ingredient/service/region coverage, NPC directions and all arrow material meshes/damage/recovery still need actual work/acceptance. Unregistered/unsupported legacy inn/counter paths retain native fallbacks, not universal new-market coverage.",
+      "222–223 ambiguous legacy service death/follower/cargo/order origin still partial and preserved, not guessed/copied.219–221 short original-ramp realignment is not distant/large-angle/changed-dock/sunken/offshore captive recovery. Full geometry/equipment/creatures/factions/sites/work/music remain.",
+      "Runtime currently blocked locally by absent Chromium1234/system executables; latest older5bcd473b Actions runs fail without executed job steps/artifacts, no current generated GitHub playable download. Do not repeat hung downloads/Cloud/heavy runner or change account/privacy. Further8–10 performance and expandedTroy lower priority, retained. No measured remaining ETA."
+    ],
+    "acceptance": "No original slot/active hour/milestone accepted. Actual browser/ordinary pause Save/current-hash Master gates remain mandatory."
+  },
+  "captiveHarbour230232": {
+    "status": "source_implemented_runtime_pending_partial_recovery",
+    "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+    "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+    "record": "tracking/updates/captive-harbour-recovery-20261018.json",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 925,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 160948.58678,
+      "completeFooter": true,
+      "okEntries": 925,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/harbour232-full-tap.txt",
+      "result": "verification/harbour232-full-result.json",
+      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 46,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 18837.597464,
+      "evidence": "verification/harbour232-focused-tap.txt",
+      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    },
+    "changes": [
+      "230 at the actual original saved rescue dock, a finite earned war_horn29 can recall the same owned seaworthy BOAT from <=120 game units or a large heading mismatch. Original boarding/alighting/returning anchor, people, cursors, child/player positions, inventory, quest flags and rewards are not rewritten.",
+      "231 incremental16-sample-per-timestamp preflight checks starting turn, straight original approach and final saved yaw with actual native hull collision/bounds. Movement <=.12m/.03rad per50ms tick is swept at <=.025m/.005rad; new obstruction stops BEFORE that frame's movement. Boats are not teleported, recreated or re-anchored; no detour path, wreck resurrection or quest completion.",
+      "231 exact current game/boat/mesh/dock/anchor/people/return/landing/revision guards, ownership/hull/horn/danger/player departure stops, paused/dialogue holds, ordinary stop/restart and six-second horn cooldown. Transient plan/generator stays outside serialized G; native snapshot/base Continue/checkpoint21 preserve actual in-flight coordinates, restore cancels the job and fresh ordinary interaction restarts.",
+      "232 normal actual Rally company horn menu replaces its private ramp-blocked call with current rescue-recall/cancel choices only for this case; native follower orders and ordinary no-rescue boat calls retained. Original dock currentInts and actual findInt/tryInteract expose start/stop ashore, Go ashore still wins when mounted, short219–221 no-horn controls retained. No new programmatic Save or item/money/XP grant."
+    ],
+    "remaining": [
+      "Recovery PARTIAL: only original saved docks, owned seaworthy same vessel, earned finite horn and unobstructed <=120 straight approaches/turning space. Sunken/missing/replacement hulls, farther boats, changed original docks, routing around land/shoals and arbitrary offshore rescues remain unfinished. Without a horn, only old short219–221 realignment remains.",
+      "All120/every M0–M5/prior requirement retained/unaccepted. Ordinary full main/Pan/artifact/Alashiya/princess and captive home route, rendered child/ramp/boat contact/audio, offline pause-menu Save/exact-position reload/cold Continue/old saves and Master gates mandatory. Controlled native/Three/JSON fixtures do not establish these.",
+      "222–223 ambiguous legacy service records remain conservative/partial, not guessed/copied.224–229 market/pantry/cook/remedy source retained, full smith/mining/advanced recipe/economy/earnings/arrow coverage remains incomplete; full geography/equipment/creatures/factions/sites/work/music remain.",
+      "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, retained. Playwright package present but its expected Chromium1234/system paths absent; latest older5bcd473b jobs have no executed steps/artifacts, no current matching generated GitHub playable download. No hung browser/download/runner/account workaround. Remaining ETA unmeasured."
+    ],
+    "acceptance": "No original active-hour slot or M0–M5 milestone accepted; mandatory ordinary current-hash route/Save/render/Master gates remain."
+  },
+  "regionalSmith233235": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+    "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+    "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+    "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+    "ordinaryAcceptance": "pending",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 950,
+      "failed": 0,
+      "newTests": 25,
+      "durationMs": 152763.40934,
+      "completeFooter": true,
+      "okEntries": 950,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/smith235-full-tap.txt",
+      "result": "verification/smith235-full-result.json",
+      "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 74,
+      "failed": 0,
+      "newTests": 25,
+      "durationMs": 37456.832025,
+      "evidence": "verification/smith235-focused-tap.txt",
+      "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    }
+  },
+  "mineContracts236238": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "evidence": "tracking/updates/mine-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+    "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+    "ordinaryAcceptance": "pending",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 971,
+      "failed": 0,
+      "newTests": 21,
+      "durationMs": 174986.527334,
+      "completeFooter": true,
+      "okEntries": 971,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/mine238-full-tap.txt",
+      "result": "verification/mine238-full-result.json",
+      "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    }
+  },
+  "quarryContracts239240": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+    "evidence": "tracking/updates/quarry-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance.",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 984,
+      "failed": 0,
+      "newTests": 13,
+      "newTestsAcrossSuccessiveBatches": 34,
+      "durationMs": 186100.809724,
+      "completeFooter": true,
+      "okEntries": 984,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/quarry240-full-tap.txt",
+      "result": "verification/quarry240-full-result.json",
+      "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    }
+  },
+  "riverWork241243": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+    "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+    "evidence": "tracking/updates/river-work-20261018.json",
+    "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance.",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 1004,
+      "failed": 0,
+      "newTests": 20,
+      "durationMs": 209115.405638,
+      "completeFooter": true,
+      "okEntries": 1004,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/cargo243-full-tap.txt",
+      "result": "verification/cargo243-full-result.json",
+      "scope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance."
+    }
+  },
+  "egyptRecords244246": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+    "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+    "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+    "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "nilePassenger247249": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+    "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+    "evidence": "tracking/updates/nile-passenger-20261018.json",
+    "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+    "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+  },
+  "checkpointSafety250251": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+    "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+    "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  }
+}

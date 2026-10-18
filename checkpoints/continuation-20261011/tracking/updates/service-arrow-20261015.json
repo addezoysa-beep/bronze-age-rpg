@@ -1,0 +1,16 @@
+{
+ "id":"service-arrow-20261015",
+ "buildSha256":"85211cbc556ac80ef2ef7222ede769338116018551c18feb3660847faf7cc5a6",
+ "bytes":38177340,
+ "milestoneIds":["M0","M1","M2","M3","M5"],
+ "summary":"Repair coarse tavern route edges through furniture using swept fine target-directed search; preserve finite-fort arrow material through nock/release/recovery",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":152,"failed":0,"newRouteContracts":6,"newArrowContracts":3,"scope":"Available isolated source/executable/compile/package subset, not full baseline/runtime acceptance"},
+ "evidence":["scripts/tavern-route-sweep.test.mjs","scripts/npc-arrow-display-parity.test.mjs","scripts/current-candidate-integrity.test.mjs","docs/NEXT_RUN_SERVICE_ARROW_20261015.md"],
+ "runtime":{"status":"pending","required":"Current ordinary tavern entry/purchase/table service/rendered contacts; bow input/rendered nock/release/impact/recovery, offline pause Save/exact reload, reference Low old-save8–10 active attackers"},
+ "limitations":"Actual core source route blockage reproduced and repaired; historical software-CI15-second server/arrow timeouts may also reflect sparse simulation frames and are not declared resolved. NPC companion quiver consumption/general finite-ammo/damage integration still partial; no mesh-only acceptance of economy/AI.",
+ "blockers":"Local Chromium1234 absent/package present. Prior136ae20 has no runs after skip-CI, not a pass. Previous runner restriction requires owner action per oversight; no redundant reruns/account changes.",
+ "acceptedMilestones":0,
+ "next":"Current browser/Save/runtime gates, main campaign/natural opening/Pan and reference construction/combat profile; core Bronze Age before expanded Troy"
+}

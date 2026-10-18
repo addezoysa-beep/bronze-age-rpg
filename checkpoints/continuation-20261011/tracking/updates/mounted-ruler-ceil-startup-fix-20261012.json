@@ -1,0 +1,28 @@
+{
+  "id": "mounted-ruler-ceil-startup-fix-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "d0f566e873abfe9e3571e0dff07348497fb359a70c091bd50554a95d953b90cc",
+  "summary": "Safari screenshot identifies missing ceil (not cell) in tourSegmentSafe82 at startup. Use Math.ceil and remove injected ceil alias from the test fixture, which concealed the production defect. Retain startup stack diagnostics.",
+  "changedFiles": [
+    "scripts/mounted-ruler-tours-checkpoint.mjs",
+    "scripts/mounted-ruler-tours.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs"
+  ],
+  "evidence": [],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M3"
+  ],
+  "checks": {
+    "focusedMountedRulers": "6/6 passed without ceil global",
+    "browser": "Safari confirmation pending"
+  },
+  "bytes": 37971778
+}

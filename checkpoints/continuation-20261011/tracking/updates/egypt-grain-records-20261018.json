@@ -1,0 +1,133 @@
+{
+  "id": "egypt-grain-records-20261018",
+  "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+  "bytes": 38433758,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "STORY-01",
+    "EGYPT-01",
+    "LIFE-01",
+    "120-097",
+    "120-110",
+    "120-113",
+    "120-115",
+    "120-116"
+  ],
+  "summary": "244 actual two-chamber inquiry;245 physical once-only settlement;246 honest journal/selected objective",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from5c912dcf76f16035ab5fc275bfcd2bc6cf4c6890"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1019,
+    "passed": 1019,
+    "failed": 0,
+    "durationMs": 215807.966007,
+    "completeFooter": true,
+    "okEntries": 1019,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "log": "verification/grain246-full-tap.txt",
+    "newTests": 15,
+    "evidence": "verification/grain246-full-tap.txt",
+    "result": "verification/grain246-full-result.json"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 16,
+    "failed": 0,
+    "newTests": 15,
+    "durationMs": 13443.884459,
+    "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "evidence": "verification/grain246-full-tap.txt (matching named focused cases also included)"
+  },
+  "changes": [
+    "244 requires two distinct registered current Egyptian account chambers, matching dungeon reward tokens and the actual available clerk. Missing/duplicate/foreign/empty sites cannot count as physical evidence or open a paid inquiry. Opening and active-assignment gates remain; malformed archive records and valid old records are preserved.",
+    "245 settlement rechecks actual held seals and current game/world/archive/menu/clerk/site/definition context; consumes exactly one of each and preserves original public80/private110silver+65XP, extras and once-only completion. Direct stale settlement calls cannot bypass the current menu. Stored-only seals are not held evidence.",
+    "246 accepted journal and report preserve a separately selected objective, follow the current available clerk or existing city fallback, distinguish unavailable chambers from ready held evidence and retain native soup lessons/map hints. Legacy unknown resolutions are not invented. No main quest flag/relic/puzzle/reward redesign or new automatic Save."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": [
+      "Ordinary main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess/captive-home and Egyptian city/clerk/chamber/both-resolution routes remain pending; fixture-prepared six IDs do not prove six generated reachable cities or chamber/puzzle/loot availability.",
+      "Ordinary offline pause Save/exact-position reload, cold Continue/old saves, rendered hand/foot/rope/hull contacts/audio/reference Low8–10 and actual exact-hash Master acceptance remain pending. Browser package present, Chromium1234 executable absent; no matching GitHub-generated playable download/current-hash browser evidence.",
+      "River launch contracts and decorative two-barge loop remain partial: full manifests, quarry-to-dock cargo routing, physical destination unloading and requested upstream stone production are not implemented by241–243; no shared-animation count increase.",
+      "All120/every prior M0–M5 creature/faction/site/action/music/economy/gear/story scope remains retained and unaccepted; GEAR-01 failure retained. Main/QOL/core physical BronzeAge first; further8–10 stress and expandedTroy lower, not removed. Remaining ETA unmeasured."
+    ]
+  },
+  "package": {
+    "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+    "bytes": 38433758,
+    "zipSha256": "83316d3e4802ff96f8139056083df16e09eaed7aef8264e07eecc15ad74a5964",
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run",
+    "entries": 2
+  },
+  "interruptionRecovery": {
+    "recoveredHead": "5c912dcf76f16035ab5fc275bfcd2bc6cf4c6890",
+    "sourceFolder": "/workspace/scratch/378db630510c/resume-246-XdnfEJ",
+    "oldCheckoutPreserved": "/workspace/scratch/378db630510c/performance-checkpoint",
+    "interruptedHash": "a6e40ffdf3fdb98ed32aeac1c1782459cf6e33869fed37da578e972320762900",
+    "interruptedTests": "No surviving process/result; not claimed passed",
+    "result": "Reconstructed from durable13-test draft, restored journal wrapper and15tests, new exact24961859 candidate and fresh1019-pass suite",
+    "initialFailure": "First recovery build lacked unchanged sea-fort module; restored unchanged modules without overwriting recovered edits. Final exact rebuild passed.",
+    "promotedDraft": "Own previously published .draft.mjs promoted to .test.mjs; old draft removed from current feature head, recoverable at5c912"
+  },
+  "external": {
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "executedSteps": 0,
+      "artifacts": 0
+    },
+    "localBrowser": {
+      "package": "present",
+      "expectedExecutable": "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+      "executablePresent": false
+    },
+    "currentGithubGeneratedBuild": null
+  },
+  "remaining": [
+    "Ordinary main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess/captive-home and Egyptian city/clerk/chamber/both-resolution routes remain pending; fixture-prepared six IDs do not prove six generated reachable cities or chamber/puzzle/loot availability.",
+    "Ordinary offline pause Save/exact-position reload, cold Continue/old saves, rendered hand/foot/rope/hull contacts/audio/reference Low8–10 and actual exact-hash Master acceptance remain pending. Browser package present, Chromium1234 executable absent; no matching GitHub-generated playable download/current-hash browser evidence.",
+    "River launch contracts and decorative two-barge loop remain partial: full manifests, quarry-to-dock cargo routing, physical destination unloading and requested upstream stone production are not implemented by241–243; no shared-animation count increase.",
+    "All120/every prior M0–M5 creature/faction/site/action/music/economy/gear/story scope remains retained and unaccepted; GEAR-01 failure retained. Main/QOL/core physical BronzeAge first; further8–10 stress and expandedTroy lower, not removed. Remaining ETA unmeasured."
+  ],
+  "milestoneAcceptance": "none",
+  "recordedAt": "2026-10-18T15:17:18.957Z",
+  "next": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+  "postMetadataChecks": {
+    "status": "passed",
+    "passed": 11,
+    "failed": 0,
+    "durationMs": 236.008112,
+    "method": "node scripts/verify.mjs; node scripts/package-current-candidate.mjs; node --test --test-concurrency=1 scripts/workflow.test.mjs scripts/package-current-candidate.test.mjs",
+    "repositoryScope": "Unchanged14e1907f baseline and87 update records validated; not current candidate startup",
+    "negativeFixture": "Corrupt ZIP diagnostic is intentional rejection test; actual24961859 archive passed."
+  }
+}

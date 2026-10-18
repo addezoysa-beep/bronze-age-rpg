@@ -1,0 +1,15 @@
+{
+ "id":"cloth-cache-factory-profile-20261014",
+ "summary":"Cache only identical cloth-deformation inputs and profile active rig/enemy/dungeon factories without changing simulation or pose quality",
+ "buildSha256":"806eec410655648df86e2a247ff84c8038ecb2309e2aeecfb4d472c2716465f2",
+ "bytes":38150739,
+ "milestoneIds":["M0","M1","M2","M5"],
+ "localTests":{"passed":88,"failed":0,"scope":"Available isolated continuation contracts/compile; not full remote baseline suite or runtime acceptance","newClothContracts":3,"factoryContract":1},
+ "masterDelivery":{"status":"pending","evidence":"Authorized private PR29 implementation checkpoint"},
+ "masterReview":{"status":"pending"},
+ "runtime":{"status":"pending","required":"Exact-current ordinary startup/Save/exact Load, rendered clothing/pose/garment switch, Low reference old-save8–10 measurements"},
+ "evidence":["docs/CLOTH_CACHE_CHECKPOINT_20261014.md","scripts/cloth-pose-cache.test.mjs","scripts/load-factory-profile.test.mjs"],
+ "blockers":"Local Chromium1234 executable absent; current remote jobs end before steps/logs, cause not established. No benchmark or game-lag fix claimed.",
+ "acceptedMilestones":0,
+ "next":"Current-hash full source/browser results; profile factory/actor/visual costs and keep real Save/server/arrow/natural campaign gates open"
+}

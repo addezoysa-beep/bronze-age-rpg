@@ -1,0 +1,42 @@
+{
+  "buildSha256": "de232a9f53e24672152a01b7e90e1a3e8f9421d31bdf2bf523c4bea4aa524cea",
+  "bytes": 38085986,
+  "status": "implemented-runtime-pending",
+  "supersedesFailedStartupBuild": "add0bd26bbef5aefabe610f120cd3ffdaebdfb3b43133d36b4b82528441ea16e",
+  "changes": [
+    "Correct dragon triangle cardinality",
+    "HUD selected arrow count and total",
+    "Bracket/button/Alt-wheel ammunition selection",
+    "Projectile damage independent of melee height/duck context",
+    "Shield block feedback",
+    "Replace undefined tent-camp K.hide color with explicit hide RGB; audit all patch palette references"
+  ],
+  "pending": [
+    "Prior e96 startup failed undefined tent-camp hide color; verify corrected de232a9f",
+    "Ordinary exact-build startup",
+    "Crouched FP/TP ranged hit/miss/shield evidence",
+    "Distant-hit perception repair",
+    "Ordinary offline Save/reload",
+    "Crime trainer and populated jail/NPC interaction expansion"
+  ],
+  "milestoneAcceptance": "pending",
+  "id": "arrow-hud-startup-20261013",
+  "milestoneIds": [
+    "M1",
+    "M2"
+  ],
+  "summary": "Correct startup dragon wing cardinality, add selected-arrow HUD and non-consuming cycling, isolate projectile damage from melee-only restrictions.",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending",
+    "evidence": null
+  },
+  "tests": {
+    "command": "node --test --test-concurrency=2 scripts/*.test.mjs",
+    "passed": 68,
+    "failed": 0,
+    "scope": "Local focused source/executable contracts only; earlier e96 exact remote source suite 366 passes; current remote/runtime pending."
+  }
+}

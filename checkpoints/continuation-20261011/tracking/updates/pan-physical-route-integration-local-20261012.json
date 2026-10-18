@@ -1,0 +1,28 @@
+{
+  "id": "pan-physical-route-integration-local-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78",
+  "summary": "Integrates the reviewed Cave of Pan physical cargo-tablet route into the aggregate checkpoint. Captain completion alone does not advance Daedalus; normal chest loot, old-save migration and duplicate prevention are covered by focused fixtures.",
+  "changedFiles": [
+    "scripts/pan-tally-checkpoint.mjs",
+    "scripts/pan-tally.test.mjs",
+    "scripts/browser-pan-scenario.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json"
+  ],
+  "evidence": [
+    "verification/records/pan-physical-route-integration-local-20261012.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M4"
+  ]
+}

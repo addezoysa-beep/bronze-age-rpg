@@ -1,0 +1,107 @@
+TAP version 13
+# Subtest: 259 explicit current candidate selection uses actual matching bytes/manifest/tracker, legacy default remains baseline
+ok 1 - 259 explicit current candidate selection uses actual matching bytes/manifest/tracker, legacy default remains baseline
+  ---
+  duration_ms: 110.598868
+  type: 'test'
+  ...
+# Subtest: 259 changed candidate bytes, tracker size/hash, manifest identity or missing manifest never fall back to baseline
+ok 2 - 259 changed candidate bytes, tracker size/hash, manifest identity or missing manifest never fall back to baseline
+  ---
+  duration_ms: 2.914162
+  type: 'test'
+  ...
+# Subtest: 259 explicit wrong/missing metadata and outside paths or symlinks cannot become current release inputs
+ok 3 - 259 explicit wrong/missing metadata and outside paths or symlinks cannot become current release inputs
+  ---
+  duration_ms: 0.645708
+  type: 'test'
+  ...
+# Subtest: 259 matching identity still rejects external or malformed inline code before gate acceptance
+ok 4 - 259 matching identity still rejects external or malformed inline code before gate acceptance
+  ---
+  duration_ms: 2.116897
+  type: 'test'
+  ...
+# Subtest: 259 candidate hash selection cannot waive exact review, dependencies, missing evidence or faction roster
+ok 5 - 259 candidate hash selection cannot waive exact review, dependencies, missing evidence or faction roster
+  ---
+  duration_ms: 1.235714
+  type: 'test'
+  ...
+# Subtest: 259 CLI argument parsing accepts only legacy update or explicit candidate option
+ok 6 - 259 CLI argument parsing accepts only legacy update or explicit candidate option
+  ---
+  duration_ms: 0.822367
+  type: 'test'
+  ...
+# Subtest: 259 actual existing CLI selects exact generated candidate but still blocks pending review/milestones; never rewrites baseline
+ok 7 - 259 actual existing CLI selects exact generated candidate but still blocks pending review/milestones; never rewrites baseline
+  ---
+  duration_ms: 328.954816
+  type: 'test'
+  ...
+# Subtest: 259 legacy CLI still gates baseline and malformed candidate options fail closed
+ok 8 - 259 legacy CLI still gates baseline and malformed candidate options fail closed
+  ---
+  duration_ms: 149.464167
+  type: 'test'
+  ...
+# Subtest: Complete current-build evidence passes
+ok 9 - Complete current-build evidence passes
+  ---
+  duration_ms: 2.205437
+  type: 'test'
+  ...
+# Subtest: Pending master delivery and review cannot release
+ok 10 - Pending master delivery and review cannot release
+  ---
+  duration_ms: 0.519533
+  type: 'test'
+  ...
+# Subtest: Stale review and acceptance evidence cannot release
+ok 11 - Stale review and acceptance evidence cannot release
+  ---
+  duration_ms: 0.254844
+  type: 'test'
+  ...
+# Subtest: Unaccepted prerequisite blocks dependent milestone
+ok 12 - Unaccepted prerequisite blocks dependent milestone
+  ---
+  duration_ms: 0.203849
+  type: 'test'
+  ...
+# Subtest: Failed tests and missing reports block release
+ok 13 - Failed tests and missing reports block release
+  ---
+  duration_ms: 0.285529
+  type: 'test'
+  ...
+# Subtest: Unapproved expanded faction roster blocks M3
+ok 14 - Unapproved expanded faction roster blocks M3
+  ---
+  duration_ms: 0.191461
+  type: 'test'
+  ...
+# Subtest: Dependency cycles and fabricated passed tests are rejected
+ok 15 - Dependency cycles and fabricated passed tests are rejected
+  ---
+  duration_ms: 0.226112
+  type: 'test'
+  ...
+# Subtest: Inline syntax errors and external script dependency are rejected
+ok 16 - Inline syntax errors and external script dependency are rejected
+  ---
+  duration_ms: 1.387026
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 688.561681
+

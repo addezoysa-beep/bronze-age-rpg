@@ -1,0 +1,17 @@
+{
+  "test": "offline-browser-smoke",
+  "status": "failed",
+  "buildSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "gameFile": "dist/Wine-Dark-Sea-Save-Fix.html",
+  "recordedAt": "2026-10-12T00:19:05.146Z",
+  "scope": "Desktop startup, visible scene, input movement, manual save/reload, king quest, nested wagon-guide mouse choices, paid Ur travel and destination manual Save/reload. Does not accept a milestone.",
+  "environment": {
+    "viewport": "1365x768",
+    "offline": true
+  },
+  "pageErrors": [],
+  "externalRequests": [],
+  "checks": [],
+  "error": "browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "shared-plough-actions-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "e9101c26c369d17eb911a5ca644d02c14422456a29da153679b0220059a0c0bf",
+  "summary": "Local TASK-60/WORK-60 checkpoint adds shared yoke/drill preparation, draft-plough guidance, seed metering and furrow levelling at a separate modeled Ur household field. Source, repository and workflow checks pass; rendered navigation/contact and ordinary pause Save/reload acceptance remain pending.",
+  "changedFiles": [
+    "scripts/shared-plough-actions-checkpoint.mjs",
+    "scripts/shared-plough-actions.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/ROADMAP.md",
+    "docs/WORK_AND_LOCK_PRIORITY_20261011.md",
+    "tracking/milestones.json",
+    "verification/records/shared-plough-actions-local-20261011.json"
+  ],
+  "evidence": ["verification/records/shared-plough-actions-local-20261011.json"],
+  "masterDelivery": {"status": "pending"},
+  "masterReview": {"status": "pending"},
+  "milestoneIds": ["M0", "M2", "M3", "M5"]
+}

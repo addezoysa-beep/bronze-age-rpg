@@ -1,0 +1,65 @@
+{
+  "id": "generated-release-input-20261018",
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "bytes": 38464267,
+  "milestoneIds": [
+    "M0"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "120-119"
+  ],
+  "summary": "259 explicit generated-candidate input for existing release CLI, actual file/manifest/tracker identity and three-inline compile; all original review/evidence/milestone gates retained",
+  "changedFiles": [
+    "scripts/release-candidate-input.mjs",
+    "scripts/release-candidate-input.test.mjs",
+    "scripts/release-gate.mjs"
+  ],
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "draft": true,
+    "merged": false,
+    "evidence": "Fourteen exact source/handoff readbacks, expected-head nonforce publication from96d595e70dc2a20038a3e5650d1e31eec77f0a2b"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1100,
+    "passed": 1100,
+    "failed": 0,
+    "durationMs": 254374.088223,
+    "completeFooter": true,
+    "okEntries": 1100,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "log": "verification/terrain259-full-tap.txt",
+    "newTests": 20
+  },
+  "runtime": {
+    "status": "not_applicable_workflow_only"
+  },
+  "milestoneAcceptance": "none",
+  "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 16,
+    "newTests": 8,
+    "durationMs": 688.561681,
+    "evidence": "verification/release259-focused-tap.txt"
+  },
+  "releaseGate": {
+    "status": "blocked",
+    "command": "node scripts/release-gate.mjs tracking/updates/puzzle-terrain-contact-20261018.json --candidate dist/Wine-Dark-Sea-Combined-Cinematic.html",
+    "evidence": "verification/terrain259-release-gate.json",
+    "scope": "Actual current generated hash, same original acceptance/review/evidence/roster rules, no baseline replacement or waiver."
+  }
+}

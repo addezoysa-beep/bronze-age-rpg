@@ -1,0 +1,114 @@
+{
+  "id": "main-route-directions-20261017",
+  "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+  "bytes": 38345088,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-8",
+    "120-70",
+    "120-110",
+    "P0-main-story",
+    "RESOURCE-DIRECTIONS"
+  ],
+  "summary": "214 current-area/main-route markers and live king/inventor/Oracle positions;215 current-speaker/resource-service direction transactions",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+    "draft": true,
+    "merged": false,
+    "evidence": "Private owned PR29 source advanced with expected-head lease;5 exact source/test readbacks match and PR body updated. Metadata/evidence publication follows source. No merge/release/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 825,
+    "failed": 0,
+    "newTests": 10,
+    "durationMs": 100940.869241,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "Full LOCAL serial source/executable/native dialogue+map hint/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+    "evidence": "verification/directions215-full-tap.txt",
+    "result": "verification/directions215-full-result.json",
+    "completeFooter": true,
+    "okEntries": 825,
+    "exitCode": 0
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 39,
+    "failed": 0,
+    "newTests": 10,
+    "scope": "LOCAL actual native dialogue/map-hint callback and objective fixtures, not ordinary browser",
+    "evidence": "verification/directions215-focused-tap.txt",
+    "durationMs": 4617.220736
+  },
+  "changes": [
+    "Known main leads use actual current NPC position, or actual current dungeon exit before an outdoor/other-room objective. Pan internal target/physical storage/lock lesson/optional work/actual192 fortress stages remain untouched. Labyrinth exterior marker suppressed inside maze, not replaced by an undiscovered key solution.",
+    "Resource help/directions use actual189 speaker/game/flags/foot/range/menu guards; current actor membership and current service registration checked again at selection. Live moved healer/tavern entrance is marked, removed/dead/hostile/recruited staff or removed/blocked well rejected. Replaced-menu and repeated direction callbacks inert.",
+    "No quest/discovery unlock/item/reward/damage/enemy-count changes. Successful native map hint retains its original snapshot; no new automatic Save and mandatory ordinary pause Save/exact reload remain."
+  ],
+  "initialFailures": [
+    "New focused suite first9/10: directly retained direction callback could mark after different menu replaced original. Added exact DLG lines/choices identity and one-use latch, then39/39 composed focused pass.",
+    "First full suite exit0/825pass footer observed but middle tool stream truncated. Reporter-destination repeat exited0 with only37 captured entries/no footer and was excluded. Final capture-source-evidence.mjs child-stream archive verifies all825 entries/complete footer/exit0 and unchanged exact game hash."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master"
+  },
+  "external": {
+    "browser": "Playwright package available, Chromium1234 executable absent on2026-10-17; no failed download repeated",
+    "actions": "Latest38711529714/38711529696/38711522032 remain older5bcd473b failures; latest inspected browser/repository jobs no steps, artifacts empty. No current-head ordinary browser evidence.",
+    "parentHead": "fd8a73b99f27d6669f0cd3482048031e80b55a48",
+    "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+    "sourceReadbacks": [
+      {
+        "path": "scripts/main-route-directions-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/main-route-directions.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-continuation.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-current.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/current-candidate-integrity.test.mjs",
+        "equal": true
+      }
+    ]
+  },
+  "remaining": [
+    "Full120 tasks/every M0–M5/prior request retained, no slot/milestone accepted",
+    "Critical ordinary main-route/Save/render/Master gates",
+    "Moved/offshore rescue, service saved identity migration, full geometry/equipment/economy/creatures/factions/work/music",
+    "Area-aware script-school/relic-stone/storage guidance not covered by214 known-title routes; audit and implement separately."
+  ],
+  "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or a delivery ETA",
+  "evidence": [
+    "scripts/main-route-directions.test.mjs",
+    "verification/directions215-full-tap.txt",
+    "docs/NEXT_RUN_MAIN_DIRECTIONS_20261017.md",
+    "verification/directions215-full-result.json",
+    "verification/directions215-focused-tap.txt"
+  ],
+  "package": {
+    "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+    "bytes": 38345088,
+    "zipSha256": "89427c2ccd5fdd0349a1a2f2cdf786f8e5fa2100eea24cc37166f4cd0d351c50",
+    "directory": "deliveries/6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+    "checks": "Exact direct/root/dist HTML, two-entry ZIP/manifest, extracted SHA/bytes and3inline compilation pass. Startup/user-download accessibility/GitHub-generated identity not run."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "captive-berth-recovery-20261017",
+  "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+  "bytes": 38353526,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "DEEDS-163",
+    "120-98",
+    "120-110",
+    "120-116"
+  ],
+  "summary": "219 nearby saved-ramp boat realignment;220 ordinary cancel/resume/native repair/current-context controls;221 exact saved berth endpoints and unloading tolerance edges",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+    "draft": true,
+    "merged": false,
+    "evidence": "Owned private PR29 source advanced under expected-head lease;8 exact source/test readbacks match. No merge/release/ordinary/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 851,
+    "failed": 0,
+    "newTests": 16,
+    "durationMs": 186289.828183,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/mooring221-full-tap.txt",
+    "result": "verification/mooring221-full-result.json",
+    "completeFooter": true,
+    "okEntries": 851,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 43,
+    "failed": 0,
+    "newTests": 16,
+    "durationMs": 12296.128441,
+    "evidence": "verification/mooring221-focused-tap.txt",
+    "scope": "LOCAL actual native interaction arbitration/crossing/repair callbacks and actual Three ship/passenger transforms/JSON fixtures, not ordinary browser/render"
+  },
+  "changes": [
+    "Only a moved owned/seaworthy original boat within6m/.35rad of a valid saved original berth can be eased back from a nearby grounded shore interaction. No re-anchor, ship replacement, child/player teleport, item/cost/reward/quest change or extra Save.",
+    "Actual boat moves<=.03m and.0075rad per capped tick, with <=.01m/.002rad intermediate native hull/bounds collision samples before any numeric/mesh movement; ship yaw/xz synchronized, pitch/roll retained. Duration bounded30 simulated seconds. Movement stops on changed game/record/phase/revision/people/anchor/ship/dock/boat, unavailable ownership/hull/player/children/danger/stream/race.",
+    "Children and original ramp cursors held without even native zero-time progress while alignment runs; normal sequential boarding/alighting/reverse route resumes only afterward. Short recovery does not invent landing/reunion or offshore rescue.",
+    "Ordinary world start/cancel, fresh restart and paused/talk hold; transient job cleared at new game/restore, saved partial boat/child state remains. Reused native interaction arrays are not polluted. Existing actual native hull repair costs3wood OR20silver and Go ashore priority retained.",
+    "221 reaches original saved anchor/heading within1e-8, not just loose crossing tolerance; ordinary recovery also covers native-fixed distance/heading drift just outside unloading's stricter.35m/.04rad berth. No change to saved anchor, native landing limits or general boat physics."
+  ],
+  "initialFailures": [
+    "First new13-predecessor suite9/12: native dt0 advanced a reverse cursor, old hold feedback hid obstruction reason, reused interaction array retained stale start/cancel handles. Held children/cursors without calling native progression, persisted current-context stop feedback, and copied only the eligible interaction list before adding choices. No assertions weakened.",
+    "Preliminary39 focused pass belongs to pre-final hull-service-preservation sourceee7939cd. Added a real native hull repair/HUD/availability regression and source guards, final40/40 pass for922def50.",
+    "During frozen pre221 full suite, three separate boundary draft checks reproduced early termination.605m displacement and native-fixed unloading distance/heading edges (0/3). Integrated221 exact endpoint/needs predicate; final43 focused pass. Draft tests were outside the captured848 list; final includes all three."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary moved-nearby boat during boarding/unloading/reverse crossing, actual mooring controls/collision/child deck and ramp contact, pause Save/exact-position reload/cold Continue/old saves and full home-route/Master"
+  },
+  "remaining": [
+    "Distant/more-than6m boats, changed dock geometry, large heading changes, sunken/offshore/lost boats remain unsupported by this short realignment checkpoint; no blanket rescue-complete claim.",
+    "All120/every M0–M5/prior request retained and unaccepted; ordinary main-route/Save/render/Master gates open.",
+    "Safe service saved-name migration, full geometry/equipment/economy/creatures/factions/sites/work/music and lower-priority8–10 performance/expandedTroy remain."
+  ],
+  "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or an ETA",
+  "evidence": [
+    "verification/mooring221-focused-tap.txt",
+    "verification/mooring221-full-tap.txt",
+    "docs/NEXT_RUN_CAPTIVE_MOORING_20261017.md",
+    "verification/mooring221-full-result.json"
+  ],
+  "preliminaryFullSuite": {
+    "buildSha256": "922def5049da0a2162f3708612f98eedd28b38e9ccf2c26763839580ec6c21c5",
+    "passed": 848,
+    "failed": 0,
+    "durationMs": 180089.564984,
+    "evidence": "verification/mooring220-full-tap.txt",
+    "result": "verification/mooring220-full-result.json",
+    "scope": "Pre221 LOCAL exact hash only, not borrowed for final221"
+  },
+  "package": {
+    "gameSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+    "bytes": 38353526,
+    "zipSha256": "2143eb41f5084bcfa72a42bcc026356caf862e8f6de23468ca27d5af753b6006",
+    "directory": "deliveries/5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+    "exactHtmlAndManifestEntries": 2,
+    "threeInlineScriptsCompile": true,
+    "baselineToCurrentIdentity": "passed",
+    "ordinaryStartupAssetDecodeDownloadAccessibility": "not_verified"
+  },
+  "external": {
+    "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+    "parentHead": "5bc9a715d6604b9b8f3cc2e43fe6fe6df707eb5e",
+    "sourceReadbacks": [
+      {
+        "path": "scripts/captive-berth-recovery-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/captive-berth-recovery.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/captive-berth-boundary.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/captive-berth-harness.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/captive-hold-repair-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-continuation.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-current.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/current-candidate-integrity.test.mjs",
+        "equal": true
+      }
+    ],
+    "currentGithubGeneratedBuild": null,
+    "priorActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "older5bcd473b",
+      "status": "completed_failure",
+      "inspectedJobs": [
+        116343817505,
+        116343817574
+      ],
+      "steps": [],
+      "artifacts": []
+    },
+    "localBrowser": "Playwright present; Chromium1234 and usual system browsers absent; no repeated download/Cloud/heavy runner workaround"
+  }
+}

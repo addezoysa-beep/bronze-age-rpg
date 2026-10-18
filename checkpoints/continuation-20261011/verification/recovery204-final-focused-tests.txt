@@ -1,0 +1,43 @@
+✔ actual native child dialogue starts a visible sequential ramp walk, not a transport flag or teleport (151.992862ms)
+✔ moving/wrong/blocked/unowned berth, hostile approach and occupied rear deck refuse boarding without consumption (677.564875ms)
+✔ boarding holds native embark, sailing and horn controls; pause/departure/danger stop walking and resume without moving player (102.410502ms)
+✔ aboard actors follow the actual Three ship-local transform, yaw/pitch/roll and scale without joining teleporting party (115.139882ms)
+✔ partial ramp and aboard records survive JSON restore without shore/fort snapping or relocating player (208.465314ms)
+✔ stale native board button cannot close a replaced dialogue or board from a replaced save, changed route or remote actor (361.804471ms)
+✔ malformed boat state falls back to retained safe shore record without granting boarding or rewards (569.303582ms)
+✔ ramp meshes reuse geometry during walking, are removed on completion, and post-visual deck positioning uses final floating transform (112.243985ms)
+✔ actual captured captain horn-menu callback also refuses a moving call while children cross, not only exported global alias (96.183759ms)
+✔ rear passenger seats and upper crossing are checked against actual native makeShip deck, cargo and gunwale primitives (93.075839ms)
+✔ lost hull directions only mention existing nearby harbour repairs; offshore hold never invents an available rescue or home completion (147.935591ms)
+✔ hull-loss restore keeps both actual saved crossing positions instead of leaving initial fort actors, with bounded repeated feedback (218.252783ms)
+✔ native repair remains selectable during a damaged boarding hold, conserves native wood/silver cost and rejects stale second charge (208.349071ms)
+✔ insufficient native repair funds, replaced save, unavailable ownership and remote player never consume resources or resume crossing (394.116588ms)
+✔ native findInt still selects Go ashore during damaged unloading rather than an impossible cancel prompt; moved hull only holds saved children (125.229191ms)
+✔ new obstruction and externally moved hull stop partial unloading without relocation or false home; clearing obstruction resumes (144.545662ms)
+✔ reunited saved state restores actual household footing and never repeats aid; absent/malformed landing witness cannot fabricate home (189.254952ms)
+✔ distant/dead/hostile/recruited/interior or unrelated kin and missing child cannot complete reunion (1311.631072ms)
+✔ native currentInts harbour choice unloads nearer child first with bounded reverse ramp walking and no player/inventory/story/reward movement (143.673139ms)
+✔ wrong port/berth/heading, hull loss, danger and obstructed boards refuse unloading without granting shore or moving actors (796.372649ms)
+✔ pause, player departure and danger hold unloading; native movement, embark and horn remain held until both are ashore (116.079548ms)
+✔ partial unloading and ashore JSON restore retain actual saved footing, no Watchtower or family teleport; changed berth holds safely (257.848832ms)
+✔ stale harbour interaction cannot unload from a replaced save/revised boat or remote player (337.821995ms)
+✔ actual child dialogue marks real family exterior and follows only player-walked shore/dock route; kin needs both nearby children (202.675478ms)
+✔ actual captured guardian dialogue reunites only physically nearby children; existing aid once only and no extra completion reward (408.764621ms)
+✔ home callbacks cannot close replacement menus, start remote follow or reunite after replaced save, changed route or distant child (780.829445ms)
+✔ actual native findInt and tryInteract select the harbour ramp ahead of zero-distance Go ashore without forced input (118.912692ms)
+✔ cold saved boat coordinates align the actual ship mesh before captive restore, including held alighting controls (252.992982ms)
+✔ ordinary cancellation retraces partial boarding to the real pier without player/item/story/reward teleport or Save (508.212061ms)
+✔ partial unloading turns back aboard in reverse order, never grants landing/reunion and can restart unloading (606.866951ms)
+✔ pause, danger, player departure, obstruction and moved boat hold return in place; cleared ordinary interruptions resume (261.515807ms)
+✔ returning phases survive partial JSON/cold-mesh restore without a child/player snap or false completion; new game clears state (302.536577ms)
+✔ invalid/missing return records fail closed and unavailable actor/boat/danger cannot start cancellation (887.335022ms)
+✔ stale ordinary return interactions cannot act after replaced save, changed revision or departed player (288.861337ms)
+✔ actual native findInt/tryInteract offers return instead of zero-distance Go ashore during unloading and guards controls while retracing (129.076557ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12355.72956

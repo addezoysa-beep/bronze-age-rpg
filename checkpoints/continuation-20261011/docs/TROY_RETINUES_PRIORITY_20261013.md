@@ -1,0 +1,11 @@
+# Troy retinues and production order — October13 late evening
+
+User-approved requirement: Agamemnon, Menelaus and Odysseus must accompany Achilles in the coalition with their own distinct retinues ready to invade Troy. Presence at home regions, a shared fleet camp or names in council dialogue do not satisfy independent leaders/retinues at the siege. Preserve each ruler's regional quest access with coherent travel/fallback, not duplicate simultaneous royalty.
+
+Greek leaders and forces require distinct impressive regional armor, helmets, cloaks and legal weapon loadouts, actual rigs/actions and multiple equipment-driven archetypes. Elite Trojan soldiers wear whitish-gold armor, matching capes and distinctive grand helmets as a visual foil to darker Myrmidon equipment. Record material/quality/name identities honestly; a white-gold visual does not automatically mean an invented alloy or universally high-tier stats. Gear must be obtainable/equippable with working player meshes, loot and save state where authorized.
+
+The Trojan quest is NOT complete/accepted: source includes troyCouncil peace votes and war siege/standard/reward paths, Myrmidon and fleet camps, but full ordinary progression of both branches, leader-retinue integration, actual visual quality, hostility and Save gates remain open. Do not answer that the whole quest build-out is finished.
+
+Priority order: main-quest and quality-of-life fixes first; visible Bronze Age civilization fixtures/additions next (highest priority below those fixes); then produce remaining requested VFX and soundtrack assets promptly, complete their integration/decoding/render/audio/concurrency/package checks, and continue remaining120-hour dependency-ready tasks. Independent asset preparation can occur during checks without modifying a candidate under test. Preserve all earlier soundtrack totals, specific twelve-score allocation, creature/faction/site/work coverage and publication hold. VFX generation is actual effects/assets integrated into the engine, not concept imagery or mislabeled existing effects.
+
+Map to plan hours11/26/51–58/83/85/86/94/97/106–109/113/118–119. All pending until exact-build ordinary and rendered evidence; do not let the120-hour target silently drop or shrink this scope.

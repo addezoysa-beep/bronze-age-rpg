@@ -1,0 +1,16 @@
+{
+ "id":"boat-call-draft-20261015",
+ "buildSha256":"765bb3890b44d0e4e1b0287865c57a6f8d45e6319db274ae45efa4a6f8ee467a",
+ "bytes":38207582,
+ "milestoneIds":["M0","M5"],
+ "summary":"Captain’s Rally Horn harbour boat call: bounded clear-channel planning/movement and existing ownership/loot/snapshot safeguards; ordinary runtime gates pending",
+ "masterDelivery":{"status":"delivered","commit":"3b518d78b01a6d483a403f89aafe02e35e4bf872","evidence":"https://github.com/addezoysa-beep/bronze-age-rpg/pull/29"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":609,"new":7,"fullSuite":"passed609/609; node --test --test-concurrency=2 scripts/*.test.mjs","scope":"Full restored local source/executable/workflow/compile/package fixtures; native hull/drop/snapshot and builder/inline compilation, not ordinary browser gameplay","evidence":"verification/boat-call-full-tests.txt","durationMs":32776.771838},
+ "publication":"source delivered to private draft PR29 at3b518d78; fallback ebc54234 unchanged; CI explicitly skipped under recorded runner restriction, not a pass",
+ "repositoryValidation":{"status":"passed","scope":"baseline14e unchanged,3 inline scripts,6 milestones and68 update records validated; current aggregate exact reconstruction also passed"},
+ "delivery":{"htmlBytes":38207582,"zipSha256":"a9ac3f7dd8b0846b29203de160fdd7792f5d55f26d6ce7d7b0fd148755d376c6","archiveEntries":2,"localHtmlZipIdentity":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","githubGeneratedIdentity":"not_run","userDownloadAccessibility":"not_run","githubBuildDownload":"unavailable"},
+ "changedFiles":["scripts/captain-boat-call-patch.mjs","scripts/captain-boat-call.test.mjs","scripts/build-continuation.mjs","scripts/build-current.mjs","scripts/current-candidate-integrity.test.mjs"],
+ "runtime":"pending ordinary menu/acquisition/boarding/render/audio/offline Save/exact reload/old-save Low8–10/Master",
+ "next":"docs/NEXT_RUN_BOAT_CALL_20261015.md; ordinary acquisition/P-menu/boat/render/audio/boarding/Save and critical main/QOL/Low8–10 gates"
+}

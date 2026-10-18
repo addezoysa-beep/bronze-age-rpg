@@ -1,0 +1,9 @@
+import fs from 'node:fs';import vm from 'node:vm';import {provisionsHarness} from './regional-provisions-harness.mjs';import {regionalSmithWorkshopPatch} from './regional-smith-workshop-patch.mjs';import {rangedConstructionPatch,rangedCraftingPatch} from './ranged-construction-patch.mjs';
+const seed=fs.readFileSync(new URL('../recovered/Cinematic-Lock-Lesson.html',import.meta.url),'utf8'),lines=seed.split('\n');
+function line(p){const s=lines.find(l=>l.startsWith(p));if(!s)throw Error('Missing native '+p);return s;}
+export function smithHarness(patched=true){const h=provisionsHarness(),c=h.c;Object.assign(c,{equipHand(){},newGame(){},openBag(){c.STATE='bag';},SMELTERS:[],PICKS:[]});
+vm.runInContext(line('for(const [mat,key]of Object.entries({wood:')+'\n'+line('RECIPES.bronzebar=')+'\n'+line('function nearSmelter(')+'\n'+line('const forgeCanCraftBefore='),c);
+vm.runInContext([...seed.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/gi)][1][1],c);
+Object.assign(c,{updVisuals(){},FIRE48:[],PH:{armR:{},armL:{},spine:{rotation:{}}},armIK(){},sin:Math.sin,cos:Math.cos});vm.runInContext(line('const craftVisual48Before='),c);
+vm.runInContext(rangedConstructionPatch,c);vm.runInContext(rangedCraftingPatch,c);if(patched)vm.runInContext(regionalSmithWorkshopPatch,c);return h;}
+export function installSmithSnapshot233(c){Object.assign(c,{CAM:{},FIRST_PERSON:false,SHEEP:[],ENEMIES:[],BOAT:{},HORSE:{x:0,z:0},DUN:{},DG:null,OVCH:[],LOC:{start:{x:0,z:0}},removeEnemy(){},refreshWeapon(){},setArea:a=>c.AREA=a,applyBoat21(){},mobKey:()=>'',hudQuest(){}});const at=seed.indexOf('function continueGame(){');vm.runInContext(line('function snapshot(){')+'\n'+seed.slice(at,seed.indexOf('\nfunction ',at+15))+'\n'+line('const snapshot21Before=snapshot;')+'\n'+line('const continue21Before=continueGame;'),c);}

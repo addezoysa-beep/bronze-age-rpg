@@ -1,0 +1,41 @@
+{
+  "id": "ikaria-workplaces-local-20261011",
+  "recordedAt": "2026-10-11T11:12:46Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "04327a8e813c087d692102a1e29e907e7a670b81a2ed8d50553772c60457bc9e",
+  "bytes": 37834662,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {
+    "passed": 97,
+    "failed": 0,
+    "command": "node --test scripts/*.test.mjs"
+  },
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "implemented": [
+    "Ikaria farmers and laborers receive unique reserved work slots beside actual WHEAT_PATCHES instead of three changing synthetic offsets",
+    "Fishers, traders, potters and weavers resolve to inspected Ikaria dock, market, smithy, crafting bench, loom and dye-vat anchors with multiple occupancy slots",
+    "Work targets remain stable from 06:00 to 18:00; workers face the workstation on arrival and retain bounded dwell cycles",
+    "Reservations prevent two living workers from owning the same station slot and can be reclaimed after an owner dies",
+    "A worker blocked away from a station for six seconds releases it and selects another valid reserved slot instead of retrying forever",
+    "Opening actors, Phokas, Lykos, guards, herders, court, tavern, guild, route, service and quest-specialized actors retain their prior schedules"
+  ],
+  "runtime": "Not run: no usable Chromium executable is present. No rendered route, obstacle recovery, workstation contact, animation attachment, Low-performance or ordinary Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "This is a narrow Ikaria routing/occupancy checkpoint; it does not implement the planned thirty-to-forty shared player/NPC task animations",
+    "Existing arm poses are reused at the bound station; tool/prop contact and clothing/hand attachment remain rendered acceptance work",
+    "Other regions retain their current schedules and require separate coverage",
+    "Paid herder/quarry contracts, synchronized quarry teams and river cargo routes are not implemented"
+  ],
+  "nextActions": [
+    "Render representative farmer, fisher, market, loom, dye, bench and smithy routes for a full day using ordinary play",
+    "Verify arrival offsets/facing, blocked-station recovery, no perpetual pacing, conversation return and Low-performance behavior",
+    "Run ordinary pause Save/reload while a worker is traveling and dwelling; verify exact player position and safe schedule restoration",
+    "Implement the shared task/action framework and first actual field/shepherd job cluster without counting speed variants"
+  ],
+  "milestoneAcceptance": "none"
+}

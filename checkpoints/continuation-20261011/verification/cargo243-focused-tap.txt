@@ -1,0 +1,136 @@
+TAP version 13
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 1 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 2140.649665
+  type: 'test'
+  ...
+# Subtest: native tow/pole feet fall outside actual pier width; repaired player and NPC stations use its existing walkable surface
+ok 2 - native tow/pole feet fall outside actual pier width; repaired player and NPC stations use its existing walkable surface
+  ---
+  duration_ms: 713.167577
+  type: 'test'
+  ...
+# Subtest: missing, shifted or unsafe pier blocks work and invalidates captured prompts without fabricating ground
+ok 3 - missing, shifted or unsafe pier blocks work and invalidates captured prompts without fabricating ground
+  ---
+  duration_ms: 707.298717
+  type: 'test'
+  ...
+# Subtest: actual final XP/attribute/skill grant schedules level-up only after the one wage and shipment are settled
+ok 4 - actual final XP/attribute/skill grant schedules level-up only after the one wage and shipment are settled
+  ---
+  duration_ms: 377.052278
+  type: 'test'
+  ...
+# Subtest: existing boatman ferry talk and unrelated interactions survive install and repeated restore
+ok 5 - existing boatman ferry talk and unrelated interactions survive install and repeated restore
+  ---
+  duration_ms: 222.667719
+  type: 'test'
+  ...
+# Subtest: nested cargo identity changes invalidate in-flight work; missing old counters default without paying twice
+ok 6 - nested cargo identity changes invalidate in-flight work; missing old counters default without paying twice
+  ---
+  duration_ms: 883.947004
+  type: 'test'
+  ...
+# Subtest: death during cargo motion invokes the existing unpaid failure rule
+ok 7 - death during cargo motion invokes the existing unpaid failure rule
+  ---
+  duration_ms: 226.26671
+  type: 'test'
+  ...
+# Subtest: native one-time cargo prompt reproduces next-day port mismatch; current prompts follow the real day and station
+ok 8 - native one-time cargo prompt reproduces next-day port mismatch; current prompts follow the real day and station
+  ---
+  duration_ms: 445.198483
+  type: 'test'
+  ...
+# Subtest: ordinary native findInt can start at current crew, select each actual work station and pay exactly once
+ok 9 - ordinary native findInt can start at current crew, select each actual work station and pay exactly once
+  ---
+  duration_ms: 219.528794
+  type: 'test'
+  ...
+# Subtest: next-day and New Voyage reuse the built world without duplicate static interactions or old-port prompts
+ok 10 - next-day and New Voyage reuse the built world without duplicate static interactions or old-port prompts
+  ---
+  duration_ms: 218.603798
+  type: 'test'
+  ...
+# Subtest: actual crew and distinct existing ports required; missing/dead/recruited/foreign receivers cannot advertise or start
+ok 11 - actual crew and distinct existing ports required; missing/dead/recruited/foreign receivers cannot advertise or start
+  ---
+  duration_ms: 1548.075931
+  type: 'test'
+  ...
+# Subtest: begin rejects wrong port, unsafe footing, competing jobs and opening duty without resetting saved work
+ok 12 - begin rejects wrong port, unsafe footing, competing jobs and opening duty without resetting saved work
+  ---
+  duration_ms: 2630.491682
+  type: 'test'
+  ...
+# Subtest: captured prompts reject replaced game/menu-independent phase/day/crew/port and epoch changes
+ok 13 - captured prompts reject replaced game/menu-independent phase/day/crew/port and epoch changes
+  ---
+  duration_ms: 1781.261593
+  type: 'test'
+  ...
+# Subtest: pause/talk hold current motion; invalid or large delta cannot instantly finish the work
+ok 14 - pause/talk hold current motion; invalid or large delta cannot instantly finish the work
+  ---
+  duration_ms: 232.129907
+  type: 'test'
+  ...
+# Subtest: stale action context cannot complete across saves, changed plan, replaced shift or prematurely
+ok 15 - stale action context cannot complete across saves, changed plan, replaced shift or prematurely
+  ---
+  duration_ms: 1315.348503
+  type: 'test'
+  ...
+# Subtest: movement cancels only the current step; actual quit/death/leave district remain unpaid
+ok 16 - movement cancels only the current step; actual quit/death/leave district remain unpaid
+  ---
+  duration_ms: 219.172076
+  type: 'test'
+  ...
+# Subtest: wage overflow leaves final step ready; large shipment serial increments without native signed32bit wrap
+ok 17 - wage overflow leaves final step ready; large shipment serial increments without native signed32bit wrap
+  ---
+  duration_ms: 256.510635
+  type: 'test'
+  ...
+# Subtest: malformed shift remains stored, cannot earn or poison player/ship tick with NaN
+ok 18 - malformed shift remains stored, cannot earn or poison player/ship tick with NaN
+  ---
+  duration_ms: 1254.427104
+  type: 'test'
+  ...
+# Subtest: native restore registry leak reproduced; patched real Three scene retains the same two ship groups
+ok 19 - native restore registry leak reproduced; patched real Three scene retains the same two ship groups
+  ---
+  duration_ms: 478.61871
+  type: 'test'
+  ...
+# Subtest: restore aligns retained barges to saved coordinates without advancing cargo during pause or invalid delta
+ok 20 - restore aligns retained barges to saved coordinates without advancing cargo during pause or invalid delta
+  ---
+  duration_ms: 249.195576
+  type: 'test'
+  ...
+# Subtest: native snapshot/Continue preserves stage, shipment positions and paid-day without extra tool/cargo grants
+ok 21 - native snapshot/Continue preserves stage, shipment positions and paid-day without extra tool/cargo grants
+  ---
+  duration_ms: 252.105968
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 17352.221825

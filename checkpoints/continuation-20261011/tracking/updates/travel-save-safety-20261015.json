@@ -1,0 +1,15 @@
+{
+ "id":"travel-save-safety-20261015",
+ "summary":"Revalidate map arrival; atomically decode saves; repair same-count terrain-cache invalidation; inspect matching full ZIP/HTML and align canonical preflight/upload delivery",
+ "buildSha256":"2aced00701dce588e4a324afacfaf8491093f72aea56edec6f8b8c1a2b8afa76",
+ "bytes":38163737,
+ "milestoneIds":["M0","M1","M2","M5"],
+ "masterDelivery":{"status":"pending","evidence":"Authorized private PR29 checkpoint"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":131,"failed":0,"scope":"Available isolated continuation/source/executable/compile/package subset; not full remote baseline suite or gameplay acceptance","newLandmarkContracts":6,"newAtomicDecodeContracts":6,"additionalRoadDeathContract":1,"newTerrainParityContracts":3,"packageAndCanonicalPreflightContracts":6},
+ "evidence":["docs/NEXT_RUN_TRAVEL_SAVE_20261015.md","scripts/landmark-travel-safety.test.mjs","scripts/atomic-save-decode.test.mjs","scripts/road-travel-transaction.test.mjs"],
+ "runtime":{"status":"pending","required":"Current ordinary mouse map/guide arrival/refusal, pause Save/exact reload, old saves, rendered six-archetype hands and reference Low8–10 active attackers"},
+ "blockers":"Prior CI jobs show null steps/logs; newly read oversight records an account restriction requiring owner action on earlier38592511455, current annotation not directly retrieved. Avoid redundant matrices via explicit skip-CI checkpoint; all gates pending. Local Chromium absent, CLI git auth unavailable; authorized connector/local work available.",
+ "acceptedMilestones":0,
+ "next":"Current full-source/browser evidence, ordinary travel/manualSave checks and actual storage/server/arrow failures; main campaign/QOL/core Bronze Age before expanded Troy"
+}

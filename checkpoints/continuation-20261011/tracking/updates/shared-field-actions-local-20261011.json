@@ -1,0 +1,25 @@
+{
+  "id": "shared-field-actions-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "0886ca00685229bf813858805cabec495e7edbb4870280d3103c17a1e4f3a4ea",
+  "summary": "Local TASK-60 checkpoint implements the first four shared player/NPC grain actions—reap, bind, thresh and winnow—at reserved Ikaria field anchors with interruption safety and once-per-day conserved rewards. All 104 source tests pass; rendered and Save/reload acceptance remains pending.",
+  "changedFiles": [
+    "scripts/shared-field-actions-checkpoint.mjs",
+    "scripts/shared-field-actions.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "docs/ROADMAP.md",
+    "tracking/milestones.json",
+    "verification/records/shared-field-actions-local-20261011.json"
+  ],
+  "evidence": [
+    "verification/records/shared-field-actions-local-20261011.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": ["M0", "M3", "M5"]
+}

@@ -1,0 +1,11 @@
+{
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "method": "Actual existing release CLI with --candidate and validated generated HTML/manifest/tracker",
+  "command": "node scripts/release-gate.mjs tracking/updates/puzzle-terrain-contact-20261018.json --candidate dist/Wine-Dark-Sea-Combined-Cinematic.html",
+  "status": "blocked",
+  "exitCode": 1,
+  "output": "Release blocked:\nCurrent game needs passed master review\nM0: not accepted\nBASE-01: stale build evidence\nBASE-01: missing local evidence\nBASE-02: stale build evidence\nBASE-02: missing local evidence\nBASE-03: pending\nM1: not accepted\nMOVE-01: pending\nFEINT-01: pending\nKOB-EVADE-01: pending\nAUDIO-01: pending\nAUDIO-02: pending\nHUD-01: pending\nM4: not accepted\nSITE-01: pending\nSTORY-01: pending\nM2: not accepted\nGEAR-01: failed\nARCH-01: pending\nCRAFT-01: pending\nM3: not accepted\nGROUP-01: pending\nKOB-ALERT-01: pending\nREV-01: pending\nFACTION-01: pending\nM5: not accepted\nEGYPT-01: pending\nLIFE-01: pending\nExpanded faction roster not approved\n",
+  "baselinePreserved": true,
+  "scope": "Correct current-hash input selection, not release/acceptance; original review/milestone/evidence/roster gates retained"
+}
+

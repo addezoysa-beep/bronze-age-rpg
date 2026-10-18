@@ -1,0 +1,28 @@
+{
+  "scope": "Prepared native core Pan terrain/collision route; no enemies, full decorating solids, ordinary inputs/render or main-story acceptance",
+  "targetApproach": {
+    "ok": true,
+    "cells": 169,
+    "visited": 3946,
+    "point": {
+      "x": 10113,
+      "z": 19.999999999999996,
+      "y": 0
+    }
+  },
+  "crateApproach": {
+    "ok": true,
+    "cells": 51,
+    "visited": 1876,
+    "point": {
+      "x": 10144.000000000004,
+      "z": 25.999999999999993,
+      "y": 0
+    }
+  },
+  "frames": 1100,
+  "gateA": true,
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "method": "Prepared native core Pan generated terrain/collision planning and native canStand replay, with direct prepared dgHitTarget for A after target approach. Does not verify ordinary aiming/ammo/boss/key/tablet or later decorative collision."
+}
+

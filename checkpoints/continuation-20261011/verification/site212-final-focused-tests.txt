@@ -1,0 +1,436 @@
+TAP version 13
+# Subtest: all three delivered scripts compile
+ok 1 - all three delivered scripts compile
+  ---
+  duration_ms: 175.820322
+  type: 'test'
+  ...
+# Subtest: build preserves recovered bytes around the final addition
+ok 2 - build preserves recovered bytes around the final addition
+  ---
+  duration_ms: 126.152096
+  type: 'test'
+  ...
+# Subtest: Lykos stage changes checkpoint once through the real HUD boundary
+ok 3 - Lykos stage changes checkpoint once through the real HUD boundary
+  ---
+  duration_ms: 1.917164
+  type: 'test'
+  ...
+# Subtest: opening migration normalizes old arrays and completed flags without an autosave claim
+ok 4 - opening migration normalizes old arrays and completed flags without an autosave claim
+  ---
+  duration_ms: 0.695646
+  type: 'test'
+  ...
+# Subtest: Daedalus cannot advance from a flag-only tablet and restores physical chest loot
+ok 5 - Daedalus cannot advance from a flag-only tablet and restores physical chest loot
+  ---
+  duration_ms: 0.725791
+  type: 'test'
+  ...
+# Subtest: recovered Lykos callbacks cross the checkpoint HUD boundary after every mutation
+ok 6 - recovered Lykos callbacks cross the checkpoint HUD boundary after every mutation
+  ---
+  duration_ms: 4.493559
+  type: 'test'
+  ...
+# Subtest: cancelling a cinematic law offer resumes pursuit without becoming refusal
+ok 7 - cancelling a cinematic law offer resumes pursuit without becoming refusal
+  ---
+  duration_ms: 1.849121
+  type: 'test'
+  ...
+# Subtest: insufficient-funds law choice conserves silver and remains surrender-safe
+ok 8 - insufficient-funds law choice conserves silver and remains surrender-safe
+  ---
+  duration_ms: 0.896849
+  type: 'test'
+  ...
+# Subtest: killing settlement livestock reports one witnessed fine event
+ok 9 - killing settlement livestock reports one witnessed fine event
+  ---
+  duration_ms: 1.031502
+  type: 'test'
+  ...
+# Subtest: settlement guard stop keeps choices visible and removes mechanical palace label
+ok 10 - settlement guard stop keeps choices visible and removes mechanical palace label
+  ---
+  duration_ms: 0.962598
+  type: 'test'
+  ...
+# Subtest: Troy theatre does not infer war allegiance for civilians and workers
+ok 11 - Troy theatre does not infer war allegiance for civilians and workers
+  ---
+  duration_ms: 0.939993
+  type: 'test'
+  ...
+# Subtest: neutral Achaean siege troops clear stale hostility and player targeting
+ok 12 - neutral Achaean siege troops clear stale hostility and player targeting
+  ---
+  duration_ms: 0.745802
+  type: 'test'
+  ...
+# Subtest: opposed or provoked Achaean troops remain hostile
+ok 13 - opposed or provoked Achaean troops remain hostile
+  ---
+  duration_ms: 0.93105
+  type: 'test'
+  ...
+# Subtest: lion checkpoint uses a purpose-built articulated rig instead of the canine rescale
+ok 14 - lion checkpoint uses a purpose-built articulated rig instead of the canine rescale
+  ---
+  duration_ms: 0.086219
+  type: 'test'
+  ...
+# Subtest: dragon checkpoint replaces the static shell with bounded articulated anatomy
+ok 15 - dragon checkpoint replaces the static shell with bounded articulated anatomy
+  ---
+  duration_ms: 0.065168
+  type: 'test'
+  ...
+# Subtest: Ikaria stable placard becomes a diegetic horse-and-tally inscription
+ok 16 - Ikaria stable placard becomes a diegetic horse-and-tally inscription
+  ---
+  duration_ms: 0.214433
+  type: 'test'
+  ...
+# Subtest: hostile NPC horse charge uses swept contact and a per-rider cooldown
+ok 17 - hostile NPC horse charge uses swept contact and a per-rider cooldown
+  ---
+  duration_ms: 1.288748
+  type: 'test'
+  ...
+# Subtest: friendly, slow and missed NPC mount contacts do no damage
+ok 18 - friendly, slow and missed NPC mount contacts do no damage
+  ---
+  duration_ms: 0.508285
+  type: 'test'
+  ...
+# Subtest: Labyrinth Initiates gain branched antler masks without inventing a faction
+ok 19 - Labyrinth Initiates gain branched antler masks without inventing a faction
+  ---
+  duration_ms: 0.105098
+  type: 'test'
+  ...
+# Subtest: rival field camp is a clearable eight-defender Retainer layout
+ok 20 - rival field camp is a clearable eight-defender Retainer layout
+  ---
+  duration_ms: 0.066
+  type: 'test'
+  ...
+# Subtest: Watchtower sea fort has landing, ascent, finite ranged attacks and persistent gated loot
+ok 21 - Watchtower sea fort has landing, ascent, finite ranged attacks and persistent gated loot
+  ---
+  duration_ms: 0.059089
+  type: 'test'
+  ...
+# Subtest: Watchtower fort reuses a legacy garrison, tops up to eight, consumes arrows and clears once
+ok 22 - Watchtower fort reuses a legacy garrison, tops up to eight, consumes arrows and clears once
+  ---
+  duration_ms: 2.523766
+  type: 'test'
+  ...
+# Subtest: shaft grip seats the handle and uses asymmetric finger/thumb opposition
+ok 23 - shaft grip seats the handle and uses asymmetric finger/thumb opposition
+  ---
+  duration_ms: 0.995567
+  type: 'test'
+  ...
+# Subtest: spear stance keeps shield forward and free hand braced through recovery
+ok 24 - spear stance keeps shield forward and free hand braced through recovery
+  ---
+  duration_ms: 0.766403
+  type: 'test'
+  ...
+# Subtest: sword dagger and axe retain six-form motion with final palm seating
+ok 25 - sword dagger and axe retain six-form motion with final palm seating
+  ---
+  duration_ms: 13.490281
+  type: 'test'
+  ...
+# Subtest: greatsword keeps a final two-hand grip and regional commission path
+ok 26 - greatsword keeps a final two-hand grip and regional commission path
+  ---
+  duration_ms: 14.526099
+  type: 'test'
+  ...
+# Subtest: nocked bow arrows use player selection and actual NPC ammunition stock
+ok 27 - nocked bow arrows use player selection and actual NPC ammunition stock
+  ---
+  duration_ms: 3.651992
+  type: 'test'
+  ...
+# Subtest: wooden arrows have a continuous wooden point while tipped arrows retain material identity and price advantage
+ok 28 - wooden arrows have a continuous wooden point while tipped arrows retain material identity and price advantage
+  ---
+  duration_ms: 1.693027
+  type: 'test'
+  ...
+# Subtest: four remedies consume exactly one, clamp instant restoration and refuse timed stacking
+ok 29 - four remedies consume exactly one, clamp instant restoration and refuse timed stacking
+  ---
+  duration_ms: 5.73777
+  type: 'test'
+  ...
+# Subtest: remedy duration, stamina restrictions, death and old-save normalization remain bounded
+ok 30 - remedy duration, stamina restrictions, death and old-save normalization remain bounded
+  ---
+  duration_ms: 4.882454
+  type: 'test'
+  ...
+# Subtest: owned chest placement conserves the kit and exposes persistent two-way storage
+ok 31 - owned chest placement conserves the kit and exposes persistent two-way storage
+  ---
+  duration_ms: 1.855211
+  type: 'test'
+  ...
+# Subtest: owned chest rejects unsafe placement without consuming inventory and sanitizes old saves
+ok 32 - owned chest rejects unsafe placement without consuming inventory and sanitizes old saves
+  ---
+  duration_ms: 0.852552
+  type: 'test'
+  ...
+# Subtest: owned chest ordinary interaction binds loaded contents, invalidating pre-load loot callbacks
+ok 33 - owned chest ordinary interaction binds loaded contents, invalidating pre-load loot callbacks
+  ---
+  duration_ms: 1.370121
+  type: 'test'
+  ...
+# Subtest: switching saves removes orphaned chest meshes interactions and only its colliders
+ok 34 - switching saves removes orphaned chest meshes interactions and only its colliders
+  ---
+  duration_ms: 0.798902
+  type: 'test'
+  ...
+# Subtest: same chest identity moves on slot load, new voyage clears it, serial migration prevents ID reuse
+ok 35 - same chest identity moves on slot load, new voyage clears it, serial migration prevents ID reuse
+  ---
+  duration_ms: 0.725371
+  type: 'test'
+  ...
+# Subtest: duplicate save chest IDs and fractional zero contents cannot create duplicate storage
+ok 36 - duplicate save chest IDs and fractional zero contents cannot create duplicate storage
+  ---
+  duration_ms: 0.635296
+  type: 'test'
+  ...
+# Subtest: cave formations are deterministic, bounded, wall-side and clear of puzzle routes
+ok 37 - cave formations are deterministic, bounded, wall-side and clear of puzzle routes
+  ---
+  duration_ms: 2.441202
+  type: 'test'
+  ...
+# Subtest: cave and mine dressing uses sampled floors and roofs once without altering colliders
+ok 38 - cave and mine dressing uses sampled floors and roofs once without altering colliders
+  ---
+  duration_ms: 2.725049
+  type: 'test'
+  ...
+# Subtest: dungeon hanging chains keep headroom and dressing culls on a bounded interval
+ok 39 - dungeon hanging chains keep headroom and dressing culls on a bounded interval
+  ---
+  duration_ms: 2.033789
+  type: 'test'
+  ...
+# Subtest: main-quest cinema retains real choices and cannot auto-grant dialogue rewards
+ok 40 - main-quest cinema retains real choices and cannot auto-grant dialogue rewards
+  ---
+  duration_ms: 3.706926
+  type: 'test'
+  ...
+# Subtest: puzzle-open cinema waits out nearby combat and does not alter puzzle or quest rewards
+ok 41 - puzzle-open cinema waits out nearby combat and does not alter puzzle or quest rewards
+  ---
+  duration_ms: 1.211523
+  type: 'test'
+  ...
+# Subtest: legacy invisible stable seller is removed while nearby actual keepers remain usable
+ok 42 - legacy invisible stable seller is removed while nearby actual keepers remain usable
+  ---
+  duration_ms: 1.197822
+  type: 'test'
+  ...
+# Subtest: combined source retains animated sling pouch load wind release and both camera rigs
+ok 43 - combined source retains animated sling pouch load wind release and both camera rigs
+  ---
+  duration_ms: 63.912211
+  type: 'test'
+  ...
+# Subtest: tactile lock hides target gaps and uses bounded binding difficulty and pick stress
+ok 44 - tactile lock hides target gaps and uses bounded binding difficulty and pick stress
+  ---
+  duration_ms: 4.535421
+  type: 'test'
+  ...
+# Subtest: tactile lock completes only after all pins held and preserves ordinary chest reward path
+ok 45 - tactile lock completes only after all pins held and preserves ordinary chest reward path
+  ---
+  duration_ms: 1.936824
+  type: 'test'
+  ...
+# Subtest: approaching an unsolved mechanism gate presents the locked-gate dialogue once
+ok 46 - approaching an unsolved mechanism gate presents the locked-gate dialogue once
+  ---
+  duration_ms: 0.915337
+  type: 'test'
+  ...
+# Subtest: revenant weapons decay after spawn and late equip without repainting living actors
+ok 47 - revenant weapons decay after spawn and late equip without repainting living actors
+  ---
+  duration_ms: 0.945572
+  type: 'test'
+  ...
+# Subtest: two optional puzzle variants reset fairly and give only one ordinary loot reward
+ok 48 - two optional puzzle variants reset fairly and give only one ordinary loot reward
+  ---
+  duration_ms: 2.444226
+  type: 'test'
+  ...
+# Subtest: level gains award independent attribute and skill points with bounded stat spending
+ok 49 - level gains award independent attribute and skill points with bounded stat spending
+  ---
+  duration_ms: 3.252663
+  type: 'test'
+  ...
+# Subtest: level screen suspends and restores an active dialogue without leaking combat input
+ok 50 - level screen suspends and restores an active dialogue without leaking combat input
+  ---
+  duration_ms: 2.649495
+  type: 'test'
+  ...
+# Subtest: active equipment HUD is the compact equipped-hands readout, not the old slot bar
+ok 51 - active equipment HUD is the compact equipped-hands readout, not the old slot bar
+  ---
+  duration_ms: 4.627691
+  type: 'test'
+  ...
+# Subtest: domestic dogs rest at night and allow a quiet crouched stealth approach
+ok 52 - domestic dogs rest at night and allow a quiet crouched stealth approach
+  ---
+  duration_ms: 1.109018
+  type: 'test'
+  ...
+# Subtest: dogs wake to ordinary approach, nearby threats, touch and injury
+ok 53 - dogs wake to ordinary approach, nearby threats, touch and injury
+  ---
+  duration_ms: 0.695576
+  type: 'test'
+  ...
+# Subtest: agitated dogs never resume sleep even after the wake deadline expires
+ok 54 - agitated dogs never resume sleep even after the wake deadline expires
+  ---
+  duration_ms: 0.606622
+  type: 'test'
+  ...
+# Subtest: FP camera follows lock during roll and preserves target
+ok 55 - FP camera follows lock during roll and preserves target
+  ---
+  duration_ms: 10.41832
+  type: 'test'
+  ...
+# Subtest: TP retains existing camera path without double-steering
+ok 56 - TP retains existing camera path without double-steering
+  ---
+  duration_ms: 10.407654
+  type: 'test'
+  ...
+# Subtest: death, area, range, LOS and menu expire lock before camera uses it
+ok 57 - death, area, range, LOS and menu expire lock before camera uses it
+  ---
+  duration_ms: 77.400929
+  type: 'test'
+  ...
+# Subtest: pause and blur clear queued dodge, jump, mouse and lock input
+ok 58 - pause and blur clear queued dodge, jump, mouse and lock input
+  ---
+  duration_ms: 33.124503
+  type: 'test'
+  ...
+# Subtest: lock acquisition excludes friends and cycles eligible enemies
+ok 59 - lock acquisition excludes friends and cycles eligible enemies
+  ---
+  duration_ms: 12.810419
+  type: 'test'
+  ...
+# Subtest: HUD target selection retains lock priority and clears stale bosses
+ok 60 - HUD target selection retains lock priority and clears stale bosses
+  ---
+  duration_ms: 9.605338
+  type: 'test'
+  ...
+# Subtest: all three inspected native site layouts place one finite chest on connected entry floor without touching quest props/spawns
+ok 61 - all three inspected native site layouts place one finite chest on connected entry floor without touching quest props/spawns
+  ---
+  duration_ms: 10.765199
+  type: 'test'
+  ...
+# Subtest: entry planner excludes houses/Pan/unrelated rooms, walls, doors, occupied and steep/invalid floor instead of inventing a location
+ok 62 - entry planner excludes houses/Pan/unrelated rooms, walls, doors, occupied and steep/invalid floor instead of inventing a location
+  ---
+  duration_ms: 2.997242
+  type: 'test'
+  ...
+# Subtest: actual native item buttons and Take-all conserve bread/stones and add wooden arrow stock exactly once; opening adds no Save
+ok 63 - actual native item buttons and Take-all conserve bread/stones and add wooden arrow stock exactly once; opening adds no Save
+  ---
+  duration_ms: 3.898491
+  type: 'test'
+  ...
+# Subtest: partly looted source survives JSON reload and changing voyages; empty supplies do not refill on repeated build/open
+ok 64 - partly looted source survives JSON reload and changing voyages; empty supplies do not refill on repeated build/open
+  ---
+  duration_ms: 3.549901
+  type: 'test'
+  ...
+# Subtest: native captured loot buttons cannot debit or award after room/player/save/container changes or a replacement menu
+ok 65 - native captured loot buttons cannot debit or award after room/player/save/container changes or a replacement menu
+  ---
+  duration_ms: 19.106593
+  type: 'test'
+  ...
+# Subtest: invalid/stale direct supply takes fail closed and do not mutate items or inventory
+ok 66 - invalid/stale direct supply takes fail closed and do not mutate items or inventory
+  ---
+  duration_ms: 2.80212
+  type: 'test'
+  ...
+# Subtest: real native chest geometry uses sampled floor and remains a bounded group, not another enemy or blocker
+ok 67 - real native chest geometry uses sampled floor and remains a bounded group, not another enemy or blocker
+  ---
+  duration_ms: 44.185807
+  type: 'test'
+  ...
+# Subtest: actual mechanism DOM rejects stale room/save/player/removed state and preserves a newer dialogue before native close
+ok 68 - actual mechanism DOM rejects stale room/save/player/removed state and preserves a newer dialogue before native close
+  ---
+  duration_ms: 19.748681
+  type: 'test'
+  ...
+# Subtest: actual native close-before-choice path progresses readable puzzle once and preserves one original reward
+ok 69 - actual native close-before-choice path progresses readable puzzle once and preserves one original reward
+  ---
+  duration_ms: 2.303817
+  type: 'test'
+  ...
+# Subtest: direct mechanism inputs reject unknown actions, remote player and replaced dungeon without saving or solving
+ok 70 - direct mechanism inputs reject unknown actions, remote player and replaced dungeon without saving or solving
+  ---
+  duration_ms: 2.059833
+  type: 'test'
+  ...
+# Subtest: all eight actual legendary definitions and twelve hideouts retain their original gates while accepting one entry cache
+ok 71 - all eight actual legendary definitions and twelve hideouts retain their original gates while accepting one entry cache
+  ---
+  duration_ms: 34.448049
+  type: 'test'
+  ...
+1..71
+# tests 71
+# suites 0
+# pass 71
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2265.599778

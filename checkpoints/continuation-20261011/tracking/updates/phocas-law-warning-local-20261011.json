@@ -1,0 +1,31 @@
+{
+  "id": "phocas-law-warning-local-20261011",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "92d203d3596f30cab9ab47cc7582e3760a008367c55997da66711df17a6e8bdf",
+  "summary": "Local opening trainer and law-response fixes: short objective-first Phocas menu, physical sling/equipment handoff; civilian warning and repeat-assault escalation with explicit guard surrender/fine/refusal. Runtime acceptance pending.",
+  "changedFiles": [
+    "scripts/phocas-opening-checkpoint.mjs",
+    "scripts/phocas-opening.test.mjs",
+    "scripts/law-warning-checkpoint.mjs",
+    "scripts/law-warning.test.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "tracking/milestones.json",
+    "docs/ROADMAP.md"
+  ],
+  "evidence": [
+    "verification/records/phocas-law-warning-local-20261011.json"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M3",
+    "M5"
+  ]
+}

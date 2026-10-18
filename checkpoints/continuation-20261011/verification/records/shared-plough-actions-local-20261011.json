@@ -1,0 +1,49 @@
+{
+  "id": "shared-plough-actions-local-20261011",
+  "recordedAt": "2026-10-11T20:15:00Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "e9101c26c369d17eb911a5ca644d02c14422456a29da153679b0220059a0c0bf",
+  "bytes": 37900296,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {"passed": 157, "failed": 0, "command": "node --test scripts/*.test.mjs"},
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "browser": {
+    "status": "blocked",
+    "command": "npm run test:browser",
+    "error": "Playwright package unavailable in this workspace; no browser launched"
+  },
+  "githubStatus": {
+    "checkedAt": "2026-10-11T19:14:00Z",
+    "masterDevelopment": "53989c4b3d3568d71fb54085479946be90eb22df",
+    "pr19_20_21": "open drafts with unchanged heads",
+    "pr26_27": "open with unchanged heads; PR27 remains stacked on PR26",
+    "ownership": "no active checkpoint duplicated or overwritten"
+  },
+  "implemented": [
+    "Four additional shared Ur field actions: prepare the yoke and seed drill, guide the draft plough, meter seed and level the seeded furrow",
+    "The same posePlough68 rig drives the player and Bel-iddin, with distinct supplied yoke, guide, seed-bag and rake props",
+    "A separate modeled Ur field stages a draft ox, plough rig, assigned crop plot and persistent finished furrow",
+    "Ordinary interactions enforce contract start, physical station and action order; movement or danger cancels only the transient step",
+    "Explicit quit, incapacitation and leaving the assigned district end the shift without wages; completed stages survive restore and old-save/day defaults are bounded",
+    "Final levelling pays 16 silver once per day without mutating inventory or generating recipe/equipment bypasses"
+  ],
+  "runtime": "Not run: browser execution remains unavailable. Source fixtures execute ordinary interaction callbacks, stage order, cancellation, quit/failure, restore, old-save/day defaults, worker schedules, physical staging, inventory conservation and the daily wage. No rendered ordinary-input or pause-menu Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "Twenty-eight of the proposed forty shared actions are implemented",
+    "Rendered ox/plough/tool/terrain/body contact and worker navigation remain unverified",
+    "This is one assigned Ur plot, not broad regional farm coverage",
+    "Low-preset performance and exact-position pause Save/reload need ordinary play evidence"
+  ],
+  "nextActions": [
+    "Render the full overseer schedule and player shift and correct navigation, terrain, rig or prop/contact faults",
+    "Use ordinary pause-menu Save mid-shift and after completion, reload and verify stage, furrow, inventory and wage state",
+    "Add the next crop/vine/orchard shared action group at a distinct regional site",
+    "Preserve opening, grip, Low old-save combat and Cave of Pan priorities"
+  ],
+  "milestoneAcceptance": "none"
+}

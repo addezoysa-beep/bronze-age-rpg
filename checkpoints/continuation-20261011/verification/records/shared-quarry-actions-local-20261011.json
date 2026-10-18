@@ -1,0 +1,45 @@
+{
+  "id": "shared-quarry-actions-local-20261011",
+  "recordedAt": "2026-10-11T17:19:39Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "bfc5e6263edbc5abc2f32c5880eedfdeb497f53b655df1dcb7b52502879947dd",
+  "bytes": 37867967,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {"passed": 129, "failed": 0, "command": "node --test scripts/*.test.mjs"},
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "githubStatus": {
+    "checkedAt": "2026-10-11T17:22:00Z",
+    "masterDevelopment": "53989c4b3d3568d71fb54085479946be90eb22df",
+    "pr19_20_21": "open drafts, mergeable false, unchanged heads and no head-associated workflow runs",
+    "pr26": "open, mergeable false; workflow run 38115436645 remains failed",
+    "pr27": "open, stacked on PR26, mergeable false and no head-associated workflow run"
+  },
+  "implemented": [
+    "Four additional shared actions at the real Upper Egypt limestone quarry: strike, wedge, lever and paired rope haul",
+    "The same poseQuarryWork65 rig drives the player and the existing foreman/crew, with grounded legs, distinct arm motion and supplied hammer, wedges, lever and rope props",
+    "Two quarry workers use separate left/right rope contacts with one synchronized phase while the timber sled visibly advances",
+    "The existing quarry is extended with a cut-stone staging apron, freed blocks and a moving load sled without replacing regional mine-cave contracts",
+    "Ordinary interactions enforce shift start, physical station and action order; movement or danger cancels only the transient action",
+    "Explicit quit, incapacitation and leaving-district paths end the shift without wages; completed stages survive restore while old saves and day rollover default safely",
+    "The final haul pays 18 silver once per day and does not grant permanent tools, inventory materials, recipes or quest completion"
+  ],
+  "runtime": "Not run: no usable Chromium executable is present. Source fixtures execute ordinary interaction order, cancellation, quit/failure, restore, old-save default, daily wage and paired-contact synchronization. No rendered route clearance, hand/rope/tool/stone contact, clothing integrity, first-person presentation, Low performance or ordinary pause-menu Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "Sixteen of the planned thirty-to-forty shared actions are implemented",
+    "The quarry-to-dock route, loading/unloading, river stone transport and grain barges remain planned",
+    "Rendered synchronized rope tension, sled collision and NPC occupancy need ordinary-play verification",
+    "This checkpoint extends one substantial existing quarry; broader regional quarry expansion remains open"
+  ],
+  "nextActions": [
+    "Render the full crew schedule and player shift and correct tool, hand, rope, clothing, stone or ground-contact faults",
+    "Use ordinary pause-menu Save after a completed stage and after payment, reload, and verify no progress or wage duplication",
+    "Implement quarry loading/carrying/poling and direction-appropriate rowing/sailing at actual Nile dock anchors, then persistent stone and grain cargo routes using the recorded Metropolitan Museum boat/cargo evidence",
+    "Continue the next shared-action cluster without displacing opening, grip, Low old-save combat and Pan progression priorities"
+  ],
+  "milestoneAcceptance": "none"
+}

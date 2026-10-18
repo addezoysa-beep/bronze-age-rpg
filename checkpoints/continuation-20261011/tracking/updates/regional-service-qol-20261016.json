@@ -1,0 +1,70 @@
+{
+  "id": "regional-service-qol-20261016",
+  "buildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
+  "bytes": 38242719,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M4",
+    "M5"
+  ],
+  "summary": "Distinct visible local cloth/healer/arms cast at inspected service hubs while retaining legacy save identity; guarded native service choices, nested remedies/arrows/patterns and greatsword commissions",
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "Private draft PR29 source 3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85 and updated PR description; open/unmerged. No current-head Actions pass claimed.",
+    "pullRequest": 29,
+    "sourceCommit": "3550e81ee6fbaad9b962b84fe1cb6affcf5c2b85"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 659,
+    "failed": 0,
+    "newTests": 12,
+    "durationMs": 37781.497463,
+    "evidence": "verification/service181-full-tests.txt",
+    "scope": "Full local source/executable/workflow/compile/package suite; native source DOM callback fixtures, not ordinary rendered browser/manual Save/Master acceptance"
+  },
+  "package": {
+    "status": "passed",
+    "htmlSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
+    "bytes": 38242719,
+    "zipSha256": "3cf886d3a052515c98c4fecc536d9ec549a97da78e2faad819a9d032355d2525",
+    "htmlPath": "deliveries/93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zipPath": "deliveries/93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020/Wine-Dark-Sea-93442289.zip",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "standaloneStartup": "not_run",
+    "embeddedDecode": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary mouse cloth/healer/arms and all nested menus in representative village/town/city, actual local display names/directions/map/medical priority, money/items/patterns/commissions, stale/insufficient funds paths, offline pause Save/exact-position reload and old saves"
+  },
+  "limits": "Presentation names are an authored fictional cast, not historical biography. No new stock, prices, lore claims, actors or regional service-completeness acceptance. Native name keys remain unchanged because deaths/followers/cargo/commissions/snapshots use them. Newly inspected Egypt/Luxor/Valley legacy shared-key collision remains open and requires separate evidence-led migration; display names alone do not fix saved identity. UI fixtures are not rendered gameplay. Other skill/quest/NPC menus, full geography/grounding, Shekelesh laugh/swing/opening and hostage transport remain pending. Full120/M0–M5/all prior requirements retained; performance/8–10 stress lower per user, ordinary Save and crash/progression essential.",
+  "next": "docs/NEXT_RUN_SERVICE_QOL_20261016.md",
+  "changedFiles": [
+    "scripts/regional-service-identities-patch.mjs",
+    "scripts/service-interaction-guard-patch.mjs",
+    "scripts/service-qol-harness.mjs",
+    "scripts/regional-service-identities.test.mjs",
+    "scripts/service-interaction-guard.test.mjs",
+    "scripts/healer-service-priority-patch.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "docs/NEXT_RUN_SERVICE_QOL_20261016.md",
+    "docs/ROADMAP.md",
+    "docs/USER_PLAYTESTING_20261015.md",
+    "docs/DELIVERY_CONTRACT_20261015.md",
+    "tracking/milestones.json",
+    "tracking/hourly-plan-20261013.json",
+    "verification/service181-full-tests.txt"
+  ]
+}

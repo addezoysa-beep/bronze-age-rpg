@@ -1,0 +1,109 @@
+✔ Canceled Kobalos feint returns to approach without damage (4.703613ms)
+✔ A strike damages once during its action window (3.145487ms)
+✔ An out-of-range windup aborts without damage (3.122612ms)
+✔ Anatomical hand assignment is idempotent and routes bow/shield left (9.704538ms)
+✔ five additional scores are embedded as distinct MP3 assets (5.607797ms)
+✔ additional scores are routed three to exploration and two to combat (8.230065ms)
+✔ reproduce the exact production candidate (1325.1741ms)
+✔ reject changed source instead of silently applying an obsolete fix (66.91298ms)
+✔ committed charge visibly advances, pulls back, recovers and never delegates damage (2.801525ms)
+✔ blocked charge finishes without bypassing route collision or entering strike (0.783686ms)
+✔ ranged, sparring, friendly, stunned, sleeping, dead, distant and unseen actors preserve existing AI (5.038441ms)
+✔ stun interrupts a feint and clears its phase before normal AI resumes (0.556398ms)
+✔ hostile NPC rigs share the feint and use numeric sight height (0.636616ms)
+✔ large frame deltas cannot tunnel through the full feint (0.566122ms)
+✔ a real melee damage window resumes after the canceled charge and recovery (1.361314ms)
+✔ physical Q locks, repeats do not toggle; next Q unlocks (2.496261ms)
+✔ shift cycles distinct eligible enemies without losing lock (0.742594ms)
+✔ friendly, target, neutral war, occluded, invisible, dead and other area excluded (5.435786ms)
+✔ range and boat range are bounded with retention hysteresis (0.858476ms)
+✔ release on death, menu, travel area and lost LOS before camera/HUD (2.319018ms)
+✔ pause releases; configured alternate key does not conflict with default (0.647342ms)
+✔ real source input path moves left attack, removes duplicate queued lock and fails closed (272.385855ms)
+✔ production PC capture route no longer consumes Q as left melee (264.85229ms)
+{
+  "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "committedAttackerCap": 2,
+  "factions": [
+    "labyrinth",
+    "retainers",
+    "oathkeepers",
+    "deserters"
+  ],
+  "archetypes": [
+    "spear",
+    "sword",
+    "axe",
+    "greatsword",
+    "bow",
+    "sling"
+  ],
+  "status": "known-gap-not-acceptance"
+}
+✔ scripts/encounter-faction-gap.test.mjs (159.545143ms)
+✔ arrival exits loading before saving, grounds player and clears movement (2.475981ms)
+✔ old name discovery remains usable and becomes canonical only on successful arrival (0.617788ms)
+✔ undiscovered and rumoured destinations cannot travel (0.707542ms)
+✔ storm refuses without cost, position or save changes (0.732569ms)
+✔ swimming refuses without cost, position or save changes (0.522366ms)
+✔ dead refuses without cost, position or save changes (0.467715ms)
+✔ busy refuses without cost, position or save changes (0.617127ms)
+✔ dungeon refuses without cost, position or save changes (0.493013ms)
+✔ near enemy refuses without cost, position or save changes (0.527765ms)
+✔ blocked landing refuses without cost, position or save changes (0.599431ms)
+✔ water landing refuses without cost, position or save changes (0.472662ms)
+✔ far spatial-bucket actors do not prevent safe departure (0.584859ms)
+✔ stream failure retains position, discovery and silver without a save (1.272461ms)
+✔ source transformation rejects unexpected active code (0.427636ms)
+✔ production grips keep scaled weapon handles at the finger anchor during torso and arm motion (9.731548ms)
+✔ hidden and detached weapons leave the wrist unchanged (0.226146ms)
+✔ production floor contact uses current bent child matrices, not previous rendered pose (2.66008ms)
+✔ hidden equipment subtrees and equipped weapons cannot lift the body (0.966036ms)
+✔ shared human floor contact handles complete rotation and scaled bodies in dungeons (6.198365ms)
+✔ ground correction fails closed on changed source and leaves original immutable (62.692376ms)
+✔ reproduce original palace-art override swallowing king story completion (64.951965ms)
+✔ king princess story finishes after wolves, rewards once, and leaves optional art reachable (36.646603ms)
+✔ all dialogue including no-choice stories releases pointer lock and clears held input (34.50609ms)
+✔ mouse selection starts a nested story in play state and finishes its callback (35.341432ms)
+✔ top-row and numpad options 1-9 dispatch once, including paid-wagon play-state gate (245.012925ms)
+✔ number shortcuts do not select hidden choices before the last line (34.13549ms)
+✔ cancellation does not award the king quest (35.589852ms)
+✔ dialogue panel keeps long choice lists inside a scrolling viewport (0.172116ms)
+✔ NPC sleep wrapper preserves the previous dialogue through successive menu assignments (38.89161ms)
+✔ final Kobaloi chain cancels fifth-attack feint without damage (2.71792ms)
+✔ three claw attacks wind up, hit once, and enter recovery (1.866024ms)
+✔ claw damage requires range, facing, vertical proximity, and sight (1.824783ms)
+✔ crawl has a windup and a bounded pursuit timeout (0.576607ms)
+✔ low strike hits once and slows player only on a successful hit (1.005885ms)
+✔ dread leap hits once and leaves its damage window for recovery (0.61227ms)
+✔ yell has a readable windup and alerts only eligible nearby Kobaloi (20.910738ms)
+✔ terrain occlusion blocks propagation (0.611279ms)
+✔ alert target expires and receiver cooldown prevents an immediate chain (0.620192ms)
+✔ isolated caller does not yell (0.513343ms)
+✔ reproduce Low preset rendering shadows in previous build (44.722581ms)
+✔ Low and Very low remove shadow passes while higher presets restore them (19.122379ms)
+✔ reload applies stored Low without rewriting settings and invalid values fall back to auto (17.452868ms)
+✔ preset fix preserves active AI, group concurrency and save definitions (128.110859ms)
+✔ final movement wrapper leans the torso and drives opposing arm sway (7.645527ms)
+✔ compact equipment HUD removes persistent slots without losing hand state (1.418159ms)
+✔ 8-actor Kobaloi pack makes every actor attack-capable (21.267588ms)
+✔ 10-actor Kobaloi pack makes every actor attack-capable (1.201266ms)
+✔ packs above ten retain a ten-attacker ceiling and relief ring (0.693942ms)
+✔ tomb build guarantees explicit revenant archer and swordsman slots (19.090653ms)
+✔ Oathkeeper archer and swordsman retain revenant identity and weapon contracts (1.753056ms)
+✔ Complete current-build evidence passes (2.012733ms)
+✔ Pending master delivery and review cannot release (0.37676ms)
+✔ Stale review and acceptance evidence cannot release (0.231995ms)
+✔ Unaccepted prerequisite blocks dependent milestone (0.143814ms)
+✔ Failed tests and missing reports block release (0.274228ms)
+✔ Unapproved expanded faction roster blocks M3 (0.155121ms)
+✔ Dependency cycles and fabricated passed tests are rejected (0.164324ms)
+✔ Inline syntax errors and external script dependency are rejected (1.217621ms)
+ℹ tests 82
+ℹ suites 0
+ℹ pass 82
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7497.142761

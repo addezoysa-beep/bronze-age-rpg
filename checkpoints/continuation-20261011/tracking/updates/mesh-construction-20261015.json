@@ -1,0 +1,15 @@
+{
+ "id":"mesh-construction-20261015",
+ "buildSha256":"426988e100d415dbe4653447182c5eace8930c47d5dab7ad23a78d23f05495eb",
+ "bytes":38172569,
+ "milestoneIds":["M0","M1","M2","M5"],
+ "summary":"Reduce cylinder and anatomical loft construction work without changing mesh topology/detail/positions/normals/colors; retain existing sphere cache",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":143,"failed":0,"newContracts":6,"scope":"Available isolated source/executable/compile/package subset, not full baseline/runtime acceptance"},
+ "evidence":["scripts/batch-construction.test.mjs","scripts/benchmark-batch-construction.mjs","verification/records/mesh-construction-local-20261015.json","docs/NEXT_RUN_MESH_CONSTRUCTION_20261015.md"],
+ "runtime":{"status":"pending","scope":"Current ordinary startup, geometry/rig rendered review, pause Save/exact reload, natural opening/Pan and reference Low old-save8–10 active attackers"},
+ "blockers":"Local Chromium1234 absent/package present; published5204288 has no runs after skip-CI, not a pass. Previous runner restriction requires owner action per oversight; no redundant reruns/account changes.",
+ "acceptedMilestones":0,
+ "next":"Current browser gates when available; critical Save/travel/arrow/server, measured construction/frame profile, main campaign/QOL/core Bronze Age before expanded Troy"
+}

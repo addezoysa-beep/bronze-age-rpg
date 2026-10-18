@@ -1,0 +1,17 @@
+{
+ "id":"playtest-rescue-lock-wake-20261015",
+ "buildSha256":"adf0b867ccaa5b0980b4a67b2fde6b7b8e976790d0b5351a68ece882fea2d3e7",
+ "bytes":38192697,
+ "milestoneIds":["M0","M1","M2","M4","M5"],
+ "summary":"User playtest batch: greatsword input, physical Alashiya key and pick supplies, readable/easier locks, required Labyrinth/Delphi relic guidance, sea-foam wake and pause media controls",
+ "masterDelivery":{"status":"delivered","evidence":"Private draft PR29 heade146e23976d2694965c8371bc901577244b0dde6; compare-and-swap, body delivery and fresh head verified"},
+ "ci":{"head":"e146e23976d2694965c8371bc901577244b0dde6","status":"explicit_skip_ci_no_runs_not_a_pass"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":175,"failed":0,"new":20,"scope":"Available isolated source/executable/compile/package subset, not complete remote baseline/browser suite"},
+ "runtime":{"status":"pending","required":"Ordinary inputs/pin selection/audio/FP-TP greatsword/contact/wake/cinematics/key-loot-door/maze/Oracle/physical relic routes, offline pause Save/exact reload, reference Low old-save8–10 concurrent attack-capable attackers"},
+ "evidence":["scripts/playtest-critical-qol.test.mjs","scripts/rescue-relic-guidance.test.mjs","scripts/sea-foam-wake.test.mjs","scripts/pause-media-controls.test.mjs","scripts/current-candidate-integrity.test.mjs"],
+ "retainedScope":"docs/USER_PLAYTESTING_20261015.md; remaining grounding/horn/occupation/boss/deeds/civic/service/pulses/trade/names plus all earlier milestones/tasks retained",
+ "acceptedMilestones":0,
+ "delivery":{"htmlBytes":38192697,"zipBytes":26940132,"zipSha256":"1fda1692edf9f7d1e51af5ca1daa268e1a9c3a596d2ad0978237dc9d657ac50b","localHtmlZipIdentity":"passed","localArchiveContents":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","userAccessibility":"not_run","githubBuildDownload":"unavailable"},
+ "next":"Grounding Alashiya/Pharos/Tyre, occupied barracks and safe owned boat horn; current exact-build runtime gates when available"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 1100,
+  "passed": 1100,
+  "failed": 0,
+  "durationMs": 254374.088223,
+  "completeFooter": true,
+  "okEntries": 1100,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/terrain259-full-tap.txt"
+}

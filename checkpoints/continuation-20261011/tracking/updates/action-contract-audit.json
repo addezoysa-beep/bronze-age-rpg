@@ -1,0 +1,27 @@
+{
+  "id": "action-contract-audit",
+  "createdOn": "2026-10-10",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "milestoneIds": [
+    "M1"
+  ],
+  "summary": "Add isolated tests executing actual Kobalos base action and anatomical hand-assignment functions. No game code changes or acceptance.",
+  "changedFiles": [
+    "scripts/action-contract.test.mjs",
+    ".github/workflows/verify.yml"
+  ],
+  "evidence": [
+    "scripts/action-contract.test.mjs",
+    "verification/records/action-contract-audit.json"
+  ],
+  "masterDelivery": {
+    "status": "delivered",
+    "evidence": "Prepared directly in Master Development"
+  },
+  "masterReview": {
+    "status": "passed",
+    "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+    "evidence": "verification/records/action-contract-audit.json; Master inspected cloud logs and actual source fixtures; unit-only checkpoint, no milestone acceptance"
+  },
+  "releaseStatus": "candidate"
+}

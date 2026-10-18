@@ -1,0 +1,33 @@
+{
+  "id": "grip-checkpoint-integration-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "a1c89b3e85d2c51a9866c8bb5c0f3bafd6e4e12cecaa423d72d9fa40ddacc0e0",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2"
+  ],
+  "summary": "Integrate PR19 wrist articulation limit into aggregate checkpoint without altering upstream PR ownership; preserve physical weapon direction and finger anchor across bending and scaled rigs. Exact checkpoint browser jobs cover travel, prepared Pan chest, combat lock and grip diagnostics separately.",
+  "changedFiles": [
+    "scripts/grip-checkpoint.mjs",
+    "scripts/grip-transform.test.mjs",
+    "scripts/browser-grip-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs",
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "tracking/milestones.json",
+    "docs/ROADMAP.md"
+  ],
+  "evidence": [],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "checks": {
+    "runtime": "pending GitHub; local browser download corrupt/truncated",
+    "visual": "pending; transform pass cannot establish visual quality"
+  },
+  "bytes": 37971960
+}

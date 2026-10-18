@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+  "bytes": 38345088,
+  "exitCode": 0,
+  "tests": 825,
+  "passed": 825,
+  "failed": 0,
+  "durationMs": 118314.104365,
+  "scope": "Full LOCAL serial source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "evidenceQuality": "Complete825-pass footer and exit0 observed; middle tool-stream segment truncated. This is a result summary, NOT a complete raw TAP archive.",
+  "repeatIssue": "Reporter-destination repeat exited0 but recorded only37 entries/no footer; not counted as a completed suite. Child-stream recapture pending."
+}

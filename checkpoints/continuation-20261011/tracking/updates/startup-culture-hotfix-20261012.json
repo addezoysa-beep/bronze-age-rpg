@@ -1,0 +1,26 @@
+{
+  "id": "startup-culture-hotfix-20261012",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "c19a5045b3c47aba11f4ff88da7229854cd3d2833917ebc9756f49b714f6ea00",
+  "summary": "Fix startup style.label crash from Greek riding instructors using an undefined culture; use Aegean culture and region-aware fallback. Preserve UTF-8 source anchors for Pan/stable/herd transformations after previous publication encoding corruption.",
+  "changedFiles": [
+    "scripts/build-offline.mjs",
+    "scripts/build-offline.test.mjs",
+    "scripts/riding-challenges-checkpoint.mjs",
+    "scripts/pan-tally-checkpoint.mjs",
+    "scripts/regional-stable-coverage-checkpoint.mjs",
+    "scripts/wild-herds-grass-checkpoint.mjs"
+  ],
+  "evidence": [],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "milestoneIds": [
+    "M0",
+    "M3"
+  ],
+  "browser": "pending; source VM regression exercises delivered cultural NPC wrapper"
+}

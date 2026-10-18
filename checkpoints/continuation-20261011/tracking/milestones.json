@@ -1,0 +1,1115 @@
+{
+  "schemaVersion": 1,
+  "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "masterConversationId": "6ac9c216-df0c-83ea-ac8d-41f13f292693",
+  "requirements": {
+    "october15Playtesting": {
+      "specification": "docs/USER_PLAYTESTING_20261015.md",
+      "status": "authorized_partial_implementation_runtime_pending",
+      "sourceImplemented": [
+        "GREAT-163 dispatch",
+        "KEY-163 physical Alashiya drop/recovery",
+        "PICK-163 cues/difficulty/recipe/robber/thief/jars",
+        "LAB-163 and RELIC-163 dialogue/objective sequence",
+        "SEA-163 bounded foam wake only",
+        "MIX-163 pause sliders",
+        "GROUND-163 Pharos obsolete streamed-channel phase mismatch only",
+        "OCCUPY-163 absent friendly watch until rescue completion",
+        "GROUND-163 foundation/entrance-stair samples follow actual terrain triangles only",
+        "PULSES-163 actual lentils46/beans46 procurement and soup lessons at existing tavern counter"
+      ],
+      "next": [
+        "GROUND-163 Alashiya burial/Pharos-Tyre full geometry and per-region coverage; island size changes pending",
+        "SEA-163 obtainable captain rally horn and safe boat call",
+        "OCCUPY-163 rendered barracks/ordinary old-save acceptance",
+        "BOSS-163 Shekelesh armor/laugh/attack/opening/references",
+        "DEEDS-163 good deeds",
+        "CIVIC-163 walls/raids/population/art dialogue",
+        "SERVICE-163 local identities",
+        "PULSES-163 ingredient availability",
+        "TRADE-163 labels/organization/trade/item meshes",
+        "NAME-163 logical bow/sling identities"
+      ],
+      "acceptance": "Every new request retained; none accepted solely from source checks. Current ordinary inputs, physical quest/loot/door transitions, rendered contact/audio, offline pause Save/exact reload and reference Low8–10 combat remain mandatory."
+    },
+    "threeFormatDelivery": {
+      "status": "confirmed_by_user_via_pr29_comment_6176352988",
+      "formats": [
+        "complete downloadable ZIP",
+        "direct standalone HTML",
+        "immutable private GitHub build/artifact download"
+      ],
+      "checks": [
+        "full HTML SHA256/bytes/commit and extracted ZIP/GitHub identity",
+        "complete archive/manifest and standalone embedded-asset startup",
+        "actual user download accessibility/auth/expiry"
+      ],
+      "current": "Local exact ZIP/HTML/manifest inspected; startup, user-download accessibility and current GitHub build unavailable/unverified, not accepted",
+      "evidence": "docs/DELIVERY_CONTRACT_20261015.md"
+    },
+    "simultaneousAttackers": {
+      "min": 8,
+      "max": 10,
+      "status": "confirmed_by_user"
+    },
+    "factions": {
+      "requirement": "Well beyond four factions, each with multiple enemy types",
+      "proposedCount": 12,
+      "proposedTypesPerFaction": 3,
+      "rosterApproval": "pending"
+    },
+    "dungeonPuzzlesAndTraps": {
+      "status": "confirmed_by_user",
+      "requirement": "More puzzles in dungeons and traps; preserve existing quest routes and puzzle solutions",
+      "reportedOn": "2026-10-11",
+      "acceptance": "Readable clues, fair warning and reset/reload persistence; critical quest rewards reachable without softlocks",
+      "currentCheckpoint": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+        "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+        "evidence": "tracking/updates/trap-telltales-20261018.json",
+        "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "terrainContact": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+        "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+        "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+        "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
+    },
+    "additionalRemedies": {
+      "status": "confirmed_by_user",
+      "implementation": "aggregate_candidate",
+      "pr": 20,
+      "head": "d6e20a477c565c40f89cbb49cabb9abc15d7a79a",
+      "acceptance": "9 focused remedies and 299/299 full source/workflow tests passed. Ordinary acquisition/learning/craft/use/expiry/pause Save/reload remain pending.",
+      "runtimeRun": 38111916865,
+      "artifactSha256": "5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f",
+      "currentProcurement": {
+        "status": "source_partial_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Actual clinic/cook supply and four-remedy major-market access plus native learned fig/concentrated consumption fixtures; original timed effect/expiry/Save acceptance unchanged and pending."
+      }
+    },
+    "equipmentEconomy": {
+      "status": "confirmed_by_user",
+      "implementation": "partial_224_235_private_draft_source_runtime_pending",
+      "pr": 29,
+      "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b",
+      "remaining": "Smith/economy remains PARTIAL: nonregistered/independent legacy teachers and merchants, all regional materials/rare rewards/jewelry/loot/sell/craft arbitrage and fair wages/earnings, full field→mine→furnace progression, mountain/quest teachers, rendered equipment/animations and all-city stock/recipes still need coverage.",
+      "runtime": "Actual village/town/major-city mouse buy/sell, insufficient funds, cooking/recipe paths, four-remedy effects/expiry, ammo identity/render and ordinary offline pause Save/exact reload/old-save/Master remain pending.",
+      "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+      "currentBuildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+      "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+      "historicalArrowCandidate": {
+        "pr": 21,
+        "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b"
+      }
+    },
+    "october11Playtesting": {
+      "status": "confirmed_by_user",
+      "specification": "docs/USER_FEEDBACK_20261011.md",
+      "items": [
+        {
+          "id": "OPEN-60",
+          "status": "planned",
+          "scope": "Empty inventory/zero recipes; actual Lykos → Phocas → wolves/king → Pan → Daedalus dependencies, sling training/grant and actual cave item; objective-first story dialogue and reversible early social redirects.",
+          "acceptance": "New voyage earns mandatory tools, completes captain/puzzles for physical main item and gets clear next direction; old saves and reload at each stage, no flag-only completion.",
+          "implementation": "partial_local_candidate",
+          "latestEvidence": "verification/records/phocas-law-warning-local-20261011.json"
+        },
+        {
+          "id": "STORY-60",
+          "status": "planned",
+          "scope": "Essential quests including both Trojan resolutions; Ikaria cave heroism, deed-based recognition elsewhere; shepherd address until earned reputation except kind personalities; polite/rude regional characters.",
+          "acceptance": "Complete dialogue/boss/item/reward/next-stage triggers without softlocks or duplicate rewards, Save/reload."
+        },
+        {
+          "id": "TRAVEL-60",
+          "status": "planned",
+          "scope": "Broken map fast travel, discovery aliases, restrictions, callbacks/streaming/safe placement; distinct paid services.",
+          "acceptance": "Ordinary mouse arrival at representative discovered places; unknown locked, clear restrictions, no failed cost, old-save discovery, exact-position pause Save/reload."
+        },
+        {
+          "id": "WORK-60",
+          "status": "planned",
+          "scope": "Roles route to actual fields/herds/smithies/targets/vendors/taverns, arrival/facing/offset/reservation/duration/action; no endless pacing; grounded targets, no talking targets.",
+          "acceptance": "Observe Ikaria job/schedule coverage and blocked-station recovery; valid navigation/work/prop contact/occupancy; track other regions separately."
+        },
+        {
+          "id": "TASK-60",
+          "status": "planned",
+          "scope": "Thirty–forty total shared player/NPC tasks: carry/pour aligned amphoras/liquid, harvest/prune/tend/hammer/knead/cook/serve/sweep/sit/eat/drink/write/music as fitting; fix grain legs/clothing and bending grips.",
+          "acceptance": "Every implemented action available to both actor types with sensible prerequisites/safety; FP/TP body/clothes/props attached, jobs choose relevant tasks."
+        },
+        {
+          "id": "ROLL-60",
+          "status": "planned",
+          "scope": "Shared grounded player/NPC dodge/roll, configurable coherent controls/buffering/priority/recovery; root/pivot/swept collision.",
+          "acceptance": "Render terrain/slopes/stairs/interiors/docks, no ground phasing; FP/TP consistent, full enemy behavior."
+        },
+        {
+          "id": "IMMERSION-60",
+          "status": "planned",
+          "scope": "Systematic dialogue/asset/item coverage; physical ore/inscriptions instead of mechanic labels, contextual tool/controls UI; correct animal/human sound identity.",
+          "acceptance": "Actual inscriptions, usable controls, natural names; wolves not human/captains not ghoul without justified identity; explicit audited coverage."
+        },
+        {
+          "id": "SCRIPT-60",
+          "status": "planned",
+          "scope": "Visible cuneiform/hieroglyphs/Aegean Linear B/Phoenician artifacts, inscriptions, lessons and meaningful puzzles/quests.",
+          "acceptance": "Authoritative historical sources, educational chronology adaptations, ordinary see/learn/use/reload each script."
+        },
+        {
+          "id": "AUTHORITY-60",
+          "status": "planned",
+          "scope": "Regional rulers/guards/advisors/palaces/temples/administration and authentic dialogue, tavern art/props; larger vineyards/orchards.",
+          "acceptance": "Visible power/culture via assets/actions, actual art; harvest/navigation/collision and Low performance."
+        },
+        {
+          "id": "LAW-60",
+          "status": "planned",
+          "scope": "Civilian nonlethal warning, guard surrender/fine/refuse then combat on refusal/continued violence; coherent lethal danger; actual jail.",
+          "acceptance": "Single fine, insufficient funds/surrender/jail/escape/refuse and Save, no repeated-fine loops.",
+          "implementation": "partial_local_candidate",
+          "latestEvidence": "verification/records/phocas-law-warning-local-20261011.json"
+        },
+        {
+          "id": "CRIME-60",
+          "status": "planned",
+          "scope": "1–2 active criminals per region, visible sneak/theft/pickpocket, thief links, recoverable theft; varied bounded assassins.",
+          "acceptance": "Essential items protected, recoverable theft outcomes, readable assassin counterplay/rates and reload-safe state."
+        },
+        {
+          "id": "BARD-60",
+          "status": "planned",
+          "scope": "Optional follower with funny deed-dependent songs, regional court bards; rulers escorted by guards/advisors tour/fight bandits 1–2 days/week.",
+          "acceptance": "Recruit/dismiss/songs reflect deeds, actual routes/tasks, quest fallback, persistent weekly cycle."
+        },
+        {
+          "id": "CHEST-60",
+          "status": "planned",
+          "scope": "Learnable craftable chest, valid placement/ownership/storage; wooden starter bows, later horn/metal/composite progression.",
+          "acceptance": "Learn/craft/place/store/take/reload conserves items; early bow wood mesh, later variants gated."
+        },
+        {
+          "id": "CREATURE-60",
+          "status": "planned",
+          "scope": "Verify reachable vampires/werewolves rather than definitions.",
+          "acceptance": "Actual spawn/route/visual/combat/loot/reload; implement missing integration and record failures."
+        },
+        {
+          "id": "MOUNTAIN-60",
+          "status": "planned",
+          "scope": "Rewarding climbs/sites/enemies/distinct skill teachers/legendary rewards, clues/gates/return; richer fair dungeon puzzles/traps.",
+          "acceptance": "Climb/teach/fight/claim/return with once-only Save rewards; clues/warnings/reset and essential items reachable."
+        },
+        {
+          "id": "SEA-60",
+          "status": "planned",
+          "scope": "Larger waves, coherent buoyancy/pitch/roll, comfortable configurable camera, deck/passenger/hull attachment/swim/boarding/collision.",
+          "acceptance": "Variable seas/voyages/boarding/exits/Save; no leaks/sinks/teleports/clipping, Low measurements preserve enemies."
+        },
+        {
+          "id": "MUSIC-60",
+          "status": "planned",
+          "scope": "Several additional distinct sea-exploration tracks beyond prior five-more request, contextual scheduling/transitions.",
+          "acceptance": "Offline decode/play/transitions/concurrency/duration/embedded size and distinctness evidence."
+        },
+        {
+          "id": "FORT-60",
+          "status": "planned",
+          "scope": "A few scattered distinct forts with safe landing, ascending stairs, grounded archers/enemies, finite range/LOS arrows and clear-condition chests.",
+          "acceptance": "Sea approach/land/climb/fight/clear/loot/return, no duplicate chest after Save, Low performance."
+        },
+        {
+          "id": "ROBBERY-60",
+          "status": "planned",
+          "scope": "Ordinary pay/fight robbery, thief-faction safe passage; scary varied antler masks on inspected minotaur-looking faction.",
+          "acceptance": "Single charge/insufficient funds/decline/escape/fight/faction/Save; protect quest items, rig masks, canonical faction and readable combat."
+        },
+        {
+          "id": "LOCK-60",
+          "status": "planned",
+          "scope": "Tactile animated pick/hands, subtle resistance/sound/motion and optional haptics, no visible solution or arbitrary hidden guesses.",
+          "acceptance": "Fair difficulty/readable feedback, keyboard/mouse accessibility, tools/failure/reset/cancel, door/reward Save state."
+        },
+        {
+          "id": "ISLAND-60",
+          "status": "planned",
+          "scope": "Distinct island geography/architecture/ecology/content/encounters/restrained easter eggs including forts; Egypt/Mesopotamia no pines, palms/oasis/riparian varieties/denser reeds, barley-level fauna/vegetation quality.",
+          "acceptance": "Explicit island coverage beyond palette; historical/ecological sources where specific, deserts not uniformly oasis; harvest/navigation/instancing/LOD/culling/Low density checks."
+        },
+        {
+          "id": "CHAMPION-60",
+          "status": "planned",
+          "scope": "Persistent randomized reachable secluded island, actual varied grounded skeleton meshes; highest-tier canonical adamantium armor and every weapon kind; twice player max health/stamina fixed at encounter initialization, shared player moves, legal hands/visible switches/stamina recovery.",
+          "acceptance": "Discover/approach/fight/loot all actual material items ordinarily, no midfight scaling/impossible loadout; placement/once-only rewards persist after Save/death, performant skeletons."
+        }
+      ]
+    },
+    "fastTravel": {
+      "id": "TRAVEL-60",
+      "implementation": "merged_checkpoint_pending_broad_acceptance",
+      "buildSha256": "a1159f19ee6d995c667a8dfd4ccb9f15f36ad3dcb0273e915df12b252f26db50",
+      "sourceTests": "70 passed",
+      "runtime": "Scoped ordinary Troy arrival/storm/unknown/pause Save/exact reload passed run38114903163. More destinations and old-save gameplay pending; no milestone accepted.",
+      "pr": 25,
+      "prState": "merged",
+      "mergeCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+      "mergedAt": "2026-10-11T05:40:42Z"
+    },
+    "openingSling": {
+      "id": "OPEN-60",
+      "status": "confirmed_by_user",
+      "implementation": "candidate",
+      "artifactSha256": "02d12cad9b519e409f4fc214544116bdf356b07ddac64bc609a9e782987d857b",
+      "sourceTests": 79,
+      "runtime": "Prepared post-shearing direct grant/repeat/Save fixture pending; full beginning/Pan/target hit runtime not verified"
+    },
+    "panQuestItem": {
+      "id": "OPEN-60",
+      "status": "confirmed_by_user",
+      "implementation": "aggregate_candidate_pending_runtime",
+      "artifactSha256": "a56c6f6fb34809b0844a441b4185c8460a2ea7d8001a2fa3b6912656bb142b78",
+      "bytes": 37971501,
+      "sourceTests": 286,
+      "focusedTests": 8,
+      "runtime": "Physical tablet, Daedalus gate, nonduplication and old opened-chest migration pass source fixtures in the aggregate candidate. Full ordinary opening/cave/key/puzzle/captain/chest/Daedalus route and exact-build Save/reload remain pending."
+    },
+    "combatLock": {
+      "id": "COMBAT-LOCK-01",
+      "implementation": "local_unpublished_candidate",
+      "artifactSha256": "8690b2a561d60e30b36545f2ea4831d1f31990745de0b3c7ccd3f53ed504101e",
+      "sourceTests": 90,
+      "runtime": "pending; Chromium unavailable; full hostile NPC and melee/ranged integration pending"
+    },
+    "rollGrounding": {
+      "id": "ROLL-60",
+      "implementation": "partial_local_unpublished_candidate",
+      "artifactSha256": "8690b2a561d60e30b36545f2ea4831d1f31990745de0b3c7ccd3f53ed504101e",
+      "sourceTests": 90,
+      "implemented": "Configurable Alt/Caps Lock roll, 160 ms landing buffer, stamina/action restrictions, shared <=0.24-unit player/enemy evade collision substeps and active visible humanoid floor contact",
+      "runtime": "pending; no rendered slopes/stairs/interiors/FP/TP/ten-attacker Low/Save evidence; milestone not accepted"
+    },
+    "ikariaWorkplaces": {
+      "id": "WORK-60",
+      "implementation": "partial_local_unpublished_candidate",
+      "artifactSha256": "04327a8e813c087d692102a1e29e907e7a670b81a2ed8d50553772c60457bc9e",
+      "sourceTests": 97,
+      "implemented": "Unique reservations, stable work shifts and blocked-station reassignment at inspected Ikaria barley, dock, market, loom, dye-vat, craft-bench and smithy anchors; opening, guard, herder and special-route schedules excluded",
+      "runtime": "pending; no rendered routing, contact, obstacle recovery, Low performance or Save/reload evidence; thirty-to-forty shared tasks and paid contracts remain planned"
+    },
+    "completionTarget": {
+      "date": "2026-10-13",
+      "timezone": "America/New_York",
+      "status": "requested_target_not_guarantee"
+    },
+    "sharedWorkActions": {
+      "target": 40,
+      "implementation": "partial_local_unpublished_candidate",
+      "implementedCount": 28,
+      "implementedActions": [
+        "reap",
+        "bind sheaves",
+        "thresh",
+        "winnow",
+        "call flock",
+        "drive flock",
+        "feed flock",
+        "close and count pen gate",
+        "work forge bellows",
+        "heat and turn metal blank",
+        "hammer at anvil",
+        "quench worked metal",
+        "strike scored quarry face",
+        "seat quarry wedges",
+        "lever freed stone block",
+        "paired rope haul",
+        "carry river cargo",
+        "load cargo barge",
+        "dockside launch-line tow",
+        "pole clear of landing",
+        "inspect irrigation feeder",
+        "clear canal silt",
+        "hoe feeder banks",
+        "operate diversion gate",
+        "prepare seed plough and yoke",
+        "guide draft plough",
+        "meter seed into drill",
+        "level seeded furrow"
+      ],
+      "artifactSha256": "e9101c26c369d17eb911a5ca644d02c14422456a29da153679b0220059a0c0bf",
+      "sourceTests": 157,
+      "specification": "docs/WORK_AND_LOCK_PRIORITY_20261011.md",
+      "acceptance": "30–40 distinct actions, roughly3–4/job, shared player/NPC, real destinations/props/occupancy, paid farming/herding/quarry contracts, coordinated river haulage; exact-hash gameplay/Low/Save evidence. Twenty-eight actions across grain, herding, smithing, quarry, river cargo, Mesopotamian irrigation and Ur seed-plough work pass source fixtures. The separate Ur household shares prepare/guide/seed/level poses with a modeled ox/plough rig, assigned plot, supplied tools, ordered work, inventory conservation and one daily wage. Rendered/first-person/ordinary pause Save acceptance, full quarry-to-dock NPC route and the remaining action groups are pending."
+    },
+    "mountServices73": {
+      "status": "in_progress",
+      "implementation": "local_unpublished_candidate",
+      "buildSha256": "5096fbef8491c55e677c8309e5a6fe9f581c2b1aa4c84e35ed5e30a7d1486211",
+      "sourceTests": "228 tests passed including 8 workflow tests; no rendered acceptance",
+      "acceptance": "Ordinary regional service access/purchase/Owned/Ride/H call; single fare/payment, arrival; exact offline pause Save/reload. Runtime blocked, not accepted.",
+      "specification": "docs/CREATURE_MOUNT_FEEDBACK_20261011.md"
+    },
+    "hipposTamingTheft75": {
+      "status": "in_progress",
+      "implementation": "local_unpublished_candidate",
+      "buildSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
+      "sourceTests": "16 focused fixtures and 249-test full suite passed; ordinary gameplay pending",
+      "acceptance": "Ordinary ordered Hippos quest, rendered leading and bucking, protected E theft with complete law response, elite steppe horse and bounded horsemanship lessons, old-save compatibility and exact pause Save/reload. No runtime acceptance.",
+      "specification": "docs/CREATURE_MOUNT_FEEDBACK_20261011.md"
+    },
+    "regionalWells76": {
+      "status": "in_progress",
+      "implementation": "local_unpublished_candidate",
+      "artifactSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
+      "sourceTests": 249,
+      "acceptance": "Safe grounded accessible well in each region; ordinary refill with waterskin/jug, Low performance and exact offline pause Save/reload. Placement search and state tests passed; rendered region coverage pending."
+    },
+    "ridingChallenges77": {
+      "status": "in_progress",
+      "implementation": "local_unpublished_candidate",
+      "configuredRegions": [
+        "scythia",
+        "egypt",
+        "mesopotamia",
+        "naxos",
+        "ithaca"
+      ],
+      "artifactSha256": "6cbd8ca569bbdc01ae6c047986f1b1fb2ec6471b8a914c0792a9f4311f80e299",
+      "sourceTests": 249,
+      "acceptance": "Reachable mounted ordinary E/mouse start, ordered gates against a visibly mounted NPC, fair win/loss/quit/danger, daily nonduplicating rewards and exact offline Save/reload. Source fixtures passed; actual placement/runtime and other competition types pending."
+    },
+    "gripIntegration": {
+      "implementation": "aggregate_candidate",
+      "upstreamPR": 19,
+      "upstreamHead": "13c93973b7e04a0d9d88a35a2b860956c5106ddd",
+      "artifactSha256": "a1c89b3e85d2c51a9866c8bb5c0f3bafd6e4e12cecaa423d72d9fa40ddacc0e0",
+      "runtime": "pending exact checkpoint browser; full weapon matrix visual acceptance remains failed/pending"
+    },
+    "october13Feedback": {
+      "status": "confirmed_by_user",
+      "specification": "docs/PAN_TAVERN_HIPPOS_FEEDBACK_20261013.md",
+      "items": [
+        {
+          "id": "PAN-RETURN-117",
+          "implementation": "candidate_source_tested",
+          "scope": "Pan bandits/captain → physical tablet → King report → inventor Daedalus/Crete; own-boat/ferry and existing harvest/material earn-skiff directions.",
+          "acceptance": "Natural dialogue/puzzle/boss/item/royal return route and save checkpoints."
+        },
+        {
+          "id": "INVENTOR-122",
+          "implementation": "candidate_source_tested",
+          "scope": "Daedalus only inventor/story craftsman; no cloned royal stable; actual quest talk and marker.",
+          "acceptance": "Ordinary actual inventor menu advances after royal report, old saves."
+        },
+        {
+          "id": "TAVERN-MILK-118",
+          "implementation": "candidate_source_tested",
+          "scope": "Anchored indoor counter and separate table server, meal ordering, milk thirst consumption, actual work directions when poor.",
+          "acceptance": "Ordinary entry/counter buy/eat/drink, conservation, physical serving route, regional coverage, reload."
+        },
+        {
+          "id": "HIPPOS-121",
+          "implementation": "candidate_source_tested",
+          "scope": "Fence-aware bounded path follow without35m freeze; horse physically reaches pasture and returns, no completion teleport.",
+          "acceptance": "Ordinary gate/pasture/Timaios leading, blocked recovery and ownership/reload conservation."
+        },
+        {
+          "id": "CIVILIAN-PVE-119",
+          "implementation": "candidate_source_tested",
+          "scope": "NPC-caused civilian harm floors health at1 then flee; player assault preserves lethal law consequences.",
+          "acceptance": "Actual mixed NPC/companion/player damage and flee without reducing8–10 attackers."
+        },
+        {
+          "id": "ENCOUNTER-SPAR-119",
+          "implementation": "candidate_source_tested",
+          "scope": "One-shot boss/assassin approach cinema, real spar intro/results and daily extra reward; pale/red-eyed vampires.",
+          "acceptance": "Ordinary cancel/resume/win/loss/daily payout/reload and rendered vampire review."
+        },
+        {
+          "id": "SPEAR-THROW-123",
+          "implementation": "pending",
+          "scope": "Eligible Myrmidons/captains/revenants/oathkeepers/high spear users throw/recover; player skill unlock; embedded identity, damage≥thrust.",
+          "acceptance": "Ordinary tree unlock/throw/contact/recovery/finite hands, save-safe loot."
+        },
+        {
+          "id": "WORK-LOCATION-124",
+          "implementation": "partial_counter_only",
+          "scope": "Actual garden tasks, courier delivery/navigation, workstation roles; tavern counter candidate only.",
+          "acceptance": "Observe useful physical cycles/contact/blocked recovery, shared player parity, Low/save."
+        },
+        {
+          "id": "CRIME-JAIL-125",
+          "implementation": "pending",
+          "scope": "Regional criminal sneak/combat/lockpick teachers, visible mischief; major-region jails with unfairness/regret inmates, release/reoffend/arrest and NPC-NPC daily interactions.",
+          "acceptance": "Real regional trainer/jail and save-safe crime/release/arrest/day interactions, essential item protection."
+        },
+        {
+          "id": "BOSS-RUMOR-126",
+          "implementation": "pending",
+          "scope": "Townsfolk mention actual regional bosses including Minotaur, not invented services/secret reveals.",
+          "acceptance": "Alive/dead/local encounter dialogue transitions and main quest unchanged."
+        },
+        {
+          "id": "ROAMING-ASSASSIN-127",
+          "implementation": "pending",
+          "scope": "Random ransom captains/assassins across every region, scaled actual gear/moves and approach cinematics.",
+          "acceptance": "Real region/loadout/move/cooldown/counterplay/loot/save matrix, no civilian kills."
+        },
+        {
+          "id": "LOCK-LESSON-LYKOS-128",
+          "implementation": "pending_Lykos",
+          "scope": "Both Phocas/Lykos require actual lock exercise; Phocas preserved seed, Lykos still pending.",
+          "acceptance": "Ordinary lock/hit not dialogue bypass; cancel/resume/reload."
+        },
+        {
+          "id": "BOW-STEALTH-129",
+          "implementation": "partial_hit_context_unintegrated_search_draft",
+          "scope": "Reliable crouched/distant material arrow hits; hidden shots directional investigation not exact autolocation.",
+          "acceptance": "Ordinary FP/TP mouse draw/hit/shield/terrain/LOS/search/alert/expiry and Low/save."
+        },
+        {
+          "id": "AUDIO-PREDATOR-130",
+          "implementation": "pending",
+          "scope": "Faster wolf/bear/jackal/lion; less chatter, species-safe injuries and3–4 human pain variations.",
+          "acceptance": "Audible actual species injury variants, bounded frequency/concurrency and rendered speed/contact."
+        },
+        {
+          "id": "STORAGE-131",
+          "implementation": "partial_owned_storage_only",
+          "scope": "Persistent deposits in appropriate chests; regional travel testing chest identity not yet located.",
+          "acceptance": "Ordinary deposit/take conservation/reload per supported chest, no claim arbitrary loot chest stores."
+        }
+      ]
+    },
+    "october14LocalContinuation": {
+      "status": "confirmed_by_user",
+      "implementation": "integrated_candidate_unverified",
+      "specifications": [
+        "docs/CREATURE_SPEAR_SERVICE_FEEDBACK_20261013.md",
+        "docs/CIVILIZATION_CLOTHING_FEEDBACK_20261013.md",
+        "docs/PHTHIA_SCOPE_CORRECTION_20261014.md",
+        "docs/TROJAN_CAMPAIGN_SEQUENCE_20261014.md"
+      ],
+      "checkpoint": "tracking/updates/reconcile-runtime-contracts-20261014.json",
+      "scope": "All local Phthia,clothing,helmet,resource/workplace/city/granary and Pan guidance retained. All expanded requirements open; no acceptance from definitions/fixtures."
+    },
+    "sanctuary186188": {
+      "status": "partial_source_implementation_runtime_pending",
+      "specification": "docs/SANCTUARY_LIFE_RESEARCH_20261016.md",
+      "scope": "Two actual sanctuary physical/ceremonial/optional grain-record/direction examples only; no whole religion, ceremonial outfit, shared animation or milestone acceptance"
+    },
+    "mainRouteDirections214215": {
+      "status": "source_delivered_local_checks_passed_runtime_pending",
+      "evidence": "tracking/updates/main-route-directions-20261017.json",
+      "acceptance": "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master"
+    },
+    "relicAreas216218": {
+      "status": "source_delivered_local_passed_runtime_pending",
+      "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+      "acceptance": "Ordinary four-script schools/actual field and relic acquisition/physical storage/ward plus pause Save/exact reload/old-save/Master required"
+    },
+    "captiveMooring219221": {
+      "status": "implemented_source_delivered_runtime_pending",
+      "evidence": "tracking/updates/captive-berth-recovery-20261017.json",
+      "acceptance": "Ordinary moved-nearby boat during boarding/unloading/reverse crossing, actual mooring controls/collision/child deck and ramp contact, pause Save/exact-position reload/cold Continue/old saves and full home-route/Master"
+    },
+    "serviceSavedIdentity222223": {
+      "status": "implemented_fresh_voyages_legacy_partial_runtime_pending",
+      "evidence": "tracking/updates/service-save-identity-20261017.json",
+      "acceptance": "Ordinary Egypt/Luxor/Valley visits, map/directions/trade/remedies/commissions, fresh and old save-slot switching, ordinary offline pause-menu Save/exact-position reload/cold Continue/render/Master"
+    },
+    "captiveHarbour230232": {
+      "status": "source_implemented_runtime_pending_partial_recovery",
+      "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+      "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+      "record": "tracking/updates/captive-harbour-recovery-20261018.json",
+      "fullSuite": {
+        "status": "passed",
+        "passed": 925,
+        "failed": 0,
+        "newTests": 20,
+        "durationMs": 160948.58678,
+        "completeFooter": true,
+        "okEntries": 925,
+        "exitCode": 0,
+        "hashUnchanged": true,
+        "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+        "evidence": "verification/harbour232-full-tap.txt",
+        "result": "verification/harbour232-full-result.json",
+        "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      },
+      "focusedChecks": {
+        "status": "passed",
+        "passed": 46,
+        "failed": 0,
+        "newTests": 20,
+        "durationMs": 18837.597464,
+        "evidence": "verification/harbour232-focused-tap.txt",
+        "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      },
+      "changes": [
+        "230 at the actual original saved rescue dock, a finite earned war_horn29 can recall the same owned seaworthy BOAT from <=120 game units or a large heading mismatch. Original boarding/alighting/returning anchor, people, cursors, child/player positions, inventory, quest flags and rewards are not rewritten.",
+        "231 incremental16-sample-per-timestamp preflight checks starting turn, straight original approach and final saved yaw with actual native hull collision/bounds. Movement <=.12m/.03rad per50ms tick is swept at <=.025m/.005rad; new obstruction stops BEFORE that frame's movement. Boats are not teleported, recreated or re-anchored; no detour path, wreck resurrection or quest completion.",
+        "231 exact current game/boat/mesh/dock/anchor/people/return/landing/revision guards, ownership/hull/horn/danger/player departure stops, paused/dialogue holds, ordinary stop/restart and six-second horn cooldown. Transient plan/generator stays outside serialized G; native snapshot/base Continue/checkpoint21 preserve actual in-flight coordinates, restore cancels the job and fresh ordinary interaction restarts.",
+        "232 normal actual Rally company horn menu replaces its private ramp-blocked call with current rescue-recall/cancel choices only for this case; native follower orders and ordinary no-rescue boat calls retained. Original dock currentInts and actual findInt/tryInteract expose start/stop ashore, Go ashore still wins when mounted, short219–221 no-horn controls retained. No new programmatic Save or item/money/XP grant."
+      ],
+      "remaining": [
+        "Recovery PARTIAL: only original saved docks, owned seaworthy same vessel, earned finite horn and unobstructed <=120 straight approaches/turning space. Sunken/missing/replacement hulls, farther boats, changed original docks, routing around land/shoals and arbitrary offshore rescues remain unfinished. Without a horn, only old short219–221 realignment remains.",
+        "All120/every M0–M5/prior requirement retained/unaccepted. Ordinary full main/Pan/artifact/Alashiya/princess and captive home route, rendered child/ramp/boat contact/audio, offline pause-menu Save/exact-position reload/cold Continue/old saves and Master gates mandatory. Controlled native/Three/JSON fixtures do not establish these.",
+        "222–223 ambiguous legacy service records remain conservative/partial, not guessed/copied.224–229 market/pantry/cook/remedy source retained, full smith/mining/advanced recipe/economy/earnings/arrow coverage remains incomplete; full geography/equipment/creatures/factions/sites/work/music remain.",
+        "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, retained. Playwright package present but its expected Chromium1234/system paths absent; latest older5bcd473b jobs have no executed steps/artifacts, no current matching generated GitHub playable download. No hung browser/download/runner/account workaround. Remaining ETA unmeasured."
+      ],
+      "acceptance": "No original active-hour slot or M0–M5 milestone accepted; mandatory ordinary current-hash route/Save/render/Master gates remain."
+    },
+    "regionalSmith233235": {
+      "status": "partial_source_runtime_pending",
+      "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+      "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+      "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+      "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+      "ordinaryAcceptance": "pending",
+      "fullSuite": {
+        "status": "passed",
+        "passed": 950,
+        "failed": 0,
+        "newTests": 25,
+        "durationMs": 152763.40934,
+        "completeFooter": true,
+        "okEntries": 950,
+        "exitCode": 0,
+        "hashUnchanged": true,
+        "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+        "evidence": "verification/smith235-full-tap.txt",
+        "result": "verification/smith235-full-result.json",
+        "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      },
+      "focusedChecks": {
+        "status": "passed",
+        "passed": 74,
+        "failed": 0,
+        "newTests": 25,
+        "durationMs": 37456.832025,
+        "evidence": "verification/smith235-focused-tap.txt",
+        "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      }
+    }
+  },
+  "milestones": [
+    {
+      "id": "M0",
+      "title": "Baseline and verification",
+      "priority": "P0",
+      "dependsOn": [],
+      "status": "in_progress",
+      "sourceEvidence": [
+        "baseline/build-59.json"
+      ],
+      "tests": [
+        {
+          "id": "BASE-01",
+          "status": "passed",
+          "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+          "method": "SHA-256 and byte-count comparison with imported candidate; compile three inline classic scripts; validate tracker and update records",
+          "evidence": "verification/records/baseline-static.json",
+          "reviewer": "Oversight repository verification"
+        },
+        {
+          "id": "BASE-02",
+          "status": "passed",
+          "buildSha256": "b058d8e4c67bbbc5753cc99468b67fbf16946d284d4cedd0d6badea3d6927fc8",
+          "method": "Generated standalone candidate, offline Chrome151 verylow: normal movement, actual nonblank frame, ordinary accessible pause Save click, saved/restored coordinates identical (1e-6 tolerance), zero errors/external requests",
+          "evidence": "verification/records/charge-feint-browser.json",
+          "reviewer": "Master Development checkpoint review https://github.com/addezoysa-beep/bronze-age-rpg/pull/14#issuecomment-6104572955"
+        },
+        {
+          "id": "BASE-03",
+          "status": "pending"
+        }
+      ],
+      "blockers": [
+        "Reference-device performance baseline and full original discussion reconciliation pending",
+        "User reports reduced frame rate after loading a previous save near combat on Low graphics; exact device, saved encounter and frame timings not yet captured"
+      ],
+      "nextAction": "Use generated pause-fixed candidate for M1 runtime checkpoints; establish reference-device performance and finish source/history reconciliation before M0 acceptance"
+    },
+    {
+      "id": "M1",
+      "title": "Combat and audio foundations",
+      "priority": "P1",
+      "dependsOn": [
+        "M0"
+      ],
+      "status": "in_progress",
+      "sourceEvidence": [
+        "baseline/build-59.json"
+      ],
+      "tests": [
+        {
+          "id": "MOVE-01",
+          "status": "pending"
+        },
+        {
+          "id": "FEINT-01",
+          "status": "pending"
+        },
+        {
+          "id": "KOB-EVADE-01",
+          "status": "pending"
+        },
+        {
+          "id": "AUDIO-01",
+          "status": "pending"
+        },
+        {
+          "id": "AUDIO-02",
+          "status": "pending"
+        },
+        {
+          "id": "HUD-01",
+          "status": "pending"
+        }
+      ],
+      "blockers": [
+        "Source claims require active-override audit and runtime acceptance"
+      ],
+      "nextAction": "Review PR #19 live rendered wrist/attachment diagnostics and human visuals; GEAR-01 remains failed. Continue full combat/movement/HUD/audio runtime scope."
+    },
+    {
+      "id": "M2",
+      "title": "Regional equipment and item models",
+      "priority": "P1",
+      "dependsOn": [
+        "M0",
+        "M1"
+      ],
+      "status": "code_inspected",
+      "sourceEvidence": [
+        "baseline/build-59.json"
+      ],
+      "tests": [
+        {
+          "id": "GEAR-01",
+          "status": "failed",
+          "method": "User playtesting screenshot: offset staff and unnatural wrist; exact downloaded build identity not independently verified",
+          "evidence": "verification/records/interaction-hotfix.json",
+          "reviewer": "User playtesting feedback in master development"
+        },
+        {
+          "id": "ARCH-01",
+          "status": "pending"
+        },
+        {
+          "id": "CRAFT-01",
+          "status": "pending"
+        }
+      ],
+      "blockers": [
+        "Equipment/action contracts and item matrix need runtime verification",
+        "User screenshot confirms offset staff attachment and apparent wrist overpronation; transform-only fixture pass does not establish visual acceptance"
+      ],
+      "nextAction": "Audit supported loadouts, six distinct weapon behaviors, regional models and crafting conservation"
+    },
+    {
+      "id": "M3",
+      "title": "Regional life and factions",
+      "priority": "P2",
+      "dependsOn": [
+        "M0",
+        "M1",
+        "M2"
+      ],
+      "status": "code_inspected",
+      "sourceEvidence": [
+        "baseline/build-59.json"
+      ],
+      "tests": [
+        {
+          "id": "GROUP-01",
+          "status": "pending"
+        },
+        {
+          "id": "KOB-ALERT-01",
+          "status": "pending"
+        },
+        {
+          "id": "REV-01",
+          "status": "pending"
+        },
+        {
+          "id": "FACTION-01",
+          "status": "pending"
+        }
+      ],
+      "blockers": [
+        "Only four faction definitions inspected",
+        "Expanded roster approval pending",
+        "8-10 simultaneous attacks and kobaloi coordinated alerts unverified"
+      ],
+      "nextAction": "Finalize broad faction roster with multiple types per faction, implement/test ten-attacker encounters, kobaloi alerts and revenant bow/sword variants"
+    },
+    {
+      "id": "M4",
+      "title": "Legendary exploration",
+      "priority": "P3",
+      "dependsOn": [
+        "M0",
+        "M2",
+        "M3"
+      ],
+      "status": "code_inspected",
+      "sourceEvidence": [
+        "baseline/build-59.json"
+      ],
+      "tests": [
+        {
+          "id": "SITE-01",
+          "status": "pending"
+        },
+        {
+          "id": "STORY-01",
+          "status": "pending"
+        }
+      ],
+      "blockers": [
+        "Eight site and twelve hideout definitions do not prove reachable, complete content",
+        "King quest and nested guide menu regression passed in offline Chromium; paid Ur arrival/fare/Save verified in PR #18; full quest/other travel routes and dungeon puzzle/trap acceptance remain pending"
+      ],
+      "nextAction": "Paid Ur wagon route and destination exact-position Save/reload verified and integrated (PR #18); Cave of Pan sling/plate/key/captain/tally/Knossos route and added puzzles/traps remain pending. Grip, Low old-save performance remain open."
+    },
+    {
+      "id": "M5",
+      "title": "Egypt and world music life",
+      "priority": "P3",
+      "dependsOn": [
+        "M0",
+        "M1",
+        "M4"
+      ],
+      "status": "code_inspected",
+      "sourceEvidence": [
+        "baseline/build-59.json"
+      ],
+      "tests": [
+        {
+          "id": "EGYPT-01",
+          "status": "pending"
+        },
+        {
+          "id": "LIFE-01",
+          "status": "pending"
+        }
+      ],
+      "blockers": [
+        "Travel, swimming, settlement art/puzzles and contextual audio need route testing"
+      ],
+      "nextAction": "Build Luxor/Valley/Nile travel scenarios and world-life/audio regressions; asset work may proceed alongside M2-M4"
+    }
+  ],
+  "userFeedback": {
+    "targetChestWeather72": {
+      "id": "target-chest-weather-local-20261011",
+      "buildSha256": "3712f152e387a5033474d74833fc3366103c4d31ff07348627da2f17d4800a8e",
+      "recordedAt": "2026-10-11T21:29:40.806339+00:00",
+      "implementation": "local_unpublished_candidate",
+      "checks": {
+        "nodeTests": {
+          "passed": 198,
+          "failed": 0,
+          "includesWorkflowTests": 8
+        },
+        "repository": "passed",
+        "exactCandidateBytes": 37913714,
+        "browser": "blocked: Playwright runtime package exists but its Chromium executable is absent; initial smoke did not launch and was baseline-only"
+      },
+      "scope": "Source fixtures reproduce stale boss priority and missing dg.def on outdoor chest. Current LOCK then nearest engaged hostile target; boss clears by state/range/area/visibility/LOS. Guardian chest refuses alive; dead unlocks. Egyptian puzzle still gated. Rain/storm landmark travel allowed; safe land/departure/discovery checks retained.",
+      "pending": [
+        "ordinary chest interaction, combat target switching and rain travel on exact candidate",
+        "ordinary pause Save/reload",
+        "creature mesh redesign and regional/mount/challenge/well expansion"
+      ],
+      "milestoneAcceptance": "none"
+    },
+    "horseMotionImpact79": {
+      "id": "horse-motion-impact-local-20261012",
+      "buildSha256": "e515b93a9e8e757a28efe371331991c93d2e3d3bf64bcdd76017eb07f1a204a2",
+      "recordedAt": "2026-10-12T04:13:05Z",
+      "implementation": "local_candidate_pending_publication_and_runtime",
+      "checks": {
+        "focusedSource": "6/6 passed",
+        "fullSourceWorkflow": "255/255 passed serially; parallel run had one file-level worker failure and its interaction file passed 9/9 alone",
+        "exactCandidateBytes": 37950664,
+        "inlineCompile": "passed",
+        "browser": "pending: rendered gait/contact, ordinary stable UI and offline Save/reload are not established"
+      },
+      "scope": "Forward speed-gated swept horse impacts with bounded damage/cooldowns and law routing; stand/walk/trot/gallop limb articulation; saddle-free taming followed by conserved stable registration and one riding quilt.",
+      "pending": [
+        "rendered side/front/rear gait review across speeds, turns and slopes",
+        "ordinary player/NPC/friendly/civilian charge contacts and law response",
+        "ordinary stable registration, insufficient funds, duplicate prevention and pause Save/reload",
+        "Low-preset performance and rider/quilt contact"
+      ],
+      "milestoneAcceptance": "none"
+    },
+    "stableCallRegistry80": {
+      "id": "stable-call-registry-local-20261012",
+      "buildSha256": "a2e7af41d66efeb6369e1b4e83e336f9206c33a669c479dee1141d644543a5c5",
+      "recordedAt": "2026-10-12T05:17:00Z",
+      "implementation": "candidate_pending_publication_and_runtime",
+      "checks": {
+        "focused": "10/10 passed including executed registry, horse switching and chariot selection fixtures",
+        "fullSourceWorkflow": "265/265 passed",
+        "exactCandidateBytes": 37955966,
+        "inlineCompile": "passed",
+        "browser": "pending"
+      },
+      "scope": "Persistent multiple-horse registry, unified stable horse/chariot selector, selected shared H responder, unavailable-mount gates, additional-purchase conservation and old single-horse migration.",
+      "pending": [
+        "ordinary stable mouse interaction and readable labels",
+        "reachable functioning stable and registration service in every major region",
+        "physical summon/switch placement for multiple horses and chariots",
+        "unavailable/dead mount gameplay, old-save and ordinary offline pause Save/reload"
+      ],
+      "milestoneAcceptance": "none"
+    },
+    "wildHerdsGrass83": {
+      "id": "wild-herds-grass-local-20261012",
+      "buildSha256": "9679f64b643199e6c00a3620a46b0fcae5947abd1b8f1c9f4d10f68d09e0827f",
+      "recordedAt": "2026-10-12T09:18:51Z",
+      "implementation": "local_candidate_pending_publication_and_rendered_runtime",
+      "checks": {
+        "focused": "4/4 passed",
+        "fullSourceWorkflow": "278/278 passed serially",
+        "repository": "passed",
+        "exactCandidateBytes": 37969171,
+        "inlineCompile": "passed",
+        "browser": "pending on new hash; preceding run passed core gameplay through wagon reload then harness failed on delayed level-up inventory before map input"
+      },
+      "scope": "Five grouped wild-horse sites in Northern Steppe and suitable Greek uplands; grounded travel/graze routes, persisted identities/positions, existing taming/registration integration, actual grass blades and Low/Very Low distance budgets; desert regions excluded.",
+      "pending": [
+        "rendered reachable herd encounters, group behavior and slope navigation",
+        "ordinary moving-herd taming, registration and pause Save/reload",
+        "grass silhouette, grazing contact, ecology review and harvest-route clearance",
+        "Low and Very Low measured performance"
+      ],
+      "milestoneAcceptance": "none"
+    },
+    "panTavernHippos": {
+      "id": "pan-tavern-hippos-20261013",
+      "buildSha256": "4445d03c7c5c269774fe7ff5fa0b68be38d8cf6fe92af707b7c38f6c9b2ff160",
+      "bytes": 38107212,
+      "implementation": "candidate_source_tested",
+      "checks": {
+        "localTests": {
+          "passed": 89,
+          "failed": 0,
+          "integrated": 84,
+          "unintegratedStealthDraft": 5
+        },
+        "browser": "pending current hash"
+      },
+      "milestoneAcceptance": "none",
+      "previousBuildBrowser": {
+        "buildSha256": "7146ff368b8fa7b7904210a93d06f0c37fc59d06d6428a273f92b0d4e7e8d1fd",
+        "run": 38481457696,
+        "sourceTests": 367,
+        "passed": "Prepared defeated-captain tablet/chest/pause Save/reload; startup/render/movement/reload several jobs; arrow selector conservation",
+        "failed": [
+          "Q lock acquisition",
+          "bow draw charge",
+          "healer access",
+          "stick idle wrist seat",
+          "travel data-load1 reload disabled"
+        ],
+        "scope": "Prepared Pan not full route; no current-hash carry forward."
+      }
+    },
+    "watchtowerCaptives179": {
+      "id": "watchtower-captives-20261015",
+      "buildSha256": "1eabf42640f001c2fbb98519483d5e793c50030dc2fd71e4a628762fb1dc4601",
+      "status": "implemented_source_verified_runtime_pending",
+      "scope": "Actual Watchtower south landing gate geometry/collision and optional two-child rescue with garrison-clear release, grounded causeway route and once-only Ikaria kin aid; see exact update record",
+      "checks": {
+        "localPassed": 647,
+        "localFailed": 0,
+        "new": 9,
+        "evidence": "verification/watchtower179-full-tests.txt"
+      },
+      "pending": [
+        "ordinary rendered approach and child rig/ground contact",
+        "natural landing/ascent/garrison/pen dialogue and child route",
+        "offline pause Save/exact-position reload at each phase and old-save gameplay",
+        "current-head Master review"
+      ]
+    },
+    "regionalServiceQol181": {
+      "id": "regional-service-qol-20261016",
+      "status": "implemented_source_verified_runtime_pending",
+      "buildSha256": "93442289dc74a905c3116a516a7825a36f76a1b9223fbf13d138483840710020",
+      "sourceScope": "Local display cast and native service callback reach guards; legacy save names retained. Shared Egypt/Luxor/Valley identity collision remains pending; see exact record.",
+      "next": "Ordinary representative service menus, map/nearby labels, acquisition/commissions/learning and offline pause Save/exact reload. Separate evidence-led identity migration without moving player/recruits or duplicating cargo/orders."
+    },
+    "shekeleshSharedSwing182": {
+      "id": "shekelesh-shared-swing-20261016",
+      "status": "implemented_source_verified_runtime_pending",
+      "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
+      "scope": "Existing player axe forms3/5 tied to native boss wind/hit/recovery; native damage/throw/ward/reward logic retained. Rendered contact/laugh/opening appearance/full boss route and ordinary Save remain pending."
+    }
+  },
+  "currentCandidate": {
+    "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
+    "manifest": "dist/current-build-manifest.json",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "bytes": 38464267,
+    "sourceChecks": 1100,
+    "sourceScope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+    "masterReview": "pending",
+    "milestoneAcceptance": "pending",
+    "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
+    "masterDelivery": {
+      "status": "delivered",
+      "pr": 29,
+      "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+      "draft": true,
+      "merged": false,
+      "evidence": "Fourteen exact source/handoff readbacks, expected-head nonforce publication from96d595e70dc2a20038a3e5650d1e31eec77f0a2b"
+    },
+    "next": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+    "fullSuite": {
+      "status": "passed",
+      "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1100,
+      "passed": 1100,
+      "failed": 0,
+      "durationMs": 254374.088223,
+      "completeFooter": true,
+      "okEntries": 1100,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/terrain259-full-tap.txt",
+      "newTests": 20
+    }
+  },
+  "saveLoadPerformance146": {
+    "priority": "Critical main-campaign/QOL before expanded Troy",
+    "status": "implemented_source_verified_runtime_pending",
+    "buildSha256": "118d9a826587c777043e8d7c337c010349193fcb13d100bd909b3d304868383a",
+    "requirements": [
+      "retain persisted Low/Very low on cold boot and reload",
+      "measure populate/architecture/chart/nearby terrain/restore stages",
+      "20-second optional road preparation grace after immediate save restore",
+      "skip identical terrain focus refresh without suppressing changed destinations/cache/settings",
+      "ordinary Save/exact reload plus first-minute Low frame timings",
+      "representative old save and8–10 truly active attackers remain required"
+    ],
+    "referencePerformance": "pending; CI software-rendered fresh-save observation is not acceptance"
+  },
+  "mineContracts236238": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "evidence": "tracking/updates/mine-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+    "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
+    "ordinaryAcceptance": "pending"
+  },
+  "quarryContracts239240": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+    "evidence": "tracking/updates/quarry-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+  },
+  "riverWork241243": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+    "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+    "evidence": "tracking/updates/river-work-20261018.json",
+    "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance."
+  },
+  "egyptRecords244246": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+    "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+    "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+    "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "nilePassenger247249": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+    "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+    "evidence": "tracking/updates/nile-passenger-20261018.json",
+    "handoff": "docs/NEXT_RUN_NILE_PASSENGER_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
+    "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+  },
+  "checkpointSafety250251": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+    "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+    "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "dungeonCheckpoint252253": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+    "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+    "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+    "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+  },
+  "coreBrazier254255": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "75db0705d1b8762ab7a2a53e74b1cf1627e0b6c8",
+    "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+    "evidence": "tracking/updates/core-brazier-continuity-20261018.json",
+    "ordinaryAcceptance": "pending"
+  },
+  "trapTelltales256": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "b09d15ddec41495ca8291bc83c70e0417f278e2c",
+    "buildSha256": "ce369e7ceb8062f3e17e29fbbee9cfaa9058d28ffa9ef23ff4436501456f1385",
+    "evidence": "tracking/updates/trap-telltales-20261018.json",
+    "handoff": "docs/NEXT_RUN_TRAP_TELLTALES_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL actual native core dungeon build/entry/update/brazier/target/flame/collision, real Three/Batch mesh buffers and prepared snapshot/Continue/manual-Save fixtures with250–255, plus complete source/workflow/compile/package suite. Six native Sun King traps, not custom all-site hazards. NOT ordinary mouse/browser, actual populated routes/terrain/reachability, rendered mesh/hand/audio quality, browser playback/concurrency/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "dungeonTerrain257258": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "evidence": "tracking/updates/puzzle-terrain-contact-20261018.json",
+    "handoff": "docs/NEXT_RUN_PUZZLE_TERRAIN_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL actual native Pan/Tomb/Catacombs fields/floor meshes, Three ray intersections and full-footprint rigid crate support, native collision-driven Pan plate route, fresh build/entry and prepared snapshot/Continue/manual21 Save250–258 composition, plus existing source/workflow/compile/package tests and259 exact-file release input tests. Controlled enemies/HUD/sounds; NOT ordinary mouse/browser, fully decorated/populated route or all-site reachability, rendered hand/body/prop quality/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "generatedReleaseInput259": {
+    "status": "source_workflow_verified_release_blocked",
+    "sourceCommit": "b2da04b4fa3ca0e2d53fb1d34319e2ee63639705",
+    "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
+    "evidence": "tracking/updates/generated-release-input-20261018.json",
+    "acceptance": "not a release or milestone acceptance"
+  }
+}

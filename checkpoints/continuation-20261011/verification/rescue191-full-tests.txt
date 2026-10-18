@@ -1,0 +1,82 @@
+✔ Canceled Kobalos feint returns to approach without damage (6.67625ms)
+✔ A strike damages once during its action window (4.172351ms)
+✔ An out-of-range windup aborts without damage (4.016933ms)
+✖ Anatomical hand assignment is idempotent and routes bow/shield left (9.32352ms)
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: AUDIO_ASSETS54 definition is present
+    at file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/additional-score.test.mjs:14:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+✖ scripts/additional-score.test.mjs (141.625831ms)
+✔ actual city watch reserves six identities with unchanged inventory; occupied barracks have no active guard, interaction, law response or watch movement (7.543924ms)
+✔ warlord defeat alone does not restore soldiers; actual rescue completion restores same living actors once and watch resumes (2.907512ms)
+✔ old checkpoint restores remain occupied and keep player exact position, names/index order and dead/recruited/hostile state safe (3.99507ms)
+✔ loading an earlier occupied save after a completed save suppresses same guard roster again without touching other cities or quest actors (2.480935ms)
+✔ HUD selection wraps stocked types without consuming arrows or selecting empty stock (3.26049ms)
+✔ arrow selection is blocked during draw, release, death and menus (2.565179ms)
+✔ Alt-wheel and bracket controls switch ammunition without camera-wheel propagation (1.037725ms)
+✔ crouched arrow damage clears stale melee restrictions and restores context exactly (0.827737ms)
+✔ projectile context is restored even if impact handler throws (1.072175ms)
+✔ actual delivered height/skill wrappers accept arrows independently of shooter elevation (7.940948ms)
+✔ dragon wing construction executes actual Batch triangle/quad methods with valid colors (2.986117ms)
+✔ all continuation mesh palette references exist or specify an explicit fallback (6.457358ms)
+✔ distant unseen arrow gives an incoming direction search without knowing shooter position (2.777932ms)
+✔ genuine sight/hearing reacquires the player and resumes attack-capable AI (0.665147ms)
+✔ search times out; pauses do not move or expire it (0.795899ms)
+✔ far or rear attack reveal is suppressed and restored; close frontal reveal stays available (0.803831ms)
+✔ previously engaged targets and NPC/ally arrows do not discard actual known combat targets (1.055391ms)
+✔ search respects active spd including stationary actors and poses only actual movement (0.671497ms)
+✔ interior search uses dungeon collision rather than outdoor height navigation (0.883638ms)
+✔ actual legacy null/invalid nested load can replace G before failure; atomic decode keeps prior game/slot and disk untouched (6.278876ms)
+✔ primitive/array roots are refused without default-game replacement or multiple decodes (2.016033ms)
+✔ valid legacy/full/explicit-empty inventory states and unknown fields match actual previous decoder exactly (3.906802ms)
+✔ remedy normalization failure rolls back the active game and selected slot (1.747387ms)
+✔ Continue deletion guard still intercepts atomic decode failure (1.046718ms)
+✔ inspected saved-game extension is actual remedy normalization, not an omitted active loader (12.540949ms)
+✔ active original cylinders: exact position/normal/color topology across200 rotated cone/taper/negative/zero cases and unchanged input options (163.147776ms)
+✔ cylinder unsupported segment counts delegate original instead of clamping or changing geometry (63.516267ms)
+✔ anatomical lofts: exact all-axis caps/winding/smoothed normals/colors across120 small/large/reversed/degenerate ring sets (352.428606ms)
+✔ loft degenerate/single/unsupported detail cases retain original results or errors (76.286984ms)
+✔ actual shapedLeg animal/horse factories retain geometry buffers, bounding spheres, rig graph and transforms (146.162903ms)
+✔ existing sphere-template cache remains untouched with identical detail/color/transform buffers (108.044492ms)
+✔ audited save/remove/clear preserve original storage behavior and returns without logging save data (2.566131ms)
+✔ quota failure remains thrown and cannot be converted to a successful Save (1.434158ms)
+✔ diagnostic trace is bounded and installing twice does not duplicate storage wrappers (3.324115ms)
+✔ diagnostics do not coerce caller objects twice or let a console failure block actual storage (0.913903ms)
+✖ reproduce the exact production candidate (12.398981ms)
+✔ reject changed source instead of silently applying an obsolete fix (17.009215ms)
+✖ startup character creation tolerates unknown culture and riding instructors use valid styles (11.726682ms)
+✖ startup failure displays actual failing function and line with safe escaping (11.831988ms)
+✔ existing horn menu retains company choices; clear-water call approaches continuously with actual hull checks and no player/item/money movement (11.751258ms)
+✔ planning is incremental and once per simulation timestamp; blocked channel refuses without teleport or item/fare loss (1.939921ms)
+✔ ownership/horn/seaworthiness/area/mode/race/range/dock guards preserve old saves and refuse unavailable calls (9.517796ms)
+✔ pause/menu time cannot advance a call; boarding, harbour departure, external boat move and changed game cancel without overriding destination state (8.486972ms)
+✔ new obstruction is swept before movement; turn-only frames do not emit moving wake, cancellation and repeat cooldown are bounded (3.465953ms)
+✔ native snapshot records actual in-flight boat coordinates, no generator/save-field leakage; restore cancels transient journey (2.453886ms)
+✔ actual existing horn-blower death adds the same physical horn to loot, never directly to player inventory (25.791781ms)
+file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/build-offline.mjs:72
+  if (sha256(input) !== sourceHash) throw new Error('Unexpected offline source hash');
+                                          ^
+
+Error: Unexpected offline source hash
+    at buildOffline (file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/build-offline.mjs:72:43)
+    at file:///workspace/scratch/378db630510c/performance-checkpoint/scripts/charge-feint.test.mjs:8:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.19.0
+✖ scripts/charge-feint.test.mjs (99.605031ms)

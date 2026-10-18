@@ -1,0 +1,60 @@
+{
+  "id": "continuation-runtime-handoff-20261012-2028",
+  "buildSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "artifactSha256": "5a8cad0527f72a80bfc4d991c82b38ed80062842881b774eff2ffd1d19963f4f",
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M2",
+    "M4"
+  ],
+  "summary": "299 source/workflow tests and exact build passed. Browser scenarios now target real checkpoint. Persist scoped runtime evidence and open failures without accepting milestones.",
+  "changedFiles": [
+    "scripts/browser-grip-scenario.mjs",
+    "scripts/browser-candidate-smoke.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "evidence": [],
+  "runtimeEvidence": {
+    "lock": {
+      "hash": "d0f566e873abfe9e3571e0dff07348497fb359a70c091bd50554a95d953b90cc",
+      "run": 38303142868,
+      "job": 114990679323,
+      "status": "passed",
+      "scope": "Prepared wolf encounter ordinary Q acquire/cycle/unlock, configurable Numpad0, pause release, ordinary Save/reload/input persistence; not full combat acceptance"
+    },
+    "grip": {
+      "hash": "a1c89b3e85d2c51a9866c8bb5c0f3bafd6e4e12cecaa423d72d9fa40ddacc0e0",
+      "run": 38303439145,
+      "job": 114991644399,
+      "status": "diagnostic_pass_visual_pending",
+      "scope": "TP/FP staff transforms within65 degrees and finger anchor; screenshots showed Hands free/holstered. Harden harness with ordinary R draw before equip plus active hand/root visibility checks; do not accept full grip visuals"
+    },
+    "pan": {
+      "hash": "d0f566e873abfe9e3571e0dff07348497fb359a70c091bd50554a95d953b90cc",
+      "run": 38303142868,
+      "job": 114990679204,
+      "status": "partial",
+      "scope": "Prepared captain/key fixture real E/chest mouse tablet acquisition/receipt and ordinary pause Save passed. Reload test used outdoor G.pos vs dungeon checkpoint21; corrected in627be364. Full cave approach/puzzle/boss route pending"
+    },
+    "saveFailure": {
+      "run": 38303439145,
+      "job": 114991644323,
+      "status": "unresolved",
+      "scope": "Manual Save storage parsed, then reload Load slot disabled before scenario. Need failure storage/ready diagnostics; never force enabled/load or programmatic saves"
+    }
+  },
+  "next": [
+    "Inspect627be364 exact browser matrix and artifacts",
+    "Resolve any actual startup/Save/travel failure with inspected stack and saved-state diagnostics",
+    "Use corrected drawn-grip screenshots for visual review then full weapon/loadout matrix",
+    "Full empty opening/Pan route and Low old-save ten-attacker performance remain critical",
+    "Preserve uncommitted opening-stable-repair checkpoint in shared local workspace; do not incorporate/revert without exact source/test review"
+  ],
+  "milestoneAcceptance": "none"
+}

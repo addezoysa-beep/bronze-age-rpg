@@ -1,0 +1,13 @@
+{
+ "id":"household-relief-20261015",
+ "buildSha256":"15a20392b6b95ee5f532dba2759a9ff881fe0733eb23b0fa8e30e74cad37266c",
+ "bytes":38221804,"milestoneIds":["M0","M4","M5"],
+ "summary":"Optional concrete raider-recovery household aid on Ikaria/Crete/Tyre/Alashiya; actual existing families, local resources, bounded food/XP reward, no main-quest displacement; includes175 relic recovery/guidance",
+ "masterDelivery":{"status":"pending"},"masterReview":{"status":"pending"},
+ "localChecks":{"passed":632,"failed":0,"new":5,"durationMs":32905.844697,"evidence":"verification/story176-final-full-tests.txt","scope":"Full integrated local source/executable/workflow/compile/package suite; actual native household dialogue composition, resource/refusal/JSON/repeat rewards/first-family bindings and relic repair; not ordinary browser acceptance"},
+ "repositoryValidation":{"status":"passed","baselineUnchanged":true,"scope":"original14e baseline,3 inline scripts,6milestones,72update records; exact aggregate reconstruction separately passed"},
+ "delivery":{"htmlBytes":38221804,"zipSha256":"4d7b40f19ef93300f77cd567155355e95d9833ad924fe7d72cfe61b97ed6fa32","archiveEntries":2,"localHtmlZipIdentity":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","userDownloadAccessibility":"not_run","githubGeneratedIdentity":"not_run","githubBuildDownload":"unavailable"},
+ "runtime":{"status":"pending","required":"ordinary adult dialogue/accept/gather or buy/deliver/decline/abandon/resume and journal, real family navigation, physical relic route and pause Save/exact reload/Master review"},
+ "limits":"One existing first household per supported region eligible after king story stage, adult members only; lazy existing cast retained. Resource-help deeds only, not child-hostage rescues, fort clears, props, Shekelesh appearance/animation/scenes or all-region content acceptance. No actor creation/name/index changes, automatic travel or main-objective mutation. All120/M0–M5 scope retained; performance/8–10 stress lower per latest user.",
+ "next":"docs/NEXT_RUN_RELIC_STORY_20261015.md and current canonical roadmap; further main quest/QOL/BronzeAge production, keep runtime/Master gates open"
+}

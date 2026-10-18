@@ -1,0 +1,45 @@
+{
+  "id": "shared-shepherd-actions-local-20261011",
+  "recordedAt": "2026-10-11T13:12:01Z",
+  "baseCommit": "53989c4b3d3568d71fb54085479946be90eb22df",
+  "sourceSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
+  "buildSha256": "aca8e1c0849080edffbf3200b9cc1014e2df27c14928b6ed06fe707b82c44be4",
+  "bytes": 37849957,
+  "publication": "local_only_previous_create_tree_rejection_not_retried",
+  "sourceTests": {"passed": 112, "failed": 0, "command": "node --test scripts/*.test.mjs"},
+  "static": {
+    "repository": "passed npm test; baseline unchanged and three inline scripts compile",
+    "workflow": "8 passed npm run test:workflow",
+    "exactBuild": "generated artifact hash and byte length match pinned build guard"
+  },
+  "githubStatus": {
+    "masterDevelopment": "53989c4b3d3568d71fb54085479946be90eb22df",
+    "pr25": "merged 2026-10-11T05:40:42Z",
+    "pr19_20_21": "open drafts; inspected heads unchanged; no head-associated workflow runs",
+    "pr26": "open, dirty merge state; repository job passed and offline browser job failed in run 38115436645 while waiting for chart search from an open level-up menu",
+    "pr27": "open, stacked on PR26, dirty merge state; no head-associated workflow run"
+  },
+  "implemented": [
+    "Four additional distinct shared actions: call, drive, feed and gate/count",
+    "The same poseShepherdWork63 rig drives Lykos and the player with grounded legs, hand-to-mouth call, crook drive/gate poses and low feed pose",
+    "The contract resolves Lykos's actual living flock, generated pen and grazing route instead of spawning fixture animals or a disconnected work point",
+    "The gate has a wooden visual; calling opens it, feeding is available only after the counted flock reaches pasture, and closing requires every surviving expected animal inside",
+    "The paid shift is blocked during the opening duty and in danger or incompatible action states; it pays 12 silver once per in-game day only after a successful count",
+    "Transient action state clears on restore without granting wages; an interrupted or missing-animal shift remains unpaid",
+    "A canceled or restored initial call returns to idle, while a completed shift resets on the next day without allowing a same-day second payment"
+  ],
+  "runtime": "Not run: no usable Chromium executable is present. Source fixtures execute normal interaction callbacks and complete flock state transitions, but no rendered flock navigation, gate/crook/hand contact, first-person presentation, Low performance or ordinary pause-menu Save/reload acceptance is claimed.",
+  "knownLimits": [
+    "Eight of the planned thirty-to-forty shared actions are implemented",
+    "The shift currently covers Lykos and Ikaria; regional paid herding contracts and quit/failure dialogue remain pending",
+    "Rendered separation, collision, route recovery and full-day NPC scheduling need gameplay evidence",
+    "Quarry, irrigation, ploughing, cargo, orchard, smith, kitchen, scribe and bard action clusters remain planned"
+  ],
+  "nextActions": [
+    "Render call/drive/feed/gate for player and Lykos and correct hand, crook, clothing or gate contact faults",
+    "Use ordinary pause-menu Save mid-shift and after payment, reload, verify no duplicate wage and exact player position",
+    "Add quit/failure dialogue and regional herding contract reuse without affecting the opening quest",
+    "Implement the next grounded shared-action cluster at an inspected real workstation"
+  ],
+  "milestoneAcceptance": "none"
+}

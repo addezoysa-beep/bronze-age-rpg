@@ -1,0 +1,15 @@
+{
+ "id":"dynabook-graphics-20261015",
+ "buildSha256":"6aa6095bb9d6a52836c28a6897d4c580c94bbd6fada8c582fd810bf310bc2671",
+ "bytes":38211815,
+ "milestoneIds":["M0","M1","M5"],
+ "summary":"Urgent Dynabook1–2FPS report: restore visible graphics workload slider on title and beside pause music/VFX, device persistence and adaptive slow-frame cutoff repair",
+ "masterDelivery":{"status":"delivered","commit":"7252e2b94fa690871594ff2706fc7156e0132e05","evidence":"https://github.com/addezoysa-beep/bronze-age-rpg/pull/29"},
+ "masterReview":{"status":"pending"},
+ "localChecks":{"passed":616,"failed":0,"new":7,"durationMs":31407.787708,"evidence":"verification/dynabook173-full-tests.txt","scope":"Full local source/executable/workflow/compile/package suite plus native graphics/DOM and adaptive timing fixtures; not browser/hardware FPS acceptance"},
+ "repositoryValidation":{"status":"passed","baselineUnchanged":true,"scope":"original baseline14e,3 inline scripts,6milestones,69update records; exact aggregate rebuild separate passed"},
+ "delivery":{"htmlBytes":38211815,"zipSha256":"8295495f0d5a73bad627e2f2ad1fd3b4c203e28c5c5514261517bef2f5947b9d","archiveEntries":2,"localHtmlZipIdentity":"passed","inlineCompilation":"passed","standaloneStartup":"not_run","userDownloadAccessibility":"not_run","githubGeneratedIdentity":"not_run","githubBuildDownload":"unavailable"},
+ "runtime":{"status":"pending","required":"ordinary title/pause mouse slider, reload, main story/Save/exact reload, Dynabook old-save frame timing and8–10 genuinely active attackers, render/visual/Master acceptance"},
+ "limits":"No measured FPS gain or Dynabook fix acceptance. Manual render scale35–125%; existing visual tier distances/geometry, shadows. Enemy combat/animation/simulation, physics, collision, saves and essential objects not replaced or capped. Adaptive now includes.5–1s real RAF intervals formerly discarded above120ms; intervals above5s/background/menu transitions excluded. Cannot resolve CPU bottlenecks solely by render resolution.",
+ "next":"Preserve full120/M0–M5 priorities; profile actual new/old Low traversal/combat/load intervals, CPU sections versus render calls/triangles, then optimize dominant measured cost without attacker/AI reductions"
+}
