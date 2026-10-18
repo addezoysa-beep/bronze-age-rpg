@@ -1,0 +1,208 @@
+TAP version 13
+# Subtest: actual legacy null/invalid nested load can replace G before failure; atomic decode keeps prior game/slot and disk untouched
+ok 1 - actual legacy null/invalid nested load can replace G before failure; atomic decode keeps prior game/slot and disk untouched
+  ---
+  duration_ms: 4.329762
+  type: 'test'
+  ...
+# Subtest: primitive/array roots are refused without default-game replacement or multiple decodes
+ok 2 - primitive/array roots are refused without default-game replacement or multiple decodes
+  ---
+  duration_ms: 1.701777
+  type: 'test'
+  ...
+# Subtest: valid legacy/full/explicit-empty inventory states and unknown fields match actual previous decoder exactly
+ok 3 - valid legacy/full/explicit-empty inventory states and unknown fields match actual previous decoder exactly
+  ---
+  duration_ms: 3.080507
+  type: 'test'
+  ...
+# Subtest: remedy normalization failure rolls back the active game and selected slot
+ok 4 - remedy normalization failure rolls back the active game and selected slot
+  ---
+  duration_ms: 1.616188
+  type: 'test'
+  ...
+# Subtest: Continue deletion guard still intercepts atomic decode failure
+ok 5 - Continue deletion guard still intercepts atomic decode failure
+  ---
+  duration_ms: 0.98742
+  type: 'test'
+  ...
+# Subtest: inspected saved-game extension is actual remedy normalization, not an omitted active loader
+ok 6 - inspected saved-game extension is actual remedy normalization, not an omitted active loader
+  ---
+  duration_ms: 9.78366
+  type: 'test'
+  ...
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 7 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 1942.285807
+  type: 'test'
+  ...
+# Subtest: actual service creation gives the authored local cast unique displayed names while retaining actors, save keys, professions and map discovery IDs
+ok 8 - actual service creation gives the authored local cast unique displayed names while retaining actors, save keys, professions and map discovery IDs
+  ---
+  duration_ms: 158.388948
+  type: 'test'
+  ...
+# Subtest: native dialogue logic receives legacy names; speaker, advancing text and button labels display the local person without changing callbacks or dialogue data
+ok 9 - native dialogue logic receives legacy names; speaker, advancing text and button labels display the local person without changing callbacks or dialogue data
+  ---
+  duration_ms: 151.33041
+  type: 'test'
+  ...
+# Subtest: legacy identical Egypt/Luxor/Valley names resolve by actual actor context in dialogue and interaction labels; legacy key collision is not silently migrated
+ok 10 - legacy identical Egypt/Luxor/Valley names resolve by actual actor context in dialogue and interaction labels; legacy key collision is not silently migrated
+  ---
+  duration_ms: 161.063092
+  type: 'test'
+  ...
+# Subtest: directions use actual local service display names; exact legacy chart keys and native medical entry remain valid
+ok 11 - directions use actual local service display names; exact legacy chart keys and native medical entry remain valid
+  ---
+  duration_ms: 151.374867
+  type: 'test'
+  ...
+# Subtest: native old-save death/follower/cargo/commission identity and player position survive JSON restore unchanged; repeated lazy calls do not grow arms talk wrappers
+ok 12 - native old-save death/follower/cargo/commission identity and player position survive JSON restore unchanged; repeated lazy calls do not grow arms talk wrappers
+  ---
+  duration_ms: 150.921012
+  type: 'test'
+  ...
+# Subtest: native cloth purchases conserve exact stock and silver; insufficient funds and stale actor callbacks cannot buy
+ok 13 - native cloth purchases conserve exact stock and silver; insufficient funds and stale actor callbacks cannot buy
+  ---
+  duration_ms: 157.896845
+  type: 'test'
+  ...
+# Subtest: all three real service entries and captured callbacks reject dead/hostile/party/removed/off-area/distant/mounted and paused interactions
+ok 14 - all three real service entries and captured callbacks reject dead/hostile/party/removed/off-area/distant/mounted and paused interactions
+  ---
+  duration_ms: 4232.688697
+  type: 'test'
+  ...
+# Subtest: native arrows nested under the actual arms/greatsword menu retain bundle arithmetic and recheck range at purchase
+ok 15 - native arrows nested under the actual arms/greatsword menu retain bundle arithmetic and recheck range at purchase
+  ---
+  duration_ms: 164.623493
+  type: 'test'
+  ...
+# Subtest: native healer treatment and nested supplies remain available; treatment cannot heal or spend after actor becomes unavailable
+ok 16 - native healer treatment and nested supplies remain available; treatment cannot heal or spend after actor becomes unavailable
+  ---
+  duration_ms: 153.958695
+  type: 'test'
+  ...
+# Subtest: actual four-remedy menu composes with named medical services; nested purchase and lessons preserve one item/fee and refuse loss of reach
+ok 17 - actual four-remedy menu composes with named medical services; nested purchase and lessons preserve one item/fee and refuse loss of reach
+  ---
+  duration_ms: 184.119994
+  type: 'test'
+  ...
+# Subtest: actual commission, ready collection and nested pattern teaching preserve original order keys and reject stale remote actions
+ok 18 - actual commission, ready collection and nested pattern teaching preserve original order keys and reject stale remote actions
+  ---
+  duration_ms: 152.490359
+  type: 'test'
+  ...
+# Subtest: guard and display wrappers restore global say on exceptions, keep ordinary close controls and preserve unrelated story actors
+ok 19 - guard and display wrappers restore global say on exceptions, keep ordinary close controls and preserve unrelated story actors
+  ---
+  duration_ms: 151.279031
+  type: 'test'
+  ...
+# Subtest: fresh actual creator has distinct native settlement/save/discovery/commission keys and local visible people
+ok 20 - fresh actual creator has distinct native settlement/save/discovery/commission keys and local visible people
+  ---
+  duration_ms: 206.874287
+  type: 'test'
+  ...
+# Subtest: native snapshots and actual index/name Continue restore independent merchant position, death, hostility and inventory
+ok 21 - native snapshots and actual index/name Continue restore independent merchant position, death, hostility and inventory
+  ---
+  duration_ms: 189.791523
+  type: 'test'
+  ...
+# Subtest: new distinct death/follower/cargo/order keys are not shared and native commission collection conserves a single output
+ok 22 - new distinct death/follower/cargo/order keys are not shared and native commission collection conserves a single output
+  ---
+  duration_ms: 189.294434
+  type: 'test'
+  ...
+# Subtest: primary Egypt legacy-looking native cargo/orders/follower names are valid fresh keys and do not undo Luxor identity
+ok 23 - primary Egypt legacy-looking native cargo/orders/follower names are valid fresh keys and do not undo Luxor identity
+  ---
+  duration_ms: 186.711927
+  type: 'test'
+  ...
+# Subtest: unmarked legacy duplicate cast/keys keep exact saved records, shared native outcomes and player state without guessed migration
+ok 24 - unmarked legacy duplicate cast/keys keep exact saved records, shared native outcomes and player state without guessed migration
+  ---
+  duration_ms: 184.636527
+  type: 'test'
+  ...
+# Subtest: switching between new and old voyages rebinds runtime names/regions/discovery IDs without changing either saved graph or player
+ok 25 - switching between new and old voyages rebinds runtime names/regions/discovery IDs without changing either saved graph or player
+  ---
+  duration_ms: 187.566568
+  type: 'test'
+  ...
+# Subtest: mixed marked checkpoint with a legacy Luxor ordinal conservatively preserves ambiguity without fanning out state
+ok 26 - mixed marked checkpoint with a legacy Luxor ordinal conservatively preserves ambiguity without fanning out state
+  ---
+  duration_ms: 184.159146
+  type: 'test'
+  ...
+# Subtest: native newGame boundary marks only a genuinely fresh voyage without mutating const G0 or inventing Save/item rewards
+ok 27 - native newGame boundary marks only a genuinely fresh voyage without mutating const G0 or inventing Save/item rewards
+  ---
+  duration_ms: 186.902386
+  type: 'test'
+  ...
+# Subtest: late lazy service creation, repeated restore/snapshot and JSON roundtrip do not grow cast, wrappers, inventory or rewards
+ok 28 - late lazy service creation, repeated restore/snapshot and JSON roundtrip do not grow cast, wrappers, inventory or rewards
+  ---
+  duration_ms: 185.637646
+  type: 'test'
+  ...
+# Subtest: unrelated cast, custom actor identity, actor membership and unsupported hubs are never renamed
+ok 29 - unrelated cast, custom actor identity, actor membership and unsupported hubs are never renamed
+  ---
+  duration_ms: 184.862537
+  type: 'test'
+  ...
+# Subtest: actual native treatment and local direction choices remain guarded and use a distinct local chart key
+ok 30 - actual native treatment and local direction choices remain guarded and use a distinct local chart key
+  ---
+  duration_ms: 186.400799
+  type: 'test'
+  ...
+# Subtest: actual native snapshot inside a fresh wrapper gets its marker before serializing; old pre-reset snapshot and failed call stay unmarked
+ok 31 - actual native snapshot inside a fresh wrapper gets its marker before serializing; old pre-reset snapshot and failed call stay unmarked
+  ---
+  duration_ms: 150.07367
+  type: 'test'
+  ...
+# Subtest: failed fresh boundary clears its transient scope and does not mark a later unrelated old game
+ok 32 - failed fresh boundary clears its transient scope and does not mark a later unrelated old game
+  ---
+  duration_ms: 150.542176
+  type: 'test'
+  ...
+# Subtest: actual atomic single-parse loader retains marked and unmarked identity policy before native Continue without save writes
+ok 33 - actual atomic single-parse loader retains marked and unmarked identity policy before native Continue without save writes
+  ---
+  duration_ms: 384.306922
+  type: 'test'
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 11596.936799

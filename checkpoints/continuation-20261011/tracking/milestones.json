@@ -490,6 +490,11 @@
       "status": "implemented_source_delivered_runtime_pending",
       "evidence": "tracking/updates/captive-berth-recovery-20261017.json",
       "acceptance": "Ordinary moved-nearby boat during boarding/unloading/reverse crossing, actual mooring controls/collision/child deck and ramp contact, pause Save/exact-position reload/cold Continue/old saves and full home-route/Master"
+    },
+    "serviceSavedIdentity222223": {
+      "status": "implemented_fresh_voyages_legacy_partial_runtime_pending",
+      "evidence": "tracking/updates/service-save-identity-20261017.json",
+      "acceptance": "Ordinary Egypt/Luxor/Valley visits, map/directions/trade/remedies/commissions, fresh and old save-slot switching, ordinary offline pause-menu Save/exact-position reload/cold Continue/render/Master"
     }
   },
   "milestones": [
@@ -856,36 +861,36 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
-    "bytes": 38353526,
-    "sourceChecks": 851,
-    "sourceScope": "LOCAL actual native interaction arbitration/crossing/repair callbacks and actual Three ship/passenger transforms/JSON fixtures, not ordinary browser/render",
+    "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+    "bytes": 38356463,
+    "sourceChecks": 865,
+    "sourceScope": "LOCAL actual service creator/dialogue/treatment/commission/snapshot21/Continue21/atomic single-parse load plus JSON/workflow/compile; NOT ordinary gameplay or offline pause Save",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+      "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
       "draft": true,
       "merged": false,
-      "evidence": "Owned private PR29 source advanced under expected-head lease;8 exact source/test readbacks match. No merge/release/ordinary/Master acceptance."
+      "evidence": "Five source/test exact readbacks; expected-head nonforce lease; no merge/release"
     },
-    "next": "docs/NEXT_RUN_CAPTIVE_MOORING_20261017.md",
+    "next": "docs/NEXT_RUN_SERVICE_IDENTITY_20261017.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 851,
+      "passed": 865,
       "failed": 0,
-      "newTests": 16,
-      "durationMs": 186289.828183,
-      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/mooring221-full-tap.txt",
-      "result": "verification/mooring221-full-result.json",
+      "newTests": 14,
+      "durationMs": 110055.014334,
       "completeFooter": true,
-      "okEntries": 851,
+      "okEntries": 865,
       "exitCode": 0,
       "hashUnchanged": true,
-      "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/service223-full-tap.txt",
+      "result": "verification/service223-full-result.json",
+      "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   },
   "saveLoadPerformance146": {

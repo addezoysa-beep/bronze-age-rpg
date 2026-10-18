@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T01:15:53.247Z",
+  "updatedAt": "2026-10-18T03:13:50.773Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,41 +12,41 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+  "currentLocalBuildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+  "currentGithubHead": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+    "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
     "draft": true,
     "merged": false,
-    "evidence": "Owned private PR29 source advanced under expected-head lease;8 exact source/test readbacks match. No merge/release/ordinary/Master acceptance."
+    "evidence": "Five source/test exact readbacks; expected-head nonforce lease; no merge/release"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 851,
+      "passed": 865,
       "failed": 0,
-      "newTests": 16,
-      "durationMs": 186289.828183,
-      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/mooring221-full-tap.txt",
-      "result": "verification/mooring221-full-result.json",
+      "newTests": 14,
+      "durationMs": 110055.014334,
       "completeFooter": true,
-      "okEntries": 851,
+      "okEntries": 865,
       "exitCode": 0,
       "hashUnchanged": true,
-      "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
-      "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1"
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/service223-full-tap.txt",
+      "result": "verification/service223-full-result.json",
+      "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
-      "sourceBuildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+      "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+      "sourceBuildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No matching current source browser artifact; prior inspected failed jobs have no steps"
+      "ci": "No current matching browser artifact"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt"
@@ -1713,10 +1713,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": [
-    "Ordinary moved-nearby boat during boarding/unloading/reverse crossing, actual mooring controls/collision/child deck and ramp contact, pause Save/exact-position reload/cold Continue/old saves and full home-route/Master",
-    "Remaining distant/moved-dock/offshore/sunken rescue recovery and safe shared service saved-name migration; full120/M0–M5 retained, main/QOL/physicalBronzeAge first, further performance/8–10 and expandedTroy lower"
-  ],
+  "nextDependencyReadyWork": "Ordinary main/Pan/home-route and offline pause Save/exact reload when runtime available; safe evidence-based legacy service identity recovery, distant/offshore captive recovery and core physical BronzeAge work. Preserve every120/M0–M5 requirement; further8–10/expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1736,7 +1733,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "219–221 delivered private source;851/851 full LOCAL serial checks,43 focused,16new;ordinary/render/Save/Master pending",
+  "currentCheckpoint": "222–223 source delivered;865/865 full LOCAL checks,33 focused,14new;legacy migration partial;ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1871,7 +1868,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+  "currentGithubSourceBuildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2025,5 +2022,28 @@
       "hashUnchanged": true,
       "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
-  }
+  },
+  "serviceSavedIdentity222223": {
+    "record": "tracking/updates/service-save-identity-20261017.json",
+    "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+    "source": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+    "runtime": "pending",
+    "legacyMigration": "partial_unmarked_and_mixed_ambiguous_records_preserved",
+    "localChecks": {
+      "status": "passed",
+      "passed": 865,
+      "failed": 0,
+      "newTests": 14,
+      "durationMs": 110055.014334,
+      "completeFooter": true,
+      "okEntries": 865,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/service223-full-tap.txt",
+      "result": "verification/service223-full-result.json",
+      "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+    }
+  },
+  "currentGithubHeadScope": "Source commit; subsequent evidence metadata may follow. Re-read fresh PR head before writes."
 }
