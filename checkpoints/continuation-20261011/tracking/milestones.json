@@ -75,11 +75,18 @@
     },
     "equipmentEconomy": {
       "status": "confirmed_by_user",
-      "implementation": "partial_unmerged_arrow_candidate",
+      "implementation": "partial_224_226_private_draft_source_runtime_pending",
       "pr": 21,
       "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b",
-      "remaining": "Full higher weapon/armor price ladder; settlement-tier regional stock/recipes/accurate directions; rare ammo paths; ordinary crafting/loot/sell/ammo/recovery/NPC/Save audit and affordable starter progression",
-      "runtime": "Initial browser harness failed outer smith navigation; corrected rerun pending; no economy acceptance."
+      "remaining": "Markets225 cover arms/ammo/worked metal with bounded spare physical gear buybacks only; full ingredient/cook/healer tiers, advanced recipe-teaching breadth, every merchant/loot/sell/craft/arbitrage path, earnings/affordability, NPC directions and arrow material mesh/damage/recovery runtime remain unfinished.",
+      "runtime": "Ordinary village/town/major-city mouse trade, buy/sell/insufficient funds, teaching/crafting, ammo conservation/render/damage, old-save and offline pause Save/exact reload remain pending. No economy acceptance.",
+      "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+      "currentBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+      "evidence": "tracking/updates/regional-market-economy-20261018.json",
+      "historicalArrowCandidate": {
+        "pr": 21,
+        "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b"
+      }
     },
     "october11Playtesting": {
       "status": "confirmed_by_user",
@@ -861,36 +868,36 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
-    "bytes": 38356463,
-    "sourceChecks": 865,
-    "sourceScope": "LOCAL actual service creator/dialogue/treatment/commission/snapshot21/Continue21/atomic single-parse load plus JSON/workflow/compile; NOT ordinary gameplay or offline pause Save",
+    "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+    "bytes": 38367370,
+    "sourceChecks": 886,
+    "sourceScope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+      "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
       "draft": true,
       "merged": false,
-      "evidence": "Five source/test exact readbacks; expected-head nonforce lease; no merge/release"
+      "evidence": "Six source/test exact readbacks; expected-head nonforce lease from aded6fe45e87b72dcf629adb5d63ca0b7fc51022; no merge/release"
     },
-    "next": "docs/NEXT_RUN_SERVICE_IDENTITY_20261017.md",
+    "next": "docs/NEXT_RUN_MARKET_ECONOMY_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 865,
+      "passed": 886,
       "failed": 0,
-      "newTests": 14,
-      "durationMs": 110055.014334,
+      "newTests": 21,
+      "durationMs": 116798.628623,
       "completeFooter": true,
-      "okEntries": 865,
+      "okEntries": 886,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/service223-full-tap.txt",
-      "result": "verification/service223-full-result.json",
-      "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+      "evidence": "verification/market226-full-tap.txt",
+      "result": "verification/market226-full-result.json",
+      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
     }
   },
   "saveLoadPerformance146": {

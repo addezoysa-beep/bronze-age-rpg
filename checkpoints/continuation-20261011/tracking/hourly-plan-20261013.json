@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T03:13:50.773Z",
+  "updatedAt": "2026-10-18T04:19:12.592Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,41 +12,41 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+  "currentLocalBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+  "currentGithubHead": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
+    "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
     "draft": true,
     "merged": false,
-    "evidence": "Five source/test exact readbacks; expected-head nonforce lease; no merge/release"
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from aded6fe45e87b72dcf629adb5d63ca0b7fc51022; no merge/release"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 865,
+      "passed": 886,
       "failed": 0,
-      "newTests": 14,
-      "durationMs": 110055.014334,
+      "newTests": 21,
+      "durationMs": 116798.628623,
       "completeFooter": true,
-      "okEntries": 865,
+      "okEntries": 886,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/service223-full-tap.txt",
-      "result": "verification/service223-full-result.json",
-      "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
-      "buildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f"
+      "evidence": "verification/market226-full-tap.txt",
+      "result": "verification/market226-full-result.json",
+      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance.",
+      "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "cb04a53cd2d8f9c24cd65f924a56702cad2ccae4",
-      "sourceBuildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+      "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+      "sourceBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No current matching browser artifact"
+      "ci": "No current matching browser artifact; latest older5bcd473b run failed with no executed steps/artifacts"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt"
@@ -519,7 +519,13 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "208–210 adds logical wood/composite/fiber construction, physical basic/composite crafting/teaching/migration and bounded attached rig/previews;801 full LOCAL checks. Full original task coverage and current-hash runtime remain pending."
+      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json.",
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "Price ladder/finite regional arms tiers/spare buyback and two exchange-loop repairs only"
+      }
     },
     {
       "hour": 30,
@@ -532,7 +538,13 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json.",
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "Actual existing ammo30/loot30 bundles and tiered shelves only; no new arrow mesh/damage acceptance"
+      }
     },
     {
       "hour": 31,
@@ -542,9 +554,16 @@
       "originalTaskIds": [
         35
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "Existing worked-ingot access and two commodity margins; full mining/teaching/smelting progression incomplete"
+      },
+      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json."
     },
     {
       "hour": 32,
@@ -1652,12 +1671,18 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current203/204 delivered sourcebd250ae0e6449c61679dbd3ea6a845bbe819314a, exact candidate6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee,38,316,178bytes: physical reverse-ramp cancellation to actual pier/deck, saved damaged-hull hold and preserved native disembark/repair with original3wood OR20silver costs and stale-action conservation.767/767 completion-checked full LOCAL serial TAP checks passed,13new,95,045.329093ms.8 source/test readbacks match,0 source-head Actions runs. Exact baseline-to-current rebuild/HTML+two-entry ZIP/3-inline compile pass. Moved/changed hull/offshore sinking/respawn rescue remains unimplemented; ordinary full route/render/offline pause Save/exact reload/cold Continue/old-save/Master gates pending. No milestone/slot accepted. Full120/every M0–M5/prior request retained; main/QOL/physicalBronzeAge first, more performance/8–10 and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md.",
+      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
         "evidence": "tracking/updates/relic-area-guidance-20261017.json",
         "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      },
+      "regionalMarket224226": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+        "evidence": "tracking/updates/regional-market-economy-20261018.json",
+        "scope": "JSON stock/day/purse/malformed-state callbacks only, NOT ordinary offline pause Save/exact reload"
       }
     },
     {
@@ -1713,7 +1738,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Ordinary main/Pan/home-route and offline pause Save/exact reload when runtime available; safe evidence-based legacy service identity recovery, distant/offshore captive recovery and core physical BronzeAge work. Preserve every120/M0–M5 requirement; further8–10/expandedTroy lower.",
+  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/home-route and offline pause Save/exact reload when runtime available; core BronzeAge remaining city ingredient/cook/healer stock and recipe-learning/earnings work; evidence-based legacy service recovery and distant/offshore captive recovery. Preserve every120/M0–M5; further8–10 and expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1733,7 +1758,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "222–223 source delivered;865/865 full LOCAL checks,33 focused,14new;legacy migration partial;ordinary/render/Save/Master pending",
+  "currentCheckpoint": "224–226 source delivered;886/886 full LOCAL,48 focused,21new;economy and legacy migration PARTIAL;ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1868,7 +1893,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "d4b7247cfddf154ee0376f24aeef2cbacc029e8d5413df747b12d06347c2337f",
+  "currentGithubSourceBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2045,5 +2070,49 @@
       "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   },
-  "currentGithubHeadScope": "Source commit; subsequent evidence metadata may follow. Re-read fresh PR head before writes."
+  "currentGithubHeadScope": "Source commit; subsequent evidence metadata may follow. Re-read fresh PR head before writes.",
+  "regionalMarket224226": {
+    "status": "source_implemented_runtime_pending_partial_economy",
+    "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+    "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+    "record": "tracking/updates/regional-market-economy-20261018.json",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 886,
+      "failed": 0,
+      "newTests": 21,
+      "durationMs": 116798.628623,
+      "completeFooter": true,
+      "okEntries": 886,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/market226-full-tap.txt",
+      "result": "verification/market226-full-result.json",
+      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 48,
+      "failed": 0,
+      "newTests": 21,
+      "durationMs": 20078.270485,
+      "evidence": "verification/market226-focused-tap.txt",
+      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance."
+    },
+    "changes": [
+      "224 shared inspected material/quality ladder and classic shop upgrade prices; actual buyService48 equipment quotes cannot retain old low costs. Native weapon damage/AI/ammo values and ingredient/trainer/quest grants unchanged.",
+      "225 actual SERVICES48 cast-membership settlement tiers and guarded normal service menu: four goods/page, region-cultural copper/bronze/iron gear, wooden basic tools, trained sling only, existing ammo30 eight-arrow packs and actual worked-ingot keys. Existing workshop commissions/pattern/treatment/cloth/remedies paths retained, no invented merchant/recipe/new-game gift.",
+      "225 saved finite per-hub stock and buyer purse in G.world.regionalMarkets225, conservative old-save defaults, bounded once-per-forward-day replenishment, malformed record rejection; quote checks actual game/menu/service/actor/day/reach/stock and one-use callback.",
+      "225 spare physical-equipment buybacks at35% shared price via actual removeTransfer52, excludes only registered/equipped/quest items and protects global shield-derived state; budget bounds purchasing. No full loot-sale system acceptance.",
+      "226 actual store/craft audit found silver ore+fuel16 to30 and gold ore+fuel38 to65 exchange loops. Existing recipe inputs, known-plan/real-smelter gates unchanged; exchange payouts reduced10/30, labels match. Actual purchase+learned-craft fixtures conserve resources and cannot profit on those two paths."
+    ],
+    "remaining": [
+      "All120/every M0–M5/prior expansion retained/unaccepted. Ordinary main/home/Pan route and pause Save/exact-position reload/crash/progression/Master gates mandatory.",
+      "Markets225 cover arms/ammo/worked metal with bounded spare physical gear buybacks only; full ingredient/cook/healer tiers, advanced recipe-teaching breadth, every merchant/loot/sell/craft/arbitrage path, earnings/affordability, NPC directions and arrow material mesh/damage/recovery runtime remain unfinished.",
+      "222–223 legacy ambiguous service state remains partial; short saved-berth219–221 is not distant/offshore/sunken rescue recovery. Full geography/equipment/creatures/factions/sites/work/music remain.",
+      "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, not removed. No measured remaining ETA."
+    ],
+    "acceptance": "No original slot/active hour or milestone accepted. Ordinary inputs/Save/render/current-hash Master remain mandatory."
+  }
 }
