@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 835,
+  "passed": 835,
+  "failed": 0,
+  "durationMs": 100752.667277,
+  "completeFooter": true,
+  "okEntries": 835,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/relic218-full-tap.txt"
+}

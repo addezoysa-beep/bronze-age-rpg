@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-17T23:14:00Z",
+  "updatedAt": "2026-10-18T00:06:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,40 +12,40 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+  "currentLocalBuildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+  "currentGithubHead": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
   "publication": {
-    "status": "delivered",
+    "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
+    "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
     "draft": true,
     "merged": false,
-    "evidence": "Private owned PR29 source advanced with expected-head lease;5 exact source/test readbacks match and PR body updated. Metadata/evidence publication follows source. No merge/release/Master acceptance."
+    "evidence": "Owned private PR29 source advanced under expected-head lease;6 exact source/test readbacks match. Metadata/evidence follows source; no merge/release/ordinary/Master acceptance."
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 825,
+      "passed": 835,
       "failed": 0,
       "newTests": 10,
-      "durationMs": 100940.869241,
+      "durationMs": 100752.667277,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "Full LOCAL serial source/executable/native dialogue+map hint/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
-      "evidence": "verification/directions215-full-tap.txt",
-      "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
-      "result": "verification/directions215-full-result.json",
+      "evidence": "verification/relic218-full-tap.txt",
+      "result": "verification/relic218-full-result.json",
       "completeFooter": true,
-      "okEntries": 825,
-      "exitCode": 0
+      "okEntries": 835,
+      "exitCode": 0,
+      "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "b588e8665da5ee9eae5de064a49b7349eed77d2b",
-      "sourceBuildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+      "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+      "sourceBuildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No matching current-head browser artifact; recorded older jobs fail without steps"
+      "ci": "No matching current source browser artifact; prior inspected failed jobs have no steps"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt"
@@ -1215,7 +1215,13 @@
       "currentHashRuntime": "pending",
       "accepted": false,
       "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred.",
-      "implementationEvidence": "183–185 physical artifact/context/native lesson safety;677 full local checks,13new at fd6db44e, tracking/updates/physical-writing-20261016.json. Shared prepare/inscribe/read action/prop contact, ordinary lesson/puzzle/Save/render/history coverage remains incomplete; no action count or slot acceptance."
+      "implementationEvidence": "183–185 physical artifact/context/native lesson safety;677 full local checks,13new at fd6db44e, tracking/updates/physical-writing-20261016.json. Shared prepare/inscribe/read action/prop contact, ordinary lesson/puzzle/Save/render/history coverage remains incomplete; no action count or slot acceptance.",
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
     },
     {
       "hour": 85,
@@ -1427,7 +1433,13 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
     },
     {
       "hour": 102,
@@ -1575,7 +1587,13 @@
       "workStatus": "partial_source_verified_runtime_pending",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md."
+      "currentEvidence": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md.",
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
     },
     {
       "hour": 114,
@@ -1614,7 +1632,13 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
     },
     {
       "hour": 117,
@@ -1627,7 +1651,13 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current203/204 delivered sourcebd250ae0e6449c61679dbd3ea6a845bbe819314a, exact candidate6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee,38,316,178bytes: physical reverse-ramp cancellation to actual pier/deck, saved damaged-hull hold and preserved native disembark/repair with original3wood OR20silver costs and stale-action conservation.767/767 completion-checked full LOCAL serial TAP checks passed,13new,95,045.329093ms.8 source/test readbacks match,0 source-head Actions runs. Exact baseline-to-current rebuild/HTML+two-entry ZIP/3-inline compile pass. Moved/changed hull/offshore sinking/respawn rescue remains unimplemented; ordinary full route/render/offline pause Save/exact reload/cold Continue/old-save/Master gates pending. No milestone/slot accepted. Full120/every M0–M5/prior request retained; main/QOL/physicalBronzeAge first, more performance/8–10 and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md."
+      "currentEvidence": "Current203/204 delivered sourcebd250ae0e6449c61679dbd3ea6a845bbe819314a, exact candidate6fe1a276073937c601f58835a23514b7b42a58e8653e128d495abbb0544bb8ee,38,316,178bytes: physical reverse-ramp cancellation to actual pier/deck, saved damaged-hull hold and preserved native disembark/repair with original3wood OR20silver costs and stale-action conservation.767/767 completion-checked full LOCAL serial TAP checks passed,13new,95,045.329093ms.8 source/test readbacks match,0 source-head Actions runs. Exact baseline-to-current rebuild/HTML+two-entry ZIP/3-inline compile pass. Moved/changed hull/offshore sinking/respawn rescue remains unimplemented; ordinary full route/render/offline pause Save/exact reload/cold Continue/old-save/Master gates pending. No milestone/slot accepted. Full120/every M0–M5/prior request retained; main/QOL/physicalBronzeAge first, more performance/8–10 and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_CAPTIVE_RECOVERY_20261016.md.",
+      "relicGuidance216218": {
+        "status": "source_implemented_runtime_pending",
+        "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+        "evidence": "tracking/updates/relic-area-guidance-20261017.json",
+        "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      }
     },
     {
       "hour": 118,
@@ -1683,9 +1713,8 @@
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
   "nextDependencyReadyWork": [
-    "Ordinary king/Pan/Daedalus/Labyrinth/Delphi/Alashiya route, resource menu clicks/actual current service arrival, offline pause Save/exact reload/cold Continue/old-save/render/Master",
-    "Continue main/QOL/physical BronzeAge implementation; retain full120/M0–M5 and lower-priority stress/expandedTroy scope",
-    "Script-school/relic-stone/storage area-aware markers remain outside214 narrow known-title scope; preserve actual physical relic/ward knowledge gates."
+    "Ordinary main-route/four-school/real storage acquisition and offline pause Save/exact reload/cold Continue/old-save/render/Master verification",
+    "Continue dependency-ready main/QOL/core BronzeAge: rescue interruption/ship-loss, safe saved identity migration and all remaining120/M0–M5 scope; more8–10 performance/expandedTroy lower, retained"
   ],
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
@@ -1706,7 +1735,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "214–215 source delivered;825 full LOCAL entries/complete footer/exit0;ordinary/runtime/Master pending",
+  "currentCheckpoint": "216–218 source delivered;835 full LOCAL entries/complete footer/exit0;ordinary/runtime/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1841,7 +1870,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
+  "currentGithubSourceBuildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -1952,5 +1981,26 @@
       "checks": "Exact direct/root/dist HTML, two-entry ZIP/manifest, extracted SHA/bytes and3inline compilation pass. Startup/user-download accessibility/GitHub-generated identity not run."
     },
     "record": "tracking/updates/main-route-directions-20261017.json"
+  },
+  "relicAreas216218": {
+    "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+    "record": "tracking/updates/relic-area-guidance-20261017.json",
+    "runtime": "pending",
+    "source": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+    "scope": "Current-area relic/script/storage guidance, serialized ship-copy conservation and accepted field-rubbing objective only",
+    "localChecks": {
+      "status": "passed",
+      "passed": 835,
+      "failed": 0,
+      "newTests": 10,
+      "durationMs": 100752.667277,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/relic218-full-tap.txt",
+      "result": "verification/relic218-full-result.json",
+      "completeFooter": true,
+      "okEntries": 835,
+      "exitCode": 0,
+      "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+    }
   }
 }

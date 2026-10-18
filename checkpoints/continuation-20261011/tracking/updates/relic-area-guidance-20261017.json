@@ -1,0 +1,117 @@
+{
+  "id": "relic-area-guidance-20261017",
+  "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+  "bytes": 38346754,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "RELIC-163",
+    "120-70",
+    "120-103",
+    "120-114",
+    "120-116"
+  ],
+  "summary": "216 area-aware script/relic/storage guidance;217 serialized ship-cargo duplicate-recovery exclusion;218 actual accepted field-rubbing objective",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+    "draft": true,
+    "merged": false,
+    "evidence": "Owned private PR29 source advanced under expected-head lease;6 exact source/test readbacks match. Metadata/evidence follows source; no merge/release/ordinary/Master acceptance."
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 835,
+    "failed": 0,
+    "newTests": 10,
+    "durationMs": 100752.667277,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/relic218-full-tap.txt",
+    "result": "verification/relic218-full-result.json",
+    "completeFooter": true,
+    "okEntries": 835,
+    "exitCode": 0,
+    "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+  },
+  "runtime": {
+    "status": "pending",
+    "required": "Ordinary new-game story and four schools: accept/field-read/return/trace/craft/decipher/actual relic; storage/ship transfer availability and conservation, region/indoor arrival, offline pause Save/exact reload/cold Continue/old saves/render/Master"
+  },
+  "changes": [
+    "216 selects the regional missing relic from actual current dungeon exterior out, not interior coordinate offsets. Uses actual current exit for other-area targets, actual same-room scribe/follower/loot and known outside portal for an indoor target. No stale/unavailable scribe, unverified home or missing stone coordinate fallback.",
+    "217 recognizes the inspected serialized seafaring21 cargo field before either first stone claim or lost-completed recovery; no duplicate actual relic, XP or snapshot while a copy is stored. This is storage-state conservation, not newly implemented or ordinarily verified ship cargo UI.",
+    "218 accepted lesson0 without fieldRead points to actual native field interaction; actual native successful field read then returns guidance to live teacher. No accepted/fieldRead/stage/relic flag, item, XP or snapshot added by reading objective. Original lesson/reward/ward/stone callbacks retained."
+  ],
+  "initialFailures": [
+    "First focused composition41/41 passed. A repeat was launched before build-current finished rewriting the recovered seed:40/41 and exact seed identity guard rejected partial bytes. Build completed at exact pinned seed; repeat after build completion is required. No hash guard weakened.",
+    "Ordered focused repeat41/41 passed after exact seed rebuild. Final full835/835 complete entries/footer/exit0/hash unchanged; initial overlapping focused failure excluded, pinned seed identity guard unchanged."
+  ],
+  "remaining": [
+    "Full120/every M0–M5/prior requirement retained; no slot/milestone accepted",
+    "Ordinary main-route, offline pause Save/exact reload and Master remain mandatory",
+    "Moved/offshore captive recovery, service saved-name migration, full geometry/equipment/economy/creatures/factions/work/music"
+  ],
+  "remainingEstimate": "Unmeasured;120 allocated active hours are not elapsed time or a completion ETA",
+  "evidence": [
+    "scripts/relic-area-guidance.test.mjs",
+    "verification/relic218-full-tap.txt",
+    "docs/NEXT_RUN_RELIC_AREAS_20261017.md",
+    "verification/relic218-full-result.json",
+    "verification/relic218-focused-tap.txt"
+  ],
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 41,
+    "failed": 0,
+    "newTests": 10,
+    "evidence": "verification/relic218-focused-tap.txt",
+    "scope": "LOCAL actual native addScriptSchool/field read/stone and dialogue callbacks, scripted JSON state/geometry compile; not ordinary gameplay",
+    "durationMs": 4764.405573
+  },
+  "external": {
+    "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+    "parentHead": "f4bc6e7593487176d7af707fc586dd1920d660b3",
+    "sourceReadbacks": [
+      {
+        "path": "scripts/relic-recovery-guidance-patch.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/relic-recovery-guidance.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/relic-guidance-harness.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/relic-area-guidance.test.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/build-current.mjs",
+        "equal": true
+      },
+      {
+        "path": "scripts/current-candidate-integrity.test.mjs",
+        "equal": true
+      }
+    ],
+    "browser": "2026-10-17 Playwright present, Chromium1234 executable absent; no failed downloads/Cloud tabs repeated",
+    "actions": "Latest38711529714/38711529696/38711522032 remain older5bcd473b failures; inspected browser/repository jobs no steps/artifacts. Current-source browser/runtime evidence absent; no account/runner workaround."
+  },
+  "package": {
+    "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+    "bytes": 38346754,
+    "zipSha256": "2ab5b5f3756a5eb8edccc71badc9b838a7266740f506a2f7c1f67158f551f859",
+    "directory": "deliveries/1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+    "checks": "Exact root/dist/direct HTML, two-entry ZIP/game+manifest/extracted SHA+bytes,3-inline compile and unchanged baseline rebuild passed. Standalone startup/embedded decode/user-download accessibility/GitHub-generated identity not run."
+  }
+}

@@ -1,0 +1,256 @@
+TAP version 13
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 1 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 1852.167242
+  type: 'test'
+  ...
+# Subtest: 214 royal return tracks the actual living king, not static palace, without mutating the voyage
+ok 2 - 214 royal return tracks the actual living king, not static palace, without mutating the voyage
+  ---
+  duration_ms: 2.29621
+  type: 'test'
+  ...
+# Subtest: 214 known main leads in unrelated dungeons point only to the actual current exit; missing/mismatched rooms never fabricate one
+ok 3 - 214 known main leads in unrelated dungeons point only to the actual current exit; missing/mismatched rooms never fabricate one
+  ---
+  duration_ms: 2.618196
+  type: 'test'
+  ...
+# Subtest: 214 live indoor inventor uses actual same-room position, outdoor approach uses actual entrance, never interior coordinates or home guesses
+ok 4 - 214 live indoor inventor uses actual same-room position, outdoor approach uses actual entrance, never interior coordinates or home guesses
+  ---
+  duration_ms: 0.672374
+  type: 'test'
+  ...
+# Subtest: 214 keeps actual Pan targets, storage recovery, required lock lesson, combat/work objectives and victory wording untouched
+ok 5 - 214 keeps actual Pan targets, storage recovery, required lock lesson, combat/work objectives and victory wording untouched
+  ---
+  duration_ms: 0.885644
+  type: 'test'
+  ...
+# Subtest: 214 composes actual192 rescue stages: unrelated-room exit, exterior fortress, live warlord, seal/princess and true completion
+ok 6 - 214 composes actual192 rescue stages: unrelated-room exit, exterior fortress, live warlord, seal/princess and true completion
+  ---
+  duration_ms: 0.629298
+  type: 'test'
+  ...
+# Subtest: 215 actual native dialogue and map-hint callback uses current moving healer, one original snapshot and no travel discovery
+ok 7 - 215 actual native dialogue and map-hint callback uses current moving healer, one original snapshot and no travel discovery
+  ---
+  duration_ms: 214.391577
+  type: 'test'
+  ...
+# Subtest: 215 actual retained DOM and choice callbacks reject changed voyage, player, actor, pause and replaced dialogue before close/hint/save
+ok 8 - 215 actual retained DOM and choice callbacks reject changed voyage, player, actor, pause and replaced dialogue before close/hint/save
+  ---
+  duration_ms: 2322.804867
+  type: 'test'
+  ...
+# Subtest: 215 removed/changed healer and missing tavern server are not reported as available, including after quote
+ok 9 - 215 removed/changed healer and missing tavern server are not reported as available, including after quote
+  ---
+  duration_ms: 1092.210048
+  type: 'test'
+  ...
+# Subtest: 215 actual well identity/removal/blockage and moved tavern entrance are rechecked at click, no quantity/money changes
+ok 10 - 215 actual well identity/removal/blockage and moved tavern entrance are rechecked at click, no quantity/money changes
+  ---
+  duration_ms: 561.234474
+  type: 'test'
+  ...
+# Subtest: 215 resources remain secondary, native close-before-go works, invalid direct callers cannot open a remote service menu
+ok 11 - 215 resources remain secondary, native close-before-go works, invalid direct callers cannot open a remote service menu
+  ---
+  duration_ms: 188.533002
+  type: 'test'
+  ...
+# Subtest: four physical schools retain native NPC/discovery/interaction count and use finite region-distinct meshes at native ground height
+ok 12 - four physical schools retain native NPC/discovery/interaction count and use finite region-distinct meshes at native ground height
+  ---
+  duration_ms: 131.954707
+  type: 'test'
+  ...
+# Subtest: first displayed exemplar agrees with native tracing answer; Linear A is not mixed into deciphered Linear B
+ok 13 - first displayed exemplar agrees with native tracing answer; Linear A is not mixed into deciphered Linear B
+  ---
+  duration_ms: 73.705447
+  type: 'test'
+  ...
+# Subtest: optional material/context review uses actual native dialogue buttons, returns to lesson and never grants quest progress or resources
+ok 14 - optional material/context review uses actual native dialogue buttons, returns to lesson and never grants quest progress or resources
+  ---
+  duration_ms: 101.490876
+  type: 'test'
+  ...
+# Subtest: native empty lesson path for every script still needs field inscription, correct answer, conserved ingredients and actual relic claim
+ok 15 - native empty lesson path for every script still needs field inscription, correct answer, conserved ingredients and actual relic claim
+  ---
+  duration_ms: 83.628943
+  type: 'test'
+  ...
+# Subtest: retained native ingredient rules explain clay as classroom material rather than representing all Egyptian/Phoenician records
+ok 16 - retained native ingredient rules explain clay as classroom material rather than representing all Egyptian/Phoenician records
+  ---
+  duration_ms: 166.131017
+  type: 'test'
+  ...
+# Subtest: stale native answer callback cannot regrant two clay, repeat XP or consume practice ingredients again
+ok 17 - stale native answer callback cannot regrant two clay, repeat XP or consume practice ingredients again
+  ---
+  duration_ms: 82.422703
+  type: 'test'
+  ...
+# Subtest: actual scribe membership/live/foot/reach/area/hostility/party/menu guards reject entry and stale choices without charge or progression
+ok 18 - actual scribe membership/live/foot/reach/area/hostility/party/menu guards reject entry and stale choices without charge or progression
+  ---
+  duration_ms: 779.019519
+  type: 'test'
+  ...
+# Subtest: old-save JSON reload keeps player/story positions and literacy; old pre-load choice cannot mutate the replaced save
+ok 19 - old-save JSON reload keeps player/story positions and literacy; old pre-load choice cannot mutate the replaced save
+  ---
+  duration_ms: 105.804235
+  type: 'test'
+  ...
+# Subtest: existing school binding is idempotent and scoped global say restores after native errors
+ok 20 - existing school binding is idempotent and scoped global say restores after native errors
+  ---
+  duration_ms: 111.505577
+  type: 'test'
+  ...
+# Subtest: unrelated dialogues, relic IDs, native all-item ward rule and player state are not replaced by study presentation
+ok 21 - unrelated dialogues, relic IDs, native all-item ward rule and player state are not replaced by study presentation
+  ---
+  duration_ms: 76.733309
+  type: 'test'
+  ...
+# Subtest: actual native focused-quest guard remains authoritative before lesson delivery
+ok 22 - actual native focused-quest guard remains authoritative before lesson delivery
+  ---
+  duration_ms: 106.599744
+  type: 'test'
+  ...
+# Subtest: an old same-stage button cannot close or mutate a different current conversation
+ok 23 - an old same-stage button cannot close or mutate a different current conversation
+  ---
+  duration_ms: 94.328653
+  type: 'test'
+  ...
+# Subtest: cuneiform wedge teaching triangles face outward rather than disappearing through backface culling
+ok 24 - cuneiform wedge teaching triangles face outward rather than disappearing through backface culling
+  ---
+  duration_ms: 79.552982
+  type: 'test'
+  ...
+# Subtest: 216 actual exterior origin, not dungeon offset, selects regional relic; actual current exit and hint agree, read-only
+ok 25 - 216 actual exterior origin, not dungeon offset, selects regional relic; actual current exit and hint agree, read-only
+  ---
+  duration_ms: 5.225695
+  type: 'test'
+  ...
+# Subtest: 216 same interior uses actual available scribe, while an outside player uses actual portal, never indoor home
+ok 26 - 216 same interior uses actual available scribe, while an outside player uses actual portal, never indoor home
+  ---
+  duration_ms: 2.320287
+  type: 'test'
+  ...
+# Subtest: 216 removed/dead/hostile/recruited scribe has no invented arrow; unknown/mismatched/nonfinite dungeon origins/exits stay safe
+ok 27 - 216 removed/dead/hostile/recruited scribe has no invented arrow; unknown/mismatched/nonfinite dungeon origins/exits stay safe
+  ---
+  duration_ms: 13.348277
+  type: 'test'
+  ...
+# Subtest: 216 relic stone and each actual stored area route through current exit/known destination entrance, not world coordinates across rooms
+ok 28 - 216 relic stone and each actual stored area route through current exit/known destination entrance, not world coordinates across rooms
+  ---
+  duration_ms: 8.505828
+  type: 'test'
+  ...
+# Subtest: 216 same-room follower and chest locations remain actual, update on movement, and wrong current room cannot expose their interior coordinate
+ok 29 - 216 same-room follower and chest locations remain actual, update on movement, and wrong current room cannot expose their interior coordinate
+  ---
+  duration_ms: 1.92446
+  type: 'test'
+  ...
+# Subtest: 217 each of four native relic stones respects serialized ship cargo for first claim AND lost-completed recovery; no XP/item/save duplication
+ok 30 - 217 each of four native relic stones respects serialized ship cargo for first claim AND lost-completed recovery; no XP/item/save duplication
+  ---
+  duration_ms: 8.30708
+  type: 'test'
+  ...
+# Subtest: 217 JSON ship cargo remains conserved; physical withdrawal must really put relic in inventory before ward counts it
+ok 31 - 217 JSON ship cargo remains conserved; physical withdrawal must really put relic in inventory before ward counts it
+  ---
+  duration_ms: 1.404066
+  type: 'test'
+  ...
+# Subtest: 218 all four actual native field inscriptions are the next objective only AFTER accepting, then native read returns guidance to live teacher
+ok 32 - 218 all four actual native field inscriptions are the next objective only AFTER accepting, then native read returns guidance to live teacher
+  ---
+  duration_ms: 4.94343
+  type: 'test'
+  ...
+# Subtest: 218 unknown/removed/invalid field and relic stones do not fall back to teacher coordinates; accepted indoor objective uses real exit
+ok 33 - 218 unknown/removed/invalid field and relic stones do not fall back to teacher coordinates; accepted indoor objective uses real exit
+  ---
+  duration_ms: 1.147109
+  type: 'test'
+  ...
+# Subtest: 216–218 compose214: Delphi-before-disclosure, earlier main quests, won game and actual ward possession still govern
+ok 34 - 216–218 compose214: Delphi-before-disclosure, earlier main quests, won game and actual ward possession still govern
+  ---
+  duration_ms: 2.124832
+  type: 'test'
+  ...
+# Subtest: scribe indoors uses real house/known dungeon entrance, never an unverified indoor home
+ok 35 - scribe indoors uses real house/known dungeon entrance, never an unverified indoor home
+  ---
+  duration_ms: 4.033979
+  type: 'test'
+  ...
+# Subtest: horse/follower/owned and reusable-chest storage is located instead of fabricating duplicate relics
+ok 36 - horse/follower/owned and reusable-chest storage is located instead of fabricating duplicate relics
+  ---
+  duration_ms: 10.126522
+  type: 'test'
+  ...
+# Subtest: actual native relic-stone first claim grants one object and XP once; lost completed relic recovers physically at same stone without repeat XP or duplicates
+ok 37 - actual native relic-stone first claim grants one object and XP once; lost completed relic recovers physically at same stone without repeat XP or duplicates
+  ---
+  duration_ms: 1.336444
+  type: 'test'
+  ...
+# Subtest: recovery refuses missing lessons/dead/wrong area/distance/stale stone and never grants remotely or repairs inventory on read
+ok 38 - recovery refuses missing lessons/dead/wrong area/distance/stale stone and never grants remotely or repairs inventory on read
+  ---
+  duration_ms: 4.250356
+  type: 'test'
+  ...
+# Subtest: current-region writing lessons then actual stone are marked before fortress; missing item remains objective even if boss flag already set
+ok 39 - current-region writing lessons then actual stone are marked before fortress; missing item remains objective even if boss flag already set
+  ---
+  duration_ms: 1.132757
+  type: 'test'
+  ...
+# Subtest: Delphi discovery leads retained, early story and won game keep native objective; all four physical items and flags still required by native ward
+ok 40 - Delphi discovery leads retained, early story and won game keep native objective; all four physical items and flags still required by native ward
+  ---
+  duration_ms: 3.225481
+  type: 'test'
+  ...
+# Subtest: JSON old-save reload preserves player/story/literacy, recovery stays once-only; population rebinding does not wrap callbacks repeatedly
+ok 41 - JSON old-save reload preserves player/story/literacy, recovery stays once-only; population rebinding does not wrap callbacks repeatedly
+  ---
+  duration_ms: 1.456174
+  type: 'test'
+  ...
+1..41
+# tests 41
+# suites 0
+# pass 41
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4764.405573
