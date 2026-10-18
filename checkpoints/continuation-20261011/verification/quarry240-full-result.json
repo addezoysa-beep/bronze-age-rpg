@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 984,
+  "passed": 984,
+  "failed": 0,
+  "durationMs": 186100.809724,
+  "completeFooter": true,
+  "okEntries": 984,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/quarry240-full-tap.txt"
+}

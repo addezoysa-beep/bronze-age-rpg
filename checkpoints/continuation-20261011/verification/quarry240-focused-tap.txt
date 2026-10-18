@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 1 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 1995.279941
+  type: 'test'
+  ...
+# Subtest: an actual remaining quarry worker can offer the shift if the foreman is unavailable
+ok 2 - an actual remaining quarry worker can offer the shift if the foreman is unavailable
+  ---
+  duration_ms: 229.319436
+  type: 'test'
+  ...
+# Subtest: simultaneous later work actions cannot begin quarry work; malformed saved shift remains intact
+ok 3 - simultaneous later work actions cannot begin quarry work; malformed saved shift remains intact
+  ---
+  duration_ms: 1373.390482
+  type: 'test'
+  ...
+# Subtest: death during an active action ends unpaid shift rather than freezing in dead state
+ok 4 - death during an active action ends unpaid shift rather than freezing in dead state
+  ---
+  duration_ms: 190.258355
+  type: 'test'
+  ...
+# Subtest: real foreman native buttons explain supplied tools, begin, mark next station and quit with no inventory or quest mutation
+ok 5 - real foreman native buttons explain supplied tools, begin, mark next station and quit with no inventory or quest mutation
+  ---
+  duration_ms: 191.737937
+  type: 'test'
+  ...
+# Subtest: native four-stage timing pays original18silver/10XP once; next-day shift remains available
+ok 6 - native four-stage timing pays original18silver/10XP once; next-day shift remains available
+  ---
+  duration_ms: 189.994888
+  type: 'test'
+  ...
+# Subtest: start requires actual available foreman, grounded free foot and no nearby combat or opening duty
+ok 7 - start requires actual available foreman, grounded free foot and no nearby combat or opening duty
+  ---
+  duration_ms: 2508.559774
+  type: 'test'
+  ...
+# Subtest: stale foreman start, chart and quit choices reject save/menu/day/record/site/actor changes
+ok 8 - stale foreman start, chart and quit choices reject save/menu/day/record/site/actor changes
+  ---
+  duration_ms: 4949.754167
+  type: 'test'
+  ...
+# Subtest: pause/talk freezes action without losing current progress; large or invalid delta cannot instantly finish it
+ok 9 - pause/talk freezes action without losing current progress; large or invalid delta cannot instantly finish it
+  ---
+  duration_ms: 182.294214
+  type: 'test'
+  ...
+# Subtest: stale cross-save or replaced action context clears transient motion but does not complete/pay the new record
+ok 10 - stale cross-save or replaced action context clears transient motion but does not complete/pay the new record
+  ---
+  duration_ms: 737.884324
+  type: 'test'
+  ...
+# Subtest: premature direct finish and displaced worker cannot skip action time or earn a stage
+ok 11 - premature direct finish and displaced worker cannot skip action time or earn a stage
+  ---
+  duration_ms: 369.152674
+  type: 'test'
+  ...
+# Subtest: movement cancels only current step; quit, death and district departure retain original unpaid rules
+ok 12 - movement cancels only current step; quit, death and district departure retain original unpaid rules
+  ---
+  duration_ms: 184.764982
+  type: 'test'
+  ...
+# Subtest: invalid wage cannot lose ready haul or fabricate silver; repair stored quantity then complete once
+ok 13 - invalid wage cannot lose ready haul or fabricate silver; repair stored quantity then complete once
+  ---
+  duration_ms: 186.549909
+  type: 'test'
+  ...
+# Subtest: ordinary Other matters remains; JSON/native snapshot/Continue preserves completed steps and no duplicate payment
+ok 14 - ordinary Other matters remains; JSON/native snapshot/Continue preserves completed steps and no duplicate payment
+  ---
+  duration_ms: 189.762771
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14300.997709

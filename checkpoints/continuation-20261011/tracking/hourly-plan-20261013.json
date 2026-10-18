@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T10:11:46.745Z",
+  "updatedAt": "2026-10-18T10:26:17.382Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,38 +12,39 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+  "currentLocalBuildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "c109463172462b9afef4c4e16a348db04e2b1c63",
+  "currentGithubHead": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
     "draft": true,
     "merged": false,
-    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from e4fbd0c3121c82f654b11690d06f1ae7a4e79a1d; no merge/release"
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from af4f0c5329f35580adcfb60b3318d85d5c6fb498; no merge/release"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 971,
+      "passed": 984,
       "failed": 0,
-      "newTests": 21,
-      "durationMs": 174986.527334,
+      "newTests": 13,
+      "newTestsAcrossSuccessiveBatches": 34,
+      "durationMs": 186100.809724,
       "completeFooter": true,
-      "okEntries": 971,
+      "okEntries": 984,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/mine238-full-tap.txt",
-      "result": "verification/mine238-full-result.json",
-      "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
-      "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603"
+      "evidence": "verification/quarry240-full-tap.txt",
+      "result": "verification/quarry240-full-result.json",
+      "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+      "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
-      "sourceBuildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+      "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+      "sourceBuildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
       "ci": "No matching current-head browser artifact; inspected older5bcd473b jobs have zero executed steps/artifacts"
@@ -1538,9 +1539,19 @@
       "originalTaskIds": [
         100
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "Current239–240 source 5435fd124bec93d1d98efe6c7b521c884ed4ca17; exact game 0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03,38416944bytes. Existing paid quarry work now has current shift/action guards, pause-safe timing and real foreman/fallback-worker dialogue. Original four actions and18silver/10XP daily wage retained; no new animation count, cargo or full earnings acceptance. Final984/984 full LOCAL checks (13new after971,34 across236–240), complete984entries/footer/exit0/hash unchanged,186100.809724ms;14 focused pass. Six source/test exact readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compile pass; ZIPdcfbb09e277b42d191ed316fab7c642a63dbc4400831f7df702a546290603edc. Controlled native work/DOM/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered contact/audio/reference FPS or Master acceptance. Full120/every M0–M5 and mine/economy/work/story/rescue scope remain PARTIAL/unaccepted. Local Chromium absent; matching GitHub-generated playable download unavailable; startup/decoding/user accessibility not verified. Main/QOL/core physical BronzeAge first; further8–10 stress/expandedTroy lower, retained; remaining ETA unmeasured. See docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md and tracking/updates/quarry-contract-20261018.json.",
+      "quarryContracts239240": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+        "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+        "evidence": "tracking/updates/quarry-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+      }
     },
     {
       "hour": 99,
@@ -1604,9 +1615,19 @@
       "originalTaskIds": [
         105
       ],
-      "workStatus": "pending",
+      "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "currentEvidence": "Current239–240 source 5435fd124bec93d1d98efe6c7b521c884ed4ca17; exact game 0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03,38416944bytes. Existing paid quarry work now has current shift/action guards, pause-safe timing and real foreman/fallback-worker dialogue. Original four actions and18silver/10XP daily wage retained; no new animation count, cargo or full earnings acceptance. Final984/984 full LOCAL checks (13new after971,34 across236–240), complete984entries/footer/exit0/hash unchanged,186100.809724ms;14 focused pass. Six source/test exact readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compile pass; ZIPdcfbb09e277b42d191ed316fab7c642a63dbc4400831f7df702a546290603edc. Controlled native work/DOM/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered contact/audio/reference FPS or Master acceptance. Full120/every M0–M5 and mine/economy/work/story/rescue scope remain PARTIAL/unaccepted. Local Chromium absent; matching GitHub-generated playable download unavailable; startup/decoding/user accessibility not verified. Main/QOL/core physical BronzeAge first; further8–10 stress/expandedTroy lower, retained; remaining ETA unmeasured. See docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md and tracking/updates/quarry-contract-20261018.json.",
+      "quarryContracts239240": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+        "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+        "evidence": "tracking/updates/quarry-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+      }
     },
     {
       "hour": 104,
@@ -1838,7 +1859,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current236–238 source c109463172462b9afef4c4e16a348db04e2b1c63; exact game 776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603,38,410,317bytes. Guarded existing mine contract context, real physical picks and bounded local-ore lessons/first loan, once-only original gallery wages and preserved objective selection. 971/971 full LOCAL checks (21new), complete971 entries/footer/exit0/hash unchanged,174986.527334ms. Six exact source/test readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compilation pass; ZIP84ede34d2c67ff85b054a21e8afa009b2b62c567f7f75f31d4efe1654965b48f. Controlled native dialogue/mining/progress/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/audio/reference FPS or Master acceptance. Economy/work/story/rescue/full120/every M0–M5 remain PARTIAL/unaccepted. Matching GitHub-generated playable download unavailable, startup/decoding/user download accessibility not verified. Browser package present/Chromium1234 absent. Main/QOL/core physical BronzeAge first; further8–10 stress and expandedTroy lower, retained. Remaining ETA unmeasured. See docs/NEXT_RUN_MINE_CONTRACT_20261018.md and tracking/updates/mine-contract-20261018.json.",
+      "currentEvidence": "Current239–240 source 5435fd124bec93d1d98efe6c7b521c884ed4ca17; exact game 0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03,38416944bytes. Existing paid quarry work now has current shift/action guards, pause-safe timing and real foreman/fallback-worker dialogue. Original four actions and18silver/10XP daily wage retained; no new animation count, cargo or full earnings acceptance. Final984/984 full LOCAL checks (13new after971,34 across236–240), complete984entries/footer/exit0/hash unchanged,186100.809724ms;14 focused pass. Six source/test exact readbacks; private draft PR29 unmerged. Exact baseline-to-current rebuild, HTML/two-entry ZIP/three-inline compile pass; ZIPdcfbb09e277b42d191ed316fab7c642a63dbc4400831f7df702a546290603edc. Controlled native work/DOM/snapshot/Continue/Three fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered contact/audio/reference FPS or Master acceptance. Full120/every M0–M5 and mine/economy/work/story/rescue scope remain PARTIAL/unaccepted. Local Chromium absent; matching GitHub-generated playable download unavailable; startup/decoding/user accessibility not verified. Main/QOL/core physical BronzeAge first; further8–10 stress/expandedTroy lower, retained; remaining ETA unmeasured. See docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md and tracking/updates/quarry-contract-20261018.json.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
@@ -1871,6 +1892,15 @@
         "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
         "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
         "ordinaryAcceptance": "pending"
+      },
+      "quarryContracts239240": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+        "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+        "evidence": "tracking/updates/quarry-contract-20261018.json",
+        "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
       }
     },
     {
@@ -1926,7 +1956,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Mandatory current-hash ordinary main/Pan/artifact/captive-home/mine/craft and offline pause Save/exact reload when runtime is available. Meanwhile continue substantive main/QOL/core physical BronzeAge, independent legacy teacher/economy bypasses and fair grounded work earnings, or source-supported remaining rescue recovery. Do not duplicate205–238. Full120/every M0–M5 retained; further8–10/expandedTroy lower.",
+  "nextDependencyReadyWork": "Mandatory ordinary main/Pan/artifact/captive-home/mine/work and offline pause Save/exact reload when runtime available. Meanwhile next concrete source gap: native installRiverCargo66 captures initial day plan/origin/station positions, while cargoPlan66 and shift/action logic choose current day parity; inspect all final overrides and repair real current-day prompts/crew/context with tests before extending destination unloading. Keep original cargo/wages/conservation. Full120/M0–M5, main/QOL/physicalBronzeAge first; further8–10/expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1946,7 +1976,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "236–238 source delivered;971/971 full LOCAL,21new;existing mine/tool/reward/objective work PARTIAL; ordinary/render/Save/Master pending",
+  "currentCheckpoint": "236–240 two successive source batches delivered;984/984 full LOCAL,34new total;mine/quarry/work/economy PARTIAL, ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -2081,7 +2111,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
+  "currentGithubSourceBuildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2443,6 +2473,31 @@
       "evidence": "verification/mine238-full-tap.txt",
       "result": "verification/mine238-full-result.json",
       "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    }
+  },
+  "quarryContracts239240": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+    "evidence": "tracking/updates/quarry-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance.",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 984,
+      "failed": 0,
+      "newTests": 13,
+      "newTestsAcrossSuccessiveBatches": 34,
+      "durationMs": 186100.809724,
+      "completeFooter": true,
+      "okEntries": 984,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/quarry240-full-tap.txt",
+      "result": "verification/quarry240-full-result.json",
+      "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
     }
   }
 }

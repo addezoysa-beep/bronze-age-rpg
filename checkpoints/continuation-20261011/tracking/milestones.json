@@ -950,36 +950,37 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "776157b346096398543c60b9c6fac819be2cadcead5f258914fc64e5cb221603",
-    "bytes": 38410317,
-    "sourceChecks": 971,
-    "sourceScope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+    "bytes": 38416944,
+    "sourceChecks": 984,
+    "sourceScope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "c109463172462b9afef4c4e16a348db04e2b1c63",
+      "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
       "draft": true,
       "merged": false,
-      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from e4fbd0c3121c82f654b11690d06f1ae7a4e79a1d; no merge/release"
+      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from af4f0c5329f35580adcfb60b3318d85d5c6fb498; no merge/release"
     },
-    "next": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
+    "next": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 971,
+      "passed": 984,
       "failed": 0,
-      "newTests": 21,
-      "durationMs": 174986.527334,
+      "newTests": 13,
+      "newTestsAcrossSuccessiveBatches": 34,
+      "durationMs": 186100.809724,
       "completeFooter": true,
-      "okEntries": 971,
+      "okEntries": 984,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/mine238-full-tap.txt",
-      "result": "verification/mine238-full-result.json",
-      "scope": "Full LOCAL source/native mine dialogue/buttons, actual three-strike mining/gallery progress hooks, physical tool/loan/recipe/reward guards and base snapshot/Continue/checkpoint21 plus existing Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      "evidence": "verification/quarry240-full-tap.txt",
+      "result": "verification/quarry240-full-result.json",
+      "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
     }
   },
   "saveLoadPerformance146": {
@@ -1004,5 +1005,14 @@
     "handoff": "docs/NEXT_RUN_MINE_CONTRACT_20261018.md",
     "scope": "Existing registered mines, physical pick/loan/local-metal plans and original reward/selected-objective transactions only; no complete regional economy/mining/ordinary runtime acceptance.",
     "ordinaryAcceptance": "pending"
+  },
+  "quarryContracts239240": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+    "evidence": "tracking/updates/quarry-contract-20261018.json",
+    "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
   }
 }

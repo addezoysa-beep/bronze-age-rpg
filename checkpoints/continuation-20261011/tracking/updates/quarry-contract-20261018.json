@@ -1,0 +1,120 @@
+{
+  "id": "quarry-contract-20261018",
+  "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+  "bytes": 38416944,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-100",
+    "120-105",
+    "120-116",
+    "LIFE-01"
+  ],
+  "summary": "239 current quarry shift/action, pause/death and conserved wages;240 actual foreman/fallback-worker dialogue and honest first-pick directions",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from af4f0c5329f35580adcfb60b3318d85d5c6fb498; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 984,
+    "failed": 0,
+    "newTests": 13,
+    "newTestsAcrossSuccessiveBatches": 34,
+    "durationMs": 186100.809724,
+    "completeFooter": true,
+    "okEntries": 984,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/quarry240-full-tap.txt",
+    "result": "verification/quarry240-full-result.json",
+    "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 14,
+    "failed": 0,
+    "newTests": 13,
+    "durationMs": 14300.997709,
+    "evidence": "verification/quarry240-focused-tap.txt",
+    "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "changes": [
+    "239 start/finish/action timing binds current game/day/world/shift record and actual quarry/available crew; requires calm grounded on-foot state and blocks overlapping later cargo/irrigation/plough work. Original four supplied-tool actions,2-second durations,18silver/10XP daily reward retained. Work delta bounded to0.1s, invalid deltas ignored; pause/talk hold the motion, death/quit/district departure retain unpaid failure rules.",
+    "239 stale save/day/replaced record/site/action clears transient motion without paying or completing another record. Final haul validates reward capacity before native stage/payment mutation; an invalid quantity leaves stage3 ready to retry, not lost or silently paid. Native restore retains completed stages while dropping unfinished motion, and paid-day persists. Malformed shift records are preserved/fail closed.",
+    "240 actual foreman dialogue offers supplied-tool terms, begin/next-station chart/quit/paid-today/Other matters/Leave through guarded native buttons. A surviving nonrecruited actual quarry worker can offer the same role when foreman unavailable; other workers keep native matters while foreman present. Existing mine directions now correctly describe the first-tool-only loan and taught replacement patterns."
+  ],
+  "initialFailures": [
+    "First focused9/10 revealed native start created an empty saved shift before rejecting unfinished Lykos duty. Production preflight now rejects before invoking native initializer; refusal-conservation assertion retained. Follow-up10/10, expanded13/13 then14/14 with unavailable-foreman fallback passed.",
+    "Review before final build added conservative malformed paid-shift handling, overlapping later-job rejection, dead-state unpaid cleanup and surviving-worker role fallback; preliminary f8d1374f/4f858c7d focused hashes are not the final accepted source-test identity. Final0af79be2 full984/984 only governs this candidate.",
+    "Historical dirty EOF in captive-passage-patch.mjs untouched; new-source scoped diff-check clean. Expected corrupt-ZIP negative-test diagnostic is not a candidate archive failure."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Actual ordinary foreman/crew approach, start/strike/wedge/lever/rope haul/pause/quit/failure/earnings, rendered shared hand/rope/terrain contact, offline pause Save/exact reload/cold Continue/old-save/Master"
+  },
+  "package": {
+    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
+    "bytes": 38416944,
+    "zipSha256": "dcfbb09e277b42d191ed316fab7c642a63dbc4400831f7df702a546290603edc",
+    "entries": 2,
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "external": {
+    "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+    "parentHead": "af4f0c5329f35580adcfb60b3318d85d5c6fb498",
+    "sourceReadbacks": 6,
+    "currentGithubGeneratedBuild": null,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "jobs": [
+        116343817505,
+        116343817574
+      ],
+      "executedSteps": 0,
+      "artifacts": 0
+    },
+    "localBrowser": {
+      "package": "present",
+      "expectedExecutable": "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+      "executablePresent": false
+    }
+  },
+  "remaining": [
+    "Ordinary new-game/main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess and captive-home routes, actual mouse/UI dialogue/trade/learn/craft/collect/equip/offline pause Save/exact-position reload/cold Continue/old saves/render/audio/reference FPS/Master remain pending. Controlled native callbacks, actual mining hooks, snapshot/Continue/checkpoint21 and Three fixtures are not these gates.",
+    "Mine/economy remains PARTIAL: actual field→surface/dungeon mine→furnace→smith traversal, balanced earnings versus equipment prices, all local ore/keeper availability, bench hand/contact visuals, independent generic/legacy teachers/merchants, all recipe/loot/sell/rare materials and full work contracts need coverage. Ambiguous legacy ownership-only pick is not fabricated as an inventory item; already issued loans are not replenished. Existing stone-pick recipes remain recovery route.",
+    "Rescue recovery230–232 remains limited to original owned seaworthy hull, earned horn and saved <=120 clear straight approach; sunken/missing/replacement/farther hulls, changed docks and detour/blocked routes remain.222–223 ambiguous legacy service identity remains conservative/partial.",
+    "All120/every M0–M5/prior requirement retained/unaccepted. Main campaign/QOL/core physical BronzeAge first; further8–10 stress/performance and expandedTroy lower, not removed. Browser package present but Chromium1234 absent; inspected older Actions jobs have no executed steps/artifacts and matching GitHub-generated playable download unavailable. No failed browser/download/account/runner retries or measured remaining ETA.",
+    "Quarry239–240 is existing Upper Egypt paid-work QOL only: no new animations, quarry models, paired-rope rendered improvement, cargo shipment/unloading route, increased shared-action count or global fair-wage acceptance. Native controlled work timer/props-stub fixtures are not rendered hands/rope/terrain/NPC scheduling or ordinary paid-work/Save acceptance. Existing per-day wage and day reset retained, not rebalanced."
+  ],
+  "next": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+  "changedFiles": [
+    "scripts/quarry-contract-patch.mjs",
+    "scripts/quarry-contract.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs",
+    "scripts/regional-smith-workshop-patch.mjs"
+  ]
+}
