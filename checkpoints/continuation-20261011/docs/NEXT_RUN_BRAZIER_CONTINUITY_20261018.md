@@ -1,0 +1,6 @@
+# Continue after core brazier254–255
+
+Candidate 4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b,38458653bytes.39focused/9new pass, full LOCAL running.254 derives flames only from valid existing native sequence prefix on build/entry/Continue;255 rejects wrong room/distance/paused/dead/mounted/duplicate native brazier callbacks and keeps reset latch coherent. No new progress, automatic Save, key/reward grant or puzzle/asset count. Source/native/Three prepared fixtures are not ordinary offline pause Save/exact reload, populated routes/terrain/render/Master acceptance. Initial draft6/7 was a cross-VM array prototype assertion; compare copied JSON data, no gameplay assertion dropped; final39 pass.
+
+Fallback2da5e6eb full1066 evidence at e7837131841a538ffefc05c0babf0c04aa64013f. Preserve this fallback, do not duplicate250–255. Finish full exact-current evidence/package; critical ordinary opening/Pan/Sun King/main route, mandatory offline pause Save/exact reload and old-save/render acceptance remain pending. Main/QOL/core physicalBronzeAge before extra8–10 stress/expandedTroy, all scope retained. No current GitHub-generated build; localChromium absent, prior Actions zero steps/artifacts. No merge/release/acceptance or other PR/private/base changes; no new automation or rejected-route workaround. ETA unmeasured.
+

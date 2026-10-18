@@ -1,0 +1,53 @@
+{
+  "id": "core-brazier-continuity-20261018",
+  "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+  "bytes": 38458653,
+  "milestoneIds": [
+    "M0",
+    "M4",
+    "M5"
+  ],
+  "requirementIds": [
+    "BASE-03",
+    "STORY-01",
+    "SITE-01",
+    "EGYPT-01",
+    "120-022",
+    "120-070",
+    "120-072",
+    "120-116"
+  ],
+  "summary": "254 validated canonical Sun King partial flame presentation across cold entry/outside-room Save and checkpoint continuation;255 native brazier callback context and duplicate safety",
+  "changedFiles": [
+    "scripts/core-brazier-continuity-patch.mjs",
+    "scripts/core-brazier-continuity.test.mjs",
+    "scripts/build-continuation.mjs",
+    "scripts/build-current.mjs",
+    "scripts/current-candidate-integrity.test.mjs"
+  ],
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "running",
+    "buildSha256": "4353761bc45e0aa1af5b845fe5c69b271e5f6b7efb877acb22b530f5145cf81b",
+    "log": "verification/brazier255-full-tap.txt"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 39,
+    "newTests": 9,
+    "durationMs": 7490.124913,
+    "evidence": "verification/brazier255-focused-tap.txt",
+    "scope": "Prepared native build/entry/brazier interaction, JSON snapshot/Continue and actual final candidate compilation, no ordinary mouse/browser/Save/render acceptance."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_BRAZIER_CONTINUITY_20261018.md"
+}
+
