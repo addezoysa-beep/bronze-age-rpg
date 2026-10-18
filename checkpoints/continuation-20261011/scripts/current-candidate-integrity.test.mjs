@@ -21,6 +21,8 @@ test('actual current builder preserves seed and compiles every delivered script 
  assert.ok(html.indexOf('EGYPT_RECORD_QUEST_244')>html.indexOf('RIVER_WORK_PROMPTS_241'));
  for(const marker of ['NILE_BOOKING_247','NILE_CHECKED_LANDING_248','NILE_PASSAGE_SAVE_249'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('NILE_BOOKING_247')>html.indexOf('EGYPT_RECORD_QUEST_244'));
+ for(const marker of ['CHECKPOINT_COLLECTIONS_250','MANUAL_CHECKPOINT_FEEDBACK_251'])assert.ok(html.includes(marker),marker);
+ assert.ok(html.indexOf('CHECKPOINT_COLLECTIONS_250')>html.indexOf('NILE_PASSAGE_SAVE_249'));
  for(const marker of ['CAPTIVE_HARBOUR_RECOVERY_230','CAPTIVE_CHANNEL_RECHECK_231','RALLY_RESCUE_MENU_232'])assert.ok(html.includes(marker),marker);
  assert.ok(html.indexOf('CAPTIVE_HARBOUR_RECOVERY_230')>html.indexOf('REGIONAL_PROVISIONS_227'));
  for(const marker of ['REGIONAL_PROVISIONS_227','REGIONAL_COOK_LESSONS_228','TAVERN_COUNTER_PAGES_229'])assert.ok(html.includes(marker),marker);

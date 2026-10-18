@@ -1,0 +1,39 @@
+{
+  "id": "checkpoint-restore-safety-20261018",
+  "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+  "bytes": 38451999,
+  "milestoneIds": [
+    "M0",
+    "M1",
+    "M5"
+  ],
+  "requirementIds": [
+    "SAVE-01",
+    "120-022",
+    "120-116"
+  ],
+  "summary": "250 optional checkpoint collections and current unique NPC identity restore;251 manual Save/F5 preflight, readback and persistent result",
+  "masterDelivery": {
+    "status": "pending"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "running",
+    "log": "verification/checkpoint251-full-tap.txt",
+    "prior": "1037 c65c5fe4 checks remain hash-scoped; do not borrow"
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 16,
+    "newTests": 16,
+    "durationMs": 341.772828,
+    "scope": "LOCAL actual native snapshot21/Continue21/Save/psave/F5 plus actual150 failure guard and actual222 binding in prepared actor/DOM/storage fixtures. NOT ordinary mouse/browser/render/offline Save/exact reload/Master."
+  },
+  "runtime": {
+    "status": "pending"
+  },
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_CHECKPOINT_SAFETY_20261018.md"
+}
