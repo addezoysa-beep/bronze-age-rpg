@@ -950,37 +950,36 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "0af79be29743257a4584ade49d5613c1f3cb316b96bbc3674c4e9b5b7c7d7b03",
-    "bytes": 38416944,
-    "sourceChecks": 984,
-    "sourceScope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+    "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+    "bytes": 38426008,
+    "sourceChecks": 1004,
+    "sourceScope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "5435fd124bec93d1d98efe6c7b521c884ed4ca17",
+      "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
       "draft": true,
       "merged": false,
-      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from af4f0c5329f35580adcfb60b3318d85d5c6fb498; no merge/release"
+      "evidence": "Six exact source/test readbacks; expected-head nonforce lease from 1ce035403f6b6da50be469513684a5a80a9316d7; no merge/release"
     },
-    "next": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
+    "next": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 984,
+      "passed": 1004,
       "failed": 0,
-      "newTests": 13,
-      "newTestsAcrossSuccessiveBatches": 34,
-      "durationMs": 186100.809724,
+      "newTests": 20,
+      "durationMs": 209115.405638,
       "completeFooter": true,
-      "okEntries": 984,
+      "okEntries": 1004,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/quarry240-full-tap.txt",
-      "result": "verification/quarry240-full-result.json",
-      "scope": "Full LOCAL source/native quarry foreman dialogue/buttons, existing four-stage work hooks, pause/death/delta/stale-action/wage guards and base snapshot/Continue/checkpoint21 plus retained mining/Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      "evidence": "verification/cargo243-full-tap.txt",
+      "result": "verification/cargo243-full-result.json",
+      "scope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance."
     }
   },
   "saveLoadPerformance146": {
@@ -1014,5 +1013,14 @@
     "handoff": "docs/NEXT_RUN_QUARRY_CONTRACT_20261018.md",
     "ordinaryAcceptance": "pending",
     "scope": "Existing Upper Egypt four-action paid-work QOL and original wage only; no new animation/cargo model count, complete regional work/economy or ordinary rendered/Save acceptance."
+  },
+  "riverWork241243": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+    "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+    "evidence": "tracking/updates/river-work-20261018.json",
+    "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance."
   }
 }
