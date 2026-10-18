@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T10:55:07.384Z",
+  "updatedAt": "2026-10-18T15:17:18.957Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,38 +12,42 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+  "currentLocalBuildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "fa0caf793e1411e347bafc7805c453603df0a179",
+  "currentGithubHead": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
+    "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
     "draft": true,
     "merged": false,
-    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from 1ce035403f6b6da50be469513684a5a80a9316d7; no merge/release"
+    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from5c912dcf76f16035ab5fc275bfcd2bc6cf4c6890"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 1004,
-      "failed": 0,
-      "newTests": 20,
-      "durationMs": 209115.405638,
-      "completeFooter": true,
-      "okEntries": 1004,
-      "exitCode": 0,
+      "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
       "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1019,
+      "passed": 1019,
+      "failed": 0,
+      "durationMs": 215807.966007,
+      "completeFooter": true,
+      "okEntries": 1019,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/cargo243-full-tap.txt",
-      "result": "verification/cargo243-full-result.json",
-      "scope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance.",
-      "buildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42"
+      "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/grain246-full-tap.txt",
+      "newTests": 15,
+      "evidence": "verification/grain246-full-tap.txt",
+      "result": "verification/grain246-full-result.json"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "fa0caf793e1411e347bafc7805c453603df0a179",
-      "sourceBuildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+      "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+      "sourceBuildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
       "ci": "No matching current-head browser artifact; inspected older5bcd473b jobs have zero executed steps/artifacts"
@@ -1502,7 +1506,16 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
     },
     {
       "hour": 96,
@@ -1737,6 +1750,15 @@
         "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
         "evidence": "tracking/updates/regional-provisions-20261018.json",
         "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1786,6 +1808,15 @@
         "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
         "evidence": "tracking/updates/captive-harbour-recovery-20261018.json",
         "scope": "Original owned seaworthy rescue boat, earned horn, <=120 clear straight approach only; actual controls/native serializer fixtures, NOT full rescue/Save or completed original allocation."
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1844,7 +1875,16 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
     },
     {
       "hour": 116,
@@ -1863,6 +1903,15 @@
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
         "evidence": "tracking/updates/relic-area-guidance-20261017.json",
         "scope": "Actual school/field/relic/storage source contract only, not full allocation/ordinary runtime completion"
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1927,6 +1976,15 @@
         "handoff": "docs/NEXT_RUN_RIVER_WORK_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "Existing launch work and decorative two-barge lifetime only; no destination unloading, full manifests/routes, new shared-action count or ordinary/render/Save acceptance."
+      },
+      "egyptRecords244246": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+        "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+        "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+        "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1982,7 +2040,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Integrate/test independent Egyptian two-seal draft244–246 after preserving current1004-check candidate. Mandatory current-hash ordinary main/Pan/captive/home/Egypt/work and offline pause Save/exact reload first when runtime available. Actual destination unloading/manifests/upstream stone/cargo production remain. All120/M0–M5 retained; further8–10 and expandedTroy lower.",
+  "nextDependencyReadyWork": "Mandatory ordinary main/Pan/captive/home/Egypt route and offline pause Save/exact reload when runtime available; inspect generated Egyptian chamber reachability and Nile boarding/arrival next. No duplicate241–246. Full cargo/destination unloading/upstream stone and all prior120/M0–M5 retained; further8–10 and expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -2002,7 +2060,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "241–243 source delivered;1004/1004 full LOCAL,20new;river work PARTIAL, ordinary/render/Save/Master pending",
+  "currentCheckpoint": "244–246 source delivered;1019/1019 full LOCAL,15new; Egyptian grain quest partial, ordinary route/Save/render/Master pending",
   "partialSlots": [
     2,
     3,
@@ -2137,7 +2195,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "b3c93cc0db2a30a67ec0c84ac2f319e194599905b685569f8aed798afc1b1e42",
+  "currentGithubSourceBuildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2549,5 +2607,15 @@
       "result": "verification/cargo243-full-result.json",
       "scope": "Full LOCAL source/native current-int/closest-input work selection, native pier-support query, actual work/XP hooks, controlled Three scene-group lifetime and base snapshot/Continue/checkpoint21 plus existing compile/workflow/package. NOT ordinary mouse/browser/offline pause Save/render/contact/audio/reference FPS/Master acceptance."
     }
+  },
+  "egyptRecords244246": {
+    "status": "partial_source_runtime_pending",
+    "sourceCommit": "b60d43b93d1c2ab17629a2c7b92e5b7d38145704",
+    "buildSha256": "2496185984d09c20654b7f6f7c03d401c84ad7c6c2b41b8608a804e556bf9eb3",
+    "evidence": "tracking/updates/egypt-grain-records-20261018.json",
+    "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
   }
 }
+
