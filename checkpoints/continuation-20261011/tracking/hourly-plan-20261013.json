@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T16:34:10.481Z",
+  "updatedAt": "2026-10-18T17:20:40Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,9 +12,9 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+  "currentLocalBuildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+  "currentGithubHead": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
   "publication": {
     "status": "delivered",
     "pr": 29,
@@ -53,7 +53,25 @@
       "ci": "No matching current-head browser artifact; inspected older5bcd473b jobs have zero executed steps/artifacts"
     },
     "captiveHome": "verification/home202-full-tests.txt",
-    "captiveRecovery": "verification/recovery204-full-tap.txt"
+    "captiveRecovery": "verification/recovery204-full-tap.txt",
+    "checkpointSafety250251": {
+      "status": "passed",
+      "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1053,
+      "passed": 1053,
+      "failed": 0,
+      "durationMs": 290917.698077,
+      "completeFooter": true,
+      "okEntries": 1053,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
+      "log": "verification/checkpoint251-full-tap.txt",
+      "newTests": 16
+    }
   },
   "policy": [
     "Active work hours, not hourly automation runs or guaranteed continuous execution.",
@@ -372,6 +390,14 @@
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
         "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      },
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -1814,7 +1840,15 @@
       ],
       "workStatus": "pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      }
     },
     {
       "hour": 113,
@@ -1943,6 +1977,14 @@
         "handoff": "docs/NEXT_RUN_EGYPT_RECORDS_20261018.md",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL source/native dialogue/journal callbacks, prepared registered chamber/token fixtures, held inventory/cargo checks and base snapshot/Continue plus existing Three/compile/workflow/package checks; NOT ordinary mouse/browser, actual six-city navigation/puzzles, rendered/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2026,6 +2068,14 @@
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
         "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+      },
+      "checkpointSafety250251": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+        "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+        "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
       }
     },
     {
@@ -2081,7 +2131,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Mandatory current-hash ordinary main/Pan/captive-home/Egypt/Nile and offline pause Save/exact reload when runtime available. Inspect remaining generated chambers/bank-swim routes and legacy passage recovery without guessing origins; complete next dependency-ready main/QOL/physical BronzeAge production. No duplicate247–249. All120/M0–M5 retained; cargo destination unloading/upstream stone and further8–10/expandedTroy remain, latter lower priority.",
+  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/captive-home/Egypt/Nile and offline pause Save/exact reload when runtime available. Next dependency-ready main/QOL/physical BronzeAge production; do not duplicate250–251. Every120/M0–M5 retained; no slot acceptance, further8–10 and expandedTroy lower priority.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -2101,7 +2151,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "247–249 source delivered;1037/1037 full LOCAL,18new; Nile booking/landing/new-style passage partial, ordinary/render/Save/Master pending",
+  "currentCheckpoint": "250–251 checkpoint collections/unique NPC restore and truthful manual Save results; local checks passed, all ordinary acceptance pending",
   "partialSlots": [
     2,
     3,
@@ -2236,7 +2286,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+  "currentGithubSourceBuildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2413,7 +2463,7 @@
       "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   },
-  "currentGithubHeadScope": "Source checkpoint; evidence metadata commit follows on same private draft PR29",
+  "currentGithubHeadScope": "Current250–251 source d6efce22fd5923a0e42f28a91160ecb20236ae88; exact HTML 40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba,38451999bytes. Missing/malformed optional checkpoint arrays restore without the native q.npcs.length crash; unique current NPC identities survive roster reorder, ambiguous names only retain ordinal restoration for an unchanged named roster. Actual original checkpoint graph/disk retained; invalid player checkpoints use Continue150 read-failure refusal, never New/deletion. Manual Save/F5 preflight plus exact checkpoint readback and persistent accessible pause result; no gameplay auto-writes/forced clicks. Full LOCAL 1053/1053,16new, complete entries/footer/exit0/hash unchanged,290917.698077ms;59focused. Exact rebuild/HTML/two-entry ZIP/3-inline compilation passed; ZIP3d7b987b7308e36545a12cab7c1d79c7d5fff7437777252b9aaa2699e5f3c9fa. Six source exact readbacks; private draft PR29 unmerged. Prepared native/DOM/storage fixtures are NOT ordinary mouse/browser, all old-save migrations, populated routes/render/audio/FPS, offline pause Save/exact reload or Master acceptance. Browser smoke strengthened for ordinary button capture/exact XYZ/accessibility, syntax checked only, NOT run. Local Chromium1234/alternate browser absent; latest Actions old5bcd473b failed before steps/no artifacts, no current GitHub-generated third build. All120/every M0–M5/prior scope retained/unaccepted; GEAR-01 failed retained. Main/QOL/physical BronzeAge first; further8–10 stress/expandedTroy lower, retained. Remaining ETA unmeasured.",
   "regionalMarket224226": {
     "status": "source_implemented_runtime_pending_partial_economy",
     "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
@@ -2667,5 +2717,13 @@
     "ordinaryAcceptance": "pending",
     "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
     "legacyBoundary": "Pre249 missing origin/destination passage not inferred; malformed/changed-port saved recovery remains partial."
+  },
+  "checkpointSafety250251": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+    "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+    "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
+    "ordinaryAcceptance": "pending",
+    "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
   }
 }

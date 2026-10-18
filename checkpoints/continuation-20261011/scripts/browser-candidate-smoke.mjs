@@ -102,6 +102,9 @@ try {
     return { target: hit?.id || hit?.tagName, reachable: hit === button || button.contains(hit), pointerLocked: Boolean(document.pointerLockElement) };
   });
   check('pause-save-hit-target', saveHit.reachable && !saveHit.pointerLocked, saveHit);
+  // Read-only capture before the ordinary button click. No injected save call,
+  // forced click, terrain relocation or checkpoint rewrite may satisfy this.
+  const pausedPoint=await page.evaluate(()=>({area:AREA,x:P.x,y:P.y,z:P.z,yaw:P.yaw,mode:P.mode}));
   const beforeSaveAt = await page.evaluate(() => {try{return JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)))?.savedAt||0;}catch{return 0;}});
   await page.locator('#psave').click({ timeout: 30000, noWaitAfter: true });
   await page.waitForFunction(before=>{try{const saved=JSON.parse(localStorage.getItem(slotKey(SAVE_SLOT)));return saved?.started&&saved.pos&&saved.savedAt>before;}catch{return false;}},beforeSaveAt,{timeout:30000});
@@ -110,6 +113,10 @@ try {
     return raw ? { slot: SAVE_SLOT, data: JSON.parse(raw) } : null;
   });
   check('manual-save', Boolean(saved?.data?.started && saved.data.pos && saved.data.savedAt), { slot: saved?.slot, position: saved?.data?.pos });
+  const checkpoint=saved?.data?.checkpoint21;
+  check('manual-checkpoint-exact-point',Boolean(checkpoint)&&Object.keys(pausedPoint).every(k=>checkpoint[k]===pausedPoint[k]),{pausedPoint,checkpoint:checkpoint?{area:checkpoint.area,x:checkpoint.x,y:checkpoint.y,z:checkpoint.z,yaw:checkpoint.yaw,mode:checkpoint.mode}:null});
+  const saveStatus=await page.locator('#manual-save-status251').evaluate(node=>({text:node.textContent,role:node.getAttribute('role'),live:node.getAttribute('aria-live'),confirmed:node.dataset.saved,pausePanel:Boolean(node.closest('#pause .bd'))}));
+  check('manual-save-accessible-confirmation',saveStatus.confirmed==='true'&&saveStatus.role==='status'&&saveStatus.live==='polite'&&saveStatus.pausePanel,saveStatus);
   await page.reload({ waitUntil: 'load' });
   await page.locator('#bnew').waitFor({ state: 'visible', timeout: 60000 });
   const reloadedStorage=await page.evaluate(slot=>({url:location.href,bytes:localStorage.getItem(slotKey(slot))?.length||0,summary:saveSummary(slot),keys:Object.keys(localStorage)}),saved.slot);
@@ -117,8 +124,9 @@ try {
   await page.locator('#bnew').click();
   await page.locator(`[data-load="${saved.slot}"]`).click({ noWaitAfter: true });
   await page.waitForFunction(() => G.started && ['play', 'talk'].includes(STATE), null, { timeout: 180000 });
-  const restored = await page.evaluate(() => ({ x: P.x, z: P.z }));
+  const restored = await page.evaluate(() => ({ area:AREA,x:P.x,y:P.y,z:P.z,yaw:P.yaw,mode:P.mode }));
   check('save-reload-position', Math.hypot(restored.x - saved.data.pos.x, restored.z - saved.data.pos.z) < 1e-6, { saved: saved.data.pos, restored });
+  check('save-reload-checkpoint-xyz',restored.area===checkpoint.area&&restored.mode===checkpoint.mode&&Math.hypot(restored.x-checkpoint.x,restored.y-checkpoint.y,restored.z-checkpoint.z)<1e-6,{checkpoint:{area:checkpoint.area,x:checkpoint.x,y:checkpoint.y,z:checkpoint.z,mode:checkpoint.mode},restored});
   report.loadStages=await page.evaluate(()=>window.__WDS_LOAD_PERF__?.snapshot()||null);
   const scenario=process.env.WDS_SMOKE_SCENARIO || 'travel';
   report.scenario=scenario;
@@ -151,3 +159,4 @@ finally {
   writeFileSync(resolve(output, 'browser-smoke.json'), `${JSON.stringify(report, null, 2)}\n`);
   console.log(JSON.stringify(report, null, 2));
 }
+

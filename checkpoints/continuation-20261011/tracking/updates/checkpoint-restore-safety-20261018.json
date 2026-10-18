@@ -8,32 +8,161 @@
     "M5"
   ],
   "requirementIds": [
-    "SAVE-01",
+    "BASE-03",
+    "MOVE-01",
+    "STORY-01",
+    "EGYPT-01",
     "120-022",
     "120-116"
   ],
   "summary": "250 optional checkpoint collections and current unique NPC identity restore;251 manual Save/F5 preflight, readback and persistent result",
   "masterDelivery": {
-    "status": "pending"
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six source exact readbacks and expected-head nonforce update from c046c34585a5624df4b1dae8202614a74560790f"
   },
   "masterReview": {
     "status": "pending"
   },
   "localChecks": {
-    "status": "running",
+    "status": "passed",
+    "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+    "hashUnchanged": true,
+    "exitCode": 0,
+    "signal": null,
+    "error": null,
+    "tests": 1053,
+    "passed": 1053,
+    "failed": 0,
+    "durationMs": 290917.698077,
+    "completeFooter": true,
+    "okEntries": 1053,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
     "log": "verification/checkpoint251-full-tap.txt",
-    "prior": "1037 c65c5fe4 checks remain hash-scoped; do not borrow"
+    "newTests": 16
   },
   "scopedChecks": {
     "status": "passed",
-    "passed": 16,
+    "passed": 59,
     "newTests": 16,
-    "durationMs": 341.772828,
-    "scope": "LOCAL actual native snapshot21/Continue21/Save/psave/F5 plus actual150 failure guard and actual222 binding in prepared actor/DOM/storage fixtures. NOT ordinary mouse/browser/render/offline Save/exact reload/Master."
+    "durationMs": 26047.540365,
+    "evidence": "verification/checkpoint251-focused-tap.txt",
+    "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
   },
   "runtime": {
-    "status": "pending"
+    "status": "pending",
+    "scenarios": [
+      {
+        "id": "SAVE-PLAY-250A",
+        "scenario": "Ordinary offline launch empty new game, movement/pause/mouse Save: real hit target, pointer release, visible accessible success, exactly one current-slot write. Reload via ordinary menu and verify actual X/Y/Z, area, mode, inventory/quests/camera.",
+        "status": "pending"
+      },
+      {
+        "id": "SAVE-PLAY-250B",
+        "scenario": "Representative existing old save with missing optional collections; actual startup/Continue and main/Pan/Daedalus/relic/princess/captive-home route. Do not construct fixture progress as acceptance.",
+        "status": "pending"
+      },
+      {
+        "id": "SAVE-PLAY-250C",
+        "scenario": "New/old reordered actor roster: unique rulers/trainers/companions/merchants, dead/hostile actors, physical stock and player position persist. Ambiguous historical duplicate merchants/cargo/orders remain unresolved, never guessed.",
+        "status": "pending"
+      },
+      {
+        "id": "SAVE-PLAY-251A",
+        "scenario": "Ordinary Save and F5 from foot/horse/boat/swim/ferry and multiple dungeon/interior areas, cold Continue, exact-position/current-mode reload; actual ferry wait/return and rescue passengers unchanged.",
+        "status": "pending"
+      },
+      {
+        "id": "SAVE-PLAY-251B",
+        "scenario": "Storage unavailable/quota and malformed checkpoint: ordinary visible failure/keep-open guidance; prior manual slot not deleted, no silent New, no false success. New Voyage/session-result reset and multiple save slots.",
+        "status": "pending"
+      },
+      {
+        "id": "SAVE-PLAY-251C",
+        "scenario": "Current full main story/both supported branches, regional craft/remedies/ammo/stock, mounts/work/law/loot/quest migrations, rendered hand/attachment and lower-priority reference Low8–10/Master acceptance remain required.",
+        "status": "pending"
+      }
+    ]
   },
   "milestoneAcceptance": "none",
-  "next": "docs/NEXT_RUN_CHECKPOINT_SAFETY_20261018.md"
+  "next": "docs/NEXT_RUN_CHECKPOINT_SAFETY_20261018.md",
+  "changes": [
+    "250 actual native partial checkpoint crash reproduced in prepared source fixture. Optional null/malformed NPC/sheep/enemy collections normalize transiently; unique names match current roster after additions/reordering, while duplicate legacy names only use original ordinal when the whole named roster is unchanged. Dead/hostile/position/inventory and valid native null-health semantics retained. Binding222 sees original ordinal graph first; original G.checkpoint21 restored after native continuation if not replaced. No disk write or guessed cargo/orders migration.",
+    "250 finite saved player point/mode/known room required; malformed checkpoint refuses through actual150 Continue failure protocol before native movement, preserving manual slot bytes. Invalid optional camera fields cannot poison live camera. Existing no-checkpoint legacy path remains native; this is not universal corrupt-save/geography/room/boat recovery.",
+    "251 existing native psave and F5 routes call the final manual Save wrapper, without injected saves or auto-write policy changes. Invalid player position/slot/loading/death refuses before snapshot/write. Native storage/snapshot errors return failure; successful native writes require matching area/X/Y/Z/yaw/mode readback before the existing success toast. Accessible persistent pause status with current-game/slot result; readback uncertainty retains the voyage and stored bytes without deletion/retry.",
+    "Independent pending-browser verification strengthened: read-only paused point, ordinary nonforced Save click, stored checkpoint exact point and accessible confirmation, ordinary reload/menu Continue and XYZ comparison. node --check only; no browser execution or acceptance."
+  ],
+  "package": {
+    "directory": "/workspace/scratch/378db630510c/continuation-250-JunpHj/deliveries/40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+    "direct": "/workspace/scratch/378db630510c/continuation-250-JunpHj/deliveries/40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba/Wine-Dark-Sea-Combined-Cinematic.html",
+    "zip": "/workspace/scratch/378db630510c/continuation-250-JunpHj/deliveries/40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba/Wine-Dark-Sea-40a8d468.zip",
+    "manifestFile": "/workspace/scratch/378db630510c/continuation-250-JunpHj/deliveries/40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba/current-build-manifest.json",
+    "bytes": 38451999,
+    "buildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+    "zipSha256": "3d7b987b7308e36545a12cab7c1d79c7d5fff7437777252b9aaa2699e5f3c9fa",
+    "entries": [
+      "Wine-Dark-Sea-Combined-Cinematic.html",
+      "current-build-manifest.json"
+    ],
+    "checks": {
+      "localHtmlZipIdentity": "passed",
+      "localArchiveContents": "passed",
+      "inlineCompilation": "passed",
+      "standaloneStartup": "not_run",
+      "githubGeneratedIdentity": "not_run",
+      "userDownloadAccessibility": "not_run"
+    }
+  },
+  "external": {
+    "sourceReadbacks": 6,
+    "localBrowser": {
+      "package": "present",
+      "executablePresent": false,
+      "alternateSystemBrowser": false
+    },
+    "latestActions": {
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "jobs": [
+        116343817505,
+        116343817574
+      ],
+      "steps": 0,
+      "artifacts": 0
+    },
+    "githubGeneratedBuild": null,
+    "browserScenario": "strengthened exactXYZ/accessibility; syntax passed only, runtime not run"
+  },
+  "initialCorrections": [
+    "Native save-button fixture initially matched an earlier dbtn/end-screen handler line; fixed exact final conditional psave anchor instead of injecting a replacement button.",
+    "An initial test assertion returned a RegExp object rather than testing messages; fixed assertion, native failure behavior was already false.",
+    "First14 fixture cases expanded to16 with actual222 identity composition and changed ambiguous-roster refusal. Final59focused and1053full govern; preliminary f374 hash is not current.",
+    "Initial package started before the exact build completed and still selected c65; later current HTML against stale canonical metadata correctly refused. Current metadata pinned before successful40a8 package; no weakened hash guard.",
+    "Previous transient checkout vanished. Copied older dirty checkout into fresh feature branch and restored98 remote source/docs/tracking differences from exactc046; first baseline-to-current rebuild reproducedc65 byte-for-byte. Original older checkout preserved. No new publication rejection or retry."
+  ],
+  "remaining": [
+    "Mandatory ordinary current-hash main/Pan/Daedalus/relic/princess/captive-home/Egypt/chamber/Nile routes and all expected story branches unverified.",
+    "Offline ordinary pause Save/exact-position/cold Continue, real old saves/device/browser, rendered rig/boat/contact/audio/reference FPS and actual Master review pending. Prepared fixtures and native handler calls are not mouse/UI acceptance.",
+    "Ambiguous legacy duplicate identities/cargo/orders, malformed broad saved graphs, changed/unavailable rooms, pre249 voyages lacking origin/destination and other recovery gaps remain partial; do not claim universal migration.",
+    "Every120/M0–M5/creature/faction/site/action/music/economy/gear requirement retained; no counts/slots/milestones accepted. River manifests/destination unloading/upstream stone and physical BronzeAge remaining production stay open; further8–10 and expandedTroy retained lower priority. ETA unmeasured."
+  ],
+  "recordedAt": "2026-10-18T17:20:40Z",
+  "postMetadataChecks": {
+    "status": "passed",
+    "tests": 11,
+    "passed": 11,
+    "failed": 0,
+    "exitCode": 0,
+    "durationMs": 293.904851,
+    "method": "node scripts/verify.mjs && node scripts/package-current-candidate.mjs && node --test --test-concurrency=1 --test-reporter=tap scripts/workflow.test.mjs scripts/package-current-candidate.test.mjs",
+    "scope": "LOCAL after canonical metadata edits. verify.mjs validates unchanged baseline14e1907f/37815418bytes,3 inline scripts,6 milestones and101 local updates, NOT current startup. Current40a8 two-entry ZIP/HTML identity passes. Corrupt-ZIP stderr is intentional negative fixture. Not ordinary browser/Save/Master acceptance."
+  }
 }
