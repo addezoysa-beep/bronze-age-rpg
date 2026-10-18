@@ -1,0 +1,191 @@
+TAP version 13
+# Subtest: 250 changed roster leaves ambiguous ordinal cargo alone rather than moving one merchant record to another
+ok 1 - 250 changed roster leaves ambiguous ordinal cargo alone rather than moving one merchant record to another
+  ---
+  duration_ms: 5.128992
+  type: 'test'
+  ...
+# Subtest: 250 actual222 fresh regional identities compose with reordered unique restore and retain independent saved cargo
+ok 2 - 250 actual222 fresh regional identities compose with reordered unique restore and retain independent saved cargo
+  ---
+  duration_ms: 3.702024
+  type: 'test'
+  ...
+# Subtest: 250 reproduces native missing collection crash; partial old checkpoint restores exact point without a write
+ok 3 - 250 reproduces native missing collection crash; partial old checkpoint restores exact point without a write
+  ---
+  duration_ms: 4.195407
+  type: 'test'
+  ...
+# Subtest: 250 reordered unique live actors retain physical position, death, hostility and actual inventory
+ok 4 - 250 reordered unique live actors retain physical position, death, hostility and actual inventory
+  ---
+  duration_ms: 1.470092
+  type: 'test'
+  ...
+# Subtest: 250 ambiguous duplicate merchants are ordinal-only and never spread saved cargo
+ok 5 - 250 ambiguous duplicate merchants are ordinal-only and never spread saved cargo
+  ---
+  duration_ms: 2.534601
+  type: 'test'
+  ...
+# Subtest: 250 service identity binding inspects original ordinals before unique actor matching
+ok 6 - 250 service identity binding inspects original ordinals before unique actor matching
+  ---
+  duration_ms: 1.431274
+  type: 'test'
+  ...
+# Subtest: 250 null actor records and malformed sheep/enemy containers cannot crash or inject nonfinite positions
+ok 7 - 250 null actor records and malformed sheep/enemy containers cannot crash or inject nonfinite positions
+  ---
+  duration_ms: 1.360238
+  type: 'test'
+  ...
+# Subtest: 250 valid native snapshot including null NPC health, sheep, enemies, camera, dungeon and unknown fields remains exact
+ok 8 - 250 valid native snapshot including null NPC health, sheep, enemies, camera, dungeon and unknown fields remains exact
+  ---
+  duration_ms: 1.513336
+  type: 'test'
+  ...
+# Subtest: 250 invalid player checkpoints refuse before native movement; actual Continue read-failure guard returns title without deleting storage
+ok 9 - 250 invalid player checkpoints refuse before native movement; actual Continue read-failure guard returns title without deleting storage
+  ---
+  duration_ms: 4.867373
+  type: 'test'
+  ...
+# Subtest: 250 invalid optional camera values do not overwrite live camera; old no-checkpoint path remains native
+ok 10 - 250 invalid optional camera values do not overwrite live camera; old no-checkpoint path remains native
+  ---
+  duration_ms: 2.389416
+  type: 'test'
+  ...
+# Subtest: 251 native pause Save and native F5 both write one exact checkpoint and report confirmed current slot
+ok 11 - 251 native pause Save and native F5 both write one exact checkpoint and report confirmed current slot
+  ---
+  duration_ms: 3.534536
+  type: 'test'
+  ...
+# Subtest: 251 gameplay save calls never write a slot and native manual restore retains exact position without added save
+ok 12 - 251 gameplay save calls never write a slot and native manual restore retains exact position without added save
+  ---
+  duration_ms: 1.311266
+  type: 'test'
+  ...
+# Subtest: 251 invalid position/slot, streaming, beginning, inactive and dead states do not overwrite an existing checkpoint
+ok 13 - 251 invalid position/slot, streaming, beginning, inactive and dead states do not overwrite an existing checkpoint
+  ---
+  duration_ms: 10.086289
+  type: 'test'
+  ...
+# Subtest: 251 storage quota failure and snapshot exception preserve prior bytes, return false and do not report success
+ok 14 - 251 storage quota failure and snapshot exception preserve prior bytes, return false and do not report success
+  ---
+  duration_ms: 2.322967
+  type: 'test'
+  ...
+# Subtest: 251 failed readback is unconfirmed, never success or automatic deletion/retry
+ok 15 - 251 failed readback is unconfirmed, never success or automatic deletion/retry
+  ---
+  duration_ms: 3.357923
+  type: 'test'
+  ...
+# Subtest: 251 persistent result is current-game/current-slot only and status panel is not duplicated
+ok 16 - 251 persistent result is current-game/current-slot only and status panel is not duplicated
+  ---
+  duration_ms: 1.320049
+  type: 'test'
+  ...
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 17 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 2697.502743
+  type: 'test'
+  ...
+# Subtest: 252 actual manual21 Save and current250/251 guards serialize dungeon phase and native Continue resumes without another write
+ok 18 - 252 actual manual21 Save and current250/251 guards serialize dungeon phase and native Continue resumes without another write
+  ---
+  duration_ms: 143.01215
+  type: 'test'
+  ...
+# Subtest: 252 unsupported/incomplete dungeon metadata snapshots null, and invalid records do not set flags or create loot
+ok 19 - 252 unsupported/incomplete dungeon metadata snapshots null, and invalid records do not set flags or create loot
+  ---
+  duration_ms: 56.534752
+  type: 'test'
+  ...
+# Subtest: 252 actual Pan native entry discards moved crate; new snapshot/Continue restores same room point and partial mechanisms
+ok 20 - 252 actual Pan native entry discards moved crate; new snapshot/Continue restores same room point and partial mechanisms
+  ---
+  duration_ms: 117.007293
+  type: 'test'
+  ...
+# Subtest: 252 new-style JSON checkpoint in a freshly built Pan room retains crate and target, not creature/reward/quest state
+ok 21 - 252 new-style JSON checkpoint in a freshly built Pan room retains crate and target, not creature/reward/quest state
+  ---
+  duration_ms: 92.676521
+  type: 'test'
+  ...
+# Subtest: 252 ordinary exit/re-entry keeps native reset; no checkpoint record is applied to a different room or voyage
+ok 22 - 252 ordinary exit/re-entry keeps native reset; no checkpoint record is applied to a different room or voyage
+  ---
+  duration_ms: 66.187818
+  type: 'test'
+  ...
+# Subtest: 252 invalid/changed shape or count, nonfinite/out-of-grid/closed-gate/overlapping crate records refuse atomically
+ok 23 - 252 invalid/changed shape or count, nonfinite/out-of-grid/closed-gate/overlapping crate records refuse atomically
+  ---
+  duration_ms: 52.009214
+  type: 'test'
+  ...
+# Subtest: 252 gate/door poses restore only native canonical open flags, never the saved pose as permission to skip puzzles/keys
+ok 24 - 252 gate/door poses restore only native canonical open flags, never the saved pose as permission to skip puzzles/keys
+  ---
+  duration_ms: 44.680917
+  type: 'test'
+  ...
+# Subtest: 252 Pan actual plate evaluation and gate opening remain native after restore; no repeated grants
+ok 25 - 252 Pan actual plate evaluation and gate opening remain native after restore; no repeated grants
+  ---
+  duration_ms: 43.418443
+  type: 'test'
+  ...
+# Subtest: 252 native partial Sun-King sequence resumes correct next brazier without resetting progress or granting latch early
+ok 26 - 252 native partial Sun-King sequence resumes correct next brazier without resetting progress or granting latch early
+  ---
+  duration_ms: 113.685625
+  type: 'test'
+  ...
+# Subtest: 252 Catacombs lever and its native next-update latch survive checkpoint without replaying action sounds/rewards
+ok 27 - 252 Catacombs lever and its native next-update latch survive checkpoint without replaying action sounds/rewards
+  ---
+  duration_ms: 93.933559
+  type: 'test'
+  ...
+# Subtest: 253 native trap phase used to restart with T_NOW; resumed phase/mesh pose stays exact at a different clock
+ok 28 - 253 native trap phase used to restart with T_NOW; resumed phase/mesh pose stays exact at a different clock
+  ---
+  duration_ms: 110.8795
+  type: 'test'
+  ...
+# Subtest: 253 a checkpoint during a safe trap interval does not become an immediate damaging pulse after cold Continue
+ok 29 - 253 a checkpoint during a safe trap interval does not become an immediate damaging pulse after cold Continue
+  ---
+  duration_ms: 110.117679
+  type: 'test'
+  ...
+# Subtest: 252 overworld snapshot does not carry an old room record; legacy saves stay native, repeated captures grow no scene objects
+ok 30 - 252 overworld snapshot does not carry an old room record; legacy saves stay native, repeated captures grow no scene objects
+  ---
+  duration_ms: 94.025855
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5038.685792
+

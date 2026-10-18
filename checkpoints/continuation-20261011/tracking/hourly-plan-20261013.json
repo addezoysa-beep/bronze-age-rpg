@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T17:20:40Z",
+  "updatedAt": "2026-10-18T21:08:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,45 +12,43 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "40a8d4682e0872f0e34d3e850d23e959be3a6405f2d75a1eeb9f1a1857ae4bba",
+  "currentLocalBuildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "d6efce22fd5923a0e42f28a91160ecb20236ae88",
+  "currentGithubHead": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
   "publication": {
     "status": "delivered",
     "pr": 29,
-    "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
+    "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
     "draft": true,
     "merged": false,
-    "evidence": "Six exact source/test readbacks; expected-head nonforce lease from7d1e43600779c7897934ff6a4a28417c5281f8f7"
+    "evidence": "Pinned source recovered from private PR29; six source files read back, no source changes in evidence finalization."
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "buildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+      "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
       "hashUnchanged": true,
       "exitCode": 0,
       "signal": null,
       "error": null,
-      "tests": 1037,
-      "passed": 1037,
+      "tests": 1066,
+      "passed": 1066,
       "failed": 0,
-      "durationMs": 894723.797662,
+      "durationMs": 235833.673494,
       "completeFooter": true,
-      "okEntries": 1037,
+      "okEntries": 1066,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "scope": "LOCAL native riverPort58 generation/button and E→findInt→tryInteract→act hooks, original bookFerry/ferryTick contrast, prepared native dock surfaces/channel, real embedded Three groups with controlled hull geometry and actual base snapshot/Continue/checkpoint21 plus existing source/compile/workflow/package checks. NOT ordinary mouse/browser, real Nile geography/nav/boarding, rendered hull/foot/hand/animation/audio/reference FPS, offline pause Save/exact-position reload or Master acceptance.",
-      "log": "verification/nile249-full-tap.txt",
-      "newTests": 18,
-      "evidence": "verification/nile249-full-tap.txt",
-      "result": "verification/nile249-full-result.json"
+      "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
+      "log": "verification/mechanism253-full-tap.txt",
+      "newTests": 13
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "c3bd73a10be568f9958b6226868e1e8429101fb3",
-      "sourceBuildSha256": "c65c5fe45ae721b6f19be9f76e25bd659ab5d4c184d96fdcc9c762a7b7bc00ca",
+      "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+      "sourceBuildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No matching current-head browser artifact; inspected older5bcd473b jobs have zero executed steps/artifacts"
+      "ci": "Latest Actions old5bcd473b zero steps/artifacts; no current generated build"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt",
@@ -71,6 +69,24 @@
       "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance.",
       "log": "verification/checkpoint251-full-tap.txt",
       "newTests": 16
+    },
+    "dungeonCheckpoint252253": {
+      "status": "passed",
+      "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+      "hashUnchanged": true,
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 1066,
+      "passed": 1066,
+      "failed": 0,
+      "durationMs": 235833.673494,
+      "completeFooter": true,
+      "okEntries": 1066,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance.",
+      "log": "verification/mechanism253-full-tap.txt",
+      "newTests": 13
     }
   },
   "policy": [
@@ -250,7 +266,16 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance.",
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      }
     },
     {
       "hour": 8,
@@ -278,7 +303,16 @@
       "workStatus": "partial_source_verified_runtime_pending",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md."
+      "currentEvidence": "Current205–207 delivered sourceea54892595812d918cedd39080b16e27013b0f20, exact game1da8704b174ed6996e2705d62418cf9afe5f78e50a04aaadf449f7f1a375f735,38,323,947bytes. Storage-aware Pan tablet recovery and native withdrawals conserve one actual copy; live skiff4wood3fiber repair checks preserve45XP once; critical royal report resolves current dialogue defensively. Native old-callback control is not a reproduced current startup failure; actual late-binding fixture also passes. Final full LOCAL781/781 checks,14new,96,238.5367ms;26focused,8 exact source readbacks. Exact baseline rebuild/HTML+ZIP/3-inline compile passed. Ordinary main story/render/offline pause Save/exact reload/old-save/Master pending. No slot/milestone accepted; full120/M0–M5/every prior requirement retained. Main/QOL/physical BronzeAge first; further8–10/performance and expandedTroy lower. No measured remaining ETA. Handoff docs/NEXT_RUN_PAN_SKIFF_20261016.md.",
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      }
     },
     {
       "hour": 10,
@@ -398,6 +432,15 @@
         "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
       }
     },
     {
@@ -1163,7 +1206,16 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance.",
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      }
     },
     {
       "hour": 66,
@@ -1186,9 +1238,18 @@
       "originalTaskIds": [
         72
       ],
-      "workStatus": "pending",
+      "workStatus": "partial_source_runtime_pending",
       "currentHashRuntime": "pending",
-      "accepted": false
+      "accepted": false,
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
+      }
     },
     {
       "hour": 68,
@@ -1960,7 +2021,7 @@
         91,
         116
       ],
-      "workStatus": "pending",
+      "workStatus": "partial_source_runtime_pending",
       "currentHashRuntime": "pending",
       "accepted": false,
       "relicGuidance216218": {
@@ -1985,6 +2046,15 @@
         "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
       }
     },
     {
@@ -2076,6 +2146,15 @@
         "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
         "ordinaryAcceptance": "pending",
         "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+      },
+      "dungeonCheckpoint252253": {
+        "status": "partial_source_runtime_pending",
+        "sourceCommit": "f745369b391c23fb6c83e86e5ac3900fe49fda91",
+        "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+        "evidence": "tracking/updates/dungeon-mechanism-checkpoint-20261018.json",
+        "handoff": "docs/NEXT_RUN_DUNGEON_CHECKPOINT_20261018.md",
+        "ordinaryAcceptance": "pending",
+        "scope": "LOCAL native Pan/Tomb/Catacombs definitions, carve/build/entry/update/target/flame, embedded Three/Batch geometry, actual snapshot21/base Continue/Save with250/251 prepared fixtures plus full source/workflow/compile/package suite. Controlled enemies, sounds/HUD/palette. NOT ordinary mouse/browser, offline pause Save/exact reload, populated routes/terrain/reachability/render/audio/FPS or Master acceptance."
       }
     },
     {

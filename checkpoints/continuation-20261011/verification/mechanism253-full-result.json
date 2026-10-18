@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "2da5e6ebe336f157cd2eeed2119e77b834e32a473d67576bf3f4a7abb3e197fd",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 1066,
+  "passed": 1066,
+  "failed": 0,
+  "durationMs": 235833.673494,
+  "completeFooter": true,
+  "okEntries": 1066,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/mechanism253-full-tap.txt"
+}
