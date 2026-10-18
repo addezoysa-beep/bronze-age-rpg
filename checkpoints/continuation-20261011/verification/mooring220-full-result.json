@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "buildSha256": "922def5049da0a2162f3708612f98eedd28b38e9ccf2c26763839580ec6c21c5",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "signal": null,
+  "error": null,
+  "tests": 848,
+  "passed": 848,
+  "failed": 0,
+  "durationMs": 180089.564984,
+  "completeFooter": true,
+  "okEntries": 848,
+  "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+  "scope": "LOCAL source/native/Three/workflow/compile/package; not ordinary browser/render/Save/Master",
+  "log": "verification/mooring220-full-tap.txt"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T00:06:00Z",
+  "updatedAt": "2026-10-18T01:15:53.247Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,37 +12,38 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+  "currentLocalBuildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+  "currentGithubHead": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+    "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
     "draft": true,
     "merged": false,
-    "evidence": "Owned private PR29 source advanced under expected-head lease;6 exact source/test readbacks match. Metadata/evidence follows source; no merge/release/ordinary/Master acceptance."
+    "evidence": "Owned private PR29 source advanced under expected-head lease;8 exact source/test readbacks match. No merge/release/ordinary/Master acceptance."
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 835,
+      "passed": 851,
       "failed": 0,
-      "newTests": 10,
-      "durationMs": 100752.667277,
+      "newTests": 16,
+      "durationMs": 186289.828183,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/relic218-full-tap.txt",
-      "result": "verification/relic218-full-result.json",
+      "evidence": "verification/mooring221-full-tap.txt",
+      "result": "verification/mooring221-full-result.json",
       "completeFooter": true,
-      "okEntries": 835,
+      "okEntries": 851,
       "exitCode": 0,
-      "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
-      "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272"
+      "hashUnchanged": true,
+      "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+      "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
-      "sourceBuildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+      "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+      "sourceBuildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
       "ci": "No matching current source browser artifact; prior inspected failed jobs have no steps"
@@ -1713,8 +1714,8 @@
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
   "nextDependencyReadyWork": [
-    "Ordinary main-route/four-school/real storage acquisition and offline pause Save/exact reload/cold Continue/old-save/render/Master verification",
-    "Continue dependency-ready main/QOL/core BronzeAge: rescue interruption/ship-loss, safe saved identity migration and all remaining120/M0–M5 scope; more8–10 performance/expandedTroy lower, retained"
+    "Ordinary moved-nearby boat during boarding/unloading/reverse crossing, actual mooring controls/collision/child deck and ramp contact, pause Save/exact-position reload/cold Continue/old saves and full home-route/Master",
+    "Remaining distant/moved-dock/offshore/sunken rescue recovery and safe shared service saved-name migration; full120/M0–M5 retained, main/QOL/physicalBronzeAge first, further performance/8–10 and expandedTroy lower"
   ],
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
@@ -1735,7 +1736,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "216–218 source delivered;835 full LOCAL entries/complete footer/exit0;ordinary/runtime/Master pending",
+  "currentCheckpoint": "219–221 delivered private source;851/851 full LOCAL serial checks,43 focused,16new;ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1870,7 +1871,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
+  "currentGithubSourceBuildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2001,6 +2002,28 @@
       "okEntries": 835,
       "exitCode": 0,
       "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+    }
+  },
+  "captiveMooring219221": {
+    "record": "tracking/updates/captive-berth-recovery-20261017.json",
+    "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+    "runtime": "pending",
+    "scope": "219 nearby saved-ramp boat realignment;220 ordinary cancel/resume/native repair/current-context controls;221 exact saved berth endpoints and unloading tolerance edges",
+    "source": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
+    "localChecks": {
+      "status": "passed",
+      "passed": 851,
+      "failed": 0,
+      "newTests": 16,
+      "durationMs": 186289.828183,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/mooring221-full-tap.txt",
+      "result": "verification/mooring221-full-result.json",
+      "completeFooter": true,
+      "okEntries": 851,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   }
 }

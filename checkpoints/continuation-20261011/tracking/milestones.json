@@ -485,6 +485,11 @@
       "status": "source_delivered_local_passed_runtime_pending",
       "evidence": "tracking/updates/relic-area-guidance-20261017.json",
       "acceptance": "Ordinary four-script schools/actual field and relic acquisition/physical storage/ward plus pause Save/exact reload/old-save/Master required"
+    },
+    "captiveMooring219221": {
+      "status": "implemented_source_delivered_runtime_pending",
+      "evidence": "tracking/updates/captive-berth-recovery-20261017.json",
+      "acceptance": "Ordinary moved-nearby boat during boarding/unloading/reverse crossing, actual mooring controls/collision/child deck and ramp contact, pause Save/exact-position reload/cold Continue/old saves and full home-route/Master"
     }
   },
   "milestones": [
@@ -851,35 +856,36 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
-    "bytes": 38346754,
-    "sourceChecks": 835,
-    "sourceScope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master",
+    "buildSha256": "5e50a27a5cf6fc5b7a079406546e6d073852af6bb62cce9a4763125dcb6529f1",
+    "bytes": 38353526,
+    "sourceChecks": 851,
+    "sourceScope": "LOCAL actual native interaction arbitration/crossing/repair callbacks and actual Three ship/passenger transforms/JSON fixtures, not ordinary browser/render",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "70a2654320332cc2520b13f7da9ded4eb1c98ed2",
+      "sourceCommit": "4166f8bc0ca6d82cdb1c95dbb99e1e7b72ec0df4",
       "draft": true,
       "merged": false,
-      "evidence": "Owned private PR29 source advanced under expected-head lease;6 exact source/test readbacks match. Metadata/evidence follows source; no merge/release/ordinary/Master acceptance."
+      "evidence": "Owned private PR29 source advanced under expected-head lease;8 exact source/test readbacks match. No merge/release/ordinary/Master acceptance."
     },
-    "next": "docs/NEXT_RUN_RELIC_AREAS_20261017.md",
+    "next": "docs/NEXT_RUN_CAPTIVE_MOORING_20261017.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 835,
+      "passed": 851,
       "failed": 0,
-      "newTests": 10,
-      "durationMs": 100752.667277,
+      "newTests": 16,
+      "durationMs": 186289.828183,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/relic218-full-tap.txt",
-      "result": "verification/relic218-full-result.json",
+      "evidence": "verification/mooring221-full-tap.txt",
+      "result": "verification/mooring221-full-result.json",
       "completeFooter": true,
-      "okEntries": 835,
+      "okEntries": 851,
       "exitCode": 0,
-      "scope": "Full LOCAL serial source/native dialogue+relic interactions/Three/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
+      "hashUnchanged": true,
+      "scope": "Full LOCAL source/native interaction+repair+crossing/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   },
   "saveLoadPerformance146": {

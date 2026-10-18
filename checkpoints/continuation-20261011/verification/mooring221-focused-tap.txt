@@ -1,0 +1,268 @@
+TAP version 13
+# Subtest: 221 mooring reaches exact saved endpoint rather than stopping within loose crossing tolerance
+ok 1 - 221 mooring reaches exact saved endpoint rather than stopping within loose crossing tolerance
+  ---
+  duration_ms: 241.606178
+  type: 'test'
+  ...
+# Subtest: 221 distance-edge unloading offers ordinary recovery even when native fixed says true, then actual landing can resume
+ok 2 - 221 distance-edge unloading offers ordinary recovery even when native fixed says true, then actual landing can resume
+  ---
+  duration_ms: 265.768884
+  type: 'test'
+  ...
+# Subtest: 221 heading-edge unloading restores exact original yaw without changing the saved anchor or fabricating home
+ok 3 - 221 heading-edge unloading restores exact original yaw without changing the saved anchor or fabricating home
+  ---
+  duration_ms: 250.402973
+  type: 'test'
+  ...
+# Subtest: 220 damaged hull retains actual native repair choice/cost and honest hold guidance instead of masking it with unusable mooring
+ok 4 - 220 damaged hull retains actual native repair choice/cost and honest hold guidance instead of masking it with unusable mooring
+  ---
+  duration_ms: 275.403232
+  type: 'test'
+  ...
+# Subtest: 219 ordinary currentInts action eases the real boat beneath saved boarding ramp with bounded motion, unchanged anchor/children/player/items/flags
+ok 5 - 219 ordinary currentInts action eases the real boat beneath saved boarding ramp with bounded motion, unchanged anchor/children/player/items/flags
+  ---
+  duration_ms: 264.364257
+  type: 'test'
+  ...
+# Subtest: 219 shifted Ikarion unloading resumes the actual sequential ramp only after alignment; no home or completion fabricated
+ok 6 - 219 shifted Ikarion unloading resumes the actual sequential ramp only after alignment; no home or completion fabricated
+  ---
+  duration_ms: 314.2401
+  type: 'test'
+  ...
+# Subtest: 219 both existing returning directions retain their cursors and saved people through mooring, then retrace physically
+ok 7 - 219 both existing returning directions retain their cursors and saved people through mooring, then retrace physically
+  ---
+  duration_ms: 523.250354
+  type: 'test'
+  ...
+# Subtest: 219 intermediate collision and bounds samples stop BEFORE movement, preserve people, and permit a fresh attempt after clearing obstruction
+ok 8 - 219 intermediate collision and bounds samples stop BEFORE movement, preserve people, and permit a fresh attempt after clearing obstruction
+  ---
+  duration_ms: 301.018705
+  type: 'test'
+  ...
+# Subtest: 219 unavailable ownership/hull/boat/actor, danger, remote/mounted player, changed/missing dock and far/large-yaw boat refuse without writes
+ok 9 - 219 unavailable ownership/hull/boat/actor, danger, remote/mounted player, changed/missing dock and far/large-yaw boat refuse without writes
+  ---
+  duration_ms: 4048.344385
+  type: 'test'
+  ...
+# Subtest: 219 stale start interactions reject replaced save/revision/anchor/people/ship without realignment or state change
+ok 10 - 219 stale start interactions reject replaced save/revision/anchor/people/ship without realignment or state change
+  ---
+  duration_ms: 1415.109383
+  type: 'test'
+  ...
+# Subtest: 219 active jobs stop on changed boat/save/dock/revision/people/ownership/danger/departure without an extra motion
+ok 11 - 219 active jobs stop on changed boat/save/dock/revision/people/ownership/danger/departure without an extra motion
+  ---
+  duration_ms: 3217.575182
+  type: 'test'
+  ...
+# Subtest: 220 pause/talk holds actual boat and people without expiry or Save; resume keeps one bounded step
+ok 12 - 220 pause/talk holds actual boat and people without expiry or Save; resume keeps one bounded step
+  ---
+  duration_ms: 203.770554
+  type: 'test'
+  ...
+# Subtest: 220 ordinary cancel retains exact boat/people, fresh start resumes; captured cancel cannot cancel a later job
+ok 13 - 220 ordinary cancel retains exact boat/people, fresh start resumes; captured cancel cannot cancel a later job
+  ---
+  duration_ms: 184.962028
+  type: 'test'
+  ...
+# Subtest: 220 JSON/cold restore clears transient job, preserves saved child/boat footing and offers ordinary restart; old start stays inert
+ok 14 - 220 JSON/cold restore clears transient job, preserves saved child/boat footing and offers ordinary restart; old start stays inert
+  ---
+  duration_ms: 189.427889
+  type: 'test'
+  ...
+# Subtest: 220 actual native interaction arbitration picks start/cancel on foot, leaves Go ashore available while still mounted, and explains limited recovery
+ok 15 - 220 actual native interaction arbitration picks start/cancel on foot, leaves Go ashore available while still mounted, and explains limited recovery
+  ---
+  duration_ms: 185.664431
+  type: 'test'
+  ...
+# Subtest: 219–220 absent ordinary crossing, distant hull and lost hull never invent a rescue or affect ordinary boat controls
+ok 16 - 219–220 absent ordinary crossing, distant hull and lost hull never invent a rescue or affect ordinary boat controls
+  ---
+  duration_ms: 511.622485
+  type: 'test'
+  ...
+# Subtest: lost hull directions only mention existing nearby harbour repairs; offshore hold never invents an available rescue or home completion
+ok 17 - lost hull directions only mention existing nearby harbour repairs; offshore hold never invents an available rescue or home completion
+  ---
+  duration_ms: 357.609026
+  type: 'test'
+  ...
+# Subtest: hull-loss restore keeps both actual saved crossing positions instead of leaving initial fort actors, with bounded repeated feedback
+ok 18 - hull-loss restore keeps both actual saved crossing positions instead of leaving initial fort actors, with bounded repeated feedback
+  ---
+  duration_ms: 498.007035
+  type: 'test'
+  ...
+# Subtest: native repair remains selectable during a damaged boarding hold, conserves native wood/silver cost and rejects stale second charge
+ok 19 - native repair remains selectable during a damaged boarding hold, conserves native wood/silver cost and rejects stale second charge
+  ---
+  duration_ms: 467.220779
+  type: 'test'
+  ...
+# Subtest: insufficient native repair funds, replaced save, unavailable ownership and remote player never consume resources or resume crossing
+ok 20 - insufficient native repair funds, replaced save, unavailable ownership and remote player never consume resources or resume crossing
+  ---
+  duration_ms: 1046.95975
+  type: 'test'
+  ...
+# Subtest: native findInt still selects Go ashore during damaged unloading rather than an impossible cancel prompt; moved hull only holds saved children
+ok 21 - native findInt still selects Go ashore during damaged unloading rather than an impossible cancel prompt; moved hull only holds saved children
+  ---
+  duration_ms: 221.140715
+  type: 'test'
+  ...
+# Subtest: new obstruction and externally moved hull stop partial unloading without relocation or false home; clearing obstruction resumes
+ok 22 - new obstruction and externally moved hull stop partial unloading without relocation or false home; clearing obstruction resumes
+  ---
+  duration_ms: 204.29619
+  type: 'test'
+  ...
+# Subtest: reunited saved state restores actual household footing and never repeats aid; absent/malformed landing witness cannot fabricate home
+ok 23 - reunited saved state restores actual household footing and never repeats aid; absent/malformed landing witness cannot fabricate home
+  ---
+  duration_ms: 265.179345
+  type: 'test'
+  ...
+# Subtest: distant/dead/hostile/recruited/interior or unrelated kin and missing child cannot complete reunion
+ok 24 - distant/dead/hostile/recruited/interior or unrelated kin and missing child cannot complete reunion
+  ---
+  duration_ms: 1734.898942
+  type: 'test'
+  ...
+# Subtest: native currentInts harbour choice unloads nearer child first with bounded reverse ramp walking and no player/inventory/story/reward movement
+ok 25 - native currentInts harbour choice unloads nearer child first with bounded reverse ramp walking and no player/inventory/story/reward movement
+  ---
+  duration_ms: 189.094576
+  type: 'test'
+  ...
+# Subtest: wrong port/berth/heading, hull loss, danger and obstructed boards refuse unloading without granting shore or moving actors
+ok 26 - wrong port/berth/heading, hull loss, danger and obstructed boards refuse unloading without granting shore or moving actors
+  ---
+  duration_ms: 1105.430348
+  type: 'test'
+  ...
+# Subtest: pause, player departure and danger hold unloading; native movement, embark and horn remain held until both are ashore
+ok 27 - pause, player departure and danger hold unloading; native movement, embark and horn remain held until both are ashore
+  ---
+  duration_ms: 310.325363
+  type: 'test'
+  ...
+# Subtest: partial unloading and ashore JSON restore retain actual saved footing, no Watchtower or family teleport; changed berth holds safely
+ok 28 - partial unloading and ashore JSON restore retain actual saved footing, no Watchtower or family teleport; changed berth holds safely
+  ---
+  duration_ms: 670.979656
+  type: 'test'
+  ...
+# Subtest: stale harbour interaction cannot unload from a replaced save/revised boat or remote player
+ok 29 - stale harbour interaction cannot unload from a replaced save/revised boat or remote player
+  ---
+  duration_ms: 1242.338822
+  type: 'test'
+  ...
+# Subtest: actual child dialogue marks real family exterior and follows only player-walked shore/dock route; kin needs both nearby children
+ok 30 - actual child dialogue marks real family exterior and follows only player-walked shore/dock route; kin needs both nearby children
+  ---
+  duration_ms: 478.969273
+  type: 'test'
+  ...
+# Subtest: actual captured guardian dialogue reunites only physically nearby children; existing aid once only and no extra completion reward
+ok 31 - actual captured guardian dialogue reunites only physically nearby children; existing aid once only and no extra completion reward
+  ---
+  duration_ms: 910.150148
+  type: 'test'
+  ...
+# Subtest: home callbacks cannot close replacement menus, start remote follow or reunite after replaced save, changed route or distant child
+ok 32 - home callbacks cannot close replacement menus, start remote follow or reunite after replaced save, changed route or distant child
+  ---
+  duration_ms: 2434.143758
+  type: 'test'
+  ...
+# Subtest: actual native findInt and tryInteract select the harbour ramp ahead of zero-distance Go ashore without forced input
+ok 33 - actual native findInt and tryInteract select the harbour ramp ahead of zero-distance Go ashore without forced input
+  ---
+  duration_ms: 440.478666
+  type: 'test'
+  ...
+# Subtest: cold saved boat coordinates align the actual ship mesh before captive restore, including held alighting controls
+ok 34 - cold saved boat coordinates align the actual ship mesh before captive restore, including held alighting controls
+  ---
+  duration_ms: 754.840879
+  type: 'test'
+  ...
+# Subtest: actual private horn-menu callback holds boat calls during reverse walking, not just the exported alias
+ok 35 - actual private horn-menu callback holds boat calls during reverse walking, not just the exported alias
+  ---
+  duration_ms: 287.673693
+  type: 'test'
+  ...
+# Subtest: ordinary cancellation retraces partial boarding to the real pier without player/item/story/reward teleport or Save
+ok 36 - ordinary cancellation retraces partial boarding to the real pier without player/item/story/reward teleport or Save
+  ---
+  duration_ms: 1383.427058
+  type: 'test'
+  ...
+# Subtest: partial unloading turns back aboard in reverse order, never grants landing/reunion and can restart unloading
+ok 37 - partial unloading turns back aboard in reverse order, never grants landing/reunion and can restart unloading
+  ---
+  duration_ms: 1369.533835
+  type: 'test'
+  ...
+# Subtest: pause, danger, player departure, obstruction and moved boat hold return in place; cleared ordinary interruptions resume
+ok 38 - pause, danger, player departure, obstruction and moved boat hold return in place; cleared ordinary interruptions resume
+  ---
+  duration_ms: 579.747885
+  type: 'test'
+  ...
+# Subtest: returning phases survive partial JSON/cold-mesh restore without a child/player snap or false completion; new game clears state
+ok 39 - returning phases survive partial JSON/cold-mesh restore without a child/player snap or false completion; new game clears state
+  ---
+  duration_ms: 617.582284
+  type: 'test'
+  ...
+# Subtest: invalid/missing return records fail closed and unavailable actor/boat/danger cannot start cancellation
+ok 40 - invalid/missing return records fail closed and unavailable actor/boat/danger cannot start cancellation
+  ---
+  duration_ms: 1836.83442
+  type: 'test'
+  ...
+# Subtest: stale ordinary return interactions cannot act after replaced save, changed revision or departed player
+ok 41 - stale ordinary return interactions cannot act after replaced save, changed revision or departed player
+  ---
+  duration_ms: 533.865284
+  type: 'test'
+  ...
+# Subtest: actual native findInt/tryInteract offers return instead of zero-distance Go ashore during unloading and guards controls while retracing
+ok 42 - actual native findInt/tryInteract offers return instead of zero-distance Go ashore during unloading and guards controls while retracing
+  ---
+  duration_ms: 223.440828
+  type: 'test'
+  ...
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 43 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 4216.611333
+  type: 'test'
+  ...
+1..43
+# tests 43
+# suites 0
+# pass 43
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12296.128441
