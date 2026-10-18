@@ -1,0 +1,340 @@
+TAP version 13
+# Subtest: actual current builder preserves seed and compiles every delivered script including latest QOL modules
+ok 1 - actual current builder preserves seed and compiles every delivered script including latest QOL modules
+  ---
+  duration_ms: 1905.42439
+  type: 'test'
+  ...
+# Subtest: material and quality ladder covers actual regional registry with dearer metal, heavy and rare gear; logical bow/sling construction retained
+ok 2 - material and quality ladder covers actual regional registry with dearer metal, heavy and rare gear; logical bow/sling construction retained
+  ---
+  duration_ms: 179.696064
+  type: 'test'
+  ...
+# Subtest: classic shop upgrades use actual displayed prices; direct old service equipment path cannot underquote the shared ladder
+ok 3 - classic shop upgrades use actual displayed prices; direct old service equipment path cannot underquote the shared ladder
+  ---
+  duration_ms: 167.301557
+  type: 'test'
+  ...
+# Subtest: actual registered village/town/capital/Valley casts have distinct breadth, depth, culture, advancement and mundane access
+ok 4 - actual registered village/town/capital/Valley casts have distinct breadth, depth, culture, advancement and mundane access
+  ---
+  duration_ms: 168.800221
+  type: 'test'
+  ...
+# Subtest: ordinary native dialogue buttons purchase exactly one physical tool at quoted cost and stock decrements once
+ok 5 - ordinary native dialogue buttons purchase exactly one physical tool at quoted cost and stock decrements once
+  ---
+  duration_ms: 170.996917
+  type: 'test'
+  ...
+# Subtest: normal insufficient-funds and unavailable-stock paths conserve stock, money and items
+ok 6 - normal insufficient-funds and unavailable-stock paths conserve stock, money and items
+  ---
+  duration_ms: 169.881698
+  type: 'test'
+  ...
+# Subtest: one current quote rejects replaced game/menu/day/store/culture/role, removed NPC, death/hostility/party, area/range/mount/pause
+ok 7 - one current quote rejects replaced game/menu/day/store/culture/role, removed NPC, death/hostility/party, area/range/mount/pause
+  ---
+  duration_ms: 2445.492941
+  type: 'test'
+  ...
+# Subtest: last-page navigation is bounded and old page choices cannot execute after moving menus
+ok 8 - last-page navigation is bounded and old page choices cannot execute after moving menus
+  ---
+  duration_ms: 172.241399
+  type: 'test'
+  ...
+# Subtest: eight-arrow purchases use actual ammo30/loot30 identity and totals, not a phantom inventory alias
+ok 9 - eight-arrow purchases use actual ammo30/loot30 identity and totals, not a phantom inventory alias
+  ---
+  duration_ms: 176.316503
+  type: 'test'
+  ...
+# Subtest: old-save stock defaults and partial stock/budget survive JSON restore; day changes replenish once with no rewind or elapsed-day loop
+ok 10 - old-save stock defaults and partial stock/budget survive JSON restore; day changes replenish once with no rewind or elapsed-day loop
+  ---
+  duration_ms: 173.94077
+  type: 'test'
+  ...
+# Subtest: malformed stock roots/records fail closed without deleting or refilling saved goods
+ok 11 - malformed stock roots/records fail closed without deleting or refilling saved goods
+  ---
+  duration_ms: 809.124333
+  type: 'test'
+  ...
+# Subtest: nonfinite/fractional/negative/overflow inventory, silver and ammunition cannot be purchased
+ok 12 - nonfinite/fractional/negative/overflow inventory, silver and ammunition cannot be purchased
+  ---
+  duration_ms: 973.98766
+  type: 'test'
+  ...
+# Subtest: spare buyback uses actual native removal once, bounded purse and strict buy-sell loss with quest/registered gear excluded
+ok 13 - spare buyback uses actual native removal once, bounded purse and strict buy-sell loss with quest/registered gear excluded
+  ---
+  duration_ms: 171.901718
+  type: 'test'
+  ...
+# Subtest: poor buyer and stale removed/equipped spare cannot consume a player item or pay twice
+ok 14 - poor buyer and stale removed/equipped spare cannot consume a player item or pay twice
+  ---
+  duration_ms: 161.48788
+  type: 'test'
+  ...
+# Subtest: no new-game gift/known plan or recipe ingredient changes; untrained sling and advanced early gear stay unavailable
+ok 15 - no new-game gift/known plan or recipe ingredient changes; untrained sling and advanced early gear stay unavailable
+  ---
+  duration_ms: 159.907011
+  type: 'test'
+  ...
+# Subtest: actual existing silver/gold cash recipes retain exact ingredients and no longer beat inspected store-bought ore/fuel inputs
+ok 16 - actual existing silver/gold cash recipes retain exact ingredients and no longer beat inspected store-bought ore/fuel inputs
+  ---
+  duration_ms: 322.5434
+  type: 'test'
+  ...
+# Subtest: actual store buy callbacks and native learned craft/smelter chain close both observed cash loops with full ingredient conservation
+ok 17 - actual store buy callbacks and native learned craft/smelter chain close both observed cash loops with full ingredient conservation
+  ---
+  duration_ms: 163.400096
+  type: 'test'
+  ...
+# Subtest: selling a last spare shield cannot trigger the native global shield reset on another equipped shield; extra copies remain sellable
+ok 18 - selling a last spare shield cannot trigger the native global shield reset on another equipped shield; extra copies remain sellable
+  ---
+  duration_ms: 164.200085
+  type: 'test'
+  ...
+# Subtest: major market sells actual worked ingot identities at existing quotes; scarce iron and composites do not leak to villages
+ok 19 - major market sells actual worked ingot identities at existing quotes; scarce iron and composites do not leak to villages
+  ---
+  duration_ms: 342.263148
+  type: 'test'
+  ...
+# Subtest: medical/cloth native menus and original greatsword commissions remain available, with no imagined city services
+ok 20 - medical/cloth native menus and original greatsword commissions remain available, with no imagined city services
+  ---
+  duration_ms: 167.829985
+  type: 'test'
+  ...
+# Subtest: stale Leave callbacks cannot dismiss a replacement conversation and replaced service records invalidate old trade quotes
+ok 21 - stale Leave callbacks cannot dismiss a replacement conversation and replaced service records invalidate old trade quotes
+  ---
+  duration_ms: 163.205367
+  type: 'test'
+  ...
+# Subtest: direct inherited equipment purchase refuses invalid counts/currency instead of resetting a poisoned inventory
+ok 22 - direct inherited equipment purchase refuses invalid counts/currency instead of resetting a poisoned inventory
+  ---
+  duration_ms: 665.640748
+  type: 'test'
+  ...
+# Subtest: real registered village/town/capital healers have deeper finite stock and appropriate four-remedy access without inventing another actor
+ok 23 - real registered village/town/capital healers have deeper finite stock and appropriate four-remedy access without inventing another actor
+  ---
+  duration_ms: 848.122327
+  type: 'test'
+  ...
+# Subtest: native healer entry buys one real restorative at the actual quote, decrements one bundle and cannot replay the stale choice
+ok 24 - native healer entry buys one real restorative at the actual quote, decrements one bundle and cannot replay the stale choice
+  ---
+  duration_ms: 171.70605
+  type: 'test'
+  ...
+# Subtest: actual honey/fig/herb/water IDs, prepared bandage bundle and Food remedy metadata retained
+ok 25 - actual honey/fig/herb/water IDs, prepared bandage bundle and Food remedy metadata retained
+  ---
+  duration_ms: 179.959215
+  type: 'test'
+  ...
+# Subtest: normal insufficient funds/sold-out and malformed currency/inventory cannot spend or replace goods
+ok 26 - normal insufficient funds/sold-out and malformed currency/inventory cannot spend or replace goods
+  ---
+  duration_ms: 1593.558286
+  type: 'test'
+  ...
+# Subtest: ingredient quote rejects replacement save/menu/day/hub/culture/actor/counter and death/hostility/party/range/area/mount/pause
+ok 27 - ingredient quote rejects replacement save/menu/day/hub/culture/actor/counter and death/hostility/party/range/area/mount/pause
+  ---
+  duration_ms: 2593.222506
+  type: 'test'
+  ...
+# Subtest: saved stock defaults and quantities persist in JSON with bounded forward-day refill, no rewind/elapsed-day reward or malformed reset
+ok 28 - saved stock defaults and quantities persist in JSON with bounded forward-day refill, no rewind/elapsed-day reward or malformed reset
+  ---
+  duration_ms: 169.651974
+  type: 'test'
+  ...
+# Subtest: two actual kitchen staff share finite ingredient stock, separate inns and medical stores do not; room coordinates are not used as world hubs
+ok 29 - two actual kitchen staff share finite ingredient stock, separate inns and medical stores do not; room coordinates are not used as world hubs
+  ---
+  duration_ms: 170.603003
+  type: 'test'
+  ...
+# Subtest: regional village/town/capital kitchen breadth uses real dish ingredients, not all foods in every NPC
+ok 30 - regional village/town/capital kitchen breadth uses real dish ingredients, not all foods in every NPC
+  ---
+  duration_ms: 993.701309
+  type: 'test'
+  ...
+# Subtest: all provisions and lesson pages remain within nine real composed native buttons with usable previous/back/leave paths
+ok 31 - all provisions and lesson pages remain within nine real composed native buttons with usable previous/back/leave paths
+  ---
+  duration_ms: 174.134797
+  type: 'test'
+  ...
+# Subtest: paid cooking lessons include actual regional served dishes only at town/city tiers; repeat or stale learning does not charge twice
+ok 32 - paid cooking lessons include actual regional served dishes only at town/city tiers; repeat or stale learning does not charge twice
+  ---
+  duration_ms: 170.322556
+  type: 'test'
+  ...
+# Subtest: healer lessons teach all four additions at a real major city, preserve known old plans and keep native non-cook/smith routes
+ok 33 - healer lessons teach all four additions at a real major city, preserve known old plans and keep native non-cook/smith routes
+  ---
+  duration_ms: 173.083822
+  type: 'test'
+  ...
+# Subtest: native bought ingredients and paid learned recipe craft the actual dish with exact fuel consumption only at a real hearth
+ok 34 - native bought ingredients and paid learned recipe craft the actual dish with exact fuel consumption only at a real hearth
+  ---
+  duration_ms: 169.484994
+  type: 'test'
+  ...
+# Subtest: new pantry grants no starter inventory/plans or replacement recipe ingredients and does not add automatic saves
+ok 35 - new pantry grants no starter inventory/plans or replacement recipe ingredients and does not add automatic saves
+  ---
+  duration_ms: 171.270415
+  type: 'test'
+  ...
+# Subtest: actual treatment and paginated carry/eat/drink still work, stale meal quotes cannot feed/pay across a replacement voyage
+ok 36 - actual treatment and paginated carry/eat/drink still work, stale meal quotes cannot feed/pay across a replacement voyage
+  ---
+  duration_ms: 333.541446
+  type: 'test'
+  ...
+# Subtest: native counter Eat and Drink callbacks consume exactly the purchased item and preserve real hunger/thirst clamping
+ok 37 - native counter Eat and Drink callbacks consume exactly the purchased item and preserve real hunger/thirst clamping
+  ---
+  duration_ms: 171.128388
+  type: 'test'
+  ...
+# Subtest: paid learned fig restorative and stronger herbal recipe use the bought actual ingredients, native hearth gates and Food consumption
+ok 38 - paid learned fig restorative and stronger herbal recipe use the bought actual ingredients, native hearth gates and Food consumption
+  ---
+  duration_ms: 336.730209
+  type: 'test'
+  ...
+# Subtest: native registered innkeeper route reaches tiered cook lessons; unrelated NPCs and missing-room ownership are not made into sellers
+ok 39 - native registered innkeeper route reaches tiered cook lessons; unrelated NPCs and missing-room ownership are not made into sellers
+  ---
+  duration_ms: 168.625603
+  type: 'test'
+  ...
+# Subtest: kitchen and medicine recipes retain exact native inputs; no extra quest items, recipes or clothing ownership are rewritten
+ok 40 - kitchen and medicine recipes retain exact native inputs; no extra quest items, recipes or clothing ownership are rewritten
+  ---
+  duration_ms: 337.796234
+  type: 'test'
+  ...
+# Subtest: actual native snapshot21 and name/index Continue preserve partial pantry counts, learned plan and player checkpoint without refilling or writing Save
+ok 41 - actual native snapshot21 and name/index Continue preserve partial pantry counts, learned plan and player checkpoint without refilling or writing Save
+  ---
+  duration_ms: 202.927608
+  type: 'test'
+  ...
+# Subtest: fresh actual creator has distinct native settlement/save/discovery/commission keys and local visible people
+ok 42 - fresh actual creator has distinct native settlement/save/discovery/commission keys and local visible people
+  ---
+  duration_ms: 195.515936
+  type: 'test'
+  ...
+# Subtest: native snapshots and actual index/name Continue restore independent merchant position, death, hostility and inventory
+ok 43 - native snapshots and actual index/name Continue restore independent merchant position, death, hostility and inventory
+  ---
+  duration_ms: 192.252288
+  type: 'test'
+  ...
+# Subtest: new distinct death/follower/cargo/order keys are not shared and native commission collection conserves a single output
+ok 44 - new distinct death/follower/cargo/order keys are not shared and native commission collection conserves a single output
+  ---
+  duration_ms: 192.133111
+  type: 'test'
+  ...
+# Subtest: primary Egypt legacy-looking native cargo/orders/follower names are valid fresh keys and do not undo Luxor identity
+ok 45 - primary Egypt legacy-looking native cargo/orders/follower names are valid fresh keys and do not undo Luxor identity
+  ---
+  duration_ms: 193.513305
+  type: 'test'
+  ...
+# Subtest: unmarked legacy duplicate cast/keys keep exact saved records, shared native outcomes and player state without guessed migration
+ok 46 - unmarked legacy duplicate cast/keys keep exact saved records, shared native outcomes and player state without guessed migration
+  ---
+  duration_ms: 188.985498
+  type: 'test'
+  ...
+# Subtest: switching between new and old voyages rebinds runtime names/regions/discovery IDs without changing either saved graph or player
+ok 47 - switching between new and old voyages rebinds runtime names/regions/discovery IDs without changing either saved graph or player
+  ---
+  duration_ms: 190.05763
+  type: 'test'
+  ...
+# Subtest: mixed marked checkpoint with a legacy Luxor ordinal conservatively preserves ambiguity without fanning out state
+ok 48 - mixed marked checkpoint with a legacy Luxor ordinal conservatively preserves ambiguity without fanning out state
+  ---
+  duration_ms: 194.05858
+  type: 'test'
+  ...
+# Subtest: native newGame boundary marks only a genuinely fresh voyage without mutating const G0 or inventing Save/item rewards
+ok 49 - native newGame boundary marks only a genuinely fresh voyage without mutating const G0 or inventing Save/item rewards
+  ---
+  duration_ms: 189.470476
+  type: 'test'
+  ...
+# Subtest: late lazy service creation, repeated restore/snapshot and JSON roundtrip do not grow cast, wrappers, inventory or rewards
+ok 50 - late lazy service creation, repeated restore/snapshot and JSON roundtrip do not grow cast, wrappers, inventory or rewards
+  ---
+  duration_ms: 188.601781
+  type: 'test'
+  ...
+# Subtest: unrelated cast, custom actor identity, actor membership and unsupported hubs are never renamed
+ok 51 - unrelated cast, custom actor identity, actor membership and unsupported hubs are never renamed
+  ---
+  duration_ms: 188.013027
+  type: 'test'
+  ...
+# Subtest: actual native treatment and local direction choices remain guarded and use a distinct local chart key
+ok 52 - actual native treatment and local direction choices remain guarded and use a distinct local chart key
+  ---
+  duration_ms: 191.025154
+  type: 'test'
+  ...
+# Subtest: actual native snapshot inside a fresh wrapper gets its marker before serializing; old pre-reset snapshot and failed call stay unmarked
+ok 53 - actual native snapshot inside a fresh wrapper gets its marker before serializing; old pre-reset snapshot and failed call stay unmarked
+  ---
+  duration_ms: 153.461592
+  type: 'test'
+  ...
+# Subtest: failed fresh boundary clears its transient scope and does not mark a later unrelated old game
+ok 54 - failed fresh boundary clears its transient scope and does not mark a later unrelated old game
+  ---
+  duration_ms: 157.820905
+  type: 'test'
+  ...
+# Subtest: actual atomic single-parse loader retains marked and unmarked identity policy before native Continue without save writes
+ok 55 - actual atomic single-parse loader retains marked and unmarked identity policy before native Continue without save writes
+  ---
+  duration_ms: 423.534846
+  type: 'test'
+  ...
+1..55
+# tests 55
+# suites 0
+# pass 55
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 23113.036931

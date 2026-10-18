@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T04:19:12.592Z",
+  "updatedAt": "2026-10-18T05:19:55.704Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,41 +12,41 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+  "currentLocalBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+  "currentGithubHead": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
   "publication": {
     "status": "delivered_private_draft",
     "pr": 29,
-    "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
+    "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
     "draft": true,
     "merged": false,
-    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from aded6fe45e87b72dcf629adb5d63ca0b7fc51022; no merge/release"
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from a51219f939e6ff8df65184f12426954e19d66760; no merge/release"
   },
   "evidence": {
     "local": {
       "status": "passed",
-      "passed": 886,
+      "passed": 905,
       "failed": 0,
-      "newTests": 21,
-      "durationMs": 116798.628623,
+      "newTests": 19,
+      "durationMs": 126782.31276,
       "completeFooter": true,
-      "okEntries": 886,
+      "okEntries": 905,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/market226-full-tap.txt",
-      "result": "verification/market226-full-result.json",
-      "scope": "LOCAL native creator/dialogue/physical loot/ammo/removal and actual learned store/craft/smelter callbacks plus JSON/Three/workflow/compile/package. NOT ordinary mouse gameplay, rendered meshes/audio/FPS, offline pause Save/exact reload or Master acceptance.",
-      "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10"
+      "evidence": "verification/provisions229-full-tap.txt",
+      "result": "verification/provisions229-full-result.json",
+      "scope": "Full LOCAL source/native service/dialogue, ingredient purchase/learned craft/hearth/Food and snapshot21/Continue plus JSON/Three/workflow/compile/package; NOT ordinary mouse/browser/render/offline pause Save/FPS/Master acceptance.",
+      "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416"
     },
     "github": {
       "pr": 29,
-      "sourceCommit": "a0561659f930011ff9bc10f38d8bb2800a897b0e",
-      "sourceBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+      "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
+      "sourceBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
       "generatedBuildSha256": null,
       "state": "open_draft_unmerged",
-      "ci": "No current matching browser artifact; latest older5bcd473b run failed with no executed steps/artifacts"
+      "ci": "No matching current-head browser artifact; latest older5bcd473b jobs fail with no executed steps/artifacts"
     },
     "captiveHome": "verification/home202-full-tests.txt",
     "captiveRecovery": "verification/recovery204-full-tap.txt"
@@ -312,7 +312,13 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      }
     },
     {
       "hour": 14,
@@ -519,12 +525,18 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json.",
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
       "regionalMarket224226": {
         "status": "partial_source_runtime_pending",
         "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
         "evidence": "tracking/updates/regional-market-economy-20261018.json",
         "scope": "Price ladder/finite regional arms tiers/spare buyback and two exchange-loop repairs only"
+      },
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
       }
     },
     {
@@ -576,7 +588,13 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      }
     },
     {
       "hour": 33,
@@ -1570,7 +1588,13 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      }
     },
     {
       "hour": 111,
@@ -1671,7 +1695,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json.",
+      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
       "relicGuidance216218": {
         "status": "source_implemented_runtime_pending",
         "buildSha256": "1651c8d9fb1eff12a581f41c5e3195db69cd09380b874be598d4f81720f53272",
@@ -1683,6 +1707,12 @@
         "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
         "evidence": "tracking/updates/regional-market-economy-20261018.json",
         "scope": "JSON stock/day/purse/malformed-state callbacks only, NOT ordinary offline pause Save/exact reload"
+      },
+      "regionalProvisions227229": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+        "evidence": "tracking/updates/regional-provisions-20261018.json",
+        "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
       }
     },
     {
@@ -1738,7 +1768,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/home-route and offline pause Save/exact reload when runtime available; core BronzeAge remaining city ingredient/cook/healer stock and recipe-learning/earnings work; evidence-based legacy service recovery and distant/offshore captive recovery. Preserve every120/M0–M5; further8–10 and expandedTroy lower.",
+  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/home route and offline pause Save/exact reload when runtime available. Continue dependency-ready main-story distant/offshore rescue recovery and core BronzeAge physical/world work; audit remaining smith/ore/advanced recipe access and real earnings without duplicating224–229. All120/M0–M5 retained; further8–10 and expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1758,7 +1788,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "224–226 source delivered;886/886 full LOCAL,48 focused,21new;economy and legacy migration PARTIAL;ordinary/render/Save/Master pending",
+  "currentCheckpoint": "227–229 source delivered;905/905 full LOCAL,55 focused,19new;stock/teaching/economy PARTIAL;ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1893,7 +1923,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
+  "currentGithubSourceBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2114,5 +2144,48 @@
       "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, not removed. No measured remaining ETA."
     ],
     "acceptance": "No original slot/active hour or milestone accepted. Ordinary inputs/Save/render/current-hash Master remain mandatory."
+  },
+  "regionalProvisions227229": {
+    "status": "source_implemented_runtime_pending_partial_economy",
+    "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
+    "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
+    "record": "tracking/updates/regional-provisions-20261018.json",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 905,
+      "failed": 0,
+      "newTests": 19,
+      "durationMs": 126782.31276,
+      "completeFooter": true,
+      "okEntries": 905,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/provisions229-full-tap.txt",
+      "result": "verification/provisions229-full-result.json",
+      "scope": "Full LOCAL source/native service/dialogue, ingredient purchase/learned craft/hearth/Food and snapshot21/Continue plus JSON/Three/workflow/compile/package; NOT ordinary mouse/browser/render/offline pause Save/FPS/Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 55,
+      "failed": 0,
+      "newTests": 19,
+      "durationMs": 23113.036931,
+      "evidence": "verification/provisions229-focused-tap.txt",
+      "scope": "Full LOCAL source/native service/dialogue, ingredient purchase/learned craft/hearth/Food and snapshot21/Continue plus JSON/Three/workflow/compile/package; NOT ordinary mouse/browser/render/offline pause Save/FPS/Master acceptance."
+    },
+    "changes": [
+      "227 actual existing healer and tavern/registered inn contexts select authored settlement tiers, not actor display-name guessing or interior nearest-island coordinates. Finite per-station ingredient/remedy shelves use actual grain/herb/honey/fig/date/mushroom/lentils46/beans46/water36/raw-dish IDs, with greater city depth and regional cuisine ingredients. No new NPC, quest reward or starting item/plan.",
+      "227 saved G.world.provisionMarkets227 quantities initialize only when absent, refill bounded half-caps once per forward day, never rewind/elapsed-day loop or null/malformed reset. Both actual kitchen staff share that kitchen's stock; distinct kitchens/healers retain independent saved keys. No new automatic Save from new purchase/teaching functions.",
+      "228 existing cooks teach base KNOWLEDGE48 plans and town/capital additions from their actual served DISHES22 cuisine. Existing healer shelves/lessons give all four requested remedies at major markets with modest village/town routes; old known recipes retained, physical ingredients/hearth rules/effect potency unchanged. Native smith/composite/greatsword routes retained, not broadly rewritten.",
+      "229 actual tavern counter grouped Carry/Eat/Ingredients/Lessons entry and four-item pages, bound <=9 composed native buttons; meal transactions continue through native serveTavern118, consume one real purchased item and retain existing autosaves. New stock/lesson/counter choices revalidate exact game/menu/day/stock/registered actor/hub/culture/reach/status and one-use callbacks. Actual native16-silver treatment retained."
+    ],
+    "remaining": [
+      "All120/every M0–M5/prior request retained/unaccepted. Main campaign/QOL/physical BronzeAge first; ordinary main/Pan/home route, crash/progression and offline pause Save/exact-position reload/cold Continue/Master remain mandatory.",
+      "Economy remains PARTIAL: full smith/advanced regional mining/ore recipe teaching, all ordinary merchant/loot/sell/craft/arbitrage/earnings/affordability paths, every ingredient/service/region coverage, NPC directions and all arrow material meshes/damage/recovery still need actual work/acceptance. Unregistered/unsupported legacy inn/counter paths retain native fallbacks, not universal new-market coverage.",
+      "222–223 ambiguous legacy service death/follower/cargo/order origin still partial and preserved, not guessed/copied.219–221 short original-ramp realignment is not distant/large-angle/changed-dock/sunken/offshore captive recovery. Full geometry/equipment/creatures/factions/sites/work/music remain.",
+      "Runtime currently blocked locally by absent Chromium1234/system executables; latest older5bcd473b Actions runs fail without executed job steps/artifacts, no current generated GitHub playable download. Do not repeat hung downloads/Cloud/heavy runner or change account/privacy. Further8–10 performance and expandedTroy lower priority, retained. No measured remaining ETA."
+    ],
+    "acceptance": "No original slot/active hour/milestone accepted. Actual browser/ordinary pause Save/current-hash Master gates remain mandatory."
   }
 }
