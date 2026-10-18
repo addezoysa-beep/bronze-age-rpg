@@ -1,0 +1,115 @@
+{
+  "id": "regional-smith-workshop-20261018",
+  "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+  "bytes": 38403410,
+  "milestoneIds": [
+    "M0",
+    "M2",
+    "M5"
+  ],
+  "requirementIds": [
+    "120-28",
+    "120-33",
+    "120-35",
+    "120-115",
+    "CRAFT-01"
+  ],
+  "summary": "233 tiered regional smith lessons and real bench/furnace requirements;234 guarded paid commissions and preserved legacy collection;235 live mine/keeper/furnace directions",
+  "masterDelivery": {
+    "status": "delivered",
+    "pr": 29,
+    "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+    "draft": true,
+    "merged": false,
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from1ec26f67d20c873fd5b52e5d5e79df545daf5aac; no merge/release"
+  },
+  "masterReview": {
+    "status": "pending"
+  },
+  "localChecks": {
+    "status": "passed",
+    "passed": 950,
+    "failed": 0,
+    "newTests": 25,
+    "durationMs": 152763.40934,
+    "completeFooter": true,
+    "okEntries": 950,
+    "exitCode": 0,
+    "hashUnchanged": true,
+    "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+    "evidence": "verification/smith235-full-tap.txt",
+    "result": "verification/smith235-full-result.json",
+    "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "scopedChecks": {
+    "status": "passed",
+    "passed": 74,
+    "failed": 0,
+    "newTests": 25,
+    "durationMs": 37456.832025,
+    "evidence": "verification/smith235-focused-tap.txt",
+    "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+  },
+  "changes": [
+    "233 replaces the catch-all recipe list at actual registered arms services with bounded three-pattern pages, original 18-silver fee, local culture/tier and level gates: copper/basic village work; experienced town bronze/silver/composite work; experienced city iron/gold. Trained sling prerequisite, old paid knowledge, independent special/quest teachers and required mine/trainer routes remain. Long-blade patterns stay separate, not the old generic 18-silver bypass.",
+    "233 makes actual service workbenches interactive at the inspected detailedBench14 build coordinates, tracking only actual newly built benches weakly and preserving them across New Voyage in the reused world; regional gear and axe/pick heads/assembly require an actual nearby bench, safe resting foot state, integer ingredients/output capacity before native crafting. Actual native work duration and recipe quantities retained. Existing bronzebar now requires the native furnace check; no new outputs or free metal.",
+    "234 regional greatsword quote/lesson/commission/next-day one-time collection use guarded current game/menu/day/level/actor/region/tier/order-book/nested-record identity; paid legacy orders retain original key/readyDay/price and collect even below new availability gates. Malformed books/records preserved, not reset; direct unpriced regional calls refused. Existing native commission/collection/targeted-lesson automatic saves retained, no extra Save or bypass of mandatory ordinary pause Save.",
+    "235 workshop dialogue marks only actual available same-region mine/keeper and a real nearby native SMELTERS furnace; captured coordinates and availability revalidated. Missing services produce honest refusal; existing gallery borrowed-pick route explained without granting tools, quest flags or rewards."
+  ],
+  "initialFailures": [
+    "Initial focused15/20: resource-help dialogue injection made four-pattern middle pages exceed the intended eight-choice bound. Production page size reduced to three; backward/forward/Back/Leave and help retained, bound assertion not relaxed.",
+    "Follow-up18/20 exposed test setup errors: native work timer intentionally blocks immediate assembly after head crafting; native snapshot writes G and returns undefined. Fixtures now execute the actual work tick, base snapshot/Continue and checkpoint21. A temporary missing external three-module fixture dependency was removed in favour of the game's actual embedded Three.js; no environment install.",
+    "Preliminary045eb2ad candidate had950/950 LOCAL and74focused, but code review found bench-registry clearing incompatible with native New Voyage's reused world. Changed to weak actor keys and current registered cast iteration without clearing physical bench metadata. Updated reset regression requires the actual bench interaction to remain. Final rebuilt5affe565 evidence alone governs the final candidate; no older-hash pass borrowed.",
+    "Inspection found no current user-reproduced smith/startup crash. New guards and collection/null-record tests are proactive code-confirmed transaction fixes."
+  ],
+  "runtime": {
+    "status": "pending",
+    "required": "Actual village/town/city mouse learn/order/collect/buy/craft/forge/equip, required trainer/mining route/earnings, ordinary offline pause Save/exact-position reload/cold Continue/old saves/render/Master"
+  },
+  "economyAcceptance": "PARTIAL: not all merchants/teachers/regions/materials/recipe/loot/sell/arbitrage/earnings or ordinary acceptance.",
+  "package": {
+    "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+    "bytes": 38403410,
+    "zipSha256": "7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8",
+    "entries": 2,
+    "localHtmlZipIdentity": "passed",
+    "localArchiveContents": "passed",
+    "inlineCompilation": "passed",
+    "standaloneStartup": "not_run",
+    "githubGeneratedIdentity": "not_run",
+    "userDownloadAccessibility": "not_run"
+  },
+  "external": {
+    "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+    "parentHead": "1ec26f67d20c873fd5b52e5d5e79df545daf5aac",
+    "sourceReadbacks": 6,
+    "currentGithubGeneratedBuild": null,
+    "latestActions": {
+      "runs": [
+        38711529714,
+        38711529696,
+        38711522032
+      ],
+      "head": "5bcd473ba7b21fe60868c70944671ab81f25232a",
+      "jobs": [
+        116343817505,
+        116343817574
+      ],
+      "executedSteps": 0,
+      "artifacts": 0
+    },
+    "localBrowser": {
+      "package": "present",
+      "expectedExecutable": "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+      "executablePresent": false
+    }
+  },
+  "remaining": [
+    "Ordinary new-game/main/Pan/Daedalus/Labyrinth/Delphi/four-relic/princess and captive-home routes, actual mouse/UI trade/learn/craft/collect/equip/Save/exact-position reload/cold Continue/old-save/render/contact/audio/Master remain pending. Native controlled callbacks, actual base snapshot/Continue/checkpoint21 and Three fixtures are not these gates.",
+    "Smith/economy remains PARTIAL: nonregistered/independent legacy teachers and merchants, all regional materials/rare rewards/jewelry/loot/sell/craft arbitrage and fair wages/earnings, full field→mine→furnace progression, mountain/quest teachers, rendered equipment/animations and all-city stock/recipes still need coverage.",
+    "230–232 rescue recovery remains partial: original seaworthy owned hull, earned horn, saved dock and clear <=120 straight approach only; sunken/missing/replacement/farther hulls, changed docks and routes around land/shoals/blocked channels remain.222–223 ambiguous legacy service identity remains conservative/partial.",
+    "All120/every M0–M5/prior requirement retained/unaccepted, main campaign/QOL/core physical BronzeAge first; further8–10 performance and expandedTroy lower, not removed. Browser package present but Chromium1234 executable absent; latest older Actions jobs have zero executed steps/artifacts, matching immutable GitHub-generated playable download unavailable. No repeated failed browser/download/runner/account changes; no measured remaining ETA."
+  ],
+  "next": "docs/NEXT_RUN_SMITH_WORKSHOP_20261018.md"
+}
+

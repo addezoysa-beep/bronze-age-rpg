@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-18T06:14:59.780Z",
+  "updatedAt": "2026-10-18T09:24:09.393Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
   "targetActiveHours": 120,
@@ -12,16 +12,16 @@
     "mandatory": "Crashes/progression/ordinary offline pause Save and exact-position reload; exact-hash acceptance and actual Master review remain essential.",
     "throughput": "Advance successive ready implementation checkpoints with tests; no measured3x productivity, uninterrupted-worker or elapsed-hour completion claim."
   },
-  "currentLocalBuildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+  "currentLocalBuildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
   "currentGithubBuildSha256": null,
-  "currentGithubHead": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+  "currentGithubHead": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
   "publication": {
-    "status": "delivered_private_draft",
+    "status": "delivered",
     "pr": 29,
-    "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+    "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
     "draft": true,
     "merged": false,
-    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from024e0bec7e63b5fe315750084fa31c023b582bbd; no merge/release"
+    "evidence": "Six source/test exact readbacks; expected-head nonforce lease from1ec26f67d20c873fd5b52e5d5e79df545daf5aac; no merge/release"
   },
   "evidence": {
     "local": {
@@ -462,7 +462,39 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Existing source work or inspected integration; see exact-hash tracker. Not a completed hour or acceptance."
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      }
     },
     {
       "hour": 25,
@@ -525,7 +557,7 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current227–229 source 03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd; exact game 41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416,38,379,285bytes. Finite regional pantry/medical supplies, broader local cooking/remedy lessons and paginated guarded Carry/Eat/ingredient counter menus. 905/905 full LOCAL serial checks pass, complete905 entries/footer/exit0/hash unchanged,126782.31276ms;55 focused checks,19new. Six source/test exact readbacks; exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compilation pass; ZIP00761fa4671e84f3699e93d6b1f4ee6fe805e7b46eb3d7597c33eefa888cb9ca. Native purchase→paid learn→craft/hearth→consume and snapshot21/Continue fixtures are NOT ordinary mouse, offline pause Save/exact reload, rendered/FPS or Master acceptance. Startup/embedded decoding/user download access not run; current GitHub-generated playable download unavailable. Economy/legacy/offshore recovery and all120/every M0–M5/prior scope remain partial/unaccepted. Main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower, retained. No measured remaining ETA. See docs/NEXT_RUN_PROVISIONS_20261018.md and tracking/updates/regional-provisions-20261018.json.",
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
       "regionalMarket224226": {
         "status": "partial_source_runtime_pending",
         "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
@@ -537,6 +569,38 @@
         "buildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
         "evidence": "tracking/updates/regional-provisions-20261018.json",
         "scope": "Finite pantry/healer supplies and regional cook/remedy lessons; paginated actual counter callbacks, native craft/consume/snapshot fixtures only; NOT complete allocation or ordinary runtime acceptance."
+      },
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
       }
     },
     {
@@ -575,7 +639,39 @@
         "evidence": "tracking/updates/regional-market-economy-20261018.json",
         "scope": "Existing worked-ingot access and two commodity margins; full mining/teaching/smelting progression incomplete"
       },
-      "currentEvidence": "Current224–226 source a0561659f930011ff9bc10f38d8bb2800a897b0e; exact candidate c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10,38,367,370bytes. Shared material/quality equipment prices, finite settlement-tier arms/ammo/worked-metal stock, guarded spare buybacks and two inspected ore-exchange cash-loop repairs. 886/886 full LOCAL serial checks pass, complete886 entries/footer/exit0/hash unchanged,116798.628623ms;48 focused checks,21new. Six source/test exact readbacks. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7b6f2b388d7418c3d327f913fd3df7f7c182839328daff7f0cc907850188bee9; startup/embedded decoding/user access not run, matching GitHub-generated download unavailable. Economy remains PARTIAL: ingredient/cook/healer tiers, broader recipe teaching, full loot/sell/arbitrage/earnings/ordinary clicks and arrow visual/damage/recovery audits still open. Legacy shared service migration and offshore captive recovery remain partial. Ordinary main/home routes/offline pause Save/exact reload/old-save/render/Master pending; every120/M0–M5/prior request retained and unaccepted, main/QOL/physicalBronzeAge first; further8–10 performance/expandedTroy lower. No measured remaining ETA. See docs/NEXT_RUN_MARKET_ECONOMY_20261018.md and tracking/updates/regional-market-economy-20261018.json."
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      }
     },
     {
       "hour": 32,
@@ -1656,7 +1752,39 @@
       "workStatus": "implemented_or_partial_source_work_needs_verification",
       "currentHashRuntime": "pending",
       "accepted": false,
-      "currentEvidence": "Current e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5:664 full local source/executable/workflow/compile/package checks.180/181 service display/guard scope and182 native/shared axe pose scope only; full ordinary regional/main route/Save/visual/Master acceptance pending. No completed allocation inferred."
+      "currentEvidence": "Current233–235 source 6aaa83fd87a884e4ae31bb1a710d42fc58611ae9; exact game 5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3,38,403,410bytes. Regional tier/culture/level smith lessons and real bench/furnace crafting, guarded long-blade commissions/paid legacy collection, live mine/keeper/furnace directions. Source/test six exact readbacks; private draft PR29 unmerged. Native controlled data/Three/snapshot checks are NOT ordinary browser/offline pause Save/exact reload/render/audio/FPS/Master acceptance. Source/full/package evidence governs exact candidate; startup/embedded decoding/user-download access remain unverified and matching GitHub-generated playable download unavailable. Economy/mining/legacy/rescue/full120/every M0–M5 remain PARTIAL and unaccepted; main/QOL/physical BronzeAge first, further8–10 performance/expandedTroy lower. Remaining ETA unmeasured. 950/950 full LOCAL checks (25 new), complete950 entries/footer/exit0/hash unchanged, 152763.40934ms;74 focused checks, 37456.832025ms. Evidence verification/smith235-full-tap.txt, smith235-full-result.json and smith235-focused-tap.txt. Exact baseline-to-current rebuild/HTML/two-entry ZIP/3-inline compile pass, ZIP7f93c90f28b99a9ff7a5513dfc0a51c07177411497c3d21206ea5e4cfd646cf8. Startup/embedded decoding/user access not run; matching GitHub-generated playable download unavailable. Native controlled data/Three/snapshot/Continue is NOT ordinary mouse/offline pause Save/exact reload/render/FPS/Master acceptance.",
+      "regionalSmith233235": {
+        "status": "partial_source_runtime_pending",
+        "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+        "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+        "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+        "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+        "ordinaryAcceptance": "pending",
+        "fullSuite": {
+          "status": "passed",
+          "passed": 950,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 152763.40934,
+          "completeFooter": true,
+          "okEntries": 950,
+          "exitCode": 0,
+          "hashUnchanged": true,
+          "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+          "evidence": "verification/smith235-full-tap.txt",
+          "result": "verification/smith235-full-result.json",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        },
+        "focusedChecks": {
+          "status": "passed",
+          "passed": 74,
+          "failed": 0,
+          "newTests": 25,
+          "durationMs": 37456.832025,
+          "evidence": "verification/smith235-focused-tap.txt",
+          "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+        }
+      }
     },
     {
       "hour": 115,
@@ -1780,7 +1908,7 @@
   ],
   "achillesHome": "Phthia: source implemented; current-build gameplay/migration pending",
   "trojanCampaignPriority": "lower; separate foundation preserved, extended production deferred behind main/QOL/BronzeAge/planned delivery",
-  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/artifact/captive-home and offline pause Save/exact reload when runtime available. Continue evidence-based sunken/missing/farther/blocked-route rescue recovery or core physical BronzeAge/main/QOL work; remaining smith/ore/advanced teaching/earnings remain. Do not duplicate205–232. Full120/every M0–M5; further8–10/expandedTroy lower.",
+  "nextDependencyReadyWork": "Current-hash ordinary main/Pan/artifact/captive-home and offline pause Save/exact reload when runtime available. Continue substantive main/QOL/core physicalBronzeAge work, nonregistered legacy recipe/economy pathways and fair work earnings, or evidence-based remaining physical rescue recovery. Do not duplicate205–235. Full120/every M0–M5; further8–10/expandedTroy lower.",
   "latestObjectives": [
     "Main quest physical-item progression and recovery; opening/Pan/Labyrinth/Delphi/four relics/princess, ordinary Save/exact reload and crash blockers",
     "Repair actual second legacy tavern shift/route ownership conflict",
@@ -1800,7 +1928,7 @@
     "checks": "188 local; current new-hash ordinary/browser/reference/old-save pending",
     "budget": "120 active-hour planning allocation retained; no measured remaining-time reduction"
   },
-  "currentCheckpoint": "230–232 source delivered;925/925 full LOCAL,46 focused,20new;clear <=120 harbour recovery PARTIAL;ordinary/render/Save/Master pending",
+  "currentCheckpoint": "233–235 source delivered;950/950 full LOCAL,74 focused,25 new;regional smith/bench/commission work PARTIAL;ordinary/render/Save/Master pending",
   "partialSlots": [
     2,
     3,
@@ -1935,7 +2063,7 @@
       "scope": "Full LOCAL serial source/executable/native loot/dialogue/Three/workflow/compile/package; NOT ordinary gameplay/render/offline pause Save/Master"
     }
   },
-  "currentGithubSourceBuildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
+  "currentGithubSourceBuildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
   "mainRoute214215": {
     "id": "main-route-directions-20261017",
     "buildSha256": "6dc1114bb2cccdad655ba9091b9ae344dedd72ca616c12654851e6e3266e1e1b",
@@ -2112,7 +2240,7 @@
       "scope": "Full LOCAL source/native service+snapshot+Continue+loader/Three/JSON/workflow/compile/package; NOT ordinary browser/render/offline pause Save/Master"
     }
   },
-  "currentGithubHeadScope": "Source commit; subsequent evidence metadata may follow. Re-read fresh PR head before writes.",
+  "currentGithubHeadScope": "Published source commit, NOT a generated GitHub playable build",
   "regionalMarket224226": {
     "status": "source_implemented_runtime_pending_partial_economy",
     "buildSha256": "c360f5a1ca4cf6c2ace080a3ff2fa065200053ba2555068d1949bfdd4c37ac10",
@@ -2242,5 +2370,37 @@
       "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, retained. Playwright package present but its expected Chromium1234/system paths absent; latest older5bcd473b jobs have no executed steps/artifacts, no current matching generated GitHub playable download. No hung browser/download/runner/account workaround. Remaining ETA unmeasured."
     ],
     "acceptance": "No original active-hour slot or M0–M5 milestone accepted; mandatory ordinary current-hash route/Save/render/Master gates remain."
+  },
+  "regionalSmith233235": {
+    "status": "partial_source_runtime_pending",
+    "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+    "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+    "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+    "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+    "ordinaryAcceptance": "pending",
+    "fullSuite": {
+      "status": "passed",
+      "passed": 950,
+      "failed": 0,
+      "newTests": 25,
+      "durationMs": 152763.40934,
+      "completeFooter": true,
+      "okEntries": 950,
+      "exitCode": 0,
+      "hashUnchanged": true,
+      "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+      "evidence": "verification/smith235-full-tap.txt",
+      "result": "verification/smith235-full-result.json",
+      "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    },
+    "focusedChecks": {
+      "status": "passed",
+      "passed": 74,
+      "failed": 0,
+      "newTests": 25,
+      "durationMs": 37456.832025,
+      "evidence": "verification/smith235-focused-tap.txt",
+      "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+    }
   }
 }

@@ -82,14 +82,14 @@
     },
     "equipmentEconomy": {
       "status": "confirmed_by_user",
-      "implementation": "partial_224_229_private_draft_source_runtime_pending",
-      "pr": 21,
+      "implementation": "partial_224_235_private_draft_source_runtime_pending",
+      "pr": 29,
       "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b",
-      "remaining": "Economy remains PARTIAL: full smith/advanced regional mining/ore recipe teaching, all ordinary merchant/loot/sell/craft/arbitrage/earnings/affordability paths, every ingredient/service/region coverage, NPC directions and all arrow material meshes/damage/recovery still need actual work/acceptance. Unregistered/unsupported legacy inn/counter paths retain native fallbacks, not universal new-market coverage.",
+      "remaining": "Smith/economy remains PARTIAL: nonregistered/independent legacy teachers and merchants, all regional materials/rare rewards/jewelry/loot/sell/craft arbitrage and fair wages/earnings, full field→mine→furnace progression, mountain/quest teachers, rendered equipment/animations and all-city stock/recipes still need coverage.",
       "runtime": "Actual village/town/major-city mouse buy/sell, insufficient funds, cooking/recipe paths, four-remedy effects/expiry, ammo identity/render and ordinary offline pause Save/exact reload/old-save/Master remain pending.",
-      "sourceCommit": "03897694cfb5b4ae2a1c81f16eb8db3aa3a5d8bd",
-      "currentBuildSha256": "41128a45bc38e6e7d528257e3b27d20cd01e7a801ceff7598f2d7b7bbb9b2416",
-      "evidence": "tracking/updates/regional-provisions-20261018.json",
+      "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+      "currentBuildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+      "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
       "historicalArrowCandidate": {
         "pr": 21,
         "head": "29e345f7cb0804f8291d9cca5322a1e4bbaa1d4b"
@@ -552,6 +552,38 @@
         "Main campaign/QOL/physical BronzeAge first; further8–10 combat performance and expandedTroy lower, retained. Playwright package present but its expected Chromium1234/system paths absent; latest older5bcd473b jobs have no executed steps/artifacts, no current matching generated GitHub playable download. No hung browser/download/runner/account workaround. Remaining ETA unmeasured."
       ],
       "acceptance": "No original active-hour slot or M0–M5 milestone accepted; mandatory ordinary current-hash route/Save/render/Master gates remain."
+    },
+    "regionalSmith233235": {
+      "status": "partial_source_runtime_pending",
+      "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+      "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
+      "evidence": "tracking/updates/regional-smith-workshop-20261018.json",
+      "scope": "Registered regional smith lessons/commissions and actual bench/furnace gates/directions only, not all independent teachers, all economy progression or ordinary/runtime/visual/Save acceptance",
+      "ordinaryAcceptance": "pending",
+      "fullSuite": {
+        "status": "passed",
+        "passed": 950,
+        "failed": 0,
+        "newTests": 25,
+        "durationMs": 152763.40934,
+        "completeFooter": true,
+        "okEntries": 950,
+        "exitCode": 0,
+        "hashUnchanged": true,
+        "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
+        "evidence": "verification/smith235-full-tap.txt",
+        "result": "verification/smith235-full-result.json",
+        "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      },
+      "focusedChecks": {
+        "status": "passed",
+        "passed": 74,
+        "failed": 0,
+        "newTests": 25,
+        "durationMs": 37456.832025,
+        "evidence": "verification/smith235-focused-tap.txt",
+        "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      }
     }
   },
   "milestones": [
@@ -918,36 +950,36 @@
   "currentCandidate": {
     "file": "dist/Wine-Dark-Sea-Combined-Cinematic.html",
     "manifest": "dist/current-build-manifest.json",
-    "buildSha256": "6d96e21402f9dbbe4dfab2915bb70721d9bec055340d4a00b60a8ed2f04a3795",
-    "bytes": 38390253,
-    "sourceChecks": 925,
-    "sourceScope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
+    "buildSha256": "5affe565b76621bed796256a5baab4f14f2cb6e68889d99721449f36f95f90e3",
+    "bytes": 38403410,
+    "sourceChecks": 950,
+    "sourceScope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance.",
     "masterReview": "pending",
     "milestoneAcceptance": "pending",
     "priority": "main campaign/QOL, core Bronze Age, remaining delivery; expanded Troy lower",
     "masterDelivery": {
       "status": "delivered",
       "pr": 29,
-      "sourceCommit": "e446c37bfd05aac65d8cbb90e7ed691a0b586931",
+      "sourceCommit": "6aaa83fd87a884e4ae31bb1a710d42fc58611ae9",
       "draft": true,
       "merged": false,
-      "evidence": "Six source/test exact readbacks; expected-head nonforce lease from024e0bec7e63b5fe315750084fa31c023b582bbd; no merge/release"
+      "evidence": "Six source/test exact readbacks; expected-head nonforce lease from1ec26f67d20c873fd5b52e5d5e79df545daf5aac; no merge/release"
     },
-    "next": "docs/NEXT_RUN_HARBOUR_RECOVERY_20261018.md",
+    "next": "docs/NEXT_RUN_SMITH_WORKSHOP_20261018.md",
     "fullSuite": {
       "status": "passed",
-      "passed": 925,
+      "passed": 950,
       "failed": 0,
-      "newTests": 20,
-      "durationMs": 160948.58678,
+      "newTests": 25,
+      "durationMs": 152763.40934,
       "completeFooter": true,
-      "okEntries": 925,
+      "okEntries": 950,
       "exitCode": 0,
       "hashUnchanged": true,
       "method": "node --test --test-concurrency=1 --test-reporter=tap scripts/*.test.mjs",
-      "evidence": "verification/harbour232-full-tap.txt",
-      "result": "verification/harbour232-full-result.json",
-      "scope": "Full LOCAL source/native hull collision, actual interaction/rally dialogue, crossing/return/landing and base snapshot/Continue/checkpoint21 plus Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
+      "evidence": "verification/smith235-full-tap.txt",
+      "result": "verification/smith235-full-result.json",
+      "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
     }
   },
   "saveLoadPerformance146": {
