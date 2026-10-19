@@ -7,6 +7,10 @@ on:
       - 'checkpoints/continuation-20261011/scripts/attached-bronze-age-additions.mjs'
       - 'checkpoints/continuation-20261011/scripts/*river-city*'
       - 'checkpoints/continuation-20261011/scripts/river-city-*'
+      - 'checkpoints/continuation-20261011/scripts/*dungeon-keys*'
+      - 'checkpoints/continuation-20261011/scripts/entrance-key-*'
+      - 'checkpoints/continuation-20261011/scripts/dungeon-door-*'
+      - 'checkpoints/continuation-20261011/scripts/dungeon-build-*'
       - '.github/workflows/reconciled-city-dungeon.yml'
 permissions:
   contents: read
@@ -23,15 +27,15 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/build-current.mjs
-      - run: node scripts/build-river-city-candidate.mjs
-      - run: node scripts/verify-river-city-checkpoint.mjs
+      - run: node scripts/build-dungeon-keys-candidate.mjs
+      - run: node scripts/verify-dungeon-keys-checkpoint.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: river-cities-269
+          name: dungeon-keys-272
           path: |
-            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-River-Cities-269.html
-            checkpoints/continuation-20261011/dist/river-cities-269-manifest.json
-            checkpoints/continuation-20261011/verification/river269-*
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Dungeon-Keys-272.html
+            checkpoints/continuation-20261011/dist/dungeon-keys-272-manifest.json
+            checkpoints/continuation-20261011/verification/dungeon272-*
           if-no-files-found: error
   ordinary-browser:
     runs-on: ubuntu-latest
@@ -47,12 +51,12 @@ jobs:
       - run: npm install --ignore-scripts
       - run: npx playwright install --with-deps chromium
       - run: node scripts/build-current.mjs
-      - run: node scripts/build-river-city-candidate.mjs
-      - name: Select the exact river-city candidate for the unchanged ordinary-input smoke
-        run: cp dist/river-cities-269-manifest.json dist/current-build-manifest.json
+      - run: node scripts/build-dungeon-keys-candidate.mjs
+      - name: Select the exact dungeon candidate for the unchanged ordinary-input smoke
+        run: cp dist/dungeon-keys-272-manifest.json dist/current-build-manifest.json
       - run: node scripts/browser-candidate-smoke.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: river269-ordinary-browser-evidence
+          name: dungeon272-ordinary-browser-evidence
           path: checkpoints/continuation-20261011/verification/runtime/
