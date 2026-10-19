@@ -11,6 +11,9 @@ on:
       - 'checkpoints/continuation-20261011/scripts/entrance-key-*'
       - 'checkpoints/continuation-20261011/scripts/dungeon-door-*'
       - 'checkpoints/continuation-20261011/scripts/dungeon-build-*'
+      - 'checkpoints/continuation-20261011/scripts/*dungeon-story*'
+      - 'checkpoints/continuation-20261011/scripts/dungeon-matte-*'
+      - 'checkpoints/continuation-20261011/scripts/ariadne-story*'
       - '.github/workflows/reconciled-city-dungeon.yml'
 permissions:
   contents: read
@@ -27,15 +30,15 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/build-current.mjs
-      - run: node scripts/build-dungeon-keys-candidate.mjs
-      - run: node scripts/verify-dungeon-keys-checkpoint.mjs
+      - run: node scripts/build-dungeon-story-candidate.mjs
+      - run: node scripts/verify-dungeon-story-checkpoint.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: dungeon-keys-272
+          name: dungeon-story-274
           path: |
-            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Dungeon-Keys-272.html
-            checkpoints/continuation-20261011/dist/dungeon-keys-272-manifest.json
-            checkpoints/continuation-20261011/verification/dungeon272-*
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Dungeon-Story-274.html
+            checkpoints/continuation-20261011/dist/dungeon-story-274-manifest.json
+            checkpoints/continuation-20261011/verification/dungeon274-*
           if-no-files-found: error
   ordinary-browser:
     runs-on: ubuntu-latest
@@ -51,12 +54,12 @@ jobs:
       - run: npm install --ignore-scripts
       - run: npx playwright install --with-deps chromium
       - run: node scripts/build-current.mjs
-      - run: node scripts/build-dungeon-keys-candidate.mjs
+      - run: node scripts/build-dungeon-story-candidate.mjs
       - name: Select the exact dungeon candidate for the unchanged ordinary-input smoke
-        run: cp dist/dungeon-keys-272-manifest.json dist/current-build-manifest.json
+        run: cp dist/dungeon-story-274-manifest.json dist/current-build-manifest.json
       - run: node scripts/browser-candidate-smoke.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: dungeon272-ordinary-browser-evidence
+          name: dungeon274-ordinary-browser-evidence
           path: checkpoints/continuation-20261011/verification/runtime/

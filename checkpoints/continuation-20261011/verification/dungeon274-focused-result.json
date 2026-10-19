@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "buildSha256": "5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "tests": 108,
+  "passed": 108,
+  "failed": 0,
+  "newTests": 16,
+  "durationMs": 111457.968478,
+  "completeFooter": true,
+  "files": [
+    "scripts/dungeon-matte-lifecycle.test.mjs",
+    "scripts/ariadne-story.test.mjs",
+    "scripts/dungeon-story-candidate.test.mjs",
+    "scripts/entrance-key-cache.test.mjs",
+    "scripts/dungeon-door-transactions.test.mjs",
+    "scripts/dungeon-build-access.test.mjs",
+    "scripts/dungeon-keys-candidate.test.mjs",
+    "scripts/river-city-placement.test.mjs",
+    "scripts/river-city-access.test.mjs",
+    "scripts/river-city-candidate.test.mjs",
+    "scripts/reconciled-city-dungeon.test.mjs",
+    "scripts/reachable-dungeon-key.test.mjs",
+    "scripts/campaign-reconciliation.test.mjs",
+    "scripts/puzzle-terrain-contact.test.mjs",
+    "scripts/workflow.test.mjs",
+    "scripts/ziggurat-access.test.mjs",
+    "scripts/relic-recovery-guidance.test.mjs"
+  ],
+  "scope": "Scoped LOCAL actual native return-less room/Three material/flash/native dialogue transaction/JSON plus inherited key/terrain/city/workflow components and exact delivered compile/rebuild. NOT full1100, ordinary browser/mouse/pause Save/exact reload/render/Low8–10/Master acceptance."
+}

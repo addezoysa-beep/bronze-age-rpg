@@ -1,0 +1,17 @@
+{
+  "buildSha256":"5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975",
+  "file":"dist/Wine-Dark-Sea-Dungeon-Story-274.html",
+  "bytes":38533046,
+  "zip":"dist/Wine-Dark-Sea-Dungeon-Story-274.zip",
+  "zipSha256":"568e6dfb6d3648ec9350b8416762610dd2c76cb52dbc14abe96b43e2e2287546",
+  "zipBytes":27048469,
+  "archiveEntries":["Wine-Dark-Sea-Dungeon-Story-274.html","dungeon-story-274-manifest.json"],
+  "extractedHtmlIdentity":"passed",
+  "threeInlineCompilation":"passed",
+  "exactRebuild":"passed",
+  "prior272Unchanged":true,
+  "browserLaunch":{"status":"blocked_before_gameplay","reason":"Actual runtime Playwright Chromium/headless-shell1234 executables absent; fresh chromium.launch failed missing executable. No download retry."},
+  "ordinaryPauseSaveExactReload":"pending",
+  "renderedQuality":"pending",
+  "milestoneAcceptance":"none"
+}
