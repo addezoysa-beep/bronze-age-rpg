@@ -1,0 +1,12 @@
+{
+  "sourceCommit":"05171c565c657b71e872ed0a68c70d216c80769d",
+  "buildSha256":"1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+  "status":"failed_jobs_no_steps_recorded",
+  "runs":[{"id":39205471817,"name":"Reconciled city and dungeon candidate","conclusion":"failure","jobs":[117907233775,117907234024]},{"id":39205471835,"name":"Milestone verification","conclusion":"failure","jobs":[117907234174,117907234353]},{"id":39205471963,"name":"Continuation checkpoint","conclusion":"failure","jobs":[117907234810,117907235021,117907235037,117907235063,117907235097,117907235120,117907235153,117907235164,117907235180]}],
+  "jobSteps":"All returned job snapshots have steps:null and logs_url:null",
+  "scopedJobLog":"117907233775 returns404 BlobNotFound",
+  "reconciledRunArtifacts":0,
+  "cause":"Not established from accessible data; do not infer a game assertion failure or account/billing cause",
+  "scope":"No remote repository/source/browser acceptance or matching generated playable download. LOCAL57 checks and direct HTML/ZIP evidence remain separate and valid.",
+  "next":"Inspect actual CI startup availability and ordinary browser path when available; no repeat hung download, runner/account/privacy changes or acceptance waiver. Continue independent authorized main/QOL/Bronze Age work."
+}

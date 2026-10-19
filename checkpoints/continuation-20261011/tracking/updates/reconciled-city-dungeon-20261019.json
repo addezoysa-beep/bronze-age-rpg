@@ -9,6 +9,7 @@
   "masterReview": {"status": "pending"},
   "localChecks": {"status": "passed", "passed": 57, "failed": 0, "newTests": 24, "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1", "evidence": "verification/reconciled267-focused-result.json", "scope": "Scoped native/Three/collision/terrain/controlled-callback/workflow/compile only; not full1100 suite or ordinary browser/Save/render/Master acceptance"},
   "runtime": {"status": "pending", "blockers": ["Local Chromium executable absent", "Local unchanged baseline index.html absent after pruning; remote baseline preserved", "Exact267 CI/browser results pending"]},
+  "ci":{"status":"failed_no_recorded_steps","sourceCommit":"05171c565c657b71e872ed0a68c70d216c80769d","evidence":"verification/reconciled267-ci.json","gameAssertionFailureEstablished":false,"generatedArtifacts":0},
   "milestoneAcceptance": "none",
   "next": "docs/NEXT_RUN_RECONCILED_20261019.md",
   "retainedScope": "All120 tasks, every M0–M5 gate and all earlier user additions; no milestone/slot accepted or scope dropped"
