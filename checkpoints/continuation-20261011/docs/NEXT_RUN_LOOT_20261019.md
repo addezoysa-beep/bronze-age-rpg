@@ -1,5 +1,7 @@
 # Loot276 — implementation; ordinary gameplay/review still required
 
+Published private draft [PR30](https://github.com/addezoysa-beep/bronze-age-rpg/pull/30), source7292cb2e54da5946541e2f683ef45bc8f4b20823;19 exact source/tracker/evidence readbacks verified. Current source CI39252345449/555/595 failed with13 jobs reporting no recorded steps/log URLs, scoped118058990992 log404 BlobNotFound and0artifacts. No game assertion/account/billing cause established, no rerun requested. PR29/master-development unchanged and actual Master review pending. Additional post-doc workflow/actual276 compile/rebuild recheck10/10 passed; not10 extra unique tests beyond126.
+
 Candidate `dist/Wine-Dark-Sea-Loot-276.html`, SHA256 `536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa`,38,535,982bytes. ZIP `56fa15611972691bd286cf6d3de9122d404ce858691642c2ff0cefe714023f8f`,27,049,270bytes: exactly HTML plus `loot-276-manifest.json`, extracted HTML identical. Both saved successfully. Publication status is authoritative in `tracking/updates/loot-20261019.json`, not inferred from prepared notes. Preserved274 and earlier artifacts remain byte-identical.
 
 ## Successive implementation

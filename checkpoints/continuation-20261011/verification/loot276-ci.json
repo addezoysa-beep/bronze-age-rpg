@@ -1,0 +1,158 @@
+{
+  "buildSha256": "536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa",
+  "sourceCommit": "7292cb2e54da5946541e2f683ef45bc8f4b20823",
+  "runs": [
+    {
+      "id": 39252345449,
+      "name": "Continuation checkpoint",
+      "url": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/39252345449",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "id": 118058990370,
+          "name": "verify-checkpoint",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058990738,
+          "name": "browser-checkpoint (pan)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058990798,
+          "name": "browser-checkpoint (remedy)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058990875,
+          "name": "browser-checkpoint (grip)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058990950,
+          "name": "browser-checkpoint (arrow)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058990971,
+          "name": "browser-checkpoint (travel)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058990985,
+          "name": "browser-checkpoint (lock)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058991102,
+          "name": "browser-checkpoint (tavern)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058991119,
+          "name": "browser-checkpoint (loadperf)",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        }
+      ],
+      "artifacts": 0
+    },
+    {
+      "id": 39252345555,
+      "name": "Milestone verification",
+      "url": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/39252345555",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "id": 118058992090,
+          "name": "Repository checks",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058992371,
+          "name": "Offline browser smoke",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        }
+      ],
+      "artifacts": 0
+    },
+    {
+      "id": 39252345595,
+      "name": "Reconciled city and dungeon candidate",
+      "url": "https://github.com/addezoysa-beep/bronze-age-rpg/actions/runs/39252345595",
+      "status": "completed",
+      "conclusion": "failure",
+      "jobs": [
+        {
+          "id": 118058990992,
+          "name": "scoped-candidate",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        },
+        {
+          "id": 118058991424,
+          "name": "ordinary-browser",
+          "status": "completed",
+          "conclusion": "failure",
+          "steps": [],
+          "logs_url": null
+        }
+      ],
+      "artifacts": 0
+    }
+  ],
+  "noRerunRequested": true,
+  "gameAssertionFailureEstablished": false,
+  "scopedLogProbe": {
+    "content": [
+      {
+        "type": "text",
+        "text": "GitHub API error 404: ﻿<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:248693f7-c01e-00a0-49c5-5f2ab5000000\nTime:2026-10-19T12:29:22.6781087Z</Message></Error>"
+      }
+    ],
+    "structuredContent": {
+      "error": "GitHub API error 404: ﻿<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:248693f7-c01e-00a0-49c5-5f2ab5000000\nTime:2026-10-19T12:29:22.6781087Z</Message></Error>",
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "error_str": "GitHub API error 404: ﻿<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:248693f7-c01e-00a0-49c5-5f2ab5000000\nTime:2026-10-19T12:29:22.6781087Z</Message></Error>"
+      }
+    },
+    "isError": true
+  }
+}
