@@ -5,7 +5,7 @@
   "milestoneIds": ["M0", "M4", "M5"],
   "requirementIds": ["BASE-02", "STORY-01", "SITE-01", "EGYPT-01", "GROUND-163", "LAB-163", "RELIC-163"],
   "summary": "Reconcile master259 with attached Bronze Age additions; fix Ur startup/stair colliders and terrace heights, native burial axis/terrain contact, connected entrance key placement and area-aware main-quest guidance",
-  "masterDelivery": {"status": "pending", "branch": "checkpoint/reconciled-city-dungeon-20261019", "baseHead": "8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+  "masterDelivery": {"status": "delivered", "pr":30,"sourceCommit":"05171c565c657b71e872ed0a68c70d216c80769d","draft":true,"merged":false,"branch": "checkpoint/reconciled-city-dungeon-20261019", "baseHead": "8ae3baf1d6023ab517a542d74ff5c47f85574411","evidence":"https://github.com/addezoysa-beep/bronze-age-rpg/pull/30 ; all19 published source/tracker/evidence files exact-readback verified at05171c565c657b71e872ed0a68c70d216c80769d"},
   "masterReview": {"status": "pending"},
   "localChecks": {"status": "passed", "passed": 57, "failed": 0, "newTests": 24, "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1", "evidence": "verification/reconciled267-focused-result.json", "scope": "Scoped native/Three/collision/terrain/controlled-callback/workflow/compile only; not full1100 suite or ordinary browser/Save/render/Master acceptance"},
   "runtime": {"status": "pending", "blockers": ["Local Chromium executable absent", "Local unchanged baseline index.html absent after pruning; remote baseline preserved", "Exact267 CI/browser results pending"]},
