@@ -5,6 +5,8 @@ on:
       - 'checkpoints/continuation-20261011/scripts/*reconcil*'
       - 'checkpoints/continuation-20261011/scripts/reachable-dungeon-key*'
       - 'checkpoints/continuation-20261011/scripts/attached-bronze-age-additions.mjs'
+      - 'checkpoints/continuation-20261011/scripts/*river-city*'
+      - 'checkpoints/continuation-20261011/scripts/river-city-*'
       - '.github/workflows/reconciled-city-dungeon.yml'
 permissions:
   contents: read
@@ -21,15 +23,15 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/build-current.mjs
-      - run: node scripts/build-reconciled-candidate.mjs
-      - run: node scripts/verify-reconciled-checkpoint.mjs
+      - run: node scripts/build-river-city-candidate.mjs
+      - run: node scripts/verify-river-city-checkpoint.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: reconciled-city-dungeon-267
+          name: river-cities-269
           path: |
-            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Reconciled-267.html
-            checkpoints/continuation-20261011/dist/reconciled-267-manifest.json
-            checkpoints/continuation-20261011/verification/reconciled267-*
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-River-Cities-269.html
+            checkpoints/continuation-20261011/dist/river-cities-269-manifest.json
+            checkpoints/continuation-20261011/verification/river269-*
           if-no-files-found: error
   ordinary-browser:
     runs-on: ubuntu-latest
@@ -45,12 +47,12 @@ jobs:
       - run: npm install --ignore-scripts
       - run: npx playwright install --with-deps chromium
       - run: node scripts/build-current.mjs
-      - run: node scripts/build-reconciled-candidate.mjs
-      - name: Select the exact reconciled candidate for the unchanged ordinary-input smoke
-        run: cp dist/reconciled-267-manifest.json dist/current-build-manifest.json
+      - run: node scripts/build-river-city-candidate.mjs
+      - name: Select the exact river-city candidate for the unchanged ordinary-input smoke
+        run: cp dist/river-cities-269-manifest.json dist/current-build-manifest.json
       - run: node scripts/browser-candidate-smoke.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: reconciled267-ordinary-browser-evidence
+          name: river269-ordinary-browser-evidence
           path: checkpoints/continuation-20261011/verification/runtime/

@@ -1,0 +1,25 @@
+# River-city269 — implementation, not accepted release
+
+HTML `1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77`,38,528,935bytes: `dist/Wine-Dark-Sea-River-Cities-269.html`. ZIP `88d208aff1514a218ab464332d3db2cf62051762f520bcfe030908693829e75d`,27,046,805bytes contains that HTML and `river-cities-269-manifest.json`; extracted identity checked. Predecessor267 remains byte-identical1acd6604/38,521,435bytes. Master259/PR29/baseline unchanged. Source belongs only to existing draftPR30 branch `checkpoint/reconciled-city-dungeon-20261019`, based on freshly checked5ab24e662e30683e3076bfc249bc420c7879a12c. Confirm publication from the update record, not this prepared handoff.
+
+## Successive implementation checkpoints
+
+-268 full-footprint palace placement: replace Ur/Dur fixed sites and Uruk/Eridu center-only search with bounded deterministic footprint/collider/terrain checks inside actual walls. Preserve front approach, central avenue and monument exclusion. Reserve new-city palace/monument plots before native villages; keep their houses inside walls. Existing houses not moved/deleted. Native legacy village/monument fixtures retain palace plots. If no valid plot exists, refuse overlapping construction instead of crashing or creating an unreachable steward.
+-269 public palace halls: four stable distinct native rooms with front portals, columns, account tables/tablets/jars, two local NPCs and native exits. Original Dur steward moved outside the compound collider. Registration refuses occupied room coordinates, existing definitions/built rooms or blocked exterior doors. Reentry does not duplicate actors/furnishings/items/rewards. Simplified game public rooms, not archaeological reconstructions, new historical rulers or additional shared-work animation claims.
+-269 guarded entries: Ur/Uruk/Eridu summit and four palace callbacks revalidate definition identity, area, play state, living/grounded/on-foot player, finite position, physical distance and height. Held callbacks cannot teleport after death, mounting, menu/area changes, walking away or definition replacement. Dur140 retained. Conversations follow live actor positions and reject dead/hostile/stale-room callbacks.
+
+## Evidence and limitations
+
+`node scripts/verify-river-city-checkpoint.mjs`:74/74 scoped LOCAL checks,17new, complete TAP/exit0,31,341.752842ms, candidate hash unchanged. Eight placement, seven access/backend, two exact delivered-candidate checks plus57 inherited component checks. Actual native city/village/Batch/Three geometry, grid/collider and entry/exit/snapshot/Continue with controlled world/DOM/HUD/spawn adapters. One backend test calls explicit manual-save code and reads back exact room/player/outdoor-return data. NOT an ordinary mouse pause-menu Save test or a UI workaround. Three delivered inline scripts compile, exact rebuild and archive identity pass.
+
+NOT the full1100 suite, rendered/browser playthrough, ordinary inputs, offline pause Save/exact-position reload, cold old saves, listening, reference Low8–10 performance or Master acceptance. Local unchanged baseline index.html absent after pruning; remote baseline preserved, cinematic seed is not a replacement. Local Playwright package exists, Chromium1234 absent; no repeated failed download. Prior267 CI39205471817/835/963 failed with steps/log URLs absent, log404 and0artifacts. No game assertion or account/billing cause established. Current release gates, historical GEAR-01 failure and faction-roster prerequisite remain; do not borrow old-hash1100/browser/FPS passes.
+
+## Resume
+
+1. Freshly inspect PR30 head/reviews and exact-head CI. Preserve newer source and PR29 ownership; read latest update records.
+2. Full checkout: `node scripts/build-current.mjs`, `node scripts/build-river-city-candidate.mjs`, `node scripts/verify-river-city-checkpoint.mjs`. Reproduces259→267→269 with exact predecessor guards. Do not mutate a candidate under test.
+3. Dedicated workflow selects269 for unchanged ordinary-input browser smoke. Triggered is not passed; inspect actual steps/logs/artifacts. Do not change account/security settings or repeatedly rerun zero-step failures.
+4. Once available, ordinary startup and pause Save/exact-position reload first; then four city gates/palaces/halls and each summit/return. Check old saves, room saves, full village density and no blocked/buried/floating geometry. Placement fixtures use controlled flat terrain, not rendered full-world proof.
+5. Continue dependency-ready main/QOL/core physical Bronze Age implementation: fully decorated dungeon keys/burials, Pan→physical item→Daedalus and rescue crash/progression defects, then geography/assets. Do not substitute source-only tests for requested implementation. Performance/8–10 and expanded Troy remain lower priority, retained.
+
+All120 tasks/M0–M5/prior requests retained and unaccepted; no slot advanced from fixtures, elapsed-hour inference or measured remaining ETA. Actual exact-hash Master review/existing gates required before integration/release. No new automation/cross-conversation messages.

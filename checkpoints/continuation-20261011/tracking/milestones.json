@@ -1,5 +1,6 @@
 {
   "schemaVersion": 1,
+  "riverCityCandidate269": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-River-Cities-269.html","buildSha256":"1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77","bytes":38528935,"scopedLocalChecks":74,"newTests":17,"milestoneAcceptance":"none","predecessor267Unchanged":true,"handoff":"docs/NEXT_RUN_RIVER_CITIES_20261019.md"},
   "reconciliationCandidate": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Reconciled-267.html","buildSha256":"1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1","bytes":38521435,"scopedLocalChecks":57,"milestoneAcceptance":"none","master259Unchanged":true,"handoff":"docs/NEXT_RUN_RECONCILED_20261019.md"},
   "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "masterConversationId": "6ac9c216-df0c-83ea-ac8d-41f13f292693",

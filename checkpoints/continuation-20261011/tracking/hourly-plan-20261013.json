@@ -1,5 +1,6 @@
 {
   "schemaVersion": 2,
+  "riverCityCandidate269": {"buildSha256":"1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77","status":"implemented_review_pending","scopedLocalChecks":74,"newTests":17,"completedImplementation":["full-footprint palace plots/reserved approaches","new-city house bounds/monument reservations","four public palace halls/native exits","live summit/palace entry/dialogue guards"],"requiredPending":["full regression","ordinary startup/pause Save/exact reload","rendered four-city/cold old-save routes","Master review"],"slotsAdvanced":false,"allPriorScopeRetained":true,"handoff":"docs/NEXT_RUN_RIVER_CITIES_20261019.md"},
   "reconciliationCandidate20261019": {"buildSha256":"1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1","status":"implemented_review_pending","scopedLocalChecks":57,"completedImplementation":["source reconciliation","city startup/ascent","burial orientation/support","entry-connected key source","quest area routing"],"requiredPending":["full regression","ordinary browser startup","pause Save/exact-position reload","four-city and decorated-dungeon walkthrough","Master review"],"slotsAdvanced":false,"allPriorScopeRetained":true},
   "updatedAt": "2026-10-18T22:13:00Z",
   "timezone": "America/New_York",
