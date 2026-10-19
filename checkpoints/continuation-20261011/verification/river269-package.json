@@ -9,6 +9,7 @@
   "threeInlineCompile":"passed",
   "extractedGameIdentity":"passed",
   "predecessor267Identity":"unchanged",
+  "sourcePublication":{"pr":30,"sourceCommit":"d96bfc238d25c117b9d2bd47530375fdb560b973","readbacks":18,"exactMatches":18,"draft":true,"merged":false},
   "delivery":{"html":"saved","zip":"saved","userDownloadAccessibility":"not_tested","GithubGeneratedArtifact":"pending"},
   "ordinaryOfflinePauseSaveExactReload":"pending",
   "renderedAcceptance":"pending",

@@ -1,0 +1,155 @@
+{
+  "buildSha256": "1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77",
+  "sourceCommit": "d96bfc238d25c117b9d2bd47530375fdb560b973",
+  "status": "failed_no_recorded_steps",
+  "runs": [
+    {
+      "runId": 39213224378,
+      "data": {
+        "jobs": [
+          {
+            "id": 117931076297,
+            "name": "Repository checks",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224378,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076311,
+            "name": "Offline browser smoke",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224378,
+            "logs_url": null,
+            "steps": null
+          }
+        ]
+      }
+    },
+    {
+      "runId": 39213224375,
+      "data": {
+        "jobs": [
+          {
+            "id": 117931075700,
+            "name": "verify-checkpoint",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931075963,
+            "name": "browser-checkpoint (tavern)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931075990,
+            "name": "browser-checkpoint (remedy)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076022,
+            "name": "browser-checkpoint (travel)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076079,
+            "name": "browser-checkpoint (pan)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076080,
+            "name": "browser-checkpoint (lock)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076099,
+            "name": "browser-checkpoint (arrow)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076117,
+            "name": "browser-checkpoint (loadperf)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076223,
+            "name": "browser-checkpoint (grip)",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224375,
+            "logs_url": null,
+            "steps": null
+          }
+        ]
+      }
+    },
+    {
+      "runId": 39213224385,
+      "data": {
+        "jobs": [
+          {
+            "id": 117931076074,
+            "name": "scoped-candidate",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224385,
+            "logs_url": null,
+            "steps": null
+          },
+          {
+            "id": 117931076190,
+            "name": "ordinary-browser",
+            "status": "completed",
+            "conclusion": "failure",
+            "run_id": 39213224385,
+            "logs_url": null,
+            "steps": null
+          }
+        ]
+      }
+    }
+  ],
+  "scopedJobLog": {
+    "jobId": 117931076074,
+    "status": 404,
+    "code": "BlobNotFound"
+  },
+  "artifacts": [],
+  "gameAssertionFailureEstablished": false,
+  "accountOrBillingCauseEstablished": false,
+  "ordinaryGameplayAcceptance": "pending",
+  "noRerunRequested": true
+}
