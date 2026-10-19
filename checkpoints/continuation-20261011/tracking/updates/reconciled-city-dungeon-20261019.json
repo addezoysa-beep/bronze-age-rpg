@@ -1,0 +1,15 @@
+{
+  "id": "reconciled-city-dungeon-20261019",
+  "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+  "bytes": 38521435,
+  "milestoneIds": ["M0", "M4", "M5"],
+  "requirementIds": ["BASE-02", "STORY-01", "SITE-01", "EGYPT-01", "GROUND-163", "LAB-163", "RELIC-163"],
+  "summary": "Reconcile master259 with attached Bronze Age additions; fix Ur startup/stair colliders and terrace heights, native burial axis/terrain contact, connected entrance key placement and area-aware main-quest guidance",
+  "masterDelivery": {"status": "pending", "branch": "checkpoint/reconciled-city-dungeon-20261019", "baseHead": "8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+  "masterReview": {"status": "pending"},
+  "localChecks": {"status": "passed", "passed": 57, "failed": 0, "newTests": 24, "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1", "evidence": "verification/reconciled267-focused-result.json", "scope": "Scoped native/Three/collision/terrain/controlled-callback/workflow/compile only; not full1100 suite or ordinary browser/Save/render/Master acceptance"},
+  "runtime": {"status": "pending", "blockers": ["Local Chromium executable absent", "Local unchanged baseline index.html absent after pruning; remote baseline preserved", "Exact267 CI/browser results pending"]},
+  "milestoneAcceptance": "none",
+  "next": "docs/NEXT_RUN_RECONCILED_20261019.md",
+  "retainedScope": "All120 tasks, every M0–M5 gate and all earlier user additions; no milestone/slot accepted or scope dropped"
+}

@@ -1,0 +1,56 @@
+name: Reconciled city and dungeon candidate
+on:
+  pull_request:
+    paths:
+      - 'checkpoints/continuation-20261011/scripts/*reconcil*'
+      - 'checkpoints/continuation-20261011/scripts/reachable-dungeon-key*'
+      - 'checkpoints/continuation-20261011/scripts/attached-bronze-age-additions.mjs'
+      - '.github/workflows/reconciled-city-dungeon.yml'
+permissions:
+  contents: read
+jobs:
+  scoped-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: checkpoints/continuation-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/build-current.mjs
+      - run: node scripts/build-reconciled-candidate.mjs
+      - run: node scripts/verify-reconciled-checkpoint.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reconciled-city-dungeon-267
+          path: |
+            checkpoints/continuation-20261011/dist/Wine-Dark-Sea-Reconciled-267.html
+            checkpoints/continuation-20261011/dist/reconciled-267-manifest.json
+            checkpoints/continuation-20261011/verification/reconciled267-*
+          if-no-files-found: error
+  ordinary-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: checkpoints/continuation-20261011
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/build-current.mjs
+      - run: node scripts/build-reconciled-candidate.mjs
+      - name: Select the exact reconciled candidate for the unchanged ordinary-input smoke
+        run: cp dist/reconciled-267-manifest.json dist/current-build-manifest.json
+      - run: node scripts/browser-candidate-smoke.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reconciled267-ordinary-browser-evidence
+          path: checkpoints/continuation-20261011/verification/runtime/

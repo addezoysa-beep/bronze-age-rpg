@@ -1,5 +1,6 @@
 {
   "schemaVersion": 2,
+  "reconciliationCandidate20261019": {"buildSha256":"1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1","status":"implemented_review_pending","scopedLocalChecks":57,"completedImplementation":["source reconciliation","city startup/ascent","burial orientation/support","entry-connected key source","quest area routing"],"requiredPending":["full regression","ordinary browser startup","pause Save/exact-position reload","four-city and decorated-dungeon walkthrough","Master review"],"slotsAdvanced":false,"allPriorScopeRetained":true},
   "updatedAt": "2026-10-18T22:13:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
@@ -3004,3 +3005,4 @@
     "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
   }
 }
+

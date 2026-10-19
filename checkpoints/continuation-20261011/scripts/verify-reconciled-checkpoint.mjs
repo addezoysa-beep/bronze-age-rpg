@@ -1,0 +1,10 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import {spawnSync} from 'node:child_process';import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url)),file='dist/Wine-Dark-Sea-Reconciled-267.html',hash=()=>crypto.createHash('sha256').update(fs.readFileSync(new URL('../'+file,import.meta.url))).digest('hex');
+const tests=['reconciled-city-dungeon','reachable-dungeon-key','campaign-reconciliation','puzzle-terrain-contact','workflow','ziggurat-access','relic-recovery-guidance'].map(x=>'scripts/'+x+'.test.mjs');
+const before=hash(),run=spawnSync(process.execPath,['--test','--test-concurrency=1','--test-reporter=tap',...tests],{cwd:root,encoding:'utf8',maxBuffer:8*1024*1024}),tap=run.stdout||'';
+const footer=/\n1\.\.(\d+)\n# tests (\d+)\n# suites \d+\n# pass (\d+)\n# fail (\d+)\n# cancelled (\d+)\n# skipped (\d+)\n# todo (\d+)\n# duration_ms ([\d.]+)\s*$/.exec(tap),unchanged=hash()===before;
+const ok=run.status===0&&footer&&+footer[2]===+footer[3]&&footer.slice(4,8).every(x=>+x===0)&&unchanged;
+fs.mkdirSync(new URL('../verification/',import.meta.url),{recursive:true});
+fs.writeFileSync(new URL('../verification/reconciled267-focused-tap.txt',import.meta.url),tap+'\n'+(run.stderr||''));
+const report={status:ok?'passed':'failed',buildSha256:before,hashUnchanged:unchanged,exitCode:run.status,tests:footer?+footer[2]:null,passed:footer?+footer[3]:null,failed:footer?+footer[4]:null,durationMs:footer?+footer[8]:null,completeFooter:!!footer,files:tests,scope:'Scoped LOCAL native code, Three geometry/collision/terrain, controlled callbacks, workflow and inline-compile checks. Not full1100 regression, ordinary browser/Save/rendered gameplay or milestone acceptance.'};
+fs.writeFileSync(new URL('../verification/reconciled267-focused-result.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));if(!ok)process.exitCode=1;
