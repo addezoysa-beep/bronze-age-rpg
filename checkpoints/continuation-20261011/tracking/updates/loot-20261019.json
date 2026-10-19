@@ -1,0 +1,22 @@
+{
+ "id":"loot-20261019",
+ "buildSha256":"536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa",
+ "bytes":38535982,
+ "file":"dist/Wine-Dark-Sea-Loot-276.html",
+ "milestoneIds":["M0","M2","M4"],
+ "requirementIds":["BASE-02","STORY-01","SITE-01"],
+ "summary":"275 actual native loot/Take-all/chest transfer context and quantity guards;276 exact physical key quantity conversion without equipment/flag grants",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "sourcePublication":{"status":"pending","pr":30,"branch":"checkpoint/reconciled-city-dungeon-20261019","expectedPriorHead":"8a73c96e72d635ddd9c49098fbe31d7eeddb5417","PR29HeadUnchanged":"8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+ "ci":{"status":"not_requested_before_source_publication","previous274":"13 failed jobs without recorded steps/log URLs, scoped log404 and0artifacts. No game assertion/account cause established; no rerun requested."},
+ "localChecks":{"status":"passed","buildSha256":"536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa","passed":126,"failed":0,"newTests":18,"durationMs":127684.374972,"hashUnchanged":true,"evidence":"verification/loot276-focused-result.json","scope":"Scoped LOCAL native loot/transfer/Pan/DOM-state/JSON, inherited native room/Three/material/dialogue/city/workflow plus exact rebuild/compile; NOT full1100 or ordinary browser/Save/render/Master"},
+ "runtime":{"status":"pending","ordinaryStartup":"pending","ordinaryOfflinePauseSaveExactReload":"pending","mainRoute":"pending","fourCities":"pending","oldSave":"pending","renderedQuality":"pending","LowEightTen":"pending","browser":"Fresh actual chromium.launch failed before gameplay:1234 headless-shell and full Chrome executable absent. No download retry."},
+ "package":{"zip":"dist/Wine-Dark-Sea-Loot-276.zip","zipSha256":"56fa15611972691bd286cf6d3de9122d404ce858691642c2ff0cefe714023f8f","bytes":27049270,"extractedGameIdentity":"passed","delivery":"HTML and ZIP saved successfully, local identity applied; user accessibility not tested"},
+ "milestoneAcceptance":"none",
+ "releaseGate":{"status":"blocked","reason":"Unchanged canonical259 CLI input unavailable locally and actual exact-hash Master/all M0–M5 evidence/GEAR-01/roster gates remain open; no gate changes"},
+ "slotsAdvanced":false,
+ "remainingEstimate":"unmeasured;120 allocations are not elapsed scheduled hours",
+ "next":"docs/NEXT_RUN_LOOT_20261019.md",
+ "retainedScope":"All120/M0–M5/every earlier request retained; main/QOL/physical Bronze Age first, further8–10 performance/expanded Troy lower retained"
+}
