@@ -1,5 +1,7 @@
 # Dungeon-key272 — implementation, current gameplay gates open
 
+Published private draft [PR30](https://github.com/addezoysa-beep/bronze-age-rpg/pull/30), source0bf2b216e36c02a71aead37c591b82ca6d0628c6; all22 source/tracker/evidence files exact-readback verified. HTML and ZIP saved. Source CI39218385151/066/167 failed: all13 jobs steps:null/logs_url:null, scoped job117947576898 log unavailable and0artifacts. See `verification/dungeon272-ci.json`; no game assertion or account/billing cause established, no rerun requested. PR29 head8ae3baf1 and master-development53989c4b freshly verified unchanged. Ordinary acceptance remains open; useful independent implementation continues.
+
 HTML `1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822`,38,530,732bytes: `dist/Wine-Dark-Sea-Dungeon-Keys-272.html`. ZIP `f14c5e1c7b7e8a1883435af1cd3882b2dc348b217dc3ac5683cfe1d628db7975`,27,047,471bytes, exactly the HTML and `dungeon-keys-272-manifest.json`; extracted identity checked.267/269/master259 bytes remain unchanged. Use272 for the newly corrected entry path;269 is historical, not a verified fallback for palace/sanctuary entry.
 
 ## Successive implementation

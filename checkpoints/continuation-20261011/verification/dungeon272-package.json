@@ -9,6 +9,7 @@
   "threeInlineCompile":"passed",
   "extractedGameIdentity":"passed",
   "predecessor269Identity":"unchanged",
+  "sourcePublication":{"pr":30,"sourceCommit":"0bf2b216e36c02a71aead37c591b82ca6d0628c6","readbacks":22,"exactMatches":22,"draft":true,"merged":false},
   "browser":{"runtimePackagePresent":true,"chromium1234Present":false,"downloadRetried":false},
   "release":{"status":"blocked","cli":"Local canonical259 dist/current-build-manifest.json absent","directUnchangedReleaseErrors":"Rejects missing delivery/review, unaccepted M0–M5/current-hash evidence, GEAR-01 failure and unapproved faction roster; no waiver"},
   "delivery":{"html":"saved","zip":"saved","userDownloadAccessibility":"not_tested","GithubGeneratedArtifact":"pending"},
