@@ -1,5 +1,7 @@
 # Dungeon-story274 — implementation; ordinary gameplay/review still required
 
+Published private draft [PR30](https://github.com/addezoysa-beep/bronze-age-rpg/pull/30), source09cca763f88b5ff33d7a506c4d6171af5e0aad07; all18 source/tracker/evidence files exact-readback verified. HTML and ZIP saved. Current source CI39230547080/082/104 failed with all13 jobs steps:null/logs_url:null, scoped117987173705 log404 BlobNotFound and0artifacts; no game assertion/account/billing cause established, no rerun requested. PR29 and master-development remain unchanged. Actual Master review pending.
+
 Current candidate `dist/Wine-Dark-Sea-Dungeon-Story-274.html`, SHA256 `5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975`,38,533,046bytes. ZIP `568e6dfb6d3648ec9350b8416762610dd2c76cb52dbc14abe96b43e2e2287546`,27,048,469bytes; exactly HTML plus `dungeon-story-274-manifest.json`, extracted HTML hash identical. Preserved272/269/267/master259 are unchanged. Publication/evidence status is authoritative in `tracking/updates/dungeon-story-20261019.json`; never infer delivered status from these prepared notes.
 
 ## Successive implementation
@@ -14,6 +16,8 @@ Tests use actual native say/dlgLine/closeDlg/dlgAdvance plus existing story guar
 Final current-hash108/108 scoped LOCAL checks passed,16new,111457.968478ms, complete TAP/exit0/hash unchanged: `verification/dungeon274-focused-result.json` and full TAP. Run `node scripts/build-current.mjs` on a full checkout, then `node scripts/build-dungeon-story-candidate.mjs` and `node scripts/verify-dungeon-story-checkpoint.mjs`. Exact pinned272 predecessor and three-inline offline compilation required. Full1100 baseline regression is not available locally: original index.html pruned, remote preserved. Do not replace it with the cinematic seed.
 
 Local Playwright package present, fresh actual chromium.launch failed missing1234 headless-shell; full Chrome1234 also absent. No download retry. Ordinary startup/mouse dialogue, offline pause Save/exact-position reload, cold old-save migration, populated four-city/dungeon/main/rescue routes, rendered anatomy/contact/materials, listening, Low8–10 measurements and Master review all remain pending. No M0–M5 or120-slot acceptance; historical GEAR-01 failure and unapproved expanded faction roster retained. Remaining ETA unmeasured, not elapsed scheduled hours.
+
+Unchanged release CLI remains blocked on absent canonical259 manifest; direct unchanged releaseErrors on274 also blocks current-hash Master review/all M0–M5 evidence/GEAR-01/roster. Do not change canonical259 identity to turn a partial isolated candidate into an accepted release. Additional final workflow/actual274 compile-rebuild recheck10/10 passed after documentation/workflow edits (not10 extra unique tests beyond108).
 
 ## Resume
 
