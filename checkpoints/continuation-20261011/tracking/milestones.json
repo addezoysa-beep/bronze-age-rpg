@@ -1068,9 +1068,12 @@
       "localPrototype": {
         "baseBuild": "279 preserved local candidate",
         "behaviorTests": {
-          "executed": 6,
-          "passed": 6,
-          "failed": 0
+          "totalExecuted": 7,
+          "behaviorExecuted": 5,
+          "behaviorPassed": 5,
+          "failed": 0,
+          "offlineScriptCompile": "passed against preserved279",
+          "candidateCompositionCheck": "conditional no-op; exact280 descendant absent locally"
         },
         "candidateCompositionCheck": "conditional check was a no-op; exact280 descendant not present locally",
         "workflowTests": {
