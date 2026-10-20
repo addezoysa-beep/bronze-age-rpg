@@ -1,0 +1,48 @@
+{
+  "id": "stealth-cover-20261020",
+  "milestoneIds": ["M1", "M3", "M4"],
+  "requirementIds": ["STEALTH-COVER-281"],
+  "status": "prototype_implemented_current_candidate_integration_pending",
+  "baseCandidate": {
+    "file": "dist/Wine-Dark-Sea-Dialogue-Input-279.html",
+    "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+    "scope": "Preserved local 279 only; latest remote PR30 candidate is Build280 and is not present in this workspace."
+  },
+  "implementation": "Adds idempotent cover registration to the actual campTent builder and crouched cover only for clear, current, one-exit cave/mine/dungeon cells away from chests, spawns, interactions, starts and bosses. No geometry or collision is added. Builder for a descendant of exact remote Build280 is prepared but cannot be built locally without that source file.",
+  "localChecks": {
+    "status": "passed",
+    "stealthFocused": {"passed": 5, "failed": 0},
+    "workflowFocused": {"passed": 8, "failed": 0},
+    "combinedFocused": {"passed": 13, "failed": 0, "exitCode": 0, "completeFooter": true},
+    "lockCameraRegression": {"passed": 60, "failed": 0, "exitCode": 0},
+    "inlineCompileOnPreserved279": "passed",
+    "evidence": "Execution output for scripts/stealth-cover-checkpoint.test.mjs, scripts/workflow.test.mjs and scripts/lock-camera.test.mjs; no complete TAP evidence file was written."
+  },
+  "runtime": {
+    "status": "pending",
+    "candidate281Hash": null,
+    "ordinaryTentAndAlcovePlay": "pending",
+    "renderedOcclusionAndAI": "pending",
+    "offlinePauseSaveExactReload": "pending",
+    "browser": "Current workspace could not import Playwright (ERR_MODULE_NOT_FOUND); no gameplay launch attempted."
+  },
+  "remote": {
+    "currentPullRequest": 30,
+    "startingHead": "d3da95188bb7517aea849ef6e69f5f3aa9f7bbda",
+    "source280": "90fcbf1d1c0fd84b38ee45ef3c7c37a04aa9b93d",
+    "candidate280": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+    "candidate280Bytes": 38539776,
+    "candidate280CombinedRun": "137 completed passing entries, 0 recorded assertion failures, interrupted with exit 1 and no TAP footer; not a pass",
+    "candidate280CI": "13 failed jobs without recorded steps/log URLs and 0 artifacts; no game/account cause established"
+  },
+  "milestoneAcceptance": "none",
+  "slotAcceptance": "none",
+  "pending": [
+    "Integrate and run against actual Build280 without losing rescue detours",
+    "ordinary tent/alcove crouch, stand, movement and AI suspicion/LOS/hearing",
+    "rendered first-/third-person verification of tent occlusion and alcove discoverability",
+    "offline pause-menu Save and exact-position reload",
+    "current-hash checks and actual Master review",
+    "scheduled slots 1-16 remain active; 1-9 are not cleared as a group"
+  ]
+}
