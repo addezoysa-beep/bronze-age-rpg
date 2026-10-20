@@ -1072,7 +1072,7 @@
           "passed": 6,
           "failed": 0
         },
-        "candidateCompositionCheck": "no-op because exact280-derived candidate is not present locally",
+        "candidateCompositionCheck": "conditional check was a no-op; exact280 descendant not present locally",
         "workflowTests": {
           "passed": 8,
           "failed": 0
@@ -1111,13 +1111,23 @@
         "rendered occlusion and FP/TP",
         "offline pause Save/exact reload",
         "current-hash Master review"
-      ]
+      ],
+      "latestWorkflow": {
+        "run": 39448902594,
+        "head": "3662e3b1290386b0357577f3dccdd2be9c0b3aab",
+        "status": "failure_no_recorded_steps",
+        "jobId": 118718120435,
+        "logs": "404 BlobNotFound",
+        "artifacts": 0,
+        "gameAssertionCauseEstablished": false,
+        "rerunRequested": false
+      }
     },
     "latestUserDirection20261020": {
       "workGoals": "All prior and latest user feedback remains in scope.",
       "priority": "Dungeon/cave/mine tents and reachable alcoves for stealth; proceed through scheduled slots 1-16, aiming to clear 1-9 today.",
       "targetHandling": "Target only; no current-hash, ordinary-play, visual, Save/reload, or Master gate is waived.",
-      "slots1to9": "Not cleared as a group; Build280 combined run incomplete; current stealth workflow returned failure with no recorded steps/logs/artifacts; ordinary browser/Save gates remain open.",
+      "slots1to9": "Not cleared; Build280 combined run incomplete; two stealth workflows failed without steps/logs/artifacts; ordinary browser/Save gates open.",
       "evidence": "docs/USER_FEEDBACK_STEALTH_20261020.md"
     }
   },
