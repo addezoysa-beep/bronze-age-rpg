@@ -1062,16 +1062,17 @@
     "stealthCover281": {
       "id": "STEALTH-COVER-281",
       "reportedAt": "2026-10-20",
-      "status": "prototype_published_current_candidate_ci_pending",
+      "status": "prototype_published_current_candidate_CI_incomplete",
       "priority": "high; user prioritizes existing enemy tents and reachable dungeon/cave/mine alcoves for stealth",
       "scope": "Register real enemy camp tent cover and grant crouched cover only in clear, current one-exit dungeon/cave/mine cells away from chests, spawns, interactions, start and boss. Preserve LOS/hearing, combat, routes and 8-10 attackers.",
       "localPrototype": {
         "baseBuild": "279 preserved local candidate",
-        "focusedTests": {
-          "executed": 5,
-          "passed": 5,
+        "behaviorTests": {
+          "executed": 6,
+          "passed": 6,
           "failed": 0
         },
+        "candidateCompositionCheck": "no-op because exact280-derived candidate is not present locally",
         "workflowTests": {
           "passed": 8,
           "failed": 0
@@ -1083,7 +1084,7 @@
         "currentBuild280IntegratedLocally": false
       },
       "currentCandidate": {
-        "status": "queued for exact-280 GitHub build",
+        "status": "CI retry pending after 281 script fix",
         "priorBuildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
         "buildSha256": null
       },
@@ -1093,13 +1094,30 @@
         "offlinePauseSaveExactReload": "pending",
         "masterReview": "pending"
       },
-      "milestoneAcceptance": "none"
+      "milestoneAcceptance": "none",
+      "firstWorkflow": {
+        "run": 39448441153,
+        "head": "9a86014b00e56fec4c4ea5927f0dad60ad12f395",
+        "status": "failure_no_recorded_steps",
+        "jobId": 118716489963,
+        "logs": "404 BlobNotFound",
+        "artifacts": 0,
+        "gameAssertionCauseEstablished": false
+      },
+      "pending": [
+        "run exact280-derived 281 build on current PR source",
+        "inspect a recorded CI failure or artifact before claiming build",
+        "ordinary tent/alcove/AI test",
+        "rendered occlusion and FP/TP",
+        "offline pause Save/exact reload",
+        "current-hash Master review"
+      ]
     },
     "latestUserDirection20261020": {
       "workGoals": "All prior and latest user feedback remains in scope.",
       "priority": "Dungeon/cave/mine tents and reachable alcoves for stealth; proceed through scheduled slots 1-16, aiming to clear 1-9 today.",
       "targetHandling": "Target only; no current-hash, ordinary-play, visual, Save/reload, or Master gate is waived.",
-      "slots1to9": "Not cleared as a group; Build280 combined run incomplete and ordinary browser/Save gates remain open.",
+      "slots1to9": "Not cleared as a group; Build280 combined run incomplete; current stealth workflow returned failure with no recorded steps/logs/artifacts; ordinary browser/Save gates remain open.",
       "evidence": "docs/USER_FEEDBACK_STEALTH_20261020.md"
     }
   },
