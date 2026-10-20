@@ -1,5 +1,7 @@
 # Dialogue input279 — implementation; ordinary gameplay/review required
 
+Published private draft [PR30](https://github.com/addezoysa-beep/bronze-age-rpg/pull/30), source864112a839145c28234c3ea288b843f0a5dfda73;21 exact source/tracker/evidence readbacks. CI39386725845/25839/25829 failed with13 jobs without recorded steps/log URLs and0artifacts; scoped118508219399 log404 BlobNotFound. No game assertion/account/billing cause established, no rerun requested. Post-doc exact279 compile/rebuild/workflow10/10 recheck passed, not10 extra unique tests beyond148. Actual Master review pending. See verification/input279-ci.json and update record; metadata-only commit does not create new game/runtime evidence.
+
 Candidate `dist/Wine-Dark-Sea-Dialogue-Input-279.html`, SHA256 `6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97`,38,538,798bytes. Exact predecessor278 remains unchanged. ZIP `b55b72c08133f6484e915c62b4898d18868ef3eb638b0488d775dd74be8f17ad`,27,051,744bytes contains exactly HTML and `dialogue-input-279-manifest.json`; extracted game identity passed. New HTML/ZIP durable saving failed access403 before byte transfer; no retry/reroute, local artifacts intact. Source publication and final CI status must be read from current update/evidence, not inferred from prepared handoff.
 
 ## Actual implementation and tests
@@ -12,7 +14,7 @@ Final148/148 scoped LOCAL checks pass,8new,125398.335944ms, complete TAP/exit0/c
 
 ## Blockers and unchanged gates
 
-Fresh this run actual Playwright launch fails before game: chromium1234 full/headless-shell executable absent, package present; no download retry.278 CI39385652143/51959/51941 has13 failed jobs with no recorded steps/log URLs,0artifacts; scoped log404 BlobNotFound. No game assertion/account/billing cause established; no rerun requested. Fresh279 source-head CI still needs inspection. File-saving helper stopped with hosted tools/list HTTP403 before transfer; no successful279 durable download claim.
+Fresh this run actual Playwright launch fails before game: chromium1234 full/headless-shell executable absent, package present; no download retry.279 CI inspected as above;278 CI39385652143/51959/51941 also has13 failed jobs with no recorded steps/log URLs,0artifacts and scoped log404. No game assertion/account/billing cause established; no rerun requested. File-saving helper stopped with hosted tools/list HTTP403 before transfer; no successful279 durable download claim.
 
 Ordinary startup, mouse/keyboard cancel/reopen/next-menu transactions, native area-key and pick chests, full main/Pan/rescue/four-city/dungeon routes, cold old saves, ordinary offline pause-menu Save/exact-position reload, rendered anatomy/contact/audio/reference Low8–10 and exact-hash Master review remain open. No M0–M5 or120-slot accepted; historical GEAR-01 failure, faction approval and release gate retained. Preserve every earlier requirement, all120, main/QOL/physical Bronze Age first; further performance/8–10 and expandedTroy lower but retained. Remaining estimate unmeasured.
 
