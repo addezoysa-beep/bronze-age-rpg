@@ -1,0 +1,3 @@
+import crypto from 'node:crypto';import vm from 'node:vm';import {repairDialogueInput} from './dialogue-input-patch.mjs';
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+export function assembleDialogueInputCandidate(prior){if(hash(prior)!=='35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7')throw Error('Preserved278 identity changed');const output=Buffer.from(repairDialogueInput(prior.toString('utf8'))),scripts=[...output.toString('utf8').matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)];if(scripts.length!==3||scripts.some(m=>/src\s*=/.test(m[1])))throw Error('Offline script contract changed');for(const m of scripts)new vm.Script(m[2]);return output;}

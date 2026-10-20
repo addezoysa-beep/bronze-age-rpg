@@ -1,5 +1,7 @@
 # Chest/dialogue278 — implementation; ordinary gameplay/review required
 
+Published private draft [PR30](https://github.com/addezoysa-beep/bronze-age-rpg/pull/30), source82208cd2c774d5e0d2be7bdb6e32793928ce1449;19 exact source/evidence readbacks. CI39385652143/51959/51941 failed with13 jobs without recorded steps/log URLs and0artifacts; scoped118504740010 log404 BlobNotFound. No game assertion/account cause established, no rerun requested. Actual Master review pending. Post-doc exact278 compile/rebuild/workflow recheck10/10 pass, not10 additional unique tests beyond140.
+
 Candidate `dist/Wine-Dark-Sea-Chest-Dialogue-278.html`, SHA256 `35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7`,38,538,080bytes. ZIP `ef536920ced0a5a12885ba983bfe694c5df9c0938ea67bc21bde61c63770be91`,27,051,453bytes: exactly HTML plus `chest-dialogue-278-manifest.json`; extracted game identity checked. Source publication and final suite status are authoritative in the update/result records, not inferred from prepared notes. Candidate276 and all predecessors unchanged.
 
 ## Successive fixes
