@@ -1,13 +1,100 @@
 {
   "schemaVersion": 1,
-  "harbourDetourCandidate280": {"status":"implemented_verification_incomplete_review_pending","file":"dist/Wine-Dark-Sea-Harbour-Detour-280.html","buildSha256":"e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638","bytes":38539776,"scopedLocalChecks":{"completedPassingEntries":137,"recordedAssertionFailures":0,"completeFooter":false,"exitCode":1,"status":"incomplete_interrupted","evidence":"verification/harbour280-focused-result.json"},"newTests":10,"milestoneAcceptance":"none","predecessor279Unchanged":true,"handoff":"docs/NEXT_RUN_HARBOUR_DETOUR_20261020.md","updated48ActiveHours":"docs/UPDATED_48_ACTIVE_HOURS_20261020.md"},
-  "dialogueInputCandidate279": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Dialogue-Input-279.html","buildSha256":"6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97","bytes":38538798,"scopedLocalChecks":148,"newTests":8,"milestoneAcceptance":"none","predecessor278Unchanged":true,"handoff":"docs/NEXT_RUN_DIALOGUE_INPUT_20261020.md"},
-  "chestDialogueCandidate278": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Chest-Dialogue-278.html","buildSha256":"35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7","bytes":38538080,"scopedLocalChecks":140,"newTests":14,"milestoneAcceptance":"none","predecessor276Unchanged":true,"handoff":"docs/NEXT_RUN_CHEST_DIALOGUE_20261019.md"},
-  "lootCandidate276": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Loot-276.html","buildSha256":"536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa","bytes":38535982,"scopedLocalChecks":126,"newTests":18,"milestoneAcceptance":"none","predecessor274Unchanged":true,"handoff":"docs/NEXT_RUN_LOOT_20261019.md"},
-  "dungeonStoryCandidate274": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Dungeon-Story-274.html","buildSha256":"5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975","bytes":38533046,"scopedLocalChecks":108,"newTests":16,"milestoneAcceptance":"none","predecessor272Unchanged":true,"handoff":"docs/NEXT_RUN_DUNGEON_STORY_20261019.md"},
-  "dungeonKeysCandidate272": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Dungeon-Keys-272.html","buildSha256":"1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822","bytes":38530732,"scopedLocalChecks":92,"newTests":18,"milestoneAcceptance":"none","predecessor269Unchanged":true,"handoff":"docs/NEXT_RUN_DUNGEON_KEYS_20261019.md"},
-  "riverCityCandidate269": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-River-Cities-269.html","buildSha256":"1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77","bytes":38528935,"scopedLocalChecks":74,"newTests":17,"milestoneAcceptance":"none","predecessor267Unchanged":true,"handoff":"docs/NEXT_RUN_RIVER_CITIES_20261019.md"},
-  "reconciliationCandidate": {"status":"implemented_review_pending","file":"dist/Wine-Dark-Sea-Reconciled-267.html","buildSha256":"1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1","bytes":38521435,"scopedLocalChecks":57,"milestoneAcceptance":"none","master259Unchanged":true,"handoff":"docs/NEXT_RUN_RECONCILED_20261019.md"},
+  "harbourDetourCandidate280": {
+    "status": "implemented_verification_incomplete_review_pending",
+    "file": "dist/Wine-Dark-Sea-Harbour-Detour-280.html",
+    "buildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+    "bytes": 38539776,
+    "scopedLocalChecks": {
+      "completedPassingEntries": 137,
+      "recordedAssertionFailures": 0,
+      "completeFooter": false,
+      "exitCode": 1,
+      "status": "incomplete_interrupted",
+      "evidence": "verification/harbour280-focused-result.json"
+    },
+    "newTests": 10,
+    "milestoneAcceptance": "none",
+    "predecessor279Unchanged": true,
+    "handoff": "docs/NEXT_RUN_HARBOUR_DETOUR_20261020.md",
+    "updated48ActiveHours": "docs/UPDATED_48_ACTIVE_HOURS_20261020.md"
+  },
+  "dialogueInputCandidate279": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Dialogue-Input-279.html",
+    "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+    "bytes": 38538798,
+    "scopedLocalChecks": 148,
+    "newTests": 8,
+    "milestoneAcceptance": "none",
+    "predecessor278Unchanged": true,
+    "handoff": "docs/NEXT_RUN_DIALOGUE_INPUT_20261020.md"
+  },
+  "chestDialogueCandidate278": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Chest-Dialogue-278.html",
+    "buildSha256": "35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7",
+    "bytes": 38538080,
+    "scopedLocalChecks": 140,
+    "newTests": 14,
+    "milestoneAcceptance": "none",
+    "predecessor276Unchanged": true,
+    "handoff": "docs/NEXT_RUN_CHEST_DIALOGUE_20261019.md"
+  },
+  "lootCandidate276": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Loot-276.html",
+    "buildSha256": "536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa",
+    "bytes": 38535982,
+    "scopedLocalChecks": 126,
+    "newTests": 18,
+    "milestoneAcceptance": "none",
+    "predecessor274Unchanged": true,
+    "handoff": "docs/NEXT_RUN_LOOT_20261019.md"
+  },
+  "dungeonStoryCandidate274": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Dungeon-Story-274.html",
+    "buildSha256": "5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975",
+    "bytes": 38533046,
+    "scopedLocalChecks": 108,
+    "newTests": 16,
+    "milestoneAcceptance": "none",
+    "predecessor272Unchanged": true,
+    "handoff": "docs/NEXT_RUN_DUNGEON_STORY_20261019.md"
+  },
+  "dungeonKeysCandidate272": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Dungeon-Keys-272.html",
+    "buildSha256": "1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+    "bytes": 38530732,
+    "scopedLocalChecks": 92,
+    "newTests": 18,
+    "milestoneAcceptance": "none",
+    "predecessor269Unchanged": true,
+    "handoff": "docs/NEXT_RUN_DUNGEON_KEYS_20261019.md"
+  },
+  "riverCityCandidate269": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-River-Cities-269.html",
+    "buildSha256": "1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77",
+    "bytes": 38528935,
+    "scopedLocalChecks": 74,
+    "newTests": 17,
+    "milestoneAcceptance": "none",
+    "predecessor267Unchanged": true,
+    "handoff": "docs/NEXT_RUN_RIVER_CITIES_20261019.md"
+  },
+  "reconciliationCandidate": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Reconciled-267.html",
+    "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+    "bytes": 38521435,
+    "scopedLocalChecks": 57,
+    "milestoneAcceptance": "none",
+    "master259Unchanged": true,
+    "handoff": "docs/NEXT_RUN_RECONCILED_20261019.md"
+  },
   "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "masterConversationId": "6ac9c216-df0c-83ea-ac8d-41f13f292693",
   "requirements": {
@@ -971,6 +1058,49 @@
       "status": "implemented_source_verified_runtime_pending",
       "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
       "scope": "Existing player axe forms3/5 tied to native boss wind/hit/recovery; native damage/throw/ward/reward logic retained. Rendered contact/laugh/opening appearance/full boss route and ordinary Save remain pending."
+    },
+    "stealthCover281": {
+      "id": "STEALTH-COVER-281",
+      "reportedAt": "2026-10-20",
+      "status": "prototype_published_current_candidate_ci_pending",
+      "priority": "high; user prioritizes existing enemy tents and reachable dungeon/cave/mine alcoves for stealth",
+      "scope": "Register real enemy camp tent cover and grant crouched cover only in clear, current one-exit dungeon/cave/mine cells away from chests, spawns, interactions, start and boss. Preserve LOS/hearing, combat, routes and 8-10 attackers.",
+      "localPrototype": {
+        "baseBuild": "279 preserved local candidate",
+        "focusedTests": {
+          "executed": 5,
+          "passed": 5,
+          "failed": 0
+        },
+        "workflowTests": {
+          "passed": 8,
+          "failed": 0
+        },
+        "lockCameraRegression": {
+          "passed": 60,
+          "failed": 0
+        },
+        "currentBuild280IntegratedLocally": false
+      },
+      "currentCandidate": {
+        "status": "queued for exact-280 GitHub build",
+        "priorBuildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+        "buildSha256": null
+      },
+      "acceptance": {
+        "ordinaryTentAndAlcovePlay": "pending",
+        "renderedOcclusionAndAISuspicion": "pending",
+        "offlinePauseSaveExactReload": "pending",
+        "masterReview": "pending"
+      },
+      "milestoneAcceptance": "none"
+    },
+    "latestUserDirection20261020": {
+      "workGoals": "All prior and latest user feedback remains in scope.",
+      "priority": "Dungeon/cave/mine tents and reachable alcoves for stealth; proceed through scheduled slots 1-16, aiming to clear 1-9 today.",
+      "targetHandling": "Target only; no current-hash, ordinary-play, visual, Save/reload, or Master gate is waived.",
+      "slots1to9": "Not cleared as a group; Build280 combined run incomplete and ordinary browser/Save gates remain open.",
+      "evidence": "docs/USER_FEEDBACK_STEALTH_20261020.md"
     }
   },
   "currentCandidate": {
@@ -1121,4 +1251,3 @@
     "acceptance": "not a release or milestone acceptance"
   }
 }
-
