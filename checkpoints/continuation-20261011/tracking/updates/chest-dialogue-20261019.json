@@ -1,0 +1,23 @@
+{
+ "id":"chest-dialogue-20261019",
+ "buildSha256":"35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7",
+ "bytes":38538080,
+ "file":"dist/Wine-Dark-Sea-Chest-Dialogue-278.html",
+ "milestoneIds":["M0","M2","M4"],
+ "requirementIds":["BASE-02","STORY-01","SITE-01","PICK-163"],
+ "summary":"277 current-room chest/tactile lock context and optional outdoor difficulty lookup;278 actual native dialogue choice button current-save/menu identity and once-only input",
+ "masterDelivery":{"status":"pending"},
+ "masterReview":{"status":"pending"},
+ "sourcePublication":{"status":"pending","pr":30,"branch":"checkpoint/reconciled-city-dungeon-20261019","expectedPriorHead":"2265380d15b42a74cacdd802f3164fb2ac38cfce","PR29HeadUnchanged":"8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+ "ci":{"status":"pending_source_publication"},
+ "localChecks":{"status":"passed","buildSha256":"35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7","passed":140,"failed":0,"newTests":14,"durationMs":294372.468347,"hashUnchanged":true,"evidence":"verification/chest278-focused-result.json","scope":"Scoped LOCAL actual native chest/dialogue/panel/tactile/guardian functions with controlled DOM/canvas/HUD/reward adapters, inherited loot/key/city/Three/workflow, exact rebuild/compile; NOT full1100 or ordinary mouse/browser/Save/render/Master"},
+ "runtime":{"status":"pending","ordinaryStartup":"pending","ordinaryOfflinePauseSaveExactReload":"pending","mainRoute":"pending","fourCities":"pending","oldSave":"pending","renderedQuality":"pending","LowEightTen":"pending","browser":"Fresh actual launch failed before gameplay:1234 headless-shell/full Chrome executable absent. No download retry."},
+ "package":{"zip":"dist/Wine-Dark-Sea-Chest-Dialogue-278.zip","zipSha256":"ef536920ced0a5a12885ba983bfe694c5df9c0938ea67bc21bde61c63770be91","bytes":27051453,"extractedGameIdentity":"passed","delivery":"HTML and ZIP saved successfully with local identity applied; user accessibility not tested"},
+ "keyInvestigation":"No bronze-key shortage reproduced in four native core layouts, each one inner door/cache. Ordinary treasure uses reusable area keys/picks, not G.keys; corrected initial commentary, no speculative new keys. Existing163 guard/pick sources retained, not duplicated.",
+ "milestoneAcceptance":"none",
+ "releaseGate":{"status":"blocked","reason":"Actual current-hash Master/M0–M5 evidence/GEAR-01/roster gates open; no gate changes"},
+ "slotsAdvanced":false,
+ "remainingEstimate":"unmeasured;120 allocations are not elapsed scheduled hours",
+ "next":"docs/NEXT_RUN_CHEST_DIALOGUE_20261019.md",
+ "retainedScope":"All120/M0–M5/every prior request retained; main/QOL/physical Bronze Age first, further8–10 performance/expanded Troy lower retained"
+}

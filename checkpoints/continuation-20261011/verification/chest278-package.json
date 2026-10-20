@@ -1,0 +1,12 @@
+{
+  "file": "dist/Wine-Dark-Sea-Chest-Dialogue-278.zip",
+  "sha256": "ef536920ced0a5a12885ba983bfe694c5df9c0938ea67bc21bde61c63770be91",
+  "bytes": 27051453,
+  "entries": [
+    "Wine-Dark-Sea-Chest-Dialogue-278.html",
+    "chest-dialogue-278-manifest.json"
+  ],
+  "buildSha256": "35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7",
+  "extractedIdentity": "passed",
+  "scope": "Exact two-entry archive; startup/browser decoding/user accessibility not tested"
+}
