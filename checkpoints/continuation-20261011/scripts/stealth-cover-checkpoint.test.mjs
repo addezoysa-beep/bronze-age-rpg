@@ -9,7 +9,7 @@ function world(){
  const open=(x,z)=>{DG.grid[z*DG.W+x]=0;};
  open(3,3);open(4,3); // three solid walls: one-exit alcove
  open(1,1);open(2,1);open(0,1); // ordinary corridor with two exits
- const c={P:{x:14,z:14,crouch:true},AREA:'mineA',DG,DGS:{mineA:DG},TS:4,COVER_PATCHES,atmosphereKind108:()=> 'mine',hyp:Math.hypot,heightAt:()=>5,stealthCover:()=>0,campTent(){c.tents=(c.tents||0)+1;return 'tent-mesh';},globalThis:null};
+ const c={P:{x:14,z:14,crouch:true},AREA:'mineA',DG,DGS:{mineA:DG},TS:4,COVER_PATCHES,atmosphereKind108:()=> 'mine',hyp:Math.hypot,heightAt:()=>5,stealthCover:()=>0,campTent(){c.tents=(c.tents||0)+1;return 'tent-mesh';},RIVAL_CAMP98:{status:'unbuilt'},async populate(){c.RIVAL_CAMP98.status='ready';c.RIVAL_CAMP98.x=100;c.RIVAL_CAMP98.z=100;},globalThis:null};
  c.globalThis=c;vm.createContext(c);vm.runInContext(stealthCoverPatch281,c);return{c,DG};
 }
 test('new checkpoint inserts only into the third offline script and compiles all three',()=>{
@@ -20,7 +20,7 @@ test('generated exact-280 descendant contains one live stealth wrapper',()=>{
  const file=new URL('../dist/Wine-Dark-Sea-Stealth-Cover-281.html',import.meta.url);
  if(!fs.existsSync(file))return;
  const html=fs.readFileSync(file,'utf8');
- assert.equal((html.match(/STEALTH_COVER_281: hide only in actual tent shadow or a clear dungeon recess\./g)||[]).length,1);
+ assert.equal((html.match(/STEALTH_COVER_281: hide only in actual enemy-tent shadow or a clear dungeon recess\./g)||[]).length,1);
  assert.match(html,/prior280Sha256/);
  assert.match(html,/function caveAlcoveCover281\(\)/);
  assert.match(html,/tentCoverSites281/);
@@ -33,6 +33,9 @@ test('alcove cover fails closed for wrong room, occupied objective, or invalid r
 });
 test('actual tent builders register one local concealment patch without adding collision geometry',()=>{
  const {c}=world();assert.equal(c.campTent({},40,40,0,1),'tent-mesh');assert.equal(c.COVER_PATCHES.length,1);assert.equal(c.COVER_PATCHES[0].kind,'tent281');assert.equal(c.stealthCover(),1);c.campTent({},40,40,0,1);assert.equal(c.COVER_PATCHES.length,1);
+});
+test('the actual rival steppe camp tent positions are registered after the camp populates',async()=>{
+ const {c}=world();await c.populate();assert.deepEqual([...c.tentCoverSites281.values()].map(q=>[q.x,q.z]),[[92,95],[107,104],[93,107]]);assert.equal(c.COVER_PATCHES.length,3);
 });
 test('tent/cave patch preserves underlying cover and returns a boolean-compatible value',()=>{
  const {c,DG}=world();c.COVER_PATCHES.push({x:14,z:14,r:2});assert.equal(c.stealthCover(),1);c.P.x=100;c.P.z=100;DG.chests.push({x:14,z:14});assert.equal(c.caveAlcoveCover281(),0);assert.equal(c.stealthCover(),0);
