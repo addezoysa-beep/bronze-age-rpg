@@ -30,13 +30,14 @@
     "currentPullRequest": 30,
     "startingHead": "d3da95188bb7517aea849ef6e69f5f3aa9f7bbda",
     "sourceCommits": ["ce115d8630348b77fdc36961e7b1aee9447706da", "15efe133bc854e4e2432bbc58eda6407f4d37725", "0f629f3249d1cb4e26fdc5a6157d01b8a7c393e8", "7c27eeb7821287c0e17a96a48a4fddbed4dd4b95", "b7db570c4ca841f5353338a5e6f33c1bb903db46", "980016ada1a8356302966daca8b96efbe9481b12", "534a0a4a7a5182ad4b04dd3de4ca2d8f41fab17", "cce84cf67791e93353b390511e1dbd1c2d3197f1", "8a23b5a9cffa7e57162321cf091abfdd85ba6574", "7895b5804df1420d534a86d27e8ca18f9c0292c6", "9a86014b00e56fec4c4ea5927f0dad60ad12f395"],
-    "latestObservedHead": "9a86014b00e56fec4c4ea5927f0dad60ad12f395",
+    "latestObservedHead": "3662e3b1290386b0357577f3dccdd2be9c0b3aab",
     "source280": "90fcbf1d1c0fd84b38ee45ef3c7c37a04aa9b93d",
     "candidate280": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
     "candidate280Bytes": 38539776,
     "candidate280CombinedRun": "137 completed passing entries, 0 recorded assertion failures, interrupted with exit 1 and no TAP footer; not a pass",
     "candidate280CI": "13 failed jobs without recorded steps/log URLs and 0 artifacts; no game/account cause established",
-    "firstStealthWorkflow": {"run":39448441153,"head":"9a86014b00e56fec4c4ea5927f0dad60ad12f395","status":"failure","jobs":1,"recordedSteps":0,"scopedJob":118716489963,"logs":"404 BlobNotFound","artifacts":0,"gameAssertionCauseEstablished":false}
+    "firstStealthWorkflow": {"run":39448441153,"head":"9a86014b00e56fec4c4ea5927f0dad60ad12f395","status":"failure","jobs":1,"recordedSteps":0,"scopedJob":118716489963,"logs":"404 BlobNotFound","artifacts":0,"gameAssertionCauseEstablished":false},
+    "secondStealthWorkflow": {"run":39448902594,"head":"3662e3b1290386b0357577f3dccdd2be9c0b3aab","status":"failure","jobs":1,"recordedSteps":0,"scopedJob":118718120435,"logs":"404 BlobNotFound","artifacts":0,"gameAssertionCauseEstablished":false,"rerunRequested":false}
   },
   "milestoneAcceptance": "none",
   "slotAcceptance": "none",
