@@ -1,9 +1,14 @@
 import { compileInlineScripts } from './workflow.mjs';
 
 export const stealthCoverPatch281 = String.raw`
-/* STEALTH_COVER_281: hide only in actual tent shadow or a clear dungeon recess. */
+/* STEALTH_COVER_281: hide only in actual enemy-tent shadow or a clear dungeon recess. */
 (function(){
  const tentCoverSites281=new Map();
+ function registerTentSite281(x,z){
+  if(!Number.isFinite(x+z)||typeof heightAt!=='function'||heightAt(x,z)<1)return null;
+  const key=Math.round(x*10)+':'+Math.round(z*10);if(tentCoverSites281.has(key))return tentCoverSites281.get(key);
+  const q={x,z,r:2.35,kind:'tent281'};tentCoverSites281.set(key,q);COVER_PATCHES.push(q);return q;
+ }
  function caveAlcoveCover281(){
   if(!P.crouch||AREA==='over'||!DG||DG!==DGS[AREA]||!['cave','mine','dungeon'].includes(atmosphereKind108(DG)))return 0;
   const step=typeof TS==='number'&&TS>0?TS:4,oz=DG.oz||0,x=Math.floor((P.x-DG.ox)/step),z=Math.floor((P.z-oz)/step);
@@ -22,17 +27,24 @@ export const stealthCoverPatch281 = String.raw`
  if(typeof campTent==='function'){
   const tent281Before=campTent;
   campTent=function(b,x,z,yaw,color){const r=tent281Before.apply(this,arguments);
-   if(Number.isFinite(x+z)&&heightAt(x,z)>=1){const key=Math.round(x*10)+':'+Math.round(z*10);if(!tentCoverSites281.has(key)){const q={x,z,r:2.35,kind:'tent281'};tentCoverSites281.set(key,q);COVER_PATCHES.push(q);}}
+   registerTentSite281(x,z);
    return r;
   };
  }
- Object.assign(globalThis,{tentCoverSites281,caveAlcoveCover281});
+ if(typeof populate==='function'){
+  const populate281Before=populate;
+  populate=async function(){const r=await populate281Before.apply(this,arguments),camp=globalThis.RIVAL_CAMP98;
+   if(camp?.status==='ready'&&Number.isFinite(camp.x+camp.z))for(const [dx,dz]of[[-8,-5],[7,4],[-7,7]])registerTentSite281(camp.x+dx,camp.z+dz);
+   return r;
+  };
+ }
+ Object.assign(globalThis,{tentCoverSites281,caveAlcoveCover281,registerTentSite281});
 })();
 `;
 
 export function applyStealthCoverCheckpoint281(input){
  const html=Buffer.isBuffer(input)?input.toString('utf8'):String(input);
- const marker='STEALTH_COVER_281: hide only in actual tent shadow or a clear dungeon recess.';
+ const marker='STEALTH_COVER_281: hide only in actual enemy-tent shadow or a clear dungeon recess.';
  if(html.includes(marker))throw new Error('Stealth cover checkpoint already applied');
  const matches=[...html.matchAll(/<script(?![^>]*\bsrc\s*=)[^>]*>([\s\S]*?)<\/script>/gi)];
  if(matches.length!==3)throw new Error('Expected exactly three embedded inline scripts');
