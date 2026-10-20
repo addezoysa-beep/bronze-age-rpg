@@ -1,0 +1,3 @@
+import crypto from 'node:crypto';import vm from 'node:vm';import {repairHarbourDetour} from './harbour-detour-patch.mjs';
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+export function assembleHarbourDetourCandidate(prior){if(hash(prior)!=='6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97')throw Error('Preserved279 identity changed');const output=Buffer.from(repairHarbourDetour(prior.toString('utf8'))),scripts=[...output.toString('utf8').matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/gi)];if(scripts.length!==3||scripts.some(m=>/src\s*=/.test(m[1])))throw Error('Offline script contract changed');for(const m of scripts)new vm.Script(m[2]);return output;}

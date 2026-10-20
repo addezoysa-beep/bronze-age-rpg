@@ -1,0 +1,8 @@
+{
+  "status": "running",
+  "buildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+  "tests": null,
+  "passed": null,
+  "completeFooter": false,
+  "scope": "Pending serial scoped checks, no acceptance"
+}

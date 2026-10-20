@@ -1,0 +1,10 @@
+{
+  "file": "Wine-Dark-Sea-Harbour-Detour-280.html",
+  "sha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+  "buildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+  "bytes": 38539776,
+  "prior279Sha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+  "inlineScripts": 3,
+  "acceptance": "pending",
+  "scope": "280 bounded incremental rescue-boat direct/detour planning and swept physical waypoint movement, original hull/ramp/people/horn/ownership/checkpoints retained. Ordinary startup/routes/pause Save/reload/render/Master pending"
+}
