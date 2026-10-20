@@ -8,12 +8,12 @@
     "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
     "scope": "Preserved local 279 only; latest remote PR30 candidate is Build280 and is not present in this workspace."
   },
-  "implementation": "Adds idempotent cover registration to the actual campTent builder and crouched cover only for clear, current, one-exit cave/mine/dungeon cells away from chests, spawns, interactions, starts and bosses. No geometry or collision is added. Builder for a descendant of exact remote Build280 is prepared but cannot be built locally without that source file.",
+  "implementation": "Adds idempotent cover registration to the actual campTent builder and actual populated rival-camp tent sites, plus crouched cover only for clear, current, one-exit cave/mine/dungeon cells away from chests, spawns, interactions, starts and bosses. No geometry or collision is added. Builder for a descendant of exact remote Build280 is prepared but cannot be built locally without that source file.",
   "localChecks": {
     "status": "passed",
-    "stealthFocused": {"passed": 5, "failed": 0},
+    "stealthFocused": {"executed": 7, "passed": 7, "failed": 0, "six behavior checks plus one candidate-composition check that was a no-op because exact280-derived candidate is not present locally"},
     "workflowFocused": {"passed": 8, "failed": 0},
-    "combinedFocused": {"passed": 13, "failed": 0, "exitCode": 0, "completeFooter": true},
+    "combinedFocused": {"passed": 15, "failed": 0, "exitCode": 0, "completeFooter": true},
     "lockCameraRegression": {"passed": 60, "failed": 0, "exitCode": 0},
     "inlineCompileOnPreserved279": "passed",
     "evidence": "Execution output for scripts/stealth-cover-checkpoint.test.mjs, scripts/workflow.test.mjs and scripts/lock-camera.test.mjs; no complete TAP evidence file was written."
@@ -29,11 +29,14 @@
   "remote": {
     "currentPullRequest": 30,
     "startingHead": "d3da95188bb7517aea849ef6e69f5f3aa9f7bbda",
+    "sourceCommits": ["ce115d8630348b77fdc36961e7b1aee9447706da", "15efe133bc854e4e2432bbc58eda6407f4d37725", "0f629f3249d1cb4e26fdc5a6157d01b8a7c393e8", "7c27eeb7821287c0e17a96a48a4fddbed4dd4b95", "b7db570c4ca841f5353338a5e6f33c1bb903db46", "980016ada1a8356302966daca8b96efbe9481b12", "534a0a4a7a5182ad4b04dd3de4ca2d8f41fab17", "cce84cf67791e93353b390511e1dbd1c2d3197f1", "8a23b5a9cffa7e57162321cf091abfdd85ba6574", "7895b5804df1420d534a86d27e8ca18f9c0292c6", "9a86014b00e56fec4c4ea5927f0dad60ad12f395"],
+    "latestObservedHead": "9a86014b00e56fec4c4ea5927f0dad60ad12f395",
     "source280": "90fcbf1d1c0fd84b38ee45ef3c7c37a04aa9b93d",
     "candidate280": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
     "candidate280Bytes": 38539776,
     "candidate280CombinedRun": "137 completed passing entries, 0 recorded assertion failures, interrupted with exit 1 and no TAP footer; not a pass",
-    "candidate280CI": "13 failed jobs without recorded steps/log URLs and 0 artifacts; no game/account cause established"
+    "candidate280CI": "13 failed jobs without recorded steps/log URLs and 0 artifacts; no game/account cause established",
+    "firstStealthWorkflow": {"run":39448441153,"head":"9a86014b00e56fec4c4ea5927f0dad60ad12f395","status":"failure","jobs":1,"recordedSteps":0,"scopedJob":118716489963,"logs":"404 BlobNotFound","artifacts":0,"gameAssertionCauseEstablished":false}
   },
   "milestoneAcceptance": "none",
   "slotAcceptance": "none",
