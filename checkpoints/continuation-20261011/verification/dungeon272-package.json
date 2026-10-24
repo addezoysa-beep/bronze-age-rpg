@@ -1,0 +1,20 @@
+{
+  "buildSha256":"1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+  "bytes":38530732,
+  "file":"Wine-Dark-Sea-Dungeon-Keys-272.html",
+  "zip":"Wine-Dark-Sea-Dungeon-Keys-272.zip",
+  "zipSha256":"f14c5e1c7b7e8a1883435af1cd3882b2dc348b217dc3ac5683cfe1d628db7975",
+  "zipBytes":27047471,
+  "zipEntries":["Wine-Dark-Sea-Dungeon-Keys-272.html","dungeon-keys-272-manifest.json"],
+  "threeInlineCompile":"passed",
+  "extractedGameIdentity":"passed",
+  "predecessor269Identity":"unchanged",
+  "sourcePublication":{"pr":30,"sourceCommit":"0bf2b216e36c02a71aead37c591b82ca6d0628c6","readbacks":22,"exactMatches":22,"draft":true,"merged":false},
+  "browser":{"runtimePackagePresent":true,"chromium1234Present":false,"downloadRetried":false},
+  "release":{"status":"blocked","cli":"Local canonical259 dist/current-build-manifest.json absent","directUnchangedReleaseErrors":"Rejects missing delivery/review, unaccepted M0–M5/current-hash evidence, GEAR-01 failure and unapproved faction roster; no waiver"},
+  "delivery":{"html":"saved","zip":"saved","userDownloadAccessibility":"not_tested","GithubGeneratedArtifact":"pending"},
+  "ordinaryOfflinePauseSaveExactReload":"pending",
+  "renderedAcceptance":"pending",
+  "masterReview":"pending",
+  "milestoneAcceptance":"none"
+}

@@ -1,0 +1,659 @@
+TAP version 13
+# Subtest: reproduce unguarded attachment completion granting thread into a replacement save
+ok 1 - reproduce unguarded attachment completion granting thread into a replacement save
+  ---
+  duration_ms: 6.893933
+  type: 'test'
+  ...
+# Subtest: actual Ariadne gift completes through native dialogue only once; no premature flags, items, XP or ownership grants
+ok 2 - actual Ariadne gift completes through native dialogue only once; no premature flags, items, XP or ownership grants
+  ---
+  duration_ms: 3.434814
+  type: 'test'
+  ...
+# Subtest: actual cancelled, unfinished or replaced dialogue cannot grant Ariadne thread or trigger native save
+ok 3 - actual cancelled, unfinished or replaced dialogue cannot grant Ariadne thread or trigger native save
+  ---
+  duration_ms: 7.762661
+  type: 'test'
+  ...
+# Subtest: native full-dialogue completion rechecks save/flags, actor, range, area, foot state and main prerequisites
+ok 4 - native full-dialogue completion rechecks save/flags, actor, range, area, foot state and main prerequisites
+  ---
+  duration_ms: 51.700403
+  type: 'test'
+  ...
+# Subtest: prerequisite redirect, restore rebinding, live coordinates and JSON old-save defaults retained
+ok 5 - prerequisite redirect, restore rebinding, live coordinates and JSON old-save defaults retained
+  ---
+  duration_ms: 4.351287
+  type: 'test'
+  ...
+# Subtest: newly opened Ariadne callbacks fail closed while paused, remote, mounted, dead or missing
+ok 6 - newly opened Ariadne callbacks fail closed while paused, remote, mounted, dead or missing
+  ---
+  duration_ms: 12.660566
+  type: 'test'
+  ...
+# Subtest: Ariadne transformation requires the actual appended actor and existing guard anchors
+ok 7 - Ariadne transformation requires the actual appended actor and existing guard anchors
+  ---
+  duration_ms: 0.752776
+  type: 'test'
+  ...
+# Subtest: master216–218 relic/storage objective takes precedence over the attachment proximity-only guide
+ok 8 - master216–218 relic/storage objective takes precedence over the attachment proximity-only guide
+  ---
+  duration_ms: 2.175603
+  type: 'test'
+  ...
+# Subtest: new Labyrinth wording does not point from inside the maze to its overworld entrance
+ok 9 - new Labyrinth wording does not point from inside the maze to its overworld entrance
+  ---
+  duration_ms: 1.550079
+  type: 'test'
+  ...
+# Subtest: Labyrinth guidance from another dungeon points at its actual exit and retains the descriptive task
+ok 10 - Labyrinth guidance from another dungeon points at its actual exit and retains the descriptive task
+  ---
+  duration_ms: 0.650101
+  type: 'test'
+  ...
+# Subtest: new inventor and Delphi wording follow real moved available NPCs rather than stale LOC
+ok 11 - new inventor and Delphi wording follow real moved available NPCs rather than stale LOC
+  ---
+  duration_ms: 1.6236
+  type: 'test'
+  ...
+# Subtest: Ariadne in overworld follows the living actual actor; missing/dead actor does not invent an outdoor marker
+ok 12 - Ariadne in overworld follows the living actual actor; missing/dead actor does not invent an outdoor marker
+  ---
+  duration_ms: 0.744504
+  type: 'test'
+  ...
+# Subtest: Ariadne guidance from interior uses actual exit and never moves player or grants thread
+ok 13 - Ariadne guidance from interior uses actual exit and never moves player or grants thread
+  ---
+  duration_ms: 0.563982
+  type: 'test'
+  ...
+# Subtest: unrelated objectives, including actual main ending and optional jobs, remain unchanged
+ok 14 - unrelated objectives, including actual main ending and optional jobs, remain unchanged
+  ---
+  duration_ms: 2.389506
+  type: 'test'
+  ...
+# Subtest: actual return-less native vertical wrapper previously skipped the entry key; registered-room lifecycle installs it
+ok 15 - actual return-less native vertical wrapper previously skipped the entry key; registered-room lifecycle installs it
+  ---
+  duration_ms: 4424.805579
+  type: 'test'
+  ...
+# Subtest: reproduce sanctuary crash and missing palace decoration under actual native vertical-wrapper return contract
+ok 16 - reproduce sanctuary crash and missing palace decoration under actual native vertical-wrapper return contract
+  ---
+  duration_ms: 225.988845
+  type: 'test'
+  ...
+# Subtest: registered-room fix builds four public halls and three new sanctuaries under the real native return-less wrapper
+ok 17 - registered-room fix builds four public halls and three new sanctuaries under the real native return-less wrapper
+  ---
+  duration_ms: 266.512126
+  type: 'test'
+  ...
+# Subtest: lifecycle transformation fails closed on missing or drifted wrapper anchors
+ok 18 - lifecycle transformation fails closed on missing or drifted wrapper anchors
+  ---
+  duration_ms: 0.222576
+  type: 'test'
+  ...
+# Subtest: reproduce native held door callback spending two keys remotely on the same door
+ok 19 - reproduce native held door callback spending two keys remotely on the same door
+  ---
+  duration_ms: 2190.589664
+  type: 'test'
+  ...
+# Subtest: physical cache loot opens the actual Pan/Knossos/Catacombs/fortress native door once and preserves its lowering collision
+ok 20 - physical cache loot opens the actual Pan/Knossos/Catacombs/fortress native door once and preserves its lowering collision
+  ---
+  duration_ms: 9865.474234
+  type: 'test'
+  ...
+# Subtest: held native door callbacks reject stale/wrong room, death, pause, mount, air, height and distance without consuming a key
+ok 21 - held native door callbacks reject stale/wrong room, death, pause, mount, air, height and distance without consuming a key
+  ---
+  duration_ms: 2293.745964
+  type: 'test'
+  ...
+# Subtest: live saved door ledger is used after replacing game data rather than the builder-captured ledger
+ok 22 - live saved door ledger is used after replacing game data rather than the builder-captured ledger
+  ---
+  duration_ms: 2173.009207
+  type: 'test'
+  ...
+# Subtest: missing, fractional or invalid key counts cannot unlock and invalid source anchors are rejected
+ok 23 - missing, fractional or invalid key counts cannot unlock and invalid source anchors are rejected
+  ---
+  duration_ms: 2160.819369
+  type: 'test'
+  ...
+# Subtest: exact272 rebuild preserves269 and rejects another predecessor
+ok 24 - exact272 rebuild preserves269 and rejects another predecessor
+  ---
+  duration_ms: 630.53023
+  type: 'test'
+  ...
+# Subtest: actual delivered272 has three compiling offline scripts, corrected native door action and registered-room access
+ok 25 - actual delivered272 has three compiling offline scripts, corrected native door action and registered-room access
+  ---
+  duration_ms: 65.940634
+  type: 'test'
+  ...
+# Subtest: reproduce late public-hall furnishings missing the earlier matte policy
+ok 26 - reproduce late public-hall furnishings missing the earlier matte policy
+  ---
+  duration_ms: 246.702057
+  type: 'test'
+  ...
+# Subtest: all four native public halls and three newer sanctuaries receive matte late props and actors under return-less native builds
+ok 27 - all four native public halls and three newer sanctuaries receive matte late props and actors under return-less native builds
+  ---
+  duration_ms: 244.7227
+  type: 'test'
+  ...
+# Subtest: native cached re-entry and repeated matte passes reuse material identities without adding meshes, actors or geometry
+ok 28 - native cached re-entry and repeated matte passes reuse material identities without adding meshes, actors or geometry
+  ---
+  duration_ms: 226.463501
+  type: 'test'
+  ...
+# Subtest: material arrays, colors, textures and intentional emissive/basic glow survive; originals and item metadata unchanged
+ok 29 - material arrays, colors, textures and intentional emissive/basic glow survive; originals and item metadata unchanged
+  ---
+  duration_ms: 217.646758
+  type: 'test'
+  ...
+# Subtest: native damage flash restores matte only on previously treated dungeon meshes, not outdoor actors
+ok 30 - native damage flash restores matte only on previously treated dungeon meshes, not outdoor actors
+  ---
+  duration_ms: 218.145418
+  type: 'test'
+  ...
+# Subtest: actual Pan and generated Knossos retain idempotent matte meshes across native cached re-entry
+ok 31 - actual Pan and generated Knossos retain idempotent matte meshes across native cached re-entry
+  ---
+  duration_ms: 4039.967766
+  type: 'test'
+  ...
+# Subtest: material transformation fails closed when source anchors change
+ok 32 - material transformation fails closed when source anchors change
+  ---
+  duration_ms: 0.573285
+  type: 'test'
+  ...
+# Subtest: exact274 rebuild preserves272 and rejects another predecessor
+ok 33 - exact274 rebuild preserves272 and rejects another predecessor
+  ---
+  duration_ms: 642.648948
+  type: 'test'
+  ...
+# Subtest: actual delivered274 preserves prior progression fixes and has three compiling offline scripts with final material/story wrappers
+ok 34 - actual delivered274 preserves prior progression fixes and has three compiling offline scripts with final material/story wrappers
+  ---
+  duration_ms: 123.271702
+  type: 'test'
+  ...
+# Subtest: reproduce actual native blanket-lock layer trapping the entry key inside its own locked chest
+ok 35 - reproduce actual native blanket-lock layer trapping the entry key inside its own locked chest
+  ---
+  duration_ms: 2310.646853
+  type: 'test'
+  ...
+# Subtest: actual Pan, generated Knossos maze, Catacombs and fortress caches open unlatched into normal loot without carried keys or picks
+ok 36 - actual Pan, generated Knossos maze, Catacombs and fortress caches open unlatched into normal loot without carried keys or picks
+  ---
+  duration_ms: 9609.028441
+  type: 'test'
+  ...
+# Subtest: unclaimed key survives reopening; claimed key cannot be recreated after JSON save data reconstruction
+ok 37 - unclaimed key survives reopening; claimed key cannot be recreated after JSON save data reconstruction
+  ---
+  duration_ms: 2037.580159
+  type: 'test'
+  ...
+# Subtest: ordinary locked treasure still requires an area key/pick; forged idx or copied cache object does not get the exception
+ok 38 - ordinary locked treasure still requires an area key/pick; forged idx or copied cache object does not get the exception
+  ---
+  duration_ms: 4323.118164
+  type: 'test'
+  ...
+# Subtest: registered cache rejects held callbacks in wrong/stale room, pause, death, mount, air or incorrect height
+ok 39 - registered cache rejects held callbacks in wrong/stale room, pause, death, mount, air or incorrect height
+  ---
+  duration_ms: 21572.634638
+  type: 'test'
+  ...
+# Subtest: native guardian and legendary reward locks are not bypassed by mutating the registered entrance cache
+ok 40 - native guardian and legendary reward locks are not bypassed by mutating the registered entrance cache
+  ---
+  duration_ms: 4478.902338
+  type: 'test'
+  ...
+# Subtest: entrance cache transformation refuses missing registration anchors
+ok 41 - entrance cache transformation refuses missing registration anchors
+  ---
+  duration_ms: 0.528568
+  type: 'test'
+  ...
+# Subtest: 257 actual native Pan field reproduces bilinear/mesh mismatch; final sampler matches the actual triangle ray hit
+ok 42 - 257 actual native Pan field reproduces bilinear/mesh mismatch; final sampler matches the actual triangle ray hit
+  ---
+  duration_ms: 1092.928283
+  type: 'test'
+  ...
+# Subtest: 257 real core floor meshes agree on both sides of each quad diagonal, including fractional/nonzero origins
+ok 43 - 257 real core floor meshes agree on both sides of each quad diagonal, including fractional/nonzero origins
+  ---
+  duration_ms: 4246.281217
+  type: 'test'
+  ...
+# Subtest: 257 exact vertices/bounds and missing terrain stay finite/native; no mesh/field/player/save mutation
+ok 44 - 257 exact vertices/bounds and missing terrain stay finite/native; no mesh/field/player/save mutation
+  ---
+  duration_ms: 984.281408
+  type: 'test'
+  ...
+# Subtest: 258 native player collision pushes reproduce buried crate; repair changes only Y to full-footprint support
+ok 45 - 258 native player collision pushes reproduce buried crate; repair changes only Y to full-footprint support
+  ---
+  duration_ms: 2001.123588
+  type: 'test'
+  ...
+# Subtest: 258 support covers corners, internal grid vertices and diagonal-edge intersections, not merely center height
+ok 46 - 258 support covers corners, internal grid vertices and diagonal-edge intersections, not merely center height
+  ---
+  duration_ms: 899.943293
+  type: 'test'
+  ...
+# Subtest: 258 actual Pan push-to-plate route still opens native group B without key/item/reward grants
+ok 47 - 258 actual Pan push-to-plate route still opens native group B without key/item/reward grants
+  ---
+  duration_ms: 1000.298677
+  type: 'test'
+  ...
+# Subtest: 258 snapshot/actual Continue restore crate support immediately, with exact player point and original serialized graph
+ok 48 - 258 snapshot/actual Continue restore crate support immediately, with exact player point and original serialized graph
+  ---
+  duration_ms: 2106.894173
+  type: 'test'
+  ...
+# Subtest: 258 stationary updates reuse support; changed terrain field/mesh versions recompute without adding objects
+ok 49 - 258 stationary updates reuse support; changed terrain field/mesh versions recompute without adding objects
+  ---
+  duration_ms: 1086.852875
+  type: 'test'
+  ...
+# Subtest: 258 flat/retired rooms and transformed custom crates are not moved; ordinary re-entry keeps native reset
+ok 50 - 258 flat/retired rooms and transformed custom crates are not moved; ordinary re-entry keeps native reset
+  ---
+  duration_ms: 953.403907
+  type: 'test'
+  ...
+# Subtest: 257 translated actual mesh and fractional X/Z origins keep the same triangle contact
+ok 51 - 257 translated actual mesh and fractional X/Z origins keep the same triangle contact
+  ---
+  duration_ms: 1065.49678
+  type: 'test'
+  ...
+# Subtest: 258 actual fresh native build/entry constructs natural floor then applies derived crate support, with no spawn/reward additions
+ok 52 - 258 actual fresh native build/entry constructs natural floor then applies derived crate support, with no spawn/reward additions
+  ---
+  duration_ms: 2250.883086
+  type: 'test'
+  ...
+# Subtest: 258 native manual21 Save with250–258 order captures exactly one checkpoint and cold Continue derives contact without another slot write
+ok 53 - 258 native manual21 Save with250–258 order captures exactly one checkpoint and cold Continue derives contact without another slot write
+  ---
+  duration_ms: 2340.631461
+  type: 'test'
+  ...
+# Subtest: key chest uses connected entry floor, not the nearest cell across a partition
+ok 54 - key chest uses connected entry floor, not the nearest cell across a partition
+  ---
+  duration_ms: 3.213078
+  type: 'test'
+  ...
+# Subtest: closed doors and actual prop/crate footprints are never crossed in key-source search
+ok 55 - closed doors and actual prop/crate footprints are never crossed in key-source search
+  ---
+  duration_ms: 2.24656
+  type: 'test'
+  ...
+# Subtest: flat and elevated terrain creates a grounded physical key chest without key grants, writes or duplicate objects
+ok 56 - flat and elevated terrain creates a grounded physical key chest without key grants, writes or duplicate objects
+  ---
+  duration_ms: 1.108914
+  type: 'test'
+  ...
+# Subtest: invalid, steep or wholly occupied entry area fails closed and can retry once a real location clears
+ok 57 - invalid, steep or wholly occupied entry area fails closed and can retry once a real location clears
+  ---
+  duration_ms: 1.686565
+  type: 'test'
+  ...
+# Subtest: native entrance key callback rejects stale room, distance, pause, dead or mounted actors
+ok 58 - native entrance key callback rejects stale room, distance, pause, dead or mounted actors
+  ---
+  duration_ms: 7.426577
+  type: 'test'
+  ...
+# Subtest: ordinary chest identity and old opened-state lid survive reconstruction without awarding replacement keys
+ok 59 - ordinary chest identity and old opened-state lid survive reconstruction without awarding replacement keys
+  ---
+  duration_ms: 1.20626
+  type: 'test'
+  ...
+# Subtest: native Pan terrain/collision grid yields a finite reachable entrance point before its locked door
+ok 60 - native Pan terrain/collision grid yields a finite reachable entrance point before its locked door
+  ---
+  duration_ms: 1085.499765
+  type: 'test'
+  ...
+# Subtest: unknown source boundaries fail closed
+ok 61 - unknown source boundaries fail closed
+  ---
+  duration_ms: 0.409859
+  type: 'test'
+  ...
+# Subtest: reproduce actual Ur city installation startup crash; reconciled full installer creates all three new summit routes
+ok 62 - reproduce actual Ur city installation startup crash; reconciled full installer creates all three new summit routes
+  ---
+  duration_ms: 6.354729
+  type: 'test'
+  ...
+# Subtest: Ur retains both original and added monument colliders on the live stair object
+ok 63 - Ur retains both original and added monument colliders on the live stair object
+  ---
+  duration_ms: 3.838722
+  type: 'test'
+  ...
+# Subtest: Ur/Uruk/Eridu every ascent sample has bounded rises and a summit matching the actual final terrace mesh
+ok 64 - Ur/Uruk/Eridu every ascent sample has bounded rises and a summit matching the actual final terrace mesh
+  ---
+  duration_ms: 8.535111
+  type: 'test'
+  ...
+# Subtest: stair softness never removes unrelated colliders and restores state on underlying failure
+ok 65 - stair softness never removes unrelated colliders and restores state on underlying failure
+  ---
+  duration_ms: 1.477299
+  type: 'test'
+  ...
+# Subtest: material city-source changes fail closed if construction anchors drift
+ok 66 - material city-source changes fail closed if construction anchors drift
+  ---
+  duration_ms: 0.297849
+  type: 'test'
+  ...
+# Subtest: native burial geometry reproduces wall-normal long axis before repair; all three actual Alashiya layouts use wall-tangent geometry after repair
+ok 67 - native burial geometry reproduces wall-normal long axis before repair; all three actual Alashiya layouts use wall-tangent geometry after repair
+  ---
+  duration_ms: 522.918306
+  type: 'test'
+  ...
+# Subtest: actual creation order adds burial first, then native floor; repaired tomb underside rests at full triangle support in all Alashiya variants
+ok 68 - actual creation order adds burial first, then native floor; repaired tomb underside rests at full triangle support in all Alashiya variants
+  ---
+  duration_ms: 1978.512105
+  type: 'test'
+  ...
+# Subtest: final articulated grave visual inherits floor support without modifying lid pose, X/Z, colliders or saved state
+ok 69 - final articulated grave visual inherits floor support without modifying lid pose, X/Z, colliders or saved state
+  ---
+  duration_ms: 655.702878
+  type: 'test'
+  ...
+# Subtest: reconciled266 compiles all three delivered offline scripts, retains the full master259 prefix and Bronze Age/Ariadne modules
+ok 70 - reconciled266 compiles all three delivered offline scripts, retains the full master259 prefix and Bronze Age/Ariadne modules
+  ---
+  duration_ms: 912.898524
+  type: 'test'
+  ...
+# Subtest: scribe indoors uses real house/known dungeon entrance, never an unverified indoor home
+ok 71 - scribe indoors uses real house/known dungeon entrance, never an unverified indoor home
+  ---
+  duration_ms: 3.842719
+  type: 'test'
+  ...
+# Subtest: horse/follower/owned and reusable-chest storage is located instead of fabricating duplicate relics
+ok 72 - horse/follower/owned and reusable-chest storage is located instead of fabricating duplicate relics
+  ---
+  duration_ms: 4.642075
+  type: 'test'
+  ...
+# Subtest: actual native relic-stone first claim grants one object and XP once; lost completed relic recovers physically at same stone without repeat XP or duplicates
+ok 73 - actual native relic-stone first claim grants one object and XP once; lost completed relic recovers physically at same stone without repeat XP or duplicates
+  ---
+  duration_ms: 2.144226
+  type: 'test'
+  ...
+# Subtest: recovery refuses missing lessons/dead/wrong area/distance/stale stone and never grants remotely or repairs inventory on read
+ok 74 - recovery refuses missing lessons/dead/wrong area/distance/stale stone and never grants remotely or repairs inventory on read
+  ---
+  duration_ms: 4.782156
+  type: 'test'
+  ...
+# Subtest: current-region writing lessons then actual stone are marked before fortress; missing item remains objective even if boss flag already set
+ok 75 - current-region writing lessons then actual stone are marked before fortress; missing item remains objective even if boss flag already set
+  ---
+  duration_ms: 1.152058
+  type: 'test'
+  ...
+# Subtest: Delphi discovery leads retained, early story and won game keep native objective; all four physical items and flags still required by native ward
+ok 76 - Delphi discovery leads retained, early story and won game keep native objective; all four physical items and flags still required by native ward
+  ---
+  duration_ms: 1.094682
+  type: 'test'
+  ...
+# Subtest: JSON old-save reload preserves player/story/literacy, recovery stays once-only; population rebinding does not wrap callbacks repeatedly
+ok 77 - JSON old-save reload preserves player/story/literacy, recovery stays once-only; population rebinding does not wrap callbacks repeatedly
+  ---
+  duration_ms: 1.325651
+  type: 'test'
+  ...
+# Subtest: all four built palaces have stable distinct rooms and a clear front portal, not just an exterior collider
+ok 78 - all four built palaces have stable distinct rooms and a clear front portal, not just an exterior collider
+  ---
+  duration_ms: 223.798509
+  type: 'test'
+  ...
+# Subtest: actual native entry, floor grid, public furnishings/NPCs, and exit work for each new hall
+ok 79 - actual native entry, floor grid, public furnishings/NPCs, and exit work for each new hall
+  ---
+  duration_ms: 212.702276
+  type: 'test'
+  ...
+# Subtest: new summit and hall callbacks reject remote, wrong-area, dead, mounted, airborne and stale room access
+ok 80 - new summit and hall callbacks reject remote, wrong-area, dead, mounted, airborne and stale room access
+  ---
+  duration_ms: 199.910496
+  type: 'test'
+  ...
+# Subtest: native entered hall is reused on return without duplicate actors, solids or rewards
+ok 81 - native entered hall is reused on return without duplicate actors, solids or rewards
+  ---
+  duration_ms: 203.438355
+  type: 'test'
+  ...
+# Subtest: occupied room origins and blocked palace doorway fail closed without overwriting saved definitions
+ok 82 - occupied room origins and blocked palace doorway fail closed without overwriting saved definitions
+  ---
+  duration_ms: 224.570669
+  type: 'test'
+  ...
+# Subtest: hall conversations use live actor coordinates and reject dead/hostile/stale-area callbacks
+ok 83 - hall conversations use live actor coordinates and reject dead/hostile/stale-area callbacks
+  ---
+  duration_ms: 215.377016
+  type: 'test'
+  ...
+# Subtest: native checkpoint backend preserves exact hall position and outdoor return point; no automatic save accepted
+ok 84 - native checkpoint backend preserves exact hall position and outdoor return point; no automatic save accepted
+  ---
+  duration_ms: 339.25639
+  type: 'test'
+  ...
+# Subtest: exact269 rebuild preserves267 and rejects another predecessor
+ok 85 - exact269 rebuild preserves267 and rejects another predecessor
+  ---
+  duration_ms: 1025.233924
+  type: 'test'
+  ...
+# Subtest: actual delivered269 compiles all three inline scripts and contains both independent checkpoint implementations
+ok 86 - actual delivered269 compiles all three inline scripts and contains both independent checkpoint implementations
+  ---
+  duration_ms: 78.000348
+  type: 'test'
+  ...
+# Subtest: actual old Ur palace overlaps a house-edge collider; new plot moves the full palace clear
+ok 87 - actual old Ur palace overlaps a house-edge collider; new plot moves the full palace clear
+  ---
+  duration_ms: 287.869549
+  type: 'test'
+  ...
+# Subtest: all four actual city installers build reserved palace and approach footprints inside their native walls
+ok 88 - all four actual city installers build reserved palace and approach footprints inside their native walls
+  ---
+  duration_ms: 135.032207
+  type: 'test'
+  ...
+# Subtest: palace and monument reservations precede native village placement; every new-city house stays inside the walls
+ok 89 - palace and monument reservations precede native village placement; every new-city house stays inside the walls
+  ---
+  duration_ms: 124.872215
+  type: 'test'
+  ...
+# Subtest: thin corner/side colliders and circular objects are rejected even when the plot center is unobstructed
+ok 90 - thin corner/side colliders and circular objects are rejected even when the plot center is unobstructed
+  ---
+  duration_ms: 227.792526
+  type: 'test'
+  ...
+# Subtest: invalid terrain or wholly occupied city refuses palace construction rather than overwriting a structure or crashing
+ok 91 - invalid terrain or wholly occupied city refuses palace construction rather than overwriting a structure or crashing
+  ---
+  duration_ms: 248.254443
+  type: 'test'
+  ...
+# Subtest: native occupation function is restored if village construction throws; repeat city install adds nothing
+ok 92 - native occupation function is restored if village construction throws; repeat city install adds nothing
+  ---
+  duration_ms: 123.777764
+  type: 'test'
+  ...
+# Subtest: city installation does not move the player or enter a room
+ok 93 - city installation does not move the player or enter a room
+  ---
+  duration_ms: 131.250521
+  type: 'test'
+  ...
+# Subtest: legacy native Ur/Dur villages and monument colliders retain free complete palace plots
+ok 94 - legacy native Ur/Dur villages and monument colliders retain free complete palace plots
+  ---
+  duration_ms: 125.320381
+  type: 'test'
+  ...
+# Subtest: Complete current-build evidence passes
+ok 95 - Complete current-build evidence passes
+  ---
+  duration_ms: 1.521646
+  type: 'test'
+  ...
+# Subtest: Pending master delivery and review cannot release
+ok 96 - Pending master delivery and review cannot release
+  ---
+  duration_ms: 0.738354
+  type: 'test'
+  ...
+# Subtest: Stale review and acceptance evidence cannot release
+ok 97 - Stale review and acceptance evidence cannot release
+  ---
+  duration_ms: 0.306212
+  type: 'test'
+  ...
+# Subtest: Unaccepted prerequisite blocks dependent milestone
+ok 98 - Unaccepted prerequisite blocks dependent milestone
+  ---
+  duration_ms: 0.199
+  type: 'test'
+  ...
+# Subtest: Failed tests and missing reports block release
+ok 99 - Failed tests and missing reports block release
+  ---
+  duration_ms: 0.38465
+  type: 'test'
+  ...
+# Subtest: Unapproved expanded faction roster blocks M3
+ok 100 - Unapproved expanded faction roster blocks M3
+  ---
+  duration_ms: 0.143657
+  type: 'test'
+  ...
+# Subtest: Dependency cycles and fabricated passed tests are rejected
+ok 101 - Dependency cycles and fabricated passed tests are rejected
+  ---
+  duration_ms: 0.18526
+  type: 'test'
+  ...
+# Subtest: Inline syntax errors and external script dependency are rejected
+ok 102 - Inline syntax errors and external script dependency are rejected
+  ---
+  duration_ms: 1.689599
+  type: 'test'
+  ...
+# Subtest: actual monument signature is resolved once across collision cells and stairs reach summit continuously
+ok 103 - actual monument signature is resolved once across collision cells and stairs reach summit continuously
+  ---
+  duration_ms: 2.776269
+  type: 'test'
+  ...
+# Subtest: only monument stair collision opens for an actor at stair height, other obstacles remain solid
+ok 104 - only monument stair collision opens for an actor at stair height, other obstacles remain solid
+  ---
+  duration_ms: 0.925967
+  type: 'test'
+  ...
+# Subtest: changed monument collision fails closed without duplicate geometry or invented access
+ok 105 - changed monument collision fails closed without duplicate geometry or invented access
+  ---
+  duration_ms: 0.525563
+  type: 'test'
+  ...
+# Subtest: ordinary doorway requires actual summit arrival, foot mode and live player
+ok 106 - ordinary doorway requires actual summit arrival, foot mode and live player
+  ---
+  duration_ms: 0.733557
+  type: 'test'
+  ...
+# Subtest: monument soft state restores even when underlying collision throws
+ok 107 - monument soft state restores even when underlying collision throws
+  ---
+  duration_ms: 0.998717
+  type: 'test'
+  ...
+# Subtest: sanctuary build adds offering furniture and two ordinary NPCs once, with an unobstructed existing exit
+ok 108 - sanctuary build adds offering furniture and two ordinary NPCs once, with an unobstructed existing exit
+  ---
+  duration_ms: 1.717322
+  type: 'test'
+  ...
+1..108
+# tests 108
+# suites 0
+# pass 108
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 111457.968478
+

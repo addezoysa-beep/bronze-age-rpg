@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import { spawnSync } from 'node:child_process';
+const root=new URL('../',import.meta.url),file=new URL('../dist/Wine-Dark-Sea-Stealth-Cover-281.html',import.meta.url),before=crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const run=spawnSync(process.execPath,['--test','--test-reporter=tap','scripts/stealth-cover-checkpoint.test.mjs','scripts/workflow.test.mjs'],{cwd:new URL('../',import.meta.url),encoding:'utf8',timeout:30000});
+const after=crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+if(run.stdout)process.stdout.write(run.stdout);if(run.stderr)process.stderr.write(run.stderr);
+if(run.error||run.status!==0||after!==before)throw new Error('Stealth-cover checkpoint tests failed or candidate bytes changed');
+const m=JSON.parse(fs.readFileSync(new URL('../dist/stealth-cover-281-manifest.json',import.meta.url),'utf8'));
+if(m.buildSha256!==before||m.bytes!==fs.statSync(file).size||m.prior280Sha256!=='e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638')throw new Error('Stealth-cover candidate identity mismatch');
+console.log(JSON.stringify({buildSha256:before,bytes:m.bytes,tests:'passed',hashUnchanged:true,ordinaryGameplay:'pending',renderedAcceptance:'pending',saveReload:'pending',masterReview:'pending'}));

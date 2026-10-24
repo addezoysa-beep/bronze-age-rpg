@@ -1,0 +1,21 @@
+{
+  "id":"dungeon-keys-20261019",
+  "buildSha256":"1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+  "bytes":38530732,
+  "file":"dist/Wine-Dark-Sea-Dungeon-Keys-272.html",
+  "milestoneIds":["M0","M4","M5"],
+  "requirementIds":["BASE-02","STORY-01","SITE-01","EGYPT-01"],
+  "summary":"270 actual registered entrance key cache is unlatched;271 current-context once-only native door key spend;272 use registered rooms instead of assuming native builder return values",
+  "masterDelivery":{"status":"delivered","evidence":"Private draft PR30 source0bf2b216e36c02a71aead37c591b82ca6d0628c6;22 exact source/evidence readbacks; update and downloads reported in the current Master Development workstream"},
+  "masterReview":{"status":"pending"},
+  "sourcePublication":{"status":"delivered","sourceCommit":"0bf2b216e36c02a71aead37c591b82ca6d0628c6","exactReadbacks":22,"pr":30,"draft":true,"merged":false,"branch":"checkpoint/reconciled-city-dungeon-20261019","expectedPriorHead":"1960ed8f4260ee97fc37c8d1c5f1a5f6b3bb2e8c","PR29HeadUnchanged":"8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+  "ci":{"status":"failed_no_recorded_steps","sourceCommit":"0bf2b216e36c02a71aead37c591b82ca6d0628c6","evidence":"verification/dungeon272-ci.json","gameAssertionFailureEstablished":false,"generatedArtifacts":0},
+  "localChecks":{"status":"passed","buildSha256":"1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822","passed":92,"failed":0,"newTests":18,"durationMs":106263.485229,"hashUnchanged":true,"evidence":"verification/dungeon272-focused-result.json","scope":"Scoped LOCAL native terrain/Three/return-less build/physical loot/Take-all/door actions/JSON fixtures plus inherited components; NOT full1100 or ordinary browser/pause Save/exact reload/render/Master"},
+  "runtime":{"status":"pending","ordinaryStartup":"pending","ordinaryOfflinePauseSaveExactReload":"pending","mainRoute":"pending","fourCities":"pending","oldSave":"pending","renderedQuality":"pending","LowEightTen":"pending","browser":"actual runtime Playwright present; Chromium1234 absent; no failed download retry"},
+  "package":{"zip":"dist/Wine-Dark-Sea-Dungeon-Keys-272.zip","zipSha256":"f14c5e1c7b7e8a1883435af1cd3882b2dc348b217dc3ac5683cfe1d628db7975","bytes":27047471,"extractedGameIdentity":"passed","delivery":"HTML and ZIP saved; user accessibility not tested"},
+  "milestoneAcceptance":"none",
+  "slotsAdvanced":false,
+  "remainingEstimate":"unmeasured;120 allocations are not elapsed scheduled hours",
+  "next":"docs/NEXT_RUN_DUNGEON_KEYS_20261019.md",
+  "retainedScope":"All120/M0–M5/every earlier request retained; main/QOL/physical Bronze Age first, further8–10 performance/expanded Troy lower retained"
+}

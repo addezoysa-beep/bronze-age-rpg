@@ -1,0 +1,12 @@
+{
+  "file": "dist/Wine-Dark-Sea-Loot-276.zip",
+  "sha256": "56fa15611972691bd286cf6d3de9122d404ce858691642c2ff0cefe714023f8f",
+  "bytes": 27049270,
+  "entries": [
+    "Wine-Dark-Sea-Loot-276.html",
+    "loot-276-manifest.json"
+  ],
+  "buildSha256": "536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa",
+  "extractedIdentity": "passed",
+  "scope": "Exact two-entry archive; startup/browser decoding/user accessibility not tested"
+}

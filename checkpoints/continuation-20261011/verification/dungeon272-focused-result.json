@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "buildSha256": "1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "tests": 92,
+  "passed": 92,
+  "failed": 0,
+  "newTests": 18,
+  "durationMs": 106263.485229,
+  "completeFooter": true,
+  "files": [
+    "scripts/entrance-key-cache.test.mjs",
+    "scripts/dungeon-door-transactions.test.mjs",
+    "scripts/dungeon-build-access.test.mjs",
+    "scripts/dungeon-keys-candidate.test.mjs",
+    "scripts/river-city-placement.test.mjs",
+    "scripts/river-city-access.test.mjs",
+    "scripts/river-city-candidate.test.mjs",
+    "scripts/reconciled-city-dungeon.test.mjs",
+    "scripts/reachable-dungeon-key.test.mjs",
+    "scripts/campaign-reconciliation.test.mjs",
+    "scripts/puzzle-terrain-contact.test.mjs",
+    "scripts/workflow.test.mjs",
+    "scripts/ziggurat-access.test.mjs",
+    "scripts/relic-recovery-guidance.test.mjs"
+  ],
+  "scope": "Scoped LOCAL native terrain/grid/Three builders, real return-less vertical wrapper, native chest/loot/Take-all/door actions with controlled HUD/menu/actors, JSON data and delivered compile/rebuild plus inherited components. NOT full1100, ordinary browser/mouse/pause Save/exact reload/render/Low8–10/Master acceptance."
+}

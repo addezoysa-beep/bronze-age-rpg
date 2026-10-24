@@ -1,5 +1,100 @@
 {
   "schemaVersion": 1,
+  "harbourDetourCandidate280": {
+    "status": "implemented_verification_incomplete_review_pending",
+    "file": "dist/Wine-Dark-Sea-Harbour-Detour-280.html",
+    "buildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+    "bytes": 38539776,
+    "scopedLocalChecks": {
+      "completedPassingEntries": 137,
+      "recordedAssertionFailures": 0,
+      "completeFooter": false,
+      "exitCode": 1,
+      "status": "incomplete_interrupted",
+      "evidence": "verification/harbour280-focused-result.json"
+    },
+    "newTests": 10,
+    "milestoneAcceptance": "none",
+    "predecessor279Unchanged": true,
+    "handoff": "docs/NEXT_RUN_HARBOUR_DETOUR_20261020.md",
+    "updated48ActiveHours": "docs/UPDATED_48_ACTIVE_HOURS_20261020.md"
+  },
+  "dialogueInputCandidate279": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Dialogue-Input-279.html",
+    "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+    "bytes": 38538798,
+    "scopedLocalChecks": 148,
+    "newTests": 8,
+    "milestoneAcceptance": "none",
+    "predecessor278Unchanged": true,
+    "handoff": "docs/NEXT_RUN_DIALOGUE_INPUT_20261020.md"
+  },
+  "chestDialogueCandidate278": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Chest-Dialogue-278.html",
+    "buildSha256": "35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7",
+    "bytes": 38538080,
+    "scopedLocalChecks": 140,
+    "newTests": 14,
+    "milestoneAcceptance": "none",
+    "predecessor276Unchanged": true,
+    "handoff": "docs/NEXT_RUN_CHEST_DIALOGUE_20261019.md"
+  },
+  "lootCandidate276": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Loot-276.html",
+    "buildSha256": "536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa",
+    "bytes": 38535982,
+    "scopedLocalChecks": 126,
+    "newTests": 18,
+    "milestoneAcceptance": "none",
+    "predecessor274Unchanged": true,
+    "handoff": "docs/NEXT_RUN_LOOT_20261019.md"
+  },
+  "dungeonStoryCandidate274": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Dungeon-Story-274.html",
+    "buildSha256": "5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975",
+    "bytes": 38533046,
+    "scopedLocalChecks": 108,
+    "newTests": 16,
+    "milestoneAcceptance": "none",
+    "predecessor272Unchanged": true,
+    "handoff": "docs/NEXT_RUN_DUNGEON_STORY_20261019.md"
+  },
+  "dungeonKeysCandidate272": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Dungeon-Keys-272.html",
+    "buildSha256": "1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+    "bytes": 38530732,
+    "scopedLocalChecks": 92,
+    "newTests": 18,
+    "milestoneAcceptance": "none",
+    "predecessor269Unchanged": true,
+    "handoff": "docs/NEXT_RUN_DUNGEON_KEYS_20261019.md"
+  },
+  "riverCityCandidate269": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-River-Cities-269.html",
+    "buildSha256": "1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77",
+    "bytes": 38528935,
+    "scopedLocalChecks": 74,
+    "newTests": 17,
+    "milestoneAcceptance": "none",
+    "predecessor267Unchanged": true,
+    "handoff": "docs/NEXT_RUN_RIVER_CITIES_20261019.md"
+  },
+  "reconciliationCandidate": {
+    "status": "implemented_review_pending",
+    "file": "dist/Wine-Dark-Sea-Reconciled-267.html",
+    "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+    "bytes": 38521435,
+    "scopedLocalChecks": 57,
+    "milestoneAcceptance": "none",
+    "master259Unchanged": true,
+    "handoff": "docs/NEXT_RUN_RECONCILED_20261019.md"
+  },
   "baselineSha256": "14e1907fe630e0d8062a29fb9a58087e46888a0c31198f563842cacb0efbe177",
   "masterConversationId": "6ac9c216-df0c-83ea-ac8d-41f13f292693",
   "requirements": {
@@ -602,6 +697,59 @@
         "evidence": "verification/smith235-focused-tap.txt",
         "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
       }
+    },
+    "explorationModes20261021": {
+      "status": "confirmed_by_user_pending_source_recovery",
+      "modeContract": {
+        "story": "Preserve existing main quest and ordinary progression.",
+        "exploration": "Same world/systems, main quest disabled; different greeting guide grants silver and directs paid passage to Crete, then travel to Egypt, then carriage to Mesopotamia/Ur.",
+        "persistence": "Durable mode state, old-save Story migration, New/Continue and ordinary Save/reload compatibility."
+      },
+      "teaching": "Evidence-first scenes: invite inspection/comparison of visible city walls, density, monuments/art/inventions, religion/ritual, rulers/law/protection, social strata and visible writing/record keeping before explaining.",
+      "sharedContent": "All new assets and NPC rigs appear in both Story and Exploration; distinguish Cretan, Egyptian, Mesopotamian, Achaean, steppe and other regional boundaries/docks.",
+      "ordered20Checkpoints": [
+        "Repair white-bed underground geometry on fresh and streamed worlds.",
+        "Verify current Build 298 startup, New and Continue in both modes.",
+        "Complete paid Crete to Egypt to Ur route and stop states.",
+        "Make regional docks legible for Cretan, Egyptian, Mesopotamian, Achaean, steppe and other regions.",
+        "Complete evidence-first scenes, journal and Exploration main-quest isolation.",
+        "Verify new assets and NPC rigs are shared by both modes.",
+        "Improve home/palace furnishings, stairs, beds and gardens.",
+        "Expand amphorae.",
+        "Add herder/nomad sleeping alcoves.",
+        "Complete stealth tents, concealed chests and level-scaled loot.",
+        "Replace targeted underground ambient lighting with torches.",
+        "Slow Revenant Archer draws and implement Revenant gear effects.",
+        "Add specified bone equipment and remove physically impossible flint shield/helmet/bow/sword items.",
+        "Produce and verify two builds from the same accepted content: Story+Exploration and classic Story-only."
+      ],
+      "acceptance": "Every checkpoint needs code, focused tests and required exact-build evidence. Live browser, both-mode, rendered and ordinary Save/exact reload checks remain pending where not run. No milestone accepted.",
+      "currentWorkspace": "The latest reported local candidate is Build 317 R9, but its exact source is not present in this workspace, Library search, or PR #30. PR #30 remains a separate Build 280 draft and is not treated as R9."
+    },
+    "worldLifeAndTrojanFeedback20261022": {
+      "status": "confirmed_by_user_pending_implementation",
+      "raidsAndCities": [
+        "Regional wall archers defend during raids; wallwalks are traversable so the player can join defense.",
+        "Add meaningful Bronze Age activities inside Mesopotamian city walls.",
+        "Persist one allegiance check across soldiers so only the first guard questions the player."
+      ],
+      "trojanCampaign": [
+        "Audit/complete stage-by-stage main quest with distinct dialogue, actions, cutscenes and bosses.",
+        "Give Odysseus, Agamemnon, Achilles, Hector, Paris, Menelaus and Helen character-specific dialogue, distinct meshes/equipment as appropriate, and progression scenes.",
+        "Complete Cyclops encounter, both Trojan War resolution branches, and a full Trojan Horse mesh that the player witnesses being moved through an actual action.",
+        "Permit approaching Troy's walls for a guard's entry decision, consistently with other walled regions."
+      ],
+      "seaAndCombat": [
+        "Preserve and extend blue water visuals; improve shark meshes.",
+        "Implement finite spear throwing, impact/embed and recoverable pickup.",
+        "Fix reported weapon duplication when picking up/equipping and using a particular weapon."
+      ],
+      "worldLifeAndAssets": [
+        "Integrate the requested additional soundtracks and shared player/NPC work-action rigs.",
+        "Improve day/night quality, NPC pathfinding, regional house/palace/temple/cave/mine/dungeon assets, horse population and region-appropriate ibex/antelope/other fauna.",
+        "Ensure animal bone drops, coherent meshes for assets, consistent item names/categories, complete equipment rosters, and stronger weather effects/ambience."
+      ],
+      "acceptance": "All remain pending until inspected and tested on an exact candidate. City raid defense, wall traversal, complete Trojan quest scenes, spear recovery, duplicate-item regression, rendered/audio evidence, ordinary Save/reload and M0–M5 review are not inferred from definitions or patch tests."
     }
   },
   "milestones": [
@@ -963,6 +1111,80 @@
       "status": "implemented_source_verified_runtime_pending",
       "buildSha256": "e35c8be12c95877b585832e699bbd049d855ac377ca64f3dc54df819a40d03c5",
       "scope": "Existing player axe forms3/5 tied to native boss wind/hit/recovery; native damage/throw/ward/reward logic retained. Rendered contact/laugh/opening appearance/full boss route and ordinary Save remain pending."
+    },
+    "stealthCover281": {
+      "id": "STEALTH-COVER-281",
+      "reportedAt": "2026-10-20",
+      "status": "prototype_published_current_candidate_CI_incomplete",
+      "priority": "high; user prioritizes existing enemy tents and reachable dungeon/cave/mine alcoves for stealth",
+      "scope": "Register real enemy camp tent cover and grant crouched cover only in clear, current one-exit dungeon/cave/mine cells away from chests, spawns, interactions, start and boss. Preserve LOS/hearing, combat, routes and 8-10 attackers.",
+      "localPrototype": {
+        "baseBuild": "279 preserved local candidate",
+        "behaviorTests": {
+          "totalExecuted": 7,
+          "behaviorExecuted": 5,
+          "behaviorPassed": 5,
+          "failed": 0,
+          "offlineScriptCompile": "passed against preserved279",
+          "candidateCompositionCheck": "conditional no-op; exact280 descendant absent locally"
+        },
+        "candidateCompositionCheck": "conditional check was a no-op; exact280 descendant not present locally",
+        "workflowTests": {
+          "passed": 8,
+          "failed": 0
+        },
+        "lockCameraRegression": {
+          "passed": 60,
+          "failed": 0
+        },
+        "currentBuild280IntegratedLocally": false
+      },
+      "currentCandidate": {
+        "status": "CI retry pending after 281 script fix",
+        "priorBuildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+        "buildSha256": null
+      },
+      "acceptance": {
+        "ordinaryTentAndAlcovePlay": "pending",
+        "renderedOcclusionAndAISuspicion": "pending",
+        "offlinePauseSaveExactReload": "pending",
+        "masterReview": "pending"
+      },
+      "milestoneAcceptance": "none",
+      "firstWorkflow": {
+        "run": 39448441153,
+        "head": "9a86014b00e56fec4c4ea5927f0dad60ad12f395",
+        "status": "failure_no_recorded_steps",
+        "jobId": 118716489963,
+        "logs": "404 BlobNotFound",
+        "artifacts": 0,
+        "gameAssertionCauseEstablished": false
+      },
+      "pending": [
+        "run exact280-derived 281 build on current PR source",
+        "inspect a recorded CI failure or artifact before claiming build",
+        "ordinary tent/alcove/AI test",
+        "rendered occlusion and FP/TP",
+        "offline pause Save/exact reload",
+        "current-hash Master review"
+      ],
+      "latestWorkflow": {
+        "run": 39448902594,
+        "head": "3662e3b1290386b0357577f3dccdd2be9c0b3aab",
+        "status": "failure_no_recorded_steps",
+        "jobId": 118718120435,
+        "logs": "404 BlobNotFound",
+        "artifacts": 0,
+        "gameAssertionCauseEstablished": false,
+        "rerunRequested": false
+      }
+    },
+    "latestUserDirection20261020": {
+      "workGoals": "All prior and latest user feedback remains in scope.",
+      "priority": "Dungeon/cave/mine tents and reachable alcoves for stealth; proceed through scheduled slots 1-16, aiming to clear 1-9 today.",
+      "targetHandling": "Target only; no current-hash, ordinary-play, visual, Save/reload, or Master gate is waived.",
+      "slots1to9": "Not cleared; Build280 combined run incomplete; two stealth workflows failed without steps/logs/artifacts; ordinary browser/Save gates open.",
+      "evidence": "docs/USER_FEEDBACK_STEALTH_20261020.md"
     }
   },
   "currentCandidate": {
@@ -1111,5 +1333,11 @@
     "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
     "evidence": "tracking/updates/generated-release-input-20261018.json",
     "acceptance": "not a release or milestone acceptance"
+  },
+  "latestUserFeedback": {
+    "source": "checkpoints/continuation-20261011/docs/USER_FEEDBACK_EXPLORATION_WORLD_20261021_22.md",
+    "reportedOn": "2026-10-21/22",
+    "sourceCandidate": "The latest reported local candidate is Build 317 R9, but its exact source is not present in this workspace, Library search, or PR #30. PR #30 remains a separate Build 280 draft and is not treated as R9.",
+    "milestoneAcceptance": "none"
   }
 }

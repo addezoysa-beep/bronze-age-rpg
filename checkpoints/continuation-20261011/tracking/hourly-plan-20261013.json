@@ -1,5 +1,186 @@
 {
   "schemaVersion": 2,
+  "harbourDetourCandidate280": {
+    "buildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+    "status": "implemented_verification_incomplete_review_pending",
+    "scopedLocalChecks": {
+      "completedPassingEntries": 137,
+      "recordedAssertionFailures": 0,
+      "completeFooter": false,
+      "exitCode": 1,
+      "status": "incomplete_interrupted"
+    },
+    "newTests": 10,
+    "completedImplementation": [
+      "bounded incremental original-hull detour planning",
+      "16-probe planning budget including rejected candidates",
+      "swept physical waypoint recall and final saved yaw"
+    ],
+    "requiredPending": [
+      "isolate interrupted river-city-access and remaining combined checks",
+      "ordinary startup/pause Save/exact reload",
+      "populated main/rescue/four-city/dungeon/old-save routes",
+      "render/Master review",
+      "missing/sunken/replacement hull recovery",
+      "actual263 workstation arrival/shared-action contact repair"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "remainingEstimate": "unmeasured; active allocations not elapsed scheduled hours",
+    "handoff": "docs/NEXT_RUN_HARBOUR_DETOUR_20261020.md",
+    "updated48ActiveHours": "docs/UPDATED_48_ACTIVE_HOURS_20261020.md"
+  },
+  "dialogueInputCandidate279": {
+    "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 148,
+    "newTests": 8,
+    "completedImplementation": [
+      "shared native keyboard/numpad/mouse transaction",
+      "current-save/menu/choice/action and once-only selection",
+      "editing focus avoids shortcuts and queued input leakage"
+    ],
+    "requiredPending": [
+      "custom cinematic dispatch",
+      "full regression",
+      "ordinary startup/pause Save/exact reload",
+      "populated main/four-city/dungeon/cold old-save routes",
+      "render/Master review",
+      "durable download delivery after access403"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "remainingEstimate": "unmeasured; not elapsed scheduled hours",
+    "handoff": "docs/NEXT_RUN_DIALOGUE_INPUT_20261020.md"
+  },
+  "chestDialogueCandidate278": {
+    "buildSha256": "35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 140,
+    "newTests": 14,
+    "completedImplementation": [
+      "interior current-room chest and tactile lock transactions",
+      "optional outdoor lock difficulty metadata without giant chest crash",
+      "native choice-button current-save/menu and one-shot input"
+    ],
+    "requiredPending": [
+      "keyboard/cinematic dispatch",
+      "full regression",
+      "ordinary startup/pause Save/exact reload",
+      "populated main/four-city/dungeon/cold old-save routes",
+      "render/Master review"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "remainingEstimate": "unmeasured; not elapsed scheduled hours",
+    "handoff": "docs/NEXT_RUN_CHEST_DIALOGUE_20261019.md"
+  },
+  "lootCandidate276": {
+    "buildSha256": "536bdc1865b3a6e7c6b308576f40ee2846438e39e9ff7f37d36bee09753d7dfa",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 126,
+    "newTests": 18,
+    "completedImplementation": [
+      "native world-loot current-save/source/room/menu/range guards",
+      "native chest transfer and Take-all stale-context refusal",
+      "exact source key quantities without equipment/flag grants"
+    ],
+    "requiredPending": [
+      "full regression",
+      "ordinary startup/pause Save/exact reload",
+      "populated main/four-city/dungeon/cold old-save routes",
+      "finite jar/enemy/later-door key budget",
+      "render/Master review"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "remainingEstimate": "unmeasured; not elapsed scheduled hours",
+    "handoff": "docs/NEXT_RUN_LOOT_20261019.md"
+  },
+  "dungeonStoryCandidate274": {
+    "buildSha256": "5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 108,
+    "newTests": 16,
+    "completedImplementation": [
+      "final native build matte policy for late props/actors",
+      "idempotent material clones and scoped flash restoration",
+      "actual Ariadne thread completion through current-save/story/actor guard"
+    ],
+    "requiredPending": [
+      "full regression",
+      "ordinary startup/pause Save/exact reload",
+      "populated main/four-city/dungeon/cold old-save routes",
+      "render/Master review"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "remainingEstimate": "unmeasured; not elapsed scheduled hours",
+    "handoff": "docs/NEXT_RUN_DUNGEON_STORY_20261019.md"
+  },
+  "dungeonKeysCandidate272": {
+    "buildSha256": "1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 92,
+    "newTests": 18,
+    "completedImplementation": [
+      "unlatched registered physical entry key cache",
+      "current-context once-only native door key spend/live saved ledger",
+      "registered-room lookup for return-less native build lifecycle"
+    ],
+    "requiredPending": [
+      "full regression",
+      "ordinary startup/pause Save/exact reload",
+      "populated main/four-city/dungeon/cold old-save routes",
+      "render/Master review"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "remainingEstimate": "unmeasured; not elapsed scheduled hours",
+    "handoff": "docs/NEXT_RUN_DUNGEON_KEYS_20261019.md"
+  },
+  "riverCityCandidate269": {
+    "buildSha256": "1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 74,
+    "newTests": 17,
+    "completedImplementation": [
+      "full-footprint palace plots/reserved approaches",
+      "new-city house bounds/monument reservations",
+      "four public palace halls/native exits",
+      "live summit/palace entry/dialogue guards"
+    ],
+    "requiredPending": [
+      "full regression",
+      "ordinary startup/pause Save/exact reload",
+      "rendered four-city/cold old-save routes",
+      "Master review"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true,
+    "handoff": "docs/NEXT_RUN_RIVER_CITIES_20261019.md"
+  },
+  "reconciliationCandidate20261019": {
+    "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+    "status": "implemented_review_pending",
+    "scopedLocalChecks": 57,
+    "completedImplementation": [
+      "source reconciliation",
+      "city startup/ascent",
+      "burial orientation/support",
+      "entry-connected key source",
+      "quest area routing"
+    ],
+    "requiredPending": [
+      "full regression",
+      "ordinary browser startup",
+      "pause Save/exact-position reload",
+      "four-city and decorated-dungeon walkthrough",
+      "Master review"
+    ],
+    "slotsAdvanced": false,
+    "allPriorScopeRetained": true
+  },
   "updatedAt": "2026-10-18T22:13:00Z",
   "timezone": "America/New_York",
   "title": "Updated120-active-hour remaining work allocation",
@@ -3002,5 +3183,24 @@
     "evidence": "tracking/updates/checkpoint-restore-safety-20261018.json",
     "ordinaryAcceptance": "pending",
     "scope": "LOCAL actual native checkpoint21/base Continue/snapshot/manual Save/psave/F5 and actual150/222 compositions with prepared actor/DOM/storage fixtures, plus existing source/native/Three/workflow/compile/package suite. NOT ordinary mouse/browser, populated geography/nav, render/animation/audio/reference FPS, offline pause-menu Save/exact-position reload or Master acceptance."
+  },
+  "latestUserDirection20261020": {
+    "workGoals": "Keep every prior and latest playtesting item as an active goal.",
+    "priority": "Enemy tents and reachable dungeon/cave/mine alcoves for stealth; continue scheduled slots1-16, target slots1-9 today.",
+    "targetHandling": "Do not waive exact-hash, ordinary runtime, rendered, offline manual Save/exact-reload or Master gates.",
+    "slots1to9": {
+      "1": "PR30 Build280 identified; combined local run incomplete at137 passing entries, no footer, exit1. Stealth281 patch published separately; exact-280 workflow evidence unavailable.",
+      "2": "blocked: local Playwright import ERR_MODULE_NOT_FOUND; two current stealth workflows failed before recorded steps, scoped logs404 and zero artifacts.",
+      "3": "FP/TP bow damage/release remains pending current-hash ordinary mouse verification.",
+      "4": "Distant-arrow direction/search draft remains separate; tent/alcove cover does not complete it.",
+      "5": "Lock-on source coverage exists; ordinary current-hash acquisition/cycle/release remains pending.",
+      "6": "Hand/grip visual acceptance remains pending.",
+      "7": "Tactile lock source tests do not establish current-hash ordinary interaction.",
+      "8": "Cinematic Phocas/Lykos lesson route and required successful exercise remain pending ordinary play.",
+      "9": "Opening/Pan physical tablet/Daedalus source coverage exists on prior hashes; current-hash full route and manual Save/reload remain pending.",
+      "clearance": "not cleared as a group"
+    },
+    "stealthRequirement": "STEALTH-COVER-281 is recorded in tracking/milestones.json and docs/USER_FEEDBACK_STEALTH_20261020.md. Local 279 prototype tests pass; no exact281 current candidate artifact is available.",
+    "milestoneAcceptance": "none"
   }
 }

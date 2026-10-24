@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "buildSha256": "1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "tests": 74,
+  "passed": 74,
+  "failed": 0,
+  "newTests": 17,
+  "durationMs": 31341.752842,
+  "completeFooter": true,
+  "files": [
+    "scripts/river-city-placement.test.mjs",
+    "scripts/river-city-access.test.mjs",
+    "scripts/river-city-candidate.test.mjs",
+    "scripts/reconciled-city-dungeon.test.mjs",
+    "scripts/reachable-dungeon-key.test.mjs",
+    "scripts/campaign-reconciliation.test.mjs",
+    "scripts/puzzle-terrain-contact.test.mjs",
+    "scripts/workflow.test.mjs",
+    "scripts/ziggurat-access.test.mjs",
+    "scripts/relic-recovery-guidance.test.mjs"
+  ],
+  "scope": "Scoped LOCAL native city/village/Three geometry, collision, room entry/exit, controlled callback and checkpoint backend checks plus inherited267 component tests. Not full1100 suite, rendered/browser ordinary inputs or pause Save/reload acceptance, Low8–10 measurement or Master review."
+}

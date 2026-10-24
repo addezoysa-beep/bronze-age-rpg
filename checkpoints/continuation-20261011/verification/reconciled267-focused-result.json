@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "buildSha256": "1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+  "hashUnchanged": true,
+  "exitCode": 0,
+  "tests": 57,
+  "passed": 57,
+  "failed": 0,
+  "durationMs": 41046.136085,
+  "completeFooter": true,
+  "files": [
+    "scripts/reconciled-city-dungeon.test.mjs",
+    "scripts/reachable-dungeon-key.test.mjs",
+    "scripts/campaign-reconciliation.test.mjs",
+    "scripts/puzzle-terrain-contact.test.mjs",
+    "scripts/workflow.test.mjs",
+    "scripts/ziggurat-access.test.mjs",
+    "scripts/relic-recovery-guidance.test.mjs"
+  ],
+  "scope": "Scoped LOCAL native code, Three geometry/collision/terrain, controlled callbacks, workflow and inline-compile checks. Not full1100 regression, ordinary browser/Save/rendered gameplay or milestone acceptance."
+}

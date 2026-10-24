@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import { applyStealthCoverCheckpoint281 } from './stealth-cover-checkpoint.mjs';
+const root=new URL('../',import.meta.url),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+await import('./build-harbour-detour-candidate.mjs');
+const prior=fs.readFileSync(new URL('dist/Wine-Dark-Sea-Harbour-Detour-280.html',root));
+const expected='e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638';
+if(hash(prior)!==expected)throw new Error('Stealth checkpoint requires the exact remote Build280 predecessor');
+const output=applyStealthCoverCheckpoint281(prior),file='Wine-Dark-Sea-Stealth-Cover-281.html';
+fs.writeFileSync(new URL('dist/'+file,root),output);
+const manifest={file,sha256:hash(output),buildSha256:hash(output),bytes:output.length,prior280Sha256:hash(prior),inlineScripts:3,acceptance:'pending',scope:'281 actual hostile tent cover registration plus crouched one-exit dungeon/cave/mine alcove concealment; ordinary tent/alcove/AI/render/Save/reload/Master acceptance pending'};
+fs.writeFileSync(new URL('dist/stealth-cover-281-manifest.json',root),JSON.stringify(manifest,null,2)+'\n');
+console.log(JSON.stringify(manifest));

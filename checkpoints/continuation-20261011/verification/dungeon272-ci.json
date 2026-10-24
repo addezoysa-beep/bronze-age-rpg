@@ -1,0 +1,151 @@
+{
+  "buildSha256": "1ed345ed4e84affbd7c1c1c590adca5d9619168b5773cc63b47c665731ab1822",
+  "sourceCommit": "0bf2b216e36c02a71aead37c591b82ca6d0628c6",
+  "status": "failed_no_recorded_steps",
+  "runs": [
+    {
+      "runId": 39218385151,
+      "jobs": [
+        {
+          "id": 117947576898,
+          "name": "scoped-candidate",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385151,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577121,
+          "name": "ordinary-browser",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385151,
+          "logs_url": null,
+          "steps": null
+        }
+      ]
+    },
+    {
+      "runId": 39218385066,
+      "jobs": [
+        {
+          "id": 117947576814,
+          "name": "Offline browser smoke",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385066,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577093,
+          "name": "Repository checks",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385066,
+          "logs_url": null,
+          "steps": null
+        }
+      ]
+    },
+    {
+      "runId": 39218385167,
+      "jobs": [
+        {
+          "id": 117947576634,
+          "name": "verify-checkpoint",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947576958,
+          "name": "browser-checkpoint (tavern)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947576970,
+          "name": "browser-checkpoint (arrow)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577023,
+          "name": "browser-checkpoint (lock)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577095,
+          "name": "browser-checkpoint (remedy)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577106,
+          "name": "browser-checkpoint (grip)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577130,
+          "name": "browser-checkpoint (pan)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577143,
+          "name": "browser-checkpoint (loadperf)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117947577155,
+          "name": "browser-checkpoint (travel)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39218385167,
+          "logs_url": null,
+          "steps": null
+        }
+      ]
+    }
+  ],
+  "artifacts": [],
+  "scopedLog": {
+    "error": "GitHub API error 404: ﻿<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:87dae884-501e-008b-0d9e-5fe350000000\nTime:2026-10-19T07:49:44.8668121Z</Message></Error>",
+    "error_code": "NOT_FOUND",
+    "error_data": {
+      "error_str": "GitHub API error 404: ﻿<?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:87dae884-501e-008b-0d9e-5fe350000000\nTime:2026-10-19T07:49:44.8668121Z</Message></Error>"
+    }
+  },
+  "gameAssertionFailureEstablished": false,
+  "accountOrBillingCauseEstablished": false,
+  "ordinaryGameplayAcceptance": "pending",
+  "noRerunRequested": true
+}

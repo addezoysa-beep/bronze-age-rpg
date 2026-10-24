@@ -1,0 +1,143 @@
+{
+  "sourceCommit": "09cca763f88b5ff33d7a506c4d6171af5e0aad07",
+  "status": "failed_no_recorded_steps",
+  "scopedJobLog": {"job":117987173705,"status":"unavailable","error":"404 BlobNotFound"},
+  "runs": [
+    {
+      "run": 39230547080,
+      "jobs": [
+        {
+          "id": 117987173705,
+          "name": "scoped-candidate",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547080,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174186,
+          "name": "ordinary-browser",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547080,
+          "logs_url": null,
+          "steps": null
+        }
+      ]
+    },
+    {
+      "run": 39230547082,
+      "jobs": [
+        {
+          "id": 117987173732,
+          "name": "verify-checkpoint",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987173996,
+          "name": "browser-checkpoint (lock)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174019,
+          "name": "browser-checkpoint (loadperf)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174139,
+          "name": "browser-checkpoint (arrow)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174204,
+          "name": "browser-checkpoint (remedy)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174216,
+          "name": "browser-checkpoint (tavern)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174228,
+          "name": "browser-checkpoint (pan)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174249,
+          "name": "browser-checkpoint (grip)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174315,
+          "name": "browser-checkpoint (travel)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547082,
+          "logs_url": null,
+          "steps": null
+        }
+      ]
+    },
+    {
+      "run": 39230547104,
+      "jobs": [
+        {
+          "id": 117987174603,
+          "name": "Offline browser smoke",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547104,
+          "logs_url": null,
+          "steps": null
+        },
+        {
+          "id": 117987174958,
+          "name": "Repository checks",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_id": 39230547104,
+          "logs_url": null,
+          "steps": null
+        }
+      ]
+    }
+  ],
+  "scopedArtifacts": [],
+  "gameAssertionFailureEstablished": false,
+  "browserAcceptance": false,
+  "noRerunRequested": true
+}

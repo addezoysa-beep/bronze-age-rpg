@@ -1,0 +1,12 @@
+{
+  "file": "dist/Wine-Dark-Sea-Harbour-Detour-280.zip",
+  "sha256": "0d5ae02e6a8992a55bf3e7ca30cf589cb2eadd4b752e03d27243608d5a04b657",
+  "bytes": 27052165,
+  "entries": [
+    "Wine-Dark-Sea-Harbour-Detour-280.html",
+    "harbour-detour-280-manifest.json"
+  ],
+  "buildSha256": "e5d43f3b5f6bac8bf16fb32677818e056a50be1e89f224ba63eb217fa1f14638",
+  "extractedIdentity": "passed",
+  "scope": "Exact two-entry archive; startup/browser decoding/user accessibility not tested"
+}

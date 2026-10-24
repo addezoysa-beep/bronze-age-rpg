@@ -1,0 +1,10 @@
+{
+  "file": "Wine-Dark-Sea-Dialogue-Input-279.html",
+  "sha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+  "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+  "bytes": 38538798,
+  "prior278Sha256": "35c7690ed3e27c04512f2b1dc79e4ea9222d4fc7154c5a0cec0cff041eeb8ac7",
+  "inlineScripts": 3,
+  "acceptance": "pending",
+  "scope": "279 shared current-menu choice transaction for native mouse/number/numpad input, preserved callback receiver/order, focused field shortcut and queued-key safety. Ordinary startup/routes/pause Save/reload/render/Master pending"
+}

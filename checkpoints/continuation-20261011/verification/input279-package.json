@@ -1,0 +1,12 @@
+{
+  "file": "dist/Wine-Dark-Sea-Dialogue-Input-279.zip",
+  "sha256": "b55b72c08133f6484e915c62b4898d18868ef3eb638b0488d775dd74be8f17ad",
+  "bytes": 27051744,
+  "entries": [
+    "Wine-Dark-Sea-Dialogue-Input-279.html",
+    "dialogue-input-279-manifest.json"
+  ],
+  "buildSha256": "6a26a5cdd19f9c194210ca0c07155defa9142e121bf5978842824582bba10b97",
+  "extractedIdentity": "passed",
+  "scope": "Exact two-entry archive; startup/browser decoding/user accessibility not tested"
+}

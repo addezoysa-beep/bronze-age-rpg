@@ -1,0 +1,14 @@
+{
+  "buildSha256":"1acd66041941e98abe23471cdfb28571350ac7503983677981635d92200af2b1",
+  "bytes":38521435,
+  "gameFile":"Wine-Dark-Sea-Reconciled-267.html",
+  "zipFile":"Wine-Dark-Sea-Reconciled-267.zip",
+  "zipSha256":"dcb9361e922f5cd32c92e245c331bfb03270658fc122c03ef79db7e9a13ef013",
+  "zipEntries":["Wine-Dark-Sea-Reconciled-267.html","reconciled-267-manifest.json"],
+  "checks":{"threeInlineScripts":"passed","archiveContents":"passed","extractedGameHashIdentity":"passed","ordinaryStartup":"pending","ordinaryOfflinePauseSaveExactReload":"pending","userDownloadAccessibility":"not_tested","full1100Suite":"not_run_on267"},
+  "browserLaunch":{"status":"blocked","method":"actual import of installed runtime Playwright and chromium.launch({headless:true})","reason":"Executable does not exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell","noInstallRetry":true},
+  "release":{"status":"blocked","cli":"Missing local dist/current-build-manifest.json, not a passed release check","unchangedReleaseErrors":"Direct unchanged releaseErrors on267 rejects pending review, all unaccepted M0–M5, missing/stale evidence, failed GEAR-01 and unapproved faction roster; no waiver"},
+  "sourcePublication":{"pr":30,"sourceCommit":"05171c565c657b71e872ed0a68c70d216c80769d","readbacks":19,"exactMatches":19,"draft":true,"merged":false,"basePR29HeadUnchanged":"8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+  "delivery":{"standaloneHtml":"saved","zip":"saved","immutableGithubGeneratedArtifact":"pending CI execution; not a source-link substitute"},
+  "milestoneAcceptance":"none"
+}

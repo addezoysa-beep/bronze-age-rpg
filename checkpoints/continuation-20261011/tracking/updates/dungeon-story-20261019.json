@@ -1,0 +1,22 @@
+{
+ "id":"dungeon-story-20261019",
+ "buildSha256":"5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975",
+ "bytes":38533046,
+ "file":"dist/Wine-Dark-Sea-Dungeon-Story-274.html",
+ "milestoneIds":["M0","M4","M5"],
+ "requirementIds":["BASE-02","STORY-01","SITE-01","EGYPT-01"],
+ "summary":"273 final dungeon matte material lifecycle, idempotent clones and scoped flash restoration;274 actual Ariadne thread gift through existing current-save/story/actor and native completion guard",
+ "masterDelivery":{"status":"delivered","evidence":"Private draft PR30 source09cca763f88b5ff33d7a506c4d6171af5e0aad07;18 exact source/tracker/evidence readbacks and published progress reported in this Master Development workstream"},
+ "masterReview":{"status":"pending"},
+ "sourcePublication":{"status":"delivered","sourceCommit":"09cca763f88b5ff33d7a506c4d6171af5e0aad07","exactReadbacks":18,"pr":30,"draft":true,"merged":false,"branch":"checkpoint/reconciled-city-dungeon-20261019","expectedPriorHead":"9de9bb60975971c38e40650c47472db85510c5f7","PR29HeadUnchanged":"8ae3baf1d6023ab517a542d74ff5c47f85574411"},
+ "ci":{"status":"failed_no_recorded_steps","sourceCommit":"09cca763f88b5ff33d7a506c4d6171af5e0aad07","evidence":"verification/dungeon274-ci.json","jobs":13,"scopedLog":"404 BlobNotFound","gameAssertionFailureEstablished":false,"generatedArtifacts":0,"noRerunRequested":true},
+ "localChecks":{"status":"passed","buildSha256":"5838fa869a37ba398be252d69ed06559f0f54c78e28be58578a46ce76777e975","passed":108,"failed":0,"newTests":16,"durationMs":111457.968478,"hashUnchanged":true,"evidence":"verification/dungeon274-focused-result.json","scope":"Scoped LOCAL native Three/room/material/flash/dialogue/JSON plus inherited components and exact rebuild/compile; NOT full1100 or ordinary browser/pause Save/exact reload/render/Master"},
+ "runtime":{"status":"pending","ordinaryStartup":"pending","ordinaryOfflinePauseSaveExactReload":"pending","mainRoute":"pending","fourCities":"pending","oldSave":"pending","renderedQuality":"pending","LowEightTen":"pending","browser":"Fresh actual chromium.launch blocked before gameplay:1234 headless-shell missing; full Chromium1234 missing. No download retry."},
+ "package":{"zip":"dist/Wine-Dark-Sea-Dungeon-Story-274.zip","zipSha256":"568e6dfb6d3648ec9350b8416762610dd2c76cb52dbc14abe96b43e2e2287546","bytes":27048469,"extractedGameIdentity":"passed","delivery":"HTML and ZIP saved successfully; user accessibility not tested"},
+ "milestoneAcceptance":"none",
+ "releaseGate":{"status":"blocked","cli":"Unchanged CLI cannot load absent canonical259 current-build manifest","directReleaseErrors":"Missing passed current-hash Master review and M0–M5 acceptance/evidence, GEAR-01 failed and expanded faction roster unapproved; no gate changes"},
+ "slotsAdvanced":false,
+ "remainingEstimate":"unmeasured;120 allocations are not elapsed scheduled hours",
+ "next":"docs/NEXT_RUN_DUNGEON_STORY_20261019.md",
+ "retainedScope":"All120/M0–M5/every earlier request retained; main/QOL/physical Bronze Age first, further8–10 performance/expanded Troy lower retained"
+}

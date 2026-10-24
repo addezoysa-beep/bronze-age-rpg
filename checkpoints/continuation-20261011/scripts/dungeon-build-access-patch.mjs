@@ -1,0 +1,5 @@
+// Native2397's vertical wrapper returns undefined. The registered DGS room is
+// authoritative; the newly attached wrappers must not assume a return value.
+export function repairCacheBuild272(source){const a='buildDungeon=function(id){const dg=buildDungeon262(id);ensureDungeonKey262(dg);';if(source.split(a).length!==2)throw Error('Cache build lifecycle anchor changed');return source.replace(a,'buildDungeon=function(id){const result272=buildDungeon262(id),dg=DGS[id];if(!dg)return result272;ensureDungeonKey262(dg);');}
+export function repairRiverBuild272(source){const a="buildDungeon=function(id){const dg=build264Before(id);decorateRiverHall269(id,dg);";if(source.split(a).length!==2)throw Error('City build lifecycle anchor changed');return source.replace(a,"buildDungeon=function(id){const result272=build264Before(id),dg=DGS[id];if(!dg)return result272;decorateRiverHall269(id,dg);");}
+export function repairDungeonBuildAccess(source){return repairRiverBuild272(repairCacheBuild272(source));}

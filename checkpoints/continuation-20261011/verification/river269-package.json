@@ -1,0 +1,18 @@
+{
+  "buildSha256":"1d12bb6ca7ec07056cbe7837523426fb985959edbd7a5c1724578ee848b8eb77",
+  "bytes":38528935,
+  "file":"Wine-Dark-Sea-River-Cities-269.html",
+  "zip":"Wine-Dark-Sea-River-Cities-269.zip",
+  "zipSha256":"88d208aff1514a218ab464332d3db2cf62051762f520bcfe030908693829e75d",
+  "zipBytes":27046805,
+  "zipEntries":["Wine-Dark-Sea-River-Cities-269.html","river-cities-269-manifest.json"],
+  "threeInlineCompile":"passed",
+  "extractedGameIdentity":"passed",
+  "predecessor267Identity":"unchanged",
+  "sourcePublication":{"pr":30,"sourceCommit":"d96bfc238d25c117b9d2bd47530375fdb560b973","readbacks":18,"exactMatches":18,"draft":true,"merged":false},
+  "delivery":{"html":"saved","zip":"saved","userDownloadAccessibility":"not_tested","GithubGeneratedArtifact":"pending"},
+  "ordinaryOfflinePauseSaveExactReload":"pending",
+  "renderedAcceptance":"pending",
+  "masterReview":"pending",
+  "milestoneAcceptance":"none"
+}
