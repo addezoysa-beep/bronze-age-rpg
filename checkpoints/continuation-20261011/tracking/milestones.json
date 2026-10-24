@@ -697,6 +697,59 @@
         "evidence": "verification/smith235-focused-tap.txt",
         "scope": "Full LOCAL source/native smith dialogue/buttons, actual recipe/work timer/furnace/bench contracts, original order maturation/collection and base snapshot/Continue/checkpoint21 plus embedded Three/JSON/workflow/compile/package; NOT ordinary mouse/browser/offline pause Save/render/audio/reference FPS/Master acceptance."
       }
+    },
+    "explorationModes20261021": {
+      "status": "confirmed_by_user_pending_source_recovery",
+      "modeContract": {
+        "story": "Preserve existing main quest and ordinary progression.",
+        "exploration": "Same world/systems, main quest disabled; different greeting guide grants silver and directs paid passage to Crete, then travel to Egypt, then carriage to Mesopotamia/Ur.",
+        "persistence": "Durable mode state, old-save Story migration, New/Continue and ordinary Save/reload compatibility."
+      },
+      "teaching": "Evidence-first scenes: invite inspection/comparison of visible city walls, density, monuments/art/inventions, religion/ritual, rulers/law/protection, social strata and visible writing/record keeping before explaining.",
+      "sharedContent": "All new assets and NPC rigs appear in both Story and Exploration; distinguish Cretan, Egyptian, Mesopotamian, Achaean, steppe and other regional boundaries/docks.",
+      "ordered20Checkpoints": [
+        "Repair white-bed underground geometry on fresh and streamed worlds.",
+        "Verify current Build 298 startup, New and Continue in both modes.",
+        "Complete paid Crete to Egypt to Ur route and stop states.",
+        "Make regional docks legible for Cretan, Egyptian, Mesopotamian, Achaean, steppe and other regions.",
+        "Complete evidence-first scenes, journal and Exploration main-quest isolation.",
+        "Verify new assets and NPC rigs are shared by both modes.",
+        "Improve home/palace furnishings, stairs, beds and gardens.",
+        "Expand amphorae.",
+        "Add herder/nomad sleeping alcoves.",
+        "Complete stealth tents, concealed chests and level-scaled loot.",
+        "Replace targeted underground ambient lighting with torches.",
+        "Slow Revenant Archer draws and implement Revenant gear effects.",
+        "Add specified bone equipment and remove physically impossible flint shield/helmet/bow/sword items.",
+        "Produce and verify two builds from the same accepted content: Story+Exploration and classic Story-only."
+      ],
+      "acceptance": "Every checkpoint needs code, focused tests and required exact-build evidence. Live browser, both-mode, rendered and ordinary Save/exact reload checks remain pending where not run. No milestone accepted.",
+      "currentWorkspace": "The latest reported local candidate is Build 317 R9, but its exact source is not present in this workspace, Library search, or PR #30. PR #30 remains a separate Build 280 draft and is not treated as R9."
+    },
+    "worldLifeAndTrojanFeedback20261022": {
+      "status": "confirmed_by_user_pending_implementation",
+      "raidsAndCities": [
+        "Regional wall archers defend during raids; wallwalks are traversable so the player can join defense.",
+        "Add meaningful Bronze Age activities inside Mesopotamian city walls.",
+        "Persist one allegiance check across soldiers so only the first guard questions the player."
+      ],
+      "trojanCampaign": [
+        "Audit/complete stage-by-stage main quest with distinct dialogue, actions, cutscenes and bosses.",
+        "Give Odysseus, Agamemnon, Achilles, Hector, Paris, Menelaus and Helen character-specific dialogue, distinct meshes/equipment as appropriate, and progression scenes.",
+        "Complete Cyclops encounter, both Trojan War resolution branches, and a full Trojan Horse mesh that the player witnesses being moved through an actual action.",
+        "Permit approaching Troy's walls for a guard's entry decision, consistently with other walled regions."
+      ],
+      "seaAndCombat": [
+        "Preserve and extend blue water visuals; improve shark meshes.",
+        "Implement finite spear throwing, impact/embed and recoverable pickup.",
+        "Fix reported weapon duplication when picking up/equipping and using a particular weapon."
+      ],
+      "worldLifeAndAssets": [
+        "Integrate the requested additional soundtracks and shared player/NPC work-action rigs.",
+        "Improve day/night quality, NPC pathfinding, regional house/palace/temple/cave/mine/dungeon assets, horse population and region-appropriate ibex/antelope/other fauna.",
+        "Ensure animal bone drops, coherent meshes for assets, consistent item names/categories, complete equipment rosters, and stronger weather effects/ambience."
+      ],
+      "acceptance": "All remain pending until inspected and tested on an exact candidate. City raid defense, wall traversal, complete Trojan quest scenes, spear recovery, duplicate-item regression, rendered/audio evidence, ordinary Save/reload and M0–M5 review are not inferred from definitions or patch tests."
     }
   },
   "milestones": [
@@ -1280,5 +1333,11 @@
     "buildSha256": "d7d791a19731c731e1cb3cb98c83c9d7699263ce899bddfe7c3c38413ac60f32",
     "evidence": "tracking/updates/generated-release-input-20261018.json",
     "acceptance": "not a release or milestone acceptance"
+  },
+  "latestUserFeedback": {
+    "source": "checkpoints/continuation-20261011/docs/USER_FEEDBACK_EXPLORATION_WORLD_20261021_22.md",
+    "reportedOn": "2026-10-21/22",
+    "sourceCandidate": "The latest reported local candidate is Build 317 R9, but its exact source is not present in this workspace, Library search, or PR #30. PR #30 remains a separate Build 280 draft and is not treated as R9.",
+    "milestoneAcceptance": "none"
   }
 }
